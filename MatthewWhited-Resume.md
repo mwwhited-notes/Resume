@@ -190,7 +190,67 @@ Developed an audit and trade history database for the internal broker dealer org
 #### Accomplishments
 * ASP.Net Website powered by SQL 2005 database server. Data binding and custom server/user controls were used to simplify the design and maintenance of the website.
 
-## Person Development
+### Senior Software Engineer - The Dot Net Factory, Contract for TEKsystems (August 2007 - April 2008)
+
+Designed and programmed bi-directional adapters between EmpowerID and external systems. Also provided network design and application support.
+
+#### Accomplishments
+* Created custom user, group, and resource management interfaces between EmpowerID and external systems such as NTFS, Windows Shares, Sharepoint, ODBC, Linux/Unix, Active Directory, E-Directory and several others
+* Designed and build custom TCP/IP socket tunnel over WCF. This allowed protocol bridging between install points without a VPN connection.
+
+### Software Engineer - 3SG Corporation (August 2006 - August 2007)
+
+Primary duties entailed developing software and databases to support production scanning projects. Some of these applications included inventory control, production workflow management, data reconciliation and customization of existing image viewer software.
+
+#### Accomplishments
+* Replaced existing inventory controls to include unique barcodes to increase accuracy and performance of production scanning and data entry teams. Inventory/barcode tool used custom XSLT templates to allow for easy modification to barcode scan sheets.
+* Improved performance of image conversion processes by creating multi-threaded and multi-node services. Other features added to the conversion process included user interfaces to allow computer support staff and production teams to monitor and maintain processes without development intervention.
+* Supplemented existing enterprise imaging software (TurboScan) by designing and implementing external systems that could interact with the proprietary system.
+* Web based reporting tools were developed for quality assurance team. These tools increased accuracy and productivity by allowing scanned documents to be monitored and tracked from receiving to return shipment.
+* Secondary duties included helping IT support teams as needed mainly by configuring routers, firewalls, and VPNs.
+
+### Systems Engineer - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)
+
+Designed and managed wide area network for use by students and staff of the school district. Developed databases, scripts, tools and applications to improve productivity for computer support department.
+
+#### Accomplishments
+* Developed two generations of a Helpdesk Ticketing System. First generation was written using PHP, MySQL, RADIUS authentication, and LPR print queues. Second generation was ASP with MSDE, modular authentication, and raw network printing. These ticketing systems allowed computer support to improve response time and monitor trends in system failures.
+* Designed and developed custom computer hardware inventory and software license tracking database. This database was written using Access 97 and later upgraded to Access 2000. Using VBA and off-the-shelf barcode readers, time to inventory classrooms and computer labs was reduced dramatically. By paper labs of 25 computers would take two people several hours. Using this database one person was able to do the same job in less than 30 minutes.
+* Architected several evolutions of network topology. This included segregating the network for easy management and implementation of 3Com network enabled phone systems. Network operating systems ranged from Novell 5.1 to 6.5, Windows 2000 and Windows 2003 Server, and various versions of Linux (Slackware, Redhat) and Unix (AIX)
+* Secondary duties included helping the district’s technology coordinator with project planning, yearly budgets, and team lead for computer support team.
+
+## Education
+
+### DeVry University - Electronics Engineering Technology (2000 - 2002)
+
+Electronic engineering, embedded micro systems, digital logic, finite state machines, digital and analog circuit design. Also worked with Complex Programmable Logic Devices (CPLD) and Field Programable Gate Array (FPGA)
+
+### Eastland-Fairfield Career and Technical Schools - Electronics Technician (1998 - 2000)
+
+* Vocational Certificate - Certified Electronics Technician
+
+Electronics technician for digital and analog circuits.  Hand assemble and machine language programming. Computer Networking (cabling, routing, bridging and management).  Computer technician (troubleshooting, maintenance, building.) 
+
+#### Accomplishments 
+* National Vocational-Technical Honor Society
+* SkillsUSA-VICA first place regional electronics technician
+
+### Gahanna Lincoln High School (1996 - 2000)
+
+* High-school Diploma
+
+Activities and societies: Stage Crew for various plays/shows/and presentations, Marching Band, Fencing Club
+
+## Person Developments
+
+### Profile Links
+
+* [Github](https://github.com/mwwhited)
+* [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
+* [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
+* [NPM](https://www.npmjs.com/~mwwhited)
+* [nuget](https://www.nuget.org/profiles/mwwhited/)
+* [flickr](http://www.flickr.com/photos/mwwhited/)
 
 ### Some projects that I have created in my spare time include
 * MSIL Disassembler
@@ -209,4 +269,7 @@ Developed an audit and trade history database for the internal broker dealer org
 * Working on developing a SoC/Custom CPU using SystemVerilog
 * custom framework for building IO device and other binary communication protocols using .Net Core.  Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
 * Built custom framework to analyze and document source code, data files, databases, build results, test reports and any other data. 
+
+
+
 
