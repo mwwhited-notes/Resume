@@ -194,7 +194,7 @@ Developed an audit and trade history database for the internal broker dealer org
 
 - ASP.Net Website powered by SQL 2005 database server. Data binding and custom server/user controls were used to simplify the design and maintenance of the website.
 
-#### Senior Software Engineer - The Dot Net Factory (August 2007 - April 2008)
+#### The Dot Net Factory (August 2007 - April 2008)
 
 Designed and programmed bi-directional adapters between EmpowerID and external systems. Also provided network design and application support.
 
