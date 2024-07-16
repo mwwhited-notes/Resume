@@ -262,9 +262,7 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
 ### Profile Links
 
 - [Github](https://github.com/mwwhited)
-  - [Binary and Documentation Generation Framework](https://github.com/mwwhited/BinaryDataDecoders/)
   - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
-  - [Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)
 - [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
 - [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
 - [NPM](https://www.npmjs.com/~mwwhited)
@@ -287,10 +285,13 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
 - Developed model first language targeted at patterned best practice implementation/code generation
 - customized 3D printer/CNC router.
 - Working on developing a SoC/Custom CPU using SystemVerilog
-- custom framework for building IO device and other binary communication protocols using .Net Core.  
-  - Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
-- Built custom framework to analyze and document source code, data files, databases, build results, test reports and any other data.
-- Hybrid Search Engine
+- [Extension framework for .Net](https://github.com/mwwhited/BinaryDataDecoders/)
+  - custom framework for building IO device and other binary communication protocols using .Net Core.  
+    - Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
+  - Analyze and document source code, data files, databases, build results, test reports and any other data.
+- [Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)
   - Combine Full Text and Semantic Search with reranking
   - Document sumerization using self-hosted Large Languages Models (LLM)
 - Custom extension for SQL Support to vector search based queries
+- [Image Processing Framework](https://github.com/mwwhited/SecondShooter)
+  - Use AI/ML to analyze, catelog, search and process photography
