@@ -23,7 +23,7 @@ robotic devices and photography.
 - Centers of Excellence Lead for .Net 7/2022-Present
 - Contracting Consultant 9/2015-12/2021
 
-Specialties in database and application performance, as well as, desiging and build reusable middleware 
+Specialties in database and application performance, as well as, designing and build reusable middleware 
 frameworks to improve development team performance, code quality and automated testability.
 
 #### Primary Languages, Platforms and Frameworks
@@ -50,7 +50,7 @@ frameworks to improve development team performance, code quality and automated t
 - Lead developer on client project teams
 - Run mentorship and training programs for application development practice
   - .Net Boot Camp: Application Design, Best Practices, Design and Architecture Patterns
-  - Choose your Own Adventure: Embedded development, Assembly programming, 3D Programming, Machine Learning (ML) / Artifical Intelligence (AI), Data Modeling and much more
+  - Choose your Own Adventure: Embedded development, Assembly programming, 3D Programming, Machine Learning (ML) / Artificial Intelligence (AI), Data Modeling and much more
   - AI Introduction and Technical Deep: Cross training on Prompt Engineering, Data Embedding, Vector Search, Neural Networks and more
 
 #### Major Projects 
@@ -74,12 +74,12 @@ Custom in-house framework for building applications with the goal of improving t
 - DacFX extension to directly support dacpac generation and deployment from EF Core DBContext
 - Extensible cross product abstraction framework to make third part integration configurable.
 - Extended MSTest to support application analysis including data model and message queue requirement per partial integration test
-- ASP.Net Core Extension to support common query pattern.
-- Message / Event Passing framework to simplfiy Complex Event Processing
+- ASP.Net Core Extension to support common query patterns
+- Message / Event Passing framework to simplify Complex Event Processing
 
 ##### BMW Finance (September 2015-2020)
 
-- Translate business requirements in to technical design features
+- Translate business requirements into technical design features
 - Provide guidance and support with application frameworks and platforms
 - Review code from other team members
 - Define practices and standards for development team
@@ -89,7 +89,7 @@ Custom in-house framework for building applications with the goal of improving t
 - Implement various micro-services and data access/persistence (EF/MS SQL)
 - Optimize data queries/procedures for performance
 - Re-engineer service operations to support batching for improved performance and decreased wire latency.
-- Built custom/dynamic search engine targeting high-performance filtering against staged and live data as well as add server side paging/sorting.
+- Built custom/dynamic search engine targeting high-performance filtering against staged and live data as well as add server-side paging/sorting.
 - Reverse engineering and redesigning existing enterprise application
   - Describe WPF, WinForms, C#, SQL, Stored Procedures in plain business language
   - Building technical design documents from existing application code
@@ -97,7 +97,7 @@ Custom in-house framework for building applications with the goal of improving t
 
 ### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - December 2021)
 
-Custom microelectronics and software design, architecture and engineering.
+Custom microelectronics and software design, architecture, and engineering.
 
 #### Programming Languages/Platforms
 
@@ -148,8 +148,8 @@ Custom microelectronics and software design, architecture and engineering.
 - Provide guidance on optimizing assets and resources
 - Ensure technological compliance for industry standards and regulatory compliance
 - Provide architecture and development guidance
-- Work with development, quality assurance, production and support teams as well as with clients to ensure quality and compliance of all of our software.
-- Architect and engineer applications used for back office management of pharmacological and biotech research trials.
+- Work with development, quality assurance, production, and support teams as well as with clients to ensure quality and compliance of all of our software.
+- Architect and engineer applications used for back-office management of pharmacological and biotech research trials.
 
 #### Accomplishments
 
@@ -220,7 +220,7 @@ Primary duties entailed developing software and databases to support production 
 - Replaced existing inventory controls to include unique barcodes to increase accuracy and performance of production scanning and data entry teams. Inventory/barcode tool used custom XSLT templates to allow for easy modification to barcode scan sheets.
 - Improved performance of image conversion processes by creating multi-threaded and multi-node services. Other features added to the conversion process included user interfaces to allow computer support staff and production teams to monitor and maintain processes without development intervention.
 - Supplemented existing enterprise imaging software (TurboScan) by designing and implementing external systems that could interact with the proprietary system.
-- Web based reporting tools were developed for quality assurance team. These tools increased accuracy and productivity by allowing scanned documents to be monitored and tracked from receiving to return shipment.
+- Web-based reporting tools developed for quality assurance team. These tools increased accuracy and productivity by allowing scanned documents to monitor and track from  return shipment.
 - Secondary duties included helping IT support teams as needed mainly by configuring routers, firewalls, and VPNs.
 
 ### Systems Engineer - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)
@@ -229,7 +229,7 @@ Designed and managed wide area network for use by students and staff of the scho
 
 #### Accomplishments
 
-- Developed two generations of a Helpdesk Ticketing System. First generation was written using PHP, MySQL, RADIUS authentication, and LPR print queues. Second generation was ASP with MSDE, modular authentication, and raw network printing. These ticketing systems allowed computer support to improve response time and monitor trends in system failures.
+- Developed multiple generations of a Helpdesk Ticketing System. These ticketing systems allowed computer support to improve response time and monitor trends in system failures.
 - Designed and developed custom computer hardware inventory and software license tracking database. This database was written using Access 97 and later upgraded to Access 2000. Using VBA and off-the-shelf barcode readers, time to inventory classrooms and computer labs was reduced dramatically. By paper labs of 25 computers would take two people several hours. Using this database one person was able to do the same job in less than 30 minutes.
 - Architected several evolutions of network topology. This included segregating the network for easy management and implementation of 3Com network enabled phone systems. Network operating systems ranged from Novell 5.1 to 6.5, Windows 2000 and Windows 2003 Server, and various versions of Linux (Slackware, Redhat) and Unix (AIX)
 - Secondary duties included helping the district’s technology coordinator with project planning, yearly budgets, and team lead for computer support team.
@@ -244,7 +244,7 @@ Electronic engineering, embedded micro systems, digital logic, finite state mach
 
 - Vocational Certificate - Certified Electronics Technician
 
-Electronics technician for digital and analog circuits.  Hand assemble and machine language programming. Computer Networking (cabling, routing, bridging and management).  Computer technician (troubleshooting, maintenance, building.)
+Electronics technician for digital and analog circuits. Hand assemble and machine language programming. Computer Networking (cabling, routing, bridging and management). Computer technician (troubleshooting, maintenance, building.)
 
 #### Accomplishments
 
@@ -263,7 +263,7 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
 
 - [Github](https://github.com/mwwhited)
   - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
-  - [Coding Challenges: Algorithims and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
+  - [Coding Challenges: Algorithms and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
 - [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
 - [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
 - [NPM](https://www.npmjs.com/~mwwhited)
@@ -287,14 +287,14 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
 - customized 3D printer/CNC router.
 - Working on developing a SoC/Custom CPU using SystemVerilog
 - [Extension framework for .Net](https://github.com/mwwhited/BinaryDataDecoders/)
-  - custom framework for building IO device and other binary communication protocols using .Net Core.  
+  - custom framework for building IO device and other binary communication protocols using .Net Core. 
     - Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
   - Analyze and document source code, data files, databases, build results, test reports and any other data.
 - [Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)
   - Combine Full Text and Semantic Search with reranking
-  - Document sumerization using self-hosted Large Languages Models (LLM)
+  - Document summarization using self-hosted Large Languages Models (LLM)
 - Custom extension for SQL Support to vector search based queries
 - [Image Processing Framework](https://github.com/mwwhited/SecondShooter)
-  - Use Artifical Intellgence (AI) / Machine Learning (ML) to analyze, catelog, search and process photography
-  - Image similiarty search using Vision Transformer (ViT) embeddings and a vector store (Qdrant)
+  - Use Artificial Intelligence (AI) / Machine Learning (ML) to analyze, catalog, search and process photography
+  - Image similarity  search using Vision Transformer (ViT) embeddings and a vector store (Qdrant)
   - 
