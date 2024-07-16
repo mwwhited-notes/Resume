@@ -297,4 +297,5 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
 - [Image Processing Framework](https://github.com/mwwhited/SecondShooter)
   - Use Artificial Intelligence (AI) / Machine Learning (ML) to analyze, catalog, search and process photography
   - Image similarity  search using Vision Transformer (ViT) embeddings and a vector store (Qdrant)
-  - 
+  - Use Large Language and Vision Assistant (LLaVA) based model to classify images
+  - Text embeddings with Sentence Transformers (SBERT) and a vector store (Qdrant)
