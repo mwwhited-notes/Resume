@@ -110,15 +110,10 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
 
 ## Personal Projects
 
-- MSIL Disassembler
-- Windows based cloud service with the ability to dynamically scale and fail over between host nodes.
-- Post compiler for MSIL assemblies to enable support for DllExports for use by unmanaged applications.
 - [Created a signalR client for node.js](https://github.com/mwwhited-archives/signalr-client-nodejs)
 - [Microcontrollers and electronics](https://github.com/mwwhited/EmbeddedBakery)
   - Custom designed 16bit microprocessor
   - customized 3D printer/CNC router.
-- Developed model first language targeted at patterned best practice implementation/code generation
-- Working on developing a SoC/Custom CPU using SystemVerilog
 - [Extension framework for .Net](https://github.com/mwwhited/BinaryDataDecoders/)
   - Custom framework for building IO device and other binary communication protocols using .Net Core. 
     - Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
@@ -128,7 +123,6 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
 - [Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)
   - Combine Full Text and Semantic Search with reranking
   - Document summarization using self-hosted Large Languages Models (LLM)
-- Custom extension for SQL Support to vector search based queries
 - [Image Processing Framework](https://github.com/mwwhited/SecondShooter)
   - Use Artificial Intelligence (AI) / Machine Learning (ML) to analyze, catalog, search and process photography
   - Image similarity  search using Vision Transformer (ViT) embeddings and a vector store (Qdrant)
@@ -138,8 +132,6 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
 ## Profile Links
 
 - [Github](https://github.com/mwwhited)
-  - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
-  - [Coding Challenges: Algorithms and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
 - [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
 - [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
 - [NPM](https://www.npmjs.com/~mwwhited)
