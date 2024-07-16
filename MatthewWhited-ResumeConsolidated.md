@@ -104,22 +104,7 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
 
 - High-school Diploma
 
-Activities and societies: Stage Crew for various plays/shows/and presentations, Marching Band, Fencing Club 
-
-## Person Developments
-
-### Profile Links
-
-- [Github](https://github.com/mwwhited)
-  - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
-  - [Coding Challenges: Algorithms and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
-- [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
-- [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
-- [NPM](https://www.npmjs.com/~mwwhited)
-- [nuget](https://www.nuget.org/profiles/mwwhited/)
-- [flickr](http://www.flickr.com/photos/mwwhited/)
-
-### Some projects that I have created in my spare time include
+## Personal Projects
 
 - MSIL Disassembler
 - Windows based cloud service with the ability to dynamically scale and fail over between host nodes.
@@ -145,3 +130,14 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
   - Image similarity  search using Vision Transformer (ViT) embeddings and a vector store (Qdrant)
   - Use Large Language and Vision Assistant (LLaVA) based model to classify images
   - Text embeddings with Sentence Transformers (SBERT) and a vector store (Qdrant)
+  
+## Profile Links
+
+- [Github](https://github.com/mwwhited)
+  - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
+  - [Coding Challenges: Algorithms and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
+- [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
+- [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
+- [NPM](https://www.npmjs.com/~mwwhited)
+- [nuget](https://www.nuget.org/profiles/mwwhited/)
+- [flickr](http://www.flickr.com/photos/mwwhited/) 
