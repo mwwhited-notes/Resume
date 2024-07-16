@@ -1,11 +1,13 @@
 # Matthew Whited
 
 ## Summary
+
 Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. Adept at designing and implementing complex systems, optimizing performance, and developing reusable frameworks to enhance team productivity and code quality. Proven expertise in a wide range of programming languages, databases, and cloud services, with a strong background in electronics and low-level programming. Demonstrated ability to lead and mentor development teams, establish best practices, and drive technical innovation. Passionate about continuous learning, contributing to open-source projects, and staying at the forefront of emerging technologies. Seeking to leverage extensive technical skills and leadership experience to drive impactful solutions and foster a culture of excellence in software development.
 
 ## Professional Skills
 
 ### Technical Skills
+
 - **Programming Languages:** .Net/C#, Javascript/Typescript, Java, Go, Python, C, C++, ASP.Net MVC, WPF, Node.js, HTML, CSS.
 - **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch.
 - **Cloud Services:** Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka.
@@ -14,24 +16,26 @@ Highly accomplished Principal Solutions Architect with over 20 years of experien
 - **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA.
 
 ### Architectural & Engineering Skills
+
 - **Application & System Design:** Designing and implementing complex systems, reusable middleware frameworks, and microservices.
 - **Performance Optimization:** Database and application performance tuning, query optimization, and code quality improvement.
 - **Framework Development:** Building internal frameworks for enhanced development productivity and automated testing.
 - **Event Processing:** Developing queue-based complex event engines and multi-channel notification systems.
 
 ### Leadership & Mentorship Skills
+
 - **Team Leadership:** Leading development teams, mentoring junior developers, and establishing best practices.
 - **Training & Development:** Creating and executing professional development programs, including .Net Boot Camps and AI training.
 - **Project Management:** Providing project estimates, managing timelines, and ensuring successful project delivery.
 - **Code Reviews:** Conducting thorough code reviews and establishing development standards.
 
 ### Specialized Knowledge
+
 - **Network Communication:** Expertise in network protocols, communication services, and reverse engineering serial/network protocols.
 - **Electronic Interfaces:** Boolean logic, microcontrollers, digital logic, and gate arrays.
 - **AI & Machine Learning:** Implementing AI/ML models for search engines, data embedding, and vector search.
 - **Reverse Engineering:** Decoding and re-implementing protocols, and software reverse engineering.
 - **Compilers & DSLs:** Designing and implementing domain-specific languages and custom compilers.
-
 
 ## Work History
 
