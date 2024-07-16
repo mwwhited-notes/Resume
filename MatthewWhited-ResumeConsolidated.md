@@ -124,21 +124,18 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
 - MSIL Disassembler
 - Windows based cloud service with the ability to dynamically scale and fail over between host nodes.
 - Post compiler for MSIL assemblies to enable support for DllExports for use by unmanaged applications.
-- Custom designed 16bit microprocessor
-- Implemented various archival file formats such as PKZip, TAR, and ISO9660
-- Implemented various network protocols in .Net such as Telnet, LDAP bindery and SNTP
 - [Created a signalR client for node.js](https://github.com/mwwhited-archives/signalr-client-nodejs)
-- [Atmel AVR processors and Arduino embedded controllers](https://github.com/mwwhited/EmbeddedBakery)
-- Real-time athletic video scoring overlay based on .Net Core
-- Extension for EF6 and EFCore to support for SQL Service Broker
-- Extension for Entity Framework Core to support [sys] views
+- [Microcontrollers and electronics](https://github.com/mwwhited/EmbeddedBakery)
+  - Custom designed 16bit microprocessor
+  - customized 3D printer/CNC router.
 - Developed model first language targeted at patterned best practice implementation/code generation
-- customized 3D printer/CNC router.
 - Working on developing a SoC/Custom CPU using SystemVerilog
 - [Extension framework for .Net](https://github.com/mwwhited/BinaryDataDecoders/)
-  - custom framework for building IO device and other binary communication protocols using .Net Core. 
+  - Custom framework for building IO device and other binary communication protocols using .Net Core. 
     - Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
   - Analyze and document source code, data files, databases, build results, test reports and any other data.
+  - Various file formats such as PKZip, TAR, and ISO9660
+  - Various network protocols such as Telnet, LDAP bindery and SNTP
 - [Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)
   - Combine Full Text and Semantic Search with reranking
   - Document summarization using self-hosted Large Languages Models (LLM)
