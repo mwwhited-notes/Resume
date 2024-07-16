@@ -9,12 +9,11 @@ robotic devices and photography.
 
 ### Specialties
 
-- Application Programming Interfaces and Frameworks
-- Performance and Cost analysis and optimzation
-- Business and Data Layers design and implmentation
-- Network Communications
-- Digital LogicElectronic Interfaces
--
+- Programming Adapters
+- Data Layer
+- Network Communication
+- Boolean logic / Electronic Interfaces
+- Microcontrollers / Digital Logic / Gate Arrays
 
 ## Work History
 
@@ -24,26 +23,50 @@ robotic devices and photography.
 - Centers of Excellence Lead for .Net 7/2022-Present
 - Contracting Consultant 9/2015-12/2021
 
-Specialties in database and application performance, as well as, building reusable middleware frameworks to improve development team performance, code quality and automated testability.
+Specialties in database and application performance, as well as, desiging and build reusable middleware 
+frameworks to improve development team performance, code quality and automated testability.
 
 #### Primary Languages, Platforms and Frameworks
 
-- .Net/C#, Java, JavaScript/TypeScript/ECMAScript, Go, C, C++, Python
-- Microsoft SQL, MongoDB, Qdrant, Elastic
-- Service Bus, Storage Queues, RabbitMQ, Kafka, AWS SQS
-- Identity Services: Azure B2C, Entra ID, Keycloak
+- .Net/C#, Javascript/Typescript, Java, Go, Python
+- Databases: Microsoft SQL, MongoDB, Postgresql, MySql
+- Azure Service Bus, Azure Storage Queues, Rabbit Mq, Kafka, AWS SQS
 - SignalR, Socket IO
-- React, Angular, WPF, CLI, Winforms, ASP.Net MVC, HTML/CSS
-- ANTLR
-- Ollama: Llama3, Phi3, Mistral
+- Azure B2C, Microsoft Entra ID, Keycloak
+- ANTLR, Domain Specific Languages
+- WPF, CLI, HTML, CSS, React, Angular
 
 #### Novel frameworks and applications
 
+- Search engine based on Sentenece Transforms embeddings and vector search
+
+#### Other duties
+
+- Create and execute internal professional development and training
+- Develop standards for patterns and practices for areas such as framework design and unit testing
+- Help provide guidance and training for other developers
+- Help with project management and estimate
+- Lead developer on client project teams
+- Run mentorship and training programs for application development practice
+  - .Net Boot Camp: Application Design, Best Practices, Design and Architecture Patterns
+  - Choose your Own Adventure: Embedded development, Assembly programming, 3D Programming, Machine Learning (ML) / Artifical Intelligence (AI), Data Modeling and much more
+  - AI Introduction and Technical Deep: Cross training on Prompt Engineering, Data Embedding, Vector Search, Neural Networks and more
+
+#### Projects 
+
+##### Green Onion
+
+Clean-up source code and improve application security for existing .Net/React Application
+
+##### Nucleus / Shared Framework
+
+Custom in-house framework for building applications with the goal of improving the development 
+
 - Dynamic expression parsing and calculation engine (both Java and .Net)
-- Queue based complex event engine
-- Text templating engine based on JSON Path and HTML
-- Multi-channel notification/communication engine
-- Procedural generation based data generation
+- Queue based complex event engine.
+- Text templating engine based on JSON Path and HTML.
+- Multi-channel notification and messaging engine.
+- Procedural generation based data generation.
 - EF Core Extensions
   - Declarative (attribute based) model extensions
   - Masking and data classification
@@ -54,40 +77,28 @@ Specialties in database and application performance, as well as, building reusab
 - DacFX extension to directly support dacpac generation and deployment from EF Core DBContext
 - Extensible cross product abstraction framework to make third part integration configurable.
 - Extended MSTest to support application analysis including data model and message queue requirement per partial integration test
-- Custom Hybrid search engine using Semantic search and Full Text search with reranking
+- ASP.Net Core Extension to support common query pattern.
+- Message / Event Passing framework to simplfiy Complex Event Processing
 
-#### Other duties
+##### BMW Finance (September 2015-2020)
 
-- Create and execute internal professional development and training
-- Develop standards for patterns and practices for areas such as framework design and unit testing
-- Help provide mentoring, guidance and training for other developers
-- Help with project management and estimation
-- Work as team lead on various client projects
+- Translate business requirements in to technical design features
+- Provide guidance and support with application frameworks and platforms
 - Review code from other team members
-- Work with Business Analysts and Product Owners to convert use cases and business requiresments into Technical Design Documents
-- Provide feedback, refactor and develop testing frameworks for long term support of applications and underlying frameworks
-- Data Modeling, Performance and Security Reviews of APIs, Applications and Frameworks
-
-#### Projects
-
-##### Design and Engineer School Management System
-
-##### Design and Engineer Dealer Funding Engine (DFE)
-
-- System Integration, Database Design/Engineering, Software Engineering
-- .Net, SQL Server, BizTalk, HTML5, AngularJS, WCF, Angular.io, TypeScript
+- Define practices and standards for development team
+- Refactor existing and implement new features
+- Code Reviews, System Integration, Database Design/Engineering, Software Engineering
+  - .Net, SQL Server, BizTalk, HTML5, AngularJS, WCF, Angular.io, TypeScript
 - Implement various micro-services and data access/persistence (EF/MS SQL)
 - Optimize data queries/procedures for performance
 - Re-engineer service operations to support batching for improved performance and decreased wire latency.
-- Built custom/dynamic search engine targeting high-performance filtering against staged and live data as well as add server side paging/sorting
+- Built custom/dynamic search engine targeting high-performance filtering against staged and live data as well as add server side paging/sorting.
+- Reverse engineering and redesigning existing enterprise application
+  - Describe WPF, WinForms, C#, SQL, Stored Procedures in plain business language
+  - Building technical design documents from existing application code
+  - Work with off-shore developers to rebuild and refactor application frameworks and platforms
 
-##### Reverse engineering and redesigning Contract Management System (CMS)
-
-- Describe WPF, WinForms, C#, SQL, Stored Procedures in plain business language
-- Building technical design documents from existing application code
-- Work with off-shore developers to rebuild and refactor application frameworks and platforms
-
-### President/Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - December 2021)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - December 2021)
 
 Custom microelectronics and software design, architecture and engineering.
 
@@ -161,7 +172,7 @@ Custom microelectronics and software design, architecture and engineering.
 - Extended a packaged ASP.Net application to support post authentication redirection to ensure compliance with a custom end user agreement.
 - Microsoft Dynamics CRM custom report extensions for monthly billing
 
-### Senior .Net Engineer - TEKsystems (August 2007 - September 2010)
+### Senior .Net Developer Contactor - TEKsystems (August 2007 - September 2010)
 
 #### Safe Auto Insurance (April 2010 - September 2010)
 
@@ -247,13 +258,16 @@ Electronics technician for digital and analog circuits.  Hand assemble and machi
 
 - High-school Diploma
 
-Activities and societies: Stage Crew for various plays/shows/and presentations, Marching Band, Fencing Club
+Activities and societies: Stage Crew for various plays/shows/and presentations, Marching Band, Fencing Club 
 
 ## Person Developments
 
 ### Profile Links
 
 - [Github](https://github.com/mwwhited)
+  - [Binary and Documentation Generation Framework](https://github.com/mwwhited/BinaryDataDecoders/)
+  - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
+  - [Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)
 - [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
 - [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
 - [NPM](https://www.npmjs.com/~mwwhited)
@@ -268,13 +282,18 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
 - Custom designed 16bit microprocessor
 - Implemented various archival file formats such as PKZip, TAR, and ISO9660
 - Implemented various network protocols in .Net such as Telnet, LDAP bindery and SNTP
-- Created a signalR client for node.js
-- Atmel AVR processors and Arduino embedded controllers
+- [Created a signalR client for node.js](https://github.com/mwwhited-archives/signalr-client-nodejs)
+- [Atmel AVR processors and Arduino embedded controllers](https://github.com/mwwhited/EmbeddedBakery)
 - Real-time athletic video scoring overlay based on .Net Core
 - Extension for EF6 and EFCore to support for SQL Service Broker
 - Extension for Entity Framework Core to support [sys] views
 - Developed model first language targeted at patterned best practice implementation/code generation
 - customized 3D printer/CNC router.
 - Working on developing a SoC/Custom CPU using SystemVerilog
-- custom framework for building IO device and other binary communication protocols using .Net Core.  Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
+- custom framework for building IO device and other binary communication protocols using .Net Core.  
+  - Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
 - Built custom framework to analyze and document source code, data files, databases, build results, test reports and any other data.
+- Hybrid Search Engine
+  - Combine Full Text and Semantic Search with reranking
+  - Document sumerization using self-hosted Large Languages Models (LLM)
+- Custom extension for SQL Support to vector search based queries
