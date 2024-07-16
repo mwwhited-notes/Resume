@@ -39,6 +39,7 @@ frameworks to improve development team performance, code quality and automated t
 #### Novel frameworks and applications
 
 - Search engine based on Sentenece Transforms embeddings and vector search
+- Internal application framework based in .Net (see Nucleus / Shared Framework)
 
 #### Other duties
 
@@ -52,11 +53,7 @@ frameworks to improve development team performance, code quality and automated t
   - Choose your Own Adventure: Embedded development, Assembly programming, 3D Programming, Machine Learning (ML) / Artifical Intelligence (AI), Data Modeling and much more
   - AI Introduction and Technical Deep: Cross training on Prompt Engineering, Data Embedding, Vector Search, Neural Networks and more
 
-#### Projects 
-
-##### Green Onion
-
-Clean-up source code and improve application security for existing .Net/React Application
+#### Major Projects 
 
 ##### Nucleus / Shared Framework
 
