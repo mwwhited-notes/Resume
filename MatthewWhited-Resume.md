@@ -29,7 +29,7 @@ frameworks to improve development team performance, code quality and automated t
 #### Primary Languages, Platforms and Frameworks
 
 - .Net/C#, Javascript/Typescript, Java, Go, Python
-- Databases: Microsoft SQL, MongoDB, Postgresql, MySql
+- Databases: Microsoft SQL, MongoDB, Postgresql/ParadeDB, MySql, Qdrant, OpenSearch
 - Azure Service Bus, Azure Storage Queues, Rabbit Mq, Kafka, AWS SQS
 - SignalR, Socket IO
 - Azure B2C, Microsoft Entra ID, Keycloak
@@ -38,7 +38,7 @@ frameworks to improve development team performance, code quality and automated t
 
 #### Novel frameworks and applications
 
-- Search engine based on Sentenece Transforms embeddings and vector search
+- Search engine based on Sentence Transforms (SBERT) embeddings and vector search
 - Internal application framework based in .Net (see Nucleus / Shared Framework)
 
 #### Other duties
@@ -263,6 +263,7 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
 
 - [Github](https://github.com/mwwhited)
   - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
+  - [Coding Challenges: Algorithims and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
 - [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
 - [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
 - [NPM](https://www.npmjs.com/~mwwhited)
@@ -294,4 +295,6 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
   - Document sumerization using self-hosted Large Languages Models (LLM)
 - Custom extension for SQL Support to vector search based queries
 - [Image Processing Framework](https://github.com/mwwhited/SecondShooter)
-  - Use AI/ML to analyze, catelog, search and process photography
+  - Use Artifical Intellgence (AI) / Machine Learning (ML) to analyze, catelog, search and process photography
+  - Image similiarty search using Vision Transformer (ViT) embeddings and a vector store (Qdrant)
+  - 
