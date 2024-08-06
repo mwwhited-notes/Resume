@@ -1,5 +1,5 @@
 # Matthew Whited  
-[614-979-1748] | [matt@whited.us] | [LinkedIn Profile](https://www.linkedin.com/in/mwwhited/)] | [GitHub Profile]
+[614-979-1748] | [matt@whited.us] | [LinkedIn Profile](https://www.linkedin.com/in/mwwhited/) | [GitHub Profile]
 
 ## About  
 Dynamic and experienced technology leader with over 12 years of experience in cloud architecture, software development, and system integration. Proven expertise in designing and deploying cloud-native solutions and leading cross-functional teams. Committed to empowering organizations through innovative technology solutions and fostering professional growth among team members.
