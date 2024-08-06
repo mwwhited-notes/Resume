@@ -18,7 +18,7 @@ Dynamic and experienced technology leader with over 12 years of experience in cl
 ## Work History  
 
 ### Principal Solutions Architect  
-**Eliassen Group, formerly Lightwell Inc**  
+**Eliassen Group**  
 *September 2015 - Present*  
 
 - Lead cross-product initiatives in cloud architecture, collaborating with the Enterprise Architecture Team to define guidelines and best practices.  
