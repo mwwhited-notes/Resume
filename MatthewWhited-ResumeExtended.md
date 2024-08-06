@@ -95,7 +95,6 @@ Custom in-house framework for building applications with the goal of improving t
   - Building technical design documents from existing application code
   - Work with off-shore developers to rebuild and refactor application frameworks and platforms
 
-
 ### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - December 2021)
 
 Custom microelectronics and software design, architecture, and engineering.
