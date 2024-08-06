@@ -59,6 +59,8 @@ Dynamic and experienced technology leader with over 12 years of experience in cl
 **Vocational Certificate - Certified Electronics Technician**  
 *1998 - 2000*  
 
+## Personal Development  
+
 ### Profile Links  
 - [GitHub](https://github.com/mwwhited)  
 - [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)  
