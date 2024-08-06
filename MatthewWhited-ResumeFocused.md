@@ -55,9 +55,7 @@ Dynamic and experienced technology leader with over 12 years of experience in cl
 
 ## Education  
 
-### DeVry University  
-**Bachelor's Degree in Electronics Engineering Technology**  
-*2000 - 2002*  
+ 
 
 ### Eastland-Fairfield Career and Technical Schools  
 **Vocational Certificate - Certified Electronics Technician**  
