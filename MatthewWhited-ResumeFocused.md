@@ -55,8 +55,6 @@ Dynamic and experienced technology leader with over 12 years of experience in cl
 
 ## Education  
 
- 
-
 ### Eastland-Fairfield Career and Technical Schools  
 **Vocational Certificate - Certified Electronics Technician**  
 *1998 - 2000*  
