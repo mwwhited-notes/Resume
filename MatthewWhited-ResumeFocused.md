@@ -68,7 +68,7 @@ Dynamic and experienced technology leader with over 12 years of experience in cl
 ### Profile Links  
 - [GitHub](https://github.com/mwwhited)  
 - [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)  
-- [LinkedIn](Your LinkedIn URL)
+- [LinkedIn Profile](https://www.linkedin.com/in/mwwhited/)
 
 ### Projects  
 - Developed a hybrid search engine combining full-text and semantic search.  
