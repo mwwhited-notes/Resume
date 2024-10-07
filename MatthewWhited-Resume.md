@@ -137,3 +137,4 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
 - [NPM](https://www.npmjs.com/~mwwhited)
 - [nuget](https://www.nuget.org/profiles/mwwhited/)
 - [flickr](http://www.flickr.com/photos/mwwhited/) 
+- [LinkedIn](https://www.linkedin.com/in/mwwhited/)

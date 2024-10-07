@@ -269,6 +269,7 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
 - [NPM](https://www.npmjs.com/~mwwhited)
 - [nuget](https://www.nuget.org/profiles/mwwhited/)
 - [flickr](http://www.flickr.com/photos/mwwhited/)
+- [LinkedIn](https://www.linkedin.com/in/mwwhited/)
 
 ### Some projects that I have created in my spare time include
 
