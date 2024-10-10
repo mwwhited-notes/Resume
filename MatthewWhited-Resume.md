@@ -36,6 +36,7 @@ Highly accomplished Principal Solutions Architect with over 20 years of experien
 - **AI & Machine Learning:** Implementing AI/ML models for search engines, data embedding, and vector search.
 - **Reverse Engineering:** Decoding and re-implementing protocols, and software reverse engineering.
 - **Compilers & DSLs:** Designing and implementing domain-specific languages and custom compilers.
+- **Optimization & Upgrades:** Review and improve existing applications.
 
 ## Work History
 
