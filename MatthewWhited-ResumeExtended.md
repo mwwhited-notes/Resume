@@ -48,6 +48,9 @@ frameworks to improve development team performance, code quality and automated t
 - Help provide guidance and training for other developers
 - Help with project management and estimate
 - Lead developer on client project teams
+  - Custom software development
+  - Performance review and improvement
+  - Application migration and upgrade
 - Run mentorship and training programs for application development practice
   - .Net Boot Camp: Application Design, Best Practices, Design and Architecture Patterns
   - Choose your Own Adventure: Embedded development, Assembly programming, 3D Programming, Machine Learning (ML) / Artificial Intelligence (AI), Data Modeling and much more
