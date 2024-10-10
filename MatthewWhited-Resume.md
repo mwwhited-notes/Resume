@@ -2,7 +2,14 @@
 
 ## Summary
 
-Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. Adept at designing and implementing complex systems, optimizing performance, and developing reusable frameworks to enhance team productivity and code quality. Proven expertise in a wide range of programming languages, databases, and cloud services, with a strong background in electronics and low-level programming. Demonstrated ability to lead and mentor development teams, establish best practices, and drive technical innovation. Passionate about continuous learning, contributing to open-source projects, and staying at the forefront of emerging technologies. Seeking to leverage extensive technical skills and leadership experience to drive impactful solutions and foster a culture of excellence in software development.
+Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, 
+architecture, and technical leadership. Adept at designing and implementing complex systems, optimizing performance, 
+and developing reusable frameworks to enhance team productivity and code quality. Proven expertise in a wide range 
+of programming languages, databases, and cloud services, with a strong background in electronics and low-level 
+programming. Demonstrated ability to lead and mentor development teams, establish best practices, and drive technical
+ innovation. Passionate about continuous learning, contributing to open-source projects, and staying at the forefront 
+ of emerging technologies. Seeking to leverage extensive technical skills and leadership experience to drive impactful 
+ solutions and foster a culture of excellence in software development.
 
 ## Professional Skills
 
@@ -10,10 +17,13 @@ Highly accomplished Principal Solutions Architect with over 20 years of experien
 
 - **Programming Languages:** .Net/C#, Javascript/Typescript, Java, Go, Python, C, C++, ASP.Net MVC, WPF, Node.js, HTML, CSS.
 - **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch.
-- **Cloud Services:** Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka.
+- **Cloud Services:** Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka, Container Apps.
 - **Frameworks & Libraries:** SignalR, Socket IO, React, Angular, EF Core, MSTest.
 - **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes.
 - **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA.
+- **Agile Methodologies:** Scrum, Kanban, XP.
+- **Version Control Systems:** TFS, SVN, GIT.
+- **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
 
 ### Architectural & Engineering Skills
 
@@ -37,6 +47,8 @@ Highly accomplished Principal Solutions Architect with over 20 years of experien
 - **Reverse Engineering:** Decoding and re-implementing protocols, and software reverse engineering.
 - **Compilers & DSLs:** Designing and implementing domain-specific languages and custom compilers.
 - **Optimization & Upgrades:** Review and improve existing applications.
+- **Software Development Life Cycle:** Review and improve software development lifecycle.
+- **Business Process Modeling:**  Review, document and automate business processes.
 
 ## Work History
 
@@ -92,13 +104,15 @@ Highly accomplished Principal Solutions Architect with over 20 years of experien
 
 ### DeVry University - Electronics Engineering Technology (2000 - 2002)
 
-Electronic engineering, embedded micro systems, digital logic, finite state machines, digital and analog circuit design. Also worked with Complex Programmable Logic Devices (CPLD) and Field Programable Gate Array (FPGA)
+Electronic engineering, embedded micro systems, digital logic, finite state machines, digital and analog circuit 
+design. Also worked with Complex Programmable Logic Devices (CPLD) and Field Programable Gate Array (FPGA)
 
 ### Eastland-Fairfield Career and Technical Schools - Electronics Technician (1998 - 2000)
 
 - Vocational Certificate - Certified Electronics Technician
 
-Electronics technician for digital and analog circuits. Hand assemble and machine language programming. Computer Networking (cabling, routing, bridging and management). Computer technician (troubleshooting, maintenance, building.)
+Electronics technician for digital and analog circuits. Hand assemble and machine language programming. Computer 
+Networking (cabling, routing, bridging and management). Computer technician (troubleshooting, maintenance, building.)
 
 #### Accomplishments
 
