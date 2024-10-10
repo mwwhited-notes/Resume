@@ -22,6 +22,7 @@ solutions and foster a culture of excellence in software development.
 - **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes.
 - **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA.
 - **Agile Methodologies:** Scrum, Kanban, XP.
+- **Team Management Tools:** Microsoft Project, Azure DevOps, JIRA, Confluence, Sharepoint, Microsoft Teams, Slack, Discord, Github
 - **Version Control Systems:** TFS, SVN, GIT.
 - **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
 
