@@ -49,6 +49,7 @@ solutions and foster a culture of excellence in software development.
 - **Optimization & Upgrades:** Review and improve existing applications.
 - **Software Development Life Cycle:** Review and improve software development lifecycle.
 - **Business Process Modeling:**  Review, document and automate business processes.
+- **Documentation & Communication:** Develop best practices, design documents, training materials and office communications.
 
 ## Work History
 
