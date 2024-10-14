@@ -1,5 +1,10 @@
 # Matthew Whited
 
+- **Email:** matt@whited.us
+- **Phone:** 614-989-1748
+- **Location:** Baltimore, MD
+- **Work Preference:** Remote / Full-Time
+
 ## About
 
 I have worked with electronics and computers for most of my life. I enjoy learning as much as
