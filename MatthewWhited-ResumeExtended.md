@@ -19,8 +19,9 @@ robotic devices and photography.
 
 ### Principal Solutions Architect - Eliassen Group, formally Lightwell Inc (September 2015 - Present)
 
-- Full-time Solutions Architect 12/2021-Present
-- Centers of Excellence Lead for .Net 7/2022-Present
+- Full-time Solutions Architect 12/2021 - Present
+- Centers of Excellence Lead for .Net 7/2022 - Present
+- Sales Enablement Engineer 04/2024 - Present
 - Contracting Consultant 9/2015-12/2021
 
 Specialties in database and application performance, as well as, designing and build reusable middleware 
@@ -55,6 +56,7 @@ frameworks to improve development team performance, code quality and automated t
   - .Net Boot Camp: Application Design, Best Practices, Design and Architecture Patterns
   - Choose your Own Adventure: Embedded development, Assembly programming, 3D Programming, Machine Learning (ML) / Artificial Intelligence (AI), Data Modeling and much more
   - AI Introduction and Technical Deep: Cross training on Prompt Engineering, Data Embedding, Vector Search, Neural Networks and more
+  - Create Proof-of-Concepts (PoC) and Technical Demonstation projects
 
 #### Major Projects 
 
