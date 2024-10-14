@@ -51,6 +51,7 @@ solutions and foster a culture of excellence in software development.
 - **Software Development Life Cycle:** Review and improve software development lifecycle.
 - **Business Process Modeling:**  Review, document and automate business processes.
 - **Documentation & Communication:** Develop best practices, design documents, training materials and office communications.
+- **Presales & Sales Support:** Develop proof of concepts (PoC), Review technical requirements, Assient in client inerations as a Subject Matter Expert (SME)
 
 ## Work History
 
