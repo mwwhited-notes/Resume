@@ -1,7 +1,7 @@
 # Matthew Whited
 
-- **Email:** matt@whited.us
-- **Phone:** 614-989-1748
+- [email](mailto:matt@whited.us)
+- [cell](tel:+16149891748)
 - **Location:** Baltimore, MD
 - **Work Preference:** Remote / Full-Time
 
