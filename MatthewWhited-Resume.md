@@ -1,5 +1,10 @@
 # Matthew Whited
 
+- **Email:** matt@whited.us
+- **Phone:** 614-989-1748
+- **Location:** Baltimore, MD
+- **Work Preference:** Remote / Full-Time
+
 ## Summary
 
 Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, 
