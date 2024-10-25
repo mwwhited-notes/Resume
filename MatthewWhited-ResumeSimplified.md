@@ -13,18 +13,18 @@ languages, including .Net, Java, Go, and Python.
 
 ## Work Experience
 
-### Principal Solutions Architect, Eliassen Group (formerly Lightwell Inc.) (September 2015 - Present)
+### Chief Solutions Architect, Out-of-Band Development, LLC (March 2015 - Present)
+
+* Custom microelectronics and software design, architecture, and engineering
+* Programming languages: .Net, C#, .Net Standard, ASP.Net MVC, WPF, Windows Services, Windows Universal, EF, .Net Core, Databases: Microsoft SQL Server, MySQL
+* Specialties: Reverse engineering, software porting, domain specific language design and implementation
+
+### Principal Solutions Architect, Eliassen Group (formerly Lightwell Inc.) (September 2015 - October 2024)
 
 * Full-time Solutions Architect (December 2021 - Present)
 * Centers of Excellence Lead for .Net (July 2022 - Present)
 * Sales Enablement Engineer (April 2024 - Present)
 * Contracting Consultant (September 2015 - December 2021)
-
-### Chief Solutions Architect, Out-of-Band Development, LLC (March 2015 - December 2021)
-
-* Custom microelectronics and software design, architecture, and engineering
-* Programming languages: .Net, C#, .Net Standard, ASP.Net MVC, WPF, Windows Services, Windows Universal, EF, .Net Core, Databases: Microsoft SQL Server, MySQL
-* Specialties: Reverse engineering, software porting, domain specific language design and implementation
 
 ### Chief Solutions Architect, Itrica (November 2009 - July 2015)
 
