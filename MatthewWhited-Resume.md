@@ -60,19 +60,19 @@ solutions and foster a culture of excellence in software development.
 
 ## Work History
 
-### Principal Solutions Architect - Eliassen Group, formerly Lightwell Inc (September 2015 - Present)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+
+- Focused on custom microelectronics and software design.
+- Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems.
+- Responsibilities included application architecture, reverse engineering, performance tuning, and custom technical training.
+
+### Principal Solutions Architect - Eliassen Group, formerly Lightwell Inc (September 2015 - October 2024)
 
 - Full-time Solutions Architect and Centers of Excellence Lead for .Net.
 - Specializes in database and application performance, reusable middleware frameworks, and automated testability.
 - Proficient in .Net/C#, Javascript/Typescript, Java, Go, Python, and multiple databases and cloud services.
 - Developed novel frameworks and applications including a search engine based on SBERT embeddings and vector search.
 - Leads internal professional development, project management, and mentorship programs.
-
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - December 2021)
-
-- Focused on custom microelectronics and software design.
-- Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems.
-- Responsibilities included application architecture, reverse engineering, performance tuning, and custom technical training.
 
 ### Chief Solutions Architect - Itrica (November 2009 - July 2015)
 
