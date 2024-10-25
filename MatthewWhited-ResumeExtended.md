@@ -22,7 +22,47 @@ robotic devices and photography.
 
 ## Work History
 
-### Principal Solutions Architect - Eliassen Group, formally Lightwell Inc (September 2015 - Present)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+
+Custom microelectronics and software design, architecture, and engineering.
+
+#### Programming Languages/Platforms
+
+- .Net, C#, .Net Standard
+- ASP.Net MVC, WPF, Windows Services, Windows Universal, EF, .Net Core
+- Databases; Microsoft SQL Server, MySQL
+- Queuing; Service Broker, MSMQ
+- JavaScript, HTML, CSS
+- Node.JS, Knockout.JS, jQuery, angular.js, angular.io
+- C, C++
+- Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32
+- Windows, Linux
+- Xamarin (Windows, iOS, Android)
+- .Net Core on Linux/Raspberry Pi
+- Java, JDK21, JVM
+
+#### Other Duties
+
+- Application architecture
+- Process flow design
+- Architecture, Design and Code Reviews
+- Data migration and conversion
+- Query optimization / Performance Tuning (SQL/EF/.Net)
+- Report design
+- Reverse Engineering (Software)
+- Software Porting (Various languages / platforms)
+- Customized technical training
+- Domain Specific Language (DSL) design/implementation (Antlr4, XML, Json, and various custom parser/lexer/compiler)
+- Custom compilers over Abstract Syntax Trees (AST)
+
+#### Special Skills
+
+- Reverse engineering serial/network protocols (decoding and re-implementing)
+- Developing patterns, practices and tooling to improve unit testing code coverage
+- Application code generation and validation
+- Training and mentoring best patterns and practices
+
+### Principal Solutions Architect - Eliassen Group, formally Lightwell Inc (September 2015 - October 2024)
 
 - Full-time Solutions Architect 12/2021 - Present
 - Centers of Excellence Lead for .Net 7/2022 - Present
@@ -104,46 +144,6 @@ Custom in-house framework for building applications with the goal of improving t
   - Describe WPF, WinForms, C#, SQL, Stored Procedures in plain business language
   - Building technical design documents from existing application code
   - Work with off-shore developers to rebuild and refactor application frameworks and platforms
-
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - December 2021)
-
-Custom microelectronics and software design, architecture, and engineering.
-
-#### Programming Languages/Platforms
-
-- .Net, C#, .Net Standard
-- ASP.Net MVC, WPF, Windows Services, Windows Universal, EF, .Net Core
-- Databases; Microsoft SQL Server, MySQL
-- Queuing; Service Broker, MSMQ
-- JavaScript, HTML, CSS
-- Node.JS, Knockout.JS, jQuery, angular.js, angular.io
-- C, C++
-- Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32
-- Windows, Linux
-- Xamarin (Windows, iOS, Android)
-- .Net Core on Linux/Raspberry Pi
-- Java, JDK21, JVM
-
-#### Other Duties
-
-- Application architecture
-- Process flow design
-- Architecture, Design and Code Reviews
-- Data migration and conversion
-- Query optimization / Performance Tuning (SQL/EF/.Net)
-- Report design
-- Reverse Engineering (Software)
-- Software Porting (Various languages / platforms)
-- Customized technical training
-- Domain Specific Language (DSL) design/implementation (Antlr4, XML, Json, and various custom parser/lexer/compiler)
-- Custom compilers over Abstract Syntax Trees (AST)
-
-#### Special Skills
-
-- Reverse engineering serial/network protocols (decoding and re-implementing)
-- Developing patterns, practices and tooling to improve unit testing code coverage
-- Application code generation and validation
-- Training and mentoring best patterns and practices
 
 ### Chief Solutions Architect - Itrica (November 2009 - July 2015)
 
