@@ -17,9 +17,17 @@ Dynamic and experienced technology leader with over 12 years of experience in cl
 
 ## Work History  
 
+### Chief Solutions Architect  
+**Out-of-Band Development, LLC**  
+*March 2015 - Present*  
+
+- Architected and engineered custom microelectronics and software solutions, ensuring compliance with industry standards and regulatory requirements.  
+- Designed and implemented cloud-native applications, utilizing a variety of programming languages and platforms.  
+- Established architectural review processes, mentoring junior developers and promoting best practices in software development.  
+
 ### Principal Solutions Architect  
 **Eliassen Group**  
-*September 2015 - Present*  
+*September 2015 - October 2024*  
 
 - Lead cross-product initiatives in cloud architecture, collaborating with the Enterprise Architecture Team to define guidelines and best practices.  
 - Conduct proofs of concept for emerging technologies, assessing their fit for business needs and cost structures.  
@@ -31,14 +39,6 @@ Dynamic and experienced technology leader with over 12 years of experience in cl
 #### Major Projects  
 - **Nucleus / Shared Framework**: Developed a custom framework to enhance application development, including a dynamic expression parsing engine and a complex event processing engine.  
 - **BMW Finance**: Led the technical design and implementation of enterprise solutions, optimizing performance and refactoring existing services for improved efficiency.  
-
-### Chief Solutions Architect  
-**Out-of-Band Development, LLC**  
-*March 2015 - December 2021*  
-
-- Architected and engineered custom microelectronics and software solutions, ensuring compliance with industry standards and regulatory requirements.  
-- Designed and implemented cloud-native applications, utilizing a variety of programming languages and platforms.  
-- Established architectural review processes, mentoring junior developers and promoting best practices in software development.  
 
 ### Chief Solutions Architect  
 **Itrica**  
