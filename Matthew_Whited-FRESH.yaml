@@ -1,0 +1,227 @@
+name: Matthew Whited
+contact:
+  email: "matt@whited.us"
+  phone: "+16149891748"
+  location: "Baltimore, MD"
+  work_preference: "Remote / Full-Time"
+
+summary: >
+  Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, 
+  architecture, and technical leadership. Adept at designing and implementing complex systems, optimizing performance, 
+  and developing reusable frameworks to enhance team productivity and code quality. Proven expertise in a wide range 
+  of programming languages, databases, and cloud services, with a strong background in electronics and low-level 
+  programming. Demonstrated ability to lead and mentor development teams, establish best practices, and drive technical
+  innovation. Passionate about continuous learning, contributing to open-source projects, and staying at the forefront 
+  of emerging technologies. Seeking to leverage extensive technical skills and leadership experience to drive impactful 
+  solutions and foster a culture of excellence in software development.
+
+skills:
+  technical:
+    programming_languages:
+      - ".Net/C#"
+      - "Javascript/Typescript"
+      - "Java"
+      - "Go"
+      - "Python"
+      - "C"
+      - "C++"
+      - "ASP.Net MVC"
+      - "WPF"
+      - "Node.js"
+      - "HTML"
+      - "CSS"
+    databases:
+      - "Microsoft SQL Server"
+      - "MySQL"
+      - "PostgreSQL/ParadeDB"
+      - "MongoDB"
+      - "Qdrant"
+      - "OpenSearch"
+    cloud_services:
+      - "Azure Service Bus"
+      - "Azure Storage Queues"
+      - "AWS SQS"
+      - "RabbitMQ"
+      - "Kafka"
+      - "Container Apps"
+    frameworks_libraries:
+      - "SignalR"
+      - "Socket IO"
+      - "React"
+      - "Angular"
+      - "EF Core"
+      - "MSTest"
+    development_tools:
+      - "ANTLR"
+      - "Domain Specific Languages"
+      - "DacFX"
+      - "ASP.Net Core Extensions"
+      - "Docker"
+      - "Kubernetes"
+    embedded_systems:
+      - "Arduino"
+      - "Beaglebone Black"
+      - "Raspberry Pi"
+      - "AVR (ATmega/ATtiny)"
+      - "ESP8266"
+      - "ESP32"
+      - "STM32"
+      - "FPGA"
+    agile_methodologies:
+      - "Scrum"
+      - "Kanban"
+      - "XP"
+    team_management_tools:
+      - "Microsoft Project"
+      - "Azure DevOps"
+      - "JIRA"
+      - "Confluence"
+      - "Sharepoint"
+      - "Microsoft Teams"
+      - "Slack"
+      - "Discord"
+      - "Github"
+    version_control:
+      - "TFS"
+      - "SVN"
+      - "GIT"
+    devops_practices:
+      - "Azure Pipelines"
+      - "Github Actions"
+      - "Local scripting"
+      - "Build Automation"
+  architectural_engineering:
+    - "Application & System Design"
+    - "Performance Optimization"
+    - "Framework Development"
+    - "Event Processing"
+  leadership_mentorship:
+    - "Team Leadership"
+    - "Training & Development"
+    - "Project Management"
+    - "Code Reviews"
+  specialized_knowledge:
+    - "Network Communication"
+    - "Electronic Interfaces"
+    - "AI & Machine Learning"
+    - "Reverse Engineering"
+    - "Compilers & DSLs"
+    - "Optimization & Upgrades"
+    - "Software Development Life Cycle"
+    - "Business Process Modeling"
+    - "Documentation & Communication"
+    - "Presales & Sales Support"
+
+work_history:
+  - role: "Chief Solutions Architect"
+    company: "Out-of-Band Development, LLC"
+    dates: "March 2015 - Present"
+    responsibilities:
+      - "Focused on custom microelectronics and software design."
+      - "Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems."
+      - "Responsibilities included application architecture, reverse engineering, performance tuning, and custom technical training."
+
+  - role: "Principal Solutions Architect"
+    company: "Eliassen Group, formerly Lightwell Inc"
+    dates: "September 2015 - October 2024"
+    responsibilities:
+      - "Full-time Solutions Architect and Centers of Excellence Lead for .Net."
+      - "Specializes in database and application performance, reusable middleware frameworks, and automated testability."
+      - "Developed novel frameworks and applications including a search engine based on SBERT embeddings and vector search."
+      - "Leads internal professional development, project management, and mentorship programs."
+
+  - role: "Chief Solutions Architect"
+    company: "Itrica"
+    dates: "November 2009 - July 2015"
+    responsibilities:
+      - "Held multiple roles, including Chief Technology Officer and Senior Engineer."
+      - "Provided architectural guidance, optimized resources, and ensured compliance with industry standards."
+      - "Designed and built various custom applications and services, including a secure file storage system and messaging service."
+
+  - role: "Senior .Net Developer"
+    company: "Safe Auto Insurance, TEKsystems"
+    dates: "April 2010 - September 2010"
+    responsibilities:
+      - "Designed enterprise message passing services and deployment tools."
+      - "Implemented custom XSLT transformation processes and communication services with WCF."
+
+  - role: "Senior .Net Developer"
+    company: "United Healthcare, TEKsystems"
+    dates: "December 2008 - April 2010"
+    responsibilities:
+      - "Developed applications for EDI transfer and transformation."
+      - "Created adapters and tools for data conversion and event-based workflow processing."
+
+  - role: "Senior .Net Developer"
+    company: "JPMorgan Chase, TEKsystems"
+    dates: "June 2008 - December 2008"
+    responsibilities:
+      - "Developed an audit and trade history database using ASP.Net and SQL Server."
+
+  - role: ".Net Developer"
+    company: "The Dot Net Factory, TEKsystems"
+    dates: "August 2007 - April 2008"
+    responsibilities:
+      - "Created bi-directional adapters and custom TCP/IP socket tunnels for protocol bridging."
+
+  - role: "Software Engineer"
+    company: "3SG Corporation"
+    dates: "August 2006 - August 2007"
+    responsibilities:
+      - "Developed software and databases for production scanning projects."
+      - "Improved performance of image conversion processes and developed web-based reporting tools."
+
+  - role: "Systems Engineer"
+    company: "Eastland-Fairfield Career and Technical Schools"
+    dates: "July 2000 - August 2006"
+    responsibilities:
+      - "Designed and managed wide area network for the school district."
+      - "Developed custom helpdesk and inventory systems, and provided network and project planning support."
+
+education:
+  - institution: "DeVry University"
+    degree: "Electronics Engineering Technology"
+    dates: "2000 - 2002"
+    description: >
+      Electronic engineering, embedded micro systems, digital logic, finite state machines, digital and analog circuit 
+      design. Worked with CPLD and FPGA.
+
+  - institution: "Eastland-Fairfield Career and Technical Schools"
+    degree: "Vocational Certificate - Certified Electronics Technician"
+    dates: "1998 - 2000"
+    description: >
+      Electronics technician for digital and analog circuits. Hand assembly, machine language programming, and networking.
+
+  - institution: "Gahanna Lincoln High School"
+    degree: "High-school Diploma"
+    dates: "1996 - 2000"
+
+personal_projects:
+  - name: "SignalR client for node.js"
+    url: "https://github.com/mwwhited-archives/signalr-client-nodejs"
+  - name: "Microcontrollers and electronics"
+    url: "https://github.com/mwwhited/EmbeddedBakery"
+    highlights:
+      - "Custom designed 16bit microprocessor"
+      - "Customized 3D printer/CNC router"
+  - name: "Extension framework for .Net"
+    url: "https://github.com/mwwhited/BinaryDataDecoders/"
+    highlights:
+      - "Framework for building IO device and binary communication protocols"
+  - name: "Hybrid Search Engine"
+    url: "https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch"
+    highlights:
+      - "Combines Full Text and Semantic Search with reranking"
+  - name: "Image Processing Framework"
+    url: "https://github.com/mwwhited/SecondShooter"
+    highlights:
+      - "AI/ML-based image analysis, cataloging, and similarity search"
+
+profile_links:
+  - "https://github.com/mwwhited"
+  - "https://stackexchange.com/users/32329/matthew-whited"
+  - "http://stackoverflow.com/users/89586/matthew-whited"
+  - "https://www.npmjs.com/~mwwhited"
+  - "https://www.nuget.org/profiles/mwwhited/"
+  - "http://www.flickr.com/photos/mwwhited/"
+  - "https://www.linkedin.com/in/mwwhited/"
