@@ -9,7 +9,14 @@
 
 ## Summary
 
-Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. Adept at designing and implementing complex systems, optimizing performance, and developing reusable frameworks to enhance team productivity and code quality. Proven expertise in a wide range of programming languages, databases, and cloud services, with a strong background in electronics and low-level programming. Demonstrated ability to lead and mentor development teams, establish best practices, and drive technical innovation. Passionate about continuous learning, contributing to open-source projects, and staying at the forefront of emerging technologies. Seeking to leverage extensive technical skills and leadership experience to drive impactful solutions and foster a culture of excellence in software development.
+Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, 
+architecture, and technical leadership. Adept at designing and implementing complex systems, optimizing performance, 
+and developing reusable frameworks to enhance team productivity and code quality. Proven expertise in a wide range 
+of programming languages, databases, and cloud services, with a strong background in electronics and low-level 
+programming. Demonstrated ability to lead and mentor development teams, establish best practices, and drive technical
+innovation. Passionate about continuous learning, contributing to open-source projects, and staying at the forefront 
+of emerging technologies. Seeking to leverage extensive technical skills and leadership experience to drive impactful 
+solutions and foster a culture of excellence in software development.
 
 ---
 
