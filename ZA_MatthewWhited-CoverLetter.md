@@ -20,4 +20,5 @@ Thank you for considering my application. I would welcome the opportunity to dis
 can contribute to your organization's success.
 
 Sincerely,
+
 Matthew Whited
