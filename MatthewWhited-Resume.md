@@ -1,7 +1,7 @@
 # Matthew Whited
 
-- [email](mailto:matt@whited.us)
-- [cell](tel:+16149891748)
+- [Email](mailto:matt@whited.us)
+- [Phone](tel:+16149891748)
 - **Location:** Baltimore, MD
 - **Work Preference:** Remote / Full-Time
 
@@ -66,7 +66,7 @@ solutions and foster a culture of excellence in software development.
 - Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems.
 - Responsibilities included application architecture, reverse engineering, performance tuning, and custom technical training.
 
-### Principal Solutions Architect - Eliassen Group, formerly Lightwell Inc (September 2015 - October 2024)
+### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
 
 - Full-time Solutions Architect and Centers of Excellence Lead for .Net.
 - Specializes in database and application performance, reusable middleware frameworks, and automated testability.
@@ -161,3 +161,4 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
 - [nuget](https://www.nuget.org/profiles/mwwhited/)
 - [flickr](http://www.flickr.com/photos/mwwhited/) 
 - [LinkedIn](https://www.linkedin.com/in/mwwhited/)
+- [Resume / Portfolio](http://matthewwhited.com)

@@ -1,4 +1,3 @@
-
 Matthew Whited is a highly accomplished Principal Solutions Architect with over 20 years 
 of experience in software development, architecture, and technical leadership. He excels
 in designing complex systems, optimizing performance, and creating reusable frameworks
