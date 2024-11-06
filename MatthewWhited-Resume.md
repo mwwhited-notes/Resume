@@ -7,14 +7,7 @@
 
 ## Summary
 
-Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, 
-architecture, and technical leadership. Adept at designing and implementing complex systems, optimizing performance, 
-and developing reusable frameworks to enhance team productivity and code quality. Proven expertise in a wide range 
-of programming languages, databases, and cloud services, with a strong background in electronics and low-level 
-programming. Demonstrated ability to lead and mentor development teams, establish best practices, and drive technical
-innovation. Passionate about continuous learning, contributing to open-source projects, and staying at the forefront 
-of emerging technologies. Seeking to leverage extensive technical skills and leadership experience to drive impactful 
-solutions and foster a culture of excellence in software development.
+I am a highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have developed innovative frameworks, led professional development and mentorship programs, and am passionate about continuous learning. I actively contribute to open-source projects and stay at the forefront of emerging technologies.
 
 ## Professional Skills
 
@@ -158,7 +151,7 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
 - [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
 - [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
 - [NPM](https://www.npmjs.com/~mwwhited)
-- [nuget](https://www.nuget.org/profiles/mwwhited/)
+- [NuGet](https://www.nuget.org/profiles/mwwhited/)
 - [flickr](http://www.flickr.com/photos/mwwhited/) 
 - [LinkedIn](https://www.linkedin.com/in/mwwhited/)
-- [Resume / Portfolio](http://matthewwhited.com)
+- [Personal Profile](http://matthewwhited.com)
