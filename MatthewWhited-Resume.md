@@ -23,6 +23,7 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **Team Management Tools:** Microsoft Project, Azure DevOps, JIRA, Confluence, Sharepoint, Microsoft Teams, Slack, Discord, Github
 - **Version Control Systems:** TFS, SVN, GIT.
 - **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
+- **Machine Learning & Artificial Intelligence:** Sentence Transformers (SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI
 
 ### Architectural & Engineering Skills
 
@@ -58,6 +59,12 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - Focused on custom microelectronics and software design.
 - Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems.
 - Responsibilities included application architecture, reverse engineering, performance tuning, and custom technical training.
+
+### Principal Solutions Architect - ERisk Services, Eliassen Group (November 2024 - Present)
+
+- Integrating fuzzy matching based on sentence transformers
+- Add support for vector distance calculations to SQL Server using SQLCLR
+- Migrate sematic fuzzy match into existing .Net service tier
 
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
 
