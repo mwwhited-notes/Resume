@@ -67,7 +67,7 @@ Custom microelectronics and software design, architecture, and engineering.
 - Review, redesign and implment semantic search functionality
 - Extend Microsoft SQL Server using SQLCLR to add Vector search functionality
 - Implment service endpoints and runtime to host sentence transformer based embedding service as .Net WebAPI
-- 
+- Review proposed 
 
 ### Principal Solutions Architect - Eliassen Group, formally Lightwell Inc (September 2015 - October 2024)
 
