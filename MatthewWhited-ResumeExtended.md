@@ -64,7 +64,7 @@ Custom microelectronics and software design, architecture, and engineering.
 
 ### Principal Solutions Architect - ERisk Services, Eliassen Group (November 2024 - Present)
 
-
+- Review, redesi
 
 ### Principal Solutions Architect - Eliassen Group, formally Lightwell Inc (September 2015 - October 2024)
 
