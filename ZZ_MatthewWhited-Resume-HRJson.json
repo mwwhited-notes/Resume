@@ -122,10 +122,9 @@
       "company": "ERisk Services, Eliassen Group",
       "employment_dates": "November 2024 - Present",
       "responsibilities": [
-        "Focused on custom microelectronics and software design.",
-        "Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems.",
-        "Responsibilities included application architecture, reverse engineering, performance tuning, and custom technical training."
-      ]
+
+        - "Design and implment semantic search solutions"
+        - "Preform analysis of search providers"      ]
     },
     {
       "job_title": "Principal Solutions Architect",
