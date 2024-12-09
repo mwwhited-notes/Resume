@@ -65,7 +65,7 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - Integrating fuzzy matching based on sentence transformers
 - Add support for vector distance calculations to SQL Server using SQLCLR
 - Migrate sematic fuzzy match into existing .Net service tier
-- Analyze proposed search engine integration.  Review responses for validity and business need
+- Analyze proposed search engine integration; review responses for validity and business need
 
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
 
