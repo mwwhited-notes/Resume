@@ -65,7 +65,7 @@ Custom microelectronics and software design, architecture, and engineering.
 ### Principal Solutions Architect - ERisk Services, Eliassen Group (November 2024 - Present)
 
 - Review, redesign and implment semantic search functionality
-- Extend Microsofft SQL Serv
+- Extend Microsoft SQL Server using SQL-CLR to 
 
 ### Principal Solutions Architect - Eliassen Group, formally Lightwell Inc (September 2015 - October 2024)
 
