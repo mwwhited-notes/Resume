@@ -60,12 +60,14 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems.
 - Responsibilities included application architecture, reverse engineering, performance tuning, and custom technical training.
 
-### Principal Solutions Architect - ERisk Services, Eliassen Group (November 2024 - Present)
+### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - Present)
 
 - Integrating fuzzy matching based on sentence transformers
 - Add support for vector distance calculations to SQL Server using SQLCLR
 - Migrate sematic fuzzy match into existing .Net service tier
+- Host sentence transformer (SBERT) based model in .Net application for fast/low latency text embedding
 - Analyze proposed search engine integration; review responses for validity and business need
+- Create modular Proof of Concept application for AI Agents/RAG with business application integration
 
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
 
