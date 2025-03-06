@@ -154,6 +154,9 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
   - Image similarity  search using Vision Transformer (ViT) embeddings and a vector store (Qdrant)
   - Use Large Language and Vision Assistant (LLaVA) based model to classify images
   - Text embeddings with Sentence Transformers (SBERT) and a vector store (Qdrant)
+- [Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)
+  - [Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors)
+  - This is an extensive collection of abstractions and extensions I've developed for dotnet.
   
 ## Profile Links
 
