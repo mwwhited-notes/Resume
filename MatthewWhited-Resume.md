@@ -24,6 +24,8 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **Version Control Systems:** TFS, SVN, GIT.
 - **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
 - **Machine Learning & Artificial Intelligence:** Sentence Transformers (SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI
+- **Vector/Semantic Search:** Vector distnance calculation, indexing (locality sensitive hashing [LSH] and random ball tree for approximate nearest neighboor search.)
+- **Analog Computer Research:** Understanding analog computation unit a and how they may be used to improve calculation performance and efficency.
 
 ### Architectural & Engineering Skills
 
@@ -59,6 +61,8 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - Focused on custom microelectronics and software design.
 - Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems.
 - Responsibilities included application architecture, reverse engineering, performance tuning, and custom technical training.
+- Custom framework design, database enhancement and queue processing.
+- Added Vector Search and Indexing to Microsoft SQL Server using SQLCLR.
 
 ### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - Present)
 
