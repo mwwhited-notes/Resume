@@ -24,8 +24,8 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **Version Control Systems:** TFS, SVN, GIT.
 - **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
 - **Machine Learning & Artificial Intelligence:** Sentence Transformers (SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI
-- **Vector/Semantic Search:** Vector distnance calculation, indexing (locality sensitive hashing [LSH] and random ball tree for approximate nearest neighboor search.)
-- **Analog Computer Research:** Understanding analog computation unit a and how they may be used to improve calculation performance and efficency.
+- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] and random ball tree for approximate nearest neighbor search.)
+- **Analog Computer Research:** Understanding analog computation unit a and how they may be used to improve calculation performance and efficiency.
 
 ### Architectural & Engineering Skills
 
@@ -52,7 +52,7 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **Software Development Life Cycle:** Review and improve software development lifecycle.
 - **Business Process Modeling:**  Review, document and automate business processes.
 - **Documentation & Communication:** Develop best practices, design documents, training materials and office communications.
-- **Presales & Sales Support:** Develop proof of concepts (PoC), Review technical requirements, Assient in client inerations as a Subject Matter Expert (SME)
+- **Presales & Sales Support:** Develop proof of concepts (PoC), Review technical requirements, assistance in client interactions as a Subject Matter Expert (SME)
 
 ## Work History
 
