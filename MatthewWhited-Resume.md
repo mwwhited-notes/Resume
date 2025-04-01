@@ -73,6 +73,12 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - Analyze proposed search engine integration; review responses for validity and business need
 - Create modular Proof of Concept application for AI Agents/RAG with business application integration
 
+### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (Feburary 2025 - Present)
+
+- Improve application performance
+- Review application cloud architecture and spend, reduced reoccurring costs by 75%
+- Remap/replace Third Party APIs
+
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
 
 - Full-time Solutions Architect and Centers of Excellence Lead for .Net.
