@@ -22,6 +22,7 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
 - **Machine Learning & Artificial Intelligence:** Embedding transformers, Language Models, AI Agents
 - **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] for approximate nearest neighbor [ANN] search.)
+- 
 
 ### Architectural & Engineering Skills
 

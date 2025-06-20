@@ -67,11 +67,12 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 ### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - Present)
 
 - Integrating fuzzy matching based on sentence transformers
-- Add support for vector distance calculations to SQL Server using SQLCLR
+- Added support for vector distance calculations to SQL Server using SQLCLR
 - Migrate sematic fuzzy match into existing .Net service tier
 - Host sentence transformer (SBERT) based model in .Net application for fast/low latency text embedding
 - Analyze proposed search engine integration; review responses for validity and business need
 - Create modular Proof of Concept application for AI Agents/RAG with business application integration
+- Dramatically improved query performance of embedding queries by adding locality-sensitive hashing (LSH) based indexes with Hamming Distance hash expansion.
 
 ### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (Feburary 2025 - Present)
 

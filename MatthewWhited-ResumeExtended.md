@@ -70,6 +70,7 @@ Custom microelectronics and software design, architecture, and engineering.
 - Host sentence transformer (SBERT) based model in .Net application for fast/low latency text embedding
 - Analyze proposed search engine integration; review responses for validity and business need
 - Create modular Proof of Concept application for AI Agents/RAG with business application integration
+- Dramatically improved query performance of embedding queries by adding locality-sensitive hashing (LSH) based indexes with Hamming Distance hash expansion.
 
 ### Principal Solutions Architect - Eliassen Group, formally Lightwell Inc (September 2015 - October 2024)
 
