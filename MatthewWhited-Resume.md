@@ -64,7 +64,7 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - Custom framework design, database enhancement and queue processing.
 - Added Vector Search and Indexing to Microsoft SQL Server using SQLCLR.
 
-### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - Present)
+### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - August 2025)
 
 - Integrating fuzzy matching based on sentence transformers
 - Added support for vector distance calculations to SQL Server using SQLCLR

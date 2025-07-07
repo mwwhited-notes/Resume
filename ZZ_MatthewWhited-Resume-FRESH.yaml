@@ -124,7 +124,7 @@ work_history:
 
   - role: "Principal Solutions Architect, specialized in AI"
     company: "ERisk Services, Eliassen Group"
-    dates: "November 2024 - Present"
+    dates: "November 2024 - August 2025"
     responsibilities:
       - "Integrating fuzzy matching based on sentence transformers"
       - "Add support for vector distance calculations to SQL Server using SQLCLR"

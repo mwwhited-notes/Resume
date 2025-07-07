@@ -62,7 +62,7 @@ Custom microelectronics and software design, architecture, and engineering.
 - Application code generation and validation
 - Training and mentoring best patterns and practices
 
-### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - Present)
+### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - August 2025)
 
 - Integrating fuzzy matching based on sentence transformers
 - Add support for vector distance calculations to SQL Server using SQLCLR
