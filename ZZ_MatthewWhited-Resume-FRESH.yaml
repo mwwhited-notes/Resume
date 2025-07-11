@@ -7,13 +7,12 @@ contact:
 
 summary: >
   Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, 
-  architecture, and technical leadership. Adept at designing and implementing complex systems, optimizing performance, 
-  and developing reusable frameworks to enhance team productivity and code quality. Proven expertise in a wide range 
-  of programming languages, databases, and cloud services, with a strong background in electronics and low-level 
-  programming. Demonstrated ability to lead and mentor development teams, establish best practices, and drive technical
-  innovation. Passionate about continuous learning, contributing to open-source projects, and staying at the forefront 
-  of emerging technologies. Seeking to leverage extensive technical skills and leadership experience to drive impactful 
-  solutions and foster a culture of excellence in software development.
+  architecture, and technical leadership. Proven open-source contributor with 20 NuGet packages (623K+ downloads), 
+  22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status. Expert in designing complex systems, 
+  optimizing performance, and developing reusable frameworks that enhance team productivity and code quality. 
+  Pioneered SQL Server vector search capabilities and maintains extensive embedded systems projects (194+ commits). 
+  Demonstrated ability to lead and mentor development teams, establish best practices, and drive technical innovation. 
+  Active community member with 16+ years of knowledge sharing and continuous learning.
 
 skills:
   technical:
@@ -234,25 +233,43 @@ education:
     dates: "1996 - 2000"
 
 personal_projects:
-  - name: "SignalR client for node.js"
-    url: "https://github.com/mwwhited-archives/signalr-client-nodejs"
-  - name: "Microcontrollers and electronics"
+  - name: "Extensions for .Net - 623K+ Downloads"
+    url: "https://github.com/OutOfBandDevelopment/dotex"
+    highlights:
+      - "20 NuGet packages with 623,552 total downloads"
+      - "BinaryDataDecoders.ToolKit: 36,270 downloads"
+      - "Vector Support for MS-SQL Server via SQLCLR"
+  - name: "Microcontrollers and Electronics - 194 Commits"
     url: "https://github.com/mwwhited/EmbeddedBakery"
     highlights:
-      - "Custom designed 16bit microprocessor"
-      - "Customized 3D printer/CNC router"
-  - name: "Extension framework for .Net"
+      - "Multi-language hardware projects: Verilog (30%), VHDL (21.9%), C/C++ (35.7%)"
+      - "Custom designed 16-bit microprocessor"
+      - "FPGA/CPLD projects and 3D printer/CNC router firmware"
+  - name: "Coding Challenges - Multi-Language Platform"
+    url: "https://github.com/mwwhited-forks/ChallengeAccepted"
+    highlights:
+      - "C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%)"
+      - "Community-driven learning platform"
+  - name: "Binary Data Processing Framework"
     url: "https://github.com/mwwhited/BinaryDataDecoders/"
     highlights:
-      - "Framework for building IO device and binary communication protocols"
+      - "Zero-allocation parsing using System.IO.Pipelines and Spans<>"
+      - "File formats: PKZip, TAR, ISO9660; Network protocols: Telnet, LDAP, SNTP"
   - name: "Hybrid Search Engine"
     url: "https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch"
     highlights:
-      - "Combines Full Text and Semantic Search with reranking"
+      - "Combines Full Text and Semantic Search with LLM reranking"
+      - "Self-hosted Large Language Model document summarization"
   - name: "Image Processing Framework"
     url: "https://github.com/mwwhited/SecondShooter"
     highlights:
-      - "AI/ML-based image analysis, cataloging, and similarity search"
+      - "AI/ML photography analysis with Vision Transformer (ViT) embeddings"
+      - "Image similarity search using vector store (Qdrant)"
+  - name: "Node.js Contributions"
+    url: "https://www.npmjs.com/~mwwhited"
+    highlights:
+      - "SignalR client for Node.js real-time communication"
+      - "BeagleBone toolkit and AutomationHub client packages"
 
 profile_links:
   - "https://github.com/mwwhited"

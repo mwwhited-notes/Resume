@@ -12,7 +12,7 @@ My career started with electronics and embedded systems, which taught me to thin
 
 ## What I'm Working On
 
-Currently, I'm deep into AI and machine learning integration, particularly around semantic search and vector databases. I've been building custom extensions for SQL Server to support vector operations and working with sentence transformers for fuzzy matching. It's fascinating how we can now make computers understand meaning, not just match text.
+Currently, I'm deep into AI and machine learning integration, particularly around semantic search and vector databases. I've built custom SQLCLR extensions for SQL Server that have been downloaded over 623,000 times across my 20 NuGet packages - it's incredibly rewarding to see the community adopting these tools. My vector search extensions are being used in production systems, and I'm working with sentence transformers for fuzzy matching. It's fascinating how we can now make computers understand meaning, not just match text.
 
 ## My Approach
 
@@ -24,6 +24,8 @@ I believe in:
 
 ## Beyond Work
 
-When I'm not coding, I'm often working on personal electronics projects - I've designed my own 16-bit microprocessor and built custom 3D printer firmware. I also enjoy photography and have been experimenting with AI-powered image analysis and cataloging systems.
+When I'm not coding, I'm often working on personal electronics projects - I've designed my own 16-bit microprocessor and built custom 3D printer firmware. My EmbeddedBakery repository has over 194 commits spanning Verilog, VHDL, and C/C++ projects. I also enjoy photography and have been experimenting with AI-powered image analysis and cataloging systems.
+
+I'm active in the developer community with 22,000+ reputation on Stack Overflow from 16+ years of helping fellow developers. I've been recognized as a GitHub Arctic Code Vault Contributor, which feels like a small part of preserving digital history.
 
 I'm always excited to connect with fellow technologists and discuss everything from FPGA design to the latest developments in transformer models.

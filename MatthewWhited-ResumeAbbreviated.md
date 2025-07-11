@@ -7,7 +7,7 @@
 
 ## Summary
 
-I am a highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have developed innovative frameworks, led professional development and mentorship programs, and am passionate about continuous learning. I actively contribute to open-source projects and stay at the forefront of emerging technologies.
+I am a highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have developed innovative frameworks, led professional development and mentorship programs, and am passionate about continuous learning. I am an active open-source contributor (623K+ NuGet downloads, 22K+ Stack Overflow reputation, GitHub Arctic Code Vault Contributor) and stay at the forefront of emerging technologies.
 
 ## Professional Skills
 
@@ -68,10 +68,10 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 
 ## Personal Projects
 
-- **[Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)** - Combine Full Text and Semantic Search with reranking and LLM summarization
-- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - Vector Support for MS-SQL Server and extensive .Net abstractions
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 20 NuGet packages, 623K+ downloads, SQL Server vector support
+- **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 194 commits, FPGA/VHDL projects, custom 16-bit microprocessor
+- **[Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)** - Full Text + Semantic Search with LLM reranking
 - **[Image Processing Framework](https://github.com/mwwhited/SecondShooter)** - AI/ML photography analysis with Vision Transformer embeddings
-- **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - Custom 16-bit microprocessor and 3D printer/CNC router
   
 ## Profile Links
 

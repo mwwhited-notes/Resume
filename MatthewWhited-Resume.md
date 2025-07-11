@@ -7,7 +7,7 @@
 
 ## Summary
 
-I am a highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have developed innovative frameworks, led professional development and mentorship programs, and am passionate about continuous learning. I actively contribute to open-source projects and stay at the forefront of emerging technologies.
+I am a highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have developed innovative frameworks, led professional development and mentorship programs, and am passionate about continuous learning. I am an active open-source contributor with 20 NuGet packages (623K+ downloads), Arctic Code Vault Contributor status on GitHub, and 22K+ reputation on Stack Overflow with 16+ years of community engagement.
 
 ## Professional Skills
 
@@ -147,27 +147,28 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
 
 ## Personal Projects
 
-- [Created a signalR client for node.js](https://github.com/mwwhited-archives/signalr-client-nodejs)
-- [Microcontrollers and electronics](https://github.com/mwwhited/EmbeddedBakery)
-  - Custom designed 16bit microprocessor
-  - customized 3D printer/CNC router.
-- [Extension framework for .Net](https://github.com/mwwhited/BinaryDataDecoders/)
-  - Custom framework for building IO device and other binary communication protocols using .Net Core. 
-    - Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
-  - Analyze and document source code, data files, databases, build results, test reports and any other data.
-  - Various file formats such as PKZip, TAR, and ISO9660
-  - Various network protocols such as Telnet, LDAP bindery and SNTP
-- [Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)
-  - Combine Full Text and Semantic Search with reranking
-  - Document summarization using self-hosted Large Languages Models (LLM)
-- [Image Processing Framework](https://github.com/mwwhited/SecondShooter)
-  - Use Artificial Intelligence (AI) / Machine Learning (ML) to analyze, catalog, search and process photography
-  - Image similarity  search using Vision Transformer (ViT) embeddings and a vector store (Qdrant)
-  - Use Large Language and Vision Assistant (LLaVA) based model to classify images
-  - Text embeddings with Sentence Transformers (SBERT) and a vector store (Qdrant)
-- [Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)
-  - [Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors)
-  - This is an extensive collection of abstractions and extensions I've developed for dotnet.
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 20 NuGet packages with 623K+ downloads
+  - [Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors) - SQLCLR vector operations
+  - [BinaryDataDecoders.ToolKit](https://www.nuget.org/packages/BinaryDataDecoders.ToolKit/) - 36K+ downloads
+  - Extensive collection of .NET abstractions and extensions
+- **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 194 commits, multi-language hardware projects
+  - Custom designed 16-bit microprocessor
+  - FPGA/CPLD projects in Verilog (30%), VHDL (21.9%), C/C++ (35.7%)
+  - Customized 3D printer/CNC router
+- **[Binary Data Processing Framework](https://github.com/mwwhited/BinaryDataDecoders/)**
+  - Zero-allocation parsing using System.IO.Pipelines and Spans<>
+  - File formats: PKZip, TAR, ISO9660
+  - Network protocols: Telnet, LDAP, SNTP
+- **[Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)**
+  - Combines Full Text and Semantic Search with LLM reranking
+  - Self-hosted Large Language Model document summarization
+- **[Image Processing Framework](https://github.com/mwwhited/SecondShooter)**
+  - AI/ML photography analysis with Vision Transformer (ViT) embeddings
+  - Image similarity search using vector store (Qdrant)
+  - Large Language and Vision Assistant (LLaVA) image classification
+- **[Coding Challenges](https://github.com/mwwhited-forks/ChallengeAccepted)** - Multi-language learning platform
+  - Implementations in C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%)
+- **[SignalR Client for Node.js](https://github.com/mwwhited-archives/signalr-client-nodejs)** - NPM package
   
 ## Profile Links
 

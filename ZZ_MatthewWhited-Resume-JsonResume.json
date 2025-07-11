@@ -5,7 +5,7 @@
     "label": "Principal Solutions Architect",
     "email": "matt@whited.us",
     "phone": "+1 (614) 989-1748",
-    "summary": "Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have developed innovative frameworks, led professional development and mentorship programs, and am passionate about continuous learning. I actively contribute to open-source projects and stay at the forefront of emerging technologies.",
+    "summary": "Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. Proven open-source contributor with 20 NuGet packages (623K+ downloads), 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have pioneered SQL Server vector search capabilities and maintain extensive embedded systems projects with 194+ commits.",
     "location": {
       "city": "Baltimore",
       "region": "MD",
@@ -341,6 +341,48 @@
   ],
   "projects": [
     {
+      "name": "Extensions for .Net - 623K+ Downloads",
+      "url": "https://github.com/OutOfBandDevelopment/dotex",
+      "description": "20 NuGet packages with 623,552 total downloads. Vector Support for MS-SQL Server via SQLCLR and extensive .NET abstractions. Top packages: BinaryDataDecoders.ToolKit (36K+ downloads).",
+      "keywords": [
+        "Vector Search",
+        "SQL Server",
+        "SQLCLR",
+        ".NET Extensions",
+        "NuGet Packages",
+        "623K Downloads"
+      ]
+    },
+    {
+      "name": "Microcontrollers and Electronics - 194 Commits",
+      "url": "https://github.com/mwwhited/EmbeddedBakery",
+      "description": "Multi-language hardware projects with 194 commits. Technologies: Verilog (30%), VHDL (21.9%), C/C++ (35.7%). Custom 16-bit microprocessor design and FPGA/CPLD projects.",
+      "keywords": [
+        "Microcontrollers",
+        "FPGA",
+        "VHDL",
+        "Verilog",
+        "Embedded Systems",
+        "Hardware Design",
+        "194 Commits"
+      ]
+    },
+    {
+      "name": "Coding Challenges - Multi-Language Platform",
+      "url": "https://github.com/mwwhited-forks/ChallengeAccepted",
+      "description": "Community-driven coding challenge platform with implementations in C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%). Open to community contributions.",
+      "keywords": [
+        "Coding Challenges",
+        "Multi-Language",
+        "C#",
+        "F#",
+        "Rust",
+        "Java",
+        "Python",
+        "Community"
+      ]
+    },
+    {
       "name": "Hybrid Search Engine",
       "url": "https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch",
       "description": "Combine Full Text and Semantic Search with reranking and document summarization using self-hosted Large Language Models (LLM)",
@@ -349,17 +391,6 @@
         "Full Text Search",
         "LLM",
         "Reranking"
-      ]
-    },
-    {
-      "name": "Extensions for .Net",
-      "url": "https://github.com/OutOfBandDevelopment/dotex",
-      "description": "Vector Support for MS-SQL Server and extensive collection of abstractions and extensions for .NET",
-      "keywords": [
-        "Vector Search",
-        "SQL Server",
-        "SQLCLR",
-        ".NET Extensions"
       ]
     },
     {

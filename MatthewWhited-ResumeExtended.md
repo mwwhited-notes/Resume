@@ -307,12 +307,30 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
   - custom framework for building IO device and other binary communication protocols using .Net Core. 
     - Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
   - Analyze and document source code, data files, databases, build results, test reports and any other data.
-- [Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 20 NuGet packages, 623,552 total downloads
+  - [Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors) - SQLCLR vector operations
+  - [BinaryDataDecoders.ToolKit](https://www.nuget.org/packages/BinaryDataDecoders.ToolKit/) - 36,270 downloads
+  - [BinaryDataDecoders.Xslt.Cli](https://www.nuget.org/packages/BinaryDataDecoders.Xslt.Cli/) - 34,726 downloads
+  - [BinaryDataDecoders.IO.Abstractions](https://www.nuget.org/packages/BinaryDataDecoders.IO.Abstractions/) - 34,004 downloads
+- **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 194 commits, multi-platform hardware projects
+  - Custom designed 16-bit microprocessor using SystemVerilog
+  - FPGA projects: Verilog (30%), VHDL (21.9%), C (17.9%), C++ (17.8%)
+  - Customized 3D printer/CNC router firmware
+- **[Coding Challenges](https://github.com/mwwhited-forks/ChallengeAccepted)** - Multi-language learning platform
+  - C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%), community contributions
+- **[Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)**
   - Combine Full Text and Semantic Search with reranking
   - Document summarization using self-hosted Large Languages Models (LLM)
-- Custom extension for SQL Support to vector search based queries
-- [Image Processing Framework](https://github.com/mwwhited/SecondShooter)
-  - Use Artificial Intelligence (AI) / Machine Learning (ML) to analyze, catalog, search and process photography
-  - Image similarity  search using Vision Transformer (ViT) embeddings and a vector store (Qdrant)
-  - Use Large Language and Vision Assistant (LLaVA) based model to classify images
-  - Text embeddings with Sentence Transformers (SBERT) and a vector store (Qdrant)
+- **[Image Processing Framework](https://github.com/mwwhited/SecondShooter)**
+  - AI/ML photography analysis, cataloging, and similarity search
+  - Image similarity search using Vision Transformer (ViT) embeddings and vector store (Qdrant)
+  - Large Language and Vision Assistant (LLaVA) based image classification
+  - Text embeddings with Sentence Transformers (SBERT) and vector store (Qdrant)
+- **[Binary Data Processing Framework](https://github.com/mwwhited/BinaryDataDecoders/)**
+  - Zero-allocation parsing using System.IO.Pipelines and Spans<> for high-performance processing
+  - File format support: PKZip, TAR, ISO9660
+  - Network protocol implementations: Telnet, LDAP bindery, SNTP
+- **[Node.js Contributions](https://www.npmjs.com/~mwwhited)**
+  - [SignalR Client for Node.js](https://github.com/mwwhited-archives/signalr-client-nodejs) - Real-time communication
+  - BeagleBone toolkit - Simplified embedded Linux interfaces
+  - AutomationHub client - Industrial automation integration
