@@ -8,6 +8,8 @@
   - [Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)
     - [Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors)
   - [Public Notebook](https://github.com/mwwhited-notes/shared)
+  - [Out of Band Development - Repositories](https://github.com/orgs/OutOfBandDevelopment/repositories)
+  - [Personal Repositories](https://github.com/mwwhited?tab=repositories)
 - [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
 - [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
 - [NPM](https://www.npmjs.com/~mwwhited)
