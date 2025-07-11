@@ -10,9 +10,11 @@ summary: >
   architecture, and technical leadership. Proven open-source contributor with 20 NuGet packages (623K+ downloads), 
   22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status. Expert in designing complex systems, 
   optimizing performance, and developing reusable frameworks that enhance team productivity and code quality. 
-  Pioneered SQL Server vector search capabilities and maintains extensive embedded systems projects (194+ commits). 
-  Demonstrated ability to lead and mentor development teams, establish best practices, and drive technical innovation. 
-  Active community member with 16+ years of knowledge sharing and continuous learning.
+  Technical innovations include custom SQL Server vector extensions via SQLCLR with mathematical operations, 
+  complete 16-bit microprocessor design with SystemVerilog and Python assembler, and production AI/ML infrastructure 
+  with containerized services. Maintains extensive embedded systems projects (194+ commits) and research notebooks 
+  with custom LSH algorithm implementations. Demonstrated ability to lead and mentor development teams, establish 
+  best practices, and drive technical innovation. Active community member with 16+ years of knowledge sharing and continuous learning.
 
 skills:
   technical:
@@ -109,10 +111,16 @@ skills:
     - "OpenAI"
     - "Ollama"
     - "OpenWeb-UI"
+    - "Vision Transformers (ViT)"
+    - "FAISS vector databases"
+    - "Qdrant"
   vector_semantic_search:
     - "Vector distance calculation"
     - "Locality sensitive hashing (LSH)"
     - "Random ball tree for approximate nearest neighbor search"
+    - "Custom LSH implementations with performance benchmarking"
+    - "Hybrid search engines combining semantic and keyword matching"
+    - "Production ML infrastructure with Docker orchestration"
   analog_computer_research:
     - "Understanding analog computation units"
     - "Improving calculation performance and efficiency"
@@ -130,6 +138,12 @@ skills:
     - "Documentation & Communication"
     - "Presales & Sales Support"
     - "Application Design & Analysis"
+    - "Custom microprocessor design (16-bit CPU with SystemVerilog)"
+    - "VHDL component libraries and digital logic design"
+    - "Zero-allocation .NET programming with System.IO.Pipelines"
+    - "Binary protocol implementations and parsing frameworks"
+    - "Computer science fundamentals (BK-trees, CPU emulation)"
+    - "Production containerized ML services with health monitoring"
 
 work_history:
   - role: "Chief Solutions Architect"

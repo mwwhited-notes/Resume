@@ -7,7 +7,7 @@
 
 ## Summary
 
-I am a highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have developed innovative frameworks, led professional development and mentorship programs, and am passionate about continuous learning. I am an active open-source contributor (623K+ NuGet downloads, 22K+ Stack Overflow reputation, GitHub Arctic Code Vault Contributor) and stay at the forefront of emerging technologies.
+I am a highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have developed innovative frameworks, led professional development and mentorship programs, and am passionate about continuous learning. I am an active open-source contributor (623K+ NuGet downloads, 22K+ Stack Overflow reputation, GitHub Arctic Code Vault Contributor) and stay at the forefront of emerging technologies. My technical innovations include custom SQL Server vector extensions via SQLCLR, complete 16-bit microprocessor design, and production AI/ML infrastructure.
 
 ## Professional Skills
 
@@ -17,12 +17,12 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch.
 - **Cloud Services:** Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka, Container Apps.
 - **Frameworks & Libraries:** SignalR, Socket IO, React, Angular, EF Core, MSTest.
-- **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes, CLI tools
+- **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes, CLI tools, SystemVerilog, VHDL
 - **Team Management Tools:** Microsoft Project, Azure DevOps, JIRA, Confluence, Sharepoint, Microsoft Teams, Slack, Discord, GitHub
 - **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
-- **Machine Learning & Artificial Intelligence:** Sentence Transformers (SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI
-- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] and random ball tree for approximate nearest neighbor search)
-- **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA
+- **Machine Learning & Artificial Intelligence:** Sentence Transformers (SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI, ViT, FAISS, Qdrant
+- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] and random ball tree for approximate nearest neighbor search), custom algorithm implementations, hybrid search engines
+- **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA, Custom 16-bit microprocessor design
 - **Agile Methodologies:** Scrum, Kanban, XP
 - **Version Control Systems:** TFS, SVN, GIT
 - **Analog Computer Research:** Understanding analog computation units and how they may be used to improve calculation performance and efficiency

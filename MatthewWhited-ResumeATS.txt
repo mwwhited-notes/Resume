@@ -11,18 +11,19 @@ Stack Overflow: http://stackoverflow.com/users/89586/matthew-whited
 
 PROFESSIONAL SUMMARY
 
-Principal Solutions Architect with 20+ years expertise in software development, architecture, and technical leadership. Proven open-source contributor with 20 NuGet packages (623K+ downloads), 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status. Expert in designing complex systems, optimizing performance, and developing reusable frameworks. Pioneered SQL Server vector search capabilities and maintains extensive embedded systems projects (194+ commits). Achieved 75% cost reduction in cloud architecture optimization projects.
+Principal Solutions Architect with 20+ years expertise in software development, architecture, and technical leadership. Proven open-source contributor with 20 NuGet packages (623K+ downloads), 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status. Expert in designing complex systems, optimizing performance, and developing reusable frameworks. Technical innovations include custom SQL Server vector extensions via SQLCLR with mathematical operations, complete 16-bit microprocessor design with SystemVerilog, and production AI/ML infrastructure with containerized services. Pioneered SQL Server vector search capabilities and maintains extensive embedded systems projects (194+ commits). Achieved 75% cost reduction in cloud architecture optimization projects.
 
 CORE COMPETENCIES
 
 Programming Languages: .NET/C#, JavaScript/TypeScript, Java, Go, Python, C, C++, ASP.Net MVC, WPF, Node.js, HTML, CSS
+Hardware Description Languages: SystemVerilog, VHDL
 Databases: Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch
 Cloud Services: Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka, Container Apps
 Frameworks & Libraries: SignalR, Socket IO, React, Angular, EF Core, MSTest
 Development Tools: ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes
-Embedded Systems: Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA
-Machine Learning & AI: Sentence Transformers (SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI
-Vector/Semantic Search: Vector distance calculation, locality sensitive hashing (LSH), random ball tree for approximate nearest neighbor search
+Embedded Systems: Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA, Custom microprocessor design (16-bit CPU with 5-stage pipeline)
+Machine Learning & AI: Sentence Transformers (SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI, Vision Transformers (ViT), FAISS vector databases, Qdrant
+Vector/Semantic Search: Vector distance calculation, locality sensitive hashing (LSH), random ball tree for approximate nearest neighbor search, custom LSH implementations, hybrid search engines, production ML infrastructure with Docker orchestration
 Team Management Tools: Microsoft Project, Azure DevOps, JIRA, Confluence, SharePoint, Microsoft Teams, Slack, Discord, GitHub
 Version Control Systems: TFS, SVN, GIT
 DevOps Practices: Azure Pipelines, GitHub Actions, Local scripting, Build Automation
@@ -37,7 +38,7 @@ March 2015 - Present
 - Focus on custom microelectronics and software design, architecture, and engineering
 - Application architecture, reverse engineering, performance tuning, and custom technical training
 - Custom framework design, database enhancement and queue processing
-- Added Vector Search and Indexing to Microsoft SQL Server using SQLCLR
+- Added Vector Search and Indexing to Microsoft SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations and binary serialization
 - Developed 20 NuGet packages with 623K+ total downloads
 
 Principal Solutions Architect
@@ -51,12 +52,12 @@ Principal Solutions Architect, specialized in AI
 ERisk Services, Eliassen Group
 November 2024 - August 2025
 - Integrate fuzzy matching based on sentence transformers
-- Add support for vector distance calculations to SQL Server using SQLCLR
+- Add support for vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations and binary serialization
 - Migrate semantic fuzzy match into existing .Net service tier
 - Host sentence transformer (SBERT) based model in .Net application for fast/low latency text embedding
 - Analyze proposed search engine integration and review responses for validity and business need
 - Create modular Proof of Concept application for AI Agents/RAG with business application integration
-- Dramatically improved query performance of embedding queries by adding locality-sensitive hashing (LSH) based indexes with Hamming Distance hash expansion
+- Dramatically improved query performance of embedding queries by adding locality-sensitive hashing (LSH) based indexes with Hamming Distance hash expansion and custom algorithm implementations
 
 Principal Solutions Architect
 Eliassen Group
@@ -129,37 +130,41 @@ OPEN SOURCE CONTRIBUTIONS AND PROJECTS
 Extensions for .Net - 623K+ Downloads
 GitHub: https://github.com/OutOfBandDevelopment/dotex
 - 20 NuGet packages with 623,552 total downloads
-- Vector Support for MS-SQL Server via SQLCLR
+- Vector Support for MS-SQL Server via SQLCLR with custom SqlVector/SqlVectorF types, mathematical operations, binary serialization, and distance aggregation functions
 - BinaryDataDecoders.ToolKit: 36,270 downloads
-- Extensive collection of .NET abstractions and extensions
+- Extensive collection of .NET abstractions and extensions with professional CI/CD
 
 Microcontrollers and Electronics - 194 Commits
 GitHub: https://github.com/mwwhited/EmbeddedBakery
 - Multi-language hardware projects: Verilog (30%), VHDL (21.9%), C/C++ (35.7%)
-- Custom designed 16-bit microprocessor
+- Custom designed 16-bit microprocessor (MW16C) in SystemVerilog with 5-stage pipeline, 30+ custom instructions, and Python assembler
+- Comprehensive VHDL component library including ALU, memory elements, decoders, multiplexers
 - FPGA/CPLD projects and 3D printer/CNC router
 
-Binary Data Processing Framework
+Binary Data Processing Framework - 438 Commits
 GitHub: https://github.com/mwwhited/BinaryDataDecoders/
-- Zero-allocation parsing using System.IO.Pipelines and Spans
-- File formats: PKZip, TAR, ISO9660
-- Network protocols: Telnet, LDAP, SNTP
+- Zero-allocation parsing using System.IO.Pipelines and Memory<T> with async/await patterns
+- Multiple format support: PKZip, TAR, ISO9660, Telnet, LDAP, SNTP
+- Enterprise-grade quality with comprehensive testing and error handling
 
-Hybrid Search Engine
-GitHub: https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch
-- Combines Full Text and Semantic Search with LLM reranking
-- Self-hosted Large Language Model document summarization
+AI/ML Research Notebooks - 88.7% Jupyter Notebooks
+GitHub: https://github.com/mwwhited-notes/shared
+- Custom LSH implementation for approximate nearest neighbor search with performance benchmarking
+- Production hybrid search engine combining semantic similarity with keyword matching using FAISS
+- Algorithm research including Hamming distance optimization and vector quantization
 
 Image Processing Framework
 GitHub: https://github.com/mwwhited/SecondShooter
-- AI/ML photography analysis with Vision Transformer (ViT) embeddings
-- Image similarity search using vector store (Qdrant)
-- Large Language and Vision Assistant (LLaVA) image classification
+- Production AI/ML infrastructure with Docker orchestration (SBERT, ViT, Ollama, Qdrant)
+- RAW image format support (NEF, CR2, ARW, DNG) for professional photography workflows
+- Custom MIT NON-AI licensing demonstrating legal/ethical AI awareness
+- Microservices architecture with health monitoring and OpenAPI compatibility
 
-Coding Challenges - Multi-Language Platform
+Coding Challenges - Multi-Language Educational Platform (25+ challenges)
 GitHub: https://github.com/mwwhited-forks/ChallengeAccepted
-- Implementations in C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%)
-- Community-driven learning platform
+- Professional implementations in C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%)
+- Advanced computer science implementations including CARDIAC CPU emulator and BK-tree spell checker
+- Cross-language consistency with language-specific idioms and comprehensive testing
 
 SignalR Client for Node.js
 GitHub: https://github.com/mwwhited-archives/signalr-client-nodejs

@@ -24,7 +24,7 @@ robotic devices and photography.
 
 ### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
 
-Custom microelectronics and software design, architecture, and engineering.
+Custom microelectronics and software design, architecture, and engineering. Custom framework design, database enhancement and queue processing. Added Vector Search and Indexing to Microsoft SQL Server using SQLCLR.
 
 #### Programming Languages/Platforms
 
@@ -32,7 +32,7 @@ Custom microelectronics and software design, architecture, and engineering.
 - **JavaScript/TypeScript:** Node.JS, Knockout.JS, jQuery, Angular.js, Angular.io, HTML, CSS
 - **Other Languages:** Java (JDK21), Go, Python, C, C++
 - **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch
-- **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA
+- **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA, Custom microprocessor design (16-bit CPU with SystemVerilog), VHDL component libraries
 - **Cloud/Queuing:** Azure Service Bus, Service Broker, MSMQ, RabbitMQ, Kafka, AWS SQS
 - **Platforms:** Windows, Linux, Xamarin (Windows, iOS, Android)
 

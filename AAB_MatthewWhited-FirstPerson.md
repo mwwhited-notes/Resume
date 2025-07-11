@@ -25,7 +25,7 @@ I believe in:
 
 ## Beyond Work
 
-When I'm not coding, I'm often working on personal electronics projects - I've designed my own 16-bit microprocessor and built custom 3D printer firmware. My EmbeddedBakery repository has over 194 commits spanning Verilog, VHDL, and C/C++ projects. I also enjoy photography and have been experimenting with AI-powered image analysis and cataloging systems.
+When I'm not coding, I'm often working on personal electronics projects - I've designed my own complete 16-bit microprocessor (MW16C) in SystemVerilog with a 5-stage pipeline, 30+ custom instructions, and a Python assembler. My EmbeddedBakery repository has over 194 commits spanning comprehensive VHDL component libraries, SystemVerilog CPU implementations, and embedded C/C++ projects. I also enjoy photography and have been experimenting with AI-powered image analysis and cataloging systems using production ML infrastructure with Docker orchestration (SBERT, ViT, Ollama, Qdrant).
 
 I'm active in the developer community with 22,000+ reputation on Stack Overflow from 16+ years of helping fellow developers. I've been recognized as a GitHub Arctic Code Vault Contributor, which feels like a small part of preserving digital history.
 
