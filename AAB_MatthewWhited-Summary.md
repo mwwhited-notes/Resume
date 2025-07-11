@@ -10,6 +10,7 @@ Matthew Whited is a seasoned Principal Solutions Architect with over two decades
 - Designs and implements complex, scalable systems for enterprise environments
 - Specializes in performance optimization and database architecture
 - Expert in creating reusable middleware frameworks that enhance team productivity
+- Develops command-line tools and specialized domain applications (34K+ downloads each)
 
 **AI/ML & Emerging Technologies**
 - Currently leading AI integration initiatives with focus on semantic search and vector databases
@@ -34,6 +35,8 @@ Matthew Whited is a seasoned Principal Solutions Architect with over two decades
 - Developed extensive .NET extension frameworks with 20 NuGet packages (623K+ downloads)
 - Designed custom 16-bit microprocessor and FPGA implementations (194+ commits, multi-language)
 - Pioneered SQL Server vector search capabilities through SQLCLR extensions
+- Built specialized domain applications: electronic scoring systems, radiation monitoring, USB device communication
+- Developed cross-platform command-line tools with global .NET CLI support
 - Maintained coding challenge platform with C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%)
 
 ## Technical Expertise

@@ -330,7 +330,7 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
   - Zero-allocation parsing using System.IO.Pipelines and Spans<> for high-performance processing
   - File format support: PKZip, TAR, ISO9660
   - Network protocol implementations: Telnet, LDAP bindery, SNTP
-- **[Node.js Contributions](https://www.npmjs.com/~mwwhited)**
+- **[Command-Line Tools and Utilities](https://www.nuget.org/profiles/mwwhited/)**\n  - [BinaryDataDecoders.Xslt.Cli](https://www.nuget.org/packages/BinaryDataDecoders.Xslt.Cli/) - 34,726 downloads, XSLT processing CLI tool\n  - [BinaryDataDecoders.IO.Abstractions](https://www.nuget.org/packages/BinaryDataDecoders.IO.Abstractions/) - 34,004 downloads, I/O abstractions\n  - Global and local .NET CLI tool support, cross-platform compatibility\n- **[Specialized Domain Applications](https://www.nuget.org/profiles/mwwhited/)**\n  - ElectronicScoringMachines.Fencing - Electronic scoring system integration\n  - Quarta.RadexOne - Radiation monitoring device communication\n  - USB HID device abstractions and communication protocols\n- **[Node.js Contributions](https://www.npmjs.com/~mwwhited)**
   - [SignalR Client for Node.js](https://github.com/mwwhited-archives/signalr-client-nodejs) - Real-time communication
   - BeagleBone toolkit - Simplified embedded Linux interfaces
   - AutomationHub client - Industrial automation integration

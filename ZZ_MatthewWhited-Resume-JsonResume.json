@@ -262,7 +262,9 @@
         "DacFX",
         "ASP.Net Core Extensions",
         "Docker",
-        "Kubernetes"
+        "Kubernetes",
+        "Command-line tools",
+        "XSLT CLI"
       ]
     },
     {
@@ -424,6 +426,32 @@
         "Zero Allocation",
         "System.IO.Pipelines",
         "Protocol Analysis"
+      ]
+    },
+    {
+      "name": "Command-Line Tools and Utilities",
+      "url": "https://www.nuget.org/profiles/mwwhited/",
+      "description": "XSLT CLI tool with 34,726 downloads and I/O abstractions with 34,004 downloads. Global and local .NET CLI tool support with cross-platform compatibility.",
+      "keywords": [
+        "Command-line tools",
+        "XSLT",
+        "CLI",
+        "I/O Abstractions",
+        "Cross-platform",
+        "34K Downloads"
+      ]
+    },
+    {
+      "name": "Specialized Domain Applications",
+      "url": "https://www.nuget.org/profiles/mwwhited/",
+      "description": "Electronic scoring system integration for fencing, radiation monitoring device communication (Quarta.RadexOne), and USB HID device abstractions.",
+      "keywords": [
+        "Electronic Scoring",
+        "Fencing",
+        "Radiation Monitoring",
+        "USB HID",
+        "Device Communication",
+        "Specialized Hardware"
       ]
     },
     {

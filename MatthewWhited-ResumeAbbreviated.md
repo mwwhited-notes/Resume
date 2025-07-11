@@ -17,7 +17,7 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch.
 - **Cloud Services:** Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka, Container Apps.
 - **Frameworks & Libraries:** SignalR, Socket IO, React, Angular, EF Core, MSTest.
-- **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes
+- **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes, CLI tools
 - **Team Management Tools:** Microsoft Project, Azure DevOps, JIRA, Confluence, Sharepoint, Microsoft Teams, Slack, Discord, GitHub
 - **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
 - **Machine Learning & Artificial Intelligence:** Sentence Transformers (SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI
@@ -45,6 +45,9 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 
 - **Network Communication:** Network protocols, communication services, and reverse engineering
 - **AI & Machine Learning:** Implementing models for search and data embedding
+- **Device Communication:** USB HIDs, electronic scoring systems, specialized hardware interfaces
+- **Command-Line Tools:** CLI application development, global .NET tools
+- **Specialized Domains:** Electronic scoring, radiation monitoring, multi-platform I/O
 - **Reverse Engineering:** Decoding and re-implementing protocols, and software reverse engineering
 - **Compilers & DSLs:** Designing and implementing domain-specific languages and custom compilers
 - **Optimization & Upgrades:** Review and improve existing applications

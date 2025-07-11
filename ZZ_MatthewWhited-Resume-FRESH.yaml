@@ -57,6 +57,7 @@ skills:
       - "ASP.Net Core Extensions"
       - "Docker"
       - "Kubernetes"
+      - "Command-line tools (XSLT CLI)"
     embedded_systems:
       - "Arduino"
       - "Beaglebone Black"
@@ -118,6 +119,9 @@ skills:
   specialized_knowledge:
     - "Network Communication"
     - "Electronic Interfaces"
+    - "Device Communication (USB HIDs, Electronic Scoring Systems)"
+    - "Command-Line Tools Development"
+    - "Specialized Domains (Fencing, Radiation Monitoring)"
     - "Reverse Engineering"
     - "Compilers & DSLs"
     - "Optimization & Upgrades"

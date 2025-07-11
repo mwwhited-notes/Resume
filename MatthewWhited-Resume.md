@@ -17,7 +17,7 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch.
 - **Cloud Services:** Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka, Container Apps.
 - **Frameworks & Libraries:** SignalR, Socket IO, React, Angular, EF Core, MSTest.
-- **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes.
+- **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes, Command-line tools (XSLT CLI).
 - **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA.
 - **Agile Methodologies:** Scrum, Kanban, XP.
 - **Team Management Tools:** Microsoft Project, Azure DevOps, JIRA, Confluence, Sharepoint, Microsoft Teams, Slack, Discord, Github
@@ -46,6 +46,9 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **Network Communication:** Expertise in network protocols, communication services, and reverse engineering serial/network protocols.
 - **Electronic Interfaces:** Boolean logic, microcontrollers, digital logic, and gate arrays.
 - **AI & Machine Learning:** Implementing AI/ML models for search engines, data embedding, and vector search.
+- **Device Communication:** USB HIDs, electronic scoring systems, radiation monitoring devices (Quarta.RadexOne).
+- **Command-Line Tools:** Development of CLI applications and global .NET tools (34K+ downloads).
+- **Specialized Domains:** Electronic scoring machines for fencing, radiation detection systems, multi-platform I/O abstractions.
 - **Reverse Engineering:** Decoding and re-implementing protocols, and software reverse engineering.
 - **Compilers & DSLs:** Designing and implementing domain-specific languages and custom compilers.
 - **Optimization & Upgrades:** Review and improve existing applications.

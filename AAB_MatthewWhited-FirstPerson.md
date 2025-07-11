@@ -12,14 +12,15 @@ My career started with electronics and embedded systems, which taught me to thin
 
 ## What I'm Working On
 
-Currently, I'm deep into AI and machine learning integration, particularly around semantic search and vector databases. I've built custom SQLCLR extensions for SQL Server that have been downloaded over 623,000 times across my 20 NuGet packages - it's incredibly rewarding to see the community adopting these tools. My vector search extensions are being used in production systems, and I'm working with sentence transformers for fuzzy matching. It's fascinating how we can now make computers understand meaning, not just match text.
+Currently, I'm deep into AI and machine learning integration, particularly around semantic search and vector databases. I've built custom SQLCLR extensions for SQL Server that have been downloaded over 623,000 times across my 20 NuGet packages - it's incredibly rewarding to see the community adopting these tools. My command-line tools alone have over 34,000 downloads each, and I've developed specialized libraries for everything from electronic scoring systems in fencing to radiation monitoring devices. My vector search extensions are being used in production systems, and I'm working with sentence transformers for fuzzy matching. It's fascinating how we can now make computers understand meaning, not just match text.
 
 ## My Approach
 
 I believe in:
 - **Building for the long term** - Creating frameworks and patterns that teams can build on
 - **Teaching while doing** - I've run .NET boot camps and AI training programs because knowledge sharing is crucial
-- **Getting my hands dirty** - Whether it's reverse engineering protocols or debugging embedded firmware, I'm not afraid to dive deep
+- **Getting my hands dirty** - Whether it's developing USB HID device abstractions or debugging embedded firmware, I'm not afraid to dive deep
+- **Solving niche problems** - From electronic scoring systems to radiation monitoring, I enjoy tackling specialized technical challenges
 - **Continuous learning** - Technology evolves rapidly, and staying curious is essential
 
 ## Beyond Work
