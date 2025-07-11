@@ -1,7 +1,7 @@
 name: Matthew Whited
 contact:
   email: "matt@whited.us"
-  phone: "+16149891748"
+  phone: "+1 (614) 989-1748"
   location: "Baltimore, MD"
   work_preference: "Remote / Full-Time"
 
@@ -19,7 +19,7 @@ skills:
   technical:
     programming_languages:
       - ".Net/C#"
-      - "Javascript/Typescript"
+      - "JavaScript/TypeScript"
       - "Java"
       - "Go"
       - "Python"
@@ -80,7 +80,7 @@ skills:
       - "Microsoft Teams"
       - "Slack"
       - "Discord"
-      - "Github"
+      - "GitHub"
     version_control:
       - "TFS"
       - "SVN"
@@ -100,10 +100,25 @@ skills:
     - "Training & Development"
     - "Project Management"
     - "Code Reviews"
+  machine_learning_ai:
+    - "Sentence Transformers (SBERT)"
+    - "HuggingFace"
+    - "ONNX"
+    - "TensorFlow"
+    - "Groq"
+    - "OpenAI"
+    - "Ollama"
+    - "OpenWeb-UI"
+  vector_semantic_search:
+    - "Vector distance calculation"
+    - "Locality sensitive hashing (LSH)"
+    - "Random ball tree for approximate nearest neighbor search"
+  analog_computer_research:
+    - "Understanding analog computation units"
+    - "Improving calculation performance and efficiency"
   specialized_knowledge:
     - "Network Communication"
     - "Electronic Interfaces"
-    - "AI & Machine Learning"
     - "Reverse Engineering"
     - "Compilers & DSLs"
     - "Optimization & Upgrades"
@@ -121,6 +136,16 @@ work_history:
       - "Focused on custom microelectronics and software design."
       - "Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems."
       - "Responsibilities included application architecture, reverse engineering, performance tuning, and custom technical training."
+      - "Custom framework design, database enhancement and queue processing."
+      - "Added Vector Search and Indexing to Microsoft SQL Server using SQLCLR."
+
+  - role: "Principal Solutions Architect"
+    company: "Green Onion (Life Time Foundation), Eliassen Group"
+    dates: "February 2025 - Present"
+    responsibilities:
+      - "Improve application performance"
+      - "Review application cloud architecture and spend, reduced reoccurring costs by 75%"
+      - "Remap/replace Third Party APIs"
 
   - role: "Principal Solutions Architect, specialized in AI"
     company: "ERisk Services, Eliassen Group"
@@ -237,4 +262,4 @@ profile_links:
   - "https://www.nuget.org/profiles/mwwhited/"
   - "http://www.flickr.com/photos/mwwhited/"
   - "https://www.linkedin.com/in/mwwhited/"
-  - "https://matthewwhited.com
+  - "https://matthewwhited.com"

@@ -1,7 +1,7 @@
 # Matthew Whited
 
-- [email](mailto:matt@whited.us)
-- [cell](tel:+16149891748)
+- **Email:** [matt@whited.us](mailto:matt@whited.us)
+- **Phone:** [+1 (614) 989-1748](tel:+16149891748)
 - **Location:** Baltimore, MD
 - **Work Preference:** Remote / Full-Time
 
@@ -28,18 +28,13 @@ Custom microelectronics and software design, architecture, and engineering.
 
 #### Programming Languages/Platforms
 
-- .Net, C#, .Net Standard
-- ASP.Net MVC, WPF, Windows Services, Windows Universal, EF, .Net Core
-- Databases; Microsoft SQL Server, MySQL
-- Queuing; Service Broker, MSMQ
-- JavaScript, HTML, CSS
-- Node.JS, Knockout.JS, jQuery, angular.js, angular.io
-- C, C++
-- Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32
-- Windows, Linux
-- Xamarin (Windows, iOS, Android)
-- .Net Core on Linux/Raspberry Pi
-- Java, JDK21, JVM
+- **.Net/C#:** .Net Standard, ASP.Net MVC, WPF, Windows Services, Windows Universal, EF Core, .Net Core
+- **JavaScript/TypeScript:** Node.JS, Knockout.JS, jQuery, Angular.js, Angular.io, HTML, CSS
+- **Other Languages:** Java (JDK21), Go, Python, C, C++
+- **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch
+- **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA
+- **Cloud/Queuing:** Azure Service Bus, Service Broker, MSMQ, RabbitMQ, Kafka, AWS SQS
+- **Platforms:** Windows, Linux, Xamarin (Windows, iOS, Android)
 
 #### Other Duties
 
@@ -281,15 +276,16 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
 
 ### Profile Links
 
-- [Github](https://github.com/mwwhited)
+- **[GitHub](https://github.com/mwwhited)**
   - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
   - [Coding Challenges: Algorithms and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
-- [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
-- [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
-- [NPM](https://www.npmjs.com/~mwwhited)
-- [nuget](https://www.nuget.org/profiles/mwwhited/)
-- [flickr](http://www.flickr.com/photos/mwwhited/)
-- [LinkedIn](https://www.linkedin.com/in/mwwhited/)
+  - [Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)
+- **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
+- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)**
+- **[Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)**
+- **[NPM](https://www.npmjs.com/~mwwhited)**
+- **[NuGet](https://www.nuget.org/profiles/mwwhited/)**
+- **[Flickr](http://www.flickr.com/photos/mwwhited/)**
 
 ### Some projects that I have created in my spare time include
 

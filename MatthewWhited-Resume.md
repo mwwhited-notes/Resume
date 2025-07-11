@@ -1,7 +1,7 @@
 # Matthew Whited
 
-- [Email](mailto:matt@whited.us)
-- [Phone](tel:+16149891748)
+- **Email:** [matt@whited.us](mailto:matt@whited.us)
+- **Phone:** [+1 (614) 989-1748](tel:+16149891748)
 - **Location:** Baltimore, MD
 - **Work Preference:** Remote / Full-Time
 
@@ -13,7 +13,7 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 
 ### Technical Skills
 
-- **Programming Languages:** .Net/C#, Javascript/Typescript, Java, Go, Python, C, C++, ASP.Net MVC, WPF, Node.js, HTML, CSS.
+- **Programming Languages:** .Net/C#, JavaScript/TypeScript, Java, Go, Python, C, C++, ASP.Net MVC, WPF, Node.js, HTML, CSS
 - **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch.
 - **Cloud Services:** Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka, Container Apps.
 - **Frameworks & Libraries:** SignalR, Socket IO, React, Angular, EF Core, MSTest.
@@ -171,11 +171,11 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
   
 ## Profile Links
 
-- [Github](https://github.com/mwwhited)
-- [Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)
-- [Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)
-- [NPM](https://www.npmjs.com/~mwwhited)
-- [NuGet](https://www.nuget.org/profiles/mwwhited/)
-- [flickr](http://www.flickr.com/photos/mwwhited/) 
-- [LinkedIn](https://www.linkedin.com/in/mwwhited/)
-- [Personal Profile](http://matthewwhited.com)
+- **[GitHub](https://github.com/mwwhited)**
+- **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
+- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)**
+- **[Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)**
+- **[NPM](https://www.npmjs.com/~mwwhited)**
+- **[NuGet](https://www.nuget.org/profiles/mwwhited/)**
+- **[Personal Profile](http://matthewwhited.com)**
+- **[Flickr](http://www.flickr.com/photos/mwwhited/)**

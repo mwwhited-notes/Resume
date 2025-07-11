@@ -1,8 +1,54 @@
-Matthew Whited is a highly accomplished Principal Solutions Architect with over 20 years 
-of experience in software development, architecture, and technical leadership. He excels
-in designing complex systems, optimizing performance, and creating reusable frameworks
-that enhance productivity and code quality. His expertise spans various programming 
-languages, databases, cloud services, and embedded systems. Matthew has developed 
-innovative frameworks, led professional development and mentorship programs, and is 
-passionate about continuous learning. He actively contributes to open-source projects 
-and stays at the forefront of emerging technologies.
+# Executive Summary - Matthew Whited
+
+## Professional Profile
+
+Matthew Whited is a seasoned Principal Solutions Architect with over two decades of proven expertise in enterprise software development, system architecture, and technical leadership. His unique combination of electronics engineering background and enterprise-scale software experience positions him as a versatile technical leader capable of delivering solutions across the full technology stack.
+
+## Core Competencies
+
+**Technical Leadership & Architecture**
+- Designs and implements complex, scalable systems for enterprise environments
+- Specializes in performance optimization and database architecture
+- Expert in creating reusable middleware frameworks that enhance team productivity
+
+**AI/ML & Emerging Technologies**
+- Currently leading AI integration initiatives with focus on semantic search and vector databases
+- Pioneered SQL Server vector search extensions using SQLCLR technology
+- Implemented sentence transformer models for enterprise fuzzy matching systems
+- Achieved 75% cost reduction in cloud architecture optimization projects
+
+**Team Development & Mentorship**
+- Established and leads Centers of Excellence for .NET development practices
+- Created and executes comprehensive professional development programs including .NET Boot Camps and AI training
+- Proven track record in mentoring junior developers and establishing coding standards
+
+## Career Highlights
+
+**Recent Achievements (2024-2025)**
+- **ERisk Services**: Dramatically improved embedding query performance through locality-sensitive hashing (LSH) implementation
+- **Green Onion**: Reduced recurring cloud costs by 75% through architecture review and optimization
+- **Out-of-Band Development**: Developed custom vector search capabilities for Microsoft SQL Server
+
+**Innovation & Development**
+- Created hybrid search engines combining full-text and semantic search with LLM summarization
+- Developed extensive .NET extension frameworks with over 15 NuGet packages
+- Designed custom 16-bit microprocessor and FPGA implementations
+
+## Technical Expertise
+
+**Programming & Platforms**: .NET/C#, JavaScript/TypeScript, Java, Go, Python, C/C++, Node.js
+**Databases & Search**: SQL Server, PostgreSQL, MongoDB, Vector databases (Qdrant), OpenSearch
+**AI/ML Technologies**: SBERT, HuggingFace, TensorFlow, OpenAI, Ollama, ONNX
+**Cloud & DevOps**: Azure, AWS, Docker, Kubernetes, CI/CD pipelines
+**Embedded Systems**: Arduino, Raspberry Pi, ESP32, FPGA design and implementation
+
+## Value Proposition
+
+Matthew brings a rare combination of deep technical expertise, practical business acumen, and leadership capability. His ability to bridge hardware and software domains, coupled with his focus on mentorship and knowledge transfer, makes him an ideal candidate for organizations seeking to:
+
+- Implement cutting-edge AI/ML solutions in enterprise environments
+- Optimize system performance and reduce operational costs
+- Build high-performing technical teams through structured mentorship programs
+- Establish robust development practices and architectural standards
+
+His track record of delivering measurable business results - including significant cost reductions and performance improvements - demonstrates his ability to translate technical innovation into business value.

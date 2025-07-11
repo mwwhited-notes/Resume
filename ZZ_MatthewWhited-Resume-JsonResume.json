@@ -1,17 +1,214 @@
 {
-  "name": "Matthew Whited",
-  "contact": {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Matthew Whited",
+    "label": "Principal Solutions Architect",
     "email": "matt@whited.us",
-    "phone": "+16149891748",
-    "location": "Baltimore, MD",
-    "work_preference": "Remote / Full-Time"
+    "phone": "+1 (614) 989-1748",
+    "summary": "Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have developed innovative frameworks, led professional development and mentorship programs, and am passionate about continuous learning. I actively contribute to open-source projects and stay at the forefront of emerging technologies.",
+    "location": {
+      "city": "Baltimore",
+      "region": "MD",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "mwwhited",
+        "url": "https://github.com/mwwhited"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mwwhited",
+        "url": "https://www.linkedin.com/in/mwwhited/"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "matthew-whited",
+        "url": "http://stackoverflow.com/users/89586/matthew-whited"
+      },
+      {
+        "network": "NPM",
+        "username": "mwwhited",
+        "url": "https://www.npmjs.com/~mwwhited"
+      },
+      {
+        "network": "NuGet",
+        "username": "mwwhited",
+        "url": "https://www.nuget.org/profiles/mwwhited/"
+      },
+      {
+        "network": "Personal Website",
+        "url": "https://matthewwhited.com/"
+      }
+    ]
   },
-  "summary": "Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. Adept at designing and implementing complex systems, optimizing performance, and developing reusable frameworks to enhance team productivity and code quality. Proven expertise in a wide range of programming languages, databases, and cloud services, with a strong background in electronics and low-level programming. Demonstrated ability to lead and mentor development teams, establish best practices, and drive technical innovation. Passionate about continuous learning, contributing to open-source projects, and staying at the forefront of emerging technologies. Seeking to leverage extensive technical skills and leadership experience to drive impactful solutions and foster a culture of excellence in software development.",
-  "skills": {
-    "technical": {
-      "programming_languages": [
+  "work": [
+    {
+      "name": "Out-of-Band Development, LLC",
+      "position": "Chief Solutions Architect",
+      "startDate": "2015-03",
+      "summary": "Custom microelectronics and software design, architecture, and engineering.",
+      "highlights": [
+        "Focused on custom microelectronics and software design",
+        "Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems",
+        "Application architecture, reverse engineering, performance tuning, and custom technical training",
+        "Custom framework design, database enhancement and queue processing",
+        "Added Vector Search and Indexing to Microsoft SQL Server using SQLCLR"
+      ]
+    },
+    {
+      "name": "Green Onion (Life Time Foundation), Eliassen Group",
+      "position": "Principal Solutions Architect",
+      "startDate": "2025-02",
+      "summary": "Application performance optimization and cloud architecture review.",
+      "highlights": [
+        "Improve application performance",
+        "Review application cloud architecture and spend, reduced reoccurring costs by 75%",
+        "Remap/replace Third Party APIs"
+      ]
+    },
+    {
+      "name": "ERisk Services, Eliassen Group",
+      "position": "Principal Solutions Architect, specialized in AI",
+      "startDate": "2024-11",
+      "endDate": "2025-08",
+      "summary": "AI/ML integration and semantic search implementation.",
+      "highlights": [
+        "Integrating fuzzy matching based on sentence transformers",
+        "Added support for vector distance calculations to SQL Server using SQLCLR",
+        "Migrate semantic fuzzy match into existing .Net service tier",
+        "Host sentence transformer (SBERT) based model in .Net application for fast/low latency text embedding",
+        "Analyze proposed search engine integration; review responses for validity and business need",
+        "Create modular Proof of Concept application for AI Agents/RAG with business application integration",
+        "Dramatically improved query performance of embedding queries by adding locality-sensitive hashing (LSH) based indexes with Hamming Distance hash expansion"
+      ]
+    },
+    {
+      "name": "Eliassen Group",
+      "position": "Principal Solutions Architect",
+      "startDate": "2015-09",
+      "endDate": "2024-10",
+      "summary": "Full-time Solutions Architect and Centers of Excellence Lead for .Net.",
+      "highlights": [
+        "Specializes in database and application performance, reusable middleware frameworks, and automated testability",
+        "Developed novel frameworks and applications including a search engine based on SBERT embeddings and vector search",
+        "Leads internal professional development, project management, and mentorship programs"
+      ]
+    },
+    {
+      "name": "Itrica",
+      "position": "Chief Solutions Architect",
+      "startDate": "2009-11",
+      "endDate": "2015-07",
+      "summary": "Multiple roles including Chief Technology Officer and Senior Engineer.",
+      "highlights": [
+        "Provided architectural guidance, optimized resources, and ensured compliance with industry standards",
+        "Designed and built various custom applications and services, including a secure file storage system and messaging service"
+      ]
+    },
+    {
+      "name": "Safe Auto Insurance, TEKsystems",
+      "position": "Senior .Net Developer",
+      "startDate": "2010-04",
+      "endDate": "2010-09",
+      "highlights": [
+        "Designed enterprise message passing services and deployment tools",
+        "Implemented custom XSLT transformation processes and communication services with WCF"
+      ]
+    },
+    {
+      "name": "United Healthcare, TEKsystems",
+      "position": "Senior .Net Developer",
+      "startDate": "2008-12",
+      "endDate": "2010-04",
+      "highlights": [
+        "Developed applications for EDI transfer and transformation",
+        "Created adapters and tools for data conversion and event-based workflow processing"
+      ]
+    },
+    {
+      "name": "JPMorgan Chase, TEKsystems",
+      "position": "Senior .Net Developer",
+      "startDate": "2008-06",
+      "endDate": "2008-12",
+      "highlights": [
+        "Developed an audit and trade history database using ASP.Net and SQL Server"
+      ]
+    },
+    {
+      "name": "The Dot Net Factory, TEKsystems",
+      "position": ".Net Developer",
+      "startDate": "2007-08",
+      "endDate": "2008-04",
+      "highlights": [
+        "Created bi-directional adapters and custom TCP/IP socket tunnels for protocol bridging"
+      ]
+    },
+    {
+      "name": "3SG Corporation",
+      "position": "Software Engineer",
+      "startDate": "2006-08",
+      "endDate": "2007-08",
+      "highlights": [
+        "Developed software and databases for production scanning projects",
+        "Improved performance of image conversion processes and developed web-based reporting tools"
+      ]
+    },
+    {
+      "name": "Eastland-Fairfield Career and Technical Schools",
+      "position": "Systems Engineer",
+      "startDate": "2000-07",
+      "endDate": "2006-08",
+      "highlights": [
+        "Designed and managed wide area network for the school district",
+        "Developed custom helpdesk and inventory systems, and provided network and project planning support"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "DeVry University",
+      "studyType": "Electronics Engineering Technology",
+      "startDate": "2000",
+      "endDate": "2002",
+      "courses": [
+        "Electronic engineering",
+        "Embedded micro systems",
+        "Digital logic",
+        "Finite state machines",
+        "Digital and analog circuit design",
+        "Complex Programmable Logic Devices (CPLD)",
+        "Field Programmable Gate Array (FPGA)"
+      ]
+    },
+    {
+      "institution": "Eastland-Fairfield Career and Technical Schools",
+      "studyType": "Vocational Certificate",
+      "area": "Certified Electronics Technician",
+      "startDate": "1998",
+      "endDate": "2000",
+      "courses": [
+        "Electronics technician for digital and analog circuits",
+        "Hand assembly and machine language programming",
+        "Computer Networking (cabling, routing, bridging and management)",
+        "Computer technician (troubleshooting, maintenance, building)"
+      ],
+      "score": "National Vocational-Technical Honor Society, SkillsUSA-VICA first place regional electronics technician"
+    },
+    {
+      "institution": "Gahanna Lincoln High School",
+      "studyType": "High School Diploma",
+      "startDate": "1996",
+      "endDate": "2000"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
         ".Net/C#",
-        "Javascript/Typescript",
+        "JavaScript/TypeScript",
         "Java",
         "Go",
         "Python",
@@ -22,40 +219,55 @@
         "Node.js",
         "HTML",
         "CSS"
-      ],
-      "databases": [
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
         "Microsoft SQL Server",
         "MySQL",
         "PostgreSQL/ParadeDB",
         "MongoDB",
         "Qdrant",
         "OpenSearch"
-      ],
-      "cloud_services": [
+      ]
+    },
+    {
+      "name": "Cloud Services",
+      "keywords": [
         "Azure Service Bus",
         "Azure Storage Queues",
         "AWS SQS",
         "RabbitMQ",
         "Kafka",
         "Container Apps"
-      ],
-      "frameworks_libraries": [
+      ]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "keywords": [
         "SignalR",
         "Socket IO",
         "React",
         "Angular",
         "EF Core",
         "MSTest"
-      ],
-      "development_tools": [
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "keywords": [
         "ANTLR",
         "Domain Specific Languages",
         "DacFX",
         "ASP.Net Core Extensions",
         "Docker",
         "Kubernetes"
-      ],
-      "embedded_systems": [
+      ]
+    },
+    {
+      "name": "Embedded Systems",
+      "keywords": [
         "Arduino",
         "Beaglebone Black",
         "Raspberry Pi",
@@ -64,208 +276,134 @@
         "ESP32",
         "STM32",
         "FPGA"
-      ],
-      "agile_methodologies": ["Scrum", "Kanban", "XP"],
-      "team_management_tools": [
+      ]
+    },
+    {
+      "name": "Machine Learning & AI",
+      "keywords": [
+        "Sentence Transformers (SBERT)",
+        "HuggingFace",
+        "ONNX",
+        "TensorFlow",
+        "Groq",
+        "OpenAI",
+        "Ollama",
+        "OpenWeb-UI"
+      ]
+    },
+    {
+      "name": "Vector/Semantic Search",
+      "keywords": [
+        "Vector distance calculation",
+        "Locality sensitive hashing (LSH)",
+        "Random ball tree for approximate nearest neighbor search"
+      ]
+    },
+    {
+      "name": "Team Management Tools",
+      "keywords": [
         "Microsoft Project",
         "Azure DevOps",
         "JIRA",
         "Confluence",
-        "Sharepoint",
+        "SharePoint",
         "Microsoft Teams",
         "Slack",
         "Discord",
-        "Github"
-      ],
-      "version_control": ["TFS", "SVN", "GIT"],
-      "devops_practices": ["Azure Pipelines", "Github Actions", "Local scripting", "Build Automation"]
-    },
-    "architectural_engineering": [
-      "Application & System Design",
-      "Performance Optimization",
-      "Framework Development",
-      "Event Processing"
-    ],
-    "leadership_mentorship": [
-      "Team Leadership",
-      "Training & Development",
-      "Project Management",
-      "Code Reviews"
-    ],
-    "specialized_knowledge": [
-      "Network Communication",
-      "Electronic Interfaces",
-      "AI & Machine Learning",
-      "Reverse Engineering",
-      "Compilers & DSLs",
-      "Optimization & Upgrades",
-      "Software Development Life Cycle",
-      "Business Process Modeling",
-      "Documentation & Communication",
-      "Presales & Sales Support",
-      "Application Design & Analysis"
-    ]
-  },
-  "work_history": [
-    {
-      "role": "Chief Solutions Architect",
-      "company": "Out-of-Band Development, LLC",
-      "dates": "March 2015 - Present",
-      "responsibilities": [
-        "Focused on custom microelectronics and software design.",
-        "Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems.",
-        "Responsibilities included application architecture, reverse engineering, performance tuning, and custom technical training."
+        "GitHub"
       ]
     },
     {
-      "job_title": "Principal Solutions Architect, specialized in AI",
-      "company": "ERisk Services, Eliassen Group",
-      "employment_dates": "November 2024 - August 2025",
-      "responsibilities": [
-        "Integrating fuzzy matching based on sentence transformers",
-        "Add support for vector distance calculations to SQL Server using SQLCLR",
-        "Migrate sematic fuzzy match into existing .Net service tier",
-        "Host sentence transformer (SBERT) based model in .Net application for fast/low latency text embedding",
-        "Analyze proposed search engine integration; review responses for validity and business need",
-        "Create modular Proof of Concept application for AI Agents/RAG with business application integration"  
+      "name": "Version Control",
+      "keywords": [
+        "TFS",
+        "SVN",
+        "GIT"
       ]
     },
     {
-      "role": "Principal Solutions Architect",
-      "company": "Eliassen Group, formerly Lightwell Inc",
-      "dates": "September 2015 - October 2024",
-      "responsibilities": [
-        "Full-time Solutions Architect and Centers of Excellence Lead for .Net.",
-        "Specializes in database and application performance, reusable middleware frameworks, and automated testability.",
-        "Developed novel frameworks and applications including a search engine based on SBERT embeddings and vector search.",
-        "Leads internal professional development, project management, and mentorship programs."
+      "name": "DevOps Practices",
+      "keywords": [
+        "Azure Pipelines",
+        "GitHub Actions",
+        "Local scripting",
+        "Build Automation"
       ]
     },
     {
-      "role": "Chief Solutions Architect",
-      "company": "Itrica",
-      "dates": "November 2009 - July 2015",
-      "responsibilities": [
-        "Held multiple roles, including Chief Technology Officer and Senior Engineer.",
-        "Provided architectural guidance, optimized resources, and ensured compliance with industry standards.",
-        "Designed and built various custom applications and services, including a secure file storage system and messaging service."
-      ]
-    },
-    {
-      "role": "Senior .Net Developer",
-      "company": "Safe Auto Insurance, TEKsystems",
-      "dates": "April 2010 - September 2010",
-      "responsibilities": [
-        "Designed enterprise message passing services and deployment tools.",
-        "Implemented custom XSLT transformation processes and communication services with WCF."
-      ]
-    },
-    {
-      "role": "Senior .Net Developer",
-      "company": "United Healthcare, TEKsystems",
-      "dates": "December 2008 - April 2010",
-      "responsibilities": [
-        "Developed applications for EDI transfer and transformation.",
-        "Created adapters and tools for data conversion and event-based workflow processing."
-      ]
-    },
-    {
-      "role": "Senior .Net Developer",
-      "company": "JPMorgan Chase, TEKsystems",
-      "dates": "June 2008 - December 2008",
-      "responsibilities": [
-        "Developed an audit and trade history database using ASP.Net and SQL Server."
-      ]
-    },
-    {
-      "role": ".Net Developer",
-      "company": "The Dot Net Factory, TEKsystems",
-      "dates": "August 2007 - April 2008",
-      "responsibilities": [
-        "Created bi-directional adapters and custom TCP/IP socket tunnels for protocol bridging."
-      ]
-    },
-    {
-      "role": "Software Engineer",
-      "company": "3SG Corporation",
-      "dates": "August 2006 - August 2007",
-      "responsibilities": [
-        "Developed software and databases for production scanning projects.",
-        "Improved performance of image conversion processes and developed web-based reporting tools."
-      ]
-    },
-    {
-      "role": "Systems Engineer",
-      "company": "Eastland-Fairfield Career and Technical Schools",
-      "dates": "July 2000 - August 2006",
-      "responsibilities": [
-        "Designed and managed wide area network for the school district.",
-        "Developed custom helpdesk and inventory systems, and provided network and project planning support."
+      "name": "Agile Methodologies",
+      "keywords": [
+        "Scrum",
+        "Kanban",
+        "XP"
       ]
     }
   ],
-  "education": [
-    {
-      "institution": "DeVry University",
-      "degree": "Electronics Engineering Technology",
-      "dates": "2000 - 2002",
-      "description": "Electronic engineering, embedded micro systems, digital logic, finite state machines, digital and analog circuit design. Worked with CPLD and FPGA."
-    },
-    {
-      "institution": "Eastland-Fairfield Career and Technical Schools",
-      "degree": "Vocational Certificate - Certified Electronics Technician",
-      "dates": "1998 - 2000",
-      "description": "Electronics technician for digital and analog circuits. Hand assembly, machine language programming, and networking."
-    },
-    {
-      "institution": "Gahanna Lincoln High School",
-      "degree": "High-school Diploma",
-      "dates": "1996 - 2000"
-    }
-  ],
-  "personal_projects": [
-    {
-      "name": "SignalR client for node.js",
-      "url": "https://github.com/mwwhited-archives/signalr-client-nodejs"
-    },
-    {
-      "name": "Microcontrollers and electronics",
-      "url": "https://github.com/mwwhited/EmbeddedBakery",
-      "highlights": [
-        "Custom designed 16bit microprocessor",
-        "Customized 3D printer/CNC router"
-      ]
-    },
-    {
-      "name": "Extension framework for .Net",
-      "url": "https://github.com/mwwhited/BinaryDataDecoders/",
-      "highlights": [
-        "Framework for building IO device and binary communication protocols"
-      ]
-    },
+  "projects": [
     {
       "name": "Hybrid Search Engine",
       "url": "https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch",
-      "highlights": [
-        "Combines Full Text and Semantic Search with reranking"
+      "description": "Combine Full Text and Semantic Search with reranking and document summarization using self-hosted Large Language Models (LLM)",
+      "keywords": [
+        "Semantic Search",
+        "Full Text Search",
+        "LLM",
+        "Reranking"
+      ]
+    },
+    {
+      "name": "Extensions for .Net",
+      "url": "https://github.com/OutOfBandDevelopment/dotex",
+      "description": "Vector Support for MS-SQL Server and extensive collection of abstractions and extensions for .NET",
+      "keywords": [
+        "Vector Search",
+        "SQL Server",
+        "SQLCLR",
+        ".NET Extensions"
       ]
     },
     {
       "name": "Image Processing Framework",
       "url": "https://github.com/mwwhited/SecondShooter",
-      "highlights": [
-        "AI/ML-based image analysis, cataloging, and similarity search"
+      "description": "Use AI/ML to analyze, catalog, search and process photography with Vision Transformer embeddings",
+      "keywords": [
+        "Computer Vision",
+        "Vision Transformer (ViT)",
+        "Image Similarity",
+        "Vector Store"
+      ]
+    },
+    {
+      "name": "Microcontrollers and Electronics",
+      "url": "https://github.com/mwwhited/EmbeddedBakery",
+      "description": "Custom designed 16-bit microprocessor and customized 3D printer/CNC router",
+      "keywords": [
+        "Microcontrollers",
+        "FPGA",
+        "Embedded Systems",
+        "3D Printing"
+      ]
+    },
+    {
+      "name": "Binary Data Decoders",
+      "url": "https://github.com/mwwhited/BinaryDataDecoders/",
+      "description": "Framework for building IO device and binary communication protocols using .NET Core with System.IO.Pipelines and Spans<> for no allocation parsing",
+      "keywords": [
+        "Binary Protocols",
+        "Zero Allocation",
+        "System.IO.Pipelines",
+        "Protocol Analysis"
+      ]
+    },
+    {
+      "name": "SignalR Client for Node.js",
+      "url": "https://github.com/mwwhited-archives/signalr-client-nodejs",
+      "description": "Created a SignalR client implementation for Node.js applications",
+      "keywords": [
+        "SignalR",
+        "Node.js",
+        "Real-time Communication"
       ]
     }
-  ],
-  "profile_links": [
-    "https://github.com/mwwhited",
-    "https://stackexchange.com/users/32329/matthew-whited",
-    "http://stackoverflow.com/users/89586/matthew-whited",
-    "https://www.npmjs.com/~mwwhited",
-    "https://www.nuget.org/profiles/mwwhited/",
-    "http://www.flickr.com/photos/mwwhited/",
-    "https://www.linkedin.com/in/mwwhited/",
-    "https://matthewwhited.com/"
   ]
 }

@@ -1,7 +1,7 @@
 # Matthew Whited
 
-- [Email](mailto:matt@whited.us)
-- [Phone](tel:+16149891748)
+- **Email:** [matt@whited.us](mailto:matt@whited.us)
+- **Phone:** [+1 (614) 989-1748](tel:+16149891748)
 - **Location:** Baltimore, MD
 - **Work Preference:** Remote / Full-Time
 
@@ -13,16 +13,19 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 
 ### Technical Skills
 
-- **Programming Languages:** .Net/C#, Javascript/Typescript, Java, C++, ASP.Net MVC, WPF, Node.js
+- **Programming Languages:** .Net/C#, JavaScript/TypeScript, Java, Go, Python, C, C++, ASP.Net MVC, WPF, Node.js, HTML, CSS
 - **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch.
 - **Cloud Services:** Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka, Container Apps.
 - **Frameworks & Libraries:** SignalR, Socket IO, React, Angular, EF Core, MSTest.
-- **Development Tools:** ANTLR, Domain Specific Languages, ASP.Net Core Extensions, Docker
-- **Team Management Tools:** Azure DevOps, JIRA, Confluence, Sharepoint, Microsoft Teams, Slack, Github
+- **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes
+- **Team Management Tools:** Microsoft Project, Azure DevOps, JIRA, Confluence, Sharepoint, Microsoft Teams, Slack, Discord, GitHub
 - **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
-- **Machine Learning & Artificial Intelligence:** Embedding transformers, Language Models, AI Agents
-- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] for approximate nearest neighbor [ANN] search.)
-- 
+- **Machine Learning & Artificial Intelligence:** Sentence Transformers (SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI
+- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] and random ball tree for approximate nearest neighbor search)
+- **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA
+- **Agile Methodologies:** Scrum, Kanban, XP
+- **Version Control Systems:** TFS, SVN, GIT
+- **Analog Computer Research:** Understanding analog computation units and how they may be used to improve calculation performance and efficiency
 
 ### Architectural & Engineering Skills
 
@@ -65,15 +68,16 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 
 ## Personal Projects
 
-- [Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)
-  - Combine Full Text and Semantic Search with reranking
-  - Document summarization using self-hosted Large Languages Models (LLM)
-- [Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)
-  - [Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors)
-  - This is an extensive collection of abstractions and extensions I've developed for dotnet.
+- **[Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)** - Combine Full Text and Semantic Search with reranking and LLM summarization
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - Vector Support for MS-SQL Server and extensive .Net abstractions
+- **[Image Processing Framework](https://github.com/mwwhited/SecondShooter)** - AI/ML photography analysis with Vision Transformer embeddings
+- **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - Custom 16-bit microprocessor and 3D printer/CNC router
   
 ## Profile Links
 
-- [Github](https://github.com/mwwhited)
-- [LinkedIn](https://www.linkedin.com/in/mwwhited/)
-- [Personal Profile](http://matthewwhited.com)
+- **[GitHub](https://github.com/mwwhited)**
+- **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
+- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)**
+- **[NPM](https://www.npmjs.com/~mwwhited)**
+- **[NuGet](https://www.nuget.org/profiles/mwwhited/)**
+- **[Personal Profile](http://matthewwhited.com)**
