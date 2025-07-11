@@ -1,6 +1,8 @@
 # PDF files
 *.pdf
 
+.claude/
+
 # Common temporary and cache files
 *.tmp
 *.temp
