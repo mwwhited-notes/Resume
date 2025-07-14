@@ -253,10 +253,6 @@ Designed and managed wide area network for use by students and staff of the scho
 
 ## Education
 
-### DeVry University - Electronics Engineering Technology (2000 - 2002)
-
-Electronic engineering, embedded micro systems, digital logic, finite state machines, digital and analog circuit design. Also worked with Complex Programmable Logic Devices (CPLD) and Field Programable Gate Array (FPGA)
-
 ### Eastland-Fairfield Career and Technical Schools - Electronics Technician (1998 - 2000)
 
 - Vocational Certificate - Certified Electronics Technician

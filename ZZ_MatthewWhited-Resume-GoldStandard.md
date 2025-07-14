@@ -221,13 +221,6 @@ Custom in-house framework for enhanced application development productivity:
 
 ## Education & Professional Development
 
-### DeVry University - Electronics Engineering Technology (2000 - 2002)
-**Comprehensive electronics and digital systems education**
-- **Core Curriculum:** Electronic engineering, embedded microsystems, digital logic
-- **Advanced Topics:** Finite state machines, digital and analog circuit design
-- **Practical Experience:** Complex Programmable Logic Devices (CPLD), Field Programmable Gate Arrays (FPGA)
-- **Foundation:** Mathematical and engineering principles underlying current hardware expertise
-
 ### Eastland-Fairfield Career and Technical Schools - Electronics Technician (1998 - 2000)
 **Vocational Certificate - Certified Electronics Technician**
 - **Technical Skills:** Digital and analog circuits, hand assembly, machine language programming
@@ -240,6 +233,13 @@ Custom in-house framework for enhanced application development productivity:
 **High School Diploma with extracurricular leadership**
 - **Activities:** Stage Crew (technical production), Marching Band, Fencing Club
 - **Foundation:** Strong academic preparation for technical career progression
+
+### Continuous Professional Development
+**Ongoing technical education and certification**
+- **Self-Directed Learning:** Extensive technical research and implementation across multiple domains
+- **Industry Engagement:** Active participation in technical communities and open source development
+- **Practical Application:** Real-world experience spanning electronics, software engineering, and enterprise architecture
+- **Technical Leadership:** Mentoring and knowledge transfer demonstrating deep technical expertise
 
 ---
 

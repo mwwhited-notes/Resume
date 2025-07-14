@@ -168,21 +168,6 @@
   ],
   "education": [
     {
-      "institution": "DeVry University",
-      "studyType": "Electronics Engineering Technology",
-      "startDate": "2000",
-      "endDate": "2002",
-      "courses": [
-        "Electronic engineering",
-        "Embedded micro systems",
-        "Digital logic",
-        "Finite state machines",
-        "Digital and analog circuit design",
-        "Complex Programmable Logic Devices (CPLD)",
-        "Field Programmable Gate Array (FPGA)"
-      ]
-    },
-    {
       "institution": "Eastland-Fairfield Career and Technical Schools",
       "studyType": "Vocational Certificate",
       "area": "Certified Electronics Technician",
