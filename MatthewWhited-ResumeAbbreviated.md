@@ -20,8 +20,8 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes, CLI tools, SystemVerilog, VHDL
 - **Team Management Tools:** Microsoft Project, Azure DevOps, JIRA, Confluence, Sharepoint, Microsoft Teams, Slack, Discord, GitHub
 - **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
-- **Machine Learning & Artificial Intelligence:** Sentence Transformers (SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI, ViT, FAISS, Qdrant
-- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] and random ball tree for approximate nearest neighbor search), custom algorithm implementations, hybrid search engines
+- **Machine Learning & Artificial Intelligence:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI, ViT, FAISS, Qdrant
+- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] with 16-bit hashes and random ball tree for approximate nearest neighbor search), custom algorithm implementations, hybrid search engines
 - **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA, Custom 16-bit microprocessor design
 - **Agile Methodologies:** Scrum, Kanban, XP
 - **Version Control Systems:** TFS, SVN, GIT

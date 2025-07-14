@@ -24,6 +24,7 @@
 ### Core Differentiators
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture
 - **Technical Innovation:** Custom database extensions, microprocessor design, AI/ML algorithms, and zero-allocation frameworks
+- **ML/AI Expertise:** Production-ready sentence transformers, custom LSH implementations, vector similarity search optimization
 - **Community Impact:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor
 - **Business Results:** 75% cloud cost reduction, dramatic performance improvements, team productivity enhancements
 
@@ -72,13 +73,14 @@
 - **API Integration:** Remapped and replaced third-party APIs for better performance and cost efficiency
 
 ### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - August 2025)
-**AI/ML integration and semantic search implementation**
+**AI/ML integration and semantic search implementation for insurance industry duplicate detection**
 
-- **AI/ML Innovation:** Integrated fuzzy matching based on sentence transformers with custom .Net implementations
-- **Database Extensions:** Added vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations and binary serialization
-- **Performance Engineering:** Dramatically improved query performance through locality-sensitive hashing (LSH) based indexes with Hamming Distance hash expansion and custom algorithm implementations
-- **Service Integration:** Migrated semantic fuzzy match into existing .Net service tier with low-latency text embedding
-- **Proof of Concepts:** Created modular AI Agents/RAG applications with business integration
+- **Advanced ML Integration:** Implemented AllMiniLM-L6-v2 sentence transformers with 384-dimensional embeddings for semantic similarity matching in insurance submission processing
+- **Database Innovation:** Added vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations (cosine, euclidean, manhattan, dot product) and optimized binary serialization
+- **Performance Engineering:** Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with 16-bit hashes, Hamming Distance optimization, and custom algorithm implementations
+- **Enterprise Architecture:** Designed comprehensive multi-layered system with 5 API endpoints, multi-database architecture, and production-grade security/audit logging
+- **Business Impact:** Delivered automated duplicate detection system with 84 completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations
+- **Technical Excellence:** Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles, comprehensive error handling, and sophisticated caching strategies
 
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
 **Full-time Solutions Architect and Centers of Excellence Lead for .Net**
@@ -172,10 +174,11 @@ Custom in-house framework for enhanced application development productivity:
 
 ### Database & Data Technologies
 **Advanced Expertise:**
-- **Microsoft SQL Server:** Custom SQLCLR extensions, vector operations, performance tuning
-- **Vector Databases:** Qdrant, FAISS, custom LSH implementations
+- **Microsoft SQL Server:** Custom SQLCLR extensions, SqlVector/SqlVectorF types, vector operations, performance tuning
+- **Vector Databases:** Qdrant, FAISS, custom LSH implementations with binary serialization
 - **NoSQL:** MongoDB, PostgreSQL/ParadeDB, OpenSearch
 - **Data Processing:** ETL pipelines, real-time processing, zero-allocation parsing
+- **Mathematical Operations:** Cosine, euclidean, manhattan, dot product distance calculations
 
 ### Cloud & Infrastructure Technologies
 **Production Experience:**
@@ -186,11 +189,12 @@ Custom in-house framework for enhanced application development productivity:
 
 ### AI/ML & Advanced Technologies
 **Research & Production:**
-- **Machine Learning:** Sentence Transformers (SBERT), HuggingFace, TensorFlow, ONNX
+- **Machine Learning:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), HuggingFace, TensorFlow, ONNX
 - **Computer Vision:** Vision Transformers (ViT), image processing, RAW format support
-- **Vector Search:** FAISS, Qdrant, custom LSH algorithms, hybrid search engines
+- **Vector Search:** FAISS, Qdrant, custom LSH algorithms (16-bit hashes), hybrid search engines
 - **LLM Integration:** OpenAI, Ollama, local model deployment, RAG systems
-- **Performance Optimization:** Hamming distance algorithms, approximate nearest neighbor search
+- **Performance Optimization:** Locality-sensitive hashing, Hamming distance algorithms, approximate nearest neighbor search
+- **Enterprise ML:** Production embedding systems, multi-dimensional vector operations, semantic similarity matching
 
 ### Embedded Systems & Hardware Design
 **Hardware-Software Integration:**

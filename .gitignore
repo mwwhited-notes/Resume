@@ -3,6 +3,7 @@
 
 .claude/
 github/
+*/
 
 # Common temporary and cache files
 *.tmp

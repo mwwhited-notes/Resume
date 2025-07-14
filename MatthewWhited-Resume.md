@@ -23,8 +23,8 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **Team Management Tools:** Microsoft Project, Azure DevOps, JIRA, Confluence, Sharepoint, Microsoft Teams, Slack, Discord, Github
 - **Version Control Systems:** TFS, SVN, GIT.
 - **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
-- **Machine Learning & Artificial Intelligence:** Sentence Transformers (SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI, Vision Transformers (ViT), FAISS vector databases, Qdrant
-- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] and random ball tree for approximate nearest neighbor search), custom LSH implementations, hybrid search engines, production ML infrastructure with Docker orchestration
+- **Machine Learning & Artificial Intelligence:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI, Vision Transformers (ViT), FAISS vector databases, Qdrant
+- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] with 16-bit hashes and random ball tree for approximate nearest neighbor search), custom LSH implementations, hybrid search engines, production ML infrastructure with Docker orchestration
 - **Analog Computer Research:** Understanding analog computation unit a and how they may be used to improve calculation performance and efficiency.
 
 ### Architectural & Engineering Skills
@@ -70,13 +70,12 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 
 ### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - August 2025)
 
-- Integrating fuzzy matching based on sentence transformers
-- **Innovation:** Added support for vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations and binary serialization
-- Migrate sematic fuzzy match into existing .Net service tier
-- Host sentence transformer (SBERT) based model in .Net application for fast/low latency text embedding
-- Analyze proposed search engine integration; review responses for validity and business need
-- Create modular Proof of Concept application for AI Agents/RAG with business application integration
-- **Performance Engineering:** Dramatically improved query performance of embedding queries by adding locality-sensitive hashing (LSH) based indexes with Hamming Distance hash expansion and custom algorithm implementations.
+- **Advanced ML Integration:** Implemented AllMiniLM-L6-v2 sentence transformers with 384-dimensional embeddings for semantic similarity matching in insurance submission processing
+- **Database Innovation:** Added vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations (cosine, euclidean, manhattan, dot product) and optimized binary serialization
+- **Performance Engineering:** Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with 16-bit hashes, Hamming Distance optimization, and custom algorithm implementations
+- **Enterprise Architecture:** Designed comprehensive multi-layered system with 5 API endpoints, multi-database architecture, and production-grade security/audit logging
+- **Business Impact:** Delivered automated duplicate detection system with 84 completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations
+- **Technical Excellence:** Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles, comprehensive error handling, and sophisticated caching strategies
 
 ### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (Feburary 2025 - Present)
 
