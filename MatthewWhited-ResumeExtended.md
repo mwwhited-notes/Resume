@@ -3,22 +3,25 @@
 - **Email:** [matt@whited.us](mailto:matt@whited.us)
 - **Phone:** [+1 (614) 989-1748](tel:+16149891748)
 - **Location:** Baltimore, MD
-- **Work Preference:** Remote / Full-Time
+- **Work Preference:** Remote / Full-Time (up to 25% travel, hybrid negotiable)
 
-## About
+## Professional Summary
 
-I have worked with electronics and computers for most of my life. I enjoy learning as much as
-possible about new computer languages and complex systems. With my electronics background I
-enjoy low level programming and design. In my free time I enjoy designing digital systems,
-robotic devices and photography.
+**Principal Solutions Architect** with over 20 years bridging hardware and software domains through exceptional technical innovation and business value creation. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise and proven leadership capabilities. Demonstrated ability to deliver measurable business impact including substantial cost savings, operational efficiency improvements, and revenue growth enablement through strategic technical innovation.
 
-### Specialties
+### Core Differentiators
+- **Strategic Technical Leadership:** Rare combination of deep technical expertise with business acumen and P&L impact
+- **Innovation & Value Creation:** Custom solutions delivering measurable ROI through advanced AI/ML, database optimization, and performance engineering
+- **Enterprise Architecture:** Production-ready systems with proven scalability, security, and compliance frameworks
+- **Market Recognition:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Business Impact:** Substantial cost savings, significant delivery improvements, substantial revenue opportunity support
 
-- Programming Adapters
-- Data Layer
-- Network Communication
-- Boolean logic / Electronic Interfaces
-- Microcontrollers / Digital Logic / Gate Arrays
+### Technical Specializations
+- **Enterprise Architecture:** Service-oriented architecture (SOA), event-driven architecture, API design
+- **AI/ML Integration:** Production embedding systems, sentence transformers, vector search optimization
+- **Database Innovation:** Custom SQLCLR extensions, SqlVector/SqlVectorF types, performance tuning
+- **Performance Engineering:** Zero-allocation programming, memory optimization, scalability design
+- **Cloud & Infrastructure:** Azure, AWS, Docker, Kubernetes, microservices architecture
 
 ## Work History
 
@@ -329,7 +332,15 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
   - Zero-allocation parsing using System.IO.Pipelines and Spans<> for high-performance processing
   - File format support: PKZip, TAR, ISO9660
   - Network protocol implementations: Telnet, LDAP bindery, SNTP
-- **[Command-Line Tools and Utilities](https://www.nuget.org/profiles/mwwhited/)**\n  - [BinaryDataDecoders.Xslt.Cli](https://www.nuget.org/packages/BinaryDataDecoders.Xslt.Cli/) - 34,726 downloads, XSLT processing CLI tool\n  - [BinaryDataDecoders.IO.Abstractions](https://www.nuget.org/packages/BinaryDataDecoders.IO.Abstractions/) - 34,004 downloads, I/O abstractions\n  - Global and local .NET CLI tool support, cross-platform compatibility\n- **[Specialized Domain Applications](https://www.nuget.org/profiles/mwwhited/)**\n  - ElectronicScoringMachines.Fencing - Electronic scoring system integration\n  - Quarta.RadexOne - Radiation monitoring device communication\n  - USB HID device abstractions and communication protocols\n- **[Node.js Contributions](https://www.npmjs.com/~mwwhited)**
+- **[Command-Line Tools and Utilities](https://www.nuget.org/profiles/mwwhited/)**
+  - [BinaryDataDecoders.Xslt.Cli](https://www.nuget.org/packages/BinaryDataDecoders.Xslt.Cli/) - 34,726 downloads, XSLT processing CLI tool
+  - [BinaryDataDecoders.IO.Abstractions](https://www.nuget.org/packages/BinaryDataDecoders.IO.Abstractions/) - 34,004 downloads, I/O abstractions
+  - Global and local .NET CLI tool support, cross-platform compatibility
+- **[Specialized Domain Applications](https://www.nuget.org/profiles/mwwhited/)**
+  - ElectronicScoringMachines.Fencing - Electronic scoring system integration
+  - Quarta.RadexOne - Radiation monitoring device communication
+  - USB HID device abstractions and communication protocols
+- **[Node.js Contributions](https://www.npmjs.com/~mwwhited)**
   - [SignalR Client for Node.js](https://github.com/mwwhited-archives/signalr-client-nodejs) - Real-time communication
   - BeagleBone toolkit - Simplified embedded Linux interfaces
   - AutomationHub client - Industrial automation integration

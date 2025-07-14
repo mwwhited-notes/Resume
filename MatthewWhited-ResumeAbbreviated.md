@@ -3,11 +3,18 @@
 - **Email:** [matt@whited.us](mailto:matt@whited.us)
 - **Phone:** [+1 (614) 989-1748](tel:+16149891748)
 - **Location:** Baltimore, MD
-- **Work Preference:** Remote / Full-Time
+- **Work Preference:** Remote / Full-Time (up to 25% travel, hybrid negotiable)
 
 ## Summary
 
-I am a highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have developed innovative frameworks, led professional development and mentorship programs, and am passionate about continuous learning. I am an active open-source contributor (623K+ NuGet downloads, 22K+ Stack Overflow reputation, GitHub Arctic Code Vault Contributor) and stay at the forefront of emerging technologies. My technical innovations include custom SQL Server vector extensions via SQLCLR, complete 16-bit microprocessor design, and production AI/ML infrastructure.
+**Principal Solutions Architect** with over 20 years bridging hardware and software domains through exceptional technical innovation and business value creation. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise and proven leadership capabilities. Demonstrated ability to deliver measurable business impact including substantial cost savings, operational efficiency improvements, and revenue growth enablement through strategic technical innovation.
+
+### Core Differentiators
+- **Strategic Technical Leadership:** Rare combination of deep technical expertise with business acumen and P&L impact
+- **Innovation & Value Creation:** Custom solutions delivering measurable ROI through advanced AI/ML, database optimization, and performance engineering
+- **Enterprise Architecture:** Production-ready systems with proven scalability, security, and compliance frameworks
+- **Market Recognition:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Business Impact:** Substantial cost savings, significant delivery improvements, substantial revenue opportunity support
 
 ## Professional Skills
 

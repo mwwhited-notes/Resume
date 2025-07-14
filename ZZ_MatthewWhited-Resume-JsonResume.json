@@ -5,7 +5,7 @@
     "label": "Principal Solutions Architect",
     "email": "matt@whited.us",
     "phone": "+1 (614) 989-1748",
-    "summary": "Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. Proven open-source contributor with 20 NuGet packages (623K+ downloads), 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. Technical innovations include custom SQL Server vector extensions via SQLCLR with mathematical operations, complete 16-bit microprocessor design with SystemVerilog and Python assembler, and production AI/ML infrastructure with containerized services. I have pioneered SQL Server vector search capabilities and maintain extensive embedded systems projects with 194+ commits.",
+    "summary": "Principal Solutions Architect with over 20 years bridging hardware and software domains through exceptional technical innovation and business value creation. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise and proven leadership capabilities. Demonstrated ability to deliver measurable business impact including substantial cost savings, operational efficiency improvements, and revenue growth enablement through strategic technical innovation. Core differentiators include strategic technical leadership with business acumen, innovation delivering measurable ROI, enterprise architecture with proven scalability, and market recognition through 623K+ package downloads and Arctic Code Vault Contributor status.",
     "location": {
       "city": "Baltimore",
       "region": "MD",
@@ -61,11 +61,12 @@
       "name": "Green Onion (Life Time Foundation), Eliassen Group",
       "position": "Principal Solutions Architect",
       "startDate": "2025-02",
-      "summary": "Application performance optimization and cloud architecture review.",
+      "summary": "Cloud architecture optimization and application performance enhancement.",
       "highlights": [
-        "Improve application performance",
-        "Review application cloud architecture and spend, reduced reoccurring costs by 75%",
-        "Remap/replace Third Party APIs"
+        "Cost Optimization: Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and optimization",
+        "Performance Enhancement: Improved application performance across multiple systems, achieving significant response time improvements",
+        "API Integration: Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks",
+        "Business Impact: Delivered measurable ROI through infrastructure optimization and operational efficiency improvements"
       ]
     },
     {

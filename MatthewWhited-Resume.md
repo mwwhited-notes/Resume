@@ -3,29 +3,57 @@
 - **Email:** [matt@whited.us](mailto:matt@whited.us)
 - **Phone:** [+1 (614) 989-1748](tel:+16149891748)
 - **Location:** Baltimore, MD
-- **Work Preference:** Remote / Full-Time
+- **Work Preference:** Remote / Full-Time (up to 25% travel, hybrid negotiable)
 
 ## Summary
 
-I am a highly accomplished Principal Solutions Architect with over 20 years of experience in software development, architecture, and technical leadership. I excel in designing complex systems, optimizing performance, and creating reusable frameworks that enhance productivity and code quality. My expertise spans various programming languages, databases, cloud services, and embedded systems. I have developed innovative frameworks, led professional development and mentorship programs, and am passionate about continuous learning. I am an active open-source contributor with 20 NuGet packages (623K+ downloads), Arctic Code Vault Contributor status on GitHub, and 22K+ reputation on Stack Overflow with 16+ years of community engagement. My technical innovations include custom SQL Server vector extensions via SQLCLR, complete 16-bit microprocessor design with SystemVerilog, and production AI/ML infrastructure with containerized services.
+**Principal Solutions Architect** with over 20 years bridging hardware and software domains through exceptional technical innovation and business value creation. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise and proven leadership capabilities. Demonstrated ability to deliver measurable business impact including substantial cost savings, operational efficiency improvements, and revenue growth enablement through strategic technical innovation.
+
+### Core Differentiators
+- **Strategic Technical Leadership:** Rare combination of deep technical expertise with business acumen and P&L impact
+- **Innovation & Value Creation:** Custom solutions delivering measurable ROI through advanced AI/ML, database optimization, and performance engineering
+- **Enterprise Architecture:** Production-ready systems with proven scalability, security, and compliance frameworks
+- **Market Recognition:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Business Impact:** Substantial cost savings, significant delivery improvements, substantial revenue opportunity support
 
 ## Professional Skills
 
-### Technical Skills
+### Enterprise Architecture & Core Technologies
+**Primary Expertise:**
+- **.Net/C# Ecosystem:** .Net Standard, ASP.Net MVC, WPF, Windows Services, EF Core, .Net Core (20+ years)
+- **JavaScript/TypeScript:** Node.JS, Angular, React, enterprise web applications (15+ years)
+- **Database Systems:** SQL Server, SQLCLR, T-SQL, performance optimization, custom extensions (20+ years)
+- **Cloud & Infrastructure:** Azure, AWS, Docker, Kubernetes, microservices architecture
+- **AI/ML Integration:** Production embedding systems, sentence transformers, vector search optimization
 
-- **Programming Languages:** .Net/C#, JavaScript/TypeScript, Java, Go, Python, C, C++, ASP.Net MVC, WPF, Node.js, HTML, CSS
-- **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch.
-- **Cloud Services:** Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka, Container Apps.
-- **Frameworks & Libraries:** SignalR, Socket IO, React, Angular, EF Core, MSTest.
-- **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes, Command-line tools (XSLT CLI), SystemVerilog, VHDL.
-- **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA, Custom microprocessor design (16-bit CPU with 5-stage pipeline).
-- **Agile Methodologies:** Scrum, Kanban, XP.
-- **Team Management Tools:** Microsoft Project, Azure DevOps, JIRA, Confluence, Sharepoint, Microsoft Teams, Slack, Discord, Github
-- **Version Control Systems:** TFS, SVN, GIT.
-- **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
-- **Machine Learning & Artificial Intelligence:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI, Vision Transformers (ViT), FAISS vector databases, Qdrant
-- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] with 16-bit hashes and random ball tree for approximate nearest neighbor search), custom LSH implementations, hybrid search engines, production ML infrastructure with Docker orchestration
-- **Analog Computer Research:** Understanding analog computation unit a and how they may be used to improve calculation performance and efficiency.
+### Enterprise Frameworks & Governance
+**Architecture & Standards:**
+- **Design Patterns:** SOLID principles, Clean Architecture, Domain-Driven Design (DDD)
+- **Enterprise Integration:** Service-oriented architecture (SOA), event-driven architecture, API design
+- **Quality Assurance:** Test-driven development, continuous integration, automated testing frameworks
+- **Performance Engineering:** Zero-allocation programming, memory optimization, scalability design
+- **Security:** Authentication/authorization, audit logging, compliance frameworks
+
+### Data Architecture & Analytics
+**Enterprise Data Management:**
+- **Microsoft SQL Server:** Custom SQLCLR extensions, SqlVector/SqlVectorF types, performance tuning
+- **Vector & Search:** FAISS, Qdrant, custom LSH algorithms, hybrid search engines
+- **Big Data:** ETL pipelines, real-time processing, data warehousing, analytics platforms
+- **NoSQL:** MongoDB, PostgreSQL, OpenSearch, polyglot persistence strategies
+
+### Cloud & DevOps Technologies
+**Production Infrastructure:**
+- **Containerization:** Docker, Kubernetes, Helm charts, multi-service orchestration
+- **Cloud Platforms:** Azure (Service Bus, Storage Queues, Container Apps), AWS (SQS, Lambda)
+- **Message Queues:** RabbitMQ, Kafka, Azure Service Bus, event streaming
+- **DevOps:** Azure Pipelines, GitHub Actions, CI/CD automation, infrastructure as code
+
+### AI/ML & Advanced Technologies
+**Enterprise AI Integration:**
+- **Machine Learning:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), production model deployment
+- **Vector Search:** Custom LSH algorithms (16-bit hashes), approximate nearest neighbor search
+- **LLM Integration:** OpenAI, local model deployment, RAG systems, business applications
+- **Performance Optimization:** Sub-linear similarity search, caching strategies, scalability engineering
 
 ### Architectural & Engineering Skills
 
@@ -77,19 +105,26 @@ I am a highly accomplished Principal Solutions Architect with over 20 years of e
 - **Business Impact:** Delivered automated duplicate detection system with 84 completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations
 - **Technical Excellence:** Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles, comprehensive error handling, and sophisticated caching strategies
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (Feburary 2025 - Present)
+### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+**Cloud architecture optimization and application performance enhancement**
 
-- Improve application performance
-- Review application cloud architecture and spend, reduced reoccurring costs by 75%
-- Remap/replace Third Party APIs
+- **Cost Optimization:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and optimization
+- **Performance Enhancement:** Improved application performance across multiple systems, achieving significant response time improvements
+- **API Integration:** Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
+- **Business Impact:** Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
 
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
+**Full-time Solutions Architect and Centers of Excellence Lead for .Net**
 
-- Full-time Solutions Architect and Centers of Excellence Lead for .Net.
-- Specializes in database and application performance, reusable middleware frameworks, and automated testability.
-- Proficient in .Net/C#, Javascript/Typescript, Java, Go, Python, and multiple databases and cloud services.
-- Developed novel frameworks and applications including a search engine based on SBERT embeddings and vector search.
-- Leads internal professional development, project management, and mentorship programs.
+- **Leadership Roles:**
+  - Centers of Excellence Lead for .Net (July 2022 - Present)
+  - Sales Enablement Engineer (April 2024 - Present)
+  - Full-time Solutions Architect (December 2021 - Present)
+- **Technical Specializations:** Database and application performance, reusable middleware frameworks, automated testability
+- **Framework Development:** Novel frameworks including search engines based on SBERT embeddings and vector search
+- **Team Leadership:** Led internal professional development, project management, and mentorship programs for multiple engineering teams
+- **Business Impact:** Contributed to significant improvement in project delivery success rates through framework standardization
+- **Technologies:** .Net/C#, Javascript/Typescript, Java, Go, Python, multiple databases and cloud services
 
 ### Chief Solutions Architect - Itrica (November 2009 - July 2015)
 

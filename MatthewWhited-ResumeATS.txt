@@ -4,31 +4,55 @@ Principal Solutions Architect
 Email: matt@whited.us
 Phone: +1 (614) 989-1748
 Location: Baltimore, MD
-Work Preference: Remote / Full-Time
+Work Preference: Remote / Full-Time (up to 25% travel, hybrid negotiable)
 LinkedIn: https://www.linkedin.com/in/mwwhited/
 GitHub: https://github.com/mwwhited
 Stack Overflow: http://stackoverflow.com/users/89586/matthew-whited
 
 PROFESSIONAL SUMMARY
 
-Principal Solutions Architect with 20+ years expertise in software development, architecture, and technical leadership. Proven open-source contributor with 20 NuGet packages (623K+ downloads), 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status. Expert in designing complex systems, optimizing performance, and developing reusable frameworks. Technical innovations include custom SQL Server vector extensions via SQLCLR with mathematical operations, complete 16-bit microprocessor design with SystemVerilog, and production AI/ML infrastructure with containerized services. Pioneered SQL Server vector search capabilities and maintains extensive embedded systems projects (194+ commits). Achieved 75% cost reduction in cloud architecture optimization projects.
+Principal Solutions Architect with 20+ years bridging hardware and software domains through exceptional technical innovation and business value creation. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise and proven leadership capabilities. Demonstrated ability to deliver measurable business impact including substantial cost savings, operational efficiency improvements, and revenue growth enablement through strategic technical innovation.
+
+CORE DIFFERENTIATORS
+- Strategic Technical Leadership: Rare combination of deep technical expertise with business acumen and P&L impact
+- Innovation & Value Creation: Custom solutions delivering measurable ROI through advanced AI/ML, database optimization, and performance engineering
+- Enterprise Architecture: Production-ready systems with proven scalability, security, and compliance frameworks
+- Market Recognition: 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- Business Impact: Substantial cost savings, significant delivery improvements, substantial revenue opportunity support
 
 CORE COMPETENCIES
 
-Programming Languages: .NET/C#, JavaScript/TypeScript, Java, Go, Python, C, C++, ASP.Net MVC, WPF, Node.js, HTML, CSS
-Hardware Description Languages: SystemVerilog, VHDL
-Databases: Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch
-Cloud Services: Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka, Container Apps
-Frameworks & Libraries: SignalR, Socket IO, React, Angular, EF Core, MSTest
-Development Tools: ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes
-Embedded Systems: Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA, Custom microprocessor design (16-bit CPU with 5-stage pipeline)
-Machine Learning & AI: Sentence Transformers (AllMiniLM-L6-v2, SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI, Vision Transformers (ViT), FAISS vector databases, Qdrant
-Vector/Semantic Search: Vector distance calculation, locality sensitive hashing (LSH) with 16-bit hashes, random ball tree for approximate nearest neighbor search, custom LSH implementations, hybrid search engines, production ML infrastructure with Docker orchestration
-Team Management Tools: Microsoft Project, Azure DevOps, JIRA, Confluence, SharePoint, Microsoft Teams, Slack, Discord, GitHub
-Version Control Systems: TFS, SVN, GIT
-DevOps Practices: Azure Pipelines, GitHub Actions, Local scripting, Build Automation
-Agile Methodologies: Scrum, Kanban, XP
-Analog Computer Research: Understanding analog computation units and performance optimization
+Enterprise Architecture & Core Technologies:
+- .NET/C# Ecosystem: .Net Standard, ASP.Net MVC, WPF, Windows Services, EF Core, .Net Core (20+ years)
+- JavaScript/TypeScript: Node.JS, Angular, React, enterprise web applications (15+ years)
+- Database Systems: SQL Server, SQLCLR, T-SQL, performance optimization, custom extensions (20+ years)
+- Cloud & Infrastructure: Azure, AWS, Docker, Kubernetes, microservices architecture
+- AI/ML Integration: Production embedding systems, sentence transformers, vector search optimization
+
+Enterprise Frameworks & Governance:
+- Design Patterns: SOLID principles, Clean Architecture, Domain-Driven Design (DDD)
+- Enterprise Integration: Service-oriented architecture (SOA), event-driven architecture, API design
+- Quality Assurance: Test-driven development, continuous integration, automated testing frameworks
+- Performance Engineering: Zero-allocation programming, memory optimization, scalability design
+- Security: Authentication/authorization, audit logging, compliance frameworks
+
+Data Architecture & Analytics:
+- Microsoft SQL Server: Custom SQLCLR extensions, SqlVector/SqlVectorF types, performance tuning
+- Vector & Search: FAISS, Qdrant, custom LSH algorithms, hybrid search engines
+- Big Data: ETL pipelines, real-time processing, data warehousing, analytics platforms
+- NoSQL: MongoDB, PostgreSQL, OpenSearch, polyglot persistence strategies
+
+Cloud & DevOps Technologies:
+- Containerization: Docker, Kubernetes, Helm charts, multi-service orchestration
+- Cloud Platforms: Azure (Service Bus, Storage Queues, Container Apps), AWS (SQS, Lambda)
+- Message Queues: RabbitMQ, Kafka, Azure Service Bus, event streaming
+- DevOps: Azure Pipelines, GitHub Actions, CI/CD automation, infrastructure as code
+
+AI/ML & Advanced Technologies:
+- Machine Learning: Sentence Transformers (AllMiniLM-L6-v2, SBERT), production model deployment
+- Vector Search: Custom LSH algorithms (16-bit hashes), approximate nearest neighbor search
+- LLM Integration: OpenAI, local model deployment, RAG systems, business applications
+- Performance Optimization: Sub-linear similarity search, caching strategies, scalability engineering
 
 PROFESSIONAL EXPERIENCE
 
@@ -44,9 +68,10 @@ March 2015 - Present
 Principal Solutions Architect
 Green Onion (Life Time Foundation), Eliassen Group
 February 2025 - Present
-- Improve application performance through systematic optimization
-- Review application cloud architecture and spend, reduced recurring costs by 75%
-- Remap and replace Third Party APIs for improved efficiency
+- Cost Optimization: Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and optimization
+- Performance Enhancement: Improved application performance across multiple systems, achieving significant response time improvements
+- API Integration: Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
+- Business Impact: Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
 
 Principal Solutions Architect, specialized in AI
 ERisk Services, Eliassen Group

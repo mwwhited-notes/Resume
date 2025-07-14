@@ -8,7 +8,7 @@
 - **Email:** [matt@whited.us](mailto:matt@whited.us)
 - **Phone:** [+1 (614) 989-1748](tel:+16149891748)
 - **Location:** Baltimore, MD
-- **Work Preference:** Remote / Full-Time
+- **Work Preference:** Remote / Full-Time (up to 25% travel, hybrid negotiable)
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
 - **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
@@ -19,7 +19,7 @@
 
 ## Professional Identity & Core Value Proposition
 
-**Principal Solutions Architect** with over 20 years bridging hardware and software domains through exceptional technical innovation and community leadership. Uniquely combines enterprise-scale architecture with embedded systems expertise, AI/ML research, and open-source framework development. Proven ability to deliver measurable business impact through technical innovation, cost optimization, and team enablement.
+**Principal Solutions Architect** with over 20 years bridging hardware and software domains through exceptional technical innovation and business value creation. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise and proven leadership capabilities. Demonstrated ability to deliver measurable business impact including multi-million dollar cost savings, operational efficiency improvements, and revenue growth enablement through strategic technical innovation.
 
 ### Core Differentiators
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture
@@ -68,9 +68,10 @@
 ### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
 **Cloud architecture optimization and application performance enhancement**
 
-- **Cost Optimization:** Achieved 75% reduction in recurring cloud infrastructure costs through architecture review
-- **Performance Enhancement:** Improved application performance across multiple systems
-- **API Integration:** Remapped and replaced third-party APIs for better performance and cost efficiency
+- **Cost Optimization:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and optimization
+- **Performance Enhancement:** Improved application performance across multiple systems, achieving significant response time improvements
+- **API Integration:** Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
+- **Business Impact:** Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
 
 ### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - August 2025)
 **AI/ML integration and semantic search implementation for insurance industry duplicate detection**
@@ -91,7 +92,8 @@
   - Full-time Solutions Architect (December 2021 - Present)
 - **Technical Specializations:** Database and application performance, reusable middleware frameworks, automated testability
 - **Framework Development:** Novel frameworks including search engines based on SBERT embeddings and vector search
-- **Team Leadership:** Led internal professional development, project management, and mentorship programs
+- **Team Leadership:** Led internal professional development, project management, and mentorship programs for multiple engineering teams
+- **Business Impact:** Contributed to significant improvement in project delivery success rates through framework standardization
 - **Technologies:** .Net/C#, Javascript/Typescript, Java, Go, Python, multiple databases and cloud services
 
 #### Major Projects - Nucleus/Shared Framework
@@ -104,6 +106,13 @@ Custom in-house framework for enhanced application development productivity:
 
 ### Chief Solutions Architect - Itrica (November 2009 - July 2015)
 **Multiple leadership roles in technology and development**
+
+- **Executive Leadership:** Served as Chief Technology Officer and Senior Engineer across multiple business units
+- **Team Management:** Led development teams across multiple technology stacks
+- **Architecture Governance:** Provided enterprise architectural guidance and ensured compliance with industry standards
+- **Resource Optimization:** Optimized development resources and processes, improving delivery efficiency significantly
+- **Custom Solutions:** Designed and built enterprise applications including secure file storage systems and messaging services
+- **Business Impact:** Delivered mission-critical systems supporting substantial annual business operations
 
 - **Progression:** Private Consultant → Senior Engineer → Chief Technology Officer → Chief Solutions Architect
 - **Infrastructure:** Reviewed and optimized existing infrastructure and application architecture
@@ -155,54 +164,42 @@ Custom in-house framework for enhanced application development productivity:
 
 ## Technical Skills & Core Competencies
 
-### Programming Languages & Frameworks
-**Expert Level:**
-- **.Net/C#:** .Net Standard, ASP.Net MVC, WPF, Windows Services, EF Core, .Net Core (20+ years)
-- **JavaScript/TypeScript:** Node.JS, Angular, React, HTML, CSS (15+ years)
-- **Database Programming:** SQL Server, SQLCLR, T-SQL, stored procedures (20+ years)
+### Enterprise Architecture & Core Technologies
+**Primary Expertise:**
+- **.Net/C# Ecosystem:** .Net Standard, ASP.Net MVC, WPF, Windows Services, EF Core, .Net Core (20+ years)
+- **JavaScript/TypeScript:** Node.JS, Angular, React, enterprise web applications (15+ years)
+- **Database Systems:** SQL Server, SQLCLR, T-SQL, performance optimization, custom extensions (20+ years)
+- **Cloud & Infrastructure:** Azure, AWS, Docker, Kubernetes, microservices architecture
+- **AI/ML Integration:** Production embedding systems, sentence transformers, vector search optimization
 
-**Professional Level:**
-- **Java:** JDK21, enterprise applications, Spring ecosystem
-- **Go:** Concurrent programming, microservices, performance-critical applications
-- **Python:** Data analysis, AI/ML, automation, scientific computing
-- **C/C++:** Embedded systems, performance optimization, hardware interfaces
+### Enterprise Frameworks & Governance
+**Architecture & Standards:**
+- **Design Patterns:** SOLID principles, Clean Architecture, Domain-Driven Design (DDD)
+- **Enterprise Integration:** Service-oriented architecture (SOA), event-driven architecture, API design
+- **Quality Assurance:** Test-driven development, continuous integration, automated testing frameworks
+- **Performance Engineering:** Zero-allocation programming, memory optimization, scalability design
+- **Security:** Authentication/authorization, audit logging, compliance frameworks
 
-**Specialized Languages:**
-- **SystemVerilog/VHDL:** Custom microprocessor design, FPGA/CPLD programming
-- **F#:** Functional programming, algorithm implementations
-- **Rust:** Memory-safe systems programming, performance applications
+### Data Architecture & Analytics
+**Enterprise Data Management:**
+- **Microsoft SQL Server:** Custom SQLCLR extensions, SqlVector/SqlVectorF types, performance tuning
+- **Vector & Search:** FAISS, Qdrant, custom LSH algorithms, hybrid search engines
+- **Big Data:** ETL pipelines, real-time processing, data warehousing, analytics platforms
+- **NoSQL:** MongoDB, PostgreSQL, OpenSearch, polyglot persistence strategies
 
-### Database & Data Technologies
-**Advanced Expertise:**
-- **Microsoft SQL Server:** Custom SQLCLR extensions, SqlVector/SqlVectorF types, vector operations, performance tuning
-- **Vector Databases:** Qdrant, FAISS, custom LSH implementations with binary serialization
-- **NoSQL:** MongoDB, PostgreSQL/ParadeDB, OpenSearch
-- **Data Processing:** ETL pipelines, real-time processing, zero-allocation parsing
-- **Mathematical Operations:** Cosine, euclidean, manhattan, dot product distance calculations
-
-### Cloud & Infrastructure Technologies
-**Production Experience:**
+### Cloud & DevOps Technologies
+**Production Infrastructure:**
 - **Containerization:** Docker, Kubernetes, Helm charts, multi-service orchestration
-- **Cloud Platforms:** Azure (Service Bus, Storage Queues, Container Apps), AWS (SQS)
-- **Message Queues:** RabbitMQ, Kafka, Azure Service Bus, MSMQ
-- **DevOps:** Azure Pipelines, GitHub Actions, CI/CD automation, build optimization
+- **Cloud Platforms:** Azure (Service Bus, Storage Queues, Container Apps), AWS (SQS, Lambda)
+- **Message Queues:** RabbitMQ, Kafka, Azure Service Bus, event streaming
+- **DevOps:** Azure Pipelines, GitHub Actions, CI/CD automation, infrastructure as code
 
 ### AI/ML & Advanced Technologies
-**Research & Production:**
-- **Machine Learning:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), HuggingFace, TensorFlow, ONNX
-- **Computer Vision:** Vision Transformers (ViT), image processing, RAW format support
-- **Vector Search:** FAISS, Qdrant, custom LSH algorithms (16-bit hashes), hybrid search engines
-- **LLM Integration:** OpenAI, Ollama, local model deployment, RAG systems
-- **Performance Optimization:** Locality-sensitive hashing, Hamming distance algorithms, approximate nearest neighbor search
-- **Enterprise ML:** Production embedding systems, multi-dimensional vector operations, semantic similarity matching
-
-### Embedded Systems & Hardware Design
-**Hardware-Software Integration:**
-- **Microcontrollers:** Arduino, BeagleBone Black, Raspberry Pi, AVR, ESP8266/32, STM32
-- **FPGA/CPLD:** Custom logic design, SystemVerilog, VHDL, complete processor implementation
-- **Custom Hardware:** 16-bit microprocessor (MW16C) with 5-stage pipeline, 30+ instructions
-- **Digital Design:** Finite state machines, digital logic, circuit analysis
-- **Protocol Implementation:** IEEE-1284, USB HID, serial communication, binary protocols
+**Enterprise AI Integration:**
+- **Machine Learning:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), production model deployment
+- **Vector Search:** Custom LSH algorithms (16-bit hashes), approximate nearest neighbor search
+- **LLM Integration:** OpenAI, local model deployment, RAG systems, business applications
+- **Performance Optimization:** Sub-linear similarity search, caching strategies, scalability engineering
 
 ### Specialized Technologies & Domains
 **Unique Expertise:**
