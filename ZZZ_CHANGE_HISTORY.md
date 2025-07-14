@@ -1,5 +1,65 @@
 # Resume Change History
 
+## 2025-07-14 - Workday ATS-Optimized Resume Creation
+
+### Summary
+Created specialized ATS-optimized resume for Workday platform based on research into Workday ATS requirements and best practices. Focused on standard formatting, comprehensive keyword integration, and detailed technical skills representation optimized for Workday's parsing sensitivities.
+
+### Files Created
+- `MatthewWhited-Resume-ATS-workday.md` - **NEW** Workday ATS-optimized resume with specific formatting and parsing optimization
+
+### Workday ATS Optimization Features
+- **Standard Section Headers:** Professional Experience, Core Competencies, Technical Skills, Education (Workday prefers standard headings)
+- **Reverse Chronological Format:** Most ATS-friendly format clearly showcasing career progression
+- **Keyword Density:** 2-3 repetitions of key terms throughout resume for optimal parsing
+- **Abbreviation Strategy:** Both full terms and abbreviations (e.g., "API" and "Application Programming Interface")
+- **Clean Formatting:** Standard black bullet points, no graphics, straightforward structure
+- **Professional Standards:** Word document compatible formatting optimized for Workday's parsing requirements
+
+### Technical Content Organization
+- **Comprehensive Skill Coverage:** Programming languages, frameworks, databases, cloud platforms, AI/ML technologies
+- **Detailed Experience Descriptions:** Quantifiable achievements and business impact throughout professional experience
+- **Technical Depth:** Specific technologies, methodologies, and implementation details
+- **Industry Terminology:** Standard technical terms and professional language throughout
+- **Achievement Metrics:** Community recognition, download statistics, and performance improvements
+
+### Workday-Specific Compliance Features
+- **Parsing Sensitivity:** Formatting consistency and standard section headings optimized for Workday's parser
+- **Keyword Placement:** Strategic placement of technical terms throughout experience sections
+- **Professional Summary:** Keyword-rich summary section positioning skills in business context
+- **Core Competencies:** Dedicated section with technical and leadership skills for easy parsing
+- **Contact Information:** Standard format with professional links and contact details
+
+## 2025-07-14 - Lever.co ATS-Optimized Resume Creation
+
+### Summary
+Created specialized ATS-optimized resume for Lever.co platform based on research into Lever ATS requirements and best practices. Focused on keyword optimization, clean formatting, and comprehensive technical skills representation while maintaining professional credibility and business value focus.
+
+### Files Created
+- `MatthewWhited-Resume-ATS-leverco.md` - **NEW** Lever.co ATS-optimized resume with specific formatting and keyword strategies
+
+### Lever.co ATS Optimization Features
+- **Keyword Integration:** Both abbreviations and full terms (e.g., "AI/ML" and "Artificial Intelligence", "SEO" and "Search Engine Optimization")
+- **Clean Formatting:** Simple structure with standard fonts, clear sections, and ATS-friendly layout
+- **Skills Reiteration:** Technical skills repeated throughout experience sections rather than isolated to top
+- **Core Competencies Section:** Dedicated section below professional summary with relevant skills
+- **Quantifiable Achievements:** Measurable results and metrics throughout experience descriptions
+- **Professional Standards:** PDF-compatible formatting with clear section headers and consistent structure
+
+### Technical Content Organization
+- **Enterprise Architecture Focus:** Prioritized enterprise-relevant technologies and patterns
+- **Business Impact Language:** Emphasized ROI, cost optimization, and operational efficiency
+- **AI/ML Integration:** Highlighted machine learning and artificial intelligence capabilities
+- **Leadership Emphasis:** Showcased mentorship, team leadership, and cross-functional collaboration
+- **Community Recognition:** Included download metrics, reputation scores, and professional validation
+
+### ATS Compliance Features
+- **Standard Section Headers:** Contact, Professional Summary, Core Competencies, Experience, Skills, Education
+- **Keyword Density:** Balanced optimization targeting 75% match rate without overstuffing
+- **Acronym Spelling:** Full terms provided for all abbreviations and technical acronyms
+- **Professional Formatting:** Clean, scannable layout optimized for both ATS parsing and human readability
+- **Technical Depth:** Comprehensive skill coverage across programming languages, frameworks, and specialized technologies
+
 ## 2025-07-14 - Resume Enhancement and Gold Standard Alignment
 
 ### Summary
