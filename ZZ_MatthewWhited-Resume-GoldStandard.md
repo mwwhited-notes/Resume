@@ -13,7 +13,7 @@
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
 - **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
 - **Personal Website:** [matthewwhited.com](https://matthewwhited.com)
-- **NuGet Profile:** [nuget.org/profiles/mwwhited](https://www.nuget.org/profiles/mwwhited/)
+- **NuGet Profile:** [623K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
 
@@ -246,7 +246,8 @@ Custom in-house framework for enhanced application development productivity:
 ## Personal Projects & Technical Innovations
 
 ### Extensions for .Net Framework (20 NuGet packages, 623,552+ downloads)
-**Comprehensive .NET ecosystem with professional CI/CD**
+**Comprehensive .NET ecosystem with professional CI/CD**  
+**Repository:** [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex)
 
 #### Vector Support for MS-SQL Server (EXCEPTIONAL Innovation)
 - **Custom SQLCLR Implementation:** SqlVector/SqlVectorF types with full mathematical operations
@@ -255,6 +256,7 @@ Custom in-house framework for enhanced application development productivity:
 - **Technical Depth:** Deep CLR integration requiring expert-level SQL Server and .NET knowledge
 
 #### High-Performance Binary Data Processing
+**Repository:** [github.com/mwwhited/BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders)
 - **BinaryDataDecoders.ToolKit:** 36,270+ downloads, zero-allocation parsing framework
 - **Format Support:** PKZip, TAR, ISO9660, Telnet, LDAP, SNTP protocols
 - **Modern Architecture:** System.IO.Pipelines, Memory<T>, async/await patterns
@@ -267,7 +269,8 @@ Custom in-house framework for enhanced application development productivity:
 - **Professional Practices:** Automated builds, comprehensive documentation, CI/CD integration
 
 ### Custom Microprocessor Design (EXCEPTIONAL Innovation)
-**Complete 16-bit CPU implementation with toolchain**
+**Complete 16-bit CPU implementation with toolchain**  
+**Repository:** [github.com/mwwhited/EmbeddedBakery](https://github.com/mwwhited/EmbeddedBakery)
 
 #### MW16C Processor Architecture
 - **SystemVerilog Implementation:** Complete 5-stage pipeline (Fetch, Decode, Execute, Memory, Writeback)
@@ -284,6 +287,7 @@ Custom in-house framework for enhanced application development productivity:
 ### AI/ML Research & Production Systems (HIGH Innovation)
 
 #### Advanced Algorithm Development
+**Repository:** [github.com/mwwhited-notes/shared](https://github.com/mwwhited-notes/shared)
 - **Custom LSH Implementation:** Locality Sensitive Hashing for approximate nearest neighbor search
 - **Performance Research:** Hamming vs Euclidean distance optimization with significant speedup
 - **Hybrid Search Engines:** Combining semantic similarity with keyword matching using FAISS
@@ -296,7 +300,8 @@ Custom in-house framework for enhanced application development productivity:
 - **Microservices:** Health monitoring, OpenAPI compatibility, enterprise deployment
 
 ### Multi-Language Programming Platform (MEDIUM-HIGH Innovation)
-**Educational platform demonstrating exceptional breadth**
+**Educational platform demonstrating exceptional breadth**  
+**Repository:** [github.com/mwwhited-forks/ChallengeAccepted](https://github.com/mwwhited-forks/ChallengeAccepted)
 
 #### Coding Challenges Collection (25+ challenges)
 - **Language Diversity:** C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%)
@@ -408,8 +413,8 @@ Custom in-house framework for enhanced application development productivity:
 
 ### Technical Profiles
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited) - 25+ repositories, Arctic Code Vault Contributor
-- **NuGet:** [nuget.org/profiles/mwwhited](https://www.nuget.org/profiles/mwwhited/) - 20 packages, 623K+ downloads
-- **Stack Overflow:** [stackoverflow.com/users/89586](http://stackoverflow.com/users/89586/matthew-whited) - 22,433+ reputation
+- **NuGet:** [623K+ downloads](https://www.nuget.org/profiles/mwwhited/) - 20 packages, professional CI/CD
+- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited) - 4.7M user reach
 - **NPM:** [npmjs.com/~mwwhited](https://www.npmjs.com/~mwwhited) - Node.js contributions
 
 ### Professional Networks
