@@ -63,8 +63,8 @@ Ensure across ALL documents:
 - **Technical Claims:** All validated and consistent
 
 ### 6. Update Documentation
-- [ ] Add entry to `ZZZ_CHANGE_HISTORY.md` with date and changes made
-- [ ] Update `ZZZ_CLAUDE.md` with session summary and current status
+- [ ] Add entry to `CHANGE_HISTORY.md` with date and changes made
+- [ ] Update `../CLAUDE.md` with session summary and current status
 - [ ] Note any new information learned for future gold standard updates
 
 ## Common Issues to Watch For

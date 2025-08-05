@@ -1,0 +1,73 @@
+# Table of Contents - Matthew Whited Professional Documents
+
+## Core Resume Files
+
+### Primary Resume Formats
+- **[Main Comprehensive Resume](./MatthewWhited-Resume.md)** - Complete professional resume with full experience
+- **[Abbreviated Resume](./MatthewWhited-ResumeAbbreviated.md)** - Shortened version for quick review
+- **[Extended Resume](./MatthewWhited-ResumeExtended.md)** - Detailed version with comprehensive capabilities
+
+### ATS-Optimized Formats
+- **[ATS-Optimized Resume](./MatthewWhited-ResumeATS.txt)** - Plain text ATS-optimized format
+- **[Leverco ATS Resume](./MatthewWhited-Resume-ATS-leverco.md)** - Leverco-specific ATS format
+- **[Workday ATS Resume](./MatthewWhited-Resume-ATS-workday.md)** - Workday-specific ATS format
+
+### Specialized Position Resumes
+- **[Principal Architect - AI/ML Resume](./MatthewWhited-Resume-PrincipalArchitectAI-ML.md)** - AI/ML Principal Architect focused
+
+### Structured Resume Formats
+- **[FRESH Schema Resume](./ZZ_MatthewWhited-Resume-FRESH.yaml)** - FRESH schema format
+- **[JSON Resume](./ZZ_MatthewWhited-Resume-JsonResume.json)** - JSON Resume v1.0.0 format
+- **[Gold Standard Resume](./ZZ_MatthewWhited-Resume-GoldStandard.md)** - Authoritative source for all resume content
+
+## Professional Documents
+
+### Executive Summaries & Briefs
+- **[Executive Summary](./AAB_MatthewWhited-Summary.md)** - Executive summary with validated achievements
+- **[First-Person Introduction](./AAB_MatthewWhited-FirstPerson.md)** - Personal introduction with technical depth
+- **[Professional Brief](./_MatthewWhited-Brief.md)** - Concise professional brief
+- **[First-Person Brief](./_MatthewWhited-Brief-FirstPerson.md)** - First-person professional brief
+
+### Cover Letters
+- **[Professional Cover Letter](./ZA_MatthewWhited-CoverLetter.md)** - Professional cover letter template
+
+## External Profile Links
+
+### Development Platforms
+- **[GitHub Profile](https://github.com/mwwhited)** - Primary development portfolio
+  - **[EmbeddedBakery](https://github.com/mwwhited/EmbeddedBakery)** - Microcontrollers, Arduino, FPGA projects
+  - **[ChallengeAccepted](https://github.com/mwwhited-forks/ChallengeAccepted)** - Coding challenges and algorithms
+  - **[dotex Framework](https://github.com/OutOfBandDevelopment/dotex)** - Extensions for .NET
+    - **[Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors)** - Custom SQLCLR implementations
+  - **[Shared Research Notebooks](https://github.com/mwwhited-notes/shared)** - Public AI/ML research
+  - **[Out of Band Development Repositories](https://github.com/orgs/OutOfBandDevelopment/repositories)** - Organization projects
+  - **[Personal Repositories](https://github.com/mwwhited?tab=repositories)** - Complete portfolio
+
+### Community & Professional Networks
+- **[Stack Exchange Profile](https://stackexchange.com/users/32329/matthew-whited)** - Cross-platform community engagement
+- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22,433 reputation, 4.7M user reach
+- **[LinkedIn](https://www.linkedin.com/in/mwwhited/)** - Professional networking profile
+
+### Package Distribution
+- **[NuGet Profile](https://www.nuget.org/profiles/mwwhited/)** - 623K+ downloads across ecosystem
+- **[NPM Profile](https://www.npmjs.com/~mwwhited)** - JavaScript/Node.js packages
+
+### Personal
+- **[Flickr Photography](http://www.flickr.com/photos/mwwhited/)** - Creative portfolio
+
+### Current Public Documents
+- **[Professional Summary](./AAB_MatthewWhited-FirstPerson.md)** - Current first-person introduction
+- **[Resume](./MatthewWhited-Resume.md)** - Current public resume
+  - **[FRESH Format](./ZZ_MatthewWhited-Resume-FRESH.yaml)** - Structured resume format
+  - **[JSON Resume](./ZZ_MatthewWhited-Resume-JsonResume.json)** - JSON format
+- **[Cover Letter](./ZA_MatthewWhited-CoverLetter.md)** - Current cover letter template
+
+---
+
+## Document Ecosystem Status
+- **Total Files:** 15 professional documents
+- **Last Updated:** 2025-08-05
+- **Validation Status:** 100% verified technical accuracy
+- **Consistency Status:** All files aligned with gold standard
+- **Professional Identity:** Principal Solutions Architect and Strategic Technology Leader
+- **Community Impact:** 623K+ NuGet downloads, 22K+ Stack Overflow reputation, GitHub Arctic Code Vault Contributor

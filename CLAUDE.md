@@ -11,14 +11,14 @@
 ## Critical User Commands - MEMORIZED
 
 ### 1. "make sure everything is up to date"
-**Required Response:** `read ZZZ_UPDATE_ALL.md and do what it says`
+**Required Response:** `read tools/UPDATE_ALL.md and do what it says`
 - Execute systematic checklist step-by-step
 - Use TodoWrite to track progress
 - Run verification commands
 - Update documentation
 
 ### 2. "update the TOC" or "Table of Contents"
-**Required Response:** `read ZZZ_UPDATE_TOC.md and follow the protocol step-by-step`
+**Required Response:** `read tools/UPDATE_TOC.md and follow the protocol step-by-step`
 - Apply gist URL prefix to ALL local links
 - Update file counts and metadata
 - Verify link format consistency
@@ -40,12 +40,12 @@
 
 ## Documentation Files Reference
 - **Gold Standard:** ZZ_MatthewWhited-Resume-GoldStandard.md (authoritative source)
-- **Change History:** ZZZ_CHANGE_HISTORY.md (all session details)
-- **Stack Overflow Analysis:** ZZZ_STACK_OVERFLOW.md (technical validation)
-- **Code Review:** ZZZ_CODE_REVIEW.md (repository analysis)
-- **Update Protocols:** ZZZ_UPDATE_ALL.md, ZZZ_UPDATE_TOC.md
+- **Change History:** tools/CHANGE_HISTORY.md (all session details)
+- **Stack Overflow Analysis:** tools/STACK_OVERFLOW.md (technical validation)
+- **Code Review:** tools/CODE_REVIEW.md (repository analysis)
+- **Update Protocols:** tools/UPDATE_ALL.md, tools/UPDATE_TOC.md
 - **TOC:** ..TOC.md (15 professional documents with gist URLs)
-- **Portfolio Strategy:** ZZZ_WRITE_UP.md (technical project write-up recommendations)
+- **Portfolio Strategy:** tools/WRITE_UP.md (technical project write-up recommendations)
 
 ## Current Status - 2025-08-05
 ✅ **Professional Documents:** All 15 files aligned with gold standard and enhanced with new technical achievements
@@ -54,15 +54,15 @@
 ✅ **Strategic Leadership:** Enhanced positioning integrated across all formats with framework ecosystem emphasis
 ✅ **Stack Overflow Authority:** Comprehensive analysis documenting 606+ contributions
 ✅ **Maintenance Protocols:** Updated TOC protocol and systematic consistency verification completed
-✅ **Portfolio Strategy:** ZZZ_WRITE_UP.md created with recommendations for detailed technical project documentation
+✅ **Portfolio Strategy:** tools/WRITE_UP.md created with recommendations for detailed technical project documentation
 ✅ **Resume Enhancements:** Applied strategic improvements emphasizing pure .NET AI/ML implementation and enterprise framework creation
 
-## Gist URL Format - MEMORIZED
-- **Base:** `https://gist.github.com/mwwhited/a40bb3f3069cee86bedfdeccd4aff872#file-[filename]`
-- **Conversion:** lowercase, periods → hyphens, keep underscores/hyphens
+## File Path Format - MEMORIZED
+- **Format:** Relative paths with `./` prefix
+- **Conversion:** Direct reference to actual filenames in repository
 - **Examples:** 
-  - `MatthewWhited-Resume.md` → `#file-matthewwhited-resume-md`
-  - `ZZZ_CLAUDE.md` → `#file-zzz_claude-md`
+  - `MatthewWhited-Resume.md` → `./MatthewWhited-Resume.md`
+  - `AAB_MatthewWhited-Summary.md` → `./AAB_MatthewWhited-Summary.md`
 
 ## Key Constraints & Preferences
 - **DO NOT relocate** (travel up to 25% acceptable)

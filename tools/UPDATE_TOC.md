@@ -8,7 +8,7 @@ When user says "update the TOC" or "Table of Contents" OR when you realize TOC n
 
 1. **Read the Current TOC**
    ```
-   Read /current/src/..TOC.md
+   Read /current/src/README.md
    ```
 
 2. **Scan All Files for Changes**
@@ -19,7 +19,7 @@ When user says "update the TOC" or "Table of Contents" OR when you realize TOC n
 
 3. **Identify Missing or Changed Files**
    - Compare current file list with TOC entries
-   - Check for new files that need TOC entries (EXCLUDE ZZZ_* files - these are internal maintenance only)
+   - Check for new files that need README entries (EXCLUDE tools/* files - these are internal maintenance only)
    - Check for renamed/deleted files that need TOC updates
    - Verify all file descriptions are accurate
 
@@ -35,18 +35,18 @@ When user says "update the TOC" or "Table of Contents" OR when you realize TOC n
    - Convert filename to lowercase and replace periods with hyphens
    - Examples:
      - `MatthewWhited-Resume.md` → `#file-matthewwhited-resume-md`
-     - `ZZZ_CLAUDE.md` → `#file-zzz_claude-md`
+     - `MatthewWhited-Resume.md` → `./MatthewWhited-Resume.md`
      - `_MatthewWhited-Brief.md` → `#file-_matthewwhited-brief-md`
 
 6. **Verify Link Format Consistency**
    ```bash
    # Check for any remaining local links (should return no matches)
-   grep -n "\]\([^h][^t][^t][^p][^s]" /current/src/..TOC.md
+   grep -n "\]\([^\.]" /current/src/README.md
    ```
 
 7. **Update Documentation Status**
-   - Document changes in ZZZ_CHANGE_HISTORY.md
-   - Update memory in ZZZ_CLAUDE.md if significant changes
+   - Document changes in CHANGE_HISTORY.md
+   - Update memory in ../CLAUDE.md if significant changes
    - Use TodoWrite to track progress through all steps
 
 ## File Naming Convention for Gist URLs
@@ -91,7 +91,7 @@ If you encounter any issues:
 1. Stop and read this file again
 2. Follow each step systematically
 3. Use TodoWrite to track your progress
-4. Document any problems in ZZZ_CLAUDE.md
+4. Document any problems in ../CLAUDE.md
 5. Ask user for clarification if needed
 
 **This protocol ensures the TOC remains accurate, functional, and properly formatted for gist hosting.**

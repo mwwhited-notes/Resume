@@ -119,7 +119,7 @@ Extract specific metrics for:
 
 ## Output Documentation
 
-### **Track Discoveries in ZZZ_CAREER_PATH.md**
+### **Track Discoveries in CAREER_PATH.md**
 - Career vision and preferences
 - Leadership experience with metrics
 - Strategic influence examples
@@ -153,4 +153,4 @@ Based on discoveries, prioritize:
 
 ---
 
-**Usage Note:** This process should be conducted systematically, documenting all discoveries in ZZZ_CAREER_PATH.md for reference during resume enhancement and interview preparation. The goal is uncovering hidden strategic leadership experience that positions the candidate for senior technical advisory and strategy roles.
+**Usage Note:** This process should be conducted systematically, documenting all discoveries in CAREER_PATH.md for reference during resume enhancement and interview preparation. The goal is uncovering hidden strategic leadership experience that positions the candidate for senior technical advisory and strategy roles.
