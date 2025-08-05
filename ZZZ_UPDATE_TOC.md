@@ -1,0 +1,97 @@
+# Table of Contents Update Protocol
+
+## Critical Instructions - ALWAYS FOLLOW
+
+When user says "update the TOC" or "Table of Contents" OR when you realize TOC needs updating:
+
+### MANDATORY PROTOCOL STEPS
+
+1. **Read the Current TOC**
+   ```
+   Read /current/src/..TOC.md
+   ```
+
+2. **Scan All Files for Changes**
+   ```bash
+   # Get list of all current files
+   ls /current/src/ | grep -E "\.(md|txt|yaml|json)$"
+   ```
+
+3. **Identify Missing or Changed Files**
+   - Compare current file list with TOC entries
+   - Check for new files that need TOC entries
+   - Check for renamed/deleted files that need TOC updates
+   - Verify all file descriptions are accurate
+
+4. **Update File Counts and Metadata**
+   - Count total professional documents
+   - Update "Last Updated" date to current date
+   - Verify validation status reflects current state
+   - Update professional identity if changed
+
+5. **Apply Gist URL Prefix to ALL Local Links**
+   - **CRITICAL:** All local file links MUST use gist prefix
+   - Format: `https://gist.github.com/mwwhited/a40bb3f3069cee86bedfdeccd4aff872#file-[filename]`
+   - Convert filename to lowercase and replace periods with hyphens
+   - Examples:
+     - `MatthewWhited-Resume.md` → `#file-matthewwhited-resume-md`
+     - `ZZZ_CLAUDE.md` → `#file-zzz_claude-md`
+     - `_MatthewWhited-Brief.md` → `#file-_matthewwhited-brief-md`
+
+6. **Verify Link Format Consistency**
+   ```bash
+   # Check for any remaining local links (should return no matches)
+   grep -n "\]\([^h][^t][^t][^p][^s]" /current/src/..TOC.md
+   ```
+
+7. **Update Documentation Status**
+   - Document changes in ZZZ_CHANGE_HISTORY.md
+   - Update memory in ZZZ_CLAUDE.md if significant changes
+   - Use TodoWrite to track progress through all steps
+
+## File Naming Convention for Gist URLs
+
+**Rule:** Convert filename to all lowercase, replace all periods with hyphens
+- Keep underscores as underscores
+- Keep regular hyphens as hyphens
+- Only periods become hyphens
+
+**Examples:**
+- `MatthewWhited-Resume.md` → `matthewwhited-resume-md`
+- `ZZ_MatthewWhited-Resume-FRESH.yaml` → `zz_matthewwhited-resume-fresh-yaml`
+- `_MatthewWhited-Brief-FirstPerson.md` → `_matthewwhited-brief-firstperson-md`
+
+## Quality Assurance Checklist
+
+- [ ] All local file links use gist URL prefix
+- [ ] File count matches actual file count
+- [ ] Last updated date is current
+- [ ] New files are properly categorized
+- [ ] Removed files are deleted from TOC
+- [ ] All descriptions are accurate and current
+- [ ] External links (GitHub, etc.) remain unchanged
+- [ ] Professional status reflects current positioning
+
+## Common Triggers for TOC Updates
+
+- New resume format created
+- File renamed or deleted
+- New documentation files added
+- Professional positioning changes
+- After major resume updates
+- User explicitly requests TOC update
+
+## CRITICAL REMINDER
+
+**NEVER skip the gist URL prefix step.** All local links MUST work with the gist hosting. This is essential for the TOC to function as intended for external viewers.
+
+## Emergency Protocol
+
+If you encounter any issues:
+1. Stop and read this file again
+2. Follow each step systematically
+3. Use TodoWrite to track your progress
+4. Document any problems in ZZZ_CLAUDE.md
+5. Ask user for clarification if needed
+
+**This protocol ensures the TOC remains accurate, functional, and properly formatted for gist hosting.**

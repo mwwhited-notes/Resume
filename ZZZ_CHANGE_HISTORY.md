@@ -1,5 +1,39 @@
 # Resume Change History
 
+## 2025-08-05 - Table of Contents Gist Integration & Protocol Creation
+
+### Summary
+Updated Table of Contents (..TOC.md) to work with GitHub Gist hosting by converting all local markdown links to gist-compatible URLs. Created comprehensive protocol (ZZZ_UPDATE_TOC.md) for systematic TOC maintenance ensuring gist compatibility and accuracy.
+
+### Files Modified
+1. **..TOC.md** - Updated 22 local markdown links with gist URL prefix
+2. **ZZZ_UPDATE_TOC.md** - NEW: Created comprehensive TOC update protocol
+3. **ZZZ_CLAUDE.md** - Updated memory with new TOC protocol
+
+### Technical Changes
+- **Gist URL Integration:** All local links now use `https://gist.github.com/mwwhited/a40bb3f3069cee86bedfdeccd4aff872#file-[filename]` format
+- **Link Conversion Rules:** Filename conversion to lowercase, periods become hyphens, preserve underscores
+- **Verification Process:** Systematic grep verification to ensure no local links remain
+
+### Protocol Creation - ZZZ_UPDATE_TOC.md
+- **Purpose:** Systematic protocol for maintaining Table of Contents accuracy and gist compatibility
+- **Key Features:**
+  - Step-by-step TOC update process
+  - Gist URL formatting rules and examples
+  - Quality assurance checklist
+  - File count and metadata update procedures
+  - Verification commands for link validation
+
+### User Command Protocol Added
+**New Memorized Command:** "update the TOC" or "Table of Contents"
+**Required Response:** Read ZZZ_UPDATE_TOC.md and follow protocol step-by-step
+
+### Current Status
+- ✅ All 22 local links converted to gist format
+- ✅ TOC now fully functional for external gist viewers
+- ✅ Systematic maintenance protocol documented
+- ✅ Quality assurance verification completed
+
 ## 2025-08-05 - Strategic Leadership Content Integration & System-Wide Update
 
 ### Summary

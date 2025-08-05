@@ -432,3 +432,54 @@ When user says "make sure everything is up to date" → IMMEDIATELY:
 5. Document all findings and changes
 
 **This protocol is CRITICAL for maintaining professional documentation ecosystem integrity.**
+
+## Memory Update - 2025-08-05 (Fourth Session)
+
+### Table of Contents Gist URL Integration
+- **Task Completed:** Updated all local links in ..TOC.md with gist URL prefix
+- **Links Updated:** 22 local markdown links converted to gist-compatible format
+- **Gist URL Format:** `https://gist.github.com/mwwhited/a40bb3f3069cee86bedfdeccd4aff872#file-[filename]`
+- **Verification:** Confirmed no local links remain - all links now work with gist hosting
+
+### Critical Protocol Creation - ZZZ_UPDATE_TOC.md
+- **New Protocol File Created:** ZZZ_UPDATE_TOC.md with comprehensive TOC update instructions
+- **Purpose:** Systematic protocol for maintaining Table of Contents accuracy and gist compatibility
+- **Key Requirements:**
+  - All local links MUST use gist URL prefix format
+  - File naming convention: lowercase, periods become hyphens
+  - Systematic verification of file counts and metadata
+  - Quality assurance checklist for consistency
+
+### User Directive - NEW PROTOCOL MEMORIZED
+**Command:** "update the TOC" or "Table of Contents" (or when I realize TOC needs updating)
+**Required Response:** `read ZZZ_UPDATE_TOC.md and follow the protocol step-by-step`
+
+### Mandatory TOC Protocol Steps
+1. **Read current TOC** - /current/src/..TOC.md
+2. **Scan all files for changes** - Compare with current file list
+3. **Identify missing/changed files** - Add new, remove deleted, update renamed
+4. **Update metadata** - File counts, dates, status information
+5. **Apply gist URL prefix** - Convert ALL local links to gist format
+6. **Verify link format** - Use grep to confirm no local links remain
+7. **Document changes** - Update change history and memory
+
+### Gist URL Conversion Rules - MEMORIZED
+- **Format:** `https://gist.github.com/mwwhited/a40bb3f3069cee86bedfdeccd4aff872#file-[filename]`
+- **Filename conversion:** lowercase, periods → hyphens, keep underscores/hyphens
+- **Examples:**
+  - `MatthewWhited-Resume.md` → `#file-matthewwhited-resume-md`
+  - `ZZZ_CLAUDE.md` → `#file-zzz_claude-md`
+  - `_MatthewWhited-Brief.md` → `#file-_matthewwhited-brief-md`
+
+### Current TOC Status - GIST READY
+✅ **All Local Links Converted** - 22 links now use proper gist URL format
+✅ **Protocol Documented** - ZZZ_UPDATE_TOC.md created for future maintenance
+✅ **Verification Complete** - No local links remain in TOC
+✅ **User Access Enabled** - TOC now fully functional for external gist viewers
+
+### Critical Protocols Active
+1. **"make sure everything is up to date"** → read ZZZ_UPDATE_ALL.md
+2. **"update the TOC" or "Table of Contents"** → read ZZZ_UPDATE_TOC.md
+3. **Both protocols require systematic execution with TodoWrite tracking**
+
+**Current Status:** Professional documentation ecosystem now includes robust TOC maintenance protocol ensuring gist compatibility and systematic accuracy verification.
