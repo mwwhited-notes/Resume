@@ -66,7 +66,8 @@
 ## Work History
 
 - **Chief Solutions Architect** - Out-of-Band Development, LLC (March 2015 - Present)
-- **Principal Solutions Architect, specialized in AI** - ERisk Services (November 2024 - August 2025)  
+- **Principal Solutions Architect** - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+- **Principal Solutions Architect, specialized in AI** - ERisk Services, Eliassen Group (November 2024 - August 2025)
 - **Principal Solutions Architect** - Eliassen Group (September 2015 - October 2024)
 - **Chief Solutions Architect** - Itrica (November 2009 - July 2015)
 - **Senior .Net Developer** - Safe Auto Insurance, TEKsystems (April 2010 - September 2010)

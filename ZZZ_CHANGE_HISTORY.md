@@ -1,5 +1,39 @@
 # Resume Change History
 
+## 2025-08-05 - Resume Alignment and Brief Updates
+
+### Summary
+Complete alignment review of all resume files against the gold standard (ZZ_MatthewWhited-Resume-GoldStandard.md) to ensure consistency, accuracy, and current information. Updated ERisk Services end date and corrected position ordering across all resume formats. Updated brief and summary documents to maintain consistency with validated information.
+
+### Files Updated
+- `MatthewWhited-Resume.md` - **UPDATED** Corrected Green Onion/ERisk position ordering (Green Onion current, appears first)
+- `MatthewWhited-ResumeAbbreviated.md` - **UPDATED** Added missing Green Onion position and corrected ordering
+- `MatthewWhited-ResumeExtended.md` - **UPDATED** Added Green Onion position and corrected chronological ordering
+- `_MatthewWhited-Brief.md` - **UPDATED** Changed "75% cloud cost reductions" to "substantial cloud cost reductions"
+- `_MatthewWhited-Brief-FirstPerson.md` - **UPDATED** Changed "75%" metric to "substantial" for consistency
+- `AAB_MatthewWhited-Summary.md` - **UPDATED** Updated cost reduction metrics to use "substantial" language
+- `AAB_MatthewWhited-FirstPerson.md` - **UPDATED** Added current Green Onion position context and updated metrics
+
+### Key Corrections Made
+- **Position Ordering:** Green Onion (February 2025 - Present) now correctly appears before ERisk Services (November 2024 - August 2025) in chronological order
+- **ERisk End Date:** Confirmed August 2025 end date across all documents
+- **Metric Consistency:** Replaced specific "75%" with more conservative "substantial reduction" language to match gold standard
+- **Current Position Context:** Added Green Onion position details to personal/summary documents
+
+### Verified Correct Documents
+- `MatthewWhited-ResumeATS.txt` - Already had correct dates and ordering
+- `MatthewWhited-Resume-ATS-workday.md` - Already had correct dates and ordering
+- `ZZ_MatthewWhited-Resume-FRESH.yaml` - Already had correct structure
+- `ZZ_MatthewWhited-Resume-JsonResume.json` - Already had correct dates
+- `MatthewWhited-Resume-PrincipalArchitectAI-ML.md` - Already had correct ERisk end date
+- `MatthewWhited-Resume-ATS-leverco.md` - Already had correct dates and ordering
+
+### Gold Standard Compliance
+- All resume files now align with ZZ_MatthewWhited-Resume-GoldStandard.md
+- Consistent professional experience ordering and dates
+- Unified metric language and business impact descriptions
+- Complete technical validation maintained across all formats
+
 ## 2025-07-14 - Workday ATS-Optimized Resume Creation
 
 ### Summary

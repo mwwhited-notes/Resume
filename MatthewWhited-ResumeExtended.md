@@ -60,7 +60,16 @@ Custom microelectronics and software design, architecture, and engineering. Cust
 - Application code generation and validation
 - Training and mentoring best patterns and practices
 
+### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+**Cloud architecture optimization and application performance enhancement**
+
+- **Cost Optimization:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and optimization
+- **Performance Enhancement:** Improved application performance across multiple systems, achieving significant response time improvements
+- **API Integration:** Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
+- **Business Impact:** Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
+
 ### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - August 2025)
+**AI/ML integration and semantic search implementation for insurance industry duplicate detection**
 
 - **Advanced ML Integration:** Implemented AllMiniLM-L6-v2 sentence transformers with 384-dimensional embeddings for semantic similarity matching in insurance submission processing
 - **Database Innovation:** Added vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations (cosine, euclidean, manhattan, dot product) and optimized binary serialization

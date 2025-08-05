@@ -18,7 +18,7 @@ Matthew Whited is a seasoned Principal Solutions Architect with over two decades
 - **Algorithm Development:** Implemented custom LSH (Locality Sensitive Hashing) algorithms for approximate nearest neighbor search with performance benchmarking
 - **Production Infrastructure:** Deployed containerized AI/ML services (SBERT, ViT, Ollama, Qdrant) with microservices architecture and health monitoring
 - Implemented sentence transformer models for enterprise fuzzy matching systems
-- Achieved 75% cost reduction in cloud architecture optimization projects
+- Achieved substantial cost reduction in cloud architecture optimization projects
 
 **Team Development & Mentorship**
 - Established and leads Centers of Excellence for .NET development practices
@@ -29,7 +29,7 @@ Matthew Whited is a seasoned Principal Solutions Architect with over two decades
 
 **Recent Achievements (2024-2025)**
 - **ERisk Services**: Dramatically improved embedding query performance through locality-sensitive hashing (LSH) implementation
-- **Green Onion**: Reduced recurring cloud costs by 75% through architecture review and optimization
+- **Green Onion**: Achieved substantial reduction in recurring cloud costs through architecture review and optimization
 - **Out-of-Band Development**: Developed custom vector search capabilities for Microsoft SQL Server
 
 **Innovation & Development**
