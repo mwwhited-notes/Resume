@@ -56,7 +56,7 @@
 
 **Cloud architecture optimization and distributed system performance enhancement**
 
-- **Cost Optimization:** Achieved 75% reduction in cloud infrastructure costs through architecture review and optimization
+- **Cost Optimization:** Achieved substantial reduction in cloud infrastructure costs through architecture review and optimization
 - **Performance Engineering:** Improved application performance across multiple distributed systems with measurable response time improvements
 - **System Integration:** Remapped third-party APIs eliminating vendor lock-in while improving performance and cost efficiency
 

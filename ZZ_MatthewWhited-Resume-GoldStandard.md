@@ -26,7 +26,7 @@
 - **Technical Innovation:** Custom database extensions, microprocessor design, AI/ML algorithms, and zero-allocation frameworks
 - **ML/AI Expertise:** Production-ready sentence transformers, custom LSH implementations, vector similarity search optimization
 - **Community Impact:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor
-- **Business Results:** 75% cloud cost reduction, dramatic performance improvements, team productivity enhancements
+- **Business Results:** Substantial cloud cost reduction, dramatic performance improvements, team productivity enhancements
 
 ---
 
@@ -42,7 +42,7 @@
   - I/O Abstractions: 34,004 downloads
 
 ### Business Impact & Performance Results
-- **75% reduction in cloud infrastructure costs** through architecture optimization
+- **Substantial reduction in cloud infrastructure costs** through architecture optimization
 - **Dramatic query performance improvements** via custom LSH-based indexing algorithms
 - **Enterprise framework development** increasing team productivity and code quality
 - **438+ commits** on high-performance parsing frameworks
@@ -390,7 +390,7 @@ Custom in-house framework for enhanced application development productivity:
 ## Business Impact & Measurable Results
 
 ### Cost Optimization & Performance Enhancement
-- **75% Cloud Cost Reduction:** Architecture optimization delivering significant financial impact
+- **Substantial Cloud Cost Reduction:** Architecture optimization delivering significant financial impact
 - **Query Performance:** Dramatic improvements through custom LSH-based indexing
 - **Development Productivity:** Framework development increasing team efficiency
 - **Technical Debt Reduction:** Legacy system modernization and performance tuning
