@@ -93,15 +93,71 @@ This Centers of Excellence experience is GOLD for senior technical advisory posi
 - **Open Source Initiative:** Led effort to open-source framework (achieved but never officially supported)
 - **Organizational Adoption:** Framework became foundational to team's development approach
 
+**Strategic Technology Vision & Early Adoption:**
+
+**AI/ML Strategic Leadership:**
+- **Comprehensive AI Strategy:** When AI/ML became popular, ensured entire concept was covered beyond just language models
+- **Competitive Analysis:** Evaluated internal "Eli" product (single RAG architecture using Azure AI Studio over targeted documents)
+- **Innovation Response:** Created hybrid search engine proof of concept to address limitations
+
+**Hybrid Search Engine POC (Strategic Innovation):**
+- **Technical Architecture:** Combined vector embeddings with BM25/full text search over same dataset
+- **Performance Benefits:** Faster, cheaper, and more accurate data recovery
+- **User Experience:** Selection between semantic and full text search based on use case
+- **Integration Impact:** Integrated document search capabilities and cross-API chat abilities into shared framework
+- **Organizational Outcome:** Enhanced framework capabilities despite original team not adopting approach
+
+**Current Strategic Technology Guidance:**
+- **Cost Analysis:** LLM tools are powerful but expensive and energy-inefficient
+- **User Interface Assessment:** Poor interface for power users, but lowers barrier for less skilled workers
+- **Strategic Recommendation:** Balance LLM capabilities with cost-effectiveness and user experience considerations
+
+**Strategic Technology Philosophy - "Don't Forget About" Leadership:**
+- **Core Approach:** Help simplify solutions by focusing on proven technologies over "hot zebras in the news"
+- **Value Proposition:** Advocate for reliable workhorse solutions that achieve same results with less time/effort/cost
+- **Strategic Positioning:** Technology pragmatist who prevents costly chasing of trends
+- **Business Impact:** Saves organizations from expensive technology fads while ensuring practical solution delivery
+
+**Real-World Pragmatic Leadership Example - MongoDB/Kafka Pushback:**
+
+**Context:** Senior leadership attended MongoDB and Confluent/Kafka conferences, pressured development teams to learn technologies and get certifications
+
+**Strategic Response:**
+- **Pushed back against conference-driven decision making**
+- **Made technology evaluation more general and holistic**
+- **Ensured comprehensive pros/cons review vs. vendor whitepaper bias**
+- **Protected junior developers from single-solution thinking**
+
+**Technical Analysis Provided:**
+- **MongoDB Reality Check:**
+  - Acknowledged schemaless benefits for faster proof of concepts
+  - **Demonstrated alternative solutions:** Code-first migrations in Entity Framework and Hibernate achieve same rapid development benefits
+  - Exposed data management and corruption issues with reverse queries in production
+  - Showed applications still require schemas (even if not enforced at database level)
+  - Highlighted increased complexity in distributed/non-transactional data management and versioning
+  - **Strategic insight:** Existing proven tools (EF/Hibernate) provide rapid development without production trade-offs
+- **Kafka Misunderstanding:**
+  - Clarified Kafka is "log with high watermark" not traditional queue
+  - Advocated for traditional message brokers/queues better aligned with client business events
+  - Prevented misuse based on vendor positioning vs. actual technical capabilities
+
+**Organizational Impact:**
+- **Prevented costly technology adoption** without proper evaluation
+- **Educated teams** on comprehensive technology trade-offs
+- **Countered vendor influence** with practical technical assessment
+- **Protected against junior developer bias** from marketing materials vs. real-world experience
+
 **Proof of Concepts & Innovation:**
-- Can you recall 3-5 major proof of concepts you created that became client solutions?
-- Any POCs that influenced company-wide technology adoption?
-- Did any of your POCs help win new business or expand existing contracts?
+- Hybrid search engine (vector + full text) - integrated into shared framework
+- Enhanced Nucleus framework with templated patterns
+- SDLC methodology with upstream feedback loops
+- Custom SQLCLR vector extensions for SQL Server
 
 **Strategic Foresight Examples:**
-- What are 2-3 examples of technologies/approaches you recommended before they became industry standard?
-- Any situations where your early recommendations saved significant time/money later?
-- What "questions" did you have answers ready for before clients asked?
+- Early comprehensive AI/ML strategy beyond just LLMs (before industry recognized limitations)
+- Hybrid search approach addressing cost/performance issues before widespread adoption
+- Framework-based development patterns (Nucleus still in use years later)
+- Process innovation (SDLC upstream feedback) improving delivery quality
 
 ### Resume Enhancement Priorities
 
