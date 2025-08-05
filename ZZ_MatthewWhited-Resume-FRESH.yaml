@@ -6,15 +6,17 @@ contact:
   work_preference: "Remote / Full-Time"
 
 summary: >
-  Highly accomplished Principal Solutions Architect with over 20 years of experience in software development, 
-  architecture, and technical leadership. Proven open-source contributor with 20 NuGet packages (623K+ downloads), 
-  22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status. Expert in designing complex systems, 
-  optimizing performance, and developing reusable frameworks that enhance team productivity and code quality. 
-  Technical innovations include custom SQL Server vector extensions via SQLCLR with mathematical operations, 
-  complete 16-bit microprocessor design with SystemVerilog and Python assembler, and production AI/ML infrastructure 
-  with containerized services. Maintains extensive embedded systems projects (194+ commits) and research notebooks 
-  with custom LSH algorithm implementations. Demonstrated ability to lead and mentor development teams, establish 
-  best practices, and drive technical innovation. Active community member with 16+ years of knowledge sharing and continuous learning.
+  Principal Solutions Architect and Strategic Technology Leader with over 20 years bridging hardware and software domains 
+  through exceptional technical innovation, organizational influence, and business value creation. Centers of Excellence 
+  leadership across 125+ developers with enterprise-wide standards creation and technology risk management preventing 
+  costly adoption mistakes. Technology pragmatism advocate focusing on "workhorse solutions" over trend-driven alternatives. 
+  Crisis resolution expertise spanning client relations, failed deployments, data corruption, integration challenges, and 
+  organizational change management. Framework architecture innovation with transformational product leadership (Nucleus 
+  framework evolution) having lasting organizational impact years after implementation. Proven open-source contributor 
+  with 623K+ package downloads, 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status. 
+  Technical innovations include custom SQL Server vector extensions via SQLCLR, complete 16-bit microprocessor design, 
+  and production AI/ML infrastructure with hybrid search engines. Demonstrated ability to deliver substantial cloud cost 
+  reduction, dramatic performance improvements, crisis resolution, and organizational productivity enhancements.
 
 skills:
   technical:
@@ -161,7 +163,7 @@ work_history:
     dates: "February 2025 - Present"
     responsibilities:
       - "Improve application performance"
-      - "Review application cloud architecture and spend, reduced reoccurring costs by 75%"
+      - "Review application cloud architecture and spend, achieved substantial reduction in recurring costs"
       - "Remap/replace Third Party APIs"
 
   - role: "Principal Solutions Architect, specialized in AI"
