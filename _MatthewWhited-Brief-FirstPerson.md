@@ -1,4 +1,4 @@
-I am a Principal Solutions Architect with over 20 years of experience, uniquely bridging hardware and 
+I am a Principal Solutions Architect and Strategic Technology Leader with over 20 years of experience, uniquely bridging hardware and 
 software domains to deliver exceptional business results. I’ve demonstrated technical authority through hundreds 
 of thousands of package downloads, significant community recognition, and measurable achievements like achieving substantial 
 cloud cost reductions. I combine deep technical innovation with practical enterprise solutions. With a rare blend of 
