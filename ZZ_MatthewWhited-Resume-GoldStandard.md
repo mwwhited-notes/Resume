@@ -25,7 +25,7 @@
 - **Strategic Technology Leadership:** Centers of Excellence influence across 125+ developers, enterprise-wide standards creation, and technology risk management preventing costly adoption mistakes
 - **Technology Pragmatism:** "Workhorse solutions" philosophy preventing expensive trend-chasing while delivering proven alternatives (EF Code-First vs. MongoDB, traditional queues vs. Kafka misuse)
 - **Crisis Resolution Expertise:** Cross-functional problem solving spanning client relations, failed deployments, data corruption, integration challenges, and organizational change management
-- **Framework Architecture Innovation:** Transformational product leadership (Nucleus framework evolution) with lasting organizational impact years after implementation
+- **Framework Architecture Innovation:** Transformational product leadership (Shared Framework framework evolution) with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **ML/AI Strategic Foresight:** Comprehensive AI strategy development, hybrid search innovation, and early recognition of LLM cost/efficiency limitations
 - **Community Impact:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
@@ -49,7 +49,7 @@
 - **Technology Risk Management:** Prevented costly technology adoption mistakes through comprehensive evaluation processes, steering organization away from expensive MongoDB/Kafka implementations toward proven alternatives
 - **Crisis Resolution Impact:** Resolved critical client issues spanning relationship management, deployment failures, data corruption, and integration challenges, maintaining client satisfaction and contract retention
 - **Process Innovation Results:** Created enterprise SDLC methodology with upstream feedback loops, improving delivery quality while maintaining similar timeframes and increasing developer satisfaction
-- **Framework Architecture Legacy:** Nucleus framework transformation remains foundational to organizational .NET development years after implementation, demonstrating lasting strategic impact
+- **Framework Architecture Legacy:** Shared Framework framework transformation remains foundational to organizational .NET development years after implementation, demonstrating lasting strategic impact
 - **Substantial reduction in cloud infrastructure costs** through architecture optimization and strategic technology guidance
 - **Dramatic query performance improvements** via custom LSH-based indexing algorithms and hybrid search architecture
 - **Enterprise framework development** increasing team productivity and code quality across multiple client projects
@@ -104,7 +104,7 @@
 - **Process Innovation:** Created enterprise SDLC methodology with upstream feedback loops, eliminating assumptions and improving delivery quality while maintaining similar timeframes
 
 #### Framework Architecture & Strategic Innovation
-**Nucleus/Shared Framework Transformation - Strategic Product Leadership**
+**Shared Framework Transformation - Strategic Product Leadership**
 
 - **Vision Evolution:** Transformed leadership concept from simple starter template to comprehensive templated framework providing development patterns for faster, more reliable application delivery
 - **Technical Architecture:** Enhanced framework with dynamic expression engines (Java/.Net), complex event processing, EF Core extensions, testing enhancements, and DacFX integration
@@ -189,10 +189,10 @@
 ### Enterprise Architecture & Core Technologies
 **Primary Expertise:**
 - **.Net/C# Ecosystem:** .Net Standard, ASP.Net MVC, WPF, Windows Services, EF Core, .Net Core (20+ years)
-- **JavaScript/TypeScript:** Node.JS, Angular, React, enterprise web applications (15+ years)
-- **Database Systems:** SQL Server, SQLCLR, T-SQL, performance optimization, custom extensions (20+ years)
-- **Cloud & Infrastructure:** Azure, AWS, Docker, Kubernetes, microservices architecture
-- **AI/ML Integration:** Production embedding systems, sentence transformers, vector search optimization
+- **JavaScript/TypeScript:** Node.JS, Angular, React, Blazor, enterprise web applications (15+ years)
+- **Database Systems:** SQL Server, SQLCLR, T-SQL, PostgreSQL, MongoDB, performance optimization, custom extensions (20+ years)
+- **Cloud & Infrastructure:** Azure, AWS, Docker, Kubernetes, microservices architecture, container orchestration
+- **AI/ML Integration:** Production embedding systems, sentence transformers, vector search optimization, ONNX Runtime, custom ML pipelines
 
 ### Enterprise Frameworks & Governance
 **Architecture & Standards:**
@@ -218,18 +218,25 @@
 
 ### AI/ML & Advanced Technologies
 **Enterprise AI Integration:**
-- **Machine Learning:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), production model deployment
-- **Vector Search:** Custom LSH algorithms (16-bit hashes), approximate nearest neighbor search
-- **LLM Integration:** OpenAI, local model deployment, RAG systems, business applications
+- **Machine Learning:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), production model deployment, custom ONNX inference engines
+- **Vector Search:** Custom LSH algorithms (16-bit hashes), approximate nearest neighbor search, hybrid search architectures
+- **LLM Integration:** OpenAI, Ollama local deployment, RAG systems, business applications, semantic kernel orchestration
 - **Performance Optimization:** Sub-linear similarity search, caching strategies, scalability engineering
+- **Custom AI Pipelines:** GPU-accelerated processing, bilingual document processing, multi-modal AI orchestration
+- **Advanced Vector Operations:** Custom SQL CLR vector aggregates, centroid calculations, statistical operations
+- **AI Development Tools:** Handlebars template engines with LLM integration, automated code generation, batch processing frameworks
 
 ### Specialized Technologies & Domains
 **Unique Expertise:**
 - **Zero-Allocation Programming:** System.IO.Pipelines, Memory<T>, Span<T>, high-performance .NET
 - **Binary Data Processing:** Protocol parsing, file format implementations, network protocols
 - **Reverse Engineering:** Protocol analysis, legacy system integration, software archaeology
-- **Domain-Specific Languages:** ANTLR, custom compilers, AST manipulation
-- **Electronic Systems:** Scoring machines, radiation monitoring, device communication
+- **Domain-Specific Languages:** ANTLR, custom compilers, AST manipulation, XSLT code generation
+- **Electronic Systems:** Scoring machines, radiation monitoring, device communication, Arduino integration
+- **Message Queuing Systems:** SQL Server Service Broker, Azure Service Bus, RabbitMQ, custom correlation tracking
+- **Document Processing:** Apache Tika integration, multi-format conversion pipelines, stream-based processing
+- **Home Automation:** Multi-scale image tiling, TOTP authentication, barcode generation, IoT device orchestration
+- **Sports Technology:** Real-time tournament scoring, proprietary hardware protocol decoding, HDMI switching, camera control
 
 ### Development Tools & Methodologies
 **Professional Proficiency:**
@@ -273,9 +280,10 @@
 
 #### Vector Support for MS-SQL Server (EXCEPTIONAL Innovation)
 - **Custom SQLCLR Implementation:** SqlVector/SqlVectorF types with full mathematical operations
-- **Advanced Features:** Binary serialization, distance aggregation functions, statistical operations
-- **Innovation Impact:** First-of-its-kind vector database capabilities directly in SQL Server
+- **Advanced Features:** Binary serialization, distance aggregation functions, statistical operations, centroid calculations
+- **Innovation Impact:** First-of-its-kind vector database capabilities directly in SQL Server, predating commercial offerings
 - **Technical Depth:** Deep CLR integration requiring expert-level SQL Server and .NET knowledge
+- **Production Integration:** Multiple distance metrics (cosine, euclidean, manhattan, dot product) with optimized binary serialization
 
 #### High-Performance Binary Data Processing
 **Repository:** [github.com/mwwhited/BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders)
@@ -315,41 +323,119 @@
 - **Hybrid Search Engines:** Combining semantic similarity with keyword matching using FAISS
 - **Production Quality:** Complete search engines with scalable architecture
 
+#### Pure .NET ONNX Sentence Transformer Engine (EXCEPTIONAL Innovation)
+- **Complete .NET Implementation:** AllMiniLM-L6-v2 transformer without Python dependencies
+- **Custom BERT Tokenization:** Vocabulary management with proper encoding/decoding
+- **Advanced Tensor Mathematics:** Mean pooling with attention masks, L2 normalization
+- **Memory Optimization:** Proper disposal patterns, streaming operations, batch processing
+- **Production Integration:** ONNX Runtime optimization for enterprise-scale text vectorization
+
+#### Enterprise AI Orchestration Platform
+- **Multi-AI Stack Orchestration:** Docker Compose with SBERT, Ollama, Qdrant, OpenSearch, Apache Tika
+- **GPU-Aware Processing:** CUDA support with CPU/GPU variant orchestration
+- **Bilingual Processing:** Polish language-aware sentence transformers
+- **Modular Architecture:** Clean separation with extends pattern for component isolation
+- **Production Deployment:** Health monitoring, OpenAPI compatibility, enterprise-grade logging
+
 #### Image Processing & Computer Vision
 - **AI/ML Infrastructure:** Docker orchestration (SBERT, ViT, Ollama, Qdrant)
 - **Professional Photography:** RAW format support (NEF, CR2, ARW, DNG)
 - **Custom Licensing:** MIT NON-AI license demonstrating legal/ethical AI awareness
 - **Microservices:** Health monitoring, OpenAPI compatibility, enterprise deployment
 
-### Multi-Language Programming Platform (MEDIUM-HIGH Innovation)
+### Enterprise Framework Architecture (EXCEPTIONAL Innovation)
+**Comprehensive .NET framework ecosystem with AI integration**
+
+#### OoBDev .NET Framework - 50+ Individual Libraries
+- **Modular Architecture:** Dynamic assembly loading with plugin-based design
+- **AI Integration Ecosystem:** Qdrant, PostgreSQL pgvector, Ollama, SBert, OpenAI compatibility
+- **Enterprise Message Queuing:** Azure Storage Queues, RabbitMQ, In-Process Concurrent Queues with correlation tracking
+- **Advanced Document Processing:** Apache Tika integration with format conversion chains
+- **Deployment Automation:** Programmatic DACPAC generation for SQL CLR deployment
+- **Vector Search Abstraction:** Unified interface across multiple vector stores
+
+#### ERisk Framework - Enterprise Risk Management
+- **Comprehensive AI Integration:** Sentence transformers with semantic kernel orchestration
+- **Production-Grade Architecture:** Multi-layered system with audit logging and security
+- **Custom Vector Operations:** SqlVector/SqlVectorF types with mathematical operations
+- **Business Process Integration:** Insurance industry duplicate detection with compliance frameworks
+- **Performance Engineering:** Sub-linear similarity search with LSH optimization
+
+#### JHipster .NET Hybrid Platform
+- **Full-Stack Integration:** JHipster 8.1.0 with .NET Core backend
+- **Modern Frontend Options:** React/Angular with comprehensive monitoring
+- **Enterprise Observability:** InfluxDB, Grafana, SonarQube integration
+- **Code Quality Pipeline:** Automated analysis and deployment workflows
+
+#### Multi-Language Programming Platform (HIGH Innovation)
 **Educational platform demonstrating exceptional breadth**  
 **Repository:** [github.com/mwwhited-forks/ChallengeAccepted](https://github.com/mwwhited-forks/ChallengeAccepted)
 
-#### Coding Challenges Collection (25+ challenges)
+##### Coding Challenges Collection (25+ challenges)
 - **Language Diversity:** C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%)
 - **Advanced Implementations:** CARDIAC CPU emulator, BK-tree spell checker, cryptography
 - **Cross-Platform:** Consistent algorithms across multiple runtime environments
 - **Educational Impact:** Comprehensive programming reference and learning resource
 
-#### Game Development Evolution
+##### Game Development Evolution
 - **Historical Progression:** QBasic → Visual Basic 6 → C# .NET → C++ → XNA/MonoGame
 - **Technical Breadth:** 2D/3D graphics, physics, audio, input handling, state management
 - **Framework Mastery:** XNA, MonoGame, DirectX integration, content pipelines
 - **Platform Diversity:** Windows, Xbox 360, Zune development experience
 
+##### Historical Cryptography Implementations
+- **Complete Enigma Machine Simulation:** Accurate rotor mechanics with plugboard
+- **Classical Cipher Collection:** Caesar, Vigenère, PlayFair, Lorenz implementations
+- **Educational Cryptography:** Historical algorithm recreation with modern .NET
+- **Binary Processing Excellence:** Apple II DOS 3.3, AppleSoft BASIC tokenization
+
 ### Specialized Domain Applications
+
+#### Real-Time Sports Scoring Systems (EXCEPTIONAL Innovation)
+- **ScoreMachine:** Complete distributed fencing tournament scoring system
+- **Hardware Integration:** Proprietary protocol decoders for Saint George and Favero scoring machines
+- **Arduino Integration:** Custom HDMI switching and LANC camera control
+- **Real-Time Web Dashboard:** SignalR live updates with multi-provider architecture
+- **Embedded Deployment:** Raspberry Pi with custom networking and containerization
+- **Multi-Protocol Support:** Binary protocol parsing with state management for live competition scoring
+
+#### Enterprise Home Automation Platform
+- **Multi-Scale Image Tiling:** Advanced zoom/pan functionality with performance optimization
+- **Authentication Systems:** Custom TOTP (Time-based One-Time Password) provider implementation
+- **Advanced Image Processing:** Barcode generation (Code39) with cross-platform compatibility
+- **Extensible Architecture:** Holiday API adapter pattern with XML schema validation
+- **Form Processing Engine:** XSLT transformations with comprehensive validation
+- **Credential Management:** Cross-platform settings and security management
+
+#### Custom Domain-Specific Language Development
+- **ContractParser:** Complete DSL with ANTLR4 grammar for service contract generation
+- **Custom Grammar:** @service and @dto annotations with visitor pattern traversal
+- **Assembly Scanning:** Automatic service contract extraction with reflection
+- **Multi-Format Output:** XML generation with XSLT transformations for code generation
+- **Meta-Programming:** Complete compiler toolchain demonstrating language design expertise
+
+#### Enterprise Message Processing Platforms
+- **SQL Server Service Broker Integration:** Custom message type definitions with queue activation
+- **Visual Modeling Tools:** WPF-based drag-drop interface for message flow design
+- **Automatic Code Generation:** SQL script generation from visual models with sequence diagrams
+- **Advanced MVVM:** Complex commanding patterns with live SQL Server schema import
+- **Message Queue Abstractions:** Multi-provider support with correlation tracking and stack frame inspection
 
 #### Hardware-Software Integration
 - **DeviceBridge:** Legacy hardware modernization with IEEE-1284 protocol implementation
 - **Real-Time Systems:** Interrupt-driven data capture with ring buffer implementation
 - **Multi-Storage Architecture:** SD card, EEPROM, SPI flash with NASA EEFS integration
 - **Custom Shield Design:** Extensive hardware modifications with comprehensive documentation
+- **Unmanaged Exports:** .NET interop tool for creating unmanaged exports from managed assemblies
+- **IL Code Modification:** Runtime assembly manipulation with custom attribute processing
 
 #### Professional Tools & Utilities
 - **MSBuild Automation:** Advanced build orchestration with cross-project dependencies
 - **Container Orchestration:** Universal development environment containerization (10+ languages)
 - **Kubernetes Charts:** Professional Helm chart development with production patterns
 - **Testing Frameworks:** Dynamic proxy-based mocking with modern .NET integration
+- **Document Conversion Pipelines:** Apache Tika integration with stream-based processing
+- **AI-Powered Code Generation:** Handlebars template engines with LLM integration for automated transformation
 
 ---
 

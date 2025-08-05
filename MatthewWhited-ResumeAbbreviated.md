@@ -13,7 +13,7 @@
 - **Strategic Technology Leadership:** Centers of Excellence influence across 125+ developers, enterprise-wide standards creation, and technology risk management preventing costly adoption mistakes
 - **Technology Pragmatism:** "Workhorse solutions" philosophy preventing expensive trend-chasing while delivering proven alternatives (EF Code-First vs. MongoDB, traditional queues vs. Kafka misuse)
 - **Crisis Resolution Expertise:** Cross-functional problem solving spanning client relations, failed deployments, data corruption, integration challenges, and organizational change management
-- **Framework Architecture Innovation:** Transformational product leadership (Nucleus framework evolution) with lasting organizational impact years after implementation
+- **Framework Architecture Innovation:** Transformational product leadership (Shared Framework framework evolution) with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **Community Impact:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** Substantial cloud cost reduction, dramatic performance improvements, crisis resolution, and organizational productivity enhancements

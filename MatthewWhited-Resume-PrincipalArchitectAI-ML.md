@@ -19,7 +19,7 @@
 ## Technical Expertise
 
 ### AI/ML & Distributed Systems
-- **Machine Learning:** Production deployment of sentence transformers (AllMiniLM-L6-v2), custom LSH algorithms, vector similarity search
+- **Machine Learning:** Created pure .NET implementation of AllMiniLM-L6-v2 sentence transformers without Python dependencies, custom LSH algorithms, vector similarity search
 - **Deep Learning Frameworks:** PyTorch integration experience, model training and validation pipelines
 - **MLOps:** End-to-end ML pipelines including data ingestion, training, validation, deployment, and monitoring
 - **Vector Search:** Custom implementations with FAISS, Qdrant, 16-bit LSH hashes with Hamming Distance optimization
@@ -44,7 +44,7 @@
 
 **Led AI/ML integration for production insurance duplicate detection system processing thousands of daily submissions**
 
-- **ML Pipeline Architecture:** Designed and implemented end-to-end ML pipeline using AllMiniLM-L6-v2 sentence transformers with 384-dimensional embeddings for semantic similarity matching
+- **ML Pipeline Architecture:** Designed and implemented end-to-end ML pipeline using pure .NET AllMiniLM-L6-v2 sentence transformers with custom BERT tokenization and 384-dimensional embeddings for semantic similarity matching
 - **Custom Algorithm Development:** Built locality-sensitive hashing (LSH) system with 16-bit hashes achieving sub-linear similarity search performance through Hamming Distance optimization
 - **Distributed System Design:** Architected multi-database system with 5 API endpoints supporting real-time processing and continuous model adaptation
 - **Production MLOps:** Implemented comprehensive model monitoring, validation, and deployment pipeline with enterprise-grade security and audit logging

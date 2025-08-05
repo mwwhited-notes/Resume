@@ -13,7 +13,7 @@
 - **Strategic Technology Leadership:** Centers of Excellence influence across 125+ developers, enterprise-wide standards creation, and technology risk management preventing costly adoption mistakes
 - **Technology Pragmatism:** "Workhorse solutions" philosophy preventing expensive trend-chasing while delivering proven alternatives (EF Code-First vs. MongoDB, traditional queues vs. Kafka misuse)
 - **Crisis Resolution Expertise:** Cross-functional problem solving spanning client relations, failed deployments, data corruption, integration challenges, and organizational change management
-- **Framework Architecture Innovation:** Transformational product leadership (Nucleus framework evolution) with lasting organizational impact years after implementation
+- **Framework Architecture Innovation:** Created enterprise-grade framework ecosystems including 50+ library OoBDev .NET Framework and transformational Shared Framework evolution with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **ML/AI Strategic Foresight:** Comprehensive AI strategy development, hybrid search innovation, and early recognition of LLM cost/efficiency limitations
 - **Community Impact:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
@@ -74,7 +74,7 @@ Custom microelectronics and software design, architecture, and engineering. Cust
 ### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - August 2025)
 **AI/ML integration and semantic search implementation for insurance industry duplicate detection**
 
-- **Advanced ML Integration:** Implemented AllMiniLM-L6-v2 sentence transformers with 384-dimensional embeddings for semantic similarity matching in insurance submission processing
+- **Advanced ML Integration:** Created pure .NET implementation of AllMiniLM-L6-v2 sentence transformers without Python dependencies, featuring custom BERT tokenization and 384-dimensional embeddings for semantic similarity matching in insurance submission processing
 - **Database Innovation:** Added vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations (cosine, euclidean, manhattan, dot product) and optimized binary serialization
 - **Performance Engineering:** Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with 16-bit hashes, Hamming Distance optimization, and custom algorithm implementations
 - **Enterprise Architecture:** Designed comprehensive multi-layered system with 5 API endpoints, multi-database architecture, and production-grade security/audit logging

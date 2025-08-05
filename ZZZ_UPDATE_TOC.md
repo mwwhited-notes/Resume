@@ -19,7 +19,7 @@ When user says "update the TOC" or "Table of Contents" OR when you realize TOC n
 
 3. **Identify Missing or Changed Files**
    - Compare current file list with TOC entries
-   - Check for new files that need TOC entries
+   - Check for new files that need TOC entries (EXCLUDE ZZZ_* files - these are internal maintenance only)
    - Check for renamed/deleted files that need TOC updates
    - Verify all file descriptions are accurate
 

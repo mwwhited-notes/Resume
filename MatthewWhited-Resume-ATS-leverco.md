@@ -73,7 +73,7 @@ Principal Solutions Architect with over 20 years bridging hardware and software 
 - Specialized in database and application performance, reusable middleware frameworks, automated testability
 - Developed novel frameworks including search engines based on SBERT embeddings and vector search
 
-**Major Projects - Nucleus/Shared Framework:**
+**Major Projects - Shared Framework:**
 - Dynamic Expression Engine: Parsing and calculation engine (Java and .NET)
 - Complex Event Processing: Queue-based event engine with multi-channel notification
 - EF Core Extensions: Declarative model extensions, masking, bulk data transformation

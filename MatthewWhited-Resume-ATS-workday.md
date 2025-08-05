@@ -93,7 +93,7 @@ Principal Solutions Architect with over 20 years of experience bridging hardware
 - Developed reusable middleware frameworks increasing team productivity
 - Led automated testability initiatives and testing framework development
 
-**Key Projects - Nucleus/Shared Framework Development:**
+**Key Projects - Shared Framework Development:**
 - Dynamic Expression Engine: Parsing and calculation engine for Java and .NET platforms
 - Complex Event Processing: Queue-based event engine with multi-channel notification systems
 - Entity Framework Core Extensions: Declarative model extensions and bulk data transformation

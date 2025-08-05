@@ -14,7 +14,7 @@ Matthew Whited is a seasoned Principal Solutions Architect with over two decades
 
 **AI/ML & Emerging Technologies**
 - Currently leading AI integration initiatives with focus on semantic search and vector databases
-- **Innovation:** Pioneered SQL Server vector search extensions using SQLCLR with custom SqlVector/SqlVectorF types, mathematical operations, and binary serialization
+- **Innovation:** Pioneered SQL Server vector search extensions using SQLCLR with custom SqlVector/SqlVectorF types, mathematical operations, and binary serialization, plus created pure .NET ONNX sentence transformer engine without Python dependencies
 - **Algorithm Development:** Implemented custom LSH (Locality Sensitive Hashing) algorithms for approximate nearest neighbor search with performance benchmarking
 - **Production Infrastructure:** Deployed containerized AI/ML services (SBERT, ViT, Ollama, Qdrant) with microservices architecture and health monitoring
 - Implemented sentence transformer models for enterprise fuzzy matching systems
