@@ -45,8 +45,8 @@ When user says "update the TOC" or "Table of Contents" OR when you realize TOC n
    ```
 
 7. **Update Documentation Status**
-   - Document changes in CHANGE_HISTORY.md
-   - Update memory in ../CLAUDE.md if significant changes
+   - Document changes in ../documentation/change-history.md
+   - Update memory in ../documentation/session-notes.md if significant changes
    - Use TodoWrite to track progress through all steps
 
 ## File Naming Convention for Gist URLs
@@ -91,7 +91,7 @@ If you encounter any issues:
 1. Stop and read this file again
 2. Follow each step systematically
 3. Use TodoWrite to track your progress
-4. Document any problems in ../CLAUDE.md
+4. Document any problems in ../documentation/session-notes.md
 5. Ask user for clarification if needed
 
 **This protocol ensures the TOC remains accurate, functional, and properly formatted for gist hosting.**

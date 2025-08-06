@@ -3,33 +3,33 @@
 ## Core Resume Files
 
 ### Primary Resume Formats
-- **[Main Comprehensive Resume](./MatthewWhited-Resume.md)** - Complete professional resume with full experience
-- **[Abbreviated Resume](./MatthewWhited-ResumeAbbreviated.md)** - Shortened version for quick review
-- **[Extended Resume](./MatthewWhited-ResumeExtended.md)** - Detailed version with comprehensive capabilities
+- **[Main Comprehensive Resume](./resumes/comprehensive.md)** - Complete professional resume with full experience
+- **[Abbreviated Resume](./resumes/abbreviated.md)** - Shortened version for quick review
+- **[Extended Resume](./resumes/extended.md)** - Detailed version with comprehensive capabilities
 
 ### ATS-Optimized Formats
-- **[ATS-Optimized Resume](./MatthewWhited-ResumeATS.txt)** - Plain text ATS-optimized format
-- **[Leverco ATS Resume](./MatthewWhited-Resume-ATS-leverco.md)** - Leverco-specific ATS format
-- **[Workday ATS Resume](./MatthewWhited-Resume-ATS-workday.md)** - Workday-specific ATS format
+- **[ATS-Optimized Resume](./resumes/ats/generic.txt)** - Plain text ATS-optimized format
+- **[Leverco ATS Resume](./resumes/ats/leverco.md)** - Leverco-specific ATS format
+- **[Workday ATS Resume](./resumes/ats/workday.md)** - Workday-specific ATS format
 
 ### Specialized Position Resumes
-- **[Principal Architect - AI/ML Resume](./MatthewWhited-Resume-PrincipalArchitectAI-ML.md)** - AI/ML Principal Architect focused
+- **[Principal Architect - AI/ML Resume](./resumes/specialized/ai-ml-principal.md)** - AI/ML Principal Architect focused
 
 ### Structured Resume Formats
-- **[FRESH Schema Resume](./ZZ_MatthewWhited-Resume-FRESH.yaml)** - FRESH schema format
-- **[JSON Resume](./ZZ_MatthewWhited-Resume-JsonResume.json)** - JSON Resume v1.0.0 format
-- **[Gold Standard Resume](./ZZ_MatthewWhited-Resume-GoldStandard.md)** - Authoritative source for all resume content
+- **[FRESH Schema Resume](./resumes/formats/fresh-schema.yaml)** - FRESH schema format
+- **[JSON Resume](./resumes/formats/json-resume.json)** - JSON Resume v1.0.0 format
+- **[Gold Standard Resume](./resumes/master-resume.md)** - Authoritative source for all resume content
 
 ## Professional Documents
 
 ### Executive Summaries & Briefs
-- **[Executive Summary](./AAB_MatthewWhited-Summary.md)** - Executive summary with validated achievements
-- **[First-Person Introduction](./AAB_MatthewWhited-FirstPerson.md)** - Personal introduction with technical depth
-- **[Professional Brief](./_MatthewWhited-Brief.md)** - Concise professional brief
-- **[First-Person Brief](./_MatthewWhited-Brief-FirstPerson.md)** - First-person professional brief
+- **[Executive Summary](./profiles/executive-summary.md)** - Executive summary with validated achievements
+- **[First-Person Introduction](./profiles/introduction.md)** - Personal introduction with technical depth
+- **[Professional Brief](./profiles/brief.md)** - Concise professional brief
+- **[First-Person Brief](./profiles/brief-personal.md)** - First-person professional brief
 
 ### Cover Letters
-- **[Professional Cover Letter](./ZA_MatthewWhited-CoverLetter.md)** - Professional cover letter template
+- **[Professional Cover Letter](./profiles/cover-letter.md)** - Professional cover letter template
 
 ## External Profile Links
 
@@ -56,11 +56,11 @@
 - **[Flickr Photography](http://www.flickr.com/photos/mwwhited/)** - Creative portfolio
 
 ### Current Public Documents
-- **[Professional Summary](./AAB_MatthewWhited-FirstPerson.md)** - Current first-person introduction
-- **[Resume](./MatthewWhited-Resume.md)** - Current public resume
-  - **[FRESH Format](./ZZ_MatthewWhited-Resume-FRESH.yaml)** - Structured resume format
-  - **[JSON Resume](./ZZ_MatthewWhited-Resume-JsonResume.json)** - JSON format
-- **[Cover Letter](./ZA_MatthewWhited-CoverLetter.md)** - Current cover letter template
+- **[Professional Summary](./profiles/introduction.md)** - Current first-person introduction
+- **[Resume](./resumes/comprehensive.md)** - Current public resume
+  - **[FRESH Format](./resumes/formats/fresh-schema.yaml)** - Structured resume format
+  - **[JSON Resume](./resumes/formats/json-resume.json)** - JSON format
+- **[Cover Letter](./profiles/cover-letter.md)** - Current cover letter template
 
 ---
 
