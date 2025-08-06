@@ -1,7 +1,7 @@
 # Resume Consistency Update Checklist
 
 ## Purpose
-This document provides a systematic approach to ensure all resume files remain consistent with the gold standard (ZZ_MatthewWhited-Resume-GoldStandard.md) and contain current, accurate information.
+This document provides a systematic approach to ensure all resume files remain consistent with the gold standard (resumes/master-resume.md) and contain current, accurate information.
 
 ## When to Use This Checklist
 - After any changes to professional experience or positions
@@ -13,19 +13,19 @@ This document provides a systematic approach to ensure all resume files remain c
 ## Step-by-Step Update Process
 
 ### 1. Review Gold Standard Reference
-- Read ZZ_MatthewWhited-Resume-GoldStandard.md completely
+- Read resumes/master-resume.md completely
 - Note current positions, dates, and key metrics
 - Identify any new information that should be propagated
 
 ### 2. Check Core Resume Files for Consistency
 Review each file against gold standard:
-- [ ] `MatthewWhited-Resume.md`
-- [ ] `MatthewWhited-ResumeAbbreviated.md` 
-- [ ] `MatthewWhited-ResumeExtended.md`
-- [ ] `MatthewWhited-ResumeATS.txt`
-- [ ] `MatthewWhited-Resume-ATS-workday.md`
-- [ ] `MatthewWhited-Resume-ATS-leverco.md`
-- [ ] `MatthewWhited-Resume-PrincipalArchitectAI-ML.md`
+- [ ] `resumes/comprehensive.md`
+- [ ] `resumes/abbreviated.md` 
+- [ ] `resumes/extended.md`
+- [ ] `resumes/ats/generic.txt`
+- [ ] `resumes/ats/workday.md`
+- [ ] `resumes/ats/leverco.md`
+- [ ] `resumes/specialized/ai-ml-principal.md`
 
 **Key items to verify:**
 - Position chronological ordering (most recent first)
@@ -44,10 +44,10 @@ Review each file against gold standard:
 - Technical skills alignment
 
 ### 4. Update Brief and Summary Documents
-- [ ] `_MatthewWhited-Brief.md`
-- [ ] `_MatthewWhited-Brief-FirstPerson.md`
-- [ ] `AAB_MatthewWhited-Summary.md`
-- [ ] `AAB_MatthewWhited-FirstPerson.md`
+- [ ] `profiles/brief.md`
+- [ ] `profiles/brief-personal.md`
+- [ ] `profiles/executive-summary.md`
+- [ ] `profiles/introduction.md`
 
 **Key items to update:**
 - Current position context in "What I'm Working On" sections
@@ -64,7 +64,7 @@ Ensure across ALL documents:
 
 ### 6. Update Documentation
 - [ ] Add entry to `../documentation/change-history.md` with date and changes made
-- [ ] Update `../documentation/session-notes.md` with session summary and current status
+- [ ] Update `../CLAUDE.md` with session summary and current status
 - [ ] Note any new information learned for future gold standard updates
 
 ## Common Issues to Watch For

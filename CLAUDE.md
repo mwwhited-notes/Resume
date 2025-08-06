@@ -15,14 +15,14 @@
 - Execute systematic checklist step-by-step
 - Use TodoWrite to track progress
 - Run verification commands
-- Update documentation in ./documentation/
+- Update documentation
 
 ### 2. "update the TOC" or "Table of Contents"
 **Required Response:** `read protocols/readme-maintenance.md and follow the protocol step-by-step`
 - Update README.md with current file structure
 - Update file counts and metadata
 - Verify relative path consistency
-- Document changes in ./documentation/
+- Document changes
 
 ## Key Professional Metrics - VALIDATED
 - **Stack Overflow:** 22,433 reputation, C# Gold Badge (1,323 score), 4.7M developer reach
@@ -39,12 +39,12 @@
 - **Multi-Language Expertise:** 8+ programming languages with professional quality
 
 ## Documentation Files Reference
-- **Gold Standard:** ZZ_MatthewWhited-Resume-GoldStandard.md (authoritative source)
+- **Gold Standard:** resumes/master-resume.md (authoritative source)
 - **Change History:** documentation/change-history.md (all session details)
 - **Stack Overflow Analysis:** analysis/stackoverflow-metrics.md (technical validation)
 - **Code Review:** analysis/technical-review.md (repository analysis)
 - **Update Protocols:** protocols/consistency-check.md, protocols/readme-maintenance.md
-- **TOC:** ..TOC.md (15 professional documents with gist URLs)
+- **TOC:** README.md (professional documents with relative paths)
 - **Portfolio Strategy:** protocols/portfolio-strategy.md (technical project write-up recommendations)
 
 ## Current Status - 2025-08-05
