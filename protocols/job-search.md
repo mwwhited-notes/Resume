@@ -85,10 +85,10 @@ Target AI-specific platforms and startup ecosystems:
 - **Focus:** Equity opportunities, cutting-edge technology, innovation roles
 - **Output File:** `SearchResults/ai-ml-job-boards.md`
 
-### Category 4: Major Consulting Firms
-Research technology leadership opportunities in consulting:
+### Category 4: Major Consulting Firms & Fortune 500 Companies
+Research technology leadership opportunities in consulting and Fortune 500 companies:
 
-#### Target Firms
+#### Major Consulting Firms
 - **McKinsey & Company:** Digital and AI practice
 - **Deloitte:** AI Institute and digital transformation
 - **Accenture:** $3B AI investment, doubling AI workforce
@@ -96,11 +96,27 @@ Research technology leadership opportunities in consulting:
 - **EY:** AI specialists and specialized acquisitions
 - **KPMG:** $2B Microsoft partnership for AI integration
 
+#### Fortune 500 Tech Company Career Sites (Remote US Focus)
+- **Microsoft Careers:** https://careers.microsoft.com (filter for "100% work from home")
+- **Google Careers:** https://careers.google.com (remote-friendly positions)
+- **Amazon Jobs:** https://hiring.amazon.com/job-opportunities/work-from-home-jobs
+- **Apple Careers:** https://jobs.apple.com (remote technology roles)
+- **Meta Careers:** https://www.metacareers.com (remote engineering positions)
+- **Salesforce Careers** - CTO and Principal Architect roles
+- **Oracle Careers** - Enterprise architecture leadership
+- **IBM Careers** - AI and technology transformation roles
+- **Intel Careers** - Technology leadership and architecture
+
 #### Research Focus
 - AI investment strategies and workforce expansion
+- Remote US technology leadership opportunities
+- Salary ranges for CTO/Principal Architect remote positions ($250K-$400K+)
 - Technology leadership roles and requirements
 - Client engagement models and project types
 - **Output File:** `SearchResults/consulting-firms.md`
+
+#### Remote US Job Market Focus
+**CRITICAL:** All searches must prioritize positions that can be performed remotely within the United States. International positions or roles requiring significant on-site presence should be flagged but deprioritized unless extraordinary opportunities.
 
 ## Search Execution Process
 
@@ -154,11 +170,23 @@ Create detailed analysis files for each platform including:
 ### Step 4: Dynamic Platform Discovery
 During search execution, identify additional relevant platforms:
 
+#### 2025 Additional Platforms Discovered
+- **Built In:** https://builtin.com/jobs/remote - Tech jobs with new positions daily from top companies & startups
+- **Ladders:** Executive and senior-level positions including C-Suite roles (CFOs, CTOs), jobs paying $100k+
+- **Arc:** https://arc.dev/ - Remote tech roles for experienced developers, designers, marketers
+- **FlexJobs:** Remote work specialization with legitimate work-from-home opportunities
+- **We Work Remotely:** Focus on remote positions across tech industries
+- **Y Combinator Job Board:** Startup positions from YC portfolio companies
+- **CareerBuilder:** Wide range of postings with customizable job alerts
+- **Contra:** Project-based work connecting freelancers with clients
+- **Toptal:** Premium platform for top-tier freelance talent
+
 #### Platform Categories to Watch For
 - **Industry-Specific Job Boards:** Healthcare tech, fintech, enterprise software
-- **Geographic Job Boards:** Regional opportunities in Baltimore/DC area
+- **Geographic Job Boards:** Regional opportunities in Baltimore/DC area  
 - **Technology-Specific Boards:** .NET jobs, enterprise architecture, database specialists
 - **Company Direct:** Career pages of target companies identified during search
+- **Remote-First Platforms:** Specialized remote work job boards with tech focus
 
 #### Protocol Update Process
 When new relevant platforms are discovered:
@@ -246,11 +274,16 @@ Include in summary:
 - **Protocol Updates:** Update this file with new platforms and learnings
 
 ### Required Documentation Elements
-- **Web Search URLs:** Include all search links and references
-- **Direct Job Links:** Specific position URLs when available
-- **Salary Data:** Compensation ranges and total package details
+- **Web Search URLs:** Include all search query URLs and references - MANDATORY for all research
+- **Direct Job Links:** Specific position URLs when available - CRITICAL for application tracking
+- **Source Citations:** All data must include source URLs and links for verification
+- **Company URLs:** Direct links to company career pages and job postings
+- **Salary Data:** Compensation ranges and total package details with source attribution
 - **Contact Information:** Recruiter or hiring manager details when available
-- **Application Deadlines:** Time-sensitive opportunity tracking
+- **Application Deadlines:** Time-sensitive opportunity tracking with source references
+- **Research Links:** All WebSearch results, platform URLs, and reference materials
+
+**CRITICAL REQUIREMENT:** Every piece of data, statistic, job posting, or market information MUST include proper source citation with URL links. This ensures data integrity and enables follow-up research and application tracking.
 
 ---
 
