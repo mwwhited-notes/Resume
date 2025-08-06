@@ -19,7 +19,7 @@ When user says "update the TOC" or "Table of Contents" OR when you realize TOC n
 
 3. **Identify Missing or Changed Files**
    - Compare current file list with TOC entries
-   - Check for new files that need README entries (EXCLUDE tools/* files - these are internal maintenance only)
+   - Check for new files that need README entries (EXCLUDE internal directories: protocols/, analysis/, documentation/, SearchResults/ - these are internal maintenance only)
    - Check for renamed/deleted files that need TOC updates
    - Verify all file descriptions are accurate
 
@@ -94,4 +94,18 @@ If you encounter any issues:
 4. Document any problems in ../CLAUDE.md
 5. Ask user for clarification if needed
 
-**This protocol ensures the TOC remains accurate, functional, and properly formatted for gist hosting.**
+## Files and Directories to EXCLUDE from README/TOC
+
+**ALWAYS EXCLUDE these from professional document listings:**
+- `protocols/` - Internal workflow and process files
+- `analysis/` - Technical validation and metrics (internal use)
+- `documentation/` - Change history and session notes (internal)
+- `SearchResults/` - Job search analysis and market research (internal)
+- `CLAUDE.md` - Session memory file (internal)
+- `.github/` - Repository automation (internal)
+
+**Only include in README/TOC:**
+- `resumes/` - All resume variants and formats
+- `profiles/` - Supporting professional documents (briefs, summaries, cover letters)
+
+**This protocol ensures the TOC remains accurate, functional, and focused on professional documents only.**

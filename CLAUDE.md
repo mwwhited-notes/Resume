@@ -17,12 +17,19 @@
 - Run verification commands
 - Update documentation
 
-### 2. "update the TOC" or "Table of Contents"
+### 2. "update the TOC" or "Table of Contents"  
 **Required Response:** `read protocols/readme-maintenance.md and follow the protocol step-by-step`
 - Update README.md with current file structure
 - Update file counts and metadata
 - Verify relative path consistency
 - Document changes
+
+### 3. Job search requests
+**Required Response:** `read protocols/job-search.md and follow the protocol step-by-step`
+- Execute systematic job search across multiple platforms
+- Store results in ./SearchResults directory
+- Create comprehensive market analysis with rankings
+- Update search summary and findings
 
 ## Key Professional Metrics - VALIDATED
 - **Stack Overflow:** 22,433 reputation, C# Gold Badge (1,323 score), 4.7M developer reach
@@ -44,6 +51,7 @@
 - **Stack Overflow Analysis:** analysis/stackoverflow-metrics.md (technical validation)
 - **Code Review:** analysis/technical-review.md (repository analysis)
 - **Update Protocols:** protocols/consistency-check.md, protocols/readme-maintenance.md
+- **Job Search Protocol:** protocols/job-search.md (comprehensive market analysis)
 - **TOC:** README.md (professional documents with relative paths)
 - **Portfolio Strategy:** protocols/portfolio-strategy.md (technical project write-up recommendations)
 
