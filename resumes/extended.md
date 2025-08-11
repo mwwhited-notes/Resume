@@ -16,7 +16,7 @@
 - **Framework Architecture Innovation:** Created enterprise-grade framework ecosystems including 50+ library OoBDev .NET Framework and transformational Shared Framework evolution with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **ML/AI Strategic Foresight:** Comprehensive AI strategy development, hybrid search innovation, and early recognition of LLM cost/efficiency limitations
-- **Community Impact:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Community Impact:** 650K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** Substantial cloud cost reduction, dramatic performance improvements, crisis resolution, and organizational productivity enhancements
 
 ### Technical Specializations
@@ -37,10 +37,12 @@ Custom microelectronics and software design, architecture, and engineering. Cust
 - **.Net/C#:** .Net Standard, ASP.Net MVC, WPF, Windows Services, Windows Universal, EF Core, .Net Core
 - **JavaScript/TypeScript:** Node.JS, Knockout.JS, jQuery, Angular.js, Angular.io, HTML, CSS
 - **Other Languages:** Java (JDK21), Go, Python, C, C++
+- **Mobile Development:** iOS development, Android development, cross-platform mobile applications
 - **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch
 - **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA, Custom microprocessor design (16-bit CPU with SystemVerilog), VHDL component libraries
 - **Cloud/Queuing:** Azure Service Bus, Service Broker, MSMQ, RabbitMQ, Kafka, AWS SQS
 - **Platforms:** Windows, Linux, Xamarin (Windows, iOS, Android)
+- **Container Orchestration:** Kubernetes, Helm charts for production deployments
 
 #### Other Duties
 
@@ -63,6 +65,13 @@ Custom microelectronics and software design, architecture, and engineering. Cust
 - Application code generation and validation
 - Training and mentoring best patterns and practices
 
+### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
+**Nonprofit Leadership and Technical Automation**
+- **Board Governance:** Served on board of directors providing strategic oversight and governance for nonprofit foundation operations
+- **Software Automation:** Developed custom automation solutions for foundation operational processes and workflow optimization
+- **Technical Leadership:** Contributed specialized technical expertise to support foundation mission and enhance operational efficiency
+- **Community Impact:** Applied technology solutions to amplify nonprofit mission and improve service delivery capabilities
+
 ### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
 **Cloud architecture optimization and application performance enhancement**
 
@@ -74,11 +83,11 @@ Custom microelectronics and software design, architecture, and engineering. Cust
 ### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - August 2025)
 **AI/ML integration and semantic search implementation for insurance industry duplicate detection**
 
-- **Advanced ML Integration:** Created pure .NET implementation of AllMiniLM-L6-v2 sentence transformers without Python dependencies, featuring custom BERT tokenization and 384-dimensional embeddings for semantic similarity matching in insurance submission processing
+- **Advanced ML Integration:** Created pure .NET implementation of AllMiniLM-L6-v2 sentence transformers without Python dependencies, featuring custom BERT tokenization and high-dimensional embeddings for semantic similarity matching in insurance submission processing
 - **Database Innovation:** Added vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations (cosine, euclidean, manhattan, dot product) and optimized binary serialization
-- **Performance Engineering:** Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with 16-bit hashes, Hamming Distance optimization, and custom algorithm implementations
-- **Enterprise Architecture:** Designed comprehensive multi-layered system with 5 API endpoints, multi-database architecture, and production-grade security/audit logging
-- **Business Impact:** Delivered automated duplicate detection system with 84 completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations
+- **Performance Engineering:** Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with compact hash representations, Hamming Distance optimization, and custom algorithm implementations
+- **Enterprise Architecture:** Designed comprehensive multi-layered system with multi-stage pipeline, multi-database architecture, and production-grade security/audit logging
+- **Business Impact:** Delivered automated duplicate detection system with extensive completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations
 - **Technical Excellence:** Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles, comprehensive error handling, and sophisticated caching strategies
 
 ### Principal Solutions Architect - Eliassen Group, formally Lightwell Inc (September 2015 - October 2024)
@@ -276,26 +285,36 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
 - National Vocational-Technical Honor Society
 - SkillsUSA-VICA first place regional electronics technician
 
+### DeVry University - Electronic Engineering Technology (2000 - 2002)
+**Coursework Completed (Degree Not Completed)**
+- **Status:** Substantial coursework completed toward Electronic Engineering Technology degree
+- **Reason:** Program discontinued due to funding constraints
+- **Relevant Coursework:** Digital circuits, analog electronics, microprocessor design, embedded systems
+
 ### Gahanna Lincoln High School (1996 - 2000)
+**High School Diploma with extracurricular leadership**
+- **Eagle Scout Achievement (2000):** Demonstrated early leadership capability and commitment to service
+- **Activities:** Stage Crew (technical production), Marching Band, Fencing Club
+- **Foundation:** Strong academic preparation for technical career progression
 
-- High-school Diploma
-
-Activities and societies: Stage Crew for various plays/shows/and presentations, Marching Band, Fencing Club 
+### Professional Certifications
+- **CompTIA A+ Certification** - Computer hardware and software troubleshooting
+- **CompTIA Network+ Certification** - Network configuration and management 
 
 ## Person Developments
 
 ### Profile Links
 
-- **[GitHub](https://github.com/mwwhited)**
+- **[GitHub](https://github.com/mwwhited)** - 30+ repositories, Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
   - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
   - [Coding Challenges: Algorithms and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
   - [Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)
 - **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
-- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)**
+- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22K+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
 - **[Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)**
 - **[NPM](https://www.npmjs.com/~mwwhited)**
-- **[NuGet](https://www.nuget.org/profiles/mwwhited/)**
-- **[Flickr](http://www.flickr.com/photos/mwwhited/)**
+- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 650K+ downloads across 20 packages
+- **[Flickr](http://www.flickr.com/photos/mwwhited/)** - Photography portfolio
 
 ### Some projects that I have created in my spare time include
 
@@ -317,14 +336,14 @@ Activities and societies: Stage Crew for various plays/shows/and presentations, 
   - custom framework for building IO device and other binary communication protocols using .Net Core. 
     - Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
   - Analyze and document source code, data files, databases, build results, test reports and any other data.
-- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 20 NuGet packages, 623,552 total downloads
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 20 NuGet packages, 650K+ total downloads
   - [Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors) - SQLCLR vector operations
   - [BinaryDataDecoders.ToolKit](https://www.nuget.org/packages/BinaryDataDecoders.ToolKit/) - 36,270 downloads
   - [BinaryDataDecoders.Xslt.Cli](https://www.nuget.org/packages/BinaryDataDecoders.Xslt.Cli/) - 34,726 downloads
   - [BinaryDataDecoders.IO.Abstractions](https://www.nuget.org/packages/BinaryDataDecoders.IO.Abstractions/) - 34,004 downloads
-- **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 194 commits, multi-platform hardware projects
+- **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 200+ commits, multi-platform hardware projects
   - Custom designed 16-bit microprocessor using SystemVerilog
-  - FPGA projects: Verilog (30%), VHDL (21.9%), C (17.9%), C++ (17.8%)
+  - FPGA projects: Verilog (approximately 30%), VHDL (approximately 20%), C (approximately 18%), C++ (approximately 18%)
   - Customized 3D printer/CNC router firmware
 - **[Coding Challenges](https://github.com/mwwhited-forks/ChallengeAccepted)** - Multi-language learning platform
   - C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%), community contributions

@@ -76,11 +76,11 @@
       "endDate": "2025-08",
       "summary": "AI/ML integration and semantic search implementation for insurance industry duplicate detection.",
       "highlights": [
-        "Advanced ML Integration: Implemented AllMiniLM-L6-v2 sentence transformers with 384-dimensional embeddings for semantic similarity matching in insurance submission processing",
+        "Advanced ML Integration: Implemented AllMiniLM-L6-v2 sentence transformers with high-dimensional embeddings for semantic similarity matching in insurance submission processing",
         "Database Innovation: Added vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations (cosine, euclidean, manhattan, dot product) and optimized binary serialization",
-        "Performance Engineering: Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with 16-bit hashes, Hamming Distance optimization, and custom algorithm implementations",
-        "Enterprise Architecture: Designed comprehensive multi-layered system with 5 API endpoints, multi-database architecture, and production-grade security/audit logging",
-        "Business Impact: Delivered automated duplicate detection system with 84 completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations",
+        "Performance Engineering: Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with compact hash representations, Hamming Distance optimization, and custom algorithm implementations",
+        "Enterprise Architecture: Designed comprehensive multi-layered system with multi-stage pipeline, multi-database architecture, and production-grade security/audit logging",
+        "Business Impact: Delivered automated duplicate detection system with extensive completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations",
         "Technical Excellence: Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles, comprehensive error handling, and sophisticated caching strategies"
       ]
     },
@@ -328,22 +328,22 @@
   ],
   "projects": [
     {
-      "name": "Extensions for .Net - 623K+ Downloads",
+      "name": "Extensions for .Net - 652K+ Downloads",
       "url": "https://github.com/OutOfBandDevelopment/dotex",
-      "description": "20 NuGet packages with 623,552 total downloads. Vector Support for MS-SQL Server via SQLCLR and extensive .NET abstractions. Top packages: BinaryDataDecoders.ToolKit (36K+ downloads).",
+      "description": "20 NuGet packages with 650K+ total downloads. Vector Support for MS-SQL Server via SQLCLR and extensive .NET abstractions. Top packages: BinaryDataDecoders.ToolKit includes extensive downloads."
       "keywords": [
         "Vector Search",
         "SQL Server",
         "SQLCLR",
         ".NET Extensions",
         "NuGet Packages",
-        "623K Downloads"
+        "652K Downloads"
       ]
     },
     {
-      "name": "Microcontrollers and Electronics - 194 Commits",
+      "name": "Microcontrollers and Electronics - 200+ Commits",
       "url": "https://github.com/mwwhited/EmbeddedBakery",
-      "description": "Multi-language hardware projects with 194 commits. Technologies: Verilog (30%), VHDL (21.9%), C/C++ (35.7%). Custom 16-bit microprocessor design and FPGA/CPLD projects.",
+      "description": "Multi-language hardware projects with 200+ commits. Technologies: Verilog (approximately 30%), VHDL (approximately 20%), C/C++ (approximately 35%). Custom 16-bit microprocessor design and FPGA/CPLD projects.",
       "keywords": [
         "Microcontrollers",
         "FPGA",

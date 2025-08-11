@@ -16,7 +16,7 @@
 - **Framework Architecture Innovation:** Created enterprise-grade framework ecosystems including 50+ library OoBDev .NET Framework and transformational Shared Framework evolution with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **ML/AI Strategic Foresight:** Comprehensive AI strategy development, hybrid search innovation, and early recognition of LLM cost/efficiency limitations
-- **Community Impact:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Community Impact:** 650K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** Substantial cloud cost reduction, dramatic performance improvements, crisis resolution, and organizational productivity enhancements
 
 ## Professional Skills
@@ -25,8 +25,9 @@
 **Primary Expertise:**
 - **.Net/C# Ecosystem:** .Net Standard, ASP.Net MVC, WPF, Windows Services, EF Core, .Net Core (20+ years)
 - **JavaScript/TypeScript:** Node.JS, Angular, React, enterprise web applications (15+ years)
+- **Mobile Development:** iOS development, Android development, cross-platform mobile applications
 - **Database Systems:** SQL Server, SQLCLR, T-SQL, performance optimization, custom extensions (20+ years)
-- **Cloud & Infrastructure:** Azure, AWS, Docker, Kubernetes, microservices architecture
+- **Cloud & Infrastructure:** Azure, AWS, Docker, Kubernetes, Helm charts, microservices architecture, container orchestration
 - **AI/ML Integration:** Production embedding systems, sentence transformers, vector search optimization
 
 ### Enterprise Frameworks & Governance
@@ -54,7 +55,7 @@
 ### AI/ML & Advanced Technologies
 **Enterprise AI Integration:**
 - **Machine Learning:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), production model deployment
-- **Vector Search:** Custom LSH algorithms (16-bit hashes), approximate nearest neighbor search
+- **Vector Search:** Custom LSH algorithms (compact hash representations), approximate nearest neighbor search
 - **LLM Integration:** OpenAI, local model deployment, RAG systems, business applications
 - **Performance Optimization:** Sub-linear similarity search, caching strategies, scalability engineering
 
@@ -107,14 +108,21 @@
 - **API Integration:** Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
 - **Business Impact:** Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
 
+### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
+**Nonprofit Leadership and Technical Automation**
+- **Board Governance:** Served on board of directors providing strategic oversight and governance for nonprofit foundation operations
+- **Software Automation:** Developed custom automation solutions for foundation operational processes and workflow optimization
+- **Technical Leadership:** Contributed specialized technical expertise to support foundation mission and enhance operational efficiency
+- **Community Impact:** Applied technology solutions to amplify nonprofit mission and improve service delivery capabilities
+
 ### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - August 2025)
 **AI/ML integration and semantic search implementation for insurance industry duplicate detection**
 
-- **Advanced ML Integration:** Created pure .NET implementation of AllMiniLM-L6-v2 sentence transformers without Python dependencies, featuring custom BERT tokenization and 384-dimensional embeddings for semantic similarity matching in insurance submission processing
+- **Advanced ML Integration:** Created pure .NET implementation of AllMiniLM-L6-v2 sentence transformers without Python dependencies, featuring custom BERT tokenization and high-dimensional embeddings for semantic similarity matching in insurance submission processing
 - **Database Innovation:** Added vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations (cosine, euclidean, manhattan, dot product) and optimized binary serialization
-- **Performance Engineering:** Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with 16-bit hashes, Hamming Distance optimization, and custom algorithm implementations
-- **Enterprise Architecture:** Designed comprehensive multi-layered system with 5 API endpoints, multi-database architecture, and production-grade security/audit logging
-- **Business Impact:** Delivered automated duplicate detection system with 84 completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations
+- **Performance Engineering:** Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with compact hash representations, Hamming Distance optimization, and custom algorithm implementations
+- **Enterprise Architecture:** Designed comprehensive multi-layered system with multi-stage pipeline, multi-database architecture, and production-grade security/audit logging
+- **Business Impact:** Delivered automated duplicate detection system with extensive completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations
 - **Technical Excellence:** Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles, comprehensive error handling, and sophisticated caching strategies
 
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
@@ -123,7 +131,7 @@
 #### Strategic Organizational Leadership - Centers of Excellence (July 2022 - October 2024)
 **Led enterprise-wide development standards and strategic technology initiatives across 125+ developers**
 
-- **Organizational Impact:** Influenced 10-15 development teams through Centers of Excellence leadership, establishing standards across multiple technology disciplines
+- **Organizational Impact:** Influenced numerous development teams through Centers of Excellence leadership, establishing standards across multiple technology disciplines
 - **Training & Mentorship Programs:** Delivered comprehensive developer education ranging from intimate 1-5 person sessions to large-scale 20+ developer boot camps covering software design, architecture, design patterns, and SDLC best practices
 - **Crisis Resolution Leadership:** Served as organizational "fire fighter" resolving critical client issues spanning upset clients, failed deployments, library upgrade complications, data corruption recovery, and cross-domain integration challenges
 - **Strategic Technology Risk Management:** Prevented costly technology adoption mistakes through comprehensive evaluation processes, notably steering organization away from conference-driven MongoDB/Kafka adoption toward proven alternatives like Entity Framework Code-First migrations
@@ -188,6 +196,12 @@
 
 ## Education
 
+### DeVry University - Electronic Engineering Technology (2000 - 2002)
+**Coursework Completed (Degree Not Completed)**
+- **Status:** Substantial coursework completed toward Electronic Engineering Technology degree
+- **Reason:** Program discontinued due to funding constraints
+- **Relevant Coursework:** Digital circuits, analog electronics, microprocessor design, embedded systems
+
 ### Eastland-Fairfield Career and Technical Schools - Electronics Technician (1998 - 2000)
 
 - Vocational Certificate - Certified Electronics Technician
@@ -201,21 +215,28 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
 - SkillsUSA-VICA first place regional electronics technician
 
 ### Gahanna Lincoln High School (1996 - 2000)
+**High School Diploma with extracurricular leadership**
+- **Eagle Scout Achievement (2000):** Demonstrated early leadership capability and commitment to service
+- **Activities:** Stage Crew (technical production), Marching Band, Fencing Club
+- **Foundation:** Strong academic preparation for technical career progression
 
-- High-school Diploma
+### Professional Certifications
+- **CompTIA A+ Certification** - Computer hardware and software troubleshooting
+- **CompTIA Network+ Certification** - Network configuration and management
 
 ## Personal Projects
 
-- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 20 NuGet packages with 623K+ downloads
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 20 NuGet packages with 650K+ downloads
   - **[Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors)** - Custom SQLCLR implementation with SqlVector/SqlVectorF types, mathematical operations, binary serialization, and distance aggregation functions
   - [BinaryDataDecoders.ToolKit](https://www.nuget.org/packages/BinaryDataDecoders.ToolKit/) - 36K+ downloads
   - Extensive collection of .NET abstractions and extensions with professional CI/CD
-- **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 194 commits, multi-language hardware projects
-  - **Custom designed 16-bit microprocessor (MW16C)** in SystemVerilog with 5-stage pipeline, 30+ custom instructions, and Python assembler
+- **Stack Overflow:** 22K+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
+- **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 200+ commits, multi-language hardware projects
+  - **Custom designed 16-bit microprocessor (MW16C)** in SystemVerilog with multi-stage pipeline, comprehensive instruction set, and Python assembler
   - **Comprehensive VHDL component library** including ALU, memory elements, decoders, multiplexers
-  - FPGA/CPLD projects in Verilog (30%), VHDL (21.9%), C/C++ (35.7%)
+  - FPGA/CPLD projects in Verilog (approximately 30%), VHDL (approximately 20%), C/C++ (approximately 35%)
   - Customized 3D printer/CNC router
-- **[Binary Data Processing Framework](https://github.com/mwwhited/BinaryDataDecoders/)** - 438 commits
+- **[Binary Data Processing Framework](https://github.com/mwwhited/BinaryDataDecoders/)** - 400+ commits
   - **Zero-allocation parsing** using System.IO.Pipelines and Memory<T> with async/await patterns
   - **Multiple format support:** PKZip, TAR, ISO9660, Telnet, LDAP, SNTP
   - **Enterprise-grade quality** with comprehensive testing and error handling
@@ -236,11 +257,11 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
   
 ## Profile Links
 
-- **[GitHub](https://github.com/mwwhited)**
+- **[GitHub](https://github.com/mwwhited)** - 30+ repositories, Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
 - **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
-- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)**
+- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22K+ reputation, 600+ solutions, nearly 5 million user reach
 - **[Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)**
 - **[NPM](https://www.npmjs.com/~mwwhited)**
-- **[NuGet](https://www.nuget.org/profiles/mwwhited/)**
+- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 650K+ downloads across 20 packages
 - **[Personal Profile](http://matthewwhited.com)**
 - **[Flickr](http://www.flickr.com/photos/mwwhited/)**

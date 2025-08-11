@@ -13,7 +13,7 @@ summary: >
   Crisis resolution expertise spanning client relations, failed deployments, data corruption, integration challenges, and 
   organizational change management. Framework architecture innovation with transformational product leadership (Nucleus 
   framework evolution) having lasting organizational impact years after implementation. Proven open-source contributor 
-  with 623K+ package downloads, 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status. 
+  with 650K+ package downloads, 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status. 
   Technical innovations include custom SQL Server vector extensions via SQLCLR, complete 16-bit microprocessor design, 
   and production AI/ML infrastructure with hybrid search engines. Demonstrated ability to deliver substantial cloud cost 
   reduction, dramatic performance improvements, crisis resolution, and organizational productivity enhancements.
@@ -253,16 +253,16 @@ education:
     dates: "1996 - 2000"
 
 personal_projects:
-  - name: "Extensions for .Net - 623K+ Downloads"
+  - name: "Extensions for .Net - 652K+ Downloads"
     url: "https://github.com/OutOfBandDevelopment/dotex"
     highlights:
-      - "20 NuGet packages with 623,552 total downloads"
+      - "20 NuGet packages with 650K+ total downloads"
       - "BinaryDataDecoders.ToolKit: 36,270 downloads"
       - "Vector Support for MS-SQL Server via SQLCLR"
-  - name: "Microcontrollers and Electronics - 194 Commits"
+  - name: "Microcontrollers and Electronics - 200+ Commits"
     url: "https://github.com/mwwhited/EmbeddedBakery"
     highlights:
-      - "Multi-language hardware projects: Verilog (30%), VHDL (21.9%), C/C++ (35.7%)"
+      - "Multi-language hardware projects: Verilog (approximately 30%), VHDL (approximately 20%), C/C++ (approximately 35%)"
       - "Custom designed 16-bit microprocessor"
       - "FPGA/CPLD projects and 3D printer/CNC router firmware"
   - name: "Coding Challenges - Multi-Language Platform"

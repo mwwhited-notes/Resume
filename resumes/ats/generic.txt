@@ -17,7 +17,7 @@ CORE DIFFERENTIATORS
 - Strategic Technical Leadership: Rare combination of deep technical expertise with business acumen and P&L impact
 - Innovation & Value Creation: Custom solutions delivering measurable ROI through advanced AI/ML, database optimization, and performance engineering
 - Enterprise Architecture: Production-ready systems with proven scalability, security, and compliance frameworks
-- Market Recognition: 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- Market Recognition: 650K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - Business Impact: Substantial cost savings, significant delivery improvements, substantial revenue opportunity support
 
 CORE COMPETENCIES
@@ -25,8 +25,9 @@ CORE COMPETENCIES
 Enterprise Architecture & Core Technologies:
 - .NET/C# Ecosystem: .Net Standard, ASP.Net MVC, WPF, Windows Services, EF Core, .Net Core (20+ years)
 - JavaScript/TypeScript: Node.JS, Angular, React, enterprise web applications (15+ years)
+- Mobile Development: iOS development, Android development, cross-platform mobile applications
 - Database Systems: SQL Server, SQLCLR, T-SQL, performance optimization, custom extensions (20+ years)
-- Cloud & Infrastructure: Azure, AWS, Docker, Kubernetes, microservices architecture
+- Cloud & Infrastructure: Azure, AWS, Docker, Kubernetes, Helm charts, microservices architecture, container orchestration
 - AI/ML Integration: Production embedding systems, sentence transformers, vector search optimization
 
 Enterprise Frameworks & Governance:
@@ -50,7 +51,7 @@ Cloud & DevOps Technologies:
 
 AI/ML & Advanced Technologies:
 - Machine Learning: Sentence Transformers (AllMiniLM-L6-v2, SBERT), production model deployment
-- Vector Search: Custom LSH algorithms (16-bit hashes), approximate nearest neighbor search
+- Vector Search: Custom LSH algorithms (compact hash representations), approximate nearest neighbor search
 - LLM Integration: OpenAI, local model deployment, RAG systems, business applications
 - Performance Optimization: Sub-linear similarity search, caching strategies, scalability engineering
 
@@ -63,7 +64,7 @@ March 2015 - Present
 - Application architecture, reverse engineering, performance tuning, and custom technical training
 - Custom framework design, database enhancement and queue processing
 - Added Vector Search and Indexing to Microsoft SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations and binary serialization
-- Developed 20 NuGet packages with 623K+ total downloads
+- Developed 20 NuGet packages with 650K+ total downloads
 
 Principal Solutions Architect
 Green Onion (Life Time Foundation), Eliassen Group
@@ -73,14 +74,21 @@ February 2025 - Present
 - API Integration: Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
 - Business Impact: Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
 
+Rose and Gold Foundation - Board Member + Software Automation Engineer
+2017 - 2020
+- Board Governance: Served on board of directors providing strategic oversight and governance for nonprofit foundation operations
+- Software Automation: Developed custom automation solutions for foundation operational processes and workflow optimization
+- Technical Leadership: Contributed specialized technical expertise to support foundation mission and enhance operational efficiency
+- Community Impact: Applied technology solutions to amplify nonprofit mission and improve service delivery capabilities
+
 Principal Solutions Architect, specialized in AI
 ERisk Services, Eliassen Group
 November 2024 - August 2025
-- Advanced ML Integration: Implemented AllMiniLM-L6-v2 sentence transformers with 384-dimensional embeddings for semantic similarity matching in insurance submission processing
+- Advanced ML Integration: Implemented AllMiniLM-L6-v2 sentence transformers with high-dimensional embeddings for semantic similarity matching in insurance submission processing
 - Database Innovation: Added vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations (cosine, euclidean, manhattan, dot product) and optimized binary serialization
-- Performance Engineering: Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with 16-bit hashes, Hamming Distance optimization, and custom algorithm implementations
-- Enterprise Architecture: Designed comprehensive multi-layered system with 5 API endpoints, multi-database architecture, and production-grade security/audit logging
-- Business Impact: Delivered automated duplicate detection system with 84 completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations
+- Performance Engineering: Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with compact hash representations, Hamming Distance optimization, and custom algorithm implementations
+- Enterprise Architecture: Designed comprehensive multi-layered system with multi-stage pipeline, multi-database architecture, and production-grade security/audit logging
+- Business Impact: Delivered automated duplicate detection system with extensive completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations
 - Technical Excellence: Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles, comprehensive error handling, and sophisticated caching strategies
 
 Principal Solutions Architect
@@ -140,27 +148,39 @@ Eastland-Fairfield Career and Technical Schools
 Electronics technician for digital and analog circuits, hand assembly and machine language programming, computer networking
 Accomplishments: National Vocational-Technical Honor Society, SkillsUSA-VICA first place regional electronics technician
 
+Electronic Engineering Technology (Coursework Completed)
+DeVry University
+2000 - 2002
+Substantial coursework completed toward Electronic Engineering Technology degree. Program discontinued due to funding constraints.
+Relevant Coursework: Digital circuits, analog electronics, microprocessor design, embedded systems
+
 High School Diploma
 Gahanna Lincoln High School
 1996 - 2000
+Eagle Scout Achievement (2000): Demonstrated early leadership capability and commitment to service
+Activities: Stage Crew (technical production), Marching Band, Fencing Club
+
+Professional Certifications:
+CompTIA A+ Certification - Computer hardware and software troubleshooting
+CompTIA Network+ Certification - Network configuration and management
 
 OPEN SOURCE CONTRIBUTIONS AND PROJECTS
 
-Extensions for .Net - 623K+ Downloads
+Extensions for .Net - 650K+ Downloads
 GitHub: https://github.com/OutOfBandDevelopment/dotex
-- 20 NuGet packages with 623,552 total downloads
+- 20 NuGet packages with 650K+ total downloads
 - Vector Support for MS-SQL Server via SQLCLR with custom SqlVector/SqlVectorF types, mathematical operations, binary serialization, and distance aggregation functions
 - BinaryDataDecoders.ToolKit: 36,270 downloads
 - Extensive collection of .NET abstractions and extensions with professional CI/CD
 
-Microcontrollers and Electronics - 194 Commits
+Microcontrollers and Electronics - 200+ Commits
 GitHub: https://github.com/mwwhited/EmbeddedBakery
-- Multi-language hardware projects: Verilog (30%), VHDL (21.9%), C/C++ (35.7%)
-- Custom designed 16-bit microprocessor (MW16C) in SystemVerilog with 5-stage pipeline, 30+ custom instructions, and Python assembler
+- Multi-language hardware projects: Verilog (approximately 30%), VHDL (approximately 20%), C/C++ (approximately 35%)
+- Custom designed 16-bit microprocessor (MW16C) in SystemVerilog with multi-stage pipeline, comprehensive instruction set, and Python assembler
 - Comprehensive VHDL component library including ALU, memory elements, decoders, multiplexers
 - FPGA/CPLD projects and 3D printer/CNC router
 
-Binary Data Processing Framework - 438 Commits
+Binary Data Processing Framework - 400+ Commits
 GitHub: https://github.com/mwwhited/BinaryDataDecoders/
 - Zero-allocation parsing using System.IO.Pipelines and Memory<T> with async/await patterns
 - Multiple format support: PKZip, TAR, ISO9660, Telnet, LDAP, SNTP
@@ -192,9 +212,9 @@ NPM: https://www.npmjs.com/~mwwhited
 
 COMMUNITY RECOGNITION
 
-Stack Overflow: 22,433 reputation, 4.7M user reach, 606 answers, 16+ years active
-GitHub Achievements: Arctic Code Vault Contributor, Pull Shark (x2), Quickdraw, YOLO, Starstruck
-NuGet Profile: 20 packages, 623,552 total downloads
+Stack Overflow: 22K+ reputation, nearly 5 million user reach, 600+ solutions spanning 15+ years active
+GitHub Achievements: Arctic Code Vault Contributor, Pull Shark (x2), Quickdraw, YOLO, Starstruck - 30+ repositories
+NuGet Profile: 20 packages, 650K+ total downloads
 NPM Profile: 3 published packages including SignalR client and BeagleBone toolkit
 
 TECHNICAL SPECIALIZATIONS

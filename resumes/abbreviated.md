@@ -15,7 +15,7 @@
 - **Crisis Resolution Expertise:** Cross-functional problem solving spanning client relations, failed deployments, data corruption, integration challenges, and organizational change management
 - **Framework Architecture Innovation:** Transformational product leadership (Shared Framework framework evolution) with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
-- **Community Impact:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Community Impact:** 650K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** Substantial cloud cost reduction, dramatic performance improvements, crisis resolution, and organizational productivity enhancements
 
 ## Professional Skills
@@ -23,14 +23,16 @@
 ### Technical Skills
 
 - **Programming Languages:** .Net/C#, JavaScript/TypeScript, Java, Go, Python, C, C++, ASP.Net MVC, WPF, Node.js, HTML, CSS
+- **Mobile Development:** iOS development, Android development, cross-platform mobile applications
 - **Databases:** Microsoft SQL Server, MySQL, PostgreSQL/ParadeDB, MongoDB, Qdrant, OpenSearch.
 - **Cloud Services:** Azure Service Bus, Azure Storage Queues, AWS SQS, RabbitMQ, Kafka, Container Apps.
 - **Frameworks & Libraries:** SignalR, Socket IO, React, Angular, EF Core, MSTest.
-- **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes, CLI tools, SystemVerilog, VHDL
+- **Development Tools:** ANTLR, Domain Specific Languages, DacFX, ASP.Net Core Extensions, Docker, Kubernetes, Helm charts, CLI tools, SystemVerilog, VHDL
+- **Hardware Description Languages:** VHDL, SystemVerilog for FPGA/CPLD development
 - **Team Management Tools:** Microsoft Project, Azure DevOps, JIRA, Confluence, Sharepoint, Microsoft Teams, Slack, Discord, GitHub
 - **DevOps Practices:** Azure Pipelines, Github Actions, Local scripting, Build Automation.
 - **Machine Learning & Artificial Intelligence:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), HuggingFace, ONNX, TensorFlow, Groq, OpenAI, Ollama, OpenWeb-UI, ViT, FAISS, Qdrant
-- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] with 16-bit hashes and random ball tree for approximate nearest neighbor search), custom algorithm implementations, hybrid search engines
+- **Vector/Semantic Search:** Vector distance calculation, indexing (locality sensitive hashing [LSH] with compact hash representations and random ball tree for approximate nearest neighbor search), custom algorithm implementations, hybrid search engines
 - **Embedded Systems:** Arduino, Beaglebone Black, Raspberry Pi, AVR (ATmega/ATtiny), ESP8266, ESP32, STM32, FPGA, Custom 16-bit microprocessor design
 - **Agile Methodologies:** Scrum, Kanban, XP
 - **Version Control Systems:** TFS, SVN, GIT
@@ -69,6 +71,7 @@
 
 - **Chief Solutions Architect** - Out-of-Band Development, LLC (March 2015 - Present)
 - **Principal Solutions Architect** - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+- **Rose and Gold Foundation - Board Member + Software Automation Engineer** (2017 - 2020)
 - **Principal Solutions Architect, specialized in AI** - ERisk Services, Eliassen Group (November 2024 - August 2025)
 - **Principal Solutions Architect** - Eliassen Group (September 2015 - October 2024)
 - **Chief Solutions Architect** - Itrica (November 2009 - July 2015)
@@ -81,16 +84,17 @@
 
 ## Personal Projects
 
-- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 20 NuGet packages, 623K+ downloads, SQL Server vector support
-- **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 194 commits, FPGA/VHDL projects, custom 16-bit microprocessor
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 20 NuGet packages, 650K+ downloads, SQL Server vector support
+- **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 200+ commits, FPGA/VHDL projects, custom 16-bit microprocessor
+- **Stack Overflow:** 22K+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
 - **[Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)** - Full Text + Semantic Search with LLM reranking
 - **[Image Processing Framework](https://github.com/mwwhited/SecondShooter)** - AI/ML photography analysis with Vision Transformer embeddings
   
 ## Profile Links
 
-- **[GitHub](https://github.com/mwwhited)**
+- **[GitHub](https://github.com/mwwhited)** - 30+ repositories, Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
 - **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
-- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)**
+- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22K+ reputation, 600+ solutions, nearly 5 million user reach
 - **[NPM](https://www.npmjs.com/~mwwhited)**
-- **[NuGet](https://www.nuget.org/profiles/mwwhited/)**
+- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 650K+ downloads across 20 packages
 - **[Personal Profile](http://matthewwhited.com)**
