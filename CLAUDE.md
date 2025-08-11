@@ -38,6 +38,13 @@
 - Store results in ./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md
 - Provide actionable recommendations and next steps
 
+### 5. Self-audit requests
+**Required Response:** `read protocols/self-audit.md and follow the protocol step-by-step`
+- Systematically research all linked profiles and repositories from master resume
+- Identify gaps between online achievements and resume documentation
+- Store results in ./SearchResults/Portfolio/{analysis-type}_{YYYYMMDD}.md
+- Provide specific resume enhancement recommendations
+
 ## Key Professional Metrics - VALIDATED
 - **Stack Overflow:** 22,433 reputation, C# Gold Badge (1,323 score), 4.7M developer reach
 - **NuGet Downloads:** 623K+ across 20 packages
@@ -62,6 +69,7 @@
 - **TOC:** README.md (professional documents with relative paths)
 - **Portfolio Strategy:** protocols/portfolio-strategy.md (technical project write-up recommendations)
 - **Company Research Protocol:** protocols/company-research.md (standardized company analysis)
+- **Self-Audit Protocol:** protocols/self-audit.md (online presence analysis and resume gap identification)
 - **Writing Style Guide:** documentation/style-guide.md (professional communication preferences)
 
 ## Current Status - 2025-08-05
@@ -96,9 +104,10 @@
 ✅ **Search Results Index:** ./SearchResults/ organized by topic with comprehensive analyses
 - **Job Search:** ./SearchResults/Jobs/ - market analysis and opportunity evaluations  
 - **Company Research:** ./SearchResults/Companies/ - detailed company analyses per protocol
+- **Portfolio Analysis:** ./SearchResults/Portfolio/ - self-audit and online presence analysis
 - **Future Topics:** Follow pattern ./SearchResults/{Topic}/ for additional research areas
-- **Protocol File:** protocols/company-research.md
-- **Usage:** Triggered by "find information about [Company Name]" requests
+- **Protocols:** protocols/job-search.md, protocols/company-research.md, protocols/self-audit.md
+- **Usage:** Triggered by specific protocol command patterns
 
 ## Writing Style Preferences - MEMORIZED
 ✅ **Style Guide Created:** documentation/style-guide.md captures preferred professional communication style
