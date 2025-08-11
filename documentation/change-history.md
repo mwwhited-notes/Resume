@@ -723,3 +723,52 @@ Applied comprehensive standardization changes across all resume files to improve
 - **New:** Validated specialized domain expertise through NuGet package analysis
 - **New:** Confirmed command-line tool development capabilities and download metrics
 - **New:** Verified multi-language project implementations and maintenance practices
+
+---
+
+## 2025-08-10 - Company Research Protocol and Writing Style Guide Creation
+
+### Summary
+Created comprehensive company research protocol and personal writing style guide based on completed analyses of RevenueCat, Eight Sleep, and Pomelo Care. Established standardized approach for future company research and captured preferred communication style for professional responses.
+
+### Files Created
+- `protocols/company-research.md` - **NEW** Standardized protocol for company research and analysis
+- `documentation/style-guide.md` - **NEW** Writing style guide capturing personal communication preferences
+
+### Company Research Protocol Features
+- **Trigger Commands:** Standardized triggers for "find information about [Company]" requests
+- **5-Phase Approach:** Initialize, research business/tech/culture, analyze alignment, document, respond
+- **Structured Searches:** Business model, technology stack, culture, technical alignment
+- **Analysis Template:** Executive summary, company overview, technology assessment, career alignment
+- **File Naming Convention:** `{CompanyName}_{YYYYMMDD}.md` in `./SearchResults/Companies/`
+- **Quality Standards:** Comprehensive, strategic, actionable, objective, current
+
+### Writing Style Guide Components
+- **Core Principles:** Direct/authentic, confident/humble, personal/genuine, impact-focused
+- **Structure:** Technical substance → Opportunity alignment → Personal impact
+- **Language Preferences:** Specific technical terms over generic buzzwords
+- **Avoid List:** Corporate speak, superlatives, mission statement language
+- **Example Application:** Pomelo Care response demonstrating style elements
+
+### Company Research Completed
+1. **RevenueCat (2025-08-10):**
+   - Assessment: MODERATE-HIGH interest for Staff/Principal Engineer roles
+   - Key Strengths: Remote-first, enterprise-scale challenges, developer-centric mission
+   - Stored: `./SearchResults/Companies/RevenueCat.md`
+
+2. **Eight Sleep (2025-08-10):**
+   - Assessment: MODERATE-HIGH interest but declined due to 60+ hour work expectations
+   - Key Strengths: Direct .NET Core match, IoT complexity, distributed systems
+   - Stored: `./SearchResults/Companies/EightSleep_20250810.md`
+
+3. **Pomelo Care (2025-08-10):**
+   - Assessment: MODERATE interest for healthcare technology roles
+   - Key Strengths: Mission-driven, strong compensation, early engineering influence
+   - Stored: `./SearchResults/Companies/PomeloCare_20250810.md`
+
+### Memory Updates Applied
+- Added company research protocol to critical user commands (#4)
+- Added company research protocol reference to documentation files
+- Added RevenueCat analysis summary to recent company research section
+- Updated interview preparation insights with scalability challenge answer
+- Added writing style guide reference for future professional communications

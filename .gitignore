@@ -16,3 +16,5 @@ Thumbs.db
 
 # Log files
 *.log
+
+*_tmp.html

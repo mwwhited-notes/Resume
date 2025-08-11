@@ -1,5 +1,3 @@
-# Executive Brief - Matthew Whited
-
 Matthew Whited is a Principal Solutions Architect and Strategic Technology Leader with over 20 years of experience who uniquely bridges hardware and 
 software domains to deliver exceptional business results. With proven technical authority demonstrated through hundreds 
 of thousands of package downloads, significant community recognition, and measurable achievements like substantial cloud cost 

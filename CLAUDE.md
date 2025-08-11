@@ -31,6 +31,13 @@
 - Create comprehensive market analysis with rankings
 - Update search summary and findings
 
+### 4. Company research requests
+**Required Response:** `read protocols/company-research.md and follow the protocol step-by-step`
+- Execute comprehensive company analysis including business model, technology stack, and culture
+- Assess strategic fit with Matthew's expertise and career goals
+- Store results in ./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md
+- Provide actionable recommendations and next steps
+
 ## Key Professional Metrics - VALIDATED
 - **Stack Overflow:** 22,433 reputation, C# Gold Badge (1,323 score), 4.7M developer reach
 - **NuGet Downloads:** 623K+ across 20 packages
@@ -54,6 +61,8 @@
 - **Job Search Protocol:** protocols/job-search.md (comprehensive market analysis)
 - **TOC:** README.md (professional documents with relative paths)
 - **Portfolio Strategy:** protocols/portfolio-strategy.md (technical project write-up recommendations)
+- **Company Research Protocol:** protocols/company-research.md (standardized company analysis)
+- **Writing Style Guide:** documentation/style-guide.md (professional communication preferences)
 
 ## Current Status - 2025-08-05
 ✅ **Professional Documents:** All 15 files aligned with gold standard and enhanced with new technical achievements
@@ -83,21 +92,20 @@
 
 **Repository Status - 2025-08-06:** Successfully restructured to modern git repository with logical directory organization while preserving all protocol functionality and memory commands.
 
-## Latest Job Search Results - August 2025
-✅ **Comprehensive Market Analysis:** Complete job search executed across all platforms per protocol (2025-08-06)
-- **Current-Market-Analysis-Aug2025.md:** Executive summary with Tier 1/2/3 opportunity rankings
-- **Platform Coverage:** LinkedIn (6,000+ positions), Indeed, Dice, Wellfound (130,000+ startup jobs)
-- **Executive Recruiting:** SHREK firms (Korn Ferry, Bespoke Partners) plus boutique technology specialists
-- **AI/ML Platforms:** AIJobs.net, AIJobs.ai specialized boards with CTO opportunities
-- **Consulting Firms:** McKinsey, Deloitte ($3B AI investment), Accenture (doubling AI workforce)
-- **Market Timing:** Exceptional alignment with AI investment surge and senior talent shortage
-- **Salary Benchmarks:** CTO avg $337,189, Principal Architect up to $392,535 (90th percentile)
-- **Remote Market:** 5,000+ remote solutions architect positions, 100% remote standard for senior roles
+## Search Results Reference
+✅ **Search Results Index:** ./SearchResults/ organized by topic with comprehensive analyses
+- **Job Search:** ./SearchResults/Jobs/ - market analysis and opportunity evaluations  
+- **Company Research:** ./SearchResults/Companies/ - detailed company analyses per protocol
+- **Future Topics:** Follow pattern ./SearchResults/{Topic}/ for additional research areas
+- **Protocol File:** protocols/company-research.md
+- **Usage:** Triggered by "find information about [Company Name]" requests
 
-**Key Immediate Opportunities Identified:**
-1. Salesforce Principal AI Architect ($190K-$275K+) - Perfect AI/ML + enterprise alignment
-2. Stryker Senior Principal Solution Architect ($129K-$286K) - 100% remote
-3. Microsoft Principal Cloud Solution Architect - Data & AI (Azure platform scale)
-4. Executive recruiting pipeline via Korn Ferry Technology Practice and Bespoke Partners
+## Writing Style Preferences - MEMORIZED
+✅ **Style Guide Created:** documentation/style-guide.md captures preferred professional communication style
+- **Tone:** Direct and authentic, avoiding corporate buzzwords and mission statement language
+- **Structure:** Technical substance → Opportunity alignment → Personal impact (3-4 sentences max)
+- **Language:** Specific technical terms (e.g., "enterprise architecture and database expertise" not "technical skills")
+- **Personal Voice:** Use "I" statements, focus on meaningful work "at this stage of my career"
+- **Impact Focus:** Genuine personal connection over abstract mission statements
 
-**Strategic Positioning Validated:** Pure .NET AI/ML expertise provides significant competitive differentiation in Python-dominated market, enterprise framework creation aligns with organizations seeking to build vs. consume AI technologies.
+**Example Application:** "The opportunity to join an early engineering team where I can leverage my enterprise architecture and database expertise to build scalable platforms that process complex healthcare data aligns perfectly with the technical challenges I'm seeking."

@@ -14,7 +14,7 @@ This protocol provides a systematic approach to conducting comprehensive job sea
 
 ### 1. Create SearchResults Directory Structure
 ```bash
-mkdir -p /current/src/SearchResults
+mkdir -p /current/src/SearchResults/Jobs
 ```
 
 ### 2. Define Search Criteria
@@ -32,19 +32,19 @@ Execute searches and create individual platform analysis files:
 #### LinkedIn Jobs
 - **Search Terms:** "Principal Solutions Architect" "Strategic Technology Leader" remote AI ML enterprise architecture
 - **Advanced Filters:** Remote work, 20+ years experience, technology industry
-- **Output File:** `SearchResults/linkedin.md`
+- **Output File:** `SearchResults/Jobs/linkedin.md`
 - **Focus:** Enterprise-scale opportunities, established companies
 
 #### Indeed.com
 - **Search Terms:** "Chief Technology Officer" "Principal Architect" remote AI ML framework development .NET enterprise
 - **Advanced Filters:** Remote/hybrid, salary ranges, company size
-- **Output File:** `SearchResults/indeed.md`
+- **Output File:** `SearchResults/Jobs/indeed.md`
 - **Focus:** Broad market coverage, diverse company sizes
 
 #### Dice.com
 - **Search Terms:** "Principal Solutions Architect" "CTO" remote AI ML enterprise .NET
 - **Platform Advantage:** Tech-focused with 70,000+ job openings
-- **Output File:** `SearchResults/dice.md`
+- **Output File:** `SearchResults/Jobs/dice.md`
 - **Focus:** Technical depth, established tech relationships
 
 ### Category 2: Executive Recruiting Firms
@@ -63,7 +63,7 @@ Research and document executive search opportunities:
 - Research each firm's technology practice
 - Identify key recruiters and practice leaders
 - Document typical client profiles and role requirements
-- **Output File:** `SearchResults/executive-recruiters.md`
+- **Output File:** `SearchResults/Jobs/executive-recruiters.md`
 
 ### Category 3: Specialized AI/ML Job Boards
 Target AI-specific platforms and startup ecosystems:
@@ -83,7 +83,7 @@ Target AI-specific platforms and startup ecosystems:
 #### Search Process
 - **Search Terms:** "Principal Architect" "CTO" remote artificial intelligence machine learning startup
 - **Focus:** Equity opportunities, cutting-edge technology, innovation roles
-- **Output File:** `SearchResults/ai-ml-job-boards.md`
+- **Output File:** `SearchResults/Jobs/ai-ml-job-boards.md`
 
 ### Category 4: Major Consulting Firms & Fortune 500 Companies
 Research technology leadership opportunities in consulting and Fortune 500 companies:
@@ -113,7 +113,7 @@ Research technology leadership opportunities in consulting and Fortune 500 compa
 - Salary ranges for CTO/Principal Architect remote positions ($250K-$400K+)
 - Technology leadership roles and requirements
 - Client engagement models and project types
-- **Output File:** `SearchResults/consulting-firms.md`
+- **Output File:** `SearchResults/Jobs/consulting-firms.md`
 
 #### Remote US Job Market Focus
 **CRITICAL:** All searches must prioritize positions that can be performed remotely within the United States. International positions or roles requiring significant on-site presence should be flagged but deprioritized unless extraordinary opportunities.
@@ -193,12 +193,12 @@ When new relevant platforms are discovered:
 1. Add platform to appropriate category in this protocol
 2. Include platform URL and specialization focus
 3. Define search terms specific to platform audience
-4. Create new SearchResults file for platform analysis
+4. Create new SearchResults/Jobs file for platform analysis
 
 ## Summary and Ranking Process
 
 ### Step 5: Comprehensive Summary Creation
-**Output File:** `SearchResults/Summary.md`
+**Output File:** `SearchResults/Jobs/Summary.md`
 
 #### Ranking Methodology
 Rank all platforms using dual criteria:
@@ -269,8 +269,8 @@ Include in summary:
 ## Documentation Standards
 
 ### File Naming Convention
-- **Platform Analysis:** `SearchResults/[platform-name].md`
-- **Summary Report:** `SearchResults/Summary.md`
+- **Platform Analysis:** `SearchResults/Jobs/[platform-name].md`
+- **Summary Report:** `SearchResults/Jobs/Summary.md`
 - **Protocol Updates:** Update this file with new platforms and learnings
 
 ### Required Documentation Elements
