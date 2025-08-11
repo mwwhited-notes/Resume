@@ -8,7 +8,11 @@
       "Bash(rm:*)",
       "Bash(find:*)",
       "Bash(grep:*)",
-      "Bash(true)"
+      "Bash(true)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.nuget.org)",
+      "WebFetch(domain:stackoverflow.com)",
+      "WebFetch(domain:www.linkedin.com)"
     ],
     "deny": []
   }

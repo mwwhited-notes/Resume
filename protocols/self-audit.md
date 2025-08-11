@@ -35,6 +35,7 @@ Document the following categories:
 - **Professional Websites:** Personal sites, portfolio pages
 - **Community Contributions:** Blog posts, articles, speaking engagements
 - **Certifications/Credentials:** Professional certifications and validations
+- **Professional Organizations:** GitHub organizations and collaborative projects
 
 #### Create Reference Inventory
 **Output File:** `./SearchResults/Portfolio/profile-inventory_{YYYYMMDD}.md`
@@ -48,6 +49,34 @@ Format each reference with:
 
 #### Research Methodology
 For each extracted reference, execute comprehensive analysis:
+
+#### Organization and Collaborative Project Research
+**Target Organizations:**
+- **mwwhited-*** - Personal/professional organizations (high priority)
+- **OutOfBandDevelopment** - Primary consulting organization (high priority)  
+- **oobdev** - Development organization variant (high priority)
+- **EliassenInnovation** - Contributor role, analyze commit history for Matthew's contributions (medium priority)
+
+**Organization Analysis Process:**
+1. **Discover Organizations**
+   ```
+   WebFetch: https://github.com/[username] "Identify all organizations and collaborative projects"
+   ```
+
+2. **Analyze Organization Repositories**
+   ```
+   WebFetch: https://github.com/[organization] "List all repositories and identify significant projects"
+   ```
+
+3. **Review Contribution History**
+   ```
+   WebFetch: https://github.com/[organization]/[repo]/commits "Analyze commit history to identify Matthew's contributions and technical leadership"
+   ```
+
+4. **Assess Technical Leadership**
+   ```
+   WebFetch: https://github.com/[organization]/[repo]/graphs/contributors "Evaluate contribution volume and project impact"
+   ```
 
 **WebSearch/WebFetch Process:**
 1. **Direct Profile Analysis**
@@ -70,6 +99,12 @@ For each extracted reference, execute comprehensive analysis:
    WebFetch: [profile_url] "Document reputation metrics, answer quality, expertise areas, and community impact"
    ```
 
+5. **Deep Content Analysis**
+   - **GitHub:** Follow commit history, analyze code patterns, review development practices
+   - **Stack Overflow:** Analyze highest-voted answers, technical writing style, problem-solving approach
+   - **Repository Deep Dive:** Review actual code implementations, project structure, documentation quality
+   - **Community Posts:** Follow forum discussions, issue responses, technical commentary
+
 #### Documentation Requirements
 **Output Files:** `./SearchResults/Portfolio/[platform-name]_analysis_{YYYYMMDD}.md`
 
@@ -79,8 +114,32 @@ For each extracted reference, execute comprehensive analysis:
 3. **Technical Content Analysis** - Projects, technologies, complexity levels
 4. **Professional Activities** - Leadership, mentoring, community involvement
 5. **Innovation Evidence** - Unique solutions, thought leadership, cutting-edge work
-6. **Resume Gap Analysis** - What's online but not documented in resume
-7. **Enhancement Opportunities** - Specific additions that would strengthen resume
+6. **Deep Content Insights** - Analysis of actual answers, commits, code patterns, writing style
+7. **Development Practices** - Commit patterns, code quality, project management approach
+8. **Resume Gap Analysis** - What's online but not documented in resume
+9. **Enhancement Opportunities** - Specific additions that would strengthen resume
+
+#### Deep Analysis Examples
+**GitHub Repository Analysis:**
+- **Commit History:** `WebFetch: [repo_url]/commits "Analyze commit messages, development patterns, and technical evolution"`
+- **Code Quality:** Review actual implementations, architecture decisions, documentation practices
+- **Project Management:** Branch strategies, release patterns, issue handling
+
+**Stack Overflow Deep Dive:**
+- **Top Answers:** `WebFetch: [profile_url]?tab=answers&sort=votes "Analyze highest-voted answers for expertise and communication style"`
+- **Technical Writing:** Assess explanation quality, code examples, teaching methodology
+- **Problem Domains:** Identify specialized knowledge areas and consistent expertise themes
+
+**Community Engagement:**
+- **Discussion Participation:** Follow links to actual forum posts, issue discussions
+- **Knowledge Sharing:** Analyze teaching approach, mentoring style, technical communication
+- **Professional Voice:** Assess consistency of professional identity across platforms
+
+**LinkedIn Content Analysis:**
+- **Personal Posts:** `WebFetch: [linkedin_profile]/recent-activity "Analyze personal writing style, professional insights, and thought leadership"`
+- **Article Writing:** Review published articles for technical depth and communication style
+- **Professional Updates:** Assess career progression narrative and professional positioning
+- **Engagement Patterns:** Analyze interaction style with professional network
 
 ### Phase 4: Cross-Reference Analysis
 
@@ -98,6 +157,9 @@ For each extracted reference, execute comprehensive analysis:
 - **Technical Innovations** - Unique solutions or approaches not highlighted
 - **Leadership Evidence** - Community influence, mentorship, knowledge sharing not documented
 - **Professional Recognition** - Awards, badges, certifications not emphasized
+- **Organization Leadership** - Technical leadership within professional organizations
+- **Collaborative Contributions** - Team projects and cross-organization technical work
+- **Writing Style Insights** - Communication patterns, thought leadership, professional voice analysis
 
 ### Phase 5: Findings Compilation
 
@@ -127,11 +189,14 @@ For each extracted reference, execute comprehensive analysis:
 - [Quantifiable metrics and achievements]
 - [Technical contributions not highlighted]
 - [Professional activities not documented]
+- [Organization leadership and collaborative work]
+- [Writing style and communication patterns]
 
 **Resume Enhancement Opportunities:**
 - [Specific additions recommended]
 - [Metric updates suggested]
 - [Technical depth improvements]
+- [Leadership and collaboration evidence]
 
 ---
 
@@ -217,6 +282,7 @@ Provide executive summary focusing on:
 - **Most significant gaps** (3-5 key findings)
 - **Immediate opportunities** (specific resume additions)
 - **Strategic positioning** (how changes improve competitive advantage)
+- **Deep insights** (technical patterns, writing style, development practices discovered)
 - **Next steps** (prioritized action plan)
 
 ## Quality Standards
@@ -233,6 +299,19 @@ Provide executive summary focusing on:
 - Comprehensive report: `comprehensive-findings_{YYYYMMDD}.md`
 - Quick reference: `missing-elements-summary_{YYYYMMDD}.md`
 - Profile inventory: `profile-inventory_{YYYYMMDD}.md`
+
+**Deep Analysis Files:**
+- Individual platform analyses with in-depth content review
+- Organization and collaborative project assessments
+- Commit history and code pattern analysis
+- Technical writing and communication style assessment
+- LinkedIn post analysis and professional voice evaluation
+- All files stored in same `./SearchResults/Portfolio/` directory for centralized access
+
+**Organization Analysis Files:**
+- `[organization-name]_analysis_{YYYYMMDD}.md` for each GitHub organization
+- Collaborative project summaries and contribution assessments
+- Technical leadership evidence within team environments
 
 ## Success Criteria
 - Complete analysis of all resume-linked profiles and repositories

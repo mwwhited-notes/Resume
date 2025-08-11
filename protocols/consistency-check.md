@@ -63,7 +63,7 @@ Ensure across ALL documents:
 - **Technical Claims:** All validated and consistent
 
 ### 6. Update Documentation
-- [ ] Add entry to `../documentation/change-history.md` with date and changes made
+- [ ] Add entry to `../documentation/change-history-YYYYMMDD.md` (use current date) with changes made
 - [ ] Update `../CLAUDE.md` with session summary and current status
 - [ ] Note any new information learned for future gold standard updates
 
