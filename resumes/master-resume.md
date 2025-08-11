@@ -250,6 +250,12 @@
 
 ## Education & Professional Development
 
+### DeVry University - Electronic Engineering Technology (2000 - 2002)
+**Coursework Completed (Degree Not Completed)**
+- **Status:** 60+ credits completed toward Electronic Engineering Technology degree
+- **Reason:** Program discontinued due to funding constraints
+- **Relevant Coursework:** Digital circuits, analog electronics, microprocessor design, embedded systems
+
 ### Eastland-Fairfield Career and Technical Schools - Electronics Technician (1998 - 2000)
 **Vocational Certificate - Certified Electronics Technician**
 - **Technical Skills:** Digital and analog circuits, hand assembly, machine language programming
@@ -263,8 +269,12 @@
 - **Activities:** Stage Crew (technical production), Marching Band, Fencing Club
 - **Foundation:** Strong academic preparation for technical career progression
 
+### Professional Certifications
+- **CompTIA A+ Certification** - Computer hardware and software troubleshooting
+- **CompTIA Network+ Certification** - Network configuration and management
+
 ### Continuous Professional Development
-**Ongoing technical education and certification**
+**Ongoing technical education and self-directed learning**
 - **Self-Directed Learning:** Extensive technical research and implementation across multiple domains
 - **Industry Engagement:** Active participation in technical communities and open source development
 - **Practical Application:** Real-world experience spanning electronics, software engineering, and enterprise architecture
