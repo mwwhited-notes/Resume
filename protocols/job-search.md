@@ -20,9 +20,11 @@ mkdir -p /current/src/SearchResults/Jobs
 ### 2. Define Search Criteria
 - **Primary Roles:** Principal Solutions Architect, CTO, Chief Technology Officer, Principal Architect
 - **Technology Focus:** AI/ML, enterprise architecture, .NET, framework development
-- **Work Preference:** 100% remote preferred, hybrid/on-site Baltimore MD area acceptable
+- **Work Preference:** 100% remote PRIORITY, hybrid acceptable Baltimore MD metro area only
+- **Compensation Requirements:** $180K+ salary or $85+/hour contractor rate minimum
 - **Travel:** Up to 25% travel acceptable
 - **Experience Level:** 20+ years, strategic technology leadership
+- **EXCLUSIONS:** No positions requiring security clearance (user preference)
 
 ## Job Search Platform Categories
 
@@ -50,14 +52,17 @@ Execute searches and create individual platform analysis files:
 ### Category 2: Executive Recruiting Firms
 Research and document executive search opportunities:
 
-#### Target Firms
-- **Korn Ferry:** Digital and technology recruiting practice
+#### Target Firms (SHREK + Specialized)
+- **Korn Ferry:** Digital and technology recruiting practice (global #1)
 - **Russell Reynolds Associates:** C-level technology placement
 - **Spencer Stuart:** Global technology leadership search  
 - **Heidrick & Struggles:** Technology executive placement
-- **Bespoke Partners:** Software executive search and private equity
+- **Egon Zehnder:** Premium technology leadership search
+- **Bespoke Partners:** Software executive search and private equity (95% success rate)
 - **Cowen Partners:** Technology leadership for software companies
-- **Heller Search:** Technology leadership for data economy
+- **The Good Search:** Technology Fortune 100 companies, proprietary AI
+- **Vell Executive Search:** Technology officer practice (22+ years experience)
+- **Y Scouts:** Boutique firm $50M+ revenue companies
 
 #### Search Process
 - Research each firm's technology practice
@@ -172,21 +177,27 @@ During search execution, identify additional relevant platforms:
 
 #### 2025 Additional Platforms Discovered
 - **Built In:** https://builtin.com/jobs/remote - Tech jobs with new positions daily from top companies & startups
-- **Ladders:** Executive and senior-level positions including C-Suite roles (CFOs, CTOs), jobs paying $100k+
-- **Arc:** https://arc.dev/ - Remote tech roles for experienced developers, designers, marketers
-- **FlexJobs:** Remote work specialization with legitimate work-from-home opportunities
-- **We Work Remotely:** Focus on remote positions across tech industries
+- **RemoteOK:** https://remoteok.com/ - 1M+ remote jobs, salary transparency (#OpenSalaries)
+- **FlexJobs:** https://www.flexjobs.com/ - 66K+ Solutions Architect jobs, 68K+ Data Architect jobs
+- **Wellfound (AngelList):** https://wellfound.com/ - 130K+ remote jobs, salary/equity upfront
+- **Arc:** https://arc.dev/ - $60-100+/hour Enterprise Architecture developers
+- **Toptal:** https://www.toptal.com/ - Top 3% freelance talent network
+- **We Work Remotely:** https://weworkremotely.com/ - Advanced remote job search
+- **Ladders:** Executive and senior-level positions including C-Suite roles (CFOs, CTOs), $100k+ jobs
 - **Y Combinator Job Board:** Startup positions from YC portfolio companies
-- **CareerBuilder:** Wide range of postings with customizable job alerts
-- **Contra:** Project-based work connecting freelancers with clients
-- **Toptal:** Premium platform for top-tier freelance talent
+- **Upwork:** https://www.upwork.com/ - Solution architects $60-100+/hour, freelance opportunities
+- **Gigster:** Platform of 700+ vetted developers/designers/PMs with full team assembly
+- **CyberSeek:** Cybersecurity job search with government focus
+- **4DayWeek:** Remote 4-day work week positions
+- **NoDesk:** https://nodesk.co/remote-jobs/ - 10K+ remote jobs at 750+ companies
 
 #### Platform Categories to Watch For
-- **Industry-Specific Job Boards:** Healthcare tech, fintech, enterprise software
-- **Geographic Job Boards:** Regional opportunities in Baltimore/DC area  
-- **Technology-Specific Boards:** .NET jobs, enterprise architecture, database specialists
-- **Company Direct:** Career pages of target companies identified during search
-- **Remote-First Platforms:** Specialized remote work job boards with tech focus
+- **Specialized Technical:** AIJobs.fyi (10K+ AI/ML jobs), Scion Technical (award-winning IT staffing)
+- **Consulting/Contracting:** Motion Recruitment (Top 15 US tech), Robert Half (300+ locations)
+- **Executive Search Specialized:** Technology executive search firms, CTO placement specialists
+- **Geographic Regional:** Baltimore metro area tech companies, DC government contractors
+- **Remote-First Platforms:** $85+/hour Principal Architect contracting, $180K+ salary positions
+- **Company Career Pages:** Direct applications to researched target companies
 
 #### Protocol Update Process
 When new relevant platforms are discovered:
