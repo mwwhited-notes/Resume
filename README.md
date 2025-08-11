@@ -18,26 +18,6 @@
 - **[High Growth Tech Resume](./resumes/specialized/High_Growth_Tech_Matthew_Whited_Resume.md)** - High-growth technology company focused
 - **[Enterprise Architect Resume](./resumes/specialized/MatthewWhited-Enterprise-Architect-Resume.md)** - Strategic enterprise architecture leadership
 
-### Targeted Application Materials
-- **[IntelliPro Group - Principal AI/ML Engineer](./resumes/targeted/MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-resume.md)** - Resume
-  - **[Cover Letter](./resumes/targeted/MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-coverletter.md)**
-- **[Shopify - ML Engineering Leadership](./resumes/targeted/MatthewWhited-Shopify-ML-Engineering-Leadership-resume.md)** - Resume
-  - **[Cover Letter](./resumes/targeted/MatthewWhited-Shopify-ML-Engineering-Leadership-coverletter.md)**
-- **[BerryDunn - Enterprise Architect Medicaid](./resumes/targeted/MatthewWhited-BerryDunn-Enterprise-Architect-Medicaid-resume.md)** - Resume
-  - **[Cover Letter](./resumes/targeted/MatthewWhited-BerryDunn-Enterprise-Architect-Medicaid-coverletter.md)**
-  - **[Quick Intro](./resumes/targeted/MatthewWhited-BerryDunn-Enterprise-Architect-Medicaid-intro.md)**
-- **[Databricks - Principal Solutions Architect](./resumes/targeted/MatthewWhited-Databricks-Principal-Solutions-Architect-resume.md)** - Resume
-  - **[Cover Letter](./resumes/targeted/MatthewWhited-Databricks-Principal-Solutions-Architect-coverletter.md)**
-- **[Microsoft - Principal AI/ML Architect M365](./resumes/targeted/MatthewWhited-Microsoft-Principal-AI-ML-Architect-M365-resume.md)** - Resume
-  - **[Cover Letter](./resumes/targeted/MatthewWhited-Microsoft-Principal-AI-ML-Architect-M365-coverletter.md)**
-- **[Snowflake - Solution Innovation Architect AI/ML](./resumes/targeted/MatthewWhited-Snowflake-Solution-Innovation-Architect-AI-ML-resume.md)** - Resume
-  - **[Cover Letter](./resumes/targeted/MatthewWhited-Snowflake-Solution-Innovation-Architect-AI-ML-coverletter.md)**
-- **[Stripe - Sr. Staff Engineer Data & AI Infrastructure](./resumes/targeted/MatthewWhited-Stripe-Sr-Staff-Engineer-Data-AI-Infrastructure-resume.md)** - Resume
-  - **[Cover Letter](./resumes/targeted/MatthewWhited-Stripe-Sr-Staff-Engineer-Data-AI-Infrastructure-coverletter.md)**
-- **[PayPal - AI Engineering Leadership](./resumes/targeted/MatthewWhited-PayPal-AI-Engineering-Leadership-resume.md)** - Resume
-  - **[Cover Letter](./resumes/targeted/MatthewWhited-PayPal-AI-Engineering-Leadership-coverletter.md)**
-- **[Application Strategy Document](./resumes/targeted/Application_Strategy_20250811.md)** - Comprehensive application tracking and strategy
-
 ### Structured Resume Formats
 - **[FRESH Schema Resume](./resumes/formats/fresh-schema.yaml)** - FRESH schema format
 - **[JSON Resume](./resumes/formats/json-resume.json)** - JSON Resume v1.0.0 format
@@ -95,4 +75,3 @@
 - **Consistency Status:** All files aligned with gold standard
 - **Professional Identity:** Principal Solutions Architect and Strategic Technology Leader
 - **Community Impact:** 652K+ NuGet downloads, 22K+ Stack Overflow reputation, GitHub Arctic Code Vault Contributor
-- **Current Applications:** 4 active targeted applications submitted (IntelliPro Group, Shopify, BerryDunn, Databricks)
