@@ -13,7 +13,7 @@
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
 - **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
 - **Personal Website:** [matthewwhited.com](https://matthewwhited.com)
-- **NuGet Profile:** [623K+ downloads](https://www.nuget.org/profiles/mwwhited/)
+- **NuGet Profile:** [652K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
 
@@ -28,7 +28,7 @@
 - **Framework Architecture Innovation:** Transformational product leadership (Shared Framework framework evolution) with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **ML/AI Strategic Foresight:** Comprehensive AI strategy development, hybrid search innovation, and early recognition of LLM cost/efficiency limitations
-- **Community Impact:** 623K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Community Impact:** 652K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** Substantial cloud cost reduction, dramatic performance improvements, crisis resolution, and organizational productivity enhancements
 
 ---
@@ -36,9 +36,9 @@
 ## Quantifiable Achievements & Community Recognition
 
 ### Open Source & Community Impact
-- **623,552+ total NuGet package downloads** across 20 packages
-- **22,433+ Stack Overflow reputation** reaching 4.7 million users over 16+ years
-- **GitHub Arctic Code Vault Contributor** with multiple achievements (Pull Shark x2, Quickdraw, YOLO, Starstruck)
+- **652,868+ total NuGet package downloads** across 20 packages
+- **22,433+ Stack Overflow reputation** with 606+ solutions reaching 4.7 million users over 16+ years
+- **GitHub Arctic Code Vault Contributor** with specific achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
 - **Top Package Downloads:**
   - BinaryDataDecoders.ToolKit: 36,270 downloads
   - XSLT CLI tool: 34,726 downloads  
@@ -80,6 +80,13 @@
 - **Performance Enhancement:** Improved application performance across multiple systems, achieving significant response time improvements
 - **API Integration:** Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
 - **Business Impact:** Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
+
+### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
+**Nonprofit Leadership and Technical Automation**
+- **Board Governance:** Served on board of directors providing strategic oversight and governance for nonprofit foundation operations
+- **Software Automation:** Developed custom automation solutions for foundation operational processes and workflow optimization
+- **Technical Leadership:** Contributed specialized technical expertise to support foundation mission and enhance operational efficiency
+- **Community Impact:** Applied technology solutions to amplify nonprofit mission and improve service delivery capabilities
 
 ### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - August 2025)
 **AI/ML integration and semantic search implementation for insurance industry duplicate detection**
@@ -190,8 +197,9 @@
 **Primary Expertise:**
 - **.Net/C# Ecosystem:** .Net Standard, ASP.Net MVC, WPF, Windows Services, EF Core, .Net Core (20+ years)
 - **JavaScript/TypeScript:** Node.JS, Angular, React, Blazor, enterprise web applications (15+ years)
+- **Mobile Development:** iOS development, Android development, cross-platform mobile applications
 - **Database Systems:** SQL Server, SQLCLR, T-SQL, PostgreSQL, MongoDB, performance optimization, custom extensions (20+ years)
-- **Cloud & Infrastructure:** Azure, AWS, Docker, Kubernetes, microservices architecture, container orchestration
+- **Cloud & Infrastructure:** Azure, AWS, Docker, Kubernetes, Helm charts, microservices architecture, container orchestration
 - **AI/ML Integration:** Production embedding systems, sentence transformers, vector search optimization, ONNX Runtime, custom ML pipelines
 
 ### Enterprise Frameworks & Governance
@@ -232,6 +240,7 @@
 - **Binary Data Processing:** Protocol parsing, file format implementations, network protocols
 - **Reverse Engineering:** Protocol analysis, legacy system integration, software archaeology
 - **Domain-Specific Languages:** ANTLR, custom compilers, AST manipulation, XSLT code generation
+- **Hardware Description Languages:** VHDL, SystemVerilog, Verilog for FPGA/CPLD development
 - **Electronic Systems:** Scoring machines, radiation monitoring, device communication, Arduino integration
 - **Message Queuing Systems:** SQL Server Service Broker, Azure Service Bus, RabbitMQ, custom correlation tracking
 - **Document Processing:** Apache Tika integration, multi-format conversion pipelines, stream-based processing
@@ -266,6 +275,7 @@
 
 ### Gahanna Lincoln High School (1996 - 2000)
 **High School Diploma with extracurricular leadership**
+- **Eagle Scout Achievement (2000):** Demonstrated early leadership capability and commitment to service
 - **Activities:** Stage Crew (technical production), Marching Band, Fencing Club
 - **Foundation:** Strong academic preparation for technical career progression
 
@@ -319,7 +329,7 @@
 - **Component Library:** Comprehensive VHDL components (ALU, registers, decoders, multiplexers)
 
 #### Hardware Engineering Portfolio (194+ commits)
-- **FPGA/CPLD Projects:** Verilog (30%), VHDL (21.9%), C/C++ (35.7%)
+- **FPGA/CPLD Projects:** Verilog (30%), VHDL (21.9%), SystemVerilog, C/C++ (35.7%)
 - **Digital Design:** From basic gates to complete computer systems
 - **Educational Value:** Well-structured progression demonstrating learning methodology
 - **Custom Hardware:** 3D printer/CNC router firmware modifications
@@ -486,7 +496,7 @@
 ### Open Source Leadership
 **Significant measurable impact across developer community**
 - **GitHub Arctic Code Vault Contributor:** Permanent preservation of critical open source code
-- **Multiple GitHub Achievements:** Pull Shark (x2), Quickdraw, YOLO, Starstruck
+- **GitHub Achievements:** Pull Shark (x2), Quickdraw, YOLO, Starstruck
 - **Active Maintenance:** Consistent updates and community support across all projects
 
 ### Knowledge Sharing & Community Support
@@ -530,9 +540,9 @@
 ## Professional Network & Online Presence
 
 ### Technical Profiles
-- **GitHub:** [github.com/mwwhited](https://github.com/mwwhited) - 25+ repositories, Arctic Code Vault Contributor
-- **NuGet:** [623K+ downloads](https://www.nuget.org/profiles/mwwhited/) - 20 packages, professional CI/CD
-- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited) - 4.7M user reach
+- **GitHub:** [github.com/mwwhited](https://github.com/mwwhited) - 30+ repositories, Arctic Code Vault Contributor
+- **NuGet:** [652K+ downloads](https://www.nuget.org/profiles/mwwhited/) - 20 packages, professional CI/CD
+- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited) - 606+ solutions, 4.7M user reach
 - **NPM:** [npmjs.com/~mwwhited](https://www.npmjs.com/~mwwhited) - Node.js contributions
 
 ### Professional Networks

@@ -12,7 +12,9 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:www.nuget.org)",
       "WebFetch(domain:stackoverflow.com)",
-      "WebFetch(domain:www.linkedin.com)"
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:matthewwhited.com)"
     ],
     "deny": []
   }
