@@ -14,6 +14,29 @@
 
 ### Specialized Position Resumes
 - **[Principal Architect - AI/ML Resume](./resumes/specialized/ai-ml-principal.md)** - AI/ML Principal Architect focused
+- **[Enterprise AI/ML Resume](./resumes/specialized/Enterprise_AI_ML_Matthew_Whited_Resume.md)** - Enterprise AI/ML specialist positioning
+- **[High Growth Tech Resume](./resumes/specialized/High_Growth_Tech_Matthew_Whited_Resume.md)** - High-growth technology company focused
+- **[Enterprise Architect Resume](./resumes/specialized/MatthewWhited-Enterprise-Architect-Resume.md)** - Strategic enterprise architecture leadership
+
+### Targeted Application Materials
+- **[IntelliPro Group - Principal AI/ML Engineer](./resumes/targeted/MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-resume.md)** - Resume
+  - **[Cover Letter](./resumes/targeted/MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-coverletter.md)**
+- **[Shopify - ML Engineering Leadership](./resumes/targeted/MatthewWhited-Shopify-ML-Engineering-Leadership-resume.md)** - Resume
+  - **[Cover Letter](./resumes/targeted/MatthewWhited-Shopify-ML-Engineering-Leadership-coverletter.md)**
+- **[BerryDunn - Enterprise Architect Medicaid](./resumes/targeted/MatthewWhited-BerryDunn-Enterprise-Architect-Medicaid-resume.md)** - Resume
+  - **[Cover Letter](./resumes/targeted/MatthewWhited-BerryDunn-Enterprise-Architect-Medicaid-coverletter.md)**
+  - **[Quick Intro](./resumes/targeted/MatthewWhited-BerryDunn-Enterprise-Architect-Medicaid-intro.md)**
+- **[Databricks - Principal Solutions Architect](./resumes/targeted/MatthewWhited-Databricks-Principal-Solutions-Architect-resume.md)** - Resume
+  - **[Cover Letter](./resumes/targeted/MatthewWhited-Databricks-Principal-Solutions-Architect-coverletter.md)**
+- **[Microsoft - Principal AI/ML Architect M365](./resumes/targeted/MatthewWhited-Microsoft-Principal-AI-ML-Architect-M365-resume.md)** - Resume
+  - **[Cover Letter](./resumes/targeted/MatthewWhited-Microsoft-Principal-AI-ML-Architect-M365-coverletter.md)**
+- **[Snowflake - Solution Innovation Architect AI/ML](./resumes/targeted/MatthewWhited-Snowflake-Solution-Innovation-Architect-AI-ML-resume.md)** - Resume
+  - **[Cover Letter](./resumes/targeted/MatthewWhited-Snowflake-Solution-Innovation-Architect-AI-ML-coverletter.md)**
+- **[Stripe - Sr. Staff Engineer Data & AI Infrastructure](./resumes/targeted/MatthewWhited-Stripe-Sr-Staff-Engineer-Data-AI-Infrastructure-resume.md)** - Resume
+  - **[Cover Letter](./resumes/targeted/MatthewWhited-Stripe-Sr-Staff-Engineer-Data-AI-Infrastructure-coverletter.md)**
+- **[PayPal - AI Engineering Leadership](./resumes/targeted/MatthewWhited-PayPal-AI-Engineering-Leadership-resume.md)** - Resume
+  - **[Cover Letter](./resumes/targeted/MatthewWhited-PayPal-AI-Engineering-Leadership-coverletter.md)**
+- **[Application Strategy Document](./resumes/targeted/Application_Strategy_20250811.md)** - Comprehensive application tracking and strategy
 
 ### Structured Resume Formats
 - **[FRESH Schema Resume](./resumes/formats/fresh-schema.yaml)** - FRESH schema format
@@ -45,11 +68,11 @@
 
 ### Community & Professional Networks
 - **[Stack Exchange Profile](https://stackexchange.com/users/32329/matthew-whited)** - Cross-platform community engagement
-- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22,433 reputation, 4.7M user reach
+- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22,433+ reputation, 4.7M user reach
 - **[LinkedIn](https://www.linkedin.com/in/mwwhited/)** - Professional networking profile
 
 ### Package Distribution
-- **[NuGet Profile](https://www.nuget.org/profiles/mwwhited/)** - 623K+ downloads across ecosystem
+- **[NuGet Profile](https://www.nuget.org/profiles/mwwhited/)** - 652K+ downloads across ecosystem
 - **[NPM Profile](https://www.npmjs.com/~mwwhited)** - JavaScript/Node.js packages
 
 ### Personal
@@ -65,10 +88,11 @@
 ---
 
 ## Document Ecosystem Status
-- **Total Files:** 15 professional documents
-- **Last Updated:** 2025-08-06
+- **Total Files:** 36 professional documents
+- **Last Updated:** 2025-08-11
 - **Repository Structure:** Modern git organization with logical directories
 - **Validation Status:** 100% verified technical accuracy
 - **Consistency Status:** All files aligned with gold standard
 - **Professional Identity:** Principal Solutions Architect and Strategic Technology Leader
-- **Community Impact:** 623K+ NuGet downloads, 22K+ Stack Overflow reputation, GitHub Arctic Code Vault Contributor
+- **Community Impact:** 652K+ NuGet downloads, 22K+ Stack Overflow reputation, GitHub Arctic Code Vault Contributor
+- **Current Applications:** 4 active targeted applications submitted (IntelliPro Group, Shopify, BerryDunn, Databricks)
