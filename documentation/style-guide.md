@@ -27,12 +27,22 @@ This guide captures preferred communication style for professional responses, ap
 - "most meaningful work I could be doing at this stage of my career" (career progression context)
 - "would feel much more impactful than [comparison]" (relative value assessment)
 
+#### **Quantitative Language Preferences:**
+- **General over exact**: "650K+ downloads" not "652,868 downloads"
+- **Round numbers**: "22K+ reputation" not "22,433+ reputation"
+- **Natural terms**: "600+ solutions" not "606+ solutions"
+- **Approximate language**: "nearly 5 million users" not "4.7 million users"
+- **Substantial descriptors**: "extensive work items" not "84 completed work items"
+- **General technical specs**: "high-dimensional embeddings" not "384-dimensional embeddings"
+- **Rounder percentages**: "approximately 20%" not "21.9%"
+
 #### **Avoid:**
 - Generic buzzwords ("synergy," "leverage synergies," "innovative solutions")
 - Overly technical jargon without context
 - Superlative overuse ("amazing," "incredible," "revolutionary")
 - Corporate speak ("aligned with company objectives," "value-add propositions")
 - Mission statement language ("passionate about changing the world")
+- **Exact statistical precision** in presentation documents (save for master resume)
 
 ### **Technical Communication**
 - **Specific over general**: "enterprise architecture and database expertise" vs. "technical skills"
@@ -60,11 +70,49 @@ This guide captures preferred communication style for professional responses, ap
 5. **Positive focus**: Emphasizes the target's unique appeal and meaningful impact potential
 6. **Concise structure**: Three sentences covering technical fit, career alignment, and personal motivation
 
+## Resume Documentation Strategy
+
+### **Dual Approach Framework**
+- **Master Resume (resumes/master-resume.md)**: Maintains exact, detailed numbers for validation and internal reference
+- **All Other Documents**: Use general quantitative language for natural, professional presentation
+
+### **Master Resume Purpose**
+- **Authoritative Source**: Contains precise metrics (652,868+ downloads, 22,433+ reputation, 606+ solutions)
+- **Technical Validation**: Serves as source of truth for verifying all claims
+- **Internal Reference**: Comprehensive background documentation with full detail
+- **Gold Standard**: Basis for all other resume variants while maintaining exact accuracy
+
+### **Presentation Documents Purpose**
+- **Professional Polish**: General language (650K+ downloads, 22K+ reputation, 600+ solutions)
+- **Natural Communication**: Conversational tone that feels authentic and accessible
+- **Broad Application**: Suitable for external presentation across all professional contexts
+- **Style Consistency**: Unified voice reflecting preferred communication approach
+
 ## Application Guidelines
 - Use this style for cover letters, application responses, and interview answers
+- Apply general quantitative language consistently across all presentation documents
+- Maintain master resume with exact numbers for validation and completeness
 - Adapt technical specifics to match company/role requirements
 - Maintain authentic personal voice while demonstrating professional expertise
 - Always end with genuine personal motivation tied to meaningful impact
 - Keep responses focused and concise - avoid over-explaining or overselling
 - Focus on positive aspects of the target opportunity rather than contrasting with other options
 - When context requires comparison, remain neutral about external entities
+
+## Quantitative Language Examples
+
+### **Community Metrics**
+- ✅ **Preferred**: "650K+ package downloads across 20+ packages"
+- ❌ **Avoid**: "652,868 package downloads across 20 packages"
+
+### **Professional Experience**
+- ✅ **Preferred**: "Led numerous development teams"
+- ❌ **Avoid**: "Led 10-15 development teams"
+
+### **Technical Specifications**
+- ✅ **Preferred**: "Implemented high-dimensional embeddings for semantic similarity"
+- ❌ **Avoid**: "Implemented 384-dimensional embeddings for semantic similarity"
+
+### **Achievement Quantification**
+- ✅ **Preferred**: "Delivered extensive completed work items"
+- ❌ **Avoid**: "Delivered 84 completed work items"

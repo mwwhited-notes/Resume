@@ -1,7 +1,7 @@
 # Resume Consistency Update Checklist
 
 ## Purpose
-This document provides a systematic approach to ensure all resume files remain consistent with the gold standard (resumes/master-resume.md) and contain current, accurate information.
+This document provides a systematic approach to ensure all resume files remain consistent with the gold standard (resumes/master-resume.md) and follow the preferred writing style guidelines (documentation/style-guide.md) while containing current, accurate information.
 
 ## When to Use This Checklist
 - After any changes to professional experience or positions
@@ -12,9 +12,11 @@ This document provides a systematic approach to ensure all resume files remain c
 
 ## Step-by-Step Update Process
 
-### 1. Review Gold Standard Reference
+### 1. Review Gold Standard Reference and Style Guidelines
 - Read resumes/master-resume.md completely
+- Read documentation/style-guide.md for language preferences
 - Note current positions, dates, and key metrics
+- Understand dual approach: exact numbers in master, general language in others
 - Identify any new information that should be propagated
 
 ### 2. Check Core Resume Files for Consistency
@@ -33,6 +35,8 @@ Review each file against gold standard:
 - Consistent job titles and company names
 - Aligned achievement language and metrics
 - Current contact information
+- **Style compliance**: General quantitative language (650K+ not 652,868+)
+- **Language consistency**: Natural, conversational terms vs. exact precision
 
 ### 3. Check Structured Resume Formats
 - [ ] `ZZ_MatthewWhited-Resume-FRESH.yaml`
@@ -54,6 +58,8 @@ Review each file against gold standard:
 - Achievement metrics using consistent language
 - Community statistics (downloads, reputation, etc.)
 - Technical focus areas and innovations
+- **Style alignment**: Apply general quantitative language per style guide
+- **Natural language**: Use conversational terms (600+ solutions, 22K+ reputation)
 
 ### 5. Verify Position Information Consistency
 Ensure across ALL documents:
@@ -73,6 +79,9 @@ Ensure across ALL documents:
 - **Metric Consistency:** Use "substantial" instead of specific percentages
 - **Missing Positions:** New roles should appear in all relevant documents
 - **Technical Currency:** Skills and achievements should reflect latest work
+- **Quantitative Language:** Exact numbers only in master resume, general language elsewhere
+- **Style Violations:** Corporate speak, exact precision, or overly technical jargon
+- **Natural Flow:** Ensure conversational, authentic tone throughout
 
 ## Quick Verification Commands
 Use these to spot-check consistency:
@@ -84,6 +93,16 @@ grep -r "Green Onion.*Present" *.md
 # Verify metric language consistency  
 grep -r "75%" *.md  # Should return minimal results
 grep -r "substantial" *.md  # Should be primary language
+
+# Check quantitative language compliance (presentation docs should use general terms)
+grep -r "652,868" *.md  # Should only appear in master-resume.md
+grep -r "650K" *.md     # Should appear in presentation documents
+grep -r "22,433" *.md   # Should only appear in master-resume.md
+grep -r "22K" *.md      # Should appear in presentation documents
+
+# Verify style guide compliance
+grep -r "numerous teams" *.md      # Should replace "10-15 teams"
+grep -r "extensive.*work items" *.md  # Should replace exact counts
 ```
 
 ## Success Criteria
@@ -92,7 +111,10 @@ grep -r "substantial" *.md  # Should be primary language
 ✅ Achievement language is consistent and professionally conservative  
 ✅ Technical claims align across all formats  
 ✅ Documentation files updated with changes made  
-✅ No outdated or conflicting information exists
+✅ No outdated or conflicting information exists  
+✅ **Style guide compliance**: General quantitative language in all presentation documents  
+✅ **Master resume integrity**: Exact numbers preserved for validation  
+✅ **Natural communication**: Conversational, authentic tone throughout
 
 ## Post-Update Validation
 After completing updates:
