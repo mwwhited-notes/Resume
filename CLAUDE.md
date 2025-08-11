@@ -67,6 +67,33 @@
 - Store all results in ./SearchResults/Jobs/ directory
 - Create prioritized job list with match analysis and application strategies
 
+### 8. Targeted application creation
+**Required Response:** `read protocols/targeted-application.md and execute all steps`
+- Execute comprehensive job search to find best matching positions
+- Analyze and rank opportunities by acceptance probability
+- Create targeted resumes and cover letters for top 5-8 positions
+- Store materials in ./resumes/targeted/MatthewWhited-{company}-{jobtitle}-{resume|coverletter}.md
+- Focus on highest probability matches with direct application processes
+- Include application strategy document with timeline and follow-up plan
+
+### 9. Position fit analysis with URL: "how well do I fit this position {url}"
+**Required Response:** `read protocols/position-fit-analysis.md and execute all steps`
+- Fetch and analyze the specific job posting from provided URL
+- Evaluate technical requirements, experience, and culture alignment
+- Calculate comprehensive fit score with detailed breakdown
+- If fit score ≥7.5/10, automatically create targeted resume and cover letter
+- Store materials in ./resumes/targeted/MatthewWhited-{company}-{jobtitle}-{resume|coverletter}.md
+- Provide specific recommendations for application approach and positioning
+
+### 10. Personalized learning plan creation: "I need to know more about {topic}"
+**Required Response:** `read protocols/personalized-learning-plan.md and execute all steps`
+- Analyze topic scope and assess current knowledge level
+- Design comprehensive learning path with modules and resources
+- Create structured learning materials and exercises
+- Store complete learning plan in ./SearchResults/Lessons/{Topic}/ directory
+- Include progress tracking, practical applications, and assessment criteria
+- Provide personalized timeline and implementation strategy
+
 ## Key Professional Metrics - VALIDATED
 - **Stack Overflow:** 22,433 reputation, C# Gold Badge (1,323 score), 4.7M developer reach
 - **NuGet Downloads:** 652K+ across 20 packages (updated 2025-08-11)
@@ -94,6 +121,7 @@
 - **Self-Audit Protocol:** protocols/self-audit.md (online presence analysis and resume gap identification)
 - **Writing Style Guide:** documentation/style-guide.md (professional communication preferences)
 - **Career System Generator:** protocols/career-system-generator.md (universal career management system creation for any professional)
+- **Targeted Application Protocol:** protocols/targeted-application.md (comprehensive job search to ready-to-submit applications)
 
 ## Current Status - 2025-08-11 (Job Search Session)
 ✅ **Professional Documents:** All 25+ files updated with general quantitative language while preserving master-resume.md as authoritative source with exact metrics
