@@ -47,6 +47,16 @@
 - Store results in ./SearchResults/Portfolio/{analysis-type}_{YYYYMMDD}.md
 - Provide specific resume enhancement recommendations
 
+### 6. Career system generation requests
+**Required Response:** `read protocols/career-system-generator.md and follow the protocol step-by-step`
+- Execute universal career management system generator for any professional
+- Analyze provided resume(s) and extract professional identity
+- Research industry context and market positioning
+- Generate complete document ecosystem (15-20 professional documents)
+- Create customized protocols adapted to their industry and role level
+- Build market intelligence and job search frameworks
+- Provide comprehensive career management system equivalent to established framework
+
 ## Key Professional Metrics - VALIDATED
 - **Stack Overflow:** 22,433 reputation, C# Gold Badge (1,323 score), 4.7M developer reach
 - **NuGet Downloads:** 623K+ across 20 packages
@@ -73,6 +83,7 @@
 - **Company Research Protocol:** protocols/company-research.md (standardized company analysis)
 - **Self-Audit Protocol:** protocols/self-audit.md (online presence analysis and resume gap identification)
 - **Writing Style Guide:** documentation/style-guide.md (professional communication preferences)
+- **Career System Generator:** protocols/career-system-generator.md (universal career management system creation for any professional)
 
 ## Current Status - 2025-08-11 (Session 2)
 ✅ **Professional Documents:** All 25+ files updated with general quantitative language while preserving master-resume.md as authoritative source with exact metrics
