@@ -1,7 +1,7 @@
 # Resume Consistency Update Checklist
 
 ## Purpose
-This document provides a systematic approach to ensure all resume files remain consistent with the gold standard (resumes/master-resume.md) and follow the preferred writing style guidelines (documentation/style-guide.md) while containing current, accurate information.
+This document provides a systematic approach to ensure all resume files remain consistent with the gold standard (resumes/master-resume.md), create specialized single-role resumes for each position type, and follow the preferred writing style guidelines (documentation/style-guide.md) while containing current, accurate information.
 
 ## When to Use This Checklist
 - After any changes to professional experience or positions
@@ -27,7 +27,25 @@ Review each file against gold standard:
 - [ ] `resumes/ats/generic.txt`
 - [ ] `resumes/ats/workday.md`
 - [ ] `resumes/ats/leverco.md`
-- [ ] `resumes/specialized/ai-ml-principal.md`
+
+### 2a. Create/Update Specialized Single-Role Resumes
+Create targeted resumes for each specific position type from master resume:
+
+**Executive Technology Leadership Track:**
+- [ ] `resumes/specialized/fractional-cto.md` - Fractional CTO positioning
+- [ ] `resumes/specialized/chief-solutions-architect.md` - Chief Solutions Architect focus
+- [ ] `resumes/specialized/enterprise-architect.md` - Enterprise Architect specialization
+
+**Strategic Architecture Leadership Track:**
+- [ ] `resumes/specialized/principal-solutions-architect.md` - Principal Solutions Architect focus
+- [ ] `resumes/specialized/solution-architect.md` - Solution Architect positioning
+- [ ] `resumes/specialized/ai-ml-principal.md` - AI/ML Principal specialization
+
+**Each specialized resume should:**
+- Focus exclusively on ONE job title
+- Emphasize relevant experience and achievements for that specific role
+- Use role-appropriate language and positioning
+- Maintain master resume accuracy while targeting single position type
 
 **Key items to verify:**
 - Position chronological ordering (most recent first)

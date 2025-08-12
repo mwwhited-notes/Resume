@@ -43,6 +43,7 @@ This guide captures preferred communication style for professional responses, ap
 - Corporate speak ("aligned with company objectives," "value-add propositions")
 - Mission statement language ("passionate about changing the world")
 - **Exact statistical precision** in presentation documents (save for master resume)
+- **Resume footnotes** - Never include explanatory footnotes or commentary on resumes (e.g., "*This resume demonstrates..." commentary is unprofessional)
 
 ### **Technical Communication**
 - **Specific over general**: "enterprise architecture and database expertise" vs. "technical skills"

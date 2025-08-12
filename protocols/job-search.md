@@ -17,7 +17,18 @@ This protocol provides a systematic approach to conducting comprehensive job sea
 mkdir -p /current/src/SearchResults/Jobs
 ```
 
-### 2. Define Search Criteria
+### 2. Master Resume Analysis & Understanding
+**CRITICAL STEP:** Before executing any job search, thoroughly analyze the master resume to understand optimal job matching criteria:
+
+- **Read Master Resume:** Complete analysis of `resumes/master-resume.md` to understand multi-track positioning capabilities
+- **Executive Track Understanding:** Fractional CTO, Chief Solutions Architect, Enterprise Architect positioning
+- **Strategic Architecture Track:** Principal Solutions Architect, Solution Architect, AI/ML Principal specialization 
+- **Core Differentiators:** Pure .NET AI/ML innovation, 125+ developer influence, 650K+ community impact, crisis resolution expertise
+- **Technical Authority:** Advanced AI/ML implementation, custom vector databases, framework architecture, performance optimization
+- **Business Impact Focus:** Cost reduction, technology risk management, measurable ROI, strategic technology guidance
+- **Compensation Requirements:** Executive-level positioning supports $250K+ targets vs. $180K+ minimum
+
+### 3. Define Search Criteria
 - **Primary Roles:** Principal Solutions Architect, CTO, Chief Technology Officer, Principal Architect
 - **Technology Focus:** AI/ML, enterprise architecture, .NET, framework development
 - **Work Preference:** 100% remote PRIORITY, hybrid acceptable Baltimore MD metro area only
@@ -100,6 +111,15 @@ Research technology leadership opportunities in consulting and Fortune 500 compa
 - **PwC:** $1B AI investment over three years
 - **EY:** AI specialists and specialized acquisitions
 - **KPMG:** $2B Microsoft partnership for AI integration
+
+#### Strategic Technology Consulting Firms
+- **Thoughtworks:** Technology innovation and enterprise modernization
+- **Neudesic:** Microsoft technology consulting and AI/ML implementation
+- **Infosys:** Global technology consulting and digital transformation
+- **Booz Allen Hamilton:** Technology strategy and enterprise architecture
+- **Slalom:** Technology consulting and cloud transformation
+- **Pivotal Labs / VMware Tanzu:** Agile development and platform modernization
+- **BCG Digital Ventures:** Technology strategy and innovation consulting
 
 #### Fortune 500 Tech Company Career Sites (Remote US Focus)
 - **Microsoft Careers:** https://careers.microsoft.com (filter for "100% work from home")

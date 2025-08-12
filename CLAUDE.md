@@ -64,6 +64,7 @@
 - Generate specialized resumes under ./resumes/specialized/ directory
 - Focus on remote opportunities meeting compensation requirements ($180K+/$85+hr)
 - **EXCLUDE positions requiring security clearance** (user preference)
+- **INCLUDE strategic consulting firms:** Thoughtworks, Neudesic, Infosys, Booz Allen Hamilton (specifically requested)
 - Store all results in ./SearchResults/Jobs/ directory
 - Create prioritized job list with match analysis and application strategies
 
@@ -167,6 +168,26 @@
 **Current Professional Identity:** Principal Solutions Architect and Strategic Technology Leader with validated technical authority (22K+ Stack Overflow reputation, Gold Badge C# mastery, 623K+ NuGet downloads, 125+ developer leadership influence). Enhanced positioning emphasizes enterprise framework creation (50+ library ecosystems) and pure .NET AI/ML implementations without Python dependencies, demonstrating exceptional technical depth beyond typical enterprise development.
 
 **Repository Status - 2025-08-06:** Successfully restructured to modern git repository with logical directory organization while preserving all protocol functionality and memory commands.
+
+## Resume Strategy - MEMORIZED (Updated 2025-08-12)
+
+### Master Resume Multi-Track Positioning
+**Gold Standard:** resumes/master-resume.md now positions Matthew for multiple executive and senior technical roles:
+
+**Executive Technology Leadership Track:**
+- **Fractional CTO / Chief Solutions Architect:** Strategic technology vision, architecture governance, enterprise transformation leadership
+- **Enterprise Architect:** Cross-functional architecture strategy, technology risk management, enterprise framework development
+
+**Strategic Architecture Leadership Track:**
+- **Principal Solutions Architect:** Advanced AI/ML implementation, crisis resolution expertise, strategic technology guidance
+- **Solution Architect:** Custom framework development, hybrid search innovation, performance optimization
+- **Technical Leadership:** Centers of Excellence influence, comprehensive training delivery, enterprise technology standards
+
+### Targeted Resume Strategy
+- **Single Role Focus:** Each targeted resume should focus on ONE specific job title at a time
+- **Master Resume Source:** Use master-resume.md as authoritative source for all variations
+- **Multi-Track Capability:** Master resume supports executive (CTO/Director) and senior IC (Principal/Solutions Architect) positioning
+- **Positioning Flexibility:** Adapt master content to emphasize relevant track for specific opportunities
 
 ## Self-Audit Results Summary - August 2025
 ✅ **Comprehensive Online Presence Analysis:** Complete self-audit executed per protocol (2025-08-10)
