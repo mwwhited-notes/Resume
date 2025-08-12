@@ -24,6 +24,13 @@
 - Verify relative path consistency
 - Document changes
 
+### 2a. Job search execution requirements
+**CRITICAL PROTOCOL ENHANCEMENT:** All job searches MUST create individual platform result files BEFORE building comprehensive summary
+- **Individual Search Documentation:** Create `SearchResults/Jobs/[platform-name].md` for each search executed
+- **Required Platform Files:** linkedin.md, indeed.md, consulting-firms.md, ai-ml-job-boards.md, fortune-500-tech.md, startup-platforms.md
+- **Summary Building:** Comprehensive summary MUST aggregate data from all individual platform files
+- **Search Results Preservation:** Copy full search results, URLs, salary data, and market intelligence for each platform
+
 ### 3. Job search requests
 **Required Response:** `read protocols/job-search.md and follow the protocol step-by-step`
 - Execute systematic job search across multiple platforms
@@ -165,7 +172,9 @@
 - **Systematic approach:** Use protocols and verification commands
 - **Documentation:** Track all changes in daily change history files (change-history-YYYYMMDD.md) and memory
 
-**Current Professional Identity:** Principal Solutions Architect and Strategic Technology Leader with validated technical authority (22K+ Stack Overflow reputation, Gold Badge C# mastery, 623K+ NuGet downloads, 125+ developer leadership influence). Enhanced positioning emphasizes enterprise framework creation (50+ library ecosystems) and pure .NET AI/ML implementations without Python dependencies, demonstrating exceptional technical depth beyond typical enterprise development.
+**Current Professional Identity:** Principal Solutions Architect and Strategic Technology Leader with validated technical authority (22K+ Stack Overflow reputation, Gold Badge C# mastery, 650K+ NuGet downloads, 125+ developer leadership influence). Enhanced positioning emphasizes enterprise framework creation (50+ library ecosystems) and pure .NET AI/ML implementations without Python dependencies, demonstrating exceptional technical depth beyond typical enterprise development.
+
+**Session Update - 2025-08-12:** Successfully expanded master resume for multi-track executive and strategic architecture positioning, created 6 specialized single-role resumes, corrected Director of Engineering positioning error, added strategic consulting firms to job search targets, and updated protocols for optimal job matching through master resume analysis.
 
 **Repository Status - 2025-08-06:** Successfully restructured to modern git repository with logical directory organization while preserving all protocol functionality and memory commands.
 

@@ -158,11 +158,12 @@ For each platform category, execute the following:
    WebSearch: "[platform] [target roles] [technologies] [location] [year]"
    ```
 
-3. **Results Analysis**
+3. **Results Analysis & Documentation**
    - Identify specific job opportunities with URLs
    - Extract salary ranges and compensation details
    - Note key requirements and qualifications
    - Assess alignment with unique capabilities
+   - **CRITICAL:** Document all search results in individual platform files for comprehensive summary building
 
 ### Step 2: Competitive Advantage Analysis
 For each platform, document how Matthew Whited's profile provides competitive advantages:
@@ -180,17 +181,64 @@ For each platform, document how Matthew Whited's profile provides competitive ad
 - **22K+ Stack Overflow reputation** reaching 4.7M developers
 - **GitHub Arctic Code Vault Contributor**
 
-### Step 3: Platform-Specific Documentation
+### Step 3: Individual Search Results Documentation
+**CRITICAL REQUIREMENT:** For each search executed, create individual platform documentation files to support comprehensive summary building.
+
+#### Individual Platform Files Required
 Create detailed analysis files for each platform including:
 
-#### Required Sections
+**File Naming Convention:** `SearchResults/Jobs/[platform-name].md`
+
+**Required Sections per Platform:**
 1. **Search Query** - Exact search terms used
-2. **Platform Overview** - Key features and specializations
-3. **Direct Job Opportunities** - Specific positions with URLs and details
-4. **Market Analysis** - Trends, salary ranges, requirements
-5. **Competitive Advantages** - How unique profile fits platform
-6. **Application Strategy** - Specific recommendations for platform
-7. **Assessment** - Overall match quality and recommendations
+2. **Platform Overview** - Key features and specializations  
+3. **Search Results Summary** - Number of positions found, key metrics
+4. **Direct Job Opportunities** - Specific positions with URLs and details
+5. **Salary Analysis** - Compensation ranges discovered
+6. **Key Requirements** - Common qualifications and technologies
+7. **Market Analysis** - Trends, demand indicators, company types
+8. **Competitive Advantages** - How unique profile fits platform opportunities
+9. **Application Strategy** - Specific recommendations for platform
+10. **Assessment** - Overall match quality and prioritization recommendations
+
+#### Search Results Documentation Process
+For each WebSearch executed:
+1. **Copy Full Search Results:** Preserve exact search results including all URLs and descriptions
+2. **Extract Key Data Points:** Salary ranges, job counts, specific company mentions
+3. **Identify Direct Opportunities:** Specific positions with application links
+4. **Analyze Market Intelligence:** Company hiring patterns, compensation trends
+5. **Document Strategic Insights:** How results inform overall job search strategy
+
+#### Platform Documentation Examples
+
+**LinkedIn Search Results File:** `SearchResults/Jobs/linkedin.md`
+```markdown
+# LinkedIn Job Search Results
+
+## Search Query Executed
+"LinkedIn "Principal Solutions Architect" "Chief Technology Officer" remote 2025 AI ML enterprise architecture $250K"
+
+## Search Results Summary
+- **Total Results:** 6,000+ Principal Solutions Architect jobs
+- **Salary Range:** $161K-$250K+ 
+- **Remote Options:** Widely available
+- **Key Companies:** Major tech companies, consulting firms
+
+## Specific Opportunities Found
+[List specific positions with URLs, companies, compensation]
+
+## Market Intelligence
+[Salary trends, hiring patterns, key requirements]
+```
+
+#### Mandatory Platform Files Creation
+Execute searches and create individual files for:
+- `SearchResults/Jobs/linkedin.md`
+- `SearchResults/Jobs/indeed.md`
+- `SearchResults/Jobs/consulting-firms.md`
+- `SearchResults/Jobs/ai-ml-job-boards.md`
+- `SearchResults/Jobs/fortune-500-tech.md`
+- `SearchResults/Jobs/startup-platforms.md`
 
 ### Step 4: Dynamic Platform Discovery
 During search execution, identify additional relevant platforms:
@@ -228,8 +276,25 @@ When new relevant platforms are discovered:
 
 ## Summary and Ranking Process
 
-### Step 5: Comprehensive Summary Creation
-**Output File:** `SearchResults/Jobs/Summary.md`
+### Step 5: Comprehensive Summary Creation - Built from Individual Platform Results
+**CRITICAL:** Build comprehensive summary by aggregating all individual platform search result files.
+
+#### Summary Building Process
+1. **Read All Individual Platform Files:** Review each platform-specific documentation file created during search execution
+2. **Aggregate Key Data Points:** Combine salary ranges, job counts, opportunities across all platforms  
+3. **Cross-Platform Analysis:** Identify patterns, trends, and optimal opportunities spanning all searches
+4. **Strategic Synthesis:** Develop unified strategy incorporating insights from all individual search results
+
+#### Required Source Files for Summary Building
+The comprehensive summary **MUST** be built from these individual platform files:
+- `SearchResults/Jobs/linkedin.md` - LinkedIn search results and analysis
+- `SearchResults/Jobs/indeed.md` - Indeed and major job boards analysis
+- `SearchResults/Jobs/consulting-firms.md` - Strategic consulting firms research  
+- `SearchResults/Jobs/ai-ml-job-boards.md` - AI/ML specialized platforms
+- `SearchResults/Jobs/fortune-500-tech.md` - Major tech company opportunities
+- `SearchResults/Jobs/startup-platforms.md` - Startup ecosystem research
+
+**Output File:** `SearchResults/Jobs/comprehensive-job-search-[YYYYMMDD].md`
 
 #### Ranking Methodology
 Rank all platforms using dual criteria:
