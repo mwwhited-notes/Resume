@@ -90,13 +90,15 @@ mkdir -p ./resumes/targeted
 ```
 
 #### Step 3.2: File Naming Convention
-**Format:** `MatthewWhited-{CompanyName}-{JobTitle}-{resume|coverletter}.md`
+**Format:** `MatthewWhited-{CompanyName}-{JobTitle}-{resume|coverletter|intro}.md`
 
 **Examples:**
 - `MatthewWhited-Microsoft-Principal-AI-ML-Architect-resume.md`
 - `MatthewWhited-Microsoft-Principal-AI-ML-Architect-coverletter.md`
+- `MatthewWhited-Microsoft-Principal-AI-ML-Architect-intro.md`
 - `MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-resume.md`
 - `MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-coverletter.md`
+- `MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-intro.md`
 
 **Naming Rules:**
 - Replace spaces with hyphens in company and job titles
@@ -173,7 +175,28 @@ For each selected position:
 [Standard metrics with any company-specific relevance noted]
 ```
 
-### Phase 5: Cover Letter Generation
+### Phase 5: Quick Intro Generation
+
+#### Step 5.1: Quick Intro Purpose and Structure
+**Purpose:** Brief, first-person introduction for networking and initial outreach
+**Format:** Single paragraph (4 sentences max) in first person
+**Usage:** LinkedIn messages, networking events, informal conversations
+
+#### Step 5.2: Quick Intro Content Structure
+1. **Role/expertise summary** with years of experience
+2. **Relevant experience highlight** specific to target company/role
+3. **Company/position interest alignment** demonstrating research
+4. **Value proposition or unique differentiator** (community authority, specific achievements)
+
+#### Step 5.3: Quick Intro Template
+```markdown
+# Quick Introduction - Matthew Whited
+**{Company} {Position Title}**
+
+I'm a Principal Solutions Architect with 20+ years of AI/ML engineering experience, having recently [specific relevant achievement that aligns with company needs]. My background includes [relevant leadership/technical experience] while achieving [specific accomplishment relevant to role]. I'm particularly drawn to [Company]'s [specific mission/initiative/technology] and see a perfect opportunity to apply my deep experience with [relevant domain/technology] to [specific company challenge/opportunity]. My unique combination of [technical innovation/community authority] and proven business impact—demonstrated through [specific metric like NuGet downloads, Stack Overflow reputation, cost optimizations]—positions me to drive meaningful results for [Company]'s [relevant team/initiative/goal].
+```
+
+### Phase 6: Cover Letter Generation
 
 #### Step 5.1: Cover Letter Research
 For each position:
