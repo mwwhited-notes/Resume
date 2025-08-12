@@ -9,6 +9,7 @@
 - **Phone:** [+1 (614) 989-1748](tel:+16149891748)
 - **Location:** Baltimore, MD
 - **Work Preference:** Remote / Full-Time (up to 25% travel, hybrid negotiable)
+- **Time Zone:** East Coast US preferred, other time zones available
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
 - **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
@@ -148,6 +149,7 @@
 - **Technical Specializations:** Database and application performance, reusable middleware frameworks, automated testability, strategic technology evaluation
 - **Client Impact:** Contributed to significant improvement in project delivery success rates through framework standardization and crisis resolution
 - **Technologies:** .Net/C#, Javascript/Typescript, Java, Go, Python, multiple databases and cloud services, comprehensive AI/ML stack evaluation
+- **Development Workflow:** Experience across multiple toolchains - Atlassian (JIRA, Confluence, Bitbucket), Azure DevOps, GitHub with integrated CI/CD pipelines, Microsoft Project for resource planning
 
 ### Chief Solutions Architect - Itrica (November 2009 - July 2015)
 **Multiple leadership roles in technology and development**
@@ -158,6 +160,7 @@
 - **Resource Optimization:** Optimized development resources and processes, improving delivery efficiency significantly
 - **Custom Solutions:** Designed and built enterprise applications including secure file storage systems and messaging services
 - **Business Impact:** Delivered mission-critical systems supporting substantial annual business operations
+- **Project Management:** Microsoft Project for development project planning, resource allocation, and delivery timeline management
 
 - **Progression:** Private Consultant → Senior Engineer → Chief Technology Officer → Chief Solutions Architect
 - **Infrastructure:** Reviewed and optimized existing infrastructure and application architecture
@@ -204,6 +207,7 @@
 - **System Development:** Custom helpdesk ticketing and inventory management systems
 - **Technology Evolution:** Multiple network topology generations (Novell 5.1-6.5, Windows 2000-2003, Linux, Unix AIX)
 - **Automation:** VBA and barcode systems reducing inventory time from hours to 30 minutes
+- **Project Management:** Microsoft Project for resource planning, timeline management, and technology infrastructure projects
 
 ---
 
@@ -222,6 +226,7 @@
 **Architecture & Standards:**
 - **Design Patterns:** SOLID principles, Clean Architecture, Domain-Driven Design (DDD)
 - **Enterprise Integration:** Service-oriented architecture (SOA), event-driven architecture, API design
+- **Architecture Documentation:** PlantUML diagram-as-code, Visio enterprise diagrams, Figma wireframes, pen/paper ideation
 - **Quality Assurance:** Test-driven development, continuous integration, automated testing frameworks
 - **Performance Engineering:** Zero-allocation programming, memory optimization, scalability design
 - **Security:** Authentication/authorization, audit logging, compliance frameworks
@@ -238,7 +243,8 @@
 - **Containerization:** Docker, Kubernetes, Helm charts, multi-service orchestration
 - **Cloud Platforms:** Azure (Service Bus, Storage Queues, Container Apps), AWS (SQS, Lambda)
 - **Message Queues:** RabbitMQ, Kafka, Azure Service Bus, event streaming
-- **DevOps:** Azure Pipelines, GitHub Actions, CI/CD automation, infrastructure as code
+- **DevOps:** Azure Pipelines, GitHub Actions, Bitbucket Pipelines, CI/CD automation, infrastructure as code
+- **Project Management Integration:** JIRA for issue tracking, Confluence for documentation, Azure DevOps work items, Microsoft Project for resource planning
 
 ### AI/ML & Advanced Technologies
 **Enterprise AI Integration:**
@@ -256,8 +262,9 @@
 - **Binary Data Processing:** Protocol parsing, file format implementations, network protocols
 - **Reverse Engineering:** Protocol analysis, legacy system integration, software archaeology
 - **Domain-Specific Languages:** ANTLR, custom compilers, AST manipulation, XSLT code generation
-- **Hardware Description Languages:** VHDL, SystemVerilog, Verilog for FPGA/CPLD development
+- **Hardware Description Languages:** VHDL, SystemVerilog, Verilog for FPGA/CPLD development (Vivado, Atmel Studio)
 - **Electronic Systems:** Scoring machines, radiation monitoring, device communication, Arduino integration
+- **PCB Design & Electronics:** KiCad and Eagle for circuit board layout, schematic capture, and electronic hardware design
 - **Message Queuing Systems:** SQL Server Service Broker, Azure Service Bus, RabbitMQ, custom correlation tracking
 - **Document Processing:** Apache Tika integration, multi-format conversion pipelines, stream-based processing
 - **Home Automation:** Multi-scale image tiling, TOTP authentication, barcode generation, IoT device orchestration
@@ -265,11 +272,15 @@
 
 ### Development Tools & Methodologies
 **Professional Proficiency:**
-- **Version Control:** Git, TFS, SVN, branching strategies, code review processes
+- **Version Control:** Git, TFS, SVN, Visual SourceSafe, branching strategies, code review processes, Bitbucket
 - **Build Systems:** MSBuild, advanced Directory.Build.props patterns, dependency management
 - **Testing:** MSTest, NUnit, integration testing, automated testing frameworks
-- **Project Management:** Agile/Scrum, Kanban, Azure DevOps, JIRA, estimation
-- **Communication:** Microsoft Teams, Slack, Discord, technical documentation
+- **Project Management:** Agile (Scrum, Kanban, XP), Waterfall, Azure DevOps, JIRA, Confluence, Microsoft Project, estimation
+- **Design & Architecture Tools:** Pen/paper, PlantUML, Visio, Figma, Mermaid, whiteboards, diagram-as-code versioning
+- **Development Environments:** Visual Studio, Visual Studio Code, IntelliJ IDEA, Eclipse, Arduino IDE, Atmel Studio, Vivado
+- **Electronics Design:** KiCad, Eagle PCB design, circuit board layout and schematic capture
+- **Collaboration & Documentation:** Microsoft Teams, Slack, Discord, Confluence wikis, technical documentation
+- **Development Platforms:** Azure DevOps, GitHub, Bitbucket repositories with integrated CI/CD pipelines
 
 ---
 
@@ -345,10 +356,12 @@
 - **Component Library:** Comprehensive VHDL components (ALU, registers, decoders, multiplexers)
 
 #### Hardware Engineering Portfolio (194+ commits)
-- **FPGA/CPLD Projects:** Verilog (30%), VHDL (21.9%), SystemVerilog, C/C++ (35.7%)
-- **Digital Design:** From basic gates to complete computer systems
-- **Educational Value:** Well-structured progression demonstrating learning methodology
-- **Custom Hardware:** 3D printer/CNC router firmware modifications
+- **FPGA/CPLD Projects:** Verilog (30%), VHDL (21.9%), SystemVerilog, C/C++ (35.7%) developed in Vivado and Atmel Studio
+- **Digital Design:** From basic gates to complete computer systems using professional FPGA design environments
+- **PCB Development:** Circuit board design and layout using KiCad and Eagle for custom hardware solutions
+- **Multi-Platform Development:** Arduino IDE for embedded systems, professional FPGA toolchains for digital design
+- **Educational Value:** Well-structured progression demonstrating learning methodology across multiple hardware platforms
+- **Custom Hardware:** 3D printer/CNC router firmware modifications with integrated electronics design
 
 ### AI/ML Research & Production Systems (HIGH Innovation)
 
@@ -573,6 +586,13 @@
 ---
 
 ## Technical Philosophy & Approach
+
+### Architecture Design Methodology
+**Pragmatic approach to design documentation and project management**
+- **Design Tool Philosophy:** Preference for pen/paper ideation and PlantUML diagram-as-code for their simplicity, version control integration, and markdown compatibility
+- **Project Management Flexibility:** Experience across methodologies (Agile: Scrum, Kanban, XP; Waterfall) with selection based on project requirements and team dynamics
+- **Documentation-as-Code:** Strong advocate for PlantUML and Mermaid diagrams integrated with source control, enabling versioned, reviewable architecture documentation
+- **Rapid Prototyping:** Combination of whiteboard sessions and pen/paper sketching for initial design exploration before moving to formal documentation tools (Visio, Figma)
 
 ### Hardware-Software Integration Mindset
 **Unique perspective from electronics engineering background**
