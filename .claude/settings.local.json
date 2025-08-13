@@ -18,7 +18,10 @@
       "WebFetch(domain:careers-berrydunn.icims.com)",
       "WebFetch(domain:www.insightalpha.com)",
       "WebFetch(domain:apply.deloitte.com)",
-      "WebFetch(domain:www.moaijobs.com)"
+      "WebFetch(domain:www.moaijobs.com)",
+      "WebFetch(domain:hartmanadvisors.com)",
+      "WebFetch(domain:www.thinkconsulting.com)",
+      "WebFetch(domain:*)"
     ],
     "deny": []
   }

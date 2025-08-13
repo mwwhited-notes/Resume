@@ -7,11 +7,11 @@ This document captures deep career insights, preferences, and hidden expertise d
 
 ## Career Direction & Preferences
 
-### Desired Positioning (Discovered 2025-08-12)
-- **Primary Interest:** Technical Due Diligence Consultant
+### Desired Positioning (Updated 2025-08-12)
+- **Primary Interest:** Trusted Technical Advisor
 - **Secondary Interest:** Fractional CTO/CSA for small to medium businesses
-- **Core Value Proposition:** "The go-to nerd for tech" - preventing expensive technology mistakes
-- **Philosophy:** Being the "Scotty from Star Trek" consultant - solving complex problems without the drama
+- **Core Value Proposition:** "Your trusted guide through technology decisions that matter" - strategic technology partnership
+- **Philosophy:** Being the "Scotty from Star Trek" advisor - trusted counsel for complex technology decisions
 
 ### Work Style Preferences
 - **NOT Interested In:**
@@ -177,12 +177,12 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Industry Agnostic:** Sees patterns across all industries
 
 ### Market Positioning Opportunity
-**"The Technical Truth-Teller"**
-- Prevents expensive mistakes before they happen
-- Provides honest assessment of vendor claims
-- Identifies hidden technical debt and risks
-- Translates complex technology to executive decisions
-- Protects growth companies from predatory vendors
+**"Trusted Technical Advisor"**
+- Guides technology decisions as trusted partner
+- Provides honest, vendor-neutral strategic counsel
+- Builds long-term advisory relationships with leadership teams
+- Translates complex technology to strategic business decisions
+- Serves as technology confidant for growth companies
 
 ---
 
