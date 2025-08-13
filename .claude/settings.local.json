@@ -21,7 +21,15 @@
       "WebFetch(domain:www.moaijobs.com)",
       "WebFetch(domain:hartmanadvisors.com)",
       "WebFetch(domain:www.thinkconsulting.com)",
-      "WebFetch(domain:*)"
+      "WebFetch(domain:*)",
+      "WebFetch(domain:techcxo.com)",
+      "WebFetch(domain:www.techcxo.com)",
+      "Bash(chmod:*)",
+      "Bash(./scripts/web-research.sh:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:www.outsourceit.com)",
+      "WebFetch(domain:www.baltimoreconsulting.com)",
+      "WebFetch(domain:intellicomp.net)"
     ],
     "deny": []
   }
