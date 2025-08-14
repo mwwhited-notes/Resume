@@ -1,6 +1,6 @@
 # Hello, I'm Matthew Whited
 
-I'm a Principal Solutions Architect with a passion for solving complex technical challenges and building systems that make a real difference. With over 20 years in software development, I've had the privilege of working across everything from embedded microcontrollers to enterprise-scale AI systems.
+I'm a Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with a passion for solving complex technical challenges and building systems that make a real difference. With over 20 years in software development, I've had the privilege of working across everything from embedded microcontrollers to enterprise-scale AI systems.
 
 ## What Drives Me
 

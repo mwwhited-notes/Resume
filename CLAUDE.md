@@ -2,7 +2,7 @@
 
 ## Current Professional Context
 - **User:** Matthew Whited
-- **Professional Identity:** Principal Solutions Architect and Strategic Technology Leader
+- **Professional Identity:** Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist
 - **Current Position:** Green Onion (February 2025 - Present)
 - **Previous Position:** ERisk Services (November 2024 - August 2025)
 - **Location:** /current/src

@@ -7,7 +7,7 @@
 
 ## Summary
 
-**Principal Solutions Architect and Strategic Technology Leader** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and business value creation. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, Centers of Excellence leadership, and technology risk management capabilities. Demonstrated ability to deliver measurable business impact through strategic technical innovation, crisis resolution, and pragmatic technology guidance across 125+ developer organizations while preventing costly technology adoption mistakes.
+**Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. The trusted technology advisor companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including substantial cloud cost reductions, rapid project delivery after others failed for months, and regulatory compliance systems for enterprise clients.
 
 ### Core Differentiators
 - **Strategic Technology Leadership:** Centers of Excellence influence across 125+ developers, enterprise-wide standards creation, and technology risk management preventing costly adoption mistakes
