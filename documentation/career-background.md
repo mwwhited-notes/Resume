@@ -69,26 +69,57 @@ This document captures deep career insights, preferences, and hidden expertise d
 **Financial Services:**
 - **JPM Chase:** Large-scale banking systems and regulatory compliance
 - **BMW Financial Services:** Automotive finance and lending platform modernization
-  - **CMS (Customer Management System):** Complete modernization of customer lifecycle management
-  - **DFE (Dealer Front End):** Dealer-facing contract generation and management platform
-  - **Contract Generation Systems:** Automated loan and lease contract creation and processing
-  - **Loan/Lease Lifecycle Management:** Full financial product lifecycle from origination to termination
+  - **Primary Solution Architect (CMS):** Led complete customer management system redesign and modernization
+  - **Design Architect (DFE):** Architected dealer-facing contract generation and management platform
+  - **Cross-Functional Integration:** Business user liaison, developer coordination, enterprise architect collaboration
+  - **Multi-Vendor Project Management:** Coordinated handoffs between Accenture and Sogetti development teams
+  - **Offshore/Onshore Team Leadership:** Managed distributed teams across multiple geographies and vendors
+  - **SAP Integration Architecture:** Enterprise system integration with existing BMW Financial SAP infrastructure (partnered with Navigator consulting team, Columbus OH)
+  - **BizTalk Integration Specialist:** Handled complex BizTalk Server mappings and orchestrations that other team members were reluctant to modify
+  - **Business Process Management:** Automated complex automotive finance workflows and approvals
+  - **Financial Calculations Engine:** Lease/loan calculation algorithms and business rules implementation
+  - **Legacy System Reverse Engineering:** Analysis and modernization of existing financial systems
+  - **Data Model Optimization:** Performance tuning and architectural improvements for high-volume processing
   - **Multi-National Operations:** USA and Mexico market support and regulatory compliance
-  - **Automotive Finance Domain:** Specialized knowledge of automotive lending, leasing, and dealer operations
 - **Experience:** High-volume transaction processing, financial regulatory compliance, risk management systems, automotive finance modernization
 
 **Healthcare & Clinical:**
 - **Itrica (CTO role):** Clinical trials data management and regulatory reporting
   - **FDA Compliance:** Direct auditor interaction for FDA-regulated software systems
-  - **Clinical Event Management:** CEC (Clinical Event Committee) tracking systems  
+  - **CEC System Redesign:** Silverlight/DeepZoom document viewer enabling global CEC member access
+    - **Global Document Access:** Eliminated physical document shipping worldwide
+    - **Digital Transformation:** Replaced paper binders with secure digital document viewing
+    - **Faster Data Analysis:** Accelerated clinical event committee decision-making process
+    - **Enhanced Reliability:** Improved document access and review consistency globally
+  - **MARS (Messaging and Reporting Service):** Patient engagement and retention platform
+    - **Multi-Channel Communication:** SMS and email appointment reminders and surveys
+    - **Patient Response Management:** Two-way communication for survey completion and feedback
+    - **Federated Messaging Gateway:** Single phone number routing to correct trials and patients
+    - **Global Doctor Coordination:** Automated routing ensuring worldwide medical teams receive feedback
+    - **Event Bus Architecture:** MS SQL Service Broker for reliable message processing
+    - **Patient Retention Improvement:** Automated engagement reducing trial dropout rates
   - **Safety Reporting:** SAE (Serious Adverse Event) management and reporting
   - **Regulatory Systems:** Software validation and compliance for clinical trial management
   - **Major Pharmaceutical Clients:** Sanofi, AstraZeneca, GSK (GlaxoSmithKline)
   - **Notable Clinical Trials:** TRA2P, SAVOR, and other large-scale cardiovascular studies
   - **TIMI Study Group Partnership:** Developed clinical trial management software for Harvard-affiliated Brigham and Women's Hospital research organization
   - **Global Scale:** Multi-national pharmaceutical trial coordination and data management
-- **United HealthCare/Harrington Health:** Healthcare claims processing and member systems
-- **Experience:** HIPAA compliance, clinical data integrity, healthcare interoperability, FDA audit preparation
+- **United HealthCare/Harrington Health:** EDI (Electronic Data Interchange) group
+  - **EDI/X12 Processing:** Healthcare transaction processing using industry-standard formats
+  - **Banking Transfer Records:** Automated financial transaction and remittance processing
+  - **WinBatch Automation:** Scripted EDI transformation and batch processing workflows
+  - **Mainframe Integration Gateway:** WCF service architecture for legacy system modernization
+    - **Data Extraction:** Simplified mainframe data access for .NET applications
+    - **Data Transformation:** Structured data conversion from legacy formats
+    - **Developer Experience:** Reduced complexity for application teams accessing mainframe data
+    - **Legacy Modernization:** Bridge between mainframe systems and modern .NET architecture
+  - **Production Deployment Risk Mitigation:** Eliminated manual configuration errors in production releases
+    - **Configuration Management:** Moved hardcoded values to environment variables
+    - **Risk Prevention:** Prevented $500K+ documented overcharge from configuration errors
+    - **Environment Parity:** Ensured identical scripts across development, test, and production
+    - **Accidental Production Execution:** Eliminated risk of test scripts running against production systems
+    - **DevOps Process Improvement:** Standardized deployment process reducing human error
+- **Experience:** HIPAA compliance, clinical data integrity, healthcare interoperability, FDA audit preparation, EDI/X12 processing, mainframe integration
 
 **Education Technology:**
 - **Eastland Career and Technical Schools:** Educational management systems
@@ -101,8 +132,18 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Experience:** Actuarial systems, claims processing automation, risk modeling platforms
 
 **Document Management & Enterprise Content:**
-- **3sg:** Document management and scanning solutions
-- **Experience:** Large-scale document processing, OCR integration, enterprise content management
+- **3sg - Crisis Resolution & Process Innovation:** Large-scale insurance document digitization project rescue
+  - **Project Crisis Recovery:** Inherited project with <75% scanning confidence, facing contract termination
+  - **Process Innovation:** Designed unique barcode inventory system for complex folder segmentation
+  - **Inventory System Redesign:** Created tracking for thousands of folders containing millions of pages
+  - **Quality Assurance Algorithm:** Developed page counting and file estimation algorithms for QA targeting
+  - **Confidence Improvement:** Raised scanning accuracy from <75% to >95% (contract requirement)
+  - **Project Salvation:** Prevented contract termination and established new company-wide inventory processes
+  - **COTS Extension Development:** Enhanced "TurboScan" commercial software with custom workflow integration
+  - **Windows Workflow Integration:** Built external QA process management application
+  - **Automated Process Orchestration:** Created seamless handoff between manual QA and automated export
+  - **Scanning Efficiency Optimization:** Improved both automation accuracy and manual QA processes
+- **Experience:** Large-scale document processing, OCR integration, enterprise content management, crisis project recovery
 
 **Identity & Access Management:**
 - **The Dot Net Factory/Empower ID:** Enterprise identity and authentication services
