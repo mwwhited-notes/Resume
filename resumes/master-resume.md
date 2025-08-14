@@ -94,6 +94,7 @@
 - **Database Innovation Pioneer:** Pioneered Vector Search for SQL Server using custom SQLCLR before commercial offerings - work at ERisk and Eliassen predated market trends
 - **Multi-Platform Competency:** Universal expertise across Linux/Unix (System V, Solaris), macOS/Apple Xserve, Windows - works with any client infrastructure
 - **Protocol Reverse Engineering:** Custom protocol implementations when APIs unavailable - specialized in creating solutions vendors didn't provide
+- **Enterprise Project Management:** Microsoft Project expertise across healthcare (FDA compliance), telecommunications (security platforms), and infrastructure deployments with TFS integration
 
 ### Principal Solutions Architect - Green Onion (February 2025 - Present)
 **Application Rescue & Modernization - Crisis Recovery Leadership**
@@ -139,6 +140,9 @@
 
 - **Vision Evolution:** Transformed leadership concept from simple starter template to comprehensive templated framework providing development patterns for faster, more reliable application delivery
 - **Technical Architecture:** Enhanced framework with dynamic expression engines (Java/.Net), complex event processing, EF Core extensions, testing enhancements, and DacFX integration
+- **Sedgwick Crisis Resolution:** Rescued Form Engine project lacking data extraction strategy - created custom JSON path-based ETL tool transforming complex form structures into downstream consumable format
+- **McClane DSL Compiler:** Built database-configurable expression calculator using ANTLR4 grammar with Java AST listener converting expressions into executable computation classes for retail logistics calculations
+- **AT&T/Alien Vault Security Platform:** Led comprehensive project estimation and proof-of-concept development in GoLang with Microsoft Project planning and stakeholder collaboration
 - **Open Source Leadership:** Led successful initiative to open-source framework, though organizational support for community maintenance was not provided
 - **Lasting Organizational Impact:** Framework architecture remains foundational to AppDev group's .NET product development years after implementation
 - **Strategic Technology Guidance:** Championed "technology pragmatism" philosophy focusing on proven workhorse solutions over trend-driven "hot zebra" technologies
@@ -147,6 +151,8 @@
 **Comprehensive AI Strategy Development & Hybrid Search Architecture**
 
 - **Strategic AI Leadership:** When AI/ML gained popularity, ensured comprehensive strategy beyond just language models, preventing narrow LLM-focused approach
+- **Eli Product Replacement Crisis:** Internal team spent 6+ months building complex AI/LLM chat product with Azure AI Studio - created superior replacement with more functionality in just a few hours using hybrid search engine and OpenWebUI
+- **Architectural Superiority:** Delivered on-premises/cloud deployment flexibility vs. Azure-only original, maintainable architecture vs. complex brittle system, hybrid search vs. basic RAG
 - **Competitive Analysis & Innovation:** Evaluated internal "Eli" RAG product limitations, created superior hybrid search engine combining vector embeddings with BM25/full text search for faster, cheaper, more accurate data recovery
 - **Framework Integration:** Successfully integrated hybrid search capabilities and cross-API chat functionality into shared framework, enhancing organizational capabilities despite original product team not adopting approach
 - **Technology Cost Analysis:** Provided strategic guidance on LLM limitations including cost inefficiency, energy consumption, and poor power-user interfaces while acknowledging value for lowering barriers for less skilled workers
@@ -165,12 +171,15 @@
 - **FDA Regulatory Compliance:** Direct FDA auditor interaction for life-critical clinical trial software systems with complete signoff responsibility
 - **Big Pharma Partnerships:** Major pharmaceutical clients including Sanofi, AstraZeneca, GSK for large-scale cardiovascular studies (TRA2P, SAVOR)
 - **Harvard Medical Collaboration:** TIMI Study Group partnership developing clinical trial management software for Brigham and Women's Hospital research
-- **Development Team Leadership:** Direct management of 5 active developers with architecture governance and code review oversight
+- **Development Team Leadership:** Direct management of 5 active developers with architecture governance and code review oversight using Microsoft Project/TFS integration
 - **Global Clinical Operations:** Multi-national pharmaceutical trial coordination and data management systems
 - **Digital Transformation Leadership:** Eliminated physical document shipping worldwide through Silverlight/DeepZoom document viewer for global CEC access
 
 #### Revolutionary Clinical Trial Systems
 - **CEC System Redesign:** Global Clinical Event Committee document access replacing paper binders with secure digital viewing
+- **CTS Clinical Forms System:** Custom JavaScript client with WPF-style forms for doctor data entry featuring embedded form-data architecture
+- **SQLCLR JSON Innovation:** Custom SQL Server CLR plugin wrapping JSON.NET enabling database-native JSON processing for faster-than-ETL data extraction
+- **Data Structure Evolution Management:** Handled changing form structures over time while maintaining backward compatibility and data accessibility
 - **MARS Messaging Platform:** Patient engagement system with SMS/email appointment reminders, federated messaging gateway, and global doctor coordination
 - **Event Bus Architecture:** MS SQL Service Broker for reliable message processing with intelligent routing to correct trials and patients
 - **Patient Retention Technology:** Two-way communication for survey completion improving clinical trial retention rates
@@ -204,6 +213,14 @@
 - **Legacy Application Integration:** Enabled existing LDAP client applications to authenticate against modern IAM system without client changes
 - **Secure 2FA Enhancement:** GDI+ graphics rendering for multi-factor authentication cards preventing text extraction vulnerabilities
 - **Cross-Platform Authentication:** Universal identity management across heterogeneous enterprise environments
+
+### .NET Developer - SafeAuto Insurance (2007)
+**Insurance Platform Configuration Management & Automation**
+- **Configuration Management Crisis:** Complex, difficult-to-manage platform configurations across multiple deployment environments creating deployment bottlenecks
+- **XML/XSLT Automation Solution:** Created configuration management tool using simple XML definitions with collection of XSLT stylesheets for multi-platform generation  
+- **Single-Source Configuration:** Transformed per-platform manual configuration management into automated single-source deployment system
+- **Deployment Acceleration:** Simplified and accelerated application deployment and testing processes through template-based configuration generation
+- **XSLT Template Engine:** Flexible transformation system enabling rapid configuration adaptation for different platforms and environments
 
 ### Software Engineer - 3SG Corporation (August 2006 - August 2007)
 **Career Transition & Crisis Project Recovery - Database Administrator to Primary Developer**

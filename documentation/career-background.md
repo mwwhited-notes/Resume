@@ -164,6 +164,14 @@ This document captures deep career insights, preferences, and hidden expertise d
     - **Digital Transformation:** Replaced paper binders with secure digital document viewing
     - **Faster Data Analysis:** Accelerated clinical event committee decision-making process
     - **Enhanced Reliability:** Improved document access and review consistency globally
+  - **CTS (Clinical Trial System):** Custom JavaScript client with WPF-style forms for doctor data entry
+    - **Custom JavaScript Framework:** Alternative to HTML/Silverlight using WPF-inspired client architecture
+    - **Embedded Form Structure:** Form layout and data stored within same document creating versioning challenges
+    - **SQLCLR JSON Processing:** Custom SQL Server CLR plugin wrapping JSON.NET for database-native JSON processing
+    - **Performance Innovation:** Direct JSON querying within database eliminating external extraction overhead
+    - **Data Structure Evolution:** Handled changing form structures over time while maintaining data accessibility
+    - **Reportable Data Extraction:** Transformed complex embedded JSON into queryable relational format
+    - **Database-Native Processing:** Faster than traditional extract-transform-load processes
   - **MARS (Messaging and Reporting Service):** Patient engagement and retention platform
     - **Multi-Channel Communication:** SMS and email appointment reminders and surveys
     - **Patient Response Management:** Two-way communication for survey completion and feedback
@@ -220,7 +228,13 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Experience:** Student information systems, learning management platforms, educational compliance, network architecture, IT leadership
 
 **Insurance & Risk Management:**
-- **Safeauto:** Auto insurance processing and claims management
+- **SafeAuto:** Auto insurance processing and claims management with configuration automation
+  - **Platform Configuration Challenge:** Complex, difficult-to-manage platform configurations across multiple environments
+  - **XML/XSLT Solution:** Created configuration management tool using simple XML definitions with XSLT stylesheet collections
+  - **Multi-Platform Generation:** Single XML source generating required configurations for different platform deployments
+  - **Deployment Automation:** Simplified and accelerated application deployment and testing processes
+  - **XSLT Template Engine:** Collection-based XSLT stylesheets for flexible configuration transformation
+  - **Development Efficiency:** Reduced configuration complexity from per-platform manual management to single-source automation
 - **ERisk (via Eliassen Group - Crisis Consultation):** AI/ML project rescue and implementation
   - **Project Crisis Recovery:** Inherited failed AI/ML project after 12 months of prior development with no results
   - **Rapid Implementation:** Working prototype delivered within one week of starting
@@ -386,11 +400,47 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Role-based responsibility matrix** with clear duty assignments
 - **Phase-driven process** adaptable to project size and complexity
 
+### Project Management & Estimation Expertise
+**Microsoft Project Mastery Across Multiple Organizations:**
+- **Itrica (CTO Role):** Microsoft Project with Microsoft TFS integration for comprehensive development lifecycle management, work item tracking, and regulatory compliance planning
+- **Eliassen AppDev:** AT&T/Alien Vault security platform estimation using MS Project with stakeholder collaboration and technical feasibility analysis
+- **Eastland Fairfield:** Large-scale computer deployment project planning and coordination using Microsoft Project for infrastructure rollouts
+- **Cross-Industry Application:** Project management methodology adapted across healthcare (FDA compliance), telecommunications (security platforms), and enterprise IT infrastructure
+
 ### Enterprise Framework Architecture - Shared Framework & Nucleus
 **Universal Abstraction Platform Development:**
 - **Shared Framework:** .NET Core extension/abstraction framework for enterprise applications
 - **Nucleus:** Application starter project built on Shared Framework foundation
 - **Georgia Cyber Academy (GCA):** Long-term project serving as foundation for framework development
+- **Sedgwick Claims Management:** Custom Form Engine crisis resolution project
+  - **Problem:** Development team created sophisticated Form Engine with complex business rules but no data extraction strategy
+  - **Solution:** Custom JSON path-based ETL tool enabling downstream data consumption from complex form structures
+  - **Innovation:** Collection-based JSON path processing transforming unstructured form data into consumable format
+  - **Framework Integration:** Sedgwick application used shared framework architecture alongside several other enterprise clients
+  - **Pattern Recognition:** Similar to Itrica CTS system - form structure embedded with data creating extraction challenges
+- **McClane Retail Logistics:** Database-configurable expression calculator system
+  - **Business Need:** Retail logistics company required configurable mathematical functions stored in database
+  - **DSL Development:** Created custom expression Domain Specific Language with ANTLR4 grammar
+  - **Compiler Architecture:** Java-based AST listener converting parsed expressions into executable computation classes
+  - **Database Integration:** Functions configured and stored in database, dynamically compiled for runtime execution
+  - **Performance Optimization:** AST to class conversion enabling high-performance mathematical computations
+  - **Enterprise Flexibility:** Business users could modify calculation logic without code deployment
+- **AT&T/Alien Vault Security Platform:** GoLang estimation and proof-of-concept project
+  - **Project Scope:** Large-scale security platform estimation requiring comprehensive technical and business analysis
+  - **Stakeholder Collaboration:** Worked directly with team leads and stakeholders to gather requirements and constraints
+  - **Industry Background Application:** Leveraged extensive technical background for accurate effort estimation
+  - **Microsoft Project Management:** Complete project planning and estimation using MS Project with detailed work breakdown structures
+  - **Technology Stack:** GoLang implementation with enterprise security platform requirements
+  - **Proof of Concept:** Delivered working prototype demonstrating feasibility and technical approach
+- **Eli AI/LLM Product Replacement:** Rapid superior alternative to internal AI chat product
+  - **Original Problem:** Internal team spent 6+ months creating complex AI/LLM chat product "Eli" with limited RAG integration using Azure AI Studio
+  - **Architectural Issues:** Original Eli was difficult to maintain, update, and extend despite extended development timeline
+  - **Rapid Innovation:** Created superior replacement in just a few hours using hybrid search engine and OpenWebUI
+  - **Enhanced Functionality:** Replacement had more features than original 6-month development effort
+  - **Deployment Flexibility:** On-premises or cloud deployment capability vs. Azure-only original
+  - **Technical Superiority:** Hybrid search (vector + BM25) vs. basic RAG implementation
+  - **Maintenance Advantage:** Simple, maintainable architecture vs. complex, brittle original system
+  - **Pattern Recognition:** Similar to ERisk situation - months of failed development replaced with rapid, superior solution
 - **Fire Fighting & Research:** Small crisis interventions while developing new technologies and training materials
 
 **Universal Abstraction Architecture:**
