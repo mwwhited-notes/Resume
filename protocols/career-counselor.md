@@ -56,19 +56,53 @@ Act as a strategic career counselor to conduct comprehensive knowledge discovery
    - "I notice Python for AI/ML - what other Python applications have you used it for?"
    - "Any experience with functional programming languages like F#, Scala, or Haskell?"
 
-2. **Cloud & Infrastructure**
+2. **Design Philosophy & Programming Style**
+   - "How would you describe your programming philosophy - do you lean toward object-oriented, functional, or a hybrid approach?"
+   - "What design patterns do you find yourself using most frequently, and why?"
+   - "How do you approach code organization and architecture in large-scale projects?"
+   - "What's your philosophy on testing - TDD, BDD, or other approaches? How do you ensure quality?"
+   - "How do you balance pragmatism vs. perfectionism when writing code?"
+   - "What's your approach to documentation - inline comments, external docs, self-documenting code?"
+   - "How do you handle technical debt - when do you refactor vs. rewrite?"
+   - "What principles guide your API design decisions?"
+   - "How do you approach performance optimization - when to optimize and when not to?"
+   - "What's your view on code reviews - what do you look for, what value do they provide?"
+
+3. **Architecture & System Design**
+   - "What architectural patterns resonate with you most - microservices, monoliths, serverless, event-driven?"
+   - "How do you approach system decomposition and service boundaries?"
+   - "What's your philosophy on coupling vs. cohesion in system design?"
+   - "How do you handle cross-cutting concerns like logging, security, and monitoring?"
+   - "What's your approach to data consistency in distributed systems?"
+   - "How do you design for scalability vs. simplicity?"
+   - "What role does Domain-Driven Design play in your architecture decisions?"
+   - "How do you approach technology selection for new projects?"
+   - "What's your view on build vs. buy decisions?"
+   - "How do you design systems to be maintainable over time?"
+
+4. **Development Methodology & Process**
+   - "What development methodologies do you prefer - Agile, Kanban, something else?"
+   - "How do you approach requirement gathering and technical specification?"
+   - "What's your ideal workflow from idea to production?"
+   - "How do you handle unclear or changing requirements?"
+   - "What tools and practices do you use for personal productivity?"
+   - "How do you stay current with technology while delivering on commitments?"
+   - "What's your approach to mentoring and knowledge sharing?"
+   - "How do you handle disagreements about technical decisions?"
+
+5. **Cloud & Infrastructure**
    - "Your resume mentions Azure and AWS. Which specific services have you used most extensively?"
    - "Have you worked with infrastructure as code tools like Terraform, ARM templates, or Pulumi?"
    - "Any experience with monitoring and observability tools - APM, logging, metrics?"
    - "Container orchestration beyond Kubernetes - Docker Swarm, OpenShift, others?"
 
-3. **Database & Data Technologies**
+6. **Database & Data Technologies**
    - "Beyond SQL Server and PostgreSQL, any experience with other database systems?"
    - "Have you worked with data warehousing, ETL pipelines, or business intelligence tools?"
    - "Any experience with time-series databases, graph databases, or specialized data stores?"
    - "Data modeling and architecture experience beyond application development?"
 
-4. **Security & Compliance**
+7. **Security & Compliance**
    - "What security frameworks, standards, or compliance requirements have you worked with?"
    - "Any experience with security testing, penetration testing, or vulnerability assessment?"
    - "Identity and access management systems beyond basic authentication?"
@@ -90,18 +124,56 @@ Act as a strategic career counselor to conduct comprehensive knowledge discovery
 #### Step 2.3: Leadership & Soft Skills Assessment
 **Explore leadership capabilities and interpersonal expertise:**
 
-1. **Management & Leadership**
+1. **Leadership Philosophy & Style**
+   - "How would you describe your leadership style - servant leader, transformational, situational?"
+   - "What's your approach to building and motivating teams?"
+   - "How do you handle conflict resolution within your teams?"
+   - "What's your philosophy on delegation - what do you keep vs. what do you delegate?"
+   - "How do you balance being hands-on technical vs. strategic leadership?"
+   - "What's your approach to setting and communicating technical vision?"
+   - "How do you foster innovation while maintaining stability?"
+   - "What role does empathy play in your leadership approach?"
+   - "How do you handle underperformers - coaching vs. accountability?"
+   - "What's your approach to building psychological safety in teams?"
+
+2. **Mentorship & Development Philosophy**
+   - "How do you identify and develop talent in your teams?"
+   - "What's your mentoring style - structured programs or organic relationships?"
+   - "How do you tailor mentoring to different skill levels and learning styles?"
+   - "What's your approach to giving feedback - frequency, method, style?"
+   - "How do you help team members navigate career growth?"
+   - "What's your philosophy on knowledge sharing vs. creating dependency?"
+   - "How do you scale your mentoring impact across larger organizations?"
+   - "What techniques do you use to teach complex technical concepts?"
+   - "How do you balance mentoring with your own deliverables?"
+   - "What's your approach to succession planning and knowledge transfer?"
+
+3. **Team Building & Culture**
+   - "How do you build high-performing technical teams from scratch?"
+   - "What's your approach to team dynamics and collaboration?"
+   - "How do you establish team norms and working agreements?"
+   - "What's your philosophy on remote vs. in-person team building?"
+   - "How do you handle diversity and inclusion in technical teams?"
+   - "What rituals or practices do you use to build team cohesion?"
+   - "How do you balance individual excellence with team collaboration?"
+   - "What's your approach to celebrating successes and learning from failures?"
+
+4. **Management & Leadership Experience**
    - "Beyond Centers of Excellence, have you had direct management responsibilities?"
    - "Experience with budgeting, resource allocation, or strategic planning?"
    - "Any involvement in hiring, performance reviews, or organizational development?"
    - "Cross-cultural or international team experience?"
+   - "How do you handle stakeholder management at different organizational levels?"
+   - "What's your experience with organizational change management?"
 
-2. **Communication & Training**
+5. **Communication & Training**
    - "What types of presentations or public speaking have you done?"
    - "Technical writing beyond documentation - whitepapers, articles, research?"
    - "Conference speaking, workshop facilitation, or community event leadership?"
+   - "How do you adapt your communication style for different audiences?"
+   - "What's your approach to technical evangelism and thought leadership?"
 
-3. **Business Development**
+6. **Business Development**
    - "Any involvement in sales engineering, customer-facing technical roles?"
    - "Experience with proposal writing, RFP responses, or client engagement?"
    - "Partnership development or vendor relationship management?"
