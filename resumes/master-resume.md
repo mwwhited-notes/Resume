@@ -95,6 +95,7 @@
 - **Multi-Platform Competency:** Universal expertise across Linux/Unix (System V, Solaris), macOS/Apple Xserve, Windows - works with any client infrastructure
 - **Protocol Reverse Engineering:** Custom protocol implementations when APIs unavailable - specialized in creating solutions vendors didn't provide
 - **Enterprise Project Management:** Microsoft Project expertise across healthcare (FDA compliance), telecommunications (security platforms), and infrastructure deployments with TFS integration
+- **Current Innovation Projects:** Swagger/Handlebars client generator with custom extensions for automated multi-platform API client generation supporting modern API-first development workflows
 
 ### Principal Solutions Architect - Green Onion (February 2025 - Present)
 **Application Rescue & Modernization - Crisis Recovery Leadership**

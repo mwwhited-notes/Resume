@@ -332,6 +332,11 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Analog Computing Deep Dive:** Advanced study of analog computer principles, applications, and modern implementations
 - **Electronics Engineering:** Hands-on electronics projects and circuit design experimentation
 - **Personal .NET Extensions Project:** Ongoing development and extension of custom .NET framework libraries
+- **Swagger/Handlebars Client Generator:** Building collection of extensions for Swagger and Handlebars to create automated client generation system
+  - **Code Generation Innovation:** Template-based client generation from API specifications
+  - **Multi-Platform Support:** Generating clients for different programming languages and frameworks
+  - **Template Engine Extension:** Custom Handlebars helpers and Swagger extensions for flexible code generation
+  - **API-First Development:** Supporting modern API-first development workflows with automated client synchronization
 - **Cutting-Edge Technology Exploration:** Research into emerging computing paradigms and alternative architectures
 
 ### Early Programming Foundation - Self-Taught Excellence
