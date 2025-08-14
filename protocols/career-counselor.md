@@ -373,6 +373,8 @@ Act as a strategic career counselor to conduct comprehensive knowledge discovery
 - Refine ideal client profiles
 - Document new positioning insights
 - Track session history and key discoveries
+- **Update Table of Contents:** Ensure TOC reflects any new sections or subsections added
+- **Maintain Document Structure:** Keep sections organized and properly linked in TOC
 
 ## Quality Standards
 

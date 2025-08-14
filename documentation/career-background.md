@@ -3,6 +3,57 @@
 ## Document Purpose
 This document captures deep career insights, preferences, and hidden expertise discovered through career counseling sessions that extend beyond the formal resume. It serves as a living repository of career intelligence to inform positioning, opportunities, and strategic career decisions.
 
+## Table of Contents
+- [Career Direction & Preferences](#career-direction--preferences)
+  - [Desired Positioning](#desired-positioning-updated-2025-08-12)
+  - [Work Style Preferences](#work-style-preferences)
+  - [Engagement Model Flexibility](#engagement-model-flexibility)
+- [Hidden Technical Expertise](#hidden-technical-expertise)
+  - [Industry Domain Expertise - Cross-Sector Experience](#industry-domain-expertise---cross-sector-experience)
+  - [Azure Ecosystem Mastery](#azure-ecosystem-mastery-beyond-resume)
+  - [Container & Orchestration Philosophy](#container--orchestration-philosophy)
+  - [Protocol Reverse Engineering](#protocol-reverse-engineering-rare-expertise)
+  - [Legacy System Modernization](#legacy-system-modernization)
+  - [Database Crisis Resolution](#database-crisis-resolution)
+  - [Electronics & Hardware Design](#electronics--hardware-design)
+  - [IDE & Development Tools Mastery](#ide--development-tools-mastery)
+  - [Development Methodology - Custom SDLC Framework Creator](#development-methodology---custom-sdlc-framework-creator)
+  - [Design & Documentation Tools](#design--documentation-tools)
+  - [Version Control Systems](#version-control-systems)
+- [Technology Philosophy & Principles](#technology-philosophy--principles)
+  - [Programming Philosophy - Adaptive Polyglot](#programming-philosophy---adaptive-polyglot)
+  - [Testing Philosophy - Requirements Over Implementation](#testing-philosophy---requirements-over-implementation)
+  - [API Design - Enhanced CQRS Pattern](#api-design---enhanced-cqrs-pattern)
+  - [Architecture Philosophy - Event-Driven CQRS with Pragmatic Flexibility](#architecture-philosophy---event-driven-cqrs-with-pragmatic-flexibility)
+  - [System Decomposition - Single Source of Truth](#system-decomposition---single-source-of-truth)
+  - [Scalability Philosophy - Start Simple, Scale Smart](#scalability-philosophy---start-simple-scale-smart)
+  - [Technology Stack Preference - Pragmatic Expertise](#technology-stack-preference---pragmatic-expertise)
+  - [Performance Philosophy - Framework-First Optimization](#performance-philosophy---framework-first-optimization)
+  - [Code Review Philosophy - Democratized Learning](#code-review-philosophy---democratized-learning)
+  - [Mentorship Philosophy - Interactive Learning Through Teaching](#mentorship-philosophy---interactive-learning-through-teaching)
+  - [KISS (Keep It Simple, Stupid) Advocate](#kiss-keep-it-simple-stupid-advocate)
+  - [The "Anti-Hype" Technologist](#the-anti-hype-technologist)
+  - [Problem-Solving Philosophy - Value Over Metrics](#problem-solving-philosophy---value-over-metrics)
+  - [Vendor-Neutral Advisory Approach](#vendor-neutral-advisory-approach)
+  - [Portable Solutions Philosophy](#portable-solutions-philosophy)
+- [Career Insights & Patterns](#career-insights--patterns)
+  - [What Energizes](#what-energizes)
+  - [What Drains](#what-drains)
+  - [Unique Value Proposition](#unique-value-proposition)
+  - [Market Positioning Opportunity](#market-positioning-opportunity)
+- [Ideal Client Profile](#ideal-client-profile)
+  - [Primary Target Market](#primary-target-market)
+  - [Secondary Target Markets](#secondary-target-markets)
+  - [Service Offering Potential](#service-offering-potential)
+- [Knowledge Gaps & Development Areas](#knowledge-gaps--development-areas)
+  - [For Due Diligence Consulting](#for-due-diligence-consulting)
+  - [For Fractional Executive Roles](#for-fractional-executive-roles)
+- [Action Items from Discovery](#action-items-from-discovery)
+  - [Immediate Positioning Updates](#immediate-positioning-updates)
+  - [Network Development Priorities](#network-development-priorities)
+  - [Content & Thought Leadership](#content--thought-leadership)
+- [Session History](#session-history)
+
 ---
 
 ## Career Direction & Preferences
@@ -122,14 +173,38 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Experience:** HIPAA compliance, clinical data integrity, healthcare interoperability, FDA audit preparation, EDI/X12 processing, mainframe integration
 
 **Education Technology:**
-- **Eastland Career and Technical Schools:** Educational management systems
+- **Eastland Career and Technical Schools:** Complete IT infrastructure leadership and educational system development
+  - **Role Evolution:** Hired as computer technician → System Administrator → Network Engineer/Architect → Computer Support Department Lead
+  - **Enterprise Network Design:** Designed and built complete Novell/TCP/IP network infrastructure
+  - **WAN Architecture:** Full wide area network with direct TCP/IP links and dedicated leased ATM lines
+  - **VPN Network Implementation:** Built wide VPN network connecting off-campus locations
+  - **Multi-Site Integration:** Integrated off-site locations with their respective host school networks
+  - **Complex Network Topology:** Managed multi-partner network connectivity and routing
+  - **Custom Application Development:** Multiple support ticket tracking systems
+    - **PHP/RADIUS Version:** Web-based ticketing with RADIUS authentication integration
+    - **ASP/VBScript/LDAP Version:** Active Directory integrated support system
+  - **Adult & Student Training:** Extensive experience training both adult learners and high school students
+  - **IT Department Leadership:** Built and managed complete computer support department from ground up
+  - **Mainframe Development:** System Builder programming with Unidata mainframe for student management system extensions
+  - **Legacy System Integration:** Custom extensions to existing educational management platforms
+  - **Infrastructure Foundation:** Network architecture supporting educational institution operations
 - **Georgia Cyber Academy (Eliassen project):** Online education platform development
-- **Experience:** Student information systems, learning management platforms, educational compliance
+- **Experience:** Student information systems, learning management platforms, educational compliance, network architecture, IT leadership
 
 **Insurance & Risk Management:**
 - **Safeauto:** Auto insurance processing and claims management
-- **ERisk:** Insurance risk assessment and underwriting systems
-- **Experience:** Actuarial systems, claims processing automation, risk modeling platforms
+- **ERisk (via Eliassen Group - Crisis Consultation):** AI/ML project rescue and implementation
+  - **Project Crisis Recovery:** Inherited failed AI/ML project after 12 months of prior development with no results
+  - **Rapid Implementation:** Working prototype delivered within one week of starting
+  - **Technical Innovation:** Built custom .NET service hosting sentence transformer embedding model
+  - **SQLCLR Vector Extension:** Extended MS SQL Server with custom vector support using SQLCLR
+  - **Custom LSH Indexing:** Implemented Locality-Sensitive Hashing using random hyperplanes over embedding space
+  - **Query Performance Optimization:** Dramatic performance improvements for semantic search queries
+  - **Legacy SQL Server Support:** Works with SQL Server 2012/2019 on-premises (compatible with older versions)
+  - **Advanced Search Engine:** Complex pattern matching, form predicates, and semantic matching
+  - **Hybrid Search Architecture:** Combined traditional SQL with modern vector search capabilities
+  - **AI/ML Without Python:** Pure .NET implementation avoiding typical Python ML dependencies
+- **Experience:** Actuarial systems, claims processing automation, risk modeling platforms, AI/ML project rescue
 
 **Document Management & Enterprise Content:**
 - **3sg - Crisis Resolution & Process Innovation:** Large-scale insurance document digitization project rescue
@@ -146,8 +221,23 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Experience:** Large-scale document processing, OCR integration, enterprise content management, crisis project recovery
 
 **Identity & Access Management:**
-- **The Dot Net Factory/Empower ID:** Enterprise identity and authentication services
-- **Experience:** Single sign-on, multi-factor authentication, enterprise user lifecycle management
+- **The Dot Net Factory/Empower ID:** Enterprise identity and authentication platform development
+  - **Enterprise IAM Architecture:** Built business role/group mapping system for cross-platform authentication
+  - **Universal Authentication Connectors:** Created connectors for LDAP, eDirectory, Active Directory, Linux users/groups
+  - **Protocol Reverse Engineering:** Engineered authentication connectors through API integration and protocol analysis
+  - **Custom LDAP Service Implementation:** Developed .NET service emulating complete LDAP authentication protocol
+    - **RFC Compliance Analysis:** Deep study of LDAP protocol specifications and standards
+    - **Protocol Reverse Engineering:** Used Ethereal/Wireshark for LDAP protocol traffic analysis
+    - **LDAP Binding/Authentication:** Implemented complete LDAP server responses for client compatibility
+    - **Legacy Application Integration:** Enabled existing LDAP client applications to authenticate against modern IAM system
+  - **Cross-Platform Authentication:** Universal authentication management across heterogeneous enterprise environments
+  - **API Integration Specialist:** Connected disparate authentication systems through custom connector development
+  - **Secure 2FA Card Generation:** GDI+ image rendering for multi-factor authentication cards
+    - **Security Enhancement:** Replaced HTML table rendering to prevent text extraction vulnerabilities
+    - **Graphics-Based Security:** Generated authentication cards as images to prevent copying/scraping
+    - **System Integration:** Improved integration capabilities with external authentication systems
+    - **Anti-Tampering Design:** Visual authentication tokens resistant to automated text extraction
+- **Experience:** Single sign-on, multi-factor authentication, enterprise user lifecycle management, protocol reverse engineering, LDAP implementation
 
 **Cross-Industry Pattern Recognition:**
 - **Regulatory Compliance:** HIPAA, SOX, PCI-DSS, banking regulations across multiple sectors
@@ -183,6 +273,18 @@ This document captures deep career insights, preferences, and hidden expertise d
 - Vivado for FPGA development
 - **Value:** Understands full stack from silicon to cloud
 
+### Personal Projects & Side Development
+**Extensive Portfolio of Independent Work:**
+- **Game Development:** Collection of custom games across multiple platforms and technologies
+- **Framework Development:** Personal frameworks and libraries for various development needs
+- **Embedded Device Design:** Custom embedded controllers and programmable logic implementations
+- **Microelectronics Engineering:** Circuit design and microcontroller programming
+- **Embedded Controller Programming:** Custom firmware and hardware integration projects
+- **Programmable Logic Design:** FPGA and digital logic implementations
+- **Analog Computing Research:** Current exploration of analog computer principles and applications
+- **Cross-Platform Applications:** Programs spanning desktop, web, mobile, and embedded platforms
+- **Continuous Innovation:** Ongoing personal research and development across emerging technologies
+
 ### IDE & Development Tools Mastery
 - Visual Studio (primary)
 - Visual Studio Code
@@ -199,6 +301,30 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Hybrid methodology approach** combining best practices from multiple methodologies
 - **Role-based responsibility matrix** with clear duty assignments
 - **Phase-driven process** adaptable to project size and complexity
+
+### Enterprise Framework Architecture - Shared Framework & Nucleus
+**Universal Abstraction Platform Development:**
+- **Shared Framework:** .NET Core extension/abstraction framework for enterprise applications
+- **Nucleus:** Application starter project built on Shared Framework foundation
+- **Georgia Cyber Academy (GCA):** Long-term project serving as foundation for framework development
+- **Fire Fighting & Research:** Small crisis interventions while developing new technologies and training materials
+
+**Universal Abstraction Architecture:**
+- **Single Implementation Pattern:** Developers code once, deploy anywhere approach
+- **Client-Specific Technology Mapping:** Connector-based architecture adapting to client infrastructure
+- **Template Engine Abstraction:** XSLT, Handlebars, HTML templating with unified interface
+- **Storage Abstraction:** File systems, blob storage, databases through common API
+- **Event Queue Abstraction:** Kafka, Service Bus, SQS, MSMQ, RabbitMQ connector mapping
+- **Email Service Abstraction:** Twilio/SendGrid, Exchange, SMTP unified interface
+- **Infrastructure Agnostic:** Single codebase supporting diverse client technology stacks
+
+**Advanced Search Technology Development:**
+- **Hybrid Search Engine (First Version):** Pioneered combination of vector embeddings and traditional search
+- **Vector Embedding Integration:** Semantic search capabilities using modern embedding models
+- **BM25/Full Text Search:** Traditional relevance-based search algorithms
+- **User-Configurable Search:** Dynamic selection between semantic and keyword-based search approaches
+- **Search Algorithm Flexibility:** Users can choose optimal search method for their specific use cases
+- **Innovation Timeline:** Developed hybrid search before it became mainstream technology
 
 **Key SDLC Innovation Features:**
 - **Pre-planning emphasis** including client surveys and platform assessment
@@ -502,6 +628,30 @@ This document captures deep career insights, preferences, and hidden expertise d
 2. Share "expensive mistake" case studies (anonymized)
 3. Create "Questions to ask vendors" resources
 4. Develop technical due diligence frameworks
+
+---
+
+## Current Position - Green Onion (February 2025 - Present)
+
+### Application Rescue & Modernization Project
+**Crisis Recovery Leadership:**
+- **Inherited Failed Application:** Took over application left in "horrible, hardly functioning state" by offshore team
+- **Complete System Redesign:** Leading full application rewrite and modernization
+- **Budget Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% cost reduction)
+- **Resource Management:** Working within extremely limited budget constraints
+- **Technical Debt Resolution:** Addressing fundamental architectural and implementation issues
+
+**Cost Optimization Achievements:**
+- **Azure Cost Reduction:** $1,500/month → <$350/month (saving $13,800+ annually)
+- **Budget Recovery:** Freed up funds through infrastructure optimization
+- **Future Planning:** Identified additional optimization opportunities requiring application rewrite completion
+- **ROI Demonstration:** Immediate cost savings funding continued development work
+
+**Technical Leadership Approach:**
+- **Pragmatic Rebuilding:** Balancing immediate functionality needs with long-term architecture
+- **Budget-Conscious Development:** Maximizing value within severe financial constraints  
+- **Infrastructure Optimization:** Azure resource rightsizing and service optimization
+- **Phased Modernization:** Strategic approach to rewrite while maintaining business operations
 
 ---
 
