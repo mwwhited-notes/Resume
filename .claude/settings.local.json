@@ -29,7 +29,11 @@
       "Bash(python3:*)",
       "WebFetch(domain:www.outsourceit.com)",
       "WebFetch(domain:www.baltimoreconsulting.com)",
-      "WebFetch(domain:intellicomp.net)"
+      "WebFetch(domain:intellicomp.net)",
+      "WebSearch",
+      "WebSearch",
+      "WebSearch",
+      "WebSearch"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
