@@ -6,8 +6,8 @@
 ## Contact Information
 - **Email:** [matt@whited.us](mailto:matt@whited.us)
 - **Phone:** [+1 (614) 989-1748](tel:+16149891748)
-- **Location:** Baltimore, MD (Local Resident)
-- **Work Preference:** On-site/Hybrid Available (200 East North Avenue)
+- **Location:** Baltimore, MD (Charles Village/Midtown - Local Resident)
+- **Work Preference:** On-site/Hybrid Available (200 East North Avenue - Excellent Commute)
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
 - **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)

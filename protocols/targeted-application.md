@@ -81,6 +81,7 @@ Ensure selected positions meet all criteria:
 - ✅ No security clearance required
 - ✅ Direct application process available
 - ✅ Job posting is current (within 30 days)
+- ✅ **Commute Analysis:** For on-site/hybrid positions in Baltimore metro, verify company address and calculate commute time from 1221 N Calvert St, Baltimore, MD 21202
 
 ### Phase 3: Directory Structure Creation
 

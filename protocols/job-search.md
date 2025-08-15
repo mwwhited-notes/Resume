@@ -36,6 +36,7 @@ mkdir -p /current/src/SearchResults/Jobs
 - **Travel:** Up to 25% travel acceptable
 - **Experience Level:** 20+ years, strategic technology leadership
 - **EXCLUSIONS:** No positions requiring security clearance (user preference)
+- **Commute Evaluation:** For on-site/hybrid positions, verify commute time from 1221 N Calvert St, Baltimore, MD 21202
 
 ## Job Search Platform Categories
 

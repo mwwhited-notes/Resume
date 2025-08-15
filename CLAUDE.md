@@ -5,6 +5,7 @@
 - **Professional Identity:** Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist
 - **Current Position:** Green Onion (February 2025 - Present)
 - **Previous Position:** ERisk Services (November 2024 - August 2025)
+- **Address:** 1221 N Calvert St, Baltimore, MD 21202 (Charles Village/Midtown)
 - **Location:** /current/src
 - **Documentation Ecosystem:** 25 professional documents with modern git repository structure
 
@@ -151,10 +152,11 @@
 
 ## User Preferences - CRITICAL
 - **Security Clearance:** NOT interested in positions requiring security clearance
-- **Work Location:** Remote priority, Baltimore MD metro hybrid acceptable
+- **Work Location:** Remote priority, Baltimore MD metro hybrid acceptable (evaluate commute times from 1221 N Calvert St for on-site/hybrid positions)
 - **Compensation:** $180K+ salary OR $85+/hour minimum
 - **Travel:** Up to 25% acceptable
 - **Resume Formatting:** Centers of Excellence is a sub-role, not separate position
+- **Commute Considerations:** For Baltimore metro on-site/hybrid positions, check address and calculate commute times from Charles Village/Midtown location
 
 ## File Path Format - MEMORIZED
 - **Format:** Relative paths with `./` prefix
