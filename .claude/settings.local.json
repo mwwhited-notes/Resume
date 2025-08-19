@@ -47,7 +47,18 @@
       "WebFetch(domain:jobs.lever.co)",
       "WebFetch(domain:jobs.lever.co)",
       "Bash(touch:*)",
-      "WebFetch(domain:www.mckinsey.com)"
+      "WebFetch(domain:www.mckinsey.com)",
+      "WebFetch(domain:careers.ey.com)",
+      "WebFetch(domain:www.accenture.com)",
+      "WebFetch(domain:jobs.careers.microsoft.com)",
+      "WebFetch(domain:gdmissionsystems.com)",
+      "WebFetch(domain:careers.salesforce.com)",
+      "WebFetch(domain:www.eightsleep.com)",
+      "WebFetch(domain:jobs.ashbyhq.com)",
+      "WebFetch(domain:www.pomelocare.com)",
+      "WebFetch(domain:boards.greenhouse.io)",
+      "WebFetch(domain:job-boards.greenhouse.io)",
+      "WebFetch(domain:hartmanresumes.catsone.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
