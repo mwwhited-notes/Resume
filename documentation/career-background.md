@@ -58,11 +58,17 @@ This document captures deep career insights, preferences, and hidden expertise d
 
 ## Career Direction & Preferences
 
-### Desired Positioning (Updated 2025-08-12)
-- **Primary Interest:** Trusted Technical Advisor
-- **Secondary Interest:** Fractional CTO/CSA for small to medium businesses
-- **Core Value Proposition:** "Your trusted guide through technology decisions that matter" - strategic technology partnership
-- **Philosophy:** Being the "Scotty from Star Trek" advisor - trusted counsel for complex technology decisions
+### Desired Positioning (Updated 2025-08-19)
+- **Primary Evolution:** Expanding trusted technical advisor role to include specific SOW review and contract evaluation services
+- **Core Services:** Technical advisory spanning from quick SOW reviews to fractional CTO engagements
+- **Target Market Focus:** Small to medium businesses (20-100 employees) who need technical expertise but not full-time CTO
+- **Value Proposition:** "Your trusted guide through technology decisions that matter" - from reviewing vendor contracts to strategic technology planning
+- **Service Spectrum:** 
+  - Quick engagements: SOW reviews, technical contract evaluation, vendor proposal assessment (1-3 days)
+  - Strategic projects: Technical due diligence, architecture reviews, technology roadmaps (1-4 weeks)
+  - Ongoing advisory: Fractional CTO, retained technical advisor, strategic technology partner (monthly)
+- **Philosophy:** Being the "Scotty from Star Trek" advisor who handles the complex technical details so business leaders can focus on growth
+- **Differentiator:** Vendor-neutral, anti-hype expertise preventing costly mistakes through pattern recognition from 20+ years experience
 
 ### Work Style Preferences
 - **NOT Interested In:**
@@ -73,10 +79,11 @@ This document captures deep career insights, preferences, and hidden expertise d
   
 - **Strongly Interested In:**
   - Complex problem consulting (scheduled, not emergency)
-  - Preventing vendor abuse and overspending
-  - Technology advisory for growing companies
-  - M&A technical due diligence
+  - SOW review and technical contract evaluation - preventing vendor abuse and overspending
+  - Technology advisory for growing companies who need guidance but not full-time CTO
+  - M&A technical due diligence and architecture assessments
   - Being trusted technology advisor to C-suite executives
+  - "Handling the nerdy stuff" so business leaders can focus on their core business
 
 ### Engagement Model Flexibility
 - **Scope Range:** From reviewing a statement of work (few days) to CEO on-retainer advisory (ongoing)
@@ -742,9 +749,11 @@ This document captures deep career insights, preferences, and hidden expertise d
 4. **Business Brokers:** Need technical expertise for deals
 
 ### Service Offering Potential
-- **Quick Assessments:** 2-5 days, $5-15K (SOW reviews, vendor checks)
-- **Strategic Projects:** 2-4 weeks, $25-50K (due diligence, roadmaps)
-- **Ongoing Advisory:** $5-10K/month (fractional CTO, on-call advisory)
+- **SOW & Contract Review:** 1-3 days, $2-10K (technical contract evaluation, vendor proposal analysis)
+- **Technical Due Diligence:** 3-5 days, $5-15K (vendor assessment, architecture review, risk analysis)
+- **Strategic Projects:** 2-4 weeks, $25-50K (technology roadmaps, system design, implementation planning)
+- **Ongoing Technical Advisory:** $3-8K/month (retained technical advisor, architecture guidance, vendor management support)
+- **Fractional CTO Services:** $5-15K/month (strategic technology leadership for growth-stage companies)
 
 ---
 

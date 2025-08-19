@@ -86,16 +86,17 @@
 ## Work History & Professional Experience
 
 ### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
-**Independent Technology Consulting - Crisis Resolution & Strategic Advisory**
+**Independent Technology Consulting - Technical Advisory & SOW Review Services**
 
-- **Independent Security Consulting:** Third-party security assessments and breach investigations - cleared specialty retailer/grocery client after suspected security concerns
-- **Vendor-Neutral Advisory Services:** No vendor partnerships or bias - provides honest counsel for best solutions at reasonable prices
+- **SOW & Technical Contract Review:** Expert evaluation of vendor proposals and technical contracts for small/mid-sized companies - preventing costly mistakes and vendor lock-in
+- **Technical Advisory Services:** "Handling the nerdy stuff" so business leaders can focus on core operations - translating complex technical proposals into clear business implications
+- **Vendor-Neutral Advisory:** No vendor partnerships or bias - unbiased technology guidance ensuring clients get best solutions at reasonable prices
+- **Technical Due Diligence:** Architecture assessment, vendor evaluation, and risk analysis for technology investments and M&A transactions
+- **Fractional CTO Services:** Strategic technology leadership for companies needing executive-level expertise without full-time CTO budget
 - **Crisis Project Recovery:** Takes over failed projects others can't deliver - rapid implementation when teams have struggled for months
-- **NDA Enterprise Consulting:** Multiple ongoing strategic technology consulting engagements under non-disclosure agreements
 - **Database Innovation Pioneer:** Pioneered Vector Search for SQL Server using custom SQLCLR before commercial offerings - work at ERisk and Eliassen predated market trends
 - **Multi-Platform Competency:** Universal expertise across Linux/Unix (System V, Solaris), macOS/Apple Xserve, Windows - works with any client infrastructure
-- **Protocol Reverse Engineering:** Custom protocol implementations when APIs unavailable - specialized in creating solutions vendors didn't provide
-- **Enterprise Project Management:** Microsoft Project expertise across healthcare (FDA compliance), telecommunications (security platforms), and infrastructure deployments with TFS integration
+- **Enterprise Security Reviews:** Third-party security assessments and breach investigations - cleared specialty retailer/grocery client after suspected security concerns
 - **Current Innovation Projects:** Swagger/Handlebars client generator with custom extensions for automated multi-platform API client generation supporting modern API-first development workflows
 
 ### Principal Solutions Architect - Green Onion (February 2025 - Present)
