@@ -33,7 +33,21 @@
       "WebSearch",
       "WebSearch",
       "WebSearch",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:digitalcareers.infosys.com)",
+      "WebFetch(domain:careers.stryker.com)",
+      "WebFetch(domain:careers.vizientinc.com)",
+      "WebFetch(domain:www.ziprecruiter.com)",
+      "WebFetch(domain:www.att.jobs)",
+      "WebFetch(domain:remote.com)",
+      "WebFetch(domain:himalayas.app)",
+      "WebFetch(domain:careers.amd.com)",
+      "WebFetch(domain:jobs.centene.com)",
+      "WebFetch(domain:jobs.lever.co)",
+      "WebFetch(domain:jobs.lever.co)",
+      "WebFetch(domain:jobs.lever.co)",
+      "Bash(touch:*)",
+      "WebFetch(domain:www.mckinsey.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

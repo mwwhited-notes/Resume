@@ -31,6 +31,9 @@
 - **Required Platform Files:** linkedin.md, indeed.md, consulting-firms.md, ai-ml-job-boards.md, fortune-500-tech.md, startup-platforms.md
 - **Summary Building:** Comprehensive summary MUST aggregate data from all individual platform files
 - **Search Results Preservation:** Copy full search results, URLs, salary data, and market intelligence for each platform
+- **CRITICAL JOB LINK VERIFICATION:** Always test job posting links before recommending - many expire quickly at principal level
+- **Remote Work Priority:** User ONLY interested in 100% remote positions (unless Baltimore, MD metro area)
+- **Active Listings Focus:** Direct users to verified active job board search pages rather than specific expired postings
 
 ### 3. Job search requests
 **Required Response:** `read protocols/job-search.md and follow the protocol step-by-step`
@@ -132,8 +135,11 @@
 - **Career System Generator:** protocols/career-system-generator.md (universal career management system creation for any professional)
 - **Targeted Application Protocol:** protocols/targeted-application.md (comprehensive job search to ready-to-submit applications)
 - **LinkedIn Strategy:** documentation/linkedin-changes.md (comprehensive LinkedIn transformation plan)
+- **Career Visualization:** documentation/career-gantt-chart.md, career-detailed-gantt.md, career-phases-gantt.md (PlantUML Gantt charts showing 25+ year career progression)
+- **Company Research Results:** SearchResults/Companies/SmartData_20250815.md, BaltimorePublicSchools_20250815.md (strategic fit assessments)
+- **Targeted Applications:** resumes/targeted/MatthewWhited-BaltimoreCity-LeadNetDeveloper-resume.md and coverletter.md (ready-to-submit application materials)
 
-## Current Status - 2025-08-14 (Crisis Resolution Positioning Complete)
+## Current Status - 2025-08-15 (Address Integration & Career Visualization Complete)
 ✅ **Professional Documents:** All 25+ files updated and maintained with comprehensive consistency check - see documentation/change-history-20250814*.md for details
 ✅ **Technical Portfolio Expansion:** Added 7 major technical achievements (CTS, Sedgwick, McClane, AT&T, SafeAuto, Eli replacement, Swagger/Handlebars) demonstrating crisis resolution pattern
 ✅ **Professional Identity Transformation:** Complete ecosystem alignment to "Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist" positioning
@@ -142,6 +148,11 @@
 ✅ **Career Counseling Complete:** Technical Due Diligence Consultant positioning developed - see ./SearchResults/Career/ and ./documentation/career-background.md
 ✅ **Business Development Ready:** Complete service offerings, outreach templates, case studies, and 90-day client acquisition plan in ./SearchResults/Counselor/
 ✅ **Protocol Updates:** Career counselor protocol enhanced to reference career background document for continuous knowledge building
+✅ **Address Integration:** Full Baltimore address (1221 N Calvert St, Baltimore, MD 21202) integrated with privacy controls
+✅ **Geographic Protocols:** Job search and targeted application protocols enhanced with commute evaluation requirements
+✅ **Company Research:** Strategic fit assessments completed for SmartData and Baltimore City Public Schools
+✅ **Career Visualization:** Three comprehensive PlantUML Gantt charts documenting 25+ year career progression and crisis resolution pattern
+✅ **Ready Applications:** Baltimore City Lead .NET Developer materials created and ready for immediate submission
 
 ## Fractional CTO Strategy Development - 2025-08-13
 ✅ **Strategic Decision:** TechCXO identified as primary target - ideal fractional CTO model with immediate pursuit recommended
@@ -152,11 +163,12 @@
 
 ## User Preferences - CRITICAL
 - **Security Clearance:** NOT interested in positions requiring security clearance
-- **Work Location:** Remote priority, Baltimore MD metro hybrid acceptable (evaluate commute times from 1221 N Calvert St for on-site/hybrid positions)
+- **Work Location:** 100% REMOTE ONLY priority (unless Baltimore MD metro area with reasonable commute from 1221 N Calvert St)
 - **Compensation:** $180K+ salary OR $85+/hour minimum
 - **Travel:** Up to 25% acceptable
 - **Resume Formatting:** Centers of Excellence is a sub-role, not separate position
-- **Commute Considerations:** For Baltimore metro on-site/hybrid positions, check address and calculate commute times from Charles Village/Midtown location
+- **Job Search Approach:** Focus on active job board search pages rather than specific job postings (which expire quickly at principal level)
+- **Link Verification Required:** Always test job posting links before recommending - many expire within days for senior positions
 
 ## File Path Format - MEMORIZED
 - **Format:** Relative paths with `./` prefix
@@ -174,7 +186,25 @@
 
 **Current Professional Identity:** Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with validated technical authority (22K+ Stack Overflow reputation, Gold Badge C# mastery, 650K+ NuGet downloads, 125+ developer leadership influence). Crisis resolution positioning demonstrates ability to rescue failing projects (77% cost reduction, 1-week delivery after 12-month failures) with multi-paradigm programming expertise, custom CQRS framework development, and vendor-neutral technology advisory approach. Self-taught programming excellence with anti-hype philosophy based on decades of pattern recognition.
 
-**Session Update - 2025-08-14:**
+**Session Update - 2025-08-18:**
+- **Comprehensive Job Search Executed:** Complete market analysis across 8 platform categories with 14,000+ relevant positions identified
+- **Market Intelligence:** Strong demand for Principal Solutions Architect ($165K-$270K+) and CTO roles ($200K-$400K+) with 17.7% AI salary premium
+- **Job Link Verification Lesson:** Discovered that specific job postings expire quickly at principal level - must direct to active job board search pages
+- **Remote Work Clarification:** Confirmed user requirement for 100% remote positions only (no hybrid unless Baltimore metro)
+- **Platform Effectiveness Rankings:** LinkedIn (TIER 1), Executive Recruiting (TIER 1), Indeed/Dice (TIER 1), with startup platforms (TIER 2)
+- **Active Job Board Strategy:** Verified working search pages: ZipRecruiter, Glassdoor, LinkedIn Jobs, Indeed for current applications
+- **Comprehensive Summary Created:** ./SearchResults/Jobs/comprehensive-job-search-20250818.md with strategic recommendations
+
+**Previous Session Update - 2025-08-15:**
+- **Address Integration:** Updated master resume and protocols with full Baltimore address (1221 N Calvert St, Baltimore, MD 21202)
+- **Commute Evaluation Enhancement:** Added commute checking requirements to job search and targeted application protocols
+- **Company Research Executed:** Comprehensive analysis of SmartData and Baltimore City Public Schools with detailed strategic fit assessments
+- **Targeted Application Created:** Complete Baltimore City Lead .NET Developer application materials with local positioning
+- **Career Visualization:** Created three PlantUML Gantt charts showing 25+ year career progression from electronics technician to fractional CTO
+- **Protocol Address Updates:** Enhanced job search and targeted application protocols with geographic considerations
+- **Resume Privacy Strategy:** Address visible only in master resume, other resumes show general Baltimore location for privacy
+
+**Previous Session Update - 2025-08-14:**
 - **PDF Export System:** Created professional stylesheet and VSCode configuration for resume PDF conversion
 - **Career Counselor Enhancement:** Added comprehensive programming philosophy and leadership style questions to protocol
 - **Career Background Documentation:** Extensive update with multi-paradigm programming approach, crisis resolution positioning, and anti-hype technology philosophy

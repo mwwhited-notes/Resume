@@ -192,15 +192,17 @@ Create detailed analysis files for each platform including:
 
 **Required Sections per Platform:**
 1. **Search Query** - Exact search terms used
-2. **Platform Overview** - Key features and specializations  
-3. **Search Results Summary** - Number of positions found, key metrics
-4. **Direct Job Opportunities** - Specific positions with URLs and details
-5. **Salary Analysis** - Compensation ranges discovered
-6. **Key Requirements** - Common qualifications and technologies
-7. **Market Analysis** - Trends, demand indicators, company types
-8. **Competitive Advantages** - How unique profile fits platform opportunities
-9. **Application Strategy** - Specific recommendations for platform
-10. **Assessment** - Overall match quality and prioritization recommendations
+2. **Search Execution Date** - Date the search was performed (YYYY-MM-DD)
+3. **Raw Search Results** - COMPLETE copy of all search results before any summarization
+4. **Platform Overview** - Key features and specializations  
+5. **Search Results Summary** - Number of positions found, key metrics
+6. **Direct Job Opportunities** - Specific positions with URLs and details
+7. **Salary Analysis** - Compensation ranges discovered
+8. **Key Requirements** - Common qualifications and technologies
+9. **Market Analysis** - Trends, demand indicators, company types
+10. **Competitive Advantages** - How unique profile fits platform opportunities
+11. **Application Strategy** - Specific recommendations for platform
+12. **Assessment** - Overall match quality and prioritization recommendations
 
 #### Search Results Documentation Process
 For each WebSearch executed:

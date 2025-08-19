@@ -9,7 +9,7 @@
 - **Phone:** [+1 (614) 989-1748](tel:+16149891748)
 - **Address:** 1221 N Calvert St, Baltimore, MD 21202 (MASTER RESUME ONLY - DO NOT INCLUDE IN OTHER RESUMES)
 - **Location:** Baltimore, MD (Charles Village/Midtown)
-- **Work Preference:** Remote / Full-Time (up to 25% travel, hybrid negotiable within Baltimore metro)
+- **Work Preference:** Remote / Full-Time (up to 25% travel, hybrid negotiable within Baltimore metro, NOT open to relocation)
 - **Time Zone:** East Coast US preferred, other time zones available
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
