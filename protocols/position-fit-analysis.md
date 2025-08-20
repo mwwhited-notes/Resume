@@ -137,9 +137,10 @@ File: `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md`
    - Emphasize relevant scale and experience matches
 
 2. **Position-Specific Customization**
-   - Restructure content hierarchy to match job requirements priority
-   - Highlight directly relevant projects and achievements
-   - Add industry-specific terminology and frameworks
+   - **MAINTAIN COMPLETE WORK HISTORY:** Include all positions from master resume with no omissions
+   - Restructure content hierarchy to match job requirements priority while preserving chronological integrity
+   - Highlight directly relevant projects and achievements within complete employment timeline
+   - Add industry-specific terminology and frameworks throughout full work history
 
 3. **Technical Alignment**
    - Emphasize matching technologies and platforms
@@ -194,6 +195,35 @@ I'm a Principal Solutions Architect with 20+ years of AI/ML engineering experien
 - Track response timeline and communication
 - Note any requests for additional materials or interviews
 - Update fit analysis based on any new information learned
+
+#### Learning Gap Analysis & Suggested Skills Update
+**Update Suggested Learning File:** `./SearchResults/Lessons/suggested.md`
+
+**Identify and Document Learning Opportunities:**
+1. **Gap Analysis:** Compare job requirements against Matthew's current expertise
+2. **Technology Assessment:** Note specific technologies, frameworks, or certifications mentioned but not in Matthew's background
+3. **Priority Classification:** Categorize gaps as High/Medium/Low priority based on:
+   - Frequency of appearance across positions
+   - Compensation impact potential
+   - Learning difficulty and time investment
+   - Market trend relevance
+
+**Suggested Learning Entry Format:**
+```markdown
+### [Priority Level] Priority
+- **[Technology/Skill Name]**
+  - **Source:** [Company] [Position] - [requirement type: required/preferred]
+  - **Gap:** [Specific gap description]
+  - **Learning Focus:** [What specifically to learn]
+  - **Business Value:** [Why this skill matters for career advancement]
+  - **Estimated Effort:** [Time investment estimate]
+```
+
+**Update Strategy:**
+- **Add New Gaps:** Technologies not currently tracked in suggested.md
+- **Update Existing:** Increase priority if technology appears in multiple high-value positions
+- **Cross-Reference:** Note which positions are driving specific learning needs
+- **Trend Analysis:** Track which technologies are becoming more common in target positions
 
 ## User Experience Flow
 

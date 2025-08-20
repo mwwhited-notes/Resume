@@ -24,8 +24,9 @@ Create todo list with these initial tasks:
 1. Execute comprehensive job search per protocols/job-search.md
 2. Analyze and rank opportunities by match probability
 3. Select top 5-8 highest probability positions
-4. Create targeted application materials for each selected position
-5. Store all materials in ./resumes/targeted/ directory
+4. **Execute comprehensive company research per protocols/company-research.md for each selected position**
+5. Create targeted application materials for each selected position using company research insights
+6. Store all materials in ./resumes/targeted/ directory
 
 #### Step 1.1: Execute Job Search Protocol
 ```bash
@@ -86,14 +87,51 @@ Ensure selected positions meet all criteria:
 - ✅ **Not Previously Applied:** Verify against applied-to.md (no application within 6 months)
 - ✅ **Commute Analysis:** For on-site/hybrid positions in Baltimore metro, verify company address and calculate commute time from 1221 N Calvert St, Baltimore, MD 21202
 
-### Phase 3: Directory Structure Creation
+### Phase 3: Company Research Execution
 
-#### Step 3.1: Create Target Directory
+#### Step 3.1: Execute Company Research Protocol
+For each selected position, execute comprehensive company research:
+
+```bash
+# Follow company research protocol for each target company
+read protocols/company-research.md and execute all steps
+```
+
+**Required Research Areas:**
+- **Business Model & Market Position:** Core services, revenue model, market position, recent strategic moves
+- **Technology Stack & Engineering:** Technology choices, architecture decisions, engineering culture, scale metrics
+- **Culture & Opportunities:** Remote work policies, company values, hiring philosophy, growth trajectory
+- **Strategic Alignment:** How company mission/values align with Matthew's expertise and career goals
+
+**Research Output Requirements:**
+- Create company analysis document: `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md`
+- Include application context noting targeted position and strategic recommendations
+- Document specific company language, values, and technology terminology for application materials
+
+#### Step 3.2: Research Integration Planning
+For each company researched:
+
+**Extract Key Insights for Application Materials:**
+- **Company-Specific Language:** Terminology, values, mission statements, technology names
+- **Strategic Initiatives:** Recent news, product launches, market expansion, technology investments
+- **Culture Indicators:** Work environment, team structure, innovation approach, remote work policies
+- **Technology Alignment:** Specific platforms, tools, methodologies mentioned in company materials
+- **Competitive Positioning:** How company differentiates itself, market challenges, growth opportunities
+
+**Application Positioning Strategy:**
+- **Value Proposition Alignment:** Connect Matthew's background to company's specific strategic needs
+- **Language Integration:** Use company's terminology and phrases naturally in application materials
+- **Problem-Solution Fit:** Position Matthew's crisis resolution and innovation experience to address company's stated challenges
+- **Cultural Alignment:** Demonstrate understanding of company values and work environment preferences
+
+### Phase 4: Directory Structure Creation
+
+#### Step 4.1: Create Target Directory
 ```bash
 mkdir -p ./resumes/targeted
 ```
 
-#### Step 3.2: File Naming Convention
+#### Step 4.2: File Naming Convention
 **Format:** `MatthewWhited-{CompanyName}-{JobTitle}-{resume|coverletter|intro}.md`
 
 **Examples:**
@@ -110,9 +148,9 @@ mkdir -p ./resumes/targeted
 - Abbreviate long job titles reasonably (Principal-Solutions-Architect-AI-ML)
 - Maximum filename length of 100 characters
 
-### Phase 4: Targeted Resume Creation
+### Phase 5: Targeted Resume Creation
 
-#### Step 4.1: Resume Analysis and Positioning
+#### Step 5.1: Resume Analysis and Positioning
 For each selected position:
 
 1. **Job Posting Analysis:**
@@ -122,11 +160,18 @@ For each selected position:
    - Document specific technologies mentioned
    - Identify decision-maker language/priorities
 
-2. **Master Resume Mapping:**
-   - Map master resume experience to job requirements
-   - Identify most relevant achievements for this role
-   - Select appropriate quantified metrics
-   - Choose relevant technical skills emphasis
+2. **Company Research Integration:**
+   - **Reference Company Analysis:** Use insights from `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md`
+   - **Strategic Alignment:** Position experience to address company's specific challenges and strategic initiatives
+   - **Language Integration:** Incorporate company-specific terminology, values, and mission language naturally
+   - **Technology Focus:** Emphasize technologies and methodologies mentioned in company research
+   - **Culture Alignment:** Adapt professional narrative to match company culture and work environment
+
+3. **Master Resume Mapping:**
+   - Map master resume experience to job requirements AND company strategic needs
+   - Identify most relevant achievements for this role and company context
+   - Select appropriate quantified metrics that resonate with company's scale and challenges
+   - Choose relevant technical skills emphasis based on company's technology stack and direction
 
 #### Step 4.2: Resume Customization Strategy
 **Base Template:** Use master resume as authoritative source
@@ -158,9 +203,11 @@ For each selected position:
 ---
 
 ## Professional Experience
-[Master resume experience with emphasis on relevant achievements]
+[COMPLETE work history from master resume - ALL positions included]
+[Emphasis on relevant achievements for target role]
 [Quantified results that match job posting priorities]
 [Use company's language and terminology where appropriate]
+[Maintain chronological accuracy and include all employment dates]
 
 ---
 
@@ -179,6 +226,13 @@ For each selected position:
 [Standard metrics with any company-specific relevance noted]
 ```
 
+**CRITICAL REQUIREMENT - Complete Work History:**
+- **MUST include ALL positions from master resume** - no omissions allowed
+- **Maintain chronological accuracy** - all dates must match master resume exactly
+- **Preserve employment timeline integrity** - no gaps or missing positions
+- **Include complete company names and titles** - maintain professional record accuracy
+- **Emphasize relevant achievements** while keeping full work history visible
+
 ### Phase 5: Quick Intro Generation
 
 #### Step 5.1: Quick Intro Purpose and Structure
@@ -192,22 +246,31 @@ For each selected position:
 3. **Company/position interest alignment** demonstrating research
 4. **Value proposition or unique differentiator** (community authority, specific achievements)
 
-#### Step 5.3: Quick Intro Template
+#### Step 5.3: Quick Intro Template with Company Research Integration
 ```markdown
 # Quick Introduction - Matthew Whited
 **{Company} {Position Title}**
 
-I'm a Principal Solutions Architect with 20+ years of AI/ML engineering experience, having recently [specific relevant achievement that aligns with company needs]. My background includes [relevant leadership/technical experience] while achieving [specific accomplishment relevant to role]. I'm particularly drawn to [Company]'s [specific mission/initiative/technology] and see a perfect opportunity to apply my deep experience with [relevant domain/technology] to [specific company challenge/opportunity]. My unique combination of [technical innovation/community authority] and proven business impact—demonstrated through [specific metric like NuGet downloads, Stack Overflow reputation, cost optimizations]—positions me to drive meaningful results for [Company]'s [relevant team/initiative/goal].
+I'm a Principal Solutions Architect with 20+ years of [relevant domain] experience, having recently [specific relevant achievement that aligns with company's strategic needs from research]. My background includes [relevant leadership/technical experience] while achieving [specific accomplishment that addresses company's stated challenges]. I'm particularly drawn to [Company]'s [specific mission/initiative/technology from company research] and see a perfect opportunity to apply my deep experience with [relevant domain/technology matching company's technology stack] to [specific company challenge/strategic initiative from research]. My unique combination of [technical innovation/community authority] and proven business impact—demonstrated through [specific metric that resonates with company's scale and market]—positions me to drive meaningful results for [Company]'s [relevant strategic goal/growth initiative from research].
 ```
+
+**Company Research Integration Requirements:**
+- **Strategic Alignment:** Reference specific company initiatives, market expansion, or technology investments from research
+- **Technology Match:** Mention specific technologies, platforms, or methodologies identified in company analysis
+- **Challenge Addressing:** Connect experience to specific challenges or opportunities identified in company research
+- **Scale Relevance:** Use metrics and achievements that match the company's scale and market position
+- **Mission Connection:** Reference company's mission, values, or strategic direction from research findings
 
 ### Phase 6: Cover Letter Generation
 
-#### Step 5.1: Cover Letter Research
+#### Step 6.1: Cover Letter Research Integration
 For each position:
-- **Company Research:** Recent news, culture, values, strategic initiatives
-- **Hiring Manager:** LinkedIn research if possible
-- **Team/Department:** Understanding of reporting structure and team dynamics
-- **Strategic Challenges:** Industry challenges this role would address
+- **Reference Company Analysis:** Use comprehensive insights from `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md`
+- **Strategic Context:** Recent news, product launches, market expansion, technology investments from company research
+- **Culture & Values:** Work environment, innovation approach, mission alignment from research findings
+- **Technology Alignment:** Specific platforms, methodologies, and technical challenges identified in company analysis
+- **Hiring Manager Research:** LinkedIn research if possible, team structure understanding
+- **Strategic Challenges:** Industry challenges this role would address based on company's competitive positioning
 
 #### Step 5.2: Cover Letter Structure
 ```markdown
@@ -252,12 +315,13 @@ Matthew Whited
 **Attachments:** Resume, Portfolio Links (if relevant)
 ```
 
-#### Step 5.3: Cover Letter Customization Requirements
-**Company-Specific Elements:**
-- Reference recent company news, initiatives, or challenges
-- Use company's terminology and language style
-- Address specific pain points this role would solve
-- Demonstrate knowledge of company culture/values
+#### Step 6.3: Cover Letter Customization Requirements
+**Company Research Integration:**
+- **Strategic Initiatives:** Reference specific company developments, product launches, or market expansion from research
+- **Language & Terminology:** Use company's specific terminology, mission language, and technology names from research
+- **Problem-Solution Alignment:** Address specific pain points and challenges identified in company analysis
+- **Culture Demonstration:** Show understanding of company values, work environment, and innovation approach from research
+- **Competitive Positioning:** Position Matthew's experience to address company's stated market challenges and growth opportunities
 
 **Role-Specific Elements:**
 - Address every "required" qualification from job posting
@@ -271,22 +335,34 @@ Matthew Whited
 For each resume and cover letter pair:
 
 **Resume Validation:**
+- ✅ **COMPLETE WORK HISTORY:** All positions from master resume included with no omissions
 - ✅ All dates and positions match master resume exactly
+- ✅ **Employment timeline integrity:** No gaps or missing positions from chronological history
 - ✅ Technical achievements remain quantified and verifiable
-- ✅ Company-specific keywords incorporated naturally
-- ✅ Professional narrative flows logically for target audience
+- ✅ **Company Research Integration:** Company-specific terminology, values, and strategic initiatives incorporated naturally
+- ✅ **Technology Alignment:** Technologies and methodologies from company research emphasized appropriately
+- ✅ Professional narrative flows logically for target audience and company culture
 - ✅ Contact information and links consistent
-- ✅ Length appropriate (2-3 pages)
+- ✅ Length appropriate (2-3 pages) - complete history may require additional length
 - ✅ ATS-friendly formatting maintained
 
 **Cover Letter Validation:**
 - ✅ Addresses specific job requirements mentioned in posting
-- ✅ Demonstrates knowledge of company and role
-- ✅ Uses professional, company-appropriate tone
-- ✅ Quantifies relevant achievements
+- ✅ **Company Knowledge Demonstration:** References specific company initiatives, strategic moves, or technology investments from research
+- ✅ **Language Integration:** Uses company's terminology, mission language, and technology names naturally
+- ✅ **Strategic Alignment:** Positions experience to address company's specific challenges and opportunities
+- ✅ Uses professional, company-appropriate tone matching company culture
+- ✅ Quantifies relevant achievements that resonate with company scale and market
 - ✅ Includes clear call-to-action
 - ✅ Error-free grammar and spelling
 - ✅ Length appropriate (1 page maximum)
+
+**Quick Intro Validation:**
+- ✅ **Strategic Relevance:** References specific company mission, technology stack, or strategic initiatives from research
+- ✅ **Challenge Addressing:** Connects experience to specific company challenges or opportunities identified in research
+- ✅ **Scale Alignment:** Uses metrics and achievements appropriate for company's size and market position
+- ✅ Professional tone suitable for networking and outreach
+- ✅ Length appropriate (single paragraph, 4 sentences maximum)
 
 #### Step 6.2: Consistency Check
 - ✅ Resume and cover letter tell coherent story
@@ -343,19 +419,52 @@ Ensure all files created:
 - **Customization:** Clear differentiation between applications based on company/role
 - **Professionalism:** Error-free, properly formatted, professional presentation
 
-### Phase 9: User Summary and Next Steps
+### Phase 9: Learning Gap Analysis & Suggested Skills Update
 
-#### Step 9.1: Provide Executive Summary
+#### Step 9.1: Update Suggested Learning File
+**File:** `./SearchResults/Lessons/suggested.md`
+
+**Identify and Document Learning Opportunities:**
+1. **Gap Analysis:** Compare job requirements against Matthew's current expertise across all targeted positions
+2. **Technology Assessment:** Note specific technologies, frameworks, or certifications mentioned but not in Matthew's background
+3. **Priority Classification:** Categorize gaps as High/Medium/Low priority based on:
+   - Frequency of appearance across target positions
+   - Compensation impact potential
+   - Learning difficulty and time investment
+   - Market trend relevance and strategic importance
+
+**Suggested Learning Entry Format:**
+```markdown
+### [Priority Level] Priority
+- **[Technology/Skill Name]**
+  - **Source:** [Company] [Position] - [requirement type: required/preferred]
+  - **Gap:** [Specific gap description]
+  - **Learning Focus:** [What specifically to learn]
+  - **Business Value:** [Why this skill matters for career advancement]
+  - **Estimated Effort:** [Time investment estimate]
+```
+
+**Update Strategy:**
+- **Add New Gaps:** Technologies not currently tracked in suggested.md
+- **Update Existing:** Increase priority if technology appears in multiple high-value positions
+- **Cross-Reference:** Note which positions are driving specific learning needs
+- **Trend Analysis:** Track which technologies are becoming more common in target applications
+
+### Phase 10: User Summary and Next Steps
+
+#### Step 10.1: Provide Executive Summary
 - Number of positions selected and why
 - Key differentiators emphasized for each application
 - Recommended application timeline
 - Specific positioning strategy for each company
+- Learning opportunities identified for future positioning
 
-#### Step 9.2: Application Guidance
+#### Step 10.2: Application Guidance
 - Optimal application submission timing
 - Follow-up communication strategies
 - Interview preparation recommendations
 - Network activation opportunities
+- Suggested skill development priorities based on market analysis
 
 ---
 
