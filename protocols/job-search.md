@@ -93,7 +93,7 @@ Target AI-specific platforms and startup ecosystems:
 - **AI Engineering Jobs:** https://jobs.applied-llms.org/ - Applied LLM positions
 
 #### Startup Platforms
-- **Wellfound (AngelList):** https://wellfound.com/ - 130,000+ startup jobs
+- **Wellfound (AngelList):** https://wellfound.com/ - 130,000+ startup jobs with salary/equity transparency
 - **Built In:** Regional tech company focus
 - **AngelList Direct:** Startup CTO and founding engineer roles
 
@@ -250,7 +250,7 @@ During search execution, identify additional relevant platforms:
 - **Built In:** https://builtin.com/jobs/remote - Tech jobs with new positions daily from top companies & startups
 - **RemoteOK:** https://remoteok.com/ - 1M+ remote jobs, salary transparency (#OpenSalaries)
 - **FlexJobs:** https://www.flexjobs.com/ - 66K+ Solutions Architect jobs, 68K+ Data Architect jobs
-- **Wellfound (AngelList):** https://wellfound.com/ - 130K+ remote jobs, salary/equity upfront
+- **Wellfound (AngelList):** https://wellfound.com/ - 130K+ remote jobs, salary/equity upfront, direct hiring manager contact
 - **Arc:** https://arc.dev/ - $60-100+/hour Enterprise Architecture developers
 - **Toptal:** https://www.toptal.com/ - Top 3% freelance talent network
 - **We Work Remotely:** https://weworkremotely.com/ - Advanced remote job search
