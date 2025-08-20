@@ -32,9 +32,11 @@ Create todo list with these initial tasks:
 # Follow existing job search protocol
 read protocols/job-search.md and execute all steps
 ```
+- **Check Application History FIRST:** Review `./SearchResults/applied-to.md` to avoid duplicates
 - Use all existing job search methodology
 - Apply user preferences (remote priority, $180K+/$85+hr, no clearance)
 - Focus on positions with direct application links
+- Filter out companies applied to within last 6 months
 - Document results in SearchResults/Jobs/ directory
 
 #### Step 1.2: Probability Assessment Matrix
@@ -81,6 +83,7 @@ Ensure selected positions meet all criteria:
 - ✅ No security clearance required
 - ✅ Direct application process available
 - ✅ Job posting is current (within 30 days)
+- ✅ **Not Previously Applied:** Verify against applied-to.md (no application within 6 months)
 - ✅ **Commute Analysis:** For on-site/hybrid positions in Baltimore metro, verify company address and calculate commute time from 1221 N Calvert St, Baltimore, MD 21202
 
 ### Phase 3: Directory Structure Creation
@@ -294,7 +297,14 @@ For each resume and cover letter pair:
 
 ### Phase 7: Application Strategy Documentation
 
-#### Step 7.1: Create Application Tracking Document
+#### Step 7.1: Update Application Tracking
+**CRITICAL:** Before creating strategy document, update central application tracker:
+
+1. **Update Applied-To File:** Add each application to `./SearchResults/applied-to.md`
+2. **Use Application Tracking Protocol:** Follow `protocols/application-tracking.md` for each application
+3. **Document Application Method:** Note "Targeted Application Protocol" as source
+
+#### Step 7.2: Create Application Strategy Document
 **File:** `./resumes/targeted/Application_Strategy_[YYYYMMDD].md`
 
 ```markdown

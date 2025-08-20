@@ -14,11 +14,12 @@ Execute this protocol when the user requests:
 
 ### Phase 1: Initialize Research (TodoWrite Required)
 Create todo list with these tasks:
-1. Research [Company] overview and business model
-2. Analyze [Company] technology stack and technical challenges  
-3. Investigate career opportunities and company culture
-4. Assess alignment with Matthew's technical expertise and career goals
-5. Create comprehensive analysis document in ./SearchResults/Companies/[CompanyName]_[YYYYMMDD].md
+1. **Check Application History:** Review `./SearchResults/applied-to.md` for previous applications to company
+2. Research [Company] overview and business model
+3. Analyze [Company] technology stack and technical challenges  
+4. Investigate career opportunities and company culture
+5. Assess alignment with Matthew's technical expertise and career goals
+6. Create comprehensive analysis document in ./SearchResults/Companies/[CompanyName]_[YYYYMMDD].md
 
 ### Phase 2: Business Intelligence Research
 Execute these searches in parallel:
@@ -169,6 +170,8 @@ mkdir -p ./SearchResults/Companies
 
 ### **Overall Assessment: [LOW/MODERATE-LOW/MODERATE/MODERATE-HIGH/HIGH] Interest**
 
+**Application History:** [Note any previous applications to company from applied-to.md]
+
 [2-3 paragraph assessment of opportunity]
 
 ### **Key Decision Factors**
@@ -182,6 +185,7 @@ mkdir -p ./SearchResults/Companies
 2. [Network research suggestions]
 3. [Skill development areas]
 4. [Position monitoring strategy]
+5. **Application Strategy:** [Based on application history - first application, reapplication timing, or follow-up approach]
 
 ---
 

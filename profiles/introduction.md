@@ -1,27 +1,29 @@
 # Hello, I'm Matthew Whited
 
-I'm a Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with a passion for solving complex technical challenges and building systems that make a real difference. With over 20 years in software development, I've had the privilege of working across everything from embedded microcontrollers to enterprise-scale AI systems.
+I'm a Principal Solutions Architect with a passion for architecting enterprise-scale AI/ML solutions and solving complex technical challenges that drive real business impact. With over 20 years in software development and system architecture, I've had the privilege of designing and implementing everything from embedded microcontrollers to production AI/ML infrastructure serving millions of users.
 
 ## What Drives Me
 
-I love the intersection of hardware and software - there's something deeply satisfying about understanding systems from the silicon up to the cloud. My background in electronics gives me a unique perspective on performance optimization and low-level system design that I bring to every project.
+I love architecting complex systems that bridge the gap between cutting-edge innovation and practical enterprise solutions. There's something deeply satisfying about understanding systems from the hardware foundation up to cloud-scale AI/ML infrastructure. My background in electronics engineering gives me a unique perspective on performance optimization and system design that I bring to every enterprise architecture challenge.
 
 ## My Journey
 
-My career started with electronics and embedded systems, which taught me to think about efficiency and resource constraints. This foundation has been invaluable as I've moved into enterprise architecture, where those same principles apply at scale. Whether I'm designing a custom microprocessor or optimizing database queries for million-record datasets, it's all about understanding the fundamentals.
+My career started with electronics and embedded systems, which taught me to think about efficiency, resource constraints, and system-level performance optimization. This foundation has been invaluable as a Principal Solutions Architect, where those same principles apply at enterprise scale. Whether I'm architecting AI/ML infrastructure, designing custom database extensions, or optimizing queries for million-record datasets, it's all about understanding the fundamental building blocks and how they compose into scalable solutions.
 
-## What I'm Working On
+## What I'm Architecting
 
-Currently, I'm working on cloud architecture optimization and application performance enhancement at Green Onion (Life Time Foundation), where I'm achieving substantial cost reductions through comprehensive architecture review. I'm also deep into AI and machine learning integration, particularly around semantic search and vector databases. I've built custom SQLCLR extensions for SQL Server that have been downloaded over 650,000 times across my 20 NuGet packages - it's incredibly rewarding to see the community adopting these tools. My command-line tools alone have over 34,000 downloads each, and I've developed specialized libraries for everything from electronic scoring systems in fencing to radiation monitoring devices. My vector search extensions are being used in production systems, and I'm working with sentence transformers for fuzzy matching. It's fascinating how we can now make computers understand meaning, not just match text.
+Currently, I'm leading enterprise cloud architecture optimization initiatives at Green Onion (Life Time Foundation), where I'm achieving substantial cost reductions (77%+ in some cases) through comprehensive architecture review and system redesign. As a Principal Solutions Architect, I'm particularly focused on AI/ML infrastructure design, semantic search architectures, and high-performance vector database implementations. 
 
-## My Approach
+I've architected custom SQLCLR extensions for SQL Server that have been downloaded over 650,000 times across my 20 NuGet packages - it's incredibly rewarding to see enterprise teams adopting these architectural patterns and tools. My solutions range from performance-critical command-line frameworks to specialized enterprise systems for electronic scoring and radiation monitoring. My vector search architecture extensions are being used in production enterprise systems, and I'm working with sentence transformer models to architect fuzzy matching solutions at scale. It's fascinating how we can now architect systems that understand semantic meaning, not just perform text matching.
 
-I believe in:
-- **Building for the long term** - Creating frameworks and patterns that teams can build on
-- **Teaching while doing** - I've run .NET boot camps and AI training programs because knowledge sharing is crucial
-- **Getting my hands dirty** - Whether it's developing USB HID device abstractions or debugging embedded firmware, I'm not afraid to dive deep
-- **Solving niche problems** - From electronic scoring systems to radiation monitoring, I enjoy tackling specialized technical challenges
-- **Continuous learning** - Technology evolves rapidly, and staying curious is essential
+## My Architecture Philosophy
+
+As a Principal Solutions Architect, I believe in:
+- **Enterprise-Scale Architecture** - Designing frameworks and patterns that scale across organizations and enable teams to build consistently
+- **Knowledge Transfer Leadership** - I've run .NET boot camps and AI training programs because architectural knowledge sharing is crucial for organizational scaling
+- **Deep Technical Implementation** - Whether it's developing custom database extensions or debugging distributed systems, I maintain hands-on technical depth alongside architectural vision
+- **Domain-Specific Excellence** - From enterprise AI/ML systems to specialized industrial applications, I excel at translating complex business requirements into technical architecture
+- **Continuous Innovation** - Architecture evolves rapidly, and staying at the forefront of emerging technologies like AI/ML is essential for strategic guidance
 
 ## Beyond Work
 
@@ -29,4 +31,4 @@ When I'm not coding, I'm often working on personal electronics projects - I've d
 
 I'm active in the developer community with 22K+ reputation on Stack Overflow from 600+ solutions spanning 15+ years of helping fellow developers reach nearly 5 million users. I've been recognized as a GitHub Arctic Code Vault Contributor with 30+ repositories and achievements including Pull Shark (x2), Quickdraw, YOLO, and Starstruck, which feels like a small part of preserving digital history.
 
-I'm always excited to connect with fellow technologists and discuss everything from FPGA design to the latest developments in transformer models.
+I'm always excited to connect with fellow architects and technologists to discuss everything from enterprise AI/ML architecture design to the latest developments in vector databases and transformer model implementations.

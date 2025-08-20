@@ -58,7 +58,8 @@
       "WebFetch(domain:www.pomelocare.com)",
       "WebFetch(domain:boards.greenhouse.io)",
       "WebFetch(domain:job-boards.greenhouse.io)",
-      "WebFetch(domain:hartmanresumes.catsone.com)"
+      "WebFetch(domain:hartmanresumes.catsone.com)",
+      "WebFetch(domain:wellfound.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

@@ -146,6 +146,14 @@ Research technology leadership opportunities in consulting and Fortune 500 compa
 
 ## Search Execution Process
 
+### Pre-Execution: Check Application History
+**CRITICAL:** Before executing any job search, check existing applications to avoid duplicates:
+
+1. **Read Applied-To File:** Review `./SearchResults/applied-to.md` if it exists
+2. **Company Filter:** Identify companies already applied to within last 6 months
+3. **Search Modification:** Exclude recently applied companies or note for reference
+4. **Documentation:** Include application status context in research findings
+
 ### Step 1: Platform Research (Parallel Execution)
 For each platform category, execute the following:
 
@@ -164,6 +172,8 @@ For each platform category, execute the following:
    - Extract salary ranges and compensation details
    - Note key requirements and qualifications
    - Assess alignment with unique capabilities
+   - **Cross-Reference Applications:** Check each opportunity against applied-to.md
+   - **Mark Applied Status:** Note if previously applied to company/position
    - **CRITICAL:** Document all search results in individual platform files for comprehensive summary building
 
 ### Step 2: Competitive Advantage Analysis
@@ -276,6 +286,24 @@ When new relevant platforms are discovered:
 2. Include platform URL and specialization focus
 3. Define search terms specific to platform audience
 4. Create new SearchResults/Jobs file for platform analysis
+
+## Application Status Integration
+
+### Application History Cross-Reference
+When building comprehensive summary, integrate application tracking:
+
+#### Application Status Indicators
+- **Never Applied:** ✅ Available for application
+- **Recently Applied:** ⏳ Applied within 6 months (note date)
+- **Previously Applied:** 📋 Applied >6 months ago (may reapply)
+- **Interview Process:** 🎯 Currently in interview pipeline
+- **Rejected/Closed:** ❌ Previous application unsuccessful
+
+#### Summary Integration Requirements
+1. **Filter Applied Companies:** Separate new opportunities from previously applied
+2. **Application Timeline:** Note timing of previous applications
+3. **Reapplication Strategy:** Identify companies worth re-approaching
+4. **Application Gap Analysis:** Highlight high-fit companies never applied to
 
 ## Summary and Ranking Process
 
