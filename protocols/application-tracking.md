@@ -17,8 +17,8 @@ Execute this protocol when the user states:
 Extract the following information from user input:
 - **Company Name:** Extract company name (normalize capitalization)
 - **Job Title:** Extract specific position if mentioned
-- **Application Date:** Use current date if not specified
-- **Application Method:** Infer from context (direct, recruiter, job board, etc.)
+- **Application Date:** ALWAYS use current date (today) unless user explicitly specifies a different date
+- **Application Method:** Infer from context (direct, recruiter, job board, etc.) or default to "Direct"
 
 ### Phase 2: Check for Duplicates
 Before adding entry, execute duplicate checking:
