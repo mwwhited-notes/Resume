@@ -33,7 +33,8 @@ Create todo list with these initial tasks:
 # Follow existing job search protocol
 read protocols/job-search.md and execute all steps
 ```
-- **Check Application History FIRST:** Review `./SearchResults/applied-to.md` to avoid duplicates
+- **Check Application History FIRST:** Review `./SearchResults/applied-to.md` and `./SearchResults/apply-next.md` to avoid duplicates
+- **Already Applied Check:** If position found in either tracking file, respond with "Already applied to [Company] - [Position] on [Date]" and skip this position
 - Use all existing job search methodology
 - Apply user preferences (remote priority, $180K+/$85+hr, no clearance)
 - Focus on positions with direct application links
@@ -84,7 +85,7 @@ Ensure selected positions meet all criteria:
 - ✅ No security clearance required
 - ✅ Direct application process available
 - ✅ Job posting is current (within 30 days)
-- ✅ **Not Previously Applied:** Verify against applied-to.md (no application within 6 months)
+- ✅ **Not Previously Applied:** Verify against both applied-to.md and apply-next.md (no application within 6 months)
 - ✅ **Commute Analysis:** For on-site/hybrid positions in Baltimore metro, verify company address and calculate commute time from 1221 N Calvert St, Baltimore, MD 21202
 
 ### Phase 3: Company Research Execution
