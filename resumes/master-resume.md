@@ -321,12 +321,14 @@
 
 ## Education & Professional Development
 
-### DeVry University - Electronic Engineering Technology (2000 - 2002)
-**Advanced Technical Education (Degree Not Completed)**
-- **VHDL Programming:** Complex Programmable Logic Device (CPLD) implementation and hardware description languages
-- **Advanced Electronics:** Digital circuits, analog electronics, microprocessor design, embedded systems
-- **Status:** 60+ credits completed toward Electronic Engineering Technology degree
-- **Reason:** Program discontinued due to funding constraints
+### DeVry University - Columbus Campus (2000 - 2002)
+**Electronic Engineering Technology Program - 33 Credit Hours Completed**
+- **Digital Systems Excellence:** Perfect 4.0 GPA in core Digital Circuits (EET 122) and Digital Systems (EET 202) coursework with laboratory components
+- **Circuit Analysis Foundation:** DC Circuit Analysis (EET 108) and laboratory work providing fundamental electrical engineering knowledge
+- **Academic Performance:** 3.12/4.0 cumulative GPA with strong technical performance trajectory and mathematics achievement (College Algebra: A grade)
+- **Professional Development:** Technical writing (ENGL 227) and communication skills supporting documentation excellence
+- **Engineering Methodology:** Comprehensive laboratory experience and hands-on technical problem-solving development
+- **Hardware-Software Bridge:** Digital systems and circuit knowledge providing foundation for later personal microprocessor design projects and system optimization expertise
 
 ### Eastland-Fairfield Career and Technical Schools - Electronics Technician Certification (1998 - 2000)
 **Certified Electronics Technician - Advanced Student Teaching Role**

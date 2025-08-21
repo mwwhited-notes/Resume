@@ -213,7 +213,7 @@
 ## Education & Professional Development
 
 ### Professional Development
-- **Electronics Engineering Technology** - ITT Technical Institute, Dayton (60+ credits)
+- **Electronic Engineering Technology** - DeVry University (33 credits)
 - **Electronics Technician Certification** - Eastland-Fairfield Career and Technical Schools
 - **Self-Directed Technical Mastery:** Continuous learning in Azure cloud services, .NET ecosystem evolution, AI/ML integration
 

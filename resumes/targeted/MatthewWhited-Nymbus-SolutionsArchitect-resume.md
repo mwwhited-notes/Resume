@@ -132,7 +132,7 @@ Senior Principal Solutions Architect with 20+ years of enterprise API developmen
 ## Education & Professional Development
 
 **Technical Foundation:**
-- **Electronics Technology:** ITT Technical Institute - systems architecture and infrastructure knowledge
+- **Electronic Engineering Technology:** DeVry University - systems architecture and infrastructure knowledge
 - **Continuous Learning:** Ongoing API technology, cloud architecture, and FinTech domain training
 - **Industry Certifications:** Cloud platform certifications and API security credentials
 

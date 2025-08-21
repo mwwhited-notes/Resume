@@ -199,7 +199,7 @@
 ## Education & Continuous Learning
 
 ### Professional Development
-- **Electronics Engineering Technology** - ITT Technical Institute, Dayton
+- **Electronic Engineering Technology** - DeVry University
 - **Self-Directed Technical Mastery:** Continuous learning in emerging technologies, enterprise architecture patterns, and integration platforms
 - **Industry Recognition:** Multiple technical achievements validating deep expertise across enterprise systems and modern development practices
 

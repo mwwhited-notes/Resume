@@ -132,7 +132,7 @@ Senior Principal Solutions Architect with 20+ years of enterprise-wide technical
 ## Education & Professional Development
 
 **Technical Foundation:**
-- **Electronics Technology:** ITT Technical Institute - systems architecture and infrastructure
+- **Electronic Engineering Technology:** DeVry University - systems architecture and infrastructure
 - **Continuous Learning:** Cloud platforms, enterprise architecture, emerging technologies
 - **Professional Certifications:** Committed to obtaining relevant networking certifications
 

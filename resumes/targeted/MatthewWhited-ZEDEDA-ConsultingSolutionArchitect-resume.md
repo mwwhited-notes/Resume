@@ -132,7 +132,7 @@ Senior Principal Solutions Architect with 20+ years of enterprise consulting exc
 ## Education & Professional Development
 
 **Technical Education:**
-- **Electronics Technology:** ITT Technical Institute - foundational hardware and systems knowledge for edge computing
+- **Electronic Engineering Technology:** DeVry University - foundational hardware and systems knowledge for edge computing
 - **Continuous Professional Development:** Ongoing edge computing, container orchestration, and emerging technology training
 - **Industry Certifications:** Commitment to edge computing platform certifications and distributed systems expertise advancement
 

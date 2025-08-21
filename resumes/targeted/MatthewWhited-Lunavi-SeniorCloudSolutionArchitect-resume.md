@@ -132,7 +132,7 @@ Baltimore-based Senior Cloud Solution Architect with 20+ years of Microsoft Azur
 ## Education & Professional Development
 
 **Technical Foundation:**
-- **Electronics Technology:** ITT Technical Institute - systems architecture and infrastructure fundamentals
+- **Electronics Technology:** DeVry University - Electronic Engineering Technology, systems architecture and infrastructure fundamentals
 - **Microsoft Ecosystem:** Deep Azure platform expertise and emerging technology adoption
 - **Continuous Learning:** Committed to advancing Azure certifications and Microsoft specializations
 

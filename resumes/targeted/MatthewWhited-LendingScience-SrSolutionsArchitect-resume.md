@@ -126,7 +126,7 @@ Baltimore-based Senior Solutions Architect with 20+ years of C# mastery and ente
 ## Education & Professional Development
 
 **Technical Foundation:**
-- **Electronics Technology:** ITT Technical Institute - systems architecture fundamentals
+- **Electronic Engineering Technology:** DeVry University - systems architecture fundamentals
 - **Continuous Learning:** C#/.NET advancements, SQL Server optimization, FinTech trends
 - **Professional Certifications:** Microsoft technology stack and financial services compliance
 

@@ -133,7 +133,7 @@ Senior Principal Solutions Architect with 20+ years of enterprise technology lea
 ## Education & Certifications
 
 **Technical Education:**
-- **Electronics Technology:** ITT Technical Institute - foundational hardware and systems knowledge
+- **Electronic Engineering Technology:** DeVry University - foundational hardware and systems knowledge
 - **Continuous Professional Development:** Ongoing Azure, cloud architecture, and emerging technology training
 - **Industry Certifications:** Committed to Azure Solutions Architect Expert certification completion within 90 days
 

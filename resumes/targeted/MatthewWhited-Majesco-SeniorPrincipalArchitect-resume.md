@@ -126,7 +126,7 @@ Baltimore-based Senior Principal Architect with 20+ years of enterprise platform
 ## Education & Certifications
 
 **Technical Foundation:**
-- **Electronics Technology:** ITT Technical Institute - systems architecture fundamentals
+- **Electronic Engineering Technology:** DeVry University - systems architecture fundamentals
 - **Continuous Learning:** Azure certifications, microservices architecture, AI/ML platforms
 - **Professional Development:** Insurance domain knowledge and regulatory compliance training
 

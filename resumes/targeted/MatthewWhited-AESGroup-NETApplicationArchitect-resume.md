@@ -132,7 +132,7 @@ Senior Principal .NET Application Architect with 20+ years of enterprise softwar
 ## Education & Certifications
 
 **Technical Education:**
-- **Electronics Technology:** ITT Technical Institute - foundational systems and hardware knowledge for enterprise software development
+- **Electronic Engineering Technology:** DeVry University - foundational systems and hardware knowledge for enterprise software development
 - **Continuous Professional Development:** Ongoing .NET, Azure, and financial systems training and certification advancement
 - **Industry Certifications:** Committed to Microsoft Azure and .NET certification completion and maintenance
 
