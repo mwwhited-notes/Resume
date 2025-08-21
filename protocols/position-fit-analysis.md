@@ -14,10 +14,12 @@ Analyze individual job postings provided by URL to determine fit quality and aut
    - Note application process details and timeline requirements
 
 2. **Company Intelligence**
+   - **EXECUTE COMPANY RESEARCH PROTOCOL:** Use `read protocols/company-research.md and follow the protocol step-by-step`
    - Research company background, mission, technology stack, and culture
    - Identify recent company news, growth trajectory, and strategic initiatives
    - Determine company size, stage, and market positioning
    - Note any existing connections or network overlap
+   - Store company research results in `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md`
 
 ### Phase 2: Comprehensive Fit Assessment
 
@@ -131,37 +133,47 @@ File: `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md`
 ### Phase 5: Automatic Application Creation (if ≥7.5/10)
 
 #### Resume Creation
-1. **Company Research Integration**
-   - Incorporate company-specific technology mentions
-   - Align language with company values and mission
-   - Emphasize relevant scale and experience matches
+1. **Source Material Requirements**
+   - **USE MASTER RESUME AS SOURCE:** All content must derive from `./resumes/master-resume.md` as authoritative source
+   - **USE CAREER BACKGROUND:** Reference `./documentation/career-background.md` for comprehensive context and positioning
+   - **NO FABRICATION:** Only use verified information from established documentation
 
-2. **Position-Specific Customization**
+2. **Company Research Integration**
+   - Incorporate company-specific technology mentions from completed company research
+   - Align language with company values and mission identified in company research
+   - Emphasize relevant scale and experience matches based on company analysis
+
+3. **Position-Specific Customization**
    - **MAINTAIN COMPLETE WORK HISTORY:** Include all positions from master resume with no omissions
    - Restructure content hierarchy to match job requirements priority while preserving chronological integrity
    - Highlight directly relevant projects and achievements within complete employment timeline
    - Add industry-specific terminology and frameworks throughout full work history
 
-3. **Technical Alignment**
-   - Emphasize matching technologies and platforms
-   - Quantify relevant scale and performance metrics
-   - Position innovation approach to match company culture
+4. **Technical Alignment**
+   - Emphasize matching technologies and platforms from master resume
+   - Quantify relevant scale and performance metrics from established achievements
+   - Position innovation approach to match company culture identified in research
 
 #### Cover Letter Creation
-1. **Opening Hook**
-   - Reference specific company initiative, technology, or mission element
-   - Connect personal experience to company's strategic priorities
-   - Demonstrate genuine knowledge of company and role
+1. **Source Material Requirements**
+   - **USE MASTER RESUME AS SOURCE:** All achievements and experience must derive from master resume
+   - **USE CAREER BACKGROUND:** Reference career background for context and philosophy
+   - **USE COMPANY RESEARCH:** Incorporate specific insights from completed company research
 
-2. **Value Proposition Sections**
-   - **Technical Excellence:** Direct requirement matches with specific examples
-   - **Strategic Impact:** Business value creation aligned with company goals
-   - **Cultural Alignment:** Approach and values compatibility demonstration
+2. **Opening Hook**
+   - Reference specific company initiative, technology, or mission element from company research
+   - Connect personal experience from master resume to company's strategic priorities
+   - Demonstrate genuine knowledge of company and role from research findings
 
-3. **Closing and Call to Action**
-   - Reference specific next steps or company initiatives
+3. **Value Proposition Sections**
+   - **Technical Excellence:** Direct requirement matches with specific examples from master resume
+   - **Strategic Impact:** Business value creation from established achievements aligned with company goals
+   - **Cultural Alignment:** Approach and values compatibility demonstration using career background
+
+4. **Closing and Call to Action**
+   - Reference specific next steps or company initiatives from research
    - Provide clear contact method and availability
-   - Professional signature with relevant portfolio links
+   - Professional signature with relevant portfolio links from master resume
 
 #### File Storage
 - **Resume:** `./resumes/targeted/MatthewWhited-{CompanyName}-{JobTitle}-resume.md`
@@ -171,11 +183,17 @@ File: `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md`
 #### Quick Intro Creation
 **Purpose:** Brief, first-person introduction for networking and initial outreach
 **Format:** Single paragraph (4 sentences max) in first person
+
+**Source Material Requirements:**
+- **USE MASTER RESUME:** All experience and achievements from master resume only
+- **USE CAREER BACKGROUND:** Reference for professional identity and approach
+- **USE COMPANY RESEARCH:** Incorporate specific company insights for alignment
+
 **Content Structure:**
-1. Role/expertise summary
-2. Relevant experience highlight
-3. Company/position interest alignment
-4. Value proposition or unique differentiator
+1. Role/expertise summary from master resume
+2. Relevant experience highlight from established achievements
+3. Company/position interest alignment using company research insights
+4. Value proposition or unique differentiator from documented accomplishments
 
 **Example:**
 ```
@@ -190,8 +208,21 @@ I'm a Principal Solutions Architect with 20+ years of AI/ML engineering experien
 3. **Week 2:** Follow-up email if no response
 4. **Week 3-4:** Strategic follow-up based on company response patterns
 
-#### Success Tracking
-- Document application submission date and method
+#### Success Tracking and Apply-Next Integration
+
+**CRITICAL: Update Apply-Next Tracking**
+1. **Update Apply-Next Status** (`./SearchResults/apply-next.md`)
+   - Change job status from "❓ Match - Materials Created" to "✅ APPLIED" 
+   - Add "APPLIED {MM/DD}" notation with compensation and key details
+   - Update tracking table with application materials links
+
+2. **Update Applied-To Tracker** (`./SearchResults/applied-to.md`)
+   - Add new entry: `| {YYYY-MM-DD} | {Company} | {Position} | LinkedIn | Applied | {key details and compensation} |`
+   - Increment total applications count
+   - Increment active applications count
+
+**Document Application Details:**
+- Record application submission date and method
 - Track response timeline and communication
 - Note any requests for additional materials or interviews
 - Update fit analysis based on any new information learned
@@ -231,14 +262,19 @@ I'm a Principal Solutions Architect with 20+ years of AI/ML engineering experien
 
 **Expected Response:**
 1. "I'll analyze this position for fit quality and create application materials if warranted."
-2. [Execute Position Analysis]
-3. [Present Fit Score and Analysis Summary]
-4. [If ≥7.5] "This is a strong fit (X.X/10). I've created targeted resume and cover letter materials."
-5. [If <7.5] "This position scores X.X/10. Here's my analysis and recommendation."
+2. [Execute Company Research Protocol]
+3. [Execute Position Analysis]
+4. [Present Fit Score and Analysis Summary]
+5. [If ≥7.5] "This is a strong fit (X.X/10). I've created targeted resume and cover letter materials using master resume as source."
+6. [If <7.5] "This position scores X.X/10. Here's my analysis and recommendation."
+7. **[If Materials Created] Update both apply-next.md and applied-to.md tracking files**
 
 ## Quality Standards
 - All analysis must reference specific job posting requirements
 - Scores must be supported by concrete evidence and examples
+- **Application materials must use master resume and career background as exclusive sources**
+- **Company research protocol must be executed for all analyses**
+- **Apply-next.md and applied-to.md tracking must be updated when materials are created**
 - Application materials must demonstrate deep customization (5+ specific matches)
 - Timeline and follow-up recommendations must be realistic and actionable
 - All storage must follow established file naming conventions

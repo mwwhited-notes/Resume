@@ -30,8 +30,21 @@ Before adding entry, execute duplicate checking:
    - Wait for user confirmation before proceeding
 4. **If no duplicate found:** Proceed to Phase 3
 
-### Phase 3: Update Applied-To File
+### Phase 3: Update Tracking Files
+
+#### Update Applied-To File
 **File Location:** `./SearchResults/applied-to.md`
+
+#### Update Apply-Next File (if entry exists)
+**File Location:** `./SearchResults/apply-next.md`
+
+**Check for Apply-Next Entry:**
+1. **Read apply-next.md file** to check if the company/position exists
+2. **If entry found with "❓ Match - Materials Created" status:**
+   - Update status to "✅ APPLIED - [Date]"
+   - Add compensation details if available
+   - Preserve all other entry information
+3. **If no entry found:** Continue with standard applied-to.md update only
 
 #### File Structure (if creating new file):
 ```markdown
@@ -64,6 +77,12 @@ Before adding entry, execute duplicate checking:
 ```markdown
 | YYYY-MM-DD | [Company Name] | [Job Title] | [Application Method] | Applied | [Additional notes] |
 ```
+
+#### Execute File Updates
+**Required Order:**
+1. **Update apply-next.md first** (if entry exists)
+2. **Update applied-to.md second** (standard application tracking)
+3. **Update total counts** in both files if applicable
 
 ### Phase 4: Integration with Other Protocols
 
