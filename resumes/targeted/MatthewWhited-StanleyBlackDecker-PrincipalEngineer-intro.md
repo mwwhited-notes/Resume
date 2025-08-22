@@ -1,6 +1,0 @@
-# Matthew Whited - Professional Introduction
-## Stanley Black & Decker - Principal Engineer Opportunity
-
----
-
-I'm a Principal Solutions Architect with 20+ years of enterprise middleware and digital transformation experience, having recently achieved 77% Azure cost reduction ($13,800+ annual savings) while leading complete application modernization at Green Onion. My background includes crisis resolution leadership across 125+ developers at Eliassen Group's Centers of Excellence, where I consistently delivered working solutions within weeks after teams struggled for months - including a 1-week AI/ML delivery replacing 12 months of failed development. I'm particularly drawn to Stanley Black & Decker's digital acceleration initiative and your commitment to building "powerful, intelligent architecture with longevity" rather than disparate systems that fail to communicate. My unique combination of C# Gold Badge expertise (.NET mastery), proven Azure optimization achievements, and vendor-neutral technology advisory positions me to drive meaningful results for Stanley Black & Decker's construction technology platform modernization and middleware refactoring initiatives.

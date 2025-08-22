@@ -176,9 +176,9 @@ File: `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md`
    - Professional signature with relevant portfolio links from master resume
 
 #### File Storage
-- **Resume:** `./resumes/targeted/MatthewWhited-{CompanyName}-{JobTitle}-resume.md`
-- **Cover Letter:** `./resumes/targeted/MatthewWhited-{CompanyName}-{JobTitle}-coverletter.md`
-- **Quick Intro:** `./resumes/targeted/MatthewWhited-{CompanyName}-{JobTitle}-intro.md`
+- **Resume:** `./SearchResults/targeted/MatthewWhited-{CompanyName}-{JobTitle}-resume.md`
+- **Cover Letter:** `./SearchResults/targeted/MatthewWhited-{CompanyName}-{JobTitle}-coverletter.md`
+- **Quick Intro:** `./SearchResults/targeted/MatthewWhited-{CompanyName}-{JobTitle}-intro.md`
 
 #### Quick Intro Creation
 **Purpose:** Brief, first-person introduction for networking and initial outreach

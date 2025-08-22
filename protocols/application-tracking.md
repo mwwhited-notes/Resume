@@ -96,7 +96,7 @@ Before adding entry, execute duplicate checking:
 - **Update job search summaries** to mark positions as "Applied" status
 
 #### Targeted Application Protocol Integration
-- **Check for existing targeted materials** in `./resumes/targeted/`
+- **Check for existing targeted materials** in `./SearchResults/targeted/`
 - **If materials exist:** Note which materials were used
 - **If no materials exist:** Suggest creating targeted resume/cover letter
 

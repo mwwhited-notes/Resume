@@ -38,7 +38,7 @@ Create todo list with these initial tasks:
 2. **Filter ALL positions scoring ≥7.5/10** (no artificial limits)
 3. Execute company research for ALL qualifying positions
 4. Create targeted application materials for ALL qualifying positions
-5. Store all materials in ./resumes/targeted/ directory
+5. Store all materials in ./SearchResults/targeted/ directory
 6. Update tracking systems for all positions
 
 #### Step 1.1: Execute Batch Position-Fit Analysis
@@ -100,7 +100,7 @@ read protocols/company-research.md and execute all steps
 
 **Batch Processing Organization:**
 ```
-./resumes/targeted/
+./SearchResults/targeted/
 ├── Batch_Analysis_YYYYMMDD.md (summary document)
 ├── Company1-Position1-resume.md
 ├── Company1-Position1-coverletter.md  
@@ -120,7 +120,7 @@ read protocols/company-research.md and execute all steps
 - **Status Management:** Mark all positions as "❓ Match - Materials Created"
 
 #### Step 4.2: Create Batch Summary Document
-**File:** `./resumes/targeted/Batch_Analysis_[YYYYMMDD].md`
+**File:** `./SearchResults/targeted/Batch_Analysis_[YYYYMMDD].md`
 
 ```markdown
 # Batch Position Analysis - [Date]

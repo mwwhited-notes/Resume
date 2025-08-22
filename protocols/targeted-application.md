@@ -26,7 +26,7 @@ Create todo list with these initial tasks:
 3. Select top 5-8 highest probability positions
 4. **Execute comprehensive company research per protocols/company-research.md for each selected position**
 5. Create targeted application materials for each selected position using company research insights
-6. Store all materials in ./resumes/targeted/ directory
+6. Store all materials in ./SearchResults/targeted/ directory
 
 #### Step 1.1: Execute Job Search Protocol
 ```bash
@@ -129,7 +129,7 @@ For each company researched:
 
 #### Step 4.1: Create Target Directory
 ```bash
-mkdir -p ./resumes/targeted
+mkdir -p ./SearchResults/targeted
 ```
 
 #### Step 4.2: File Naming Convention
@@ -382,7 +382,7 @@ For each resume and cover letter pair:
 3. **Document Application Method:** Note "Targeted Application Protocol" as source
 
 #### Step 7.2: Create Application Strategy Document
-**File:** `./resumes/targeted/Application_Strategy_[YYYYMMDD].md`
+**File:** `./SearchResults/targeted/Application_Strategy_[YYYYMMDD].md`
 
 ```markdown
 # Targeted Application Strategy - [Date]
@@ -411,7 +411,7 @@ Ensure all files created:
 - Resume and cover letter for each selected position
 - Application strategy document
 - All files follow proper naming convention
-- All files stored in ./resumes/targeted/ directory
+- All files stored in ./SearchResults/targeted/ directory
 
 #### Step 8.2: Success Criteria
 - **Quality:** Each resume/cover letter pair specifically addresses job requirements
@@ -491,7 +491,7 @@ Ensure all files created:
 ### File Organization Standards
 **Directory Structure:**
 ```
-./resumes/targeted/
+./SearchResults/targeted/
 ├── Application_Strategy_YYYYMMDD.md
 ├── MatthewWhited-[Company1]-[Role1]-resume.md
 ├── MatthewWhited-[Company1]-[Role1]-coverletter.md
