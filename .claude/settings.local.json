@@ -70,7 +70,16 @@
       "WebFetch(domain:www.majesco.com)",
       "WebFetch(domain:www.lunavi.com)",
       "WebFetch(domain:www.greenboxcapital.com)",
-      "WebFetch(domain:www.nordicglobal.com)"
+      "WebFetch(domain:www.nordicglobal.com)",
+      "WebFetch(domain:uselayer.app)",
+      "WebFetch(domain:uselayers.ai)",
+      "WebFetch(domain:www.layer.ai)",
+      "WebFetch(domain:www.indeed.com)",
+      "WebFetch(domain:www.convergeins.com)",
+      "WebFetch(domain:www.davidmaiolo.com)",
+      "WebFetch(domain:www.flex.one)",
+      "WebFetch(domain:www.minted.com)",
+      "WebFetch(domain:www.missionboxsolutions.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

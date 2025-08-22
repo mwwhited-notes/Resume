@@ -115,7 +115,7 @@
 - **Technical Leadership:** Contributed specialized technical expertise to support foundation mission and enhance operational efficiency
 - **Community Impact:** Applied technology solutions to amplify nonprofit mission and improve service delivery capabilities
 
-### Principal Solutions Architect (AI/ML Crisis Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
+### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
 **Crisis Project Recovery - 1-Week AI/ML Delivery After 12 Months of Failed Development**
 
 - **Project Crisis Recovery:** Called in after two previous "AI/ML" developers worked 6 months each with no results - delivered working prototype within one week
