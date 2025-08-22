@@ -79,7 +79,11 @@
       "WebFetch(domain:www.davidmaiolo.com)",
       "WebFetch(domain:www.flex.one)",
       "WebFetch(domain:www.minted.com)",
-      "WebFetch(domain:www.missionboxsolutions.com)"
+      "WebFetch(domain:www.missionboxsolutions.com)",
+      "WebFetch(domain:vwgoa.taleo.net)",
+      "WebFetch(domain:job-boards.eu.greenhouse.io)",
+      "WebFetch(domain:serigorinc.applytojob.com)",
+      "WebFetch(domain:www.serigor.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

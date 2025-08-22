@@ -134,14 +134,15 @@ mkdir -p ./SearchResults/targeted
 
 #### Step 4.2: File Naming Convention
 **Format:** `MatthewWhited-{CompanyName}-{JobTitle}-{resume|coverletter|intro}.md`
+**Storage Location:** `./SearchResults/targeted/`
 
 **Examples:**
-- `MatthewWhited-Microsoft-Principal-AI-ML-Architect-resume.md`
-- `MatthewWhited-Microsoft-Principal-AI-ML-Architect-coverletter.md`
-- `MatthewWhited-Microsoft-Principal-AI-ML-Architect-intro.md`
-- `MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-resume.md`
-- `MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-coverletter.md`
-- `MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-intro.md`
+- `./SearchResults/targeted/MatthewWhited-Microsoft-Principal-AI-ML-Architect-resume.md`
+- `./SearchResults/targeted/MatthewWhited-Microsoft-Principal-AI-ML-Architect-coverletter.md`
+- `./SearchResults/targeted/MatthewWhited-Microsoft-Principal-AI-ML-Architect-intro.md`
+- `./SearchResults/targeted/MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-resume.md`
+- `./SearchResults/targeted/MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-coverletter.md`
+- `./SearchResults/targeted/MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-intro.md`
 
 **Naming Rules:**
 - Replace spaces with hyphens in company and job titles
