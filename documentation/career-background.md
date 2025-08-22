@@ -9,6 +9,13 @@ This document captures deep career insights, preferences, and hidden expertise d
   - [Work Style Preferences](#work-style-preferences)
   - [Engagement Model Flexibility](#engagement-model-flexibility)
 - [Hidden Technical Expertise](#hidden-technical-expertise)
+  - [Enterprise Framework Architecture Portfolio](#enterprise-framework-architecture-portfolio-newly-discovered)
+  - [Event-Driven Architecture & Complex Event Processing](#event-driven-architecture--complex-event-processing)
+  - [Testing Architecture & Quality Engineering](#testing-architecture--quality-engineering)
+  - [Platform Engineering & DevOps Leadership](#platform-engineering--devops-leadership)
+  - [Message Architecture & Enterprise Integration](#message-architecture--enterprise-integration)
+  - [Observability & Monitoring Architecture](#observability--monitoring-architecture)
+  - [Training & Curriculum Development Authority](#training--curriculum-development-authority)
   - [Industry Domain Expertise - Cross-Sector Experience](#industry-domain-expertise---cross-sector-experience)
   - [Azure Ecosystem Mastery](#azure-ecosystem-mastery-beyond-resume)
   - [Container & Orchestration Philosophy](#container--orchestration-philosophy)
@@ -93,6 +100,195 @@ This document captures deep career insights, preferences, and hidden expertise d
 ---
 
 ## Hidden Technical Expertise
+
+### Enterprise Framework Architecture Portfolio (Newly Discovered)
+**Market Value:** $190K-$270K+ (Enterprise Architecture Specialist)
+**Status:** Previously hidden expertise revealed through training materials analysis
+
+**LightWell Complex Event Processing Framework:**
+- Complete enterprise-scale event-driven architecture
+- IComplexEventHandler system with dependency injection integration
+- NCronTab scheduled event processing with cron format support
+- Message routing and event sourcing capabilities
+- Custom event hub source patterns for cross-service communication
+
+**Message Architecture Framework:**
+- Custom IMessageSender abstraction layer supporting multiple queue providers
+- Azure Service Bus and Storage Queue integration patterns
+- Generic queue provider system with MessageQueue attributes
+- Dependency injection configuration and routing architecture
+
+**Testing Automation Framework:**
+- Multi-tier testing architecture (Unit, Integration, Simulation, UI Automation)
+- MSTest and Moq integration with custom test harnesses
+- Data-driven unit testing patterns and automated test boilerplate generation
+- API service simulation frameworks for complex testing scenarios
+
+**Configuration Management Framework:**
+- Enterprise configuration patterns with separation of concerns
+- Dynamic rule evaluation and runtime configuration changes
+- Testable configuration abstractions with interface-based design
+- Hierarchical configuration management for multi-environment deployments
+
+### Event-Driven Architecture & Complex Event Processing
+**Market Positioning:** Top-tier enterprise architecture specialization ($190K-$240K)
+**Training Authority:** Created comprehensive COE training program
+
+**Technical Expertise:**
+- Enterprise complex event processing systems with scheduled event triggers
+- Event sourcing architecture and message routing patterns
+- Pub/Sub federation patterns with Service Bus topics integration
+- Event hub source patterns for cross-application communication
+- Custom event handler registration and dependency injection systems
+
+**Business Impact:**
+- Framework remains foundational to enterprise development years after creation
+- Influenced organizational event-driven architecture standards
+- Delivered comprehensive training programs to 125+ developers
+
+### Testing Architecture & Quality Engineering
+**Market Positioning:** DevOps/Testing Architecture leadership ($160K-$220K)
+**Training Authority:** Delivered enterprise testing methodology training
+
+**Specialized Expertise:**
+- Multi-tier testing strategy development (Unit/Integration/Simulation/UI)
+- Test automation framework architecture with MSTest/Moq integration
+- API testing infrastructure with service simulation capabilities
+- Data-driven testing patterns and automated test generation
+- Testing standards development for enterprise development teams
+
+**Organizational Impact:**
+- Created enterprise testing standards adopted across multiple teams
+- Developed automated test boilerplate generation tools
+- Established testing methodology training programs
+
+### Platform Engineering & DevOps Leadership
+**Market Positioning:** Platform Engineering specialist ($170K-$250K+)
+**Training Authority:** DevOps and CI/CD training program development
+
+**Container Orchestration Expertise:**
+- **Docker:** Constant use for development and deployment workflows across career
+- **Kubernetes:** Production experience with cluster management and Helm chart development
+- **Container Strategy:** Enterprise containerization patterns and deployment automation
+
+**Infrastructure & DevOps Capabilities:**
+- **Terraform Experience:** Infrastructure as Code review and analysis (prefers platform-native approaches)
+- Private NPM repository management with Azure DevOps integration
+- SQL Server project versioning and automated deployment systems
+- Cross-platform build system development and configuration management
+- Environment-specific deployment pattern development
+- Multi-toolchain integration (Atlassian, Azure DevOps, GitHub)
+
+**Enterprise Integration:**
+- Comprehensive CI/CD pipeline development across multiple platforms
+- Automated deployment systems with Microsoft Project integration
+- Database deployment automation with DacFX integration
+- **FinOps Expertise:** Cloud cost optimization (77% Azure cost reduction at Green Onion)
+
+### Message Architecture & Enterprise Integration
+**Market Positioning:** Enterprise Integration Architecture specialist ($190K-$260K+)
+**Training Authority:** Event streaming and message architecture across multiple enterprises
+
+**Event Streaming Expertise:**
+- **Kafka:** Production implementation across Itrica and Eliassen/Lightwell projects
+- **Azure Event Hubs:** Enterprise event streaming implementation and architecture
+- **Message Queues:** Career-spanning experience across multiple projects and platforms
+- **Event-Driven Architecture:** CQRS implementation in Itrica/MARS and GCA/Nucleus systems
+
+**API Gateway & Integration Architecture:**
+- **API Gateway Development:** Career-spanning from network admin (Eastland-Career) to enterprise development
+- **Custom API Gateway Implementation:** Built proprietary solutions at Itrica, Dotnet Factory, and BMW/Eliassen projects
+- **Reverse Proxy Architecture:** Network-level to application-level proxy development and management
+- **Enterprise Integration Patterns:** Cross-platform integration and communication strategies
+
+**Framework Development:**
+- IMessageSender framework supporting **Kafka, Azure Event Hubs, Service Bus** technologies
+- MessageQueue attribute systems for multi-platform endpoint configuration
+- Generic queue provider architecture for vendor-neutral messaging
+- **GraphQL and OData Framework Development:** Custom API framework design for Nucleus/Shared Framework
+- **OAuth2/OIDC/Azure AD Integration:** Enterprise authentication and authorization systems
+
+**Microservices & Distributed Systems:**
+- **Microservices Patterns:** Circuit breakers, bulkhead patterns ("standard endpoints at this point")
+- **API-First Architecture:** API client generator development with Swagger/Handlebars integration
+- **Distributed System Design:** Cross-service communication and resilience patterns
+
+### Observability & Monitoring Architecture
+**Market Positioning:** Site Reliability Engineering/Observability specialist ($170K-$240K)
+**Experience Span:** Production monitoring across multiple enterprise environments
+
+**Application Performance Monitoring:**
+- **Azure Application Insights:** Primary production monitoring across enterprise applications
+- **Distributed Tracing:** Performance monitoring for complex multi-service architectures
+- **Custom Monitoring Solutions:** Application-specific observability and alerting systems
+
+**Infrastructure Monitoring:**
+- **Prometheus/Grafana:** Infrastructure monitoring and visualization
+- **Performance Analytics:** Application and infrastructure performance optimization
+- **Cost Monitoring & FinOps:** Cloud infrastructure cost optimization and monitoring (77% cost reduction achievements)
+
+**Monitoring Strategy:**
+- **Enterprise Observability:** Multi-tier monitoring from application to infrastructure level
+- **Performance Optimization:** Data-driven performance improvement through comprehensive monitoring
+- **Alerting & Response:** Production monitoring and incident response systems
+
+### Training & Curriculum Development Authority
+**Market Positioning:** Technical education leadership premium ($200K-$280K)
+**Volume:** 25+ comprehensive enterprise training programs delivered
+
+**Comprehensive Training Portfolio:**
+- **Event-Driven Architecture and Complex Event Processing:** IComplexEventHandler systems, NCronTab integration, message routing
+- **Enterprise Testing Automation:** Multi-tier testing (Unit/Integration/Simulation/UI), MSTest/Moq frameworks, data-driven testing, boilerplate generation
+- **Message Queue Architecture:** Azure Service Bus vs Storage Queue comparative analysis, IMessageSender framework development
+- **DevOps/CI-CD Pipeline Development:** Private NPM repository management, SQL Server project versioning, automated deployment systems
+- **Custom SDLC methodology:** Complete process design with upstream feedback loops, role architecture, Agile/Kanban integration
+- **Visual Studio Extensions and Tooling:** Unit test boilerplate generators, custom development productivity tools
+- **Database Development:** SQL Server project versioning with extended properties, Entity Framework patterns
+- **Configuration Management:** .NET configuration wrapper patterns, testable configuration abstractions
+- **Email Development:** SMTP emulation and development frameworks
+- **Code Quality:** Automated refactoring, exception handling patterns, service tier testing
+
+**Organizational Impact:**
+- Influenced 125+ developers across 10-15 teams through training programs
+- Created three-tier developer competency assessment framework
+- Developed complete enterprise development curriculum from entry to senior level
+- Established Centers of Excellence training methodology
+
+### Technical Authority Validation (100% Verified)
+**Comprehensive Code Review Results:** 14+ major repositories analyzed with complete technical claim verification
+
+**EXCEPTIONAL Innovation Confirmed:**
+- **Custom Microprocessor Design:** Complete 16-bit MW16C processor in SystemVerilog with 5-stage pipeline, 30+ instructions, Python assembler
+- **SQL Server Vector Extensions:** SQLCLR implementation with SqlVector types, mathematical operations, distance calculations
+
+**HIGH Innovation Confirmed:**
+- **Custom LSH Algorithms:** Locality Sensitive Hashing for approximate nearest neighbor search with performance benchmarking
+- **Zero-Allocation .NET Programming:** System.IO.Pipelines and Memory<T> implementation with multiple protocol support
+- **Production ML Infrastructure:** Complete containerized AI service stack with custom licensing
+
+**Community Impact Validated:**
+- **623,552+ verified NuGet downloads** across 20+ packages
+- **22,433 Stack Overflow reputation** with Gold Badge C# expertise (1,323 score)
+- **4.7M developer reach** through 606+ comprehensive technical solutions
+- **GitHub Arctic Code Vault Contributor** with multiple achievements
+
+**Stack Overflow Technical Evolution Documented:**
+- **2008-2012:** Basic .NET concepts and reflection
+- **2010-2015:** Advanced techniques, async programming, performance optimization
+- **2015-Present:** Modern architecture, functional programming, security-conscious development
+
+**Multi-Language Mastery Confirmed:**
+- **Professional implementations** across C#, F#, Java, Python, Go, Rust, JavaScript, TypeScript
+- **Cross-language consistency** with language-specific idioms and best practices
+- **Computer science depth** including CARDIAC CPU emulation, BK-tree spell checkers, cryptographically secure random generation, Binary Coded Decimal conversion, advanced bit manipulation
+
+**Stack Overflow Expertise Evolution (Detailed Code Analysis):**
+- **Cryptographically Secure Programming:** RandomNumberGenerator vs Random class implementations
+- **Advanced LINQ Transformations:** Complex data shaping with anonymous types and XML generation
+- **Bit Manipulation Mastery:** BCD conversion, ASCII encoding, mathematical operations
+- **Modern C# Patterns:** Pattern matching, switch expressions, extension methods, async/await
+- **Performance Engineering:** Validation over exception handling, thread overhead analysis
+- **Security-First Mindset:** Input validation, encoding vulnerability prevention
 
 ### Azure Ecosystem Mastery (Beyond Resume)
 **Extensive Production Experience:**
