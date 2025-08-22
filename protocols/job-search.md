@@ -1,7 +1,7 @@
 # Job Search Protocol - Comprehensive Market Analysis
 
 ## Purpose
-This protocol provides a systematic approach to conducting comprehensive job searches across multiple platforms, targeting Principal Solutions Architect, CTO, and senior technology leadership roles. The process creates detailed market analysis with rankings based on interest level and likelihood of success.
+This protocol provides a systematic approach to conducting comprehensive job searches across multiple platforms, targeting Principal Solutions Architect, CTO, and senior technology leadership roles. The process creates detailed market analysis with rankings based on interest level and likelihood of success, automatically feeds high-quality opportunities into apply-next.md for tracking, and triggers targeted application creation for the best matches.
 
 ## When to Execute This Protocol
 - Quarterly job market assessment
@@ -257,6 +257,9 @@ For each platform category, execute the following:
 
 3. **Results Analysis & Documentation**
    - Identify specific job opportunities with URLs
+   - **MANDATORY LINK COLLECTION:** Capture direct URLs for all job postings, company career pages, and application links
+   - **LINK VALIDATION REQUIRED:** Test all job posting URLs to verify they are still active and accessible
+   - **URL EXPIRATION TRACKING:** Note date of link verification and mark expired/invalid links
    - Extract salary ranges and compensation details
    - Note key requirements and qualifications
    - Assess alignment with unique capabilities
@@ -309,20 +312,37 @@ Create detailed analysis files for each platform including:
 4. **Platform Overview** - Key features and specializations  
 5. **Search Results Summary** - Number of positions found, key metrics
 6. **Direct Job Opportunities** - Specific positions with URLs and details
+   - **MANDATORY:** Include direct job posting URLs for each position
+   - **MANDATORY:** Include URL verification status (ACTIVE/EXPIRED/INVALID) with verification date
+   - **MANDATORY:** Include company career page URL as backup for each position
+   - **PRIORITY:** Focus detailed analysis on positions with ACTIVE verified links
 7. **Salary Analysis** - Compensation ranges discovered
 8. **Key Requirements** - Common qualifications and technologies
 9. **Market Analysis** - Trends, demand indicators, company types
 10. **Competitive Advantages** - How unique profile fits platform opportunities
 11. **Application Strategy** - Specific recommendations for platform
 12. **Assessment** - Overall match quality and prioritization recommendations
+13. **URL Verification Log** - Complete log of all URLs tested with verification dates and status
 
 #### Search Results Documentation Process
 For each WebSearch executed:
 1. **Copy Full Search Results:** Preserve exact search results including all URLs and descriptions
-2. **Extract Key Data Points:** Salary ranges, job counts, specific company mentions
-3. **Identify Direct Opportunities:** Specific positions with application links
-4. **Analyze Market Intelligence:** Company hiring patterns, compensation trends
-5. **Document Strategic Insights:** How results inform overall job search strategy
+2. **MANDATORY URL TESTING:** Use WebFetch tool to verify each job posting URL is active and accessible
+3. **Link Status Documentation:** Mark each URL as ACTIVE, EXPIRED, or INVALID with verification date
+4. **Active Job Validation:** For active links, confirm job posting contains relevant details (not generic company page)
+5. **Extract Key Data Points:** Salary ranges, job counts, specific company mentions
+6. **Identify Direct Opportunities:** Specific positions with verified active application links
+7. **Analyze Market Intelligence:** Company hiring patterns, compensation trends
+8. **Document Strategic Insights:** How results inform overall job search strategy
+
+#### URL Validation Requirements
+**CRITICAL LINK VERIFICATION PROTOCOL:**
+- **Test Every Job URL:** Use WebFetch to verify each job posting link before including in documentation
+- **Document Link Status:** Include verification status and date for all URLs
+- **Active Link Priority:** Focus analysis on positions with verified active application links
+- **Expired Link Handling:** Note expired positions but prioritize active opportunities
+- **Alternative Access:** If direct job link expires, include company career page URL as backup
+- **Verification Date:** All URLs must include date of last verification (YYYY-MM-DD format)
 
 #### Platform Documentation Examples
 
@@ -340,7 +360,21 @@ For each WebSearch executed:
 - **Key Companies:** Major tech companies, consulting firms
 
 ## Specific Opportunities Found
-[List specific positions with URLs, companies, compensation]
+### Position 1: Principal Solutions Architect - [Company Name]
+- **Job URL:** https://[direct-job-posting-url] 
+- **URL Status:** ACTIVE (Verified: 2025-08-22)
+- **Company Career Page:** https://[company-careers-url]
+- **Salary:** $[range]
+- **Location:** Remote
+- **Key Requirements:** [requirements]
+- **Application Deadline:** [date if available]
+
+### Position 2: [Additional positions with same format]
+
+## URL Verification Log
+- Job URL 1: ACTIVE (Verified: 2025-08-22)
+- Job URL 2: EXPIRED (Verified: 2025-08-22) - Position no longer available
+- Job URL 3: ACTIVE (Verified: 2025-08-22)
 
 ## Market Intelligence
 [Salary trends, hiring patterns, key requirements]
@@ -481,10 +515,88 @@ Include in summary:
 - **Market Trend Integration:** Major technology and industry trend incorporation
 - **Career Strategy Alignment:** Ensure protocol supports long-term career goals
 
+## Post-Search Integration and Application Workflow
+
+### Step 6: Apply-Next.md Integration
+**MANDATORY:** All high-quality opportunities identified during job search must be added to apply-next.md for systematic tracking and decision-making.
+
+#### Add Jobs to Apply-Next.md Process
+For each verified active opportunity with fit score ≥7.0/10:
+
+1. **Update Apply-Next.md Entry:**
+   ```markdown
+   | # | URL | Company | Position | Match Score | Status | Application Materials | Notes |
+   |---|-----|---------|----------|-------------|--------|---------------------|-------|
+   | X | [job-url](verified-active-url) | Company Name | Position Title | X.X/10 | 🔍 Possible Match | - | Platform: [source], Salary: [range], Verified: [date] |
+   ```
+
+2. **Status Classification for Apply-Next.md:**
+   - **🔍 Possible Match:** Initial discovery, fit score 7.0-7.9/10
+   - **⭐ High Priority:** Strong match, fit score 8.0-8.9/10  
+   - **🎯 Top Target:** Exceptional match, fit score 9.0+/10
+   - **❌ No Match:** Below threshold or disqualifying factors
+
+3. **Required Information per Entry:**
+   - Verified active job URL (tested with WebFetch)
+   - Company name and position title
+   - Calculated fit score (1-10 scale)
+   - Source platform (LinkedIn, Indeed, Dice, etc.)
+   - Salary range if available
+   - URL verification date
+   - Key qualifying/disqualifying factors
+
+### Step 7: Automatic Targeted Application Trigger
+**CRITICAL WORKFLOW INTEGRATION:** For opportunities with fit score ≥8.5/10, automatically trigger targeted application protocol.
+
+#### Targeted Application Auto-Execution
+When jobs are added to apply-next.md with status "⭐ High Priority" or "🎯 Top Target":
+
+1. **Execute Targeted Application Protocol:** 
+   ```
+   read protocols/targeted-application.md and execute all steps
+   ```
+
+2. **Focus on Top Opportunities:**
+   - Prioritize fit scores 9.0+/10 for immediate execution
+   - Process fit scores 8.5-8.9/10 within 48 hours
+   - Consider fit scores 8.0-8.4/10 for weekly batch processing
+
+3. **Application Material Creation:**
+   - Generate targeted resume for each high-priority opportunity
+   - Create customized cover letter highlighting relevant experience
+   - Develop company-specific introduction/outreach message
+   - Store all materials in `./resumes/targeted/` directory
+
+4. **Update Apply-Next.md Status:**
+   ```markdown
+   | Status | Application Materials | Notes |
+   |--------|---------------------|-------|
+   | ✅ READY TO APPLY | [Resume](./resumes/targeted/...) \| [Cover Letter](./resumes/targeted/...) \| [Intro](./resumes/targeted/...) | Materials created [date] |
+   ```
+
+### Step 8: Application Tracking Integration
+**SEAMLESS WORKFLOW:** Connect job search → apply-next.md → targeted applications → applied-to.md
+
+#### Complete Application Workflow
+1. **Job Discovery:** Job search protocol identifies opportunities
+2. **Opportunity Evaluation:** Add to apply-next.md with fit scores
+3. **Material Creation:** Generate targeted applications for high-priority matches
+4. **Application Submission:** Submit applications using created materials
+5. **Application Tracking:** Move to applied-to.md with submission date and status
+
+#### Cross-Reference Requirements
+- **Avoid Duplicates:** Check applied-to.md before adding to apply-next.md
+- **Reapplication Logic:** Note companies applied to >6 months ago as potential reapplication candidates
+- **Status Synchronization:** Keep apply-next.md and applied-to.md synchronized
+
 ## Success Metrics
 
 ### Quantitative Measures
 - **Number of Quality Opportunities:** Target 20+ relevant positions per search
+- **Apply-Next.md Conversion:** 50%+ of discovered opportunities added to apply-next.md
+- **Targeted Application Generation:** 80%+ of high-priority opportunities receive custom materials
+- **Application Submission Rate:** 60%+ of created targeted applications submitted within 1 week
+- **URL Validation Success:** 95%+ of job URLs verified as active before inclusion
 - **Salary Range Accuracy:** Compensation expectations aligned with market reality
 - **Response Rate:** Track application-to-response ratios by platform
 - **Time to Offer:** Measure efficiency of different platform approaches
@@ -494,6 +606,8 @@ Include in summary:
 - **Cultural Fit:** Company culture and work environment alignment
 - **Growth Potential:** Career advancement and learning opportunities
 - **Work-Life Balance:** Remote work and travel requirement satisfaction
+- **Application Material Quality:** Customization level and relevance to specific opportunities
+- **Workflow Integration:** Seamless flow from discovery to application submission
 
 ## Documentation Standards
 
@@ -505,6 +619,7 @@ Include in summary:
 ### Required Documentation Elements
 - **Web Search URLs:** Include all search query URLs and references - MANDATORY for all research
 - **Direct Job Links:** Specific position URLs when available - CRITICAL for application tracking
+- **URL Verification Status:** ACTIVE/EXPIRED/INVALID status with verification date for all job links
 - **Source Citations:** All data must include source URLs and links for verification
 - **Company URLs:** Direct links to company career pages and job postings
 - **Salary Data:** Compensation ranges and total package details with source attribution
@@ -514,10 +629,38 @@ Include in summary:
 
 **CRITICAL REQUIREMENT:** Every piece of data, statistic, job posting, or market information MUST include proper source citation with URL links. This ensures data integrity and enables follow-up research and application tracking.
 
+**MANDATORY LINK VALIDATION:** All job posting URLs must be tested using WebFetch tool to verify accessibility and current availability. Include verification date and status (ACTIVE/EXPIRED/INVALID) for each URL.
+
+### Link Validation Tools and Methods
+
+#### Required Tools for URL Verification
+1. **WebFetch Tool:** Primary method for testing job posting URLs
+   ```
+   WebFetch: "[job-posting-url]" "Verify this job posting is still active and accessible"
+   ```
+
+2. **URL Testing Protocol:**
+   - Test each job posting URL individually using WebFetch
+   - Document response status (accessible, not found, redirected, etc.)
+   - Note if URL leads to active job posting vs. generic company page
+   - Record verification date in YYYY-MM-DD format
+
+3. **Status Classification:**
+   - **ACTIVE:** URL accessible, leads to specific job posting with application capability
+   - **EXPIRED:** URL accessible but job posting removed or marked as closed
+   - **INVALID:** URL not accessible, returns error, or leads to unrelated content
+   - **REDIRECTED:** URL redirects to different page (note destination)
+
+#### Link Validation Schedule
+- **Initial Verification:** All URLs tested during initial job search execution
+- **Pre-Application Verification:** Re-test URLs immediately before applying (within 24 hours)
+- **Weekly Monitoring:** Re-verify high-priority opportunity URLs weekly
+- **Monthly Archive Review:** Check status of all documented URLs monthly
+
 ---
 
-**Last Updated:** 2025-08-05  
-**Next Scheduled Review:** 2025-11-05  
-**Protocol Version:** 1.0
+**Last Updated:** 2025-08-22  
+**Next Scheduled Review:** 2025-11-22  
+**Protocol Version:** 1.2 - Added mandatory link validation, apply-next.md integration, and automatic targeted application workflow
 
-*This protocol should be executed systematically using TodoWrite to track progress through each category and platform. The goal is creating a comprehensive market analysis that enables strategic career decision-making based on data-driven insights and competitive positioning.*
+*This protocol should be executed systematically using TodoWrite to track progress through each category and platform. The goal is creating a comprehensive market analysis that enables strategic career decision-making based on data-driven insights and competitive positioning. The protocol automatically integrates with apply-next.md for opportunity tracking and triggers targeted application creation for high-fit opportunities, creating a seamless workflow from job discovery to application submission.*
