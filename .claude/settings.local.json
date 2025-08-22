@@ -83,7 +83,12 @@
       "WebFetch(domain:vwgoa.taleo.net)",
       "WebFetch(domain:job-boards.eu.greenhouse.io)",
       "WebFetch(domain:serigorinc.applytojob.com)",
-      "WebFetch(domain:www.serigor.com)"
+      "WebFetch(domain:www.serigor.com)",
+      "WebFetch(domain:builtin.com)",
+      "WebFetch(domain:www.upwork.com)",
+      "WebFetch(domain:www.glassdoor.com)",
+      "WebFetch(domain:careers.microsoft.com)",
+      "WebFetch(domain:www.dice.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

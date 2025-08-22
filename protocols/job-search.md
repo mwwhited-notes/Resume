@@ -177,15 +177,17 @@ Research technology leadership opportunities in consulting and Fortune 500 compa
 - **BCG Digital Ventures:** Technology strategy and innovation consulting
 
 #### Fortune 500 Tech Company Career Sites (Remote US Focus)
-- **Microsoft Careers:** https://careers.microsoft.com (filter for "100% work from home")
 - **Google Careers:** https://careers.google.com (remote-friendly positions)
-- **Amazon Jobs:** https://hiring.amazon.com/job-opportunities/work-from-home-jobs
 - **Apple Careers:** https://jobs.apple.com (remote technology roles)
 - **Meta Careers:** https://www.metacareers.com (remote engineering positions)
 - **Salesforce Careers** - CTO and Principal Architect roles
 - **Oracle Careers** - Enterprise architecture leadership
 - **IBM Careers** - AI and technology transformation roles
 - **Intel Careers** - Technology leadership and architecture
+
+**EXCLUDED COMPANIES:**
+- **Microsoft:** All Microsoft positions excluded from future searches (user preference - not viable)
+- **Amazon:** No longer offers remote work - return-to-office mandate excludes from remote job searches
 
 #### Research Focus
 - AI investment strategies and workforce expansion
