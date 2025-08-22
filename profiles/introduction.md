@@ -1,6 +1,6 @@
 # Hello, I'm Matthew Whited
 
-I'm a Principal Solutions Architect with a passion for architecting enterprise-scale AI/ML solutions and solving complex technical challenges that drive real business impact. With over 20 years in software development and system architecture, I've had the privilege of designing and implementing everything from embedded microcontrollers to production AI/ML infrastructure serving millions of users.
+I'm a Chief Solutions Architect with a passion for architecting enterprise-scale AI/ML solutions and solving complex technical challenges that drive real business impact. With over 20 years in software development and system architecture, I've had the privilege of designing and implementing everything from embedded microcontrollers to production AI/ML infrastructure serving millions of users.
 
 ## What Drives Me
 

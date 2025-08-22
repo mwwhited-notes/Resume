@@ -30,7 +30,7 @@
 
 ## Principal Solutions Architect Experience
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+### Principal Solutions Architect - Green Onion LLC (February 2025 - Present)
 **Cloud architecture optimization and strategic business impact**
 
 - **Cost Optimization Excellence:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and strategic optimization

@@ -7,7 +7,7 @@
 
 ## Summary
 
-**Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. The trusted technology advisor companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including substantial cloud cost reductions, rapid project delivery after others failed for months, and regulatory compliance systems for enterprise clients.
+**Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions, 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients.
 
 ### Core Differentiators
 - **Strategic Technology Leadership:** Centers of Excellence influence across 125+ developers, enterprise-wide standards creation, and technology risk management preventing costly adoption mistakes
@@ -92,21 +92,24 @@
 
 ## Work History
 
+### Principal Solutions Architect - Green Onion LLC (February 2025 - Present)
+**Enterprise Technology Leadership & Advanced .NET Development**
+
+- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
+- **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+- **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
+- **Budget Recovery Success:** Cost savings from infrastructure optimization funding continued development work
+- **Crisis Leadership:** Systematic approach to technical debt resolution while maintaining business operations during rewrite
+
 ### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+**Independent Technology Consulting - Technical Advisory & SOW Review Services**
 
-- Focused on custom microelectronics and software design.
-- Experienced in .Net, ASP.Net MVC, WPF, databases, and embedded systems.
-- Responsibilities included application architecture, reverse engineering, performance tuning, and custom technical training.
-- Custom framework design, database enhancement and queue processing.
-- Added Vector Search and Indexing to Microsoft SQL Server using SQLCLR.
-
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
-**Cloud architecture optimization and application performance enhancement**
-
-- **Cost Optimization:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and optimization
-- **Performance Enhancement:** Improved application performance across multiple systems, achieving significant response time improvements
-- **API Integration:** Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
-- **Business Impact:** Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
+- **SOW & Technical Contract Review:** Expert evaluation of vendor proposals and technical contracts for small/mid-sized companies - preventing costly mistakes and vendor lock-in
+- **Technical Advisory Services:** "Handling the nerdy stuff" so business leaders can focus on core operations - translating complex technical proposals into clear business implications
+- **Vendor-Neutral Advisory:** No vendor partnerships or bias - unbiased technology guidance ensuring clients get best solutions at reasonable prices
+- **Technical Due Diligence:** Architecture assessment, vendor evaluation, and risk analysis for technology investments and M&A transactions
+- **Fractional CTO Services:** Strategic technology leadership for companies needing executive-level expertise without full-time CTO budget
+- **Crisis Project Recovery:** Takes over failed projects others can't deliver - rapid implementation when teams have struggled for months
 
 ### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
 **Nonprofit Leadership and Technical Automation**
@@ -115,15 +118,14 @@
 - **Technical Leadership:** Contributed specialized technical expertise to support foundation mission and enhance operational efficiency
 - **Community Impact:** Applied technology solutions to amplify nonprofit mission and improve service delivery capabilities
 
-### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group (November 2024 - August 2025)
-**AI/ML integration and semantic search implementation for insurance industry duplicate detection**
+### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
+**Crisis Project Recovery - 1-Week AI/ML Delivery After 12 Months of Failed Development**
 
-- **Advanced ML Integration:** Created pure .NET implementation of AllMiniLM-L6-v2 sentence transformers without Python dependencies, featuring custom BERT tokenization and high-dimensional embeddings for semantic similarity matching in insurance submission processing
-- **Database Innovation:** Added vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations (cosine, euclidean, manhattan, dot product) and optimized binary serialization
-- **Performance Engineering:** Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with compact hash representations, Hamming Distance optimization, and custom algorithm implementations
-- **Enterprise Architecture:** Designed comprehensive multi-layered system with multi-stage pipeline, multi-database architecture, and production-grade security/audit logging
-- **Business Impact:** Delivered automated duplicate detection system with extensive completed work items, dramatically reducing manual review workload while maintaining compliance with insurance industry regulations
-- **Technical Excellence:** Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles, comprehensive error handling, and sophisticated caching strategies
+- **Project Crisis Recovery:** Called in after two previous "AI/ML" developers worked 6 months each with no results - delivered working prototype within one week
+- **Rapid Technical Innovation:** Built custom .NET service hosting sentence transformer embedding model to extend SQL Server with vector support using SQLCLR
+- **Custom Algorithm Development:** Implemented Locality-Sensitive Hashing with random hyperplanes over embedding space for dramatic query performance improvements
+- **Production Architecture:** Complete semantic search solution with hybrid BM25/vector search, FAISS integration, and enterprise audit logging
+- **Crisis Leadership Success:** Transformed 12-month failure into production system within weeks, preventing client relationship loss and contract cancellation
 
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
 **Full-time Solutions Architect and Centers of Excellence Lead for .Net**

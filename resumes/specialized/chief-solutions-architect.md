@@ -49,7 +49,7 @@
 - **Business Impact Solutions:** Delivered automated duplicate detection system with 84 completed work items, dramatically reducing manual review workload while maintaining compliance
 - **Technical Excellence Achievement:** Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles and sophisticated caching strategies
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+### Principal Solutions Architect - Green Onion LLC (February 2025 - Present)
 **Cloud Architecture Solutions & Performance Optimization**
 
 - **Cloud Solutions Architecture:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and strategic optimization

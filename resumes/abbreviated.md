@@ -7,7 +7,7 @@
 
 ## Summary
 
-**Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. The trusted technology advisor companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including substantial cloud cost reductions, rapid project delivery after others failed for months, and regulatory compliance systems for enterprise clients.
+**Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions, 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients.
 
 ### Core Differentiators
 - **Strategic Technology Leadership:** Centers of Excellence influence across 125+ developers, enterprise-wide standards creation, and technology risk management preventing costly adoption mistakes
@@ -69,10 +69,10 @@
 
 ## Work History
 
+- **Principal Solutions Architect** - Green Onion LLC (February 2025 - Present)
 - **Chief Solutions Architect** - Out-of-Band Development, LLC (March 2015 - Present)
-- **Principal Solutions Architect** - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+- **Principal Solutions Architect (AI/ML Specialist)** - ERisk Services, Eliassen Group (November 2024 - August 2025)
 - **Rose and Gold Foundation - Board Member + Software Automation Engineer** (2017 - 2020)
-- **Principal Solutions Architect, specialized in AI** - ERisk Services, Eliassen Group (November 2024 - August 2025)
 - **Principal Solutions Architect** - Eliassen Group (September 2015 - October 2024)
 - **Chief Solutions Architect** - Itrica (November 2009 - July 2015)
 - **Senior .Net Developer** - Safe Auto Insurance, TEKsystems (April 2010 - September 2010)

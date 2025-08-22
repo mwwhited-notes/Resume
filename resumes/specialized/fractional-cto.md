@@ -17,7 +17,7 @@
 
 ## Executive Summary
 
-**Fractional CTO and Strategic Technology Leader** with 20+ years driving enterprise technology transformation through exceptional technical vision, organizational leadership, and measurable business impact. Proven track record providing C-level technology strategy across multiple organizations, leading 125+ developers through Centers of Excellence, and delivering substantial cost reductions while preventing costly technology adoption mistakes. Combines deep technical expertise in AI/ML innovation with executive-level crisis resolution and strategic technology risk management.
+**Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. Proven track record providing C-level technology strategy, leading 125+ developers through Centers of Excellence, and delivering 77% cloud cost reductions while preventing costly technology adoption mistakes. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities.
 
 ### Core Value Proposition for Organizations
 - **Strategic Technology Vision:** C-level technology strategy development with enterprise-wide standards creation and lasting organizational impact
@@ -48,7 +48,7 @@
 - **Strategic Technology Risk Management:** Prevented costly enterprise technology adoption mistakes through comprehensive evaluation processes, notably steering organization away from conference-driven MongoDB/Kafka adoption toward proven alternatives like Entity Framework Code-First migrations, saving substantial implementation costs
 - **Process Innovation Leadership:** Created enterprise SDLC methodology with upstream feedback loops, eliminating assumptions and improving delivery quality while maintaining similar timeframes, demonstrating executive-level process optimization
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+### Principal Solutions Architect - Green Onion LLC (February 2025 - Present)
 **Cloud architecture optimization and strategic business impact**
 
 - **Cost Optimization Leadership:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and strategic optimization

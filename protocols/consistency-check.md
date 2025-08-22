@@ -58,13 +58,24 @@ Create targeted resumes for each specific position type using master resume as a
 - [ ] `resumes/specialized/performance-engineer.md` - Performance Engineering focus with optimization achievements
 - [ ] `resumes/specialized/platform-architect.md` - Platform Architect positioning with DevOps and infrastructure expertise
 
+**CRITICAL: Profile vs Resume Positioning Strategy**
+- **Profile Documents:** Must target SINGLE title only (Chief Solutions Architect)
+- **Resume Documents:** Can target multiple architecture specializations through specialized versions
+- **Rationale:** Profiles used for general networking/introductions require focused positioning, while resumes target specific job applications
+
 **Source Requirements for Each Specialized Resume:**
 - **Primary Source:** All content must derive from `resumes/master-resume.md` as authoritative reference
 - **Positioning Context:** Use `documentation/career-background.md` for role-specific emphasis and hidden expertise
 - **Technical Accuracy:** Maintain exact technical claims and achievement metrics from master resume
 - **Professional Identity:** Adapt multi-track positioning from career background to single-role focus
-- **Work History:** Complete employment chronology from master resume with role-relevant emphasis
+- **Complete Work History:** **MUST include complete employment chronology** from master resume - minimum of job titles and years for entire career, with role-relevant emphasis for key positions
 - **Quantitative Language:** Follow style guide for presentation (general terms) vs. master (exact numbers)
+
+**CRITICAL: Complete Career History Requirement**
+- All resumes MUST include complete career history section with job titles and years
+- Cannot omit any positions from employment chronology 
+- Must show career progression from Systems Engineer (2000) through current position
+- Can emphasize relevant positions with detailed descriptions while maintaining complete timeline
 
 **Key items to verify:**
 - Position chronological ordering (most recent first)
@@ -96,12 +107,14 @@ Update all profile documents using master resume as authoritative source and car
 **Source-Based Update Requirements:**
 - **Master Resume Integration:** All achievements, metrics, and professional history must derive from master resume
 - **Career Background Positioning:** Professional identity and strategic positioning should reflect career background insights
+- **Single Title Profile Focus:** Profile documents must target single title (Chief Solutions Architect) - no multi-title positioning
 - **Current Position Context:** Update "What I'm Working On" sections with latest information from master resume
 - **Achievement Metrics:** Use master resume as source, apply style guide language (general terms for presentation)
 - **Community Statistics:** NuGet downloads, Stack Overflow reputation, GitHub achievements from master resume
 - **Technical Focus Areas:** AI/ML innovations, enterprise architecture, framework development from master resume
 - **Hidden Expertise Integration:** Incorporate career background revelations (crisis resolution, vendor-neutral advisory, etc.)
-- **Multi-Track Capability:** Reflect executive vs. strategic architecture positioning from career background
+- **Resume Multi-Track Capability:** Specialized resumes can target multiple architecture disciplines (Platform, Enterprise, Solutions)
+- **Profile vs Resume Strategy:** Profiles maintain single-title focus while resumes provide comprehensive specialization coverage
 - **Style Alignment:** Apply general quantitative language per style guide (650K+ not 652,868+)
 - **Natural Language:** Use conversational terms maintaining master resume accuracy
 

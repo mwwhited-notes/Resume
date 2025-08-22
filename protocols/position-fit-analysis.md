@@ -144,10 +144,11 @@ File: `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md`
    - Emphasize relevant scale and experience matches based on company analysis
 
 3. **Position-Specific Customization**
-   - **MAINTAIN COMPLETE WORK HISTORY:** Include all positions from master resume with no omissions
+   - **MAINTAIN COMPLETE WORK HISTORY:** Include all positions from master resume with no omissions - complete career timeline from Systems Engineer (2000) through current position
    - Restructure content hierarchy to match job requirements priority while preserving chronological integrity
    - Highlight directly relevant projects and achievements within complete employment timeline
    - Add industry-specific terminology and frameworks throughout full work history
+   - **CRITICAL:** Must show complete career progression with job titles and years for entire employment history
 
 4. **Technical Alignment**
    - Emphasize matching technologies and platforms from master resume
