@@ -29,8 +29,35 @@ mkdir -p /current/src/SearchResults/Jobs
 - **Compensation Requirements:** Executive-level positioning supports $250K+ targets vs. $180K+ minimum
 
 ### 3. Define Search Criteria
-- **Primary Roles:** Principal Solutions Architect, CTO, Chief Technology Officer, Principal Architect
-- **Technology Focus:** AI/ML, enterprise architecture, .NET, framework development
+
+#### Executive Leadership Roles
+- **C-Level Positions:** CTO, Chief Technology Officer, Chief Solutions Architect, Chief Digital Officer, VP Engineering, VP Technology
+- **Fractional Executive:** Fractional CTO, Part-Time CTO, Technology Advisory, Strategic Technology Consultant
+- **Technology Leadership:** Director of Engineering, Head of Engineering, Technology Director
+
+#### Principal/Senior Architecture Roles  
+- **Principal Architect:** Principal Solutions Architect, Principal Software Architect, Principal Enterprise Architect, Principal Platform Architect
+- **Senior Architecture:** Senior Solutions Architect, Senior Software Architect, Senior Enterprise Architect, Senior Technical Architect
+- **Specialized Architecture:** AI/ML Architect, Cloud Architect, Platform Architect, Integration Architect, Data Architect
+
+#### Engineering Leadership & Individual Contributor Roles
+- **Staff/Principal Engineering:** Staff Software Engineer, Principal Software Engineer, Distinguished Engineer, Senior Staff Engineer
+- **Technology Specialization:** Principal AI/ML Engineer, Senior Platform Engineer, Principal .NET Engineer, Senior Full-Stack Engineer
+- **Consulting/Advisory:** Solutions Engineer, Pre-Sales Engineer, Technical Consultant, Technology Advisor
+
+#### Crisis Resolution & Specialized Roles
+- **Crisis Management:** Technical Crisis Manager, Project Recovery Specialist, Technology Turnaround Consultant
+- **Due Diligence:** Technical Due Diligence Consultant, M&A Technology Advisor, Technology Assessment Specialist
+- **Performance Engineering:** Performance Architect, Optimization Engineer, Database Performance Engineer
+
+#### Technology Focus Areas
+- **AI/ML:** Artificial Intelligence, Machine Learning, LLM, Vector Databases, Semantic Search, Neural Networks
+- **Enterprise Architecture:** Microservices, Event-Driven Architecture, CQRS, Enterprise Integration, API Gateway
+- **Microsoft Stack:** .NET, C#, Azure, SQL Server, Blazor, Entity Framework, Visual Studio
+- **Platform Engineering:** DevOps, Kubernetes, Docker, CI/CD, Infrastructure as Code, Monitoring
+- **Framework Development:** Custom Framework Development, SDK Development, API Design, Open Source
+
+#### Work & Compensation Preferences
 - **Work Preference:** 100% remote PRIORITY, hybrid acceptable Baltimore MD metro area only
 - **Compensation Requirements:** $180K+ salary or $85+/hour contractor rate minimum
 - **Travel:** Up to 25% travel acceptable
@@ -44,22 +71,47 @@ mkdir -p /current/src/SearchResults/Jobs
 Execute searches and create individual platform analysis files:
 
 #### LinkedIn Jobs
-- **Search Terms:** "Principal Solutions Architect" "Strategic Technology Leader" remote AI ML enterprise architecture
+- **Search Terms:** "Principal Solutions Architect" "CTO" "Staff Software Engineer" "VP Engineering" "Fractional CTO" remote AI ML enterprise architecture crisis resolution
+- **Additional Searches:** "Technology Advisor" "Technical Consultant" "Principal Engineer" "Platform Architect" "Performance Engineer" .NET Azure
 - **Advanced Filters:** Remote work, 20+ years experience, technology industry
 - **Output File:** `SearchResults/Jobs/linkedin.md`
 - **Focus:** Enterprise-scale opportunities, established companies
 
 #### Indeed.com
-- **Search Terms:** "Chief Technology Officer" "Principal Architect" remote AI ML framework development .NET enterprise
+- **Search Terms:** "Chief Technology Officer" "Principal Architect" "Staff Engineer" "Technology Director" remote AI ML framework development .NET enterprise crisis
+- **Additional Searches:** "Due Diligence Consultant" "Performance Architect" "Platform Engineer" "Technical Advisory" Azure cloud
 - **Advanced Filters:** Remote/hybrid, salary ranges, company size
 - **Output File:** `SearchResults/Jobs/indeed.md`
 - **Focus:** Broad market coverage, diverse company sizes
 
+#### ZipRecruiter.com
+- **Search Terms:** "Principal Solutions Architect" "CTO" "Staff Software Engineer" "VP Engineering" remote AI ML enterprise .NET platform
+- **Additional Searches:** "Technology Consultant" "Crisis Manager" "Performance Engineer" "Principal Engineer" Azure DevOps
+- **Advanced Filters:** Remote work, salary ranges $180K+, technology sector
+- **Platform Advantage:** AI-powered matching, salary insights, mobile-optimized
+- **Output File:** `SearchResults/Jobs/ziprecruiter.md`
+- **Focus:** Rapid application process, recruiter connections, salary transparency
+
 #### Dice.com
-- **Search Terms:** "Principal Solutions Architect" "CTO" remote AI ML enterprise .NET
+- **Search Terms:** "Principal Solutions Architect" "CTO" "Staff Engineer" "Technology Director" remote AI ML enterprise .NET Azure
+- **Additional Searches:** "Performance Architect" "Platform Engineer" "Technical Consultant" "Principal Engineer" DevOps crisis
 - **Platform Advantage:** Tech-focused with 70,000+ job openings
 - **Output File:** `SearchResults/Jobs/dice.md`
 - **Focus:** Technical depth, established tech relationships
+
+#### Glassdoor.com
+- **Search Terms:** "Principal Solutions Architect" "CTO" "VP Engineering" "Staff Engineer" remote AI ML .NET Azure platform
+- **Additional Searches:** "Technology Director" "Principal Engineer" "Performance Architect" "Technical Consultant" DevOps
+- **Platform Advantage:** Company reviews, salary insights, interview experiences
+- **Output File:** `SearchResults/Jobs/glassdoor.md`
+- **Focus:** Company culture insights, compensation transparency, interview preparation
+
+#### Monster.com  
+- **Search Terms:** "Chief Technology Officer" "Principal Architect" "VP Engineering" "Technology Director" remote AI ML .NET
+- **Additional Searches:** "Staff Engineer" "Performance Engineer" "Platform Architect" "Technical Consultant" Azure enterprise
+- **Platform Advantage:** Broad coverage, established relationships, diverse industries
+- **Output File:** `SearchResults/Jobs/monster.md`
+- **Focus:** Comprehensive market coverage, diverse company types and sizes
 
 ### Category 2: Executive Recruiting Firms
 Research and document executive search opportunities:
@@ -96,9 +148,11 @@ Target AI-specific platforms and startup ecosystems:
 - **Wellfound (AngelList):** https://wellfound.com/ - 130,000+ startup jobs with salary/equity transparency
 - **Built In:** Regional tech company focus
 - **AngelList Direct:** Startup CTO and founding engineer roles
+- **Hiring.Cafe:** https://hiring.cafe/ - Remote-first startup jobs with transparent compensation
 
 #### Search Process
-- **Search Terms:** "Principal Architect" "CTO" remote artificial intelligence machine learning startup
+- **Search Terms:** "Principal Architect" "CTO" "Staff Engineer" "VP Engineering" remote artificial intelligence machine learning startup platform
+- **Additional Searches:** "Technology Advisor" "Principal Engineer" "Performance Engineer" "Platform Architect" vector database semantic search
 - **Focus:** Equity opportunities, cutting-edge technology, innovation roles
 - **Output File:** `SearchResults/Jobs/ai-ml-job-boards.md`
 
@@ -140,6 +194,40 @@ Research technology leadership opportunities in consulting and Fortune 500 compa
 - Technology leadership roles and requirements
 - Client engagement models and project types
 - **Output File:** `SearchResults/Jobs/consulting-firms.md`
+
+### Category 5: Remote-Specific Job Boards
+Target platforms specializing in remote work opportunities:
+
+#### Remote-First Platforms
+- **Remote.co:** https://remote.co/remote-jobs/ - Curated remote positions
+- **RemoteOK:** https://remoteok.io/ - Global remote job board
+- **We Work Remotely:** https://weworkremotely.com/ - Largest remote work community
+- **FlexJobs:** https://www.flexjobs.com/ - Professional remote and flexible jobs
+- **JustRemote:** https://justremote.co/ - Remote jobs across all industries
+- **Working Nomads:** https://workingnomads.co/ - Curated remote job listings
+
+#### Search Process
+- **Search Terms:** "Principal Architect" "CTO" "Staff Engineer" "VP Engineering" AI ML .NET Azure platform enterprise
+- **Additional Searches:** "Technology Director" "Performance Engineer" "Technical Consultant" "Principal Engineer" DevOps crisis
+- **Focus:** 100% remote opportunities, distributed teams, flexible arrangements
+- **Output File:** `SearchResults/Jobs/remote-job-boards.md`
+
+### Category 6: Contractor & Freelance Platforms
+Research high-value contractor and consulting opportunities:
+
+#### Contractor Platforms
+- **Toptal:** https://www.toptal.com/ - Top 3% of freelance talent
+- **Gigster:** https://gigster.com/ - Enterprise software projects
+- **Gun.io:** https://gun.io/ - Freelance software development
+- **Turing:** https://www.turing.com/ - Long-term remote software jobs
+- **CodementorX:** https://www.codementor.io/x - Expert-level freelancing
+- **10x Management:** https://www.10xmanagement.com/ - High-end technology talent
+
+#### Search Process  
+- **Search Terms:** "Principal Architect" "CTO Consultant" "Technology Advisor" "Crisis Resolution" AI ML .NET Azure platform
+- **Additional Searches:** "Performance Engineer" "Technical Due Diligence" "Platform Architect" enterprise consulting
+- **Focus:** High-value consulting engagements, fractional executive roles, crisis projects
+- **Output File:** `SearchResults/Jobs/contractor-platforms.md`
 
 #### Remote US Job Market Focus
 **CRITICAL:** All searches must prioritize positions that can be performed remotely within the United States. International positions or roles requiring significant on-site presence should be flagged but deprioritized unless extraordinary opportunities.
@@ -199,6 +287,20 @@ For each platform, document how Matthew Whited's profile provides competitive ad
 Create detailed analysis files for each platform including:
 
 **File Naming Convention:** `SearchResults/Jobs/[platform-name].md`
+
+**Required Platform Files:**
+- `SearchResults/Jobs/linkedin.md` - LinkedIn Jobs platform analysis
+- `SearchResults/Jobs/indeed.md` - Indeed.com platform analysis  
+- `SearchResults/Jobs/ziprecruiter.md` - ZipRecruiter.com platform analysis
+- `SearchResults/Jobs/dice.md` - Dice.com platform analysis
+- `SearchResults/Jobs/glassdoor.md` - Glassdoor Jobs platform analysis (company insights + salaries)
+- `SearchResults/Jobs/monster.md` - Monster.com platform analysis (broad coverage)
+- `SearchResults/Jobs/executive-recruiters.md` - Executive recruiting firms analysis
+- `SearchResults/Jobs/ai-ml-job-boards.md` - AI/ML specialized platforms analysis
+- `SearchResults/Jobs/consulting-firms.md` - Major consulting and Fortune 500 analysis
+- `SearchResults/Jobs/startup-platforms.md` - Startup and equity-focused platforms analysis
+- `SearchResults/Jobs/remote-job-boards.md` - Remote-specific job boards analysis
+- `SearchResults/Jobs/contractor-platforms.md` - Contractor and freelance platforms analysis
 
 **Required Sections per Platform:**
 1. **Search Query** - Exact search terms used
