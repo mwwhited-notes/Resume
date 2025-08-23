@@ -152,14 +152,21 @@
 - **Pure .NET AI/ML Implementation:** Avoided typical Python dependencies through custom .NET integration - enterprise-friendly architecture
 - **Hybrid Search Innovation:** Combined traditional SQL with modern vector search capabilities in single system
 
-### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
-**Full-time Solutions Architect and Centers of Excellence Lead for .Net**
+### Principal Solutions Architect - Eliassen Group/Lightwell (September 2015 - October 2024)
+**Lead Developer/Architect on Multiple Projects & Practice-Wide Technical Standards Leader**
+
+#### Practice-Wide Technical Leadership & Standards Development
+**Lead Developer/Architect driving organizational excellence across entire practice**
+
+- **Lead Developer/Architect Excellence:** Served as lead developer and architect on multiple concurrent client projects while maintaining technical leadership across practice
+- **Practice-Wide Guidance Development:** Created comprehensive guidance for entire practice around SDLC methodologies, design patterns (CQRS, Repository, Factory, Dependency Injection), and service deployment patterns (microservices, containerization, CI/CD)
+- **Technical Standards Authority:** Established and enforced architectural standards, code quality metrics, and best practices adopted across all development teams
 
 #### Strategic Organizational Leadership - Centers of Excellence (July 2022 - October 2024)
 **Led enterprise-wide development standards and strategic technology initiatives across 125+ developers**
 
 - **Organizational Impact:** Influenced 10-15 development teams through Centers of Excellence leadership, establishing standards across multiple technology disciplines
-- **Enterprise Training & Curriculum Development:** Delivered **25+ comprehensive training programs** ranging from intimate 1-5 person sessions to large-scale 20+ developer boot camps covering **Event-Driven Architecture**, **Enterprise Testing Automation**, **Message Queue Architecture**, **DevOps/CI-CD Pipeline Development**, software design, architecture, design patterns, and **custom SDLC methodology** creation
+- **Enterprise Training & Curriculum Development:** Delivered **25+ comprehensive training programs** for both internal teams and client organizations, ranging from intimate 1-5 person sessions to large-scale 20+ developer boot camps covering **Event-Driven Architecture**, **Enterprise Testing Automation** (unit testing, mocking frameworks, integration testing strategies), **Message Queue Architecture**, **DevOps/CI-CD Pipeline Development**, **Docker Platform Mastery** (hosting platform, tools platform, local development pipelines), **Scripting Automation** (Bash, Batch/CMD, PowerShell), **Master Data Management**, **Data Deployment & Schema Management** (DacFX, SQL Server projects, migration strategies), **AI/ML Engineering** (vector databases, text/image embeddings, document chunking, semantic search, BM25/fulltext search, vector distance calculations, neural networks), **Hardware & Electronics** (analog computing, digital logic, embedded microcontrollers, protocol reverse engineering for network/USB/serial, microelectronics, breadboarding, through-hole and surface mount soldering), **Network Programming** (socket programming, protocol implementation), software design, architecture, design patterns, and **custom SDLC methodology** creation - supporting both pre-sales technical enablement and post-sales client success
 - **Crisis Resolution Leadership:** Served as organizational "fire fighter" resolving critical client issues spanning upset clients, failed deployments, library upgrade complications, data corruption recovery, and cross-domain integration challenges
 - **Strategic Technology Risk Management:** Prevented costly technology adoption mistakes through comprehensive evaluation processes, notably steering organization away from conference-driven MongoDB/Kafka adoption toward proven alternatives like Entity Framework Code-First migrations
 - **Organizational Process Architecture:** Created comprehensive **enterprise SDLC methodology** with upstream feedback loops, role architecture (Product Manager/Owner separation, Technical Architect governance), **Agile/Kanban integration strategy**, and quality gate development - eliminating assumptions and improving delivery quality while maintaining similar timeframes
@@ -186,10 +193,17 @@
 - **Framework Integration:** Successfully integrated hybrid search capabilities and cross-API chat functionality into shared framework, enhancing organizational capabilities despite original product team not adopting approach
 - **Technology Cost Analysis:** Provided strategic guidance on LLM limitations including cost inefficiency, energy consumption, and poor power-user interfaces while acknowledging value for lowering barriers for less skilled workers
 
+#### Pre-Sales Engineering & Business Development Excellence
+- **Pre-Sales Technical Leadership:** Led technical pre-sales engineering efforts including client-facing proof of concepts, technical demonstrations, and solution architecture presentations to secure enterprise contracts
+- **Proof of Concept Development:** Rapid prototyping and POC delivery for strategic opportunities, demonstrating technical feasibility and ROI to executive stakeholders
+- **Internal R&D Leadership:** Directed internal research and development initiatives exploring emerging technologies, evaluating new frameworks, and creating innovation prototypes for competitive advantage
+- **Developer & Architect Training:** Delivered comprehensive training programs to both internal teams and client organizations, covering advanced architecture patterns, AI/ML implementation, and enterprise best practices
+- **Sales Enablement Engineering:** Technical sales support including RFP responses, technical proposal writing, and solution estimation for multi-million dollar enterprise opportunities
+
 #### Business Impact & Technical Excellence
-- **Leadership Roles:** Centers of Excellence Lead for .Net, Sales Enablement Engineer, Full-time Solutions Architect
+- **Leadership Roles:** Centers of Excellence Lead for .Net, Sales Enablement Engineer, Pre-Sales Technical Lead, Full-time Solutions Architect
 - **Enterprise Architecture Specializations:** **Event-Driven Architecture & Complex Event Processing**, **Platform Engineering & DevOps Leadership**, **Enterprise Integration & Message Queue Architecture**, **Testing Architecture & Quality Engineering**, database and application performance, reusable middleware frameworks, **organizational process design & change management**
-- **Client Impact:** Contributed to significant improvement in project delivery success rates through framework standardization and crisis resolution
+- **Client Impact:** Contributed to significant improvement in project delivery success rates through framework standardization, crisis resolution, and successful pre-sales technical demonstrations
 - **Technologies:** .Net/C#, Javascript/Typescript, Java, Go, Python, multiple databases and cloud services, comprehensive AI/ML stack evaluation
 - **Platform Engineering & Container Orchestration:** **Docker development and deployment workflows**, **Kubernetes administration with Helm chart development**, comprehensive CI/CD pipeline development across Atlassian (JIRA, Confluence, Bitbucket), **Azure DevOps with private NPM repository management**, GitHub integration, **SQL Server project versioning with extended properties and deployment automation**, Microsoft Project for resource planning
 - **Development Productivity Tools:** **Visual Studio extensions for unit test boilerplate generation**, custom development tooling, automated refactoring frameworks, **SMTP emulation for email development**, exception handling pattern automation
@@ -197,14 +211,16 @@
 - **Message Architecture & Event Streaming:** **Azure Service Bus vs Storage Queue comparative analysis**, **Kafka and Azure Event Hubs implementation**, custom **IMessageSender framework** with generic queue providers, **CQRS event-driven architecture** (Itrica/MARS, GCA/Nucleus), **message routing architecture** with dependency injection integration
 - **Observability & Monitoring:** **Azure Application Insights production monitoring**, **Prometheus/Grafana infrastructure monitoring**, distributed tracing for enterprise applications, **FinOps and cloud cost optimization** (77% Azure cost reduction)
 
-### Chief Technology Officer - Itrica (November 2009 - July 2015)
-**FDA-Compliant Life Sciences Systems - Big Pharma & Harvard Medical Partnerships**
+### Chief Technology Officer / Chief Solutions Architect - Itrica (November 2009 - July 2015)
+**FDA-Compliant CTMS Leadership - Dual CTO/CSA Role with Hands-On Development Management**
 
-- **Merit-Based CTO Promotion:** Promoted by CEO as "most skilled senior architect on team" - combined CTO responsibilities with hands-on development management
-- **FDA Regulatory Compliance:** Direct FDA auditor interaction for life-critical clinical trial software systems with complete signoff responsibility
+- **Merit-Based CTO/CSA Promotion:** Promoted by CEO as "most skilled senior architect on team" - uniquely combined CTO strategic responsibilities with CSA technical leadership and hands-on development management
+- **CTMS Architecture & Development:** Personally architected, built, and maintained the Clinical Trial Management System (CTMS) while simultaneously managing the development team - true player-coach model
+- **Development Manager Excellence:** Direct management of 5 developers while actively coding alongside team - maintained technical authority through hands-on contribution rather than delegation
+- **Datacenter Infrastructure Leadership:** Planned and built complete server infrastructure and datacenter for clinical trial management system including hardware selection, virtualization platform (VMware/Hyper-V), network design, storage architecture, and disaster recovery planning
+- **FDA Regulatory Compliance:** Direct FDA auditor interaction for life-critical clinical trial software systems with complete signoff responsibility for both architecture and implementation
 - **Big Pharma Partnerships:** Major pharmaceutical clients including Sanofi, AstraZeneca, GSK for large-scale cardiovascular studies (TRA2P, SAVOR)
 - **Harvard Medical Collaboration:** TIMI Study Group partnership developing clinical trial management software for Brigham and Women's Hospital research
-- **Development Team Leadership:** Direct management of 5 active developers with architecture governance and code review oversight using Microsoft Project/TFS integration
 - **Global Clinical Operations:** Multi-national pharmaceutical trial coordination and data management systems
 - **Digital Transformation Leadership:** Eliminated physical document shipping worldwide through Silverlight/DeepZoom document viewer for global CEC access
 
@@ -264,11 +280,15 @@
 - **COTS Software Extension:** Enhanced "TurboScan" commercial platform with custom Windows Workflow integration for automated QA processes
 
 ### Systems Engineer/Department Head - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)
-**Enterprise IT Leadership - Career Foundation Through Crisis Response**
+**Enterprise IT Leadership - Complete Infrastructure Design, Build & Management**
 - **Career Origin Story:** Offered position before high school graduation after volunteering during "senior skip day" to clean ILOVEYOU virus from school network
+- **Complete Network Infrastructure:** Designed, built, and managed entire local and wide area network using Enterasys, 3Com, and Cisco equipment including VLANs, routing protocols, managed switches, spanning tree, QoS, and network segmentation across multiple campuses
+- **Server Infrastructure Architecture:** Built and managed complete Novell ecosystem including NetWare servers, ZENworks desktop management, BorderManager firewall/proxy, GroupWise email, and NDS/eDirectory identity management
+- **Telephony System Management:** Deployed and managed 3Com NBX VoIP telephony system serving entire educational institution
+- **Wireless Infrastructure:** Designed and deployed campus-wide wireless network infrastructure for student and staff connectivity
+- **Computer Lab Management:** Built and managed multiple computer labs with imaging, deployment, and remote management capabilities
 - **Enterprise-Scale Management:** Managed over 3,500 computers across 2 main campuses, admin building, and multiple offsite locations
 - **Strategic Planning & Budgeting:** Departmental budget management and strategic planning for network upgrades and computer deployments
-- **Complete Network Architecture:** Designed and built Novell/TCP/IP infrastructure with wide VPN network connecting off-campus locations
 - **Multi-Site WAN Management:** Direct TCP/IP links and dedicated leased ATM lines with complex multi-partner network integration
 - **Custom Development Innovation:** Multiple support ticket tracking systems (PHP/RADIUS and ASP/VBScript/LDAP versions)
 - **Mainframe Programming:** System Builder programming with Unidata mainframe for student management system extensions

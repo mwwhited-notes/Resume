@@ -120,6 +120,11 @@
 - **AI/ML Engineering:** Production infrastructure, custom algorithms, hybrid search
 - **Systems Programming:** Zero-allocation .NET, performance optimization
 - **Multi-Language Expertise:** 8+ programming languages with professional quality
+- **Pre-Sales Engineering:** Proof of concepts, technical demonstrations, RFP responses, client workshops
+- **Internal R&D Leadership:** Technology evaluation, innovation prototypes, competitive intelligence
+- **Training Delivery Excellence:** 25+ enterprise programs spanning software (testing, Docker, scripting), AI/ML (vector databases, embeddings, neural networks), and hardware (digital logic, microcontrollers, electronics, soldering)
+- **Enterprise Infrastructure:** Complete network/server infrastructure design and management (Enterasys, 3Com, Cisco, Novell ecosystem, VLANs, routing protocols, VoIP telephony, wireless networks), datacenter planning and build-out (hardware, virtualization, storage, disaster recovery)
+- **Practice-Wide Technical Leadership:** Lead developer/architect on multiple projects while developing SDLC, design patterns, and service deployment guidance for entire practice at Eliassen/Lightwell
 
 ## Documentation Files Reference
 - **Gold Standard:** resumes/master-resume.md (authoritative source)
@@ -186,7 +191,7 @@
 - **Systematic approach:** Use protocols and verification commands
 - **Documentation:** Track all changes in daily change history files (change-history-YYYYMMDD.md) and memory
 
-**Current Professional Identity:** Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with validated technical authority (22K+ Stack Overflow reputation, Gold Badge C# mastery, 650K+ NuGet downloads, 125+ developer leadership influence). Crisis resolution positioning demonstrates ability to rescue failing projects (77% cost reduction, 1-week delivery after 12-month failures) with multi-paradigm programming expertise, custom CQRS framework development, and vendor-neutral technology advisory approach. Self-taught programming excellence with anti-hype philosophy based on decades of pattern recognition.
+**Current Professional Identity:** Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with validated technical authority (22K+ Stack Overflow reputation, Gold Badge C# mastery, 650K+ NuGet downloads, 125+ developer leadership influence). Crisis resolution positioning demonstrates ability to rescue failing projects (77% cost reduction, 1-week delivery after 12-month failures) with multi-paradigm programming expertise, custom CQRS framework development, and vendor-neutral technology advisory approach. Previous CTO/Chief Solutions Architect at Itrica demonstrating dual strategic-technical leadership. Self-taught programming excellence with anti-hype philosophy based on decades of pattern recognition.
 
 **Session Update - 2025-08-22:**
 - **Comprehensive Consistency Check Executed:** Complete professional document ecosystem alignment per consistency-check protocol

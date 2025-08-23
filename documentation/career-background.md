@@ -4,62 +4,83 @@
 This document captures deep career insights, preferences, and hidden expertise discovered through career counseling sessions that extend beyond the formal resume. It serves as a living repository of career intelligence to inform positioning, opportunities, and strategic career decisions.
 
 ## Table of Contents
-- [Career Direction & Preferences](#career-direction--preferences)
-  - [Desired Positioning](#desired-positioning-updated-2025-08-12)
-  - [Work Style Preferences](#work-style-preferences)
-  - [Engagement Model Flexibility](#engagement-model-flexibility)
-- [Hidden Technical Expertise](#hidden-technical-expertise)
-  - [Enterprise Framework Architecture Portfolio](#enterprise-framework-architecture-portfolio-newly-discovered)
-  - [Event-Driven Architecture & Complex Event Processing](#event-driven-architecture--complex-event-processing)
-  - [Testing Architecture & Quality Engineering](#testing-architecture--quality-engineering)
-  - [Platform Engineering & DevOps Leadership](#platform-engineering--devops-leadership)
-  - [Message Architecture & Enterprise Integration](#message-architecture--enterprise-integration)
-  - [Observability & Monitoring Architecture](#observability--monitoring-architecture)
-  - [Training & Curriculum Development Authority](#training--curriculum-development-authority)
-  - [Industry Domain Expertise - Cross-Sector Experience](#industry-domain-expertise---cross-sector-experience)
-  - [Azure Ecosystem Mastery](#azure-ecosystem-mastery-beyond-resume)
-  - [Container & Orchestration Philosophy](#container--orchestration-philosophy)
-  - [Protocol Reverse Engineering](#protocol-reverse-engineering-rare-expertise)
-  - [Legacy System Modernization](#legacy-system-modernization)
-  - [Database Crisis Resolution](#database-crisis-resolution)
-  - [Electronics & Hardware Design](#electronics--hardware-design)
-  - [IDE & Development Tools Mastery](#ide--development-tools-mastery)
-  - [Development Methodology - Custom SDLC Framework Creator](#development-methodology---custom-sdlc-framework-creator)
-  - [Design & Documentation Tools](#design--documentation-tools)
-  - [Version Control Systems](#version-control-systems)
-- [Technology Philosophy & Principles](#technology-philosophy--principles)
-  - [Programming Philosophy - Adaptive Polyglot](#programming-philosophy---adaptive-polyglot)
-  - [Testing Philosophy - Requirements Over Implementation](#testing-philosophy---requirements-over-implementation)
-  - [API Design - Enhanced CQRS Pattern](#api-design---enhanced-cqrs-pattern)
-  - [Architecture Philosophy - Event-Driven CQRS with Pragmatic Flexibility](#architecture-philosophy---event-driven-cqrs-with-pragmatic-flexibility)
-  - [System Decomposition - Single Source of Truth](#system-decomposition---single-source-of-truth)
-  - [Scalability Philosophy - Start Simple, Scale Smart](#scalability-philosophy---start-simple-scale-smart)
-  - [Technology Stack Preference - Pragmatic Expertise](#technology-stack-preference---pragmatic-expertise)
-  - [Performance Philosophy - Framework-First Optimization](#performance-philosophy---framework-first-optimization)
-  - [Code Review Philosophy - Democratized Learning](#code-review-philosophy---democratized-learning)
-  - [Mentorship Philosophy - Interactive Learning Through Teaching](#mentorship-philosophy---interactive-learning-through-teaching)
-  - [KISS (Keep It Simple, Stupid) Advocate](#kiss-keep-it-simple-stupid-advocate)
-  - [The "Anti-Hype" Technologist](#the-anti-hype-technologist)
-  - [Problem-Solving Philosophy - Value Over Metrics](#problem-solving-philosophy---value-over-metrics)
-  - [Vendor-Neutral Advisory Approach](#vendor-neutral-advisory-approach)
-  - [Portable Solutions Philosophy](#portable-solutions-philosophy)
-- [Career Insights & Patterns](#career-insights--patterns)
-  - [What Energizes](#what-energizes)
-  - [What Drains](#what-drains)
-  - [Unique Value Proposition](#unique-value-proposition)
-  - [Market Positioning Opportunity](#market-positioning-opportunity)
-- [Ideal Client Profile](#ideal-client-profile)
-  - [Primary Target Market](#primary-target-market)
-  - [Secondary Target Markets](#secondary-target-markets)
-  - [Service Offering Potential](#service-offering-potential)
-- [Knowledge Gaps & Development Areas](#knowledge-gaps--development-areas)
-  - [For Due Diligence Consulting](#for-due-diligence-consulting)
-  - [For Fractional Executive Roles](#for-fractional-executive-roles)
-- [Action Items from Discovery](#action-items-from-discovery)
-  - [Immediate Positioning Updates](#immediate-positioning-updates)
-  - [Network Development Priorities](#network-development-priorities)
-  - [Content & Thought Leadership](#content--thought-leadership)
-- [Session History](#session-history)
+- [Matthew Whited - Career Background \& Hidden Expertise](#matthew-whited---career-background--hidden-expertise)
+  - [Document Purpose](#document-purpose)
+  - [Table of Contents](#table-of-contents)
+  - [Career Direction \& Preferences](#career-direction--preferences)
+    - [Desired Positioning (Updated 2025-08-19)](#desired-positioning-updated-2025-08-19)
+    - [Work Style Preferences](#work-style-preferences)
+    - [Engagement Model Flexibility](#engagement-model-flexibility)
+  - [Hidden Technical Expertise](#hidden-technical-expertise)
+    - [Enterprise Framework Architecture Portfolio (Newly Discovered)](#enterprise-framework-architecture-portfolio-newly-discovered)
+    - [Event-Driven Architecture \& Complex Event Processing](#event-driven-architecture--complex-event-processing)
+    - [Testing Architecture \& Quality Engineering](#testing-architecture--quality-engineering)
+    - [Platform Engineering \& DevOps Leadership](#platform-engineering--devops-leadership)
+    - [Message Architecture \& Enterprise Integration](#message-architecture--enterprise-integration)
+    - [Observability \& Monitoring Architecture](#observability--monitoring-architecture)
+    - [Pre-Sales Engineering \& Business Development Excellence](#pre-sales-engineering--business-development-excellence)
+    - [Training \& Curriculum Development Authority](#training--curriculum-development-authority)
+    - [Technical Authority Validation (100% Verified)](#technical-authority-validation-100-verified)
+    - [Azure Ecosystem Mastery (Beyond Resume)](#azure-ecosystem-mastery-beyond-resume)
+    - [Container \& Orchestration Philosophy](#container--orchestration-philosophy)
+    - [Protocol Reverse Engineering (Rare Expertise)](#protocol-reverse-engineering-rare-expertise)
+    - [Industry Domain Expertise - Cross-Sector Experience](#industry-domain-expertise---cross-sector-experience)
+    - [Legacy System Modernization](#legacy-system-modernization)
+    - [Database Crisis Resolution](#database-crisis-resolution)
+    - [Electronics \& Hardware Design](#electronics--hardware-design)
+    - [Personal Projects \& Side Development](#personal-projects--side-development)
+    - [Early Programming Foundation - Self-Taught Excellence](#early-programming-foundation---self-taught-excellence)
+    - [Multi-Platform Operating System Expertise - Career-Long](#multi-platform-operating-system-expertise---career-long)
+    - [IDE \& Development Tools Mastery](#ide--development-tools-mastery)
+    - [Development Methodology - Custom SDLC Framework Creator](#development-methodology---custom-sdlc-framework-creator)
+    - [Project Management \& Estimation Expertise](#project-management--estimation-expertise)
+    - [Enterprise Framework Architecture - Shared Framework \& Nucleus](#enterprise-framework-architecture---shared-framework--nucleus)
+    - [Design \& Documentation Tools](#design--documentation-tools)
+    - [Version Control Systems](#version-control-systems)
+  - [Technology Philosophy \& Principles](#technology-philosophy--principles)
+    - [Programming Philosophy - Adaptive Polyglot](#programming-philosophy---adaptive-polyglot)
+    - [Testing Philosophy - Requirements Over Implementation](#testing-philosophy---requirements-over-implementation)
+    - [API Design - Enhanced CQRS Pattern](#api-design---enhanced-cqrs-pattern)
+    - [Architecture Philosophy - Event-Driven CQRS with Pragmatic Flexibility](#architecture-philosophy---event-driven-cqrs-with-pragmatic-flexibility)
+    - [System Decomposition - Single Source of Truth](#system-decomposition---single-source-of-truth)
+    - [Scalability Philosophy - Start Simple, Scale Smart](#scalability-philosophy---start-simple-scale-smart)
+    - [Technology Stack Preference - Pragmatic Expertise](#technology-stack-preference---pragmatic-expertise)
+    - [Performance Philosophy - Framework-First Optimization](#performance-philosophy---framework-first-optimization)
+    - [Code Review Philosophy - Democratized Learning](#code-review-philosophy---democratized-learning)
+    - [Mentorship Philosophy - Interactive Learning Through Teaching](#mentorship-philosophy---interactive-learning-through-teaching)
+    - [KISS (Keep It Simple, Stupid) Advocate](#kiss-keep-it-simple-stupid-advocate)
+    - [The "Anti-Hype" Technologist - Pattern Recognition from Experience](#the-anti-hype-technologist---pattern-recognition-from-experience)
+    - [Problem-Solving Philosophy - Value Over Metrics](#problem-solving-philosophy---value-over-metrics)
+    - [Vendor-Neutral Advisory Approach](#vendor-neutral-advisory-approach)
+    - [Portable Solutions Philosophy](#portable-solutions-philosophy)
+  - [Career Insights \& Patterns](#career-insights--patterns)
+    - [What Energizes](#what-energizes)
+    - [What Drains](#what-drains)
+    - [Unique Value Proposition](#unique-value-proposition)
+    - [Market Positioning Opportunity](#market-positioning-opportunity)
+  - [Ideal Client Profile](#ideal-client-profile)
+    - [Primary Target Market](#primary-target-market)
+    - [Secondary Target Markets](#secondary-target-markets)
+    - [Service Offering Potential](#service-offering-potential)
+  - [Knowledge Gaps \& Development Areas](#knowledge-gaps--development-areas)
+    - [For Due Diligence Consulting](#for-due-diligence-consulting)
+    - [For Fractional Executive Roles](#for-fractional-executive-roles)
+  - [Action Items from Discovery](#action-items-from-discovery)
+    - [Immediate Positioning Updates](#immediate-positioning-updates)
+    - [Network Development Priorities](#network-development-priorities)
+    - [Content \& Thought Leadership](#content--thought-leadership)
+  - [Independent Consulting - Out-of-Band Development](#independent-consulting---out-of-band-development)
+    - [Security \& Code Review Consulting](#security--code-review-consulting)
+  - [Current Professional Activities](#current-professional-activities)
+    - [Ongoing Consulting Projects](#ongoing-consulting-projects)
+  - [Current Position - Green Onion (February 2025 - Present)](#current-position---green-onion-february-2025---present)
+    - [Application Rescue \& Modernization Project](#application-rescue--modernization-project)
+  - [Academic Background - Detailed Transcript Information](#academic-background---detailed-transcript-information)
+    - [DeVry University - Columbus Campus (2000-2002)](#devry-university---columbus-campus-2000-2002)
+    - [Educational Impact on Career Trajectory](#educational-impact-on-career-trajectory)
+  - [Session History](#session-history)
+    - [Career Counseling Session - 2025-08-12](#career-counseling-session---2025-08-12)
+    - [Education Documentation Update - 2025-08-21](#education-documentation-update---2025-08-21)
 
 ---
 
@@ -232,13 +253,65 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Performance Optimization:** Data-driven performance improvement through comprehensive monitoring
 - **Alerting & Response:** Production monitoring and incident response systems
 
+### Pre-Sales Engineering & Business Development Excellence
+**Technical Sales Enablement & Client Success at Eliassen Group:**
+
+**Pre-Sales Technical Leadership:**
+- **Proof of Concept Development:** Rapid prototyping for strategic opportunities, demonstrating technical feasibility and ROI to executive stakeholders
+- **Technical Demonstrations:** Led client-facing architecture presentations and solution demonstrations to secure enterprise contracts
+- **RFP Response Leadership:** Technical proposal writing and solution estimation for multi-million dollar opportunities
+- **Sales Engineering Support:** Partnered with sales teams to translate business requirements into technical solutions
+- **Client Technical Workshops:** Delivered discovery sessions and technical deep-dives during pre-sales engagements
+
+**Internal R&D Leadership:**
+- **Innovation Initiatives:** Directed research into emerging technologies including AI/ML, container orchestration, and event streaming
+- **Technology Evaluation:** Created evaluation frameworks for new tools and platforms, preventing costly adoption mistakes
+- **Competitive Intelligence:** Analyzed competitor offerings and market trends to inform product strategy
+- **Innovation Prototypes:** Built demonstration systems showcasing next-generation capabilities for client presentations
+- **Framework Evolution:** Continuous enhancement of shared framework based on R&D discoveries and client needs
+
 ### Training & Curriculum Development Authority
 **Market Positioning:** Technical education leadership premium ($200K-$280K)
-**Volume:** 25+ comprehensive enterprise training programs delivered
+**Volume:** 25+ comprehensive enterprise training programs delivered (both internal teams and client organizations)
 
 **Comprehensive Training Portfolio:**
 - **Event-Driven Architecture and Complex Event Processing:** IComplexEventHandler systems, NCronTab integration, message routing
 - **Enterprise Testing Automation:** Multi-tier testing (Unit/Integration/Simulation/UI), MSTest/Moq frameworks, data-driven testing, boilerplate generation
+- **Testing Mastery Programs:**
+  - **Unit Testing Excellence:** Test-first development, code coverage strategies, test organization patterns
+  - **Mocking Frameworks:** Advanced Moq usage, mock object patterns, dependency isolation techniques
+  - **Integration Testing:** Database testing strategies, API testing, end-to-end test automation
+- **Scripting & Automation Training:**
+  - **Bash Scripting:** Linux/Unix automation, shell scripting best practices, pipeline development
+  - **Windows Scripting:** Batch/CMD scripting, PowerShell advanced techniques, Windows automation
+  - **Cross-Platform Scripting:** Portable script development, environment detection, conditional execution
+- **Docker Platform Training Series:**
+  - **Docker as Hosting Platform:** Container deployment, multi-container applications, production configurations
+  - **Docker as Tools Platform:** Development environment containerization, build tools isolation, CI/CD integration
+  - **Local Development Pipelines:** Docker Compose workflows, local testing environments, debugging containerized applications
+- **Data Management & Deployment Training:**
+  - **Master Data Management:** Data governance, reference data strategies, data quality frameworks
+  - **Data Deployment Automation:** DacFX implementation, automated data migration, rollback strategies
+  - **Schema Management:** SQL Server Data Tools (SSDT), database project management, version-controlled schemas
+  - **Database DevOps:** Continuous database integration, automated testing of data changes, production deployment strategies
+- **AI/ML & Vector Search Training:**
+  - **Vector Databases:** Qdrant, FAISS, Pinecone implementation and optimization strategies
+  - **Embeddings Engineering:** Text embeddings (sentence transformers), image embeddings (CLIP, Vision Transformers)
+  - **Document Processing:** Document chunking strategies, sliding windows, overlap techniques for RAG systems
+  - **Hybrid Search Implementation:** Combining semantic search with BM25/fulltext for optimal retrieval
+  - **Vector Mathematics:** Distance calculations (cosine similarity, Euclidean, Manhattan), vector operations
+  - **Neural Network Fundamentals:** Perceptrons, backpropagation, activation functions, training concepts
+- **Hardware & Electronics Training:**
+  - **Analog Computing:** Operational amplifiers, analog computation circuits, signal processing
+  - **Digital Logic Design:** Logic gates, flip-flops, counters, state machines, timing diagrams
+  - **Embedded Systems:** Microcontroller programming (Arduino, AVR, PIC), interrupt handling, peripheral interfaces
+  - **Protocol Reverse Engineering:** Network protocol analysis (Wireshark), USB protocol sniffing, serial communication decoding
+  - **Microelectronics Fundamentals:** Component identification, circuit analysis, power calculations
+  - **Practical Electronics Skills:** Breadboarding techniques, through-hole soldering, SMD/surface mount soldering, rework techniques
+- **Network & Protocol Training:**
+  - **Socket Programming:** TCP/IP socket implementation, UDP communications, async network patterns
+  - **Protocol Implementation:** Custom protocol design, packet structure, error handling, state machines
+  - **Reverse Engineering Tools:** Protocol analyzers, packet capture, binary protocol decoding
 - **Message Queue Architecture:** Azure Service Bus vs Storage Queue comparative analysis, IMessageSender framework development
 - **DevOps/CI-CD Pipeline Development:** Private NPM repository management, SQL Server project versioning, automated deployment systems
 - **Custom SDLC methodology:** Complete process design with upstream feedback loops, role architecture, Agile/Kanban integration
@@ -354,9 +427,17 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Experience:** High-volume transaction processing, financial regulatory compliance, risk management systems, automotive finance modernization
 
 **Healthcare & Clinical:**
-- **Itrica (CTO role):** Clinical trials data management and regulatory reporting
-  - **CTO Promotion:** Promoted by CEO based on technical expertise and dedication - most skilled senior architect on team
-  - **Technical Leadership:** Combined CTO responsibilities with hands-on development management
+- **Itrica (CTO/CSA dual role):** Clinical trials data management and regulatory reporting
+  - **CTO/CSA Promotion:** Promoted by CEO based on technical expertise and dedication - "most skilled senior architect on team"
+  - **Dual Role Excellence:** Uniquely combined CTO strategic responsibilities with CSA technical leadership and hands-on development management
+  - **CTMS Ownership:** Personally architected, built, and maintained the Clinical Trial Management System while managing the development team
+  - **Player-Coach Model:** Direct management of 5 developers while actively coding alongside team - maintained technical authority through contribution not delegation
+  - **Datacenter Infrastructure Architecture:** Planned and built complete server infrastructure and datacenter for clinical trial management system
+    - **Hardware Selection:** Server specifications, storage arrays, networking equipment for high-availability
+    - **Virtualization Platform:** Designed and deployed VMware/Hyper-V virtualization infrastructure
+    - **Network Design:** Enterprise network architecture for secure clinical data processing
+    - **Storage Architecture:** SAN/NAS design for compliant data storage and backup
+    - **Disaster Recovery:** Business continuity planning and failover infrastructure
   - **Development Team Management:** Direct management of 5 active developers on clinical trial applications
   - **Compliance Responsibility:** Ensured FDA signoff and regulatory compliance for all software systems
   - **Architecture Governance:** Application architecture design and oversight across all clinical trial platforms
@@ -410,11 +491,15 @@ This document captures deep career insights, preferences, and hidden expertise d
   - **Career Origin:** Offered position before high school graduation after volunteering during "senior skip day" to clean ILOVEYOU virus from network
   - **Crisis Response Leadership:** Used skip day to lead virus cleanup effort, demonstrating professional competency
   - **Role Evolution:** Hired as computer technician → System Administrator → Network Engineer/Architect → Computer Support Department Lead
-  - **Enterprise Network Design:** Designed and built complete Novell/TCP/IP network infrastructure
-  - **WAN Architecture:** Full wide area network with direct TCP/IP links and dedicated leased ATM lines
-  - **VPN Network Implementation:** Built wide VPN network connecting off-campus locations
-  - **Multi-Site Integration:** Integrated off-site locations with their respective host school networks
-  - **Complex Network Topology:** Managed multi-partner network connectivity and routing
+  - **Complete Infrastructure Ownership:** Designed, built, and managed entire network and server infrastructure from ground up
+  - **Network Infrastructure Design:** Enterprise network using Enterasys, 3Com, and Cisco equipment with VLANs, routing protocols (RIP, OSPF), managed switches, spanning tree protocol, QoS policies, and network segmentation
+  - **Server Infrastructure:** Complete Novell ecosystem - NetWare servers, ZENworks desktop management, BorderManager firewall/proxy, GroupWise email system, NDS/eDirectory identity management
+  - **Telephony Systems:** 3Com NBX VoIP telephony system deployment and management serving entire institution
+  - **Wireless Infrastructure:** Campus-wide 802.11 wireless network design and deployment for student/staff connectivity
+  - **Computer Lab Infrastructure:** Multiple labs with PXE boot, imaging systems, remote management, and automated deployment
+  - **WAN Architecture:** Full wide area network with direct TCP/IP links, dedicated leased ATM lines, and site-to-site VPNs
+  - **Multi-Site Integration:** Integrated off-site locations with their respective host school networks using complex routing
+  - **Network Security:** Firewall rules, proxy configuration, content filtering, intrusion detection, and security policy enforcement
   - **Custom Application Development:** Multiple support ticket tracking systems
     - **PHP/RADIUS Version:** Web-based ticketing with RADIUS authentication integration
     - **ASP/VBScript/LDAP Version:** Active Directory integrated support system
@@ -602,7 +687,14 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Insight:** Deep toolchain knowledge across domains
 
 ### Development Methodology - Custom SDLC Framework Creator
-**Eliassen Centers of Excellence SDLC Leadership:**
+**Eliassen/Lightwell Practice-Wide Technical Leadership:**
+- **Lead Developer/Architect Role:** Served as lead developer and architect on multiple concurrent client projects
+- **Practice-Wide Guidance Development:** Developed comprehensive guidance for entire practice covering:
+  - **SDLC Methodologies:** Complete process frameworks from requirements through deployment
+  - **Design Patterns:** CQRS, Repository, Factory, Dependency Injection, Observer, Strategy patterns
+  - **Service Deployment Patterns:** Microservices architecture, containerization strategies, CI/CD pipelines
+- **Technical Standards Authority:** Established architectural standards and best practices adopted practice-wide
+- **Centers of Excellence Leadership:** Led .NET Centers of Excellence influencing 125+ developers
 - **Created comprehensive SDLC framework** for enterprise application development
 - **Hybrid methodology approach** combining best practices from multiple methodologies
 - **Role-based responsibility matrix** with clear duty assignments
