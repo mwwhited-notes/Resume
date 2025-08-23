@@ -17,6 +17,14 @@
 - **[Enterprise AI/ML Resume](./resumes/specialized/Enterprise_AI_ML_Matthew_Whited_Resume.md)** - Enterprise AI/ML specialist positioning
 - **[High Growth Tech Resume](./resumes/specialized/High_Growth_Tech_Matthew_Whited_Resume.md)** - High-growth technology company focused
 - **[Enterprise Architect Resume](./resumes/specialized/MatthewWhited-Enterprise-Architect-Resume.md)** - Strategic enterprise architecture leadership
+- **[Fractional CTO Resume](./resumes/specialized/fractional-cto.md)** - Fractional CTO and strategic technology leadership
+- **[Chief Solutions Architect Resume](./resumes/specialized/chief-solutions-architect.md)** - C-level technical architecture leadership
+- **[VP Engineering Resume](./resumes/specialized/vp-engineering.md)** - Vice President Engineering leadership
+- **[Staff Engineer Resume](./resumes/specialized/staff-engineer.md)** - Senior individual contributor focus
+- **[Technical Consultant Resume](./resumes/specialized/technical-consultant.md)** - Independent consulting positioning
+- **[Platform Architect Resume](./resumes/specialized/platform-architect.md)** - Platform engineering specialization
+- **[Principal Solutions Architect Resume](./resumes/specialized/principal-solutions-architect.md)** - Senior solutions architecture
+- **[Solution Architect Resume](./resumes/specialized/solution-architect.md)** - General solutions architecture
 
 ### Structured Resume Formats
 - **[FRESH Schema Resume](./resumes/formats/fresh-schema.yaml)** - FRESH schema format
@@ -74,8 +82,8 @@
 ---
 
 ## Document Ecosystem Status
-- **Total Files:** 25+ professional documents
-- **Last Updated:** 2025-08-14
+- **Total Files:** 30+ professional documents
+- **Last Updated:** 2025-08-23
 - **Repository Structure:** Modern git organization with logical directories
 - **Validation Status:** 100% verified technical accuracy
 - **Consistency Status:** All files aligned with gold standard
@@ -83,3 +91,4 @@
 - **Community Impact:** 652K+ NuGet downloads, 22K+ Stack Overflow reputation, GitHub Arctic Code Vault Contributor
 - **PDF Export System:** Professional styling and automated conversion configured
 - **Development Tools:** VSCode integration with professional resume formatting
+- **Recent Updates:** Enhanced training portfolio (AI/ML, hardware, electronics), infrastructure leadership experience, practice-wide technical standards development
