@@ -24,8 +24,9 @@ Create todo list with these tasks:
 
 ### Phase 2: Profile Link Extraction
 
-#### Read Master Resume
-**Source File:** `resumes/master-resume.md` (gold standard)
+#### Read Source Documents
+**Primary Source:** `resumes/master-resume.md` (gold standard)
+**Secondary Source:** `documentation/career-background.md` (comprehensive career insights and hidden expertise)
 
 #### Extract All External References
 Document the following categories:
@@ -42,8 +43,15 @@ Document the following categories:
 Format each reference with:
 - URL and platform type
 - Current resume description/mention
+- Source document (master resume or career background)
 - Expected content type
 - Research priority (High/Medium/Low)
+
+**Enhanced Link Collection Process:**
+1. **Master Resume Links** - Extract all external URLs and references
+2. **Career Background Links** - Scan career-background.md for additional professional profiles, repositories, and online presence not documented in master resume
+3. **Cross-Reference Analysis** - Identify links mentioned in career background but missing from master resume
+4. **Priority Assessment** - Rank based on professional impact and resume enhancement potential
 
 ### Phase 3: Systematic Online Research
 
@@ -327,7 +335,8 @@ Provide executive summary focusing on:
 
 ---
 
-**Protocol Version:** 1.0  
+**Protocol Version:** 1.1  
 **Created:** August 10, 2025  
-**Last Updated:** August 10, 2025  
-**Next Review:** November 10, 2025
+**Last Updated:** August 23, 2025  
+**Enhancement:** Added career-background.md as secondary source for comprehensive link collection  
+**Next Review:** November 23, 2025
