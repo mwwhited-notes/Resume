@@ -88,7 +88,9 @@
       "WebFetch(domain:www.upwork.com)",
       "WebFetch(domain:www.glassdoor.com)",
       "WebFetch(domain:careers.microsoft.com)",
-      "WebFetch(domain:www.dice.com)"
+      "WebFetch(domain:www.dice.com)",
+      "WebFetch(domain:www.fractionaljobs.io)",
+      "WebFetch(domain:www.religroupinc.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
