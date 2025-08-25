@@ -90,7 +90,22 @@
       "WebFetch(domain:careers.microsoft.com)",
       "WebFetch(domain:www.dice.com)",
       "WebFetch(domain:www.fractionaljobs.io)",
-      "WebFetch(domain:www.religroupinc.com)"
+      "WebFetch(domain:www.religroupinc.com)",
+      "WebFetch(domain:about.gitlab.com)",
+      "WebFetch(domain:zapier.com)",
+      "WebFetch(domain:automattic.com)",
+      "WebFetch(domain:buffer.com)",
+      "WebFetch(domain:www.coinbase.com)",
+      "WebFetch(domain:stripe.com)",
+      "WebFetch(domain:doist.com)",
+      "WebFetch(domain:help.scout.com)",
+      "WebFetch(domain:www.helpscout.com)",
+      "WebFetch(domain:rumble.com)",
+      "WebFetch(domain:corp.rumble.com)",
+      "WebFetch(domain:moov.io)",
+      "WebFetch(domain:openai.com)",
+      "WebFetch(domain:www.hashicorp.com)",
+      "WebFetch(domain:linkedin.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
