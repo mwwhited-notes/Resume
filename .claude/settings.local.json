@@ -105,7 +105,10 @@
       "WebFetch(domain:moov.io)",
       "WebFetch(domain:openai.com)",
       "WebFetch(domain:www.hashicorp.com)",
-      "WebFetch(domain:linkedin.com)"
+      "WebFetch(domain:linkedin.com)",
+      "mcp__playwright__browser_resize",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_install"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
