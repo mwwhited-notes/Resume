@@ -140,6 +140,7 @@
 - **Writing Style Guide:** documentation/style-guide.md (professional communication preferences)
 - **Career System Generator:** protocols/career-system-generator.md (universal career management system creation for any professional)
 - **Targeted Application Protocol:** protocols/targeted-application.md (comprehensive job search to ready-to-submit applications)
+- **Render Resume Protocol:** protocols/render-resume.md (convert markdown to ATS-optimized PDF with styling)
 - **LinkedIn Strategy:** documentation/linkedin-changes.md (comprehensive LinkedIn transformation plan)
 - **Career Visualization:** documentation/career-gantt-chart.md, career-detailed-gantt.md, career-phases-gantt.md (PlantUML Gantt charts showing 25+ year career progression)
 - **Company Research Results:** SearchResults/Companies/SmartData_20250815.md, BaltimorePublicSchools_20250815.md, Elastic_20250825.md, Presidio_20250825.md (strategic fit assessments)

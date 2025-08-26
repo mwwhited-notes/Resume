@@ -108,7 +108,15 @@
       "WebFetch(domain:linkedin.com)",
       "mcp__playwright__browser_resize",
       "mcp__playwright__browser_navigate",
-      "mcp__playwright__browser_install"
+      "mcp__playwright__browser_install",
+      "Bash(npm install)",
+      "Bash(/current/src/SearchResults/scripts/render-resume.sh:*)",
+      "Bash(npm install:*)",
+      "Bash(node:*)",
+      "Bash([ -d \"node_modules\" ])",
+      "Bash(./render-resume.sh:*)",
+      "Bash(npx playwright install:*)",
+      "Bash(npm uninstall:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
