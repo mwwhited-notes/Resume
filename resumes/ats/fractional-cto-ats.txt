@@ -1,0 +1,158 @@
+MATTHEW WHITED
+Fractional CTO | Chief Technology Officer | Technology Strategy Executive
+
+CONTACT INFORMATION
+Email: matt@whited.us
+Phone: +1 (614) 989-1748
+Location: Baltimore, MD
+Work Preference: Remote / Full-Time (up to 25% travel)
+LinkedIn: https://www.linkedin.com/in/mwwhited/
+GitHub: https://github.com/mwwhited
+Stack Overflow: http://stackoverflow.com/users/89586/matthew-whited
+Website: https://matthewwhited.com
+NuGet Profile: https://www.nuget.org/profiles/mwwhited/
+
+EXECUTIVE SUMMARY
+
+Fractional CTO and Technology Strategy Executive with 20+ years leading digital transformation, technology strategy, and crisis resolution for growing companies. Proven track record as vendor-neutral technology advisor preventing costly adoption mistakes while delivering measurable business impact including 77% cost reductions, 1-week delivery after 12-month failures, and FDA-compliant systems. Combines C-suite technology leadership experience with hands-on implementation expertise spanning AI/ML, cloud platforms, and enterprise architecture. Uniquely positioned to provide strategic technology guidance, team leadership, and operational excellence for companies requiring executive-level technology leadership without full-time commitment.
+
+FRACTIONAL CTO VALUE PROPOSITION
+• Strategic Technology Leadership: C-suite technology strategy, board reporting, and executive decision-making
+• Crisis Resolution Expertise: Called when projects fail, costs spiral, or complex integrations seem impossible
+• Vendor-Neutral Advisory: Independent consultant with no vendor partnerships preventing expensive mistakes
+• Hands-On Implementation: Unique combination of executive strategy with deep technical implementation capability
+• Measurable Business Impact: Demonstrated ROI through cost optimization, performance improvement, and risk mitigation
+
+EXECUTIVE LEADERSHIP EXPERIENCE
+
+Fractional CTO / Principal Solutions Architect
+Green Onion (Life Time Foundation), Eliassen Group
+February 2025 - Present
+• C-Suite Technology Leadership: Provide executive-level technology strategy, architecture governance, and strategic decision-making for growing foundation
+• Cost Optimization Excellence: Delivered 77% reduction in recurring cloud infrastructure costs through strategic technology decisions and vendor management
+• Digital Transformation Leadership: Led comprehensive digital transformation initiative improving operational efficiency and competitive positioning
+• Vendor Management Strategy: Implemented vendor-neutral technology advisory services eliminating vendor lock-in and reducing technology risks
+• Executive Reporting: Provide regular technology strategy updates to board and executive leadership with clear ROI metrics and strategic recommendations
+
+Chief Technology Officer / Chief Solutions Architect
+Itrica
+November 2009 - July 2015
+• C-Suite Executive Leadership: Served as Chief Technology Officer managing technology strategy, team leadership, budget planning, and regulatory compliance
+• FDA Regulatory Compliance: Led development of FDA-compliant enterprise architecture for life-critical systems serving Big Pharma clients (Sanofi, AstraZeneca, GSK)
+• Strategic Technology Planning: Developed multi-year technology roadmaps, investment strategies, and resource allocation plans supporting business growth objectives
+• Team Leadership and Development: Built and led development teams of 5+ engineers with complete technical and regulatory compliance responsibility
+• Executive Partnership: Collaborated with CEO, CFO, and board members on technology strategy, budget planning, and business alignment initiatives
+• Merit-Based Promotion: Promoted to CTO role for exceptional technical leadership and being recognized as "most skilled senior architect"
+
+FRACTIONAL CTO ENGAGEMENTS AND TECHNOLOGY LEADERSHIP
+
+Technology Strategy and Governance:
+• Strategic Technology Vision: Developed comprehensive technology roadmaps, innovation strategies, and competitive advantage planning
+• Architecture Governance: Established enterprise architecture standards, design patterns, and technology evaluation frameworks
+• Vendor Management: Led technology vendor relationships, contract negotiations, and strategic partnership development
+• Risk Management: Implemented technology risk assessment, security frameworks, and compliance monitoring systems
+• Investment Planning: Technology budget planning, ROI analysis, and resource allocation optimization
+
+Crisis Resolution and Performance Optimization:
+• Crisis Resolution Leadership: Successfully resolved critical technology failures, performance issues, and integration challenges
+• Performance Engineering: Delivered 300%+ performance improvements through strategic architecture decisions and optimization strategies
+• Cost Optimization: Achieved 77% infrastructure cost reduction through vendor management and architecture optimization
+• Rapid Delivery: Delivered working solutions in 1 week after other teams failed for 12 months
+• Business Continuity: Implemented disaster recovery, backup strategies, and business continuity planning
+
+Team Leadership and Organizational Development:
+• Technology Team Leadership: Built, managed, and mentored development teams across multiple technology domains
+• Centers of Excellence: Led Centers of Excellence across 125+ developers establishing enterprise-wide standards
+• Professional Development: Designed and delivered comprehensive training programs including AI/ML and enterprise development
+• Performance Management: Managed team performance, career development, and technical skill advancement
+• Cultural Leadership: Established engineering culture focused on quality, innovation, and continuous improvement
+
+TECHNICAL EXPERTISE FOR CTO ROLES
+
+Strategic Technology Platforms:
+• Cloud Strategy: Azure, AWS enterprise architecture, hybrid cloud strategies, cloud migration planning, and cost optimization
+• AI/ML Strategy: Enterprise artificial intelligence adoption, machine learning pipelines, and AI governance frameworks
+• Enterprise Architecture: Technology standardization, integration patterns, and scalability planning
+• Security and Compliance: Enterprise security architecture, regulatory compliance (FDA, HIPAA), and risk management
+• Digital Transformation: Business process automation, workflow optimization, and technology modernization
+
+Executive Technology Management:
+• Technology Budgeting: Budget planning, cost analysis, ROI measurement, and investment prioritization
+• Vendor Management: Technology procurement, contract negotiation, vendor relationship management, and risk assessment
+• Strategic Planning: Technology roadmap development, competitive analysis, and innovation strategy
+• Board Reporting: Executive communication, technology strategy presentations, and stakeholder management
+• Change Management: Technology adoption strategies, organizational change leadership, and stakeholder engagement
+
+Implementation and Delivery Excellence:
+• Software Development: Full-stack development, database architecture, and performance optimization
+• DevOps and Automation: CI/CD pipeline development, infrastructure as code, and deployment automation
+• Quality Assurance: Code review processes, testing frameworks, and quality gate implementation
+• Project Management: Agile methodology, project planning, timeline management, and delivery assurance
+• Crisis Management: Incident response, problem resolution, and business continuity planning
+
+EDUCATION
+
+Electronic Engineering Technology (Coursework Completed)
+DeVry University
+2000 - 2002
+• 33 credit hours completed toward Electronic Engineering Technology degree, 3.12 GPA
+• Strong foundation in hardware and software integration supporting CTO technology breadth
+
+Vocational Certificate - Certified Electronics Technician
+Eastland-Fairfield Career and Technical Schools
+1998 - 2000
+• National Vocational-Technical Honor Society
+• Comprehensive electronics and systems integration background
+
+CERTIFICATIONS
+• CompTIA A+ Certification
+• CompTIA Network+ Certification
+
+CTO-LEVEL ACHIEVEMENTS AND BUSINESS IMPACT
+
+Executive Leadership and Strategy:
+• C-Suite Experience: Proven CTO experience with board reporting, budget management, and strategic planning
+• Crisis Resolution: Successfully resolved multiple technology crises with measurable business impact
+• Cost Optimization: Delivered 77% infrastructure cost reduction through strategic technology decisions
+• Digital Transformation: Led comprehensive modernization initiatives improving business competitiveness
+• Regulatory Compliance: Implemented FDA-compliant systems for pharmaceutical and medical research industries
+
+Technology Innovation and Implementation:
+• AI/ML Pioneer: Early adoption and implementation of artificial intelligence and machine learning technologies
+• Database Innovation: Developed custom database extensions and performance optimization solutions
+• Framework Development: Created enterprise-wide technology frameworks with lasting organizational impact
+• Open Source Leadership: 657K+ package downloads and 22K+ Stack Overflow reputation demonstrating technical authority
+• Performance Engineering: Delivered enterprise-scale performance optimization with measurable business results
+
+Team Leadership and Organizational Impact:
+• Technology Team Development: Built and led high-performing development teams across multiple domains
+• Training Excellence: Designed and delivered comprehensive technical training programs
+• Centers of Excellence: Led technology standardization across 125+ developers
+• Mentorship: Comprehensive professional development and career advancement programs
+• Culture Building: Established engineering culture focused on quality, innovation, and continuous improvement
+
+FRACTIONAL CTO SERVICE OFFERINGS
+
+Strategic Technology Leadership:
+• Technology Strategy Development: Comprehensive technology roadmaps, innovation strategies, and competitive positioning
+• Architecture Governance: Enterprise architecture standards, technology evaluation, and design pattern enforcement
+• Vendor Management: Technology procurement strategy, contract negotiation, and vendor relationship management
+• Investment Planning: Technology budget planning, ROI analysis, and resource allocation optimization
+• Board Reporting: Regular technology strategy updates with clear metrics and strategic recommendations
+
+Operational Technology Management:
+• Crisis Resolution: Emergency technology problem resolution and business continuity planning
+• Performance Optimization: Application performance tuning, infrastructure optimization, and scalability planning
+• Security and Compliance: Enterprise security architecture, regulatory compliance, and risk management
+• Team Leadership: Technology team development, performance management, and professional development
+• Quality Assurance: Code review processes, testing frameworks, and delivery excellence
+
+Innovation and Growth Support:
+• Digital Transformation: Business process automation, workflow optimization, and technology modernization
+• AI/ML Strategy: Artificial intelligence adoption planning, machine learning implementation, and AI governance
+• Emerging Technology Evaluation: Technology trend analysis, proof of concept development, and adoption recommendations
+• Competitive Analysis: Technology competitive positioning and market differentiation strategies
+• Scalability Planning: Technology architecture planning supporting business growth and expansion
+
+KEYWORDS FOR FRACTIONAL CTO ATS OPTIMIZATION
+Fractional CTO, Chief Technology Officer, CTO, Technology Executive, Technology Leadership, Executive Technology Leadership, C-Suite, Technology Strategy, Digital Transformation, Technology Vision, Innovation Strategy, Technology Roadmap, Strategic Planning, Executive Leadership, Board Reporting, Stakeholder Management, Technology Governance, Architecture Governance, Vendor Management, Technology Procurement, Budget Planning, Investment Strategy, ROI Analysis, Cost Optimization, Performance Optimization, Crisis Resolution, Risk Management, Security Strategy, Compliance Strategy, Team Leadership, Technology Team Management, Engineering Leadership, Professional Development, Change Management, Business Technology Alignment, Technology Due Diligence, M&A Technology Assessment, Startup CTO, Scale-up Technology Leadership, Growth Company CTO, Technology Consulting, Advisory Services, Interim CTO, Part-time CTO, Contract CTO, Technology Advisor, Strategic Technology Consultant, Cloud Strategy, AI Strategy, Machine Learning Strategy, Data Strategy, Digital Strategy, Innovation Management, Emerging Technology, Technology Evaluation, Competitive Analysis, Market Analysis, Business Intelligence, Enterprise Architecture, Solution Architecture, Software Architecture, Cloud Architecture, Security Architecture, Data Architecture, Infrastructure Architecture, DevOps Strategy, Agile Leadership, Scrum Master, Product Management, Technology Product Management, Software Development Leadership, Quality Assurance Leadership, Performance Engineering, Scalability Engineering, Database Architecture, API Strategy, Microservices Architecture, Container Strategy, Kubernetes, Docker, Azure, AWS, .NET, Java, Python, JavaScript, SQL Server, NoSQL, MongoDB, PostgreSQL, Machine Learning, Artificial Intelligence, Deep Learning, Natural Language Processing, Computer Vision, Big Data, Analytics, Data Science, Business Intelligence, Regulatory Compliance, FDA Compliance, HIPAA Compliance, SOX Compliance, Security Compliance, Audit Management, Risk Assessment, Vendor Risk Management, Third Party Risk, Technology Risk, Cybersecurity, Information Security, Data Protection, Privacy, GDPR, Technology Training, Technical Training, Leadership Development, Executive Coaching, Mentorship, Technology Culture, Engineering Culture, Innovation Culture

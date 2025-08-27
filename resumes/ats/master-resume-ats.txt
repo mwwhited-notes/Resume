@@ -1,0 +1,279 @@
+MATTHEW WHITED
+Fractional CTO | Principal Solutions Architect | Crisis Resolution Specialist
+
+CONTACT INFORMATION
+Email: matt@whited.us
+Phone: +1 (614) 989-1748
+Location: Baltimore, MD
+Work Preference: Remote / Full-Time (up to 25% travel)
+LinkedIn: https://www.linkedin.com/in/mwwhited/
+GitHub: https://github.com/mwwhited
+Stack Overflow: http://stackoverflow.com/users/89586/matthew-whited
+Website: https://matthewwhited.com
+NuGet Profile: https://www.nuget.org/profiles/mwwhited/
+
+PROFESSIONAL SUMMARY
+
+Fractional CTO, Principal Solutions Architect, and Crisis Resolution Specialist with 20+ years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. The trusted technology advisor companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions ($13,800+ annual savings), 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients.
+
+CORE COMPETENCIES
+
+Enterprise Architecture and Leadership:
+• Strategic Technology Leadership: Centers of Excellence influence across 125+ developers
+• Crisis Resolution Specialist: 77% cost reduction, 1-week delivery after 12-month failures
+• Vendor-Neutral Technology Advisory: Independent consultant preventing expensive mistakes
+• Enterprise Architecture: Cross-functional architecture strategy, technology risk management
+• Fractional CTO Services: Strategic technology vision, architecture governance
+• Technology Due Diligence: M&A technical assessments, security audits
+
+Technical Expertise:
+• Enterprise Architecture: Cross-functional architecture strategy, enterprise solutions design, architecture governance frameworks
+• Software Development Life Cycle (SDLC): Complete SDLC implementation, methodology development, process optimization
+• Information Technology: Enterprise IT strategy, infrastructure management, technology modernization, system integration
+• Network Architecture: Network design, network security, enterprise networking, infrastructure planning
+• Security Architecture: Authentication/authorization, OAuth implementation, audit logging, security reviews
+• .NET/C# Ecosystem: .NET Standard, ASP.NET MVC, WPF, Windows Services, EF Core, .NET Core (20+ years)
+• JavaScript/TypeScript: Node.js, Angular, React, enterprise web applications (15+ years)
+• Database Systems: SQL Server, SQLCLR, T-SQL, performance optimization, custom extensions (20+ years)
+• Cloud Platforms: Azure, AWS, Docker, Kubernetes, Helm charts, microservices architecture
+• Continuous Integration/Continuous Delivery (CI/CD): Azure Pipelines, GitHub Actions, automated deployment
+• AI/ML Technologies: AllMiniLM-L6-v2, SBERT, vector search, custom LSH algorithms, hybrid search
+• Mobile Development: iOS development, Android development, cross-platform applications
+• Programming Languages: C#, JavaScript, TypeScript, Python, Java, Rust, F#, C/C++, PowerShell
+• Hardware/Electronics: Verilog, VHDL, SystemVerilog, microprocessor design, FPGA/CPLD
+
+AI/ML and Advanced Technologies:
+• Machine Learning: Sentence Transformers (AllMiniLM-L6-v2, SBERT), production model deployment
+• Vector Search: Custom LSH algorithms, FAISS, Qdrant, approximate nearest neighbor search
+• Database Innovation: Custom SQLCLR vector extensions, SqlVector/SqlVectorF types
+• Performance Optimization: Sub-linear similarity search, zero-allocation programming
+• LLM Integration: OpenAI, local model deployment, RAG systems
+
+Leadership and Business Development:
+• Team Leadership: Technical team lead, Centers of Excellence leadership, developer mentorship
+• Architecture Review Board: Architecture governance, design review processes, technical standards
+• Product Development: Product strategy, solution development, technical product management
+• Pre-Sales Engineering: Proof-of-concepts (POCs), technical demonstrations, RFP responses
+• Project Management: Project estimation and planning, software estimation, resource allocation
+• Problem Solving: Crisis resolution, technical troubleshooting, integration challenges
+• Application Engineering: Application architecture, system design, technical specifications
+• Business Requirements: Requirements gathering and documentation, solution development, business analysis
+
+DevOps and Infrastructure:
+• Containerization: Docker, Kubernetes, Helm charts, multi-service orchestration
+• Cloud Services: Azure Service Bus, Storage Queues, Container Apps, AWS SQS, Lambda
+• Message Queues: RabbitMQ, Kafka, Azure Service Bus, event streaming
+• DevOps: Azure Pipelines, GitHub Actions, CI/CD automation, infrastructure as code
+• Monitoring: Application performance monitoring, health checks, logging frameworks
+• Database Optimization: Performance tuning, query optimization, indexing strategies
+• Application Optimization: Performance analysis, scalability improvements, code optimization
+• Code Review: Technical code reviews, quality assurance, best practices enforcement
+• Architecture Review: System architecture evaluation, design pattern compliance
+• Security Review: Security assessment, vulnerability analysis, compliance verification
+
+PROFESSIONAL EXPERIENCE
+
+Principal Solutions Architect
+Green Onion (Life Time Foundation), Eliassen Group
+February 2025 - Present
+• Cost Optimization: Achieved 77% reduction in recurring cloud infrastructure costs through comprehensive architecture review and optimization, delivering $13,800+ annual savings
+• Performance Enhancement: Improved application performance across multiple systems, achieving 300%+ response time improvements
+• API Integration: Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
+• Business Impact: Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
+• Strategic Technology Advisory: Provided vendor-neutral technology guidance preventing costly adoption mistakes
+
+Principal Solutions Architect, AI/ML Specialist
+ERisk Services, Eliassen Group
+November 2024 - August 2025
+• Advanced ML Integration: Implemented AllMiniLM-L6-v2 sentence transformers with high-dimensional embeddings for semantic similarity matching in insurance submission processing
+• Database Innovation: Added vector distance calculations to SQL Server using SQLCLR with custom SqlVector/SqlVectorF types including mathematical operations (cosine, euclidean, manhattan, dot product) and optimized binary serialization
+• Performance Engineering: Achieved sub-linear similarity search performance through locality-sensitive hashing (LSH) with compact hash representations, Hamming Distance optimization
+• Enterprise Architecture: Designed comprehensive multi-layered system with multi-stage pipeline, multi-database architecture, and production-grade security/audit logging
+• Business Impact: Delivered automated duplicate detection system dramatically reducing manual review workload while maintaining insurance industry regulatory compliance
+• Performance Rating: Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles
+
+Principal Solutions Architect
+Eliassen Group
+September 2015 - October 2024
+• Centers of Excellence Leadership: Led .NET Centers of Excellence across 125+ developers, establishing enterprise-wide technology standards
+• Framework Architecture: Developed 50+ library OoBDev .NET Framework ecosystem with lasting organizational impact
+• AI/ML Innovation: Developed search engine based on SBERT embeddings and vector search before mainstream adoption
+• Training and Mentorship: Led internal professional development programs, project management, and comprehensive technical training
+• Performance Optimization: Specialized in database and application performance, reusable middleware frameworks, and automated testability
+• Technical Leadership: Provided architectural guidance across multiple client engagements and internal projects
+
+Chief Solutions Architect / CTO
+Itrica
+November 2009 - July 2015
+• Executive Leadership: Served as Chief Technology Officer and Chief Solutions Architect managing technical strategy and team leadership
+• FDA Compliance: Designed and implemented FDA-compliant life-critical systems for Big Pharma clients (Sanofi, AstraZeneca, GSK) and Harvard Medical (TIMI Study Group)
+• Security Architecture: Built secure file storage systems and messaging services with comprehensive audit trails
+• Team Management: Led development teams of 5+ engineers with complete technical responsibility and regulatory compliance oversight
+• Merit-Based Promotion: Promoted to CTO role for being "most skilled senior architect" demonstrating exceptional technical leadership
+
+Senior .NET Developer
+Safe Auto Insurance, TEKsystems
+April 2010 - September 2010
+• Enterprise Integration: Designed enterprise message passing services and deployment tools
+• Custom Development: Implemented custom XSLT transformation processes and WCF communication services
+• Performance Optimization: Optimized data processing and transformation workflows
+
+Senior .NET Developer
+United Healthcare, TEKsystems
+December 2008 - April 2010
+• Healthcare Systems: Developed applications for EDI transfer and transformation in healthcare domain
+• Data Integration: Created adapters and tools for data conversion and event-based workflow processing
+• Regulatory Compliance: Ensured HIPAA compliance and healthcare industry standards
+
+Senior .NET Developer
+JPMorgan Chase, TEKsystems
+June 2008 - December 2008
+• Financial Systems: Developed audit and trade history database using ASP.NET and SQL Server
+• Data Architecture: Designed scalable database systems for financial transaction processing
+• Regulatory Compliance: Implemented systems meeting financial industry regulatory requirements
+
+.NET Developer
+The Dot Net Factory, TEKsystems
+August 2007 - April 2008
+• Protocol Engineering: Created bi-directional adapters and custom TCP/IP socket tunnels for protocol bridging
+• Network Programming: Developed custom communication protocols and integration solutions
+• System Integration: Built bridges between disparate systems and protocols
+
+Software Engineer
+3SG Corporation
+August 2006 - August 2007
+• Production Systems: Developed software and databases for production scanning projects
+• Performance Optimization: Improved performance of image conversion processes
+• Web Development: Developed web-based reporting tools and management interfaces
+
+Systems Engineer
+Eastland-Fairfield Career and Technical Schools
+July 2000 - August 2006
+• Network Architecture: Designed and managed wide area network for school district
+• Custom Development: Developed custom helpdesk and inventory systems
+• Infrastructure Management: Provided network planning, project management, and technical support
+• Early Career Achievement: Offered position before graduation for ILOVEYOU virus cleanup expertise
+
+EDUCATION
+
+Vocational Certificate - Certified Electronics Technician
+Eastland-Fairfield Career and Technical Schools
+1998 - 2000
+• National Vocational-Technical Honor Society
+• SkillsUSA-VICA first place regional electronics technician
+• Hand assembly and machine language programming
+• Computer networking and digital/analog circuits
+
+Electronic Engineering Technology (Coursework Completed)
+DeVry University
+2000 - 2002
+• 33 credit hours completed, 3.12 GPA
+• Coursework: Digital circuits, analog electronics, microprocessor design, embedded systems
+• Program discontinued due to funding constraints
+
+High School Diploma
+Gahanna Lincoln High School
+1996 - 2000
+• Eagle Scout Achievement (2000)
+• Activities: Stage Crew (technical production), Marching Band, Fencing Club
+
+CERTIFICATIONS
+• CompTIA A+ Certification - Computer hardware and software troubleshooting
+• CompTIA Network+ Certification - Network configuration and management
+
+OPEN SOURCE CONTRIBUTIONS AND COMMUNITY RECOGNITION
+
+Extensions for .NET - 657K+ Downloads
+GitHub: https://github.com/OutOfBandDevelopment/dotex
+• 20+ NuGet packages with 657K+ total downloads
+• Vector Support for MS-SQL Server via SQLCLR with custom SqlVector/SqlVectorF types
+• Mathematical operations, binary serialization, and distance aggregation functions
+• BinaryDataDecoders.ToolKit: 36,270+ downloads
+• Professional CI/CD and enterprise-grade quality
+
+Microcontrollers and Electronics - 200+ Commits
+GitHub: https://github.com/mwwhited/EmbeddedBakery
+• Custom designed 16-bit microprocessor (MW16C) in SystemVerilog
+• Multi-stage pipeline, comprehensive instruction set, Python assembler
+• VHDL component library: ALU, memory elements, decoders, multiplexers
+• Hardware Description Languages: Verilog (30%), VHDL (20%), C/C++ (35%)
+• FPGA/CPLD projects and 3D printer/CNC router development
+
+Binary Data Processing Framework - 400+ Commits
+GitHub: https://github.com/mwwhited/BinaryDataDecoders/
+• Zero-allocation parsing using System.IO.Pipelines and Memory<T>
+• Multiple format support: PKZip, TAR, ISO9660, Telnet, LDAP, SNTP
+• Enterprise-grade quality with comprehensive testing and error handling
+• Async/await patterns and high-performance implementation
+
+AI/ML Research and Implementation - 88.7% Jupyter Notebooks
+GitHub: https://github.com/mwwhited-notes/shared
+• Custom LSH implementation for approximate nearest neighbor search
+• Production hybrid search engine combining semantic similarity with keyword matching
+• FAISS integration and vector quantization research
+• Performance benchmarking and algorithm optimization
+
+Image Processing and AI Framework
+GitHub: https://github.com/mwwhited/SecondShooter
+• Production AI/ML infrastructure with Docker orchestration (SBERT, ViT, Ollama, Qdrant)
+• RAW image format support (NEF, CR2, ARW, DNG) for professional photography
+• Custom MIT NON-AI licensing demonstrating legal/ethical AI awareness
+• Microservices architecture with health monitoring and OpenAPI compatibility
+
+Community Recognition:
+• Stack Overflow: 22,433+ reputation, 4.7M+ user reach, 606+ solutions spanning 16+ years
+• GitHub Achievements: Arctic Code Vault Contributor, Pull Shark (x2), Quickdraw, YOLO, Starstruck
+• NuGet Profile: 20+ packages, 657K+ total downloads
+• NPM Profile: 3 published packages including SignalR client and BeagleBone toolkit
+
+TECHNICAL ACHIEVEMENTS
+
+Performance and Innovation:
+• Database Performance: Custom SQLCLR extensions adding vector search to SQL Server
+• Zero-Allocation Programming: High-performance .NET development with memory optimization
+• Protocol Reverse Engineering: Industry-first implementations that became vendor standards
+• AI/ML Pioneer: Implemented production AI/ML systems before mainstream enterprise adoption
+• Framework Development: 50+ library ecosystem with enterprise-wide organizational impact
+
+Business Impact:
+• Cost Reduction: 77% cloud infrastructure cost reduction ($13,800+ annual savings)
+• Performance Improvement: 300%+ application performance improvements
+• Crisis Resolution: 1-week delivery after 12 months of failed attempts by others
+• Risk Prevention: $500K+ financial risk prevention through technology due diligence
+• Regulatory Compliance: FDA-compliant systems for Big Pharma and medical research
+
+Leadership and Influence:
+• Team Leadership: 125+ developers across Centers of Excellence
+• Training Delivery: 25+ enterprise programs spanning software, AI/ML, and hardware
+• Mentorship: Comprehensive professional development programs
+• Community Impact: 4.7M+ Stack Overflow reach, 657K+ package downloads
+• Technical Innovation: Multiple industry-first implementations and frameworks
+
+SPECIALIZATIONS
+
+Crisis Resolution and Problem Solving:
+• Cross-functional problem solving spanning client relations, failed deployments, data corruption
+• Integration challenges and organizational change management
+• Performance optimization and scalability engineering
+• Technology risk assessment and mitigation strategies
+
+Enterprise Architecture and Governance:
+• Strategic technology vision and architecture governance
+• Vendor-neutral advisory services and technology due diligence
+• Regulatory compliance (FDA, HIPAA, financial industry standards)
+• Security architecture and audit logging frameworks
+
+AI/ML and Advanced Technologies:
+• Production AI/ML model deployment and optimization
+• Vector search and similarity matching systems
+• Hybrid search architectures combining semantic and keyword matching
+• Custom algorithm development and performance optimization
+
+Training and Development:
+• Professional development program creation and execution
+• Technical training delivery (.NET Boot Camps, AI/ML training)
+• Mentorship and career development guidance
+• Best practices establishment and documentation
+
+KEYWORDS FOR ATS SYSTEMS
+Principal Solutions Architect, Fractional CTO, Enterprise Architect, Chief Solutions Architect, Technology Leadership, Crisis Resolution, Enterprise Architecture, Enterprise Solutions, Software Development Life Cycle, SDLC, Continuous Integration, Continuous Delivery, CI/CD, Information Technology, Network Architecture, Security Architecture, OAuth, Authentication, Product Development, Solution Development, Business Requirements Gathering, Business Requirements Documentation, Team Lead, Architecture Review Board, Proof of Concepts, POC, Application Engineering, Database Optimization, Application Optimization, Network Design, Code Review, Architecture Review, Security Review, Pre-Sales, Project Estimation, Project Planning, Software Estimation, Problem Solver, .NET, C#, ASP.NET, SQL Server, SQLCLR, Azure, AWS, Docker, Kubernetes, AI, Artificial Intelligence, Machine Learning, ML, Vector Search, Performance Tuning, DevOps, Microservices, API Development, REST API, JavaScript, TypeScript, Node.js, React, Angular, Python, Java, Rust, F#, SOLID Principles, Design Patterns, Clean Architecture, Domain Driven Design, DDD, Agile, Scrum, Team Leadership, Project Management, Software Architecture, System Design, Cloud Computing, Infrastructure as Code, Security, Compliance, FDA, HIPAA, Financial Services, Healthcare, Insurance, Technical Training, Mentorship, Open Source, GitHub, Stack Overflow, NuGet, AllMiniLM-L6-v2, SBERT, Sentence Transformers, FAISS, Qdrant, LSH, Locality Sensitive Hashing, Verilog, VHDL, SystemVerilog, FPGA, CPLD, Electronics, Hardware Description Language, Microprocessor Design, Embedded Systems, Protocol Reverse Engineering, Binary Data Processing, Zero Allocation Programming, High Performance Computing

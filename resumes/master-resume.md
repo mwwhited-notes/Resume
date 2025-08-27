@@ -37,10 +37,12 @@
 
 ### Core Differentiators
 - **Crisis Resolution Specialist:** When others fail for months, delivers working solutions in weeks - 1-week AI/ML implementation after 12 months of failed attempts, 77% cloud cost reduction ($13,800+ annual savings)
+- **Enterprise Architecture Leadership:** Complete SDLC methodology development, architecture review board leadership, enterprise solutions strategy across 125+ developers
 - **Vendor-Neutral Technology Advisor:** Independent consultant with no vendor partnerships - prevents expensive mistakes through unbiased technology guidance and anti-hype expertise
+- **Pre-Sales Engineering Excellence:** Proof-of-concepts, technical demonstrations, business requirements analysis, and solution development expertise
 - **Protocol Reverse Engineering Pioneer:** Created industry-first solutions that became vendor standards - Novell ClientTrust implementation became their official product basis
 - **FDA/Regulatory Compliance Expert:** Life-critical systems for Big Pharma (Sanofi, AstraZeneca, GSK) + Harvard Medical (TIMI Study Group), direct FDA auditor interface
-- **Enterprise Crisis Leadership:** Merit-based CTO promotion for being "most skilled senior architect," managing 5 developers with complete FDA compliance responsibility
+- **Enterprise Crisis Leadership:** Merit-based CTO promotion for being "most skilled senior architect," team leadership with complete FDA compliance responsibility
 - **Multi-Platform Universal Competency:** Linux/Unix (System V, Solaris), macOS/Apple Xserve, Windows - works with any client infrastructure without bias
 - **Self-Taught Excellence Foundation:** Started with Apple IIc game reverse engineering, taught vocational instructor networking, offered first job before graduation for ILOVEYOU virus cleanup
 - **Hardware-Software Complete Stack:** Electronics Technician certification through AI/ML custom algorithms, microprocessor design to cloud optimization, **professional Hardware Description Language expertise** (Verilog, VHDL, SystemVerilog)
@@ -309,12 +311,15 @@
 
 ### Enterprise Frameworks & Governance
 **Architecture & Standards:**
+- **Enterprise Architecture:** Cross-functional architecture strategy, enterprise solutions design, technology risk management, architecture governance frameworks
+- **Software Development Life Cycle (SDLC):** Complete SDLC implementation, methodology development, process optimization, upstream feedback loops
 - **Design Patterns:** SOLID principles, Clean Architecture, Domain-Driven Design (DDD)
-- **Enterprise Integration:** Service-oriented architecture (SOA), event-driven architecture, API design
+- **Enterprise Integration:** Service-oriented architecture (SOA), event-driven architecture, API design, enterprise solutions integration
 - **Architecture Documentation:** PlantUML diagram-as-code, Visio enterprise diagrams, Figma wireframes, pen/paper ideation
-- **Quality Assurance:** Test-driven development, continuous integration, automated testing frameworks
-- **Performance Engineering:** Zero-allocation programming, memory optimization, scalability design
-- **Security:** Authentication/authorization, audit logging, compliance frameworks
+- **Quality Assurance:** Test-driven development, continuous integration, automated testing frameworks, code review processes, architecture reviews
+- **Performance Engineering:** Zero-allocation programming, memory optimization, scalability design, application optimization, database optimization
+- **Security Architecture:** Authentication/authorization, OAuth implementation, audit logging, compliance frameworks, security reviews
+- **Business Requirements:** Requirements gathering and documentation, solution development, business analysis, stakeholder management
 
 ### Data Architecture & Analytics
 **Enterprise Data Management:**
@@ -325,10 +330,12 @@
 
 ### Cloud & DevOps Technologies
 **Production Infrastructure:**
+- **Information Technology:** Enterprise IT strategy, infrastructure management, technology modernization, system integration
+- **Network Architecture:** Network design, network security, enterprise networking, infrastructure planning
 - **Containerization:** Docker, Kubernetes, Helm charts, multi-service orchestration
 - **Cloud Platforms:** Azure (Service Bus, Storage Queues, Container Apps), AWS (SQS, Lambda)
 - **Message Queues:** RabbitMQ, Kafka, Azure Service Bus, event streaming
-- **DevOps:** Azure Pipelines, GitHub Actions, Bitbucket Pipelines, CI/CD automation, infrastructure as code
+- **Continuous Integration/Continuous Delivery (CI/CD):** Azure Pipelines, GitHub Actions, Bitbucket Pipelines, automated deployment, infrastructure as code
 - **Project Management Integration:** JIRA for issue tracking, Confluence for documentation, Azure DevOps work items, Microsoft Project for resource planning
 
 ### AI/ML & Advanced Technologies
@@ -354,6 +361,16 @@
 - **Document Processing:** Apache Tika integration, multi-format conversion pipelines, stream-based processing
 - **Home Automation:** Multi-scale image tiling, TOTP authentication, barcode generation, IoT device orchestration
 - **Sports Technology:** Real-time tournament scoring, proprietary hardware protocol decoding, HDMI switching, camera control
+
+### Leadership & Business Development
+**Technical Leadership & Strategy:**
+- **Team Leadership:** Technical team lead, Centers of Excellence leadership, developer mentorship, performance management
+- **Architecture Review Board:** Architecture governance, design review processes, technical standards establishment
+- **Product Development:** Product strategy, solution development, technical product management, innovation leadership
+- **Pre-Sales Engineering:** Proof-of-concepts (POCs), technical demonstrations, RFP responses, client workshops
+- **Project Management:** Project estimation and planning, software estimation, resource allocation, timeline management
+- **Problem Solving:** Crisis resolution, technical troubleshooting, integration challenges, performance optimization
+- **Application Engineering:** Application architecture, system design, technical specifications, implementation oversight
 
 ### Development Tools & Methodologies
 **Professional Proficiency:**
