@@ -176,6 +176,7 @@
 - **Job Search Approach:** Focus on active job board search pages rather than specific job postings (which expire quickly at principal level)
 - **Link Verification Required:** Always test job posting links before recommending - many expire within days for senior positions
 - **Application Tracking:** Reference ./SearchResults/applied-to.md and ./SearchResults/apply-next.md for current job application status - DO NOT store application data in memory
+- **Company Exclusions:** Circle (requires monitoring/surveillance software that violates privacy principles)
 
 ## File Path Format - MEMORIZED
 - **Format:** Relative paths with `./` prefix
