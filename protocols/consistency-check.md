@@ -82,9 +82,9 @@ Create targeted resumes for each specific position type using master resume as a
 - [ ] **All .md files in resumes/targeted/** - Check for consistency with master resume and current positioning
 
 **CRITICAL: Master Resume vs Other Resume Positioning Strategy**
-- **Master Resume:** Must list ALL target job titles showing multi-track capability (Principal Platform Architect, Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist)
-- **All Other Resume Documents:** Must target SINGLE title only (currently Principal Platform Architect)
-- **Profile Documents:** Must target SINGLE title only (currently Principal Platform Architect)
+- **Master Resume:** Must list ALL target job titles showing multi-track capability (Principal Enterprise Architect, Principal Solutions Architect, Fractional CTO, Principal Platform Architect & Crisis Resolution Specialist)
+- **All Other Resume Documents:** Must target SINGLE title only (currently Principal Solutions Architect)
+- **Profile Documents:** Must target SINGLE title only (currently Principal Solutions Architect)
 - **Rationale:** Master resume serves as authoritative source showing all capabilities, while presentation documents focus on single target for clarity and impact
 
 **Source Requirements for Each Specialized Resume:**
@@ -121,7 +121,7 @@ Update all profile documents using master resume as authoritative source and car
 - [ ] `profiles/brief-personal.md` - Personal brief incorporating career background insights
 - [ ] `profiles/executive-summary.md` - Executive positioning using career background strategic context
 - [ ] `profiles/introduction.md` - Professional introduction with master resume achievements
-- [ ] **All other .md files in profiles/** - Check systematically for consistency with current Principal Platform Architect positioning
+- [ ] **All other .md files in profiles/** - Check systematically for consistency with current Principal Solutions Architect positioning
 
 **Source-Based Update Requirements:**
 - **Master Resume Integration:** All achievements, metrics, and professional history must derive from master resume
@@ -209,15 +209,15 @@ Use these to spot-check consistency across ALL discovered files:
 find resumes/ profiles/ -name "*.md" -exec grep -l "Green Onion.*Present" {} \;
 find resumes/ profiles/ -name "*.md" -exec grep -l "ERisk.*2025" {} \;
 
-# Verify target job title consistency (should be Principal Platform Architect in non-master files)
-find resumes/ profiles/ -name "*.md" ! -name "master-resume.md" -exec grep -l "Principal Platform Architect" {} \;
+# Verify target job title consistency (should be Principal Solutions Architect in non-master files)
+find resumes/ profiles/ -name "*.md" ! -name "master-resume.md" -exec grep -l "Principal Solutions Architect" {} \;
 find resumes/ profiles/ -name "*.md" ! -name "master-resume.md" -exec grep -l "Fractional CTO" {} \; # Should be minimal
 
 # Check quantitative language compliance across ALL markdown files
 find resumes/ profiles/ -name "*.md" -exec grep -l "657K" {} \;  # Should appear in presentation documents
 find resumes/ profiles/ -name "*.md" -exec grep -l "657,373" {} \;  # Should only appear in master-resume.md
 
-# Verify Principal Platform Architect positioning across files
+# Verify Principal Solutions Architect positioning across files
 find resumes/ profiles/ -name "*.md" -exec grep -l "Platform Architecture Excellence" {} \;
 
 # Check for outdated package download numbers
@@ -230,11 +230,11 @@ find resumes/ profiles/ -name "*.md" -exec grep -l "650K" {} \;  # Should be upd
 ✅ **Career Background Integration**: Professional positioning reflects `documentation/career-background.md` insights  
 ✅ **Position Information Consistency**: All documents show identical employment history and dates from master resume  
 ✅ **Achievement Accuracy**: All technical claims and metrics validated against master resume  
-✅ **Principal Platform Architect Focus**: All non-master files target Principal Platform Architect exclusively  
-✅ **Multi-Track Master Resume**: Master resume shows all target job titles (Principal Platform Architect, Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist)  
+✅ **Principal Solutions Architect Focus**: All non-master files target Principal Solutions Architect exclusively  
+✅ **Multi-Track Master Resume**: Master resume shows all target job titles (Principal Solutions Architect, Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist)  
 ✅ **ATS File Optimization**: All ATS files updated with current positioning and comprehensive keyword coverage  
 ✅ **Structured Format Currency**: YAML and JSON resume formats updated with current data  
-✅ **Profile Document Consistency**: All profile documents reflect current Principal Platform Architect positioning  
+✅ **Profile Document Consistency**: All profile documents reflect current Principal Solutions Architect positioning  
 ✅ **Specialized Resume Completeness**: All specialized resumes updated with current skills and positioning  
 ✅ **Specialized Cover Letter Completeness**: Each specialized resume has matching cover letter with role-specific positioning  
 ✅ **Targeted Resume Currency**: All targeted application resumes consistent with current positioning  
@@ -255,11 +255,11 @@ find profiles/ -name "*.md" | wc -l
 
 ### 2. Positioning Consistency Validation
 ```bash
-# Verify Principal Platform Architect is primary target (except master resume)
-find resumes/ profiles/ -name "*.md" ! -name "master-resume.md" -exec grep -L "Principal Platform Architect" {} \;  # Should return no results
+# Verify Principal Solutions Architect is primary target (except master resume)
+find resumes/ profiles/ -name "*.md" ! -name "master-resume.md" -exec grep -L "Principal Solutions Architect" {} \;  # Should return no results
 
 # Verify master resume contains all target titles
-grep -c "Principal Platform Architect\|Fractional CTO\|Principal Solutions Architect" resumes/master-resume.md  # Should be 3+
+grep -c "Principal Solutions Architect\|Fractional CTO\|Principal Platform Architect" resumes/master-resume.md  # Should be 3+
 ```
 
 ### 3. Spot-Check Random Files
@@ -307,5 +307,5 @@ echo "Specialized resumes: $resume_count, Cover letters: $cover_letter_count"
 1. **Primary Authority:** `resumes/master-resume.md` - All professional experience, achievements, and technical claims (shows ALL target job titles)
 2. **Positioning Context:** `documentation/career-background.md` - Professional identity, hidden expertise, multi-track capability  
 3. **Style Guidelines:** `documentation/style-guide.md` - Language preferences and presentation approach
-4. **Current Target:** Principal Platform Architect for all non-master files (single title focus)
-5. **Derivative Documents:** ALL other files must maintain fidelity to these sources while targeting Principal Platform Architect exclusively
+4. **Current Target:** Principal Solutions Architect for all non-master files (single title focus)
+5. **Derivative Documents:** ALL other files must maintain fidelity to these sources while targeting Principal Solutions Architect exclusively
