@@ -7,11 +7,13 @@
 
 ## Summary
 
-**Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions, 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients.
+**Principal Platform Architect** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex platform integrations seem impossible. Specializes in enterprise-scale platform architecture, cutting-edge AI/ML infrastructure, DevOps excellence, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions, 1-week project delivery after 12 months of failed attempts, and enterprise platform frameworks supporting 125+ developers.
 
 ### Core Differentiators
+- **Platform Architecture Excellence:** Enterprise platform engineering with Docker, Kubernetes, CI/CD automation, and 77% cloud cost reduction through strategic platform optimization
 - **Strategic Technology Leadership:** Centers of Excellence influence across 125+ developers, enterprise-wide standards creation, and technology risk management preventing costly adoption mistakes
 - **Enterprise Architecture Leadership:** Complete SDLC methodology development, architecture review board leadership, enterprise solutions strategy across multiple domains
+- **DevOps Infrastructure Mastery:** Advanced container orchestration, infrastructure as code, microservices architecture, and enterprise platform frameworks
 - **Technology Pragmatism:** "Workhorse solutions" philosophy preventing expensive trend-chasing while delivering proven alternatives (EF Code-First vs. MongoDB, traditional queues vs. Kafka misuse)
 - **Crisis Resolution Expertise:** Cross-functional problem solving spanning client relations, failed deployments, data corruption, integration challenges, and organizational change management
 - **Pre-Sales Engineering Excellence:** Proof-of-concepts, technical demonstrations, business requirements analysis, and solution development expertise

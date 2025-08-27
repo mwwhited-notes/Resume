@@ -1,5 +1,5 @@
-# Matthew Whited - Platform Architect
-## Enterprise Platform Engineering & Infrastructure Excellence
+# Matthew Whited - Principal Platform Architect
+## Enterprise Platform Engineering & DevOps Infrastructure Excellence
 
 ---
 
@@ -17,14 +17,16 @@
 
 ## Executive Summary
 
-**Platform Architect and Enterprise Infrastructure Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. Proven track record designing and implementing enterprise-scale platforms, achieving 77% cloud cost reductions, and leading Centers of Excellence across 125+ developers. Uniquely combines deep platform engineering expertise with cutting-edge AI/ML infrastructure, vendor-neutral advisory services, and crisis resolution capabilities.
+**Principal Platform Architect** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when platform projects fail, infrastructure costs spiral, or complex platform integrations seem impossible. Proven track record designing and implementing enterprise-scale platforms, achieving 77% cloud cost reductions, and leading Centers of Excellence across 125+ developers. Uniquely combines deep platform engineering expertise with cutting-edge AI/ML infrastructure, DevOps mastery, and crisis resolution capabilities.
 
-### Platform Architecture Value Proposition
-- **Enterprise Platform Design:** Complete ecosystem architecture including CI/CD automation, container orchestration, and microservices infrastructure
-- **Performance Optimization:** Documented 77% cloud cost reductions and dramatic performance improvements through strategic platform optimization
-- **DevOps Leadership:** Comprehensive platform engineering with Docker, Kubernetes, Helm charts, and advanced monitoring systems
-- **Framework Development:** Enterprise-scale platform frameworks with 650K+ downloads and lasting organizational impact
-- **Crisis Resolution:** Rapid platform recovery and optimization when other teams struggle for months
+### Principal Platform Architecture Value Proposition
+- **Enterprise Platform Design:** Complete ecosystem architecture including CI/CD automation, container orchestration, microservices infrastructure, and platform strategy
+- **Platform Optimization Excellence:** Documented 77% cloud cost reductions and dramatic performance improvements through strategic platform optimization and infrastructure engineering
+- **DevOps Leadership:** Comprehensive platform engineering with Docker, Kubernetes, Helm charts, infrastructure as code, and advanced monitoring systems
+- **Platform Framework Development:** Enterprise-scale platform frameworks with 657K+ downloads, lasting organizational impact, and platform standardization
+- **Platform Crisis Resolution:** Rapid platform recovery and optimization when other teams struggle for months - 1-week platform delivery after 12-month failures
+- **SDLC & Architecture Governance:** Complete SDLC methodology development, architecture review board leadership, and enterprise platform standards
+- **Pre-Sales Platform Engineering:** Platform proof-of-concepts, technical demonstrations, and platform solution development for enterprise clients
 
 ---
 

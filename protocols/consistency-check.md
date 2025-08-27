@@ -20,16 +20,28 @@ This document provides a systematic approach to ensure all resume files remain c
 - **Understand Dual Approach:** Exact numbers in master resume, general language in presentation documents
 - **Identify Propagation Needs:** New information from master resume and career background that should be reflected across ecosystem
 
-### 2. Check Core Resume Files for Consistency
-Review each file against master resume and career background:
+### 2. Check ALL Resume Files for Consistency
+Review each file against master resume and career background. **IMPORTANT:** Check ALL .md, .yaml, and .json files under ./resumes directory:
 
 **Core Resume Variants:**
 - [ ] `resumes/comprehensive.md` - Full professional history with master resume accuracy
 - [ ] `resumes/abbreviated.md` - Condensed version maintaining key achievements from master
 - [ ] `resumes/extended.md` - Expanded format incorporating career background insights
+
+**ATS Resume Files:**
 - [ ] `resumes/ats/generic.txt` - ATS-optimized using master resume as source
 - [ ] `resumes/ats/workday.md` - Workday system format with master resume data
 - [ ] `resumes/ats/leverco.md` - Lever.co format using authoritative master content
+- [ ] `resumes/ats/master-resume-ats.txt` - Comprehensive ATS format showing all target titles
+- [ ] `resumes/ats/principal-solutions-architect-ats.txt` - Principal Solutions Architect ATS format
+- [ ] `resumes/ats/enterprise-architect-ats.txt` - Enterprise Architect ATS format
+- [ ] `resumes/ats/fractional-cto-ats.txt` - Fractional CTO ATS format
+- [ ] **All other .md and .txt files in resumes/ats/** - Check systematically
+
+**Structured Resume Formats:**
+- [ ] `resumes/formats/fresh-schema.yaml` - FRESH schema format with current data
+- [ ] `resumes/formats/json-resume.json` - JSON Resume schema with current data
+- [ ] **All other .yaml and .json files in resumes/** - Check systematically
 
 **Consistency Requirements:**
 - All professional experience must derive from master resume
@@ -38,30 +50,42 @@ Review each file against master resume and career background:
 - Professional identity should reflect career background positioning
 - Quantitative language follows style guide (general terms in presentation documents)
 
-### 2a. Create/Update Specialized Single-Role Resumes
-Create targeted resumes for each specific position type using master resume as authoritative source and career background for positioning insights:
+### 2a. Create/Update Specialized Single-Role Resumes with Matching Cover Letters
+Create targeted resumes for each specific position type using master resume as authoritative source and career background for positioning insights. **CRITICAL:** Each specialized resume MUST have a matching cover letter with `-cover-letter` appended to the filename.
 
-**Executive Technology Leadership Track:**
-- [ ] `resumes/specialized/fractional-cto.md` - Fractional CTO positioning with career background crisis resolution expertise
-- [ ] `resumes/specialized/chief-solutions-architect.md` - Chief Solutions Architect focus emphasizing enterprise architecture mastery
-- [ ] `resumes/specialized/enterprise-architect.md` - Enterprise Architect specialization highlighting Centers of Excellence leadership
-- [ ] `resumes/specialized/vp-engineering.md` - VP Engineering positioning with technical leadership emphasis
+**Current Specialized Resumes (./resumes/specialized/):**
+- [ ] `fractional-cto.md` + `fractional-cto-cover-letter.md` - Fractional CTO positioning with crisis resolution expertise
+- [ ] `chief-solutions-architect.md` + `chief-solutions-architect-cover-letter.md` - Chief Solutions Architect focus emphasizing enterprise architecture mastery
+- [ ] `enterprise-architect.md` + `enterprise-architect-cover-letter.md` - Enterprise Architect specialization highlighting Centers of Excellence leadership
+- [ ] `vp-engineering.md` + `vp-engineering-cover-letter.md` - VP Engineering positioning with technical leadership emphasis
+- [ ] `principal-solutions-architect.md` + `principal-solutions-architect-cover-letter.md` - Principal Solutions Architect focus with AI/ML innovation leadership
+- [ ] `solution-architect.md` + `solution-architect-cover-letter.md` - Solution Architect positioning emphasizing framework development
+- [ ] `ai-ml-principal.md` + `ai-ml-principal-cover-letter.md` - AI/ML Principal specialization highlighting custom algorithm development
+- [ ] `staff-engineer.md` + `staff-engineer-cover-letter.md` - Staff Engineer positioning with technical authority emphasis
+- [ ] `platform-architect.md` + `platform-architect-cover-letter.md` - **PRIMARY TARGET:** Principal Platform Architect positioning with DevOps and infrastructure expertise
+- [ ] `technical-consultant.md` + `technical-consultant-cover-letter.md` - Technology Consultant positioning with vendor-neutral advisory approach
+- [ ] `Enterprise_AI_ML_Matthew_Whited_Resume.md` + `Enterprise_AI_ML_Matthew_Whited_Resume-cover-letter.md` - Enterprise AI/ML specialization
+- [ ] `High_Growth_Tech_Matthew_Whited_Resume.md` + `High_Growth_Tech_Matthew_Whited_Resume-cover-letter.md` - High Growth Tech specialization
+- [ ] `MatthewWhited-Enterprise-Architect-Resume.md` + `MatthewWhited-Enterprise-Architect-Resume-cover-letter.md` - Enterprise Architect specialization
+- [ ] **All other .md files in resumes/specialized/** - Check systematically for consistency with matching cover letters
 
-**Strategic Architecture Leadership Track:**
-- [ ] `resumes/specialized/principal-solutions-architect.md` - Principal Solutions Architect focus with AI/ML innovation leadership
-- [ ] `resumes/specialized/solution-architect.md` - Solution Architect positioning emphasizing framework development
-- [ ] `resumes/specialized/ai-ml-principal.md` - AI/ML Principal specialization highlighting custom algorithm development
-- [ ] `resumes/specialized/staff-engineer.md` - Staff Engineer positioning with technical authority emphasis
+**Cover Letter Requirements:**
+- **Filename Convention:** [resume-name]-cover-letter.md (e.g., `platform-architect-cover-letter.md`)
+- **Content Source:** Derived from master resume achievements and career background positioning
+- **Role-Specific Focus:** Emphasize relevant experience and value proposition for specific position type
+- **Professional Tone:** Follow style guide language preferences and communication approach
+- **Quantitative Language:** Use general terms per style guide (substantial, significant vs. exact numbers)
+- **Complete Alignment:** Cover letter must align with corresponding specialized resume content
+- **Crisis Resolution Emphasis:** Highlight specific crisis resolution examples relevant to target role
 
-**Crisis Resolution & Specialized Roles Track:**
-- [ ] `resumes/specialized/technical-consultant.md` - Technology Consultant positioning with vendor-neutral advisory approach
-- [ ] `resumes/specialized/performance-engineer.md` - Performance Engineering focus with optimization achievements
-- [ ] `resumes/specialized/platform-architect.md` - Platform Architect positioning with DevOps and infrastructure expertise
+**Targeted Application Resumes:**
+- [ ] **All .md files in resumes/targeted/** - Check for consistency with master resume and current positioning
 
-**CRITICAL: Profile vs Resume Positioning Strategy**
-- **Profile Documents:** Must target SINGLE title only (Chief Solutions Architect)
-- **Resume Documents:** Can target multiple architecture specializations through specialized versions
-- **Rationale:** Profiles used for general networking/introductions require focused positioning, while resumes target specific job applications
+**CRITICAL: Master Resume vs Other Resume Positioning Strategy**
+- **Master Resume:** Must list ALL target job titles showing multi-track capability (Principal Platform Architect, Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist)
+- **All Other Resume Documents:** Must target SINGLE title only (currently Principal Platform Architect)
+- **Profile Documents:** Must target SINGLE title only (currently Principal Platform Architect)
+- **Rationale:** Master resume serves as authoritative source showing all capabilities, while presentation documents focus on single target for clarity and impact
 
 **Source Requirements for Each Specialized Resume:**
 - **Primary Source:** All content must derive from `resumes/master-resume.md` as authoritative reference
@@ -86,23 +110,18 @@ Create targeted resumes for each specific position type using master resume as a
 - **Style compliance**: General quantitative language (650K+ not 652,868+)
 - **Language consistency**: Natural, conversational terms vs. exact precision
 
-### 3. Check Structured Resume Formats
-- [ ] `ZZ_MatthewWhited-Resume-FRESH.yaml`
-- [ ] `ZZ_MatthewWhited-Resume-JsonResume.json`
+### 3. Check Structured Resume Formats (DEPRECATED - covered in Section 2)
+**Note:** These files are now covered in the comprehensive resume file review in Section 2.
 
-**Verify:**
-- Date formatting consistency
-- Position ordering matches gold standard
-- Technical skills alignment
-
-### 4. Update Brief and Summary Documents
-Update all profile documents using master resume as authoritative source and career background for positioning:
+### 4. Update ALL Profile Documents
+Update all profile documents using master resume as authoritative source and career background for positioning. **IMPORTANT:** Check ALL .md files under ./profiles directory:
 
 **Profile Documents:**
 - [ ] `profiles/brief.md` - Brief professional summary with master resume accuracy
 - [ ] `profiles/brief-personal.md` - Personal brief incorporating career background insights
 - [ ] `profiles/executive-summary.md` - Executive positioning using career background strategic context
 - [ ] `profiles/introduction.md` - Professional introduction with master resume achievements
+- [ ] **All other .md files in profiles/** - Check systematically for consistency with current Principal Platform Architect positioning
 
 **Source-Based Update Requirements:**
 - **Master Resume Integration:** All achievements, metrics, and professional history must derive from master resume
@@ -148,54 +167,145 @@ Ensure across ALL documents using master resume as authoritative source:
 - **Style Violations:** Corporate speak, exact precision, or overly technical jargon
 - **Natural Flow:** Ensure conversational, authentic tone throughout
 
-## Quick Verification Commands
-Use these to spot-check consistency:
+## Comprehensive File Discovery Commands
+Use these to systematically find all files that need review:
 ```bash
-# Check for position date consistency
-grep -r "ERisk.*2025" *.md
-grep -r "Green Onion.*Present" *.md
+# Find ALL resume files that need checking
+find resumes/ -name "*.md" -o -name "*.yaml" -o -name "*.json" -o -name "*.txt"
 
-# Verify metric language consistency  
-grep -r "75%" *.md  # Should return minimal results
-grep -r "substantial" *.md  # Should be primary language
+# Find ALL profile files that need checking  
+find profiles/ -name "*.md"
 
-# Check quantitative language compliance (presentation docs should use general terms)
-grep -r "652,868" *.md  # Should only appear in master-resume.md
-grep -r "650K" *.md     # Should appear in presentation documents
-grep -r "22,433" *.md   # Should only appear in master-resume.md
-grep -r "22K" *.md      # Should appear in presentation documents
+# Check for specific file types in resumes directory
+find resumes/ -name "*.md" | sort
+find resumes/ -name "*.yaml" | sort
+find resumes/ -name "*.json" | sort
 
-# Verify style guide compliance
-grep -r "numerous teams" *.md      # Should replace "10-15 teams"
-grep -r "extensive.*work items" *.md  # Should replace exact counts
+# List all ATS files specifically
+find resumes/ats/ -type f | sort
+
+# List all specialized files specifically
+find resumes/specialized/ -name "*.md" | sort
+
+# Check specialized resume cover letter pairs
+find resumes/specialized/ -name "*-cover-letter.md" | sort
+
+# Find specialized resumes without matching cover letters
+for resume in $(find resumes/specialized/ -name "*.md" ! -name "*-cover-letter.md"); do
+  cover_letter="${resume%-*.md}-cover-letter.md"
+  if [[ ! -f "$cover_letter" ]]; then
+    echo "Missing cover letter: $cover_letter for resume: $resume"
+  fi
+done
+
+# List all targeted files specifically
+find resumes/targeted/ -name "*.md" | sort
+```
+
+## Quick Verification Commands
+Use these to spot-check consistency across ALL discovered files:
+```bash
+# Check for position date consistency across ALL resume and profile files
+find resumes/ profiles/ -name "*.md" -exec grep -l "Green Onion.*Present" {} \;
+find resumes/ profiles/ -name "*.md" -exec grep -l "ERisk.*2025" {} \;
+
+# Verify target job title consistency (should be Principal Platform Architect in non-master files)
+find resumes/ profiles/ -name "*.md" ! -name "master-resume.md" -exec grep -l "Principal Platform Architect" {} \;
+find resumes/ profiles/ -name "*.md" ! -name "master-resume.md" -exec grep -l "Fractional CTO" {} \; # Should be minimal
+
+# Check quantitative language compliance across ALL markdown files
+find resumes/ profiles/ -name "*.md" -exec grep -l "657K" {} \;  # Should appear in presentation documents
+find resumes/ profiles/ -name "*.md" -exec grep -l "657,373" {} \;  # Should only appear in master-resume.md
+
+# Verify Principal Platform Architect positioning across files
+find resumes/ profiles/ -name "*.md" -exec grep -l "Platform Architecture Excellence" {} \;
+
+# Check for outdated package download numbers
+find resumes/ profiles/ -name "*.md" -exec grep -l "650K" {} \;  # Should be updated to 657K+
 ```
 
 ## Success Criteria
+✅ **Comprehensive File Coverage**: ALL .md, .yaml, .json files under ./resumes/ and ALL .md files under ./profiles/ reviewed and updated  
 ✅ **Master Resume Authority**: All content derives from `resumes/master-resume.md` as authoritative source  
 ✅ **Career Background Integration**: Professional positioning reflects `documentation/career-background.md` insights  
 ✅ **Position Information Consistency**: All documents show identical employment history and dates from master resume  
 ✅ **Achievement Accuracy**: All technical claims and metrics validated against master resume  
-✅ **Multi-Track Positioning**: Documents reflect appropriate executive vs. strategic positioning from career background  
-✅ **Brief/Summary Currency**: Profile documents reflect current professional context from master resume  
-✅ **Specialized Resume Completeness**: Single-role resumes created using master resume as source  
+✅ **Principal Platform Architect Focus**: All non-master files target Principal Platform Architect exclusively  
+✅ **Multi-Track Master Resume**: Master resume shows all target job titles (Principal Platform Architect, Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist)  
+✅ **ATS File Optimization**: All ATS files updated with current positioning and comprehensive keyword coverage  
+✅ **Structured Format Currency**: YAML and JSON resume formats updated with current data  
+✅ **Profile Document Consistency**: All profile documents reflect current Principal Platform Architect positioning  
+✅ **Specialized Resume Completeness**: All specialized resumes updated with current skills and positioning  
+✅ **Specialized Cover Letter Completeness**: Each specialized resume has matching cover letter with role-specific positioning  
+✅ **Targeted Resume Currency**: All targeted application resumes consistent with current positioning  
 ✅ **Documentation Updates**: Change history and CLAUDE.md updated with session details  
 ✅ **Style Guide Compliance**: General quantitative language in all presentation documents  
 ✅ **Master Resume Integrity**: Exact numbers preserved in master resume for validation  
 ✅ **Natural Communication**: Conversational, authentic tone throughout ecosystem
 
 ## Post-Update Validation
-After completing updates:
-1. Spot-check 3-4 random files for consistency
+After completing updates, run comprehensive validation:
+
+### 1. File Discovery Validation
+```bash
+# Verify all files were discovered and reviewed
+find resumes/ -name "*.md" -o -name "*.yaml" -o -name "*.json" -o -name "*.txt" | wc -l
+find profiles/ -name "*.md" | wc -l
+```
+
+### 2. Positioning Consistency Validation
+```bash
+# Verify Principal Platform Architect is primary target (except master resume)
+find resumes/ profiles/ -name "*.md" ! -name "master-resume.md" -exec grep -L "Principal Platform Architect" {} \;  # Should return no results
+
+# Verify master resume contains all target titles
+grep -c "Principal Platform Architect\|Fractional CTO\|Principal Solutions Architect" resumes/master-resume.md  # Should be 3+
+```
+
+### 3. Spot-Check Random Files
+1. Select 3-4 random files from different directories for manual review
 2. Verify current position appears first in all chronological listings
 3. Confirm contact information is current across all documents
-4. Review any custom/specialized resumes for alignment
+4. Check quantitative language compliance (657K+ vs exact numbers)
+5. Verify Platform Architecture Excellence positioning in core differentiators
+
+### 4. Specialized Resume Cover Letter Validation
+```bash
+# Check that all specialized resumes have matching cover letters
+for resume in $(find resumes/specialized/ -name "*.md" ! -name "*-cover-letter.md"); do
+  cover_letter="${resume%-*.md}-cover-letter.md"
+  if [[ ! -f "$cover_letter" ]]; then
+    echo "MISSING: $cover_letter for resume: $resume"
+  else
+    echo "FOUND: Cover letter pair for $(basename $resume)"
+  fi
+done
+
+# Count specialized resumes vs cover letters
+resume_count=$(find resumes/specialized/ -name "*.md" ! -name "*-cover-letter.md" | wc -l)
+cover_letter_count=$(find resumes/specialized/ -name "*-cover-letter.md" | wc -l)
+echo "Specialized resumes: $resume_count, Cover letters: $cover_letter_count"
+```
+
+### 5. Comprehensive File Alignment Check
+```bash
+# Run the verification commands from the Quick Verification Commands section
+# Document any files that need additional updates
+```
 
 ---
 
-**Usage Note:** This checklist should be executed systematically, using TodoWrite to track progress through each section. The goal is maintaining professional documentation ecosystem integrity using `resumes/master-resume.md` as the authoritative source and `documentation/career-background.md` for positioning insights across all 25+ professional documents.
+**Usage Note:** This checklist should be executed systematically, using TodoWrite to track progress through each section. The goal is maintaining professional documentation ecosystem integrity across ALL files using comprehensive file discovery and validation. **CRITICAL:** Must check ALL .md, .yaml, .json files under ./resumes/ and ALL .md files under ./profiles/ - no file should be missed.
+
+**Comprehensive File Coverage Requirements:**
+- **Resume Files:** ALL .md, .yaml, .json, .txt files in resumes/ directory and subdirectories
+- **Profile Files:** ALL .md files in profiles/ directory
+- **Specialized Files:** ALL files in resumes/specialized/, resumes/ats/, resumes/targeted/, resumes/formats/
+- **Validation:** Use file discovery commands to ensure no files are missed
 
 **Critical Source Hierarchy:**
-1. **Primary Authority:** `resumes/master-resume.md` - All professional experience, achievements, and technical claims
+1. **Primary Authority:** `resumes/master-resume.md` - All professional experience, achievements, and technical claims (shows ALL target job titles)
 2. **Positioning Context:** `documentation/career-background.md` - Professional identity, hidden expertise, multi-track capability  
 3. **Style Guidelines:** `documentation/style-guide.md` - Language preferences and presentation approach
-4. **Derivative Documents:** All other resumes, profiles, and summaries must maintain fidelity to these sources
+4. **Current Target:** Principal Platform Architect for all non-master files (single title focus)
+5. **Derivative Documents:** ALL other files must maintain fidelity to these sources while targeting Principal Platform Architect exclusively
