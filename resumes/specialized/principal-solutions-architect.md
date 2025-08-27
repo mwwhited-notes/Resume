@@ -21,8 +21,10 @@
 
 ### Core Value Proposition
 - **Advanced AI/ML Implementation:** Production-grade AllMiniLM-L6-v2 transformers, custom vector databases, and hybrid search architectures delivering substantial performance improvements
+- **Enterprise Architecture Leadership:** Complete SDLC methodology development, architecture review board leadership, enterprise solutions strategy across multiple domains
 - **Strategic Technology Guidance:** Technology risk management preventing costly adoption mistakes while enabling competitive advantage through proven solutions
 - **Crisis Resolution Expertise:** Cross-functional problem solving spanning client relations, deployment failures, data corruption, and complex integration challenges
+- **Pre-Sales Engineering Excellence:** Proof-of-concepts, technical demonstrations, business requirements analysis, and solution development expertise
 - **Framework Architecture Innovation:** 50+ library ecosystem development with lasting organizational impact and enterprise-wide adoption
 - **Business-Aligned Solutions:** Technology decisions driven by measurable business impact, cost optimization, and strategic organizational objectives
 

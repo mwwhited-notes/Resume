@@ -11,20 +11,30 @@
 
 ### Core Differentiators
 - **Strategic Technology Leadership:** Centers of Excellence influence across 125+ developers, enterprise-wide standards creation, and technology risk management preventing costly adoption mistakes
+- **Enterprise Architecture Leadership:** Complete SDLC methodology development, architecture review board leadership, enterprise solutions strategy across multiple domains
 - **Technology Pragmatism:** "Workhorse solutions" philosophy preventing expensive trend-chasing while delivering proven alternatives (EF Code-First vs. MongoDB, traditional queues vs. Kafka misuse)
 - **Crisis Resolution Expertise:** Cross-functional problem solving spanning client relations, failed deployments, data corruption, integration challenges, and organizational change management
+- **Pre-Sales Engineering Excellence:** Proof-of-concepts, technical demonstrations, business requirements analysis, and solution development expertise
 - **Framework Architecture Innovation:** Created enterprise-grade framework ecosystems including 50+ library OoBDev .NET Framework and transformational Shared Framework evolution with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **ML/AI Strategic Foresight:** Comprehensive AI strategy development, hybrid search innovation, and early recognition of LLM cost/efficiency limitations
-- **Community Impact:** 650K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Community Impact:** 657K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** Substantial cloud cost reduction, dramatic performance improvements, crisis resolution, and organizational productivity enhancements
 
 ### Technical Specializations
-- **Enterprise Architecture:** Service-oriented architecture (SOA), event-driven architecture, API design
+- **Enterprise Architecture:** Cross-functional architecture strategy, enterprise solutions design, architecture governance frameworks
+- **Software Development Life Cycle (SDLC):** Complete SDLC implementation, methodology development, process optimization
+- **Information Technology:** Enterprise IT strategy, infrastructure management, technology modernization, system integration
+- **Network Architecture:** Network design, network security, enterprise networking, infrastructure planning
+- **Security Architecture:** Authentication/authorization, OAuth implementation, audit logging, security reviews
 - **AI/ML Integration:** Production embedding systems, sentence transformers, vector search optimization
-- **Database Innovation:** Custom SQLCLR extensions, SqlVector/SqlVectorF types, performance tuning
-- **Performance Engineering:** Zero-allocation programming, memory optimization, scalability design
+- **Database Innovation:** Custom SQLCLR extensions, SqlVector/SqlVectorF types, performance tuning, database optimization
+- **Performance Engineering:** Zero-allocation programming, memory optimization, scalability design, application optimization
 - **Cloud & Infrastructure:** Azure, AWS, Docker, Kubernetes, microservices architecture
+- **Continuous Integration/Continuous Delivery (CI/CD):** Azure Pipelines, GitHub Actions, automated deployment
+- **Business Requirements:** Requirements gathering and documentation, solution development, business analysis
+- **Pre-Sales Engineering:** Proof-of-concepts (POCs), technical demonstrations, RFP responses
+- **Team Leadership:** Architecture review board, Centers of Excellence leadership, technical standards
 
 ## Work History
 

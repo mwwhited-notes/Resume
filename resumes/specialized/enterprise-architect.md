@@ -21,7 +21,10 @@
 
 ### Core Value Proposition for Enterprise Organizations
 - **Enterprise Architecture Strategy:** Cross-functional technology strategy development with enterprise-wide framework creation and lasting organizational impact
+- **Software Development Life Cycle (SDLC):** Complete SDLC methodology development, architecture review board leadership, process optimization with upstream feedback loops
 - **Technology Risk Management:** Comprehensive evaluation processes preventing costly adoption mistakes while enabling strategic innovation through proven architecture
+- **Pre-Sales Engineering Excellence:** Proof-of-concepts, technical demonstrations, business requirements analysis, and solution development expertise for enterprise clients
+- **Network & Security Architecture:** Network design, security architecture, OAuth implementation, and comprehensive compliance frameworks
 - **Framework Architecture Excellence:** 50+ library ecosystem development with enterprise integration, security patterns, and comprehensive governance controls
 - **AI/ML Enterprise Integration:** Strategic AI/ML architecture ensuring enterprise scalability, cost optimization, and sustainable business deployment
 - **Business-Aligned Architecture:** Technology decisions driven by measurable business impact, strategic objectives, and enterprise operational excellence

@@ -21,8 +21,11 @@
 
 ### Core Value Proposition for Organizations
 - **Strategic Technology Vision:** C-level technology strategy development with enterprise-wide standards creation and lasting organizational impact
+- **Enterprise Architecture Leadership:** Complete SDLC methodology development, architecture review board leadership, enterprise solutions strategy
 - **Technology Risk Management:** Comprehensive evaluation processes preventing costly adoption mistakes while steering toward proven solutions
 - **Crisis Resolution Leadership:** Executive-level problem solving spanning client relations, deployment failures, and complex integration challenges
+- **Pre-Sales Engineering Excellence:** Proof-of-concepts, technical demonstrations, business requirements analysis supporting revenue generation
+- **Network & Security Architecture:** Enterprise IT strategy, network design, security architecture, OAuth implementation
 - **Innovation with Pragmatism:** Balance cutting-edge AI/ML implementation with proven "workhorse solutions" philosophy
 - **Measurable Business Results:** Substantial cost reductions, performance improvements, and quantifiable ROI through strategic technology guidance
 
