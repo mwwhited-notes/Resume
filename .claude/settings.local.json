@@ -116,7 +116,10 @@
       "Bash([ -d \"node_modules\" ])",
       "Bash(./render-resume.sh:*)",
       "Bash(npx playwright install:*)",
-      "Bash(npm uninstall:*)"
+      "Bash(npm uninstall:*)",
+      "WebFetch(domain:shi.com)",
+      "WebFetch(domain:chainlinklabs.com)",
+      "WebFetch(domain:www.nisum.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
