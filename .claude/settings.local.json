@@ -119,7 +119,9 @@
       "Bash(npm uninstall:*)",
       "WebFetch(domain:shi.com)",
       "WebFetch(domain:chainlinklabs.com)",
-      "WebFetch(domain:www.nisum.com)"
+      "WebFetch(domain:www.nisum.com)",
+      "WebFetch(domain:halomd.com)",
+      "WebFetch(domain:www.crunchbase.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
