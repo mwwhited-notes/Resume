@@ -33,8 +33,10 @@ Create todo list with these initial tasks:
 # Follow existing job search protocol
 read protocols/job-search.md and execute all steps
 ```
-- **Check Application History FIRST:** Review `./SearchResults/applied-to.md` and `./SearchResults/apply-next.md` to avoid duplicates
+- **EXCLUSION LIST VERIFICATION FIRST:** Review `./SearchResults/excluded-companies.md` and exclude all companies associated with Peter Thiel, Elon Musk, or Marc Andreessen
+- **Check Application History:** Review `./SearchResults/applied-to.md` and `./SearchResults/apply-next.md` to avoid duplicates
 - **Already Applied Check:** If position found in either tracking file, respond with "Already applied to [Company] - [Position] on [Date]" and skip this position
+- **Excluded Company Check:** If company found in exclusion list, respond with "Skipping [Company] - on exclusion list due to [investor association]" and skip this position
 - Use all existing job search methodology
 - Apply user preferences (remote priority, $180K+/$85+hr, no clearance)
 - Focus on positions with direct application links

@@ -5,13 +5,19 @@ Analyze individual job postings provided by URL to determine fit quality and aut
 
 ## Execution Steps
 
-### Phase 1: Position Data Extraction
+### Phase 1: Position Data Extraction and Exclusion Verification
 1. **URL Fetch and Analysis**
    - Use WebFetch to retrieve job posting content from provided URL
    - **CRITICAL:** Verify position is still open/active - if closed or expired, immediately report status and stop analysis
    - Extract key position details: company name, job title, location, compensation
    - Identify technical requirements, experience levels, and key responsibilities
    - Note application process details and timeline requirements
+
+2. **MANDATORY EXCLUSION VERIFICATION**
+   - **CRITICAL:** Check company against `./SearchResults/excluded-companies.md` BEFORE proceeding with analysis
+   - **If company is excluded:** Immediately stop analysis and report: "This company is on the exclusion list due to [investor association]. Analysis cannot proceed."
+   - **Verify investor associations:** Check for connections to Peter Thiel, Elon Musk, or Marc Andreessen
+   - **Only proceed if company is approved:** Continue with company intelligence phase
 
 2. **Company Intelligence**
    - **EXECUTE COMPANY RESEARCH PROTOCOL:** Use `read protocols/company-research.md and follow the protocol step-by-step`
@@ -29,6 +35,7 @@ Analyze individual job postings provided by URL to determine fit quality and aut
 - **Architecture Experience:** Alignment with system design and architecture requirements
 - **Scale Requirements:** Experience with required volume, performance, complexity
 - **Innovation Level:** Match with cutting-edge vs proven technology preferences
+- **Programming Language Flexibility:** For architecture roles, evaluate conceptual and pattern alignment rather than specific language requirements - comfortable with Go, Java, Python, C#/.NET and other modern languages
 
 #### Experience Match Analysis (Weight: 30%)
 - **Role Level:** Alignment with seniority and responsibility level
@@ -130,103 +137,95 @@ File: `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md`
 ## Recommendation: [APPLY/CONSIDER/SKIP]
 ```
 
-### Phase 5: Automatic Application Creation (if ≥7.5/10)
+### Phase 5: Strategic Analysis Report
 
-#### Resume Creation
-1. **Source Material Requirements**
-   - **USE MASTER RESUME AS SOURCE:** All content must derive from `./resumes/master-resume.md` as authoritative source
-   - **USE CAREER BACKGROUND:** Reference `./documentation/career-background.md` for comprehensive context and positioning
-   - **NO FABRICATION:** Only use verified information from established documentation
+#### Company Research Analysis
+**Execute comprehensive company search and analysis:**
 
-2. **Company Research Integration**
-   - Incorporate company-specific technology mentions from completed company research
-   - Align language with company values and mission identified in company research
-   - Emphasize relevant scale and experience matches based on company analysis
+1. **Company Intelligence Gathering**
+   - **EXECUTE COMPANY RESEARCH PROTOCOL:** Use `read protocols/company-research.md and follow the protocol step-by-step`
+   - Research company background, business model, technology stack, culture, and recent strategic moves
+   - Document market position, funding status, growth trajectory, and competitive landscape
+   - Store comprehensive company research in `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md`
 
-3. **Position-Specific Customization**
-   - **MAINTAIN COMPLETE WORK HISTORY:** Include all positions from master resume with no omissions - complete career timeline from Systems Engineer (2000) through current position
-   - Restructure content hierarchy to match job requirements priority while preserving chronological integrity
-   - Highlight directly relevant projects and achievements within complete employment timeline
-   - Add industry-specific terminology and frameworks throughout full work history
-   - **CRITICAL:** Must show complete career progression with job titles and years for entire employment history
+2. **Technology Stack Intersection Analysis**
+   - **Master Resume Technology Mapping:** Compare position requirements against master resume technical expertise
+   - **Alignment Assessment:** Identify direct technology matches, adjacent skills, and learning opportunities
+   - **Gap Analysis:** Document any significant technology or experience gaps
+   - **Transferable Skills:** Highlight how existing expertise applies to position requirements
 
-4. **Technical Alignment**
-   - Emphasize matching technologies and platforms from master resume
-   - Quantify relevant scale and performance metrics from established achievements
-   - Position innovation approach to match company culture identified in research
+#### Position-Company Fit Assessment Report
+**Create comprehensive analysis document:** `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md`
 
-#### Cover Letter Creation
-1. **Source Material Requirements**
-   - **USE MASTER RESUME AS SOURCE:** All achievements and experience must derive from master resume
-   - **USE CAREER BACKGROUND:** Reference career background for context and philosophy
-   - **USE COMPANY RESEARCH:** Incorporate specific insights from completed company research
+**Required Analysis Sections:**
 
-2. **Opening Hook**
-   - Reference specific company initiative, technology, or mission element from company research
-   - Connect personal experience from master resume to company's strategic priorities
-   - Demonstrate genuine knowledge of company and role from research findings
+**Technology Intersection:**
+- Direct technology matches between master resume and position requirements
+- Adjacent/transferable technology skills and how they apply
+- Architecture patterns and methodologies alignment
+- Scale and complexity experience relevance
 
-3. **Value Proposition Sections**
-   - **Technical Excellence:** Direct requirement matches with specific examples from master resume
-   - **Strategic Impact:** Business value creation from established achievements aligned with company goals
-   - **Cultural Alignment:** Approach and values compatibility demonstration using career background
+**Experience Alignment:**
+- Role level and responsibility match assessment
+- Domain experience relevance and transferability  
+- Leadership/technical track alignment with position requirements
+- Project complexity and impact alignment
 
-4. **Closing and Call to Action**
-   - Reference specific next steps or company initiatives from research
-   - Provide clear contact method and availability
-   - Professional signature with relevant portfolio links from master resume
+**Company Culture & Mission Fit:**
+- Company values alignment with professional approach and background
+- Work environment preferences match (remote, office, hybrid)
+- Company growth stage alignment with career preferences
+- Mission and product alignment with interests and expertise
 
-#### File Storage
-- **Resume:** `./SearchResults/targeted/MatthewWhited-{CompanyName}-{JobTitle}-resume.md`
-- **Cover Letter:** `./SearchResults/targeted/MatthewWhited-{CompanyName}-{JobTitle}-coverletter.md`
-- **Quick Intro:** `./SearchResults/targeted/MatthewWhited-{CompanyName}-{JobTitle}-intro.md`
+**Strategic Advantages:**
+- Unique differentiators that provide competitive advantage
+- Specific achievements from master resume that demonstrate value
+- Network connections or market knowledge that add strategic value
+- Innovation experience that matches company strategic direction
 
-#### Quick Intro Creation
-**Purpose:** Brief, first-person introduction for networking and initial outreach
-**Format:** Single paragraph (4 sentences max) in first person
+**Potential Challenges & Mitigation:**
+- Technology gaps and learning curve requirements
+- Experience mismatches and how to address positioning
+- Company culture concerns and adaptation requirements
+- Market/industry unfamiliarity and knowledge gaps
 
-**Source Material Requirements:**
-- **USE MASTER RESUME:** All experience and achievements from master resume only
-- **USE CAREER BACKGROUND:** Reference for professional identity and approach
-- **USE COMPANY RESEARCH:** Incorporate specific company insights for alignment
+**Pros & Cons Assessment:**
+- **PROS:** Specific advantages and strong alignment areas
+- **CONS:** Challenges, gaps, or potential concerns
+- **OVERALL ASSESSMENT:** Recommendation with reasoning
 
-**Content Structure:**
-1. Role/expertise summary from master resume
-2. Relevant experience highlight from established achievements
-3. Company/position interest alignment using company research insights
-4. Value proposition or unique differentiator from documented accomplishments
+**Strategic Recommendation:**
+- **Interest Level:** HIGH/MODERATE-HIGH/MODERATE/MODERATE-LOW/LOW
+- **Application Timing:** Immediate, wait for learning, or skip with reasoning  
+- **Positioning Strategy:** How to present background for maximum advantage
+- **Learning Priorities:** Skills to develop for optimal positioning
 
-**Example:**
-```
-I'm a Principal Solutions Architect with 20+ years of AI/ML engineering experience, having recently implemented production transformer models and custom database extensions processing millions of records. My background includes leading Centers of Excellence across 125+ developers while achieving exceptional performance ratings through enterprise-scale AI solutions. I'm particularly drawn to [Company]'s mission and the opportunity to apply my deep experience with [relevant technology/domain] to [specific company challenge/opportunity]. My unique combination of technical innovation and proven business impact—demonstrated through 652K+ NuGet downloads and substantial infrastructure cost optimizations—positions me to drive meaningful results for [Company]'s [relevant initiative/team].
-```
+### Phase 6: Strategic Recommendations & Next Steps
 
-### Phase 6: Application Strategy and Follow-up
+#### Application Strategy Guidance
+**Based on analysis results:**
 
-#### Application Timeline
-1. **Immediate (0-1 days):** Submit application with targeted materials
-2. **Week 1:** LinkedIn connection requests to relevant team members
-3. **Week 2:** Follow-up email if no response
-4. **Week 3-4:** Strategic follow-up based on company response patterns
+1. **High Interest (8.0+ fit):** 
+   - Immediate application recommended
+   - Priority networking and connection outreach
+   - Consider creating targeted application materials separately
 
-#### Success Tracking and Apply-Next Integration
+2. **Moderate Interest (6.0-7.9 fit):**
+   - Consider application after skill development
+   - Monitor company for better-fitting opportunities
+   - Network building and information gathering
 
-**CRITICAL: Update Apply-Next Tracking**
-1. **Update Apply-Next Status** (`./SearchResults/apply-next.md`)
-   - Change job status from "❓ Match - Materials Created" to "✅ APPLIED" 
-   - Add "APPLIED {MM/DD}" notation with compensation and key details
-   - Update tracking table with application materials links
+3. **Low Interest (<6.0 fit):**
+   - Skip application unless strategic learning opportunity
+   - Note company for future monitoring
+   - Document reasons for low fit
 
-2. **Update Applied-To Tracker** (`./SearchResults/applied-to.md`)
-   - Add new entry: `| {YYYY-MM-DD} | {Company} | {Position} | LinkedIn | Applied | {key details and compensation} |`
-   - Increment total applications count
-   - Increment active applications count
-
-**Document Application Details:**
-- Record application submission date and method
-- Track response timeline and communication
-- Note any requests for additional materials or interviews
-- Update fit analysis based on any new information learned
+#### Learning Opportunities Documentation
+**Update Skills Development Tracking:**
+- Add identified learning gaps to `./SearchResults/Lessons/suggested.md`
+- Prioritize learning based on market demand patterns
+- Cross-reference learning needs across multiple position analyses
+- Track technology trends for strategic skill development
 
 #### Learning Gap Analysis & Suggested Skills Update
 **Update Suggested Learning File:** `./SearchResults/Lessons/suggested.md`
@@ -262,20 +261,20 @@ I'm a Principal Solutions Architect with 20+ years of AI/ML engineering experien
 **Input:** "how well do I fit this position {URL}"
 
 **Expected Response:**
-1. "I'll analyze this position for fit quality and create application materials if warranted."
+1. "I'll analyze this position for strategic fit and create a comprehensive assessment."
 2. [Execute Company Research Protocol]
 3. [Execute Position Analysis]
-4. [Present Fit Score and Analysis Summary]
-5. [If ≥7.5] "This is a strong fit (X.X/10). I've created targeted resume and cover letter materials using master resume as source."
-6. [If <7.5] "This position scores X.X/10. Here's my analysis and recommendation."
-7. **[If Materials Created] Update both apply-next.md and applied-to.md tracking files**
+4. [Present Fit Score and Strategic Analysis Summary]
+5. [Present Technology Intersection, Experience Alignment, and Culture Fit]
+6. [Present Pros/Cons and Strategic Recommendations]
+7. "Analysis complete - strategic assessment and company research stored for reference."
 
 ## Quality Standards
 - All analysis must reference specific job posting requirements
 - Scores must be supported by concrete evidence and examples
-- **Application materials must use master resume and career background as exclusive sources**
 - **Company research protocol must be executed for all analyses**
-- **Apply-next.md and applied-to.md tracking must be updated when materials are created**
-- Application materials must demonstrate deep customization (5+ specific matches)
-- Timeline and follow-up recommendations must be realistic and actionable
+- **Master resume must be used as authoritative source for all capability assessments**
+- Strategic analysis must include technology intersection, experience alignment, and culture fit
+- Pros/cons assessment must be objective and actionable
+- Learning opportunities must be documented for skills development tracking
 - All storage must follow established file naming conventions

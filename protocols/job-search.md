@@ -17,8 +17,17 @@ This protocol provides a systematic approach to conducting comprehensive job sea
 mkdir -p /current/src/SearchResults/Jobs
 ```
 
-### 2. Master Resume Analysis & Understanding
-**CRITICAL STEP:** Before executing any job search, thoroughly analyze the master resume to understand optimal job matching criteria:
+### 2. Company Exclusion Verification
+**CRITICAL STEP:** Before executing any job search, review exclusion list to avoid excluded companies:
+
+- **Read Exclusion List:** Review `./SearchResults/excluded-companies.md` for complete list of companies to exclude
+- **Thiel/Musk/Andreessen Filter:** Automatically exclude Palantir, Tesla, SpaceX, Neuralink, X (Twitter), all Founders Fund portfolio companies, all a16z portfolio companies
+- **Portfolio Company Check:** When researching any company, verify against investor associations (Peter Thiel, Elon Musk, Marc Andreessen)
+- **Board Position Verification:** Check if any excluded investors serve on company boards
+- **Investment Relationship Review:** Research recent funding rounds and investor participation
+
+### 3. Master Resume Analysis & Understanding
+**CRITICAL STEP:** After exclusion verification, thoroughly analyze the master resume to understand optimal job matching criteria:
 
 - **Read Master Resume:** Complete analysis of `resumes/master-resume.md` to understand multi-track positioning capabilities
 - **Executive Track Understanding:** Fractional CTO, Chief Solutions Architect, Enterprise Architect positioning
@@ -267,6 +276,8 @@ For each platform category, execute the following:
    - Assess alignment with unique capabilities
    - **Cross-Reference Applications:** Check each opportunity against applied-to.md
    - **Mark Applied Status:** Note if previously applied to company/position
+   - **EXCLUSION LIST VERIFICATION:** Cross-reference each company against `./SearchResults/excluded-companies.md` and mark excluded companies
+   - **INVESTOR ASSOCIATION CHECK:** Verify no connections to Peter Thiel, Elon Musk, or Marc Andreessen investments
    - **CRITICAL:** Document all search results in individual platform files for comprehensive summary building
 
 ### Step 2: Competitive Advantage Analysis

@@ -15,7 +15,8 @@ Execute this protocol when the user requests:
 ### Phase 1: Initialize Research (TodoWrite Required)
 Create todo list with these tasks:
 1. **Check Application History:** Review `./SearchResults/applied-to.md` for previous applications to company
-2. Research [Company] overview and business model
+2. **EXCLUSION LIST VERIFICATION:** Check `./SearchResults/excluded-companies.md` to verify company is not excluded due to investor associations
+3. Research [Company] overview and business model
 3. Analyze [Company] technology stack and technical challenges  
 4. Investigate career opportunities and company culture
 5. Assess alignment with Matthew's technical expertise and career goals
@@ -75,6 +76,17 @@ mkdir -p ./SearchResults/Companies
 # [Company Name] Company Analysis
 **Research Date:** [Current Date]  
 **Analyst:** Matthew Whited, Principal Solutions Architect
+
+---
+
+## EXCLUSION STATUS: [APPROVED/EXCLUDED]
+**Exclusion Check Date:** [Current Date]
+**Peter Thiel Association:** [None/Details]
+**Elon Musk Association:** [None/Details]  
+**Marc Andreessen Association:** [None/Details]
+**Investor Verification:** [All clear/Found associations - specify]
+
+*[If EXCLUDED, stop analysis here and note exclusion reason]*
 
 ---
 

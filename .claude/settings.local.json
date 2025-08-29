@@ -121,7 +121,9 @@
       "WebFetch(domain:chainlinklabs.com)",
       "WebFetch(domain:www.nisum.com)",
       "WebFetch(domain:halomd.com)",
-      "WebFetch(domain:www.crunchbase.com)"
+      "WebFetch(domain:www.crunchbase.com)",
+      "WebFetch(domain:www.cadwell.com)",
+      "WebFetch(domain:www.cadwell.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

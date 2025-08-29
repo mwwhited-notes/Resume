@@ -20,15 +20,21 @@ Extract the following information from user input:
 - **Application Date:** ALWAYS use current date (today) unless user explicitly specifies a different date
 - **Application Method:** Infer from context (direct, recruiter, job board, etc.) or default to "Direct"
 
-### Phase 2: Check for Duplicates
-Before adding entry, execute duplicate checking:
+### Phase 2: Exclusion Verification and Duplicate Checking
+Before adding entry, execute verification:
 
-1. **Read existing applied-to.md file**
-2. **Search for company name** (case-insensitive)
-3. **If duplicate found:**
-   - Alert user: "You previously applied to [Company] on [Date] for [Position]. Would you like to add this as a new application or update the existing entry?"
-   - Wait for user confirmation before proceeding
-4. **If no duplicate found:** Proceed to Phase 3
+1. **EXCLUSION LIST CHECK:**
+   - **Read exclusion list:** Review `./SearchResults/excluded-companies.md` 
+   - **If company is excluded:** Alert user: "[Company] is on the exclusion list due to [investor association]. Cannot track application to excluded company."
+   - **Stop processing:** Do not add excluded company to tracking files
+
+2. **Check for Duplicates (if company approved):**
+   - **Read existing applied-to.md file**
+   - **Search for company name** (case-insensitive)
+   - **If duplicate found:**
+     - Alert user: "You previously applied to [Company] on [Date] for [Position]. Would you like to add this as a new application or update the existing entry?"
+     - Wait for user confirmation before proceeding
+   - **If no duplicate found:** Proceed to Phase 3
 
 ### Phase 3: Update Tracking Files
 
