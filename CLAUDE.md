@@ -66,7 +66,7 @@
 - **Industry Exclusions:** Fintech, blockchain/cryptocurrency, cannabis, marketing/advertising, government contractors
 - **Big Tech Exclusions:** Meta, Alphabet, Amazon, Netflix, Oracle (too old for big tech culture)
 - **Cultural Exclusions:** Microsoft Corporation, Salesforce (CEO/culture not aligned)
-- **Investor Exclusions:** 1500+ companies associated with Peter Thiel, Elon Musk, Marc Andreessen
+- **Investor Exclusions:** 1500+ companies associated with Peter Thiel, Elon Musk, Marc Andreessen, Sam Altman
 - **Professional Standards:** Age-appropriate environments valuing senior expertise
 
 ## File Path Format - MEMORIZED

@@ -22,9 +22,9 @@ mkdir -p /current/src/SearchResults/Jobs
 
 - **Read Exclusion List:** Review `./SearchResults/excluded-companies.md` for complete list of companies to exclude
 - **Industry Exclusions:** Automatically exclude fintech, blockchain/cryptocurrency, cannabis, marketing/advertising technology, government contractors
-- **Company Exclusions:** Exclude Microsoft, Salesforce, Big Tech (Meta/Facebook, Alphabet/Google, Amazon, Netflix, Oracle)
+- **Company Exclusions:** Exclude Microsoft, Salesforce, Big Tech (Meta/Facebook, Alphabet/Google, Amazon, Netflix, Oracle, OpenAI)
 - **Investor Exclusions:** Exclude Palantir, Tesla, SpaceX, Neuralink, X (Twitter), all Founders Fund portfolio companies, all a16z portfolio companies
-- **Portfolio Company Check:** When researching any company, verify against investor associations (Peter Thiel, Elon Musk, Marc Andreessen)
+- **Portfolio Company Check:** When researching any company, verify against investor associations (Peter Thiel, Elon Musk, Marc Andreessen, Sam Altman)
 - **Industry Classification:** Always identify company's primary industry before proceeding with analysis
 
 ### 3. Master Resume Analysis & Understanding
