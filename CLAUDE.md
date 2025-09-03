@@ -44,7 +44,8 @@
 
 ### 4. Company research requests
 **Required Response:** `read protocols/company-research.md and follow the protocol step-by-step`
-- Execute comprehensive company analysis including business model, technology stack, and culture
+- Execute comprehensive company analysis including business model, **industry classification**, technology stack, and culture
+- **CRITICAL: Always identify primary industry** to verify against exclusion list (fintech, blockchain, marketing/advertising, cannabis, government contractors)
 - Assess strategic fit with Matthew's expertise and career goals
 - Store results in ./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md
 - Provide actionable recommendations and next steps
@@ -128,6 +129,7 @@
 
 ## Documentation Files Reference
 - **Gold Standard:** resumes/master-resume.md (authoritative source)
+- **Career Background:** documentation/career-background.md (comprehensive exclusion criteria and industry focus)
 - **Change History:** documentation/change-history-YYYYMMDD.md (daily session details, e.g., change-history-20250814.md, change-history-20250814-consistency.md)
 - **Stack Overflow Analysis:** analysis/stackoverflow-metrics.md (technical validation)
 - **Code Review:** analysis/technical-review.md (repository analysis)
@@ -174,9 +176,15 @@
 - **Resume Formatting:** Centers of Excellence is a sub-role, not separate position
 - **Job Search Approach:** Focus on active job board search pages rather than specific job postings (which expire quickly at principal level)
 - **Link Verification Required:** Always test job posting links before recommending - many expire within days for senior positions
-- **Application Tracking:** Reference ./SearchResults/applied-to.md and ./SearchResults/apply-next.md for current job application status - DO NOT store application data in memory
-- **Company Exclusions:** Complete exclusion list at ./SearchResults/excluded-companies.md - 1500+ companies associated with Peter Thiel, Elon Musk, Marc Andreessen (Palantir, Tesla, SpaceX, all Founders Fund portfolio, all a16z portfolio)
+- **Application Tracking:** Reference ./SearchResults/applied-to.md for current job application status - closed positions archived in ./SearchResults/closed-archive.md
 - **Architecture Role Flexibility:** For architecture positions, programming language is less critical - comfortable with Go, Java, Python, C#/.NET and other modern languages
+
+**COMPREHENSIVE EXCLUSION CRITERIA (./SearchResults/excluded-companies.md):**
+- **Industry Exclusions:** Fintech/financial technology, blockchain/cryptocurrency, cannabis industry, marketing/advertising technology, government contractors
+- **Big Tech Exclusions:** Meta/Facebook, Alphabet/Google, Amazon, Netflix, Oracle (too old for big tech culture)
+- **Cultural Exclusions:** Microsoft Corporation, Salesforce (CEO/culture not aligned)
+- **Investor Exclusions:** 1500+ companies associated with Peter Thiel (Founders Fund), Elon Musk, Marc Andreessen (a16z)
+- **Professional Standards:** Age-appropriate environments valuing senior expertise over youth-oriented cultures
 
 ## File Path Format - MEMORIZED
 - **Format:** Relative paths with `./` prefix
@@ -193,6 +201,8 @@
 - **Documentation:** Track all changes in daily change history files (change-history-YYYYMMDD.md) and memory
 
 **Current Professional Identity:** Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with validated technical authority (22K+ Stack Overflow reputation, Gold Badge C# mastery, 657K+ NuGet downloads, 125+ developer leadership influence). Crisis resolution positioning demonstrates ability to rescue failing projects (77% cost reduction, 1-week delivery after 12-month failures) with multi-paradigm programming expertise, custom CQRS framework development, and vendor-neutral technology advisory approach. Previous CTO/Chief Solutions Architect at Itrica demonstrating dual strategic-technical leadership. Self-taught programming excellence with anti-hype philosophy based on decades of pattern recognition.
+
+**Industry Focus & Exclusions:** Targeting enterprise technology, healthcare technology, manufacturing/logistics, and traditional software companies. Excludes fintech/financial technology, blockchain/cryptocurrency, marketing/advertising technology, cannabis industry, government contractors, Big Tech (Meta, Alphabet, Amazon, Netflix, Oracle), and companies with problematic cultures (Microsoft, Salesforce). Age-appropriate professional environments that value senior technical expertise over youth-oriented cultures.
 
 **Session Update - 2025-08-29 (Exclusion List Implementation & Record Application Activity):**
 - **Comprehensive Exclusion System:** Created complete exclusion list of 1500+ companies associated with Peter Thiel, Elon Musk, Marc Andreessen
@@ -276,3 +286,14 @@
 
 ## Writing Style Preferences - MEMORIZED
 ✅ **Style Guide Created:** See documentation/style-guide.md for complete professional communication preferences and examples
+
+## Current Session Update - September 3, 2025 (Major Pipeline Refinement & Industry Focus)
+✅ **Comprehensive Industry Exclusions:** Added fintech/financial technology, blockchain/cryptocurrency, cannabis industry, marketing/advertising technology, government contractors to exclusion criteria
+✅ **Big Tech Exclusions:** Added Meta, Alphabet, Amazon, Netflix, Oracle - too old for big tech culture, age-inappropriate environments
+✅ **Cultural Exclusions:** Added Microsoft Corporation, Salesforce - CEO/culture not aligned, problematic hiring practices
+✅ **Major Pipeline Cleanup:** Closed out 89+ applications including TBD positions (no details/updates 2+ weeks), exclusion violations, recruiting firms, unknown companies
+✅ **ATS Performance Optimization:** Archived 215 closed positions to ./SearchResults/closed-archive.md, reduced main tracking file by 51% for better performance
+✅ **Active Pipeline Refinement:** 248 high-quality active applications focused on enterprise technology, healthcare technology, manufacturing/logistics, traditional software companies
+✅ **Protocol Enhancement:** Updated all protocols (company-research.md, position-fit-analysis.md, job-search.md) with mandatory industry classification requirements
+✅ **Interview Pipeline Success:** 3 active interviews scheduled - Atmosera (Azure consulting, 9/5 10am), UPS (logistics transformation, 9/5 12:15pm), Cadwell (medical devices, technical interview pending)
+✅ **Professional Focus Alignment:** Career strategy now explicitly targets age-appropriate, senior-expertise-valuing environments in enterprise technology sectors

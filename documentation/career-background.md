@@ -101,6 +101,11 @@ This document captures deep career insights, preferences, and hidden expertise d
   - Positions requiring security clearance
   - Pure legacy modernization (doesn't stretch the mind despite good pay)
   - Large companies that hide problems too well to value solutions
+  - **Industry Exclusions:** Fintech/financial technology, blockchain/cryptocurrency, cannabis industry, marketing/advertising technology, government contractors
+  - **Big Tech Companies:** Meta/Facebook, Alphabet/Google, Amazon, Netflix, Oracle (too old for big tech culture)
+  - **Cultural Mismatches:** Microsoft Corporation, Salesforce (CEO/culture not aligned), companies with ageist hiring practices
+  - **Investor-Associated Companies:** Companies associated with Peter Thiel (Founders Fund), Elon Musk, Marc Andreessen (a16z) - 1500+ excluded companies
+  - **Youth-Oriented Cultures:** Environments that prioritize youth over senior expertise and experience
   
 - **Strongly Interested In:**
   - Complex problem consulting (scheduled, not emergency)
@@ -109,6 +114,9 @@ This document captures deep career insights, preferences, and hidden expertise d
   - M&A technical due diligence and architecture assessments
   - Being trusted technology advisor to C-suite executives
   - "Handling the nerdy stuff" so business leaders can focus on their core business
+  - **Target Industries:** Enterprise technology, healthcare technology, manufacturing/logistics, traditional software companies
+  - **Age-Appropriate Environments:** Companies that value senior technical expertise and decades of pattern recognition
+  - **Professional Cultures:** Mature organizations with established practices that respect experienced professionals
 
 ### Engagement Model Flexibility
 - **Scope Range:** From reviewing a statement of work (few days) to CEO on-retainer advisory (ongoing)

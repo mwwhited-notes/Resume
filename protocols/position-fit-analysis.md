@@ -15,8 +15,10 @@ Analyze individual job postings provided by URL to determine fit quality and aut
 
 2. **MANDATORY EXCLUSION VERIFICATION**
    - **CRITICAL:** Check company against `./SearchResults/excluded-companies.md` BEFORE proceeding with analysis
-   - **If company is excluded:** Immediately stop analysis and report: "This company is on the exclusion list due to [investor association]. Analysis cannot proceed."
+   - **INDUSTRY CLASSIFICATION:** Identify primary industry (fintech, blockchain, cannabis, marketing/advertising, government contractor)
+   - **If company is excluded:** Immediately stop analysis and report: "This company is on the exclusion list due to [specific reason: industry/investor association/company exclusion]. Analysis cannot proceed."
    - **Verify investor associations:** Check for connections to Peter Thiel, Elon Musk, or Marc Andreessen
+   - **Verify company exclusions:** Check for Microsoft, Salesforce, Big Tech (Meta, Alphabet, Amazon, Netflix, Oracle)
    - **Only proceed if company is approved:** Continue with company intelligence phase
 
 2. **Company Intelligence**
