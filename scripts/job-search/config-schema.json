@@ -1,0 +1,225 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Job Search Configuration",
+  "type": "object",
+  "required": ["userProfile", "searchCriteria", "platforms", "exclusions"],
+  "properties": {
+    "userProfile": {
+      "type": "object",
+      "required": ["name", "location", "preferences"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "User's full name"
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "homeAddress": {
+              "type": "string",
+              "description": "Primary address for commute calculations"
+            },
+            "preferredWork": {
+              "type": "string",
+              "enum": ["remote", "hybrid", "onsite"],
+              "description": "Work location preference"
+            },
+            "acceptableCommute": {
+              "type": "number",
+              "description": "Maximum acceptable commute in miles"
+            }
+          }
+        },
+        "preferences": {
+          "type": "object",
+          "properties": {
+            "minSalary": {
+              "type": "number",
+              "description": "Minimum acceptable salary"
+            },
+            "minHourlyRate": {
+              "type": "number",
+              "description": "Minimum acceptable hourly rate"
+            },
+            "maxTravelPercent": {
+              "type": "number",
+              "description": "Maximum acceptable travel percentage"
+            },
+            "securityClearance": {
+              "type": "boolean",
+              "description": "Willing to work with security clearance requirements"
+            }
+          }
+        }
+      }
+    },
+    "searchCriteria": {
+      "type": "object",
+      "required": ["targetRoles", "technologies", "workTypes"],
+      "properties": {
+        "targetRoles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "category": {
+                "type": "string",
+                "enum": ["executive", "principal", "senior", "consulting"]
+              },
+              "titles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "technologies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Key technologies and skills"
+        },
+        "workTypes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["remote", "hybrid", "consulting", "contracting"]
+          }
+        }
+      }
+    },
+    "platforms": {
+      "type": "object",
+      "properties": {
+        "majorJobBoards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "searchTerms": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "enabled": {
+                "type": "boolean",
+                "default": true
+              }
+            }
+          }
+        },
+        "executiveRecruiters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "specialization": {
+                "type": "string"
+              },
+              "enabled": {
+                "type": "boolean",
+                "default": true
+              }
+            }
+          }
+        },
+        "specializedPlatforms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "focus": {
+                "type": "string",
+                "enum": ["ai-ml", "remote", "startup", "consulting", "contracting"]
+              },
+              "enabled": {
+                "type": "boolean",
+                "default": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "exclusions": {
+      "type": "object",
+      "properties": {
+        "companies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Companies to exclude from search"
+        },
+        "industries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Industries to exclude"
+        },
+        "investors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Investor associations to exclude"
+        },
+        "excludedCompaniesFile": {
+          "type": "string",
+          "description": "Path to comprehensive exclusions list file"
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "baseDirectory": {
+          "type": "string",
+          "default": "./SearchResults/Jobs",
+          "description": "Base directory for search results"
+        },
+        "urlValidation": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable URL validation for job postings"
+        },
+        "linkVerificationRetries": {
+          "type": "number",
+          "default": 3,
+          "description": "Number of retries for link verification"
+        },
+        "generateSummary": {
+          "type": "boolean",
+          "default": true,
+          "description": "Generate comprehensive summary report"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "userProfile": {
+    "name": "Matthew Whited",
+    "location": {
+      "homeAddress": "1221 N Calvert St, Baltimore, MD 21202",
+      "preferredWork": "remote",
+      "acceptableCommute": 25
+    },
+    "preferences": {
+      "minSalary": 180000,
+      "minHourlyRate": 85,
+      "maxTravelPercent": 25,
+      "securityClearance": false
+    }
+  },
+  "searchCriteria": {
+    "targetRoles": [
+      {
+        "category": "executive",
+        "titles": [
+          "Chief Technology Officer",
+          "CTO",
+          "Fractional CTO",
+          "Chief Solutions Architect",
+          "VP Engineering",
+          "VP Technology",
+          "Technology Director"
+        ]
+      },
+      {
+        "category": "principal",
+        "titles": [
+          "Principal Solutions Architect",
+          "Principal Software Architect",
+          "Principal Enterprise Architect",
+          "Principal Platform Architect",
+          "Principal AI/ML Architect",
+          "Principal Engineer"
+        ]
+      },
+      {
+        "category": "senior",
+        "titles": [
+          "Senior Solutions Architect",
+          "Senior Software Architect",
+          "Senior Enterprise Architect",
+          "Staff Software Engineer",
+          "Senior Staff Engineer",
+          "Distinguished Engineer"
+        ]
+      },
+      {
+        "category": "consulting",
+        "titles": [
+          "Technology Consultant",
+          "Solutions Engineer",
+          "Technical Consultant",
+          "Crisis Resolution Specialist",
+          "Technology Advisor"
+        ]
+      }
+    ],
+    "technologies": [
+      "AI/ML",
+      "Machine Learning",
+      ".NET",
+      "C#",
+      "Azure",
+      "Enterprise Architecture",
+      "Microservices",
+      "Vector Databases",
+      "SQL Server",
+      "Platform Engineering",
+      "DevOps",
+      "Performance Optimization"
+    ],
+    "workTypes": [
+      "remote",
+      "consulting",
+      "contracting"
+    ]
+  },
+  "platforms": {
+    "majorJobBoards": [
+      {
+        "name": "LinkedIn Jobs",
+        "url": "https://linkedin.com/jobs",
+        "searchTerms": [
+          "Principal Solutions Architect",
+          "CTO",
+          "Staff Software Engineer",
+          "VP Engineering",
+          "remote",
+          "AI ML"
+        ],
+        "enabled": true
+      },
+      {
+        "name": "Indeed",
+        "url": "https://indeed.com",
+        "searchTerms": [
+          "Chief Technology Officer",
+          "Principal Architect",
+          "Staff Engineer",
+          "remote",
+          "AI ML"
+        ],
+        "enabled": true
+      },
+      {
+        "name": "ZipRecruiter",
+        "url": "https://ziprecruiter.com",
+        "searchTerms": [
+          "Principal Solutions Architect",
+          "CTO",
+          "Staff Software Engineer",
+          "remote"
+        ],
+        "enabled": true
+      },
+      {
+        "name": "Dice",
+        "url": "https://dice.com",
+        "searchTerms": [
+          "Principal Solutions Architect",
+          "CTO",
+          "Staff Engineer",
+          "remote",
+          ".NET Azure"
+        ],
+        "enabled": true
+      },
+      {
+        "name": "Glassdoor",
+        "url": "https://glassdoor.com",
+        "searchTerms": [
+          "Principal Solutions Architect",
+          "CTO",
+          "VP Engineering",
+          "remote"
+        ],
+        "enabled": true
+      }
+    ],
+    "executiveRecruiters": [
+      {
+        "name": "Korn Ferry",
+        "url": "https://kornferry.com",
+        "specialization": "Digital and technology recruiting practice (global #1)",
+        "enabled": true
+      },
+      {
+        "name": "Russell Reynolds Associates",
+        "url": "https://russellreynolds.com",
+        "specialization": "C-level technology placement",
+        "enabled": true
+      },
+      {
+        "name": "Spencer Stuart",
+        "url": "https://spencerstuart.com",
+        "specialization": "Global technology leadership search",
+        "enabled": true
+      },
+      {
+        "name": "Bespoke Partners",
+        "url": "https://bespokepartners.com",
+        "specialization": "Software executive search and private equity (95% success rate)",
+        "enabled": true
+      }
+    ],
+    "specializedPlatforms": [
+      {
+        "name": "Wellfound (AngelList)",
+        "url": "https://wellfound.com",
+        "focus": "startup",
+        "enabled": true
+      },
+      {
+        "name": "AIJobs.net",
+        "url": "https://aijobs.net",
+        "focus": "ai-ml",
+        "enabled": true
+      },
+      {
+        "name": "Remote.co",
+        "url": "https://remote.co",
+        "focus": "remote",
+        "enabled": true
+      },
+      {
+        "name": "Toptal",
+        "url": "https://toptal.com",
+        "focus": "contracting",
+        "enabled": true
+      },
+      {
+        "name": "Built In",
+        "url": "https://builtin.com",
+        "focus": "startup",
+        "enabled": true
+      }
+    ]
+  },
+  "exclusions": {
+    "companies": [
+      "Microsoft Corporation",
+      "Salesforce",
+      "Meta",
+      "Facebook",
+      "Alphabet",
+      "Google",
+      "Amazon",
+      "Netflix",
+      "Oracle",
+      "OpenAI",
+      "Tesla",
+      "SpaceX",
+      "Neuralink",
+      "X",
+      "Twitter",
+      "Palantir"
+    ],
+    "industries": [
+      "Fintech",
+      "Blockchain",
+      "Cryptocurrency",
+      "Cannabis",
+      "Marketing Technology",
+      "Advertising Technology",
+      "Government Contracting"
+    ],
+    "investors": [
+      "Peter Thiel",
+      "Elon Musk",
+      "Marc Andreessen",
+      "Sam Altman",
+      "Founders Fund",
+      "Andreessen Horowitz",
+      "a16z"
+    ],
+    "excludedCompaniesFile": "./SearchResults/excluded-companies.md"
+  },
+  "output": {
+    "baseDirectory": "./SearchResults/Jobs",
+    "urlValidation": true,
+    "linkVerificationRetries": 3,
+    "generateSummary": true
+  }
+}
