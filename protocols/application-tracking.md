@@ -112,6 +112,18 @@ Support status updates with additional trigger commands:
 - "I was rejected by [Company]" → Update status to "Rejected"  
 - "I got an offer from [Company]" → Update status to "Offer Received"
 
+#### Special Case: Rejection After Withdrawal
+When receiving rejection email for previously withdrawn applications:
+1. **Check closed-archive.md** for existing withdrawn entry
+2. **If found:**
+   - Update status to "Withdrawn/Rejected"
+   - Add rejection details to notes: "WITHDRAWN [date]: [reason], REJECTED [date]: [rejection reason]"
+   - **Do NOT change application counts** (already archived)
+   - **Do NOT create duplicate entry**
+3. **If not found in archive:**
+   - Follow standard rejection processing
+   - Move from applied-to.md to closed-archive.md
+
 ### Phase 6: Reporting and Analytics
 Monthly summary capabilities:
 - Applications submitted count
