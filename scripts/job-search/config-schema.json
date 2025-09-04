@@ -201,7 +201,7 @@
       "properties": {
         "baseDirectory": {
           "type": "string",
-          "default": "./SearchResults/Jobs",
+          "default": "../../SearchResults/Jobs",
           "description": "Base directory for search results"
         },
         "urlValidation": {
