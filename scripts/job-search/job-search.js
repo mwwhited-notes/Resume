@@ -11,6 +11,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const https = require('https');
 const { URL } = require('url');
+const PlatformFactory = require('./platforms/PlatformFactory');
 
 class JobSearchManager {
     constructor(configPath = './job-search-config.json') {
@@ -65,18 +66,18 @@ class JobSearchManager {
         
         const platforms = this.getAllPlatforms();
         
-        for (const platform of platforms) {
-            if (platformFilter && platform.name !== platformFilter) {
+        for (const platformStrategy of platforms) {
+            if (platformFilter && platformStrategy.name !== platformFilter) {
                 continue;
             }
 
-            if (!platform.enabled) {
-                console.log(`⏭️  Skipping disabled platform: ${platform.name}`);
+            if (!platformStrategy.isAvailable()) {
+                console.log(`⏭️  Skipping disabled platform: ${platformStrategy.name}`);
                 continue;
             }
 
-            console.log(`🔍 Processing platform: ${platform.name}`);
-            await this.processPlatform(platform);
+            console.log(`🔍 Processing platform: ${platformStrategy.name}`);
+            await this.processPlatform(platformStrategy);
         }
 
         if (this.config.output?.generateSummary) {
@@ -88,11 +89,11 @@ class JobSearchManager {
     }
 
     getAllPlatforms() {
-        const platforms = [];
+        const platformConfigs = [];
         
         // Major job boards
         if (this.config.platforms.majorJobBoards) {
-            platforms.push(...this.config.platforms.majorJobBoards.map(p => ({
+            platformConfigs.push(...this.config.platforms.majorJobBoards.map(p => ({
                 ...p,
                 category: 'major-job-boards'
             })));
@@ -100,7 +101,7 @@ class JobSearchManager {
 
         // Executive recruiters
         if (this.config.platforms.executiveRecruiters) {
-            platforms.push(...this.config.platforms.executiveRecruiters.map(p => ({
+            platformConfigs.push(...this.config.platforms.executiveRecruiters.map(p => ({
                 ...p,
                 category: 'executive-recruiters'
             })));
@@ -108,40 +109,55 @@ class JobSearchManager {
 
         // Specialized platforms
         if (this.config.platforms.specializedPlatforms) {
-            platforms.push(...this.config.platforms.specializedPlatforms.map(p => ({
+            platformConfigs.push(...this.config.platforms.specializedPlatforms.map(p => ({
                 ...p,
                 category: 'specialized-platforms'
             })));
         }
 
-        return platforms;
+        // Create strategy instances using the factory
+        return PlatformFactory.createStrategies(platformConfigs);
     }
 
-    async processPlatform(platform) {
+    async processPlatform(platformStrategy) {
         const platformResults = {
-            name: platform.name,
-            category: platform.category,
-            url: platform.url,
+            name: platformStrategy.name,
+            category: platformStrategy.getSpecialization().category,
+            url: platformStrategy.url,
             searchExecutionDate: new Date().toISOString(),
-            searchTerms: platform.searchTerms || this.buildSearchTerms(),
+            searchTerms: platformStrategy.config.searchTerms || this.buildSearchTerms(),
             opportunities: [],
             urlValidation: {},
-            marketIntelligence: {}
+            marketIntelligence: {},
+            platformMetadata: platformStrategy.getMetadata()
         };
 
         try {
-            // Simulate web search execution (would integrate with actual search APIs)
-            console.log(`  📝 Building search queries for ${platform.name}`);
-            const searchQueries = this.buildSearchQueries(platform);
+            console.log(`  📝 Building search queries for ${platformStrategy.name}`);
+            const searchQueries = this.buildSearchQueries(platformStrategy);
             
             console.log(`  🌐 Executing ${searchQueries.length} searches`);
             platformResults.searchQueries = [];
             
+            // Initialize raw search results storage
+            platformResults.rawSearchResults = {};
+            
             for (const query of searchQueries) {
-                const searchResults = await this.executeWebSearch(query, platform);
+                const searchResults = await this.executeWebSearchWithStrategy(query, platformStrategy);
+                const queryId = `query_${searchQueries.indexOf(query) + 1}`;
+                
+                // Store raw search results
+                platformResults.rawSearchResults[queryId] = {
+                    query: query,
+                    searchUrl: searchResults.searchUrl,
+                    executionTimestamp: new Date().toISOString(),
+                    rawResponse: searchResults.rawResponse || null,
+                    platformSpecificData: searchResults.platformSpecificData || null
+                };
                 
                 // Store search query information for documentation
                 platformResults.searchQueries.push({
+                    queryId: queryId,
                     targetTitle: query.targetTitle,
                     query: query.searchTerms,
                     searchUrl: searchResults.searchUrl,
@@ -151,7 +167,16 @@ class JobSearchManager {
                 
                 // Add any opportunities found (will be empty for manual execution)
                 if (searchResults.opportunities) {
-                    platformResults.opportunities.push(...searchResults.opportunities);
+                    // Add platform-specific reference IDs and raw data to opportunities
+                    const opportunitiesWithIds = searchResults.opportunities.map((opp, index) => ({
+                        ...opp,
+                        platformId: opp.platformId || `${platformStrategy.name.toLowerCase().replace(/\s+/g, '_')}_${queryId}_${index + 1}`,
+                        rawData: opp.rawData || null,
+                        queryId: queryId,
+                        discoveryTimestamp: new Date().toISOString()
+                    }));
+                    
+                    platformResults.opportunities.push(...opportunitiesWithIds);
                 }
                 
                 // URL validation if enabled and opportunities exist
@@ -164,41 +189,47 @@ class JobSearchManager {
             // Apply exclusions
             platformResults.opportunities = this.applyExclusions(platformResults.opportunities);
             
-            // Calculate competitive advantages
-            platformResults.competitiveAdvantages = this.analyzeCompetitiveAdvantages(platform);
+            // Get competitive advantages from the strategy
+            platformResults.competitiveAdvantages = this.getStrategyCompetitiveAdvantages(platformStrategy);
             
             // Generate platform-specific insights
             platformResults.marketIntelligence = this.analyzeMarketIntelligence(platformResults.opportunities);
 
             // Save individual platform results
-            await this.savePlatformResults(platform.name, platformResults);
+            await this.savePlatformResults(platformStrategy.name, platformResults);
             
-            this.results.platforms[platform.name] = platformResults;
+            this.results.platforms[platformStrategy.name] = platformResults;
             this.results.summary.totalOpportunities += platformResults.opportunities.length;
 
-            console.log(`  ✅ Completed ${platform.name}: ${platformResults.opportunities.length} opportunities`);
+            console.log(`  ✅ Completed ${platformStrategy.name}: ${platformResults.opportunities.length} opportunities`);
 
         } catch (error) {
-            console.error(`  ❌ Error processing ${platform.name}: ${error.message}`);
+            console.error(`  ❌ Error processing ${platformStrategy.name}: ${error.message}`);
             platformResults.error = error.message;
         }
     }
 
-    buildSearchQueries(platform) {
+    buildSearchQueries(platformStrategy) {
         const queries = [];
-        const baseTerms = platform.searchTerms || this.buildSearchTerms();
         
         // Build queries based on search criteria
         for (const roleCategory of this.config.searchCriteria.targetRoles) {
             for (const title of roleCategory.titles) {
+                let searchTerms = [
+                    `"${title}"`,
+                    ...this.config.searchCriteria.technologies.slice(0, 3),
+                    ...this.config.searchCriteria.workTypes,
+                    '2025'
+                ].join(' ');
+                
+                // Use platform strategy to optimize search terms if available
+                if (typeof platformStrategy.optimizeSearchTerms === 'function') {
+                    searchTerms = platformStrategy.optimizeSearchTerms(searchTerms);
+                }
+                
                 const query = {
-                    platform: platform.name,
-                    searchTerms: [
-                        `"${title}"`,
-                        ...this.config.searchCriteria.technologies.slice(0, 3),
-                        ...this.config.searchCriteria.workTypes,
-                        '2025'
-                    ].join(' '),
+                    platform: platformStrategy.name,
+                    searchTerms: searchTerms,
                     roleCategory: roleCategory.category,
                     targetTitle: title
                 };
@@ -226,74 +257,43 @@ class JobSearchManager {
         return terms;
     }
 
-    async executeWebSearch(query, platform) {
+    async executeWebSearchWithStrategy(query, platformStrategy) {
         console.log(`    🔎 Searching: ${query.searchTerms}`);
         
         try {
-            // Build platform-specific search URL
-            const searchUrl = this.buildPlatformSearchUrl(platform, query.searchTerms);
+            // Use the platform strategy to build the search URL
+            const searchUrl = platformStrategy.buildSearchUrl(query.searchTerms);
             console.log(`    🌐 Search URL: ${searchUrl}`);
+            
+            // Get platform-specific execution instructions
+            const executionNote = platformStrategy.getExecutionInstructions(searchUrl);
             
             // Note: In real implementation, this would use WebSearch API or web scraping
             // For now, return structured placeholder that indicates real search is needed
             const searchResults = {
                 searchUrl: searchUrl,
-                platform: platform.name,
+                platform: platformStrategy.name,
                 query: query.searchTerms,
-                executionNote: `MANUAL SEARCH REQUIRED: Visit ${searchUrl} to execute search`,
+                executionNote: executionNote,
                 opportunities: [], // Would be populated by actual web search
-                needsManualExecution: true
+                needsManualExecution: true,
+                platformSpecificData: {
+                    specialization: platformStrategy.getSpecialization(),
+                    searchParameters: platformStrategy.getSearchParameters(),
+                    expectedResultStructure: platformStrategy.getExpectedResultStructure()
+                }
             };
             
             return searchResults;
             
         } catch (error) {
-            console.error(`    ❌ Error building search URL for ${platform.name}: ${error.message}`);
+            console.error(`    ❌ Error executing search for ${platformStrategy.name}: ${error.message}`);
             return {
                 query: query.searchTerms,
-                platform: platform.name,
+                platform: platformStrategy.name,
                 opportunities: [],
                 error: error.message
             };
-        }
-    }
-
-    buildPlatformSearchUrl(platform, searchTerms) {
-        const encodedTerms = encodeURIComponent(searchTerms);
-        
-        switch (platform.name) {
-            case 'LinkedIn Jobs':
-                return `https://www.linkedin.com/jobs/search/?keywords=${encodedTerms}&location=Remote&f_WT=2`;
-            
-            case 'Indeed':
-                return `https://www.indeed.com/jobs?q=${encodedTerms}&l=Remote&radius=0&fromage=7`;
-            
-            case 'ZipRecruiter':
-                return `https://www.ziprecruiter.com/jobs/search?search=${encodedTerms}&location=Remote&radius=25`;
-            
-            case 'Dice':
-                return `https://www.dice.com/jobs?q=${encodedTerms}&location=Remote&radius=30&radiusUnit=mi&page=1&pageSize=20`;
-            
-            case 'Glassdoor':
-                return `https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=${encodedTerms}&sc.keyword=${encodedTerms}&locT=N&locId=11047&jobType=`;
-            
-            case 'Wellfound (AngelList)':
-                return `https://wellfound.com/jobs?keywords=${encodedTerms}&remote=true`;
-            
-            case 'Remote.co':
-                return `https://remote.co/remote-jobs/search/?search_keywords=${encodedTerms}`;
-            
-            case 'Built In':
-                return `https://builtin.com/jobs/remote?search=${encodedTerms}`;
-            
-            default:
-                // For other platforms, construct generic search URL
-                const baseUrl = platform.url || '';
-                if (baseUrl.includes('jobs') || baseUrl.includes('careers')) {
-                    return `${baseUrl}?q=${encodedTerms}&remote=true`;
-                } else {
-                    return `${baseUrl}/jobs?search=${encodedTerms}`;
-                }
         }
     }
 
@@ -379,7 +379,12 @@ class JobSearchManager {
         });
     }
 
-    analyzeCompetitiveAdvantages(platform) {
+    getStrategyCompetitiveAdvantages(platformStrategy) {
+        // Get platform-specific advantages from the strategy if available
+        const strategyAdvantages = typeof platformStrategy.getCompetitiveAdvantages === 'function' 
+            ? platformStrategy.getCompetitiveAdvantages() 
+            : {};
+            
         return {
             uniqueDifferentiators: [
                 'Pure .NET AI/ML Implementation',
@@ -393,17 +398,48 @@ class JobSearchManager {
                 stackOverflowReputation: '22K+',
                 githubContributor: 'Arctic Code Vault'
             },
-            platformAlignment: this.calculatePlatformAlignment(platform)
+            platformAlignment: this.calculatePlatformAlignment(platformStrategy),
+            platformSpecific: strategyAdvantages
         };
     }
 
-    calculatePlatformAlignment(platform) {
+    calculatePlatformAlignment(platformStrategy) {
         // Calculate how well user profile aligns with platform opportunities
+        const specialization = platformStrategy.getSpecialization();
+        const searchParams = platformStrategy.getSearchParameters();
+        
+        let roleLevel = 8.0; // Base score
+        let technologyMatch = 8.0;
+        let compensationAlignment = 8.0;
+        let workStyleMatch = 8.0;
+        
+        // Adjust based on platform specialization
+        if (specialization.category === 'professional-network') {
+            roleLevel += 1.0; // LinkedIn good for senior roles
+        }
+        if (specialization.category === 'technology-specialist') {
+            technologyMatch += 1.5; // Dice great for tech roles
+        }
+        if (specialization.category === 'ai-matching') {
+            compensationAlignment += 1.0; // ZipRecruiter has salary transparency
+        }
+        
+        // Adjust for remote work support
+        if (searchParams.supportsRemoteFilter && this.config.userProfile.location.preferredWork === 'remote') {
+            workStyleMatch += 1.0;
+        }
+        
+        // Adjust for salary filtering
+        if (searchParams.supportsSalaryFilter && this.config.userProfile.preferences.minSalary >= 180000) {
+            compensationAlignment += 0.5;
+        }
+        
+        // Cap scores at 10.0
         const alignmentFactors = {
-            roleLevel: 8.5,
-            technologyMatch: 9.0,
-            compensationAlignment: 8.0,
-            workStyleMatch: 9.5
+            roleLevel: Math.min(10.0, roleLevel),
+            technologyMatch: Math.min(10.0, technologyMatch),
+            compensationAlignment: Math.min(10.0, compensationAlignment),
+            workStyleMatch: Math.min(10.0, workStyleMatch)
         };
         
         const averageAlignment = Object.values(alignmentFactors)
@@ -411,7 +447,8 @@ class JobSearchManager {
             
         return {
             overallScore: Math.round(averageAlignment * 10) / 10,
-            factors: alignmentFactors
+            factors: alignmentFactors,
+            platformCategory: specialization.category
         };
     }
 
@@ -510,98 +547,161 @@ class JobSearchManager {
 
     async savePlatformResults(platformName, results) {
         const baseDir = this.config.output?.baseDirectory || './SearchResults/Jobs';
-        const filename = `${platformName.toLowerCase().replace(/[^a-z0-9]/g, '-')}.md`;
+        const filename = `${platformName.toLowerCase().replace(/[^a-z0-9]/g, '-')}.yml`;
         const filepath = path.join(baseDir, filename);
         
-        const markdown = this.generatePlatformMarkdown(results);
+        const yamlContent = this.generatePlatformYAML(results);
         
         try {
-            await fs.writeFile(filepath, markdown, 'utf8');
+            await fs.writeFile(filepath, yamlContent, 'utf8');
             console.log(`  💾 Saved results: ${filepath}`);
         } catch (error) {
             console.error(`  ❌ Failed to save ${filepath}: ${error.message}`);
         }
     }
 
-    generatePlatformMarkdown(results) {
+    generatePlatformYAML(results) {
         const date = new Date().toISOString().split('T')[0];
+        const timestamp = new Date().toISOString();
         
-        // Handle both search results with opportunities and search URL generation
-        const hasSearchUrls = results.searchQueries && results.searchQueries.length > 0;
-        const hasOpportunities = results.opportunities && results.opportunities.length > 0;
+        const yamlData = {
+            metadata: {
+                platform_name: results.name,
+                category: results.category,
+                search_date: date,
+                generated_timestamp: timestamp,
+                platform_url: results.url,
+                search_terms: results.searchTerms || [],
+                script_version: '2.0.0-oop'
+            },
+            
+            search_execution: {
+                search_queries_generated: results.searchQueries?.length || 0,
+                opportunities_found: results.opportunities?.length || 0,
+                urls_validated: Object.keys(results.urlValidation || {}).length,
+                manual_execution_required: results.searchQueries?.some(q => q.needsManualExecution) || false,
+                search_queries: results.searchQueries?.map((query, index) => ({
+                    query_id: `${results.name.toLowerCase().replace(/\s+/g, '_')}_query_${index + 1}`,
+                    target_title: query.targetTitle,
+                    search_terms: query.query,
+                    search_url: query.searchUrl,
+                    execution_note: query.executionNote,
+                    needs_manual_execution: query.needsManualExecution
+                })) || []
+            },
+
+            opportunities: results.opportunities?.map((opp, index) => ({
+                opportunity_id: `${results.name.toLowerCase().replace(/\s+/g, '_')}_opp_${String(index + 1).padStart(3, '0')}`,
+                platform_reference_id: opp.platformId || null,
+                title: opp.title,
+                company: opp.company,
+                location: opp.location,
+                salary: opp.salary,
+                job_url: opp.url,
+                url_status: results.urlValidation?.[opp.url]?.status || 'NOT_VERIFIED',
+                fit_score: opp.fitScore ? Number(opp.fitScore.toFixed(1)) : null,
+                posted_date: opp.posted,
+                requirements: opp.requirements || [],
+                description: opp.description,
+                raw_data: opp.rawData || null,
+                source_platform: results.name,
+                discovered_date: date
+            })) || [],
+
+            raw_search_results: results.rawSearchResults || {},
+
+            url_validation: Object.entries(results.urlValidation || {}).map(([url, validation]) => ({
+                url: url,
+                status: validation.status,
+                verified_date: validation.verifiedDate,
+                title: validation.title,
+                company: validation.company,
+                error: validation.error || null
+            })),
+
+            market_intelligence: {
+                total_opportunities: results.opportunities?.length || 0,
+                salary_analysis: results.marketIntelligence?.salaryAnalysis ? {
+                    average: results.marketIntelligence.salaryAnalysis.average,
+                    median: results.marketIntelligence.salaryAnalysis.median,
+                    ranges: results.marketIntelligence.salaryAnalysis.ranges || []
+                } : null,
+                location_distribution: results.marketIntelligence?.locationDistribution || {},
+                key_requirements: results.marketIntelligence?.keyRequirements?.slice(0, 10) || [],
+                top_companies: results.marketIntelligence?.topCompanies?.slice(0, 10) || []
+            },
+
+            competitive_advantages: {
+                unique_differentiators: results.competitiveAdvantages?.uniqueDifferentiators || [
+                    'Pure .NET AI/ML Implementation',
+                    'Enterprise Framework Creation', 
+                    'SQL Server Vector Extensions',
+                    'Crisis Resolution Expertise'
+                ],
+                platform_alignment_score: results.competitiveAdvantages?.platformAlignment?.overallScore || null,
+                platform_specific_advantages: results.competitiveAdvantages?.platformSpecific || []
+            },
+
+            next_steps: {
+                immediate_actions: results.searchQueries?.length > 0 ? [
+                    'Execute searches using generated URLs',
+                    'Document opportunities found',
+                    'Validate job posting URLs',
+                    'Calculate fit scores for positions',
+                    'Add high-scoring opportunities to apply-next.md'
+                ] : [
+                    'Review opportunities identified',
+                    'Validate active job posting URLs', 
+                    'Research companies for cultural fit',
+                    'Prepare targeted application materials'
+                ],
+                manual_execution_required: results.searchQueries?.some(q => q.needsManualExecution) || false
+            }
+        };
+
+        // Convert to YAML format manually (simple implementation)
+        return this.objectToYAML(yamlData, 0);
+    }
+
+    objectToYAML(obj, indent = 0) {
+        const spaces = '  '.repeat(indent);
+        let yaml = '';
         
-        return `# ${results.name} Job Search Results
-
-## Search Query Executed
-**Platform:** ${results.name}  
-**Category:** ${results.category}  
-**Search Date:** ${date}  
-**Search Terms:** ${results.searchTerms?.join(', ') || 'Generated from configuration'}
-
-${hasSearchUrls ? `## Generated Search URLs
-${results.searchQueries.map(query => `- **${query.targetTitle}**: [${query.searchUrl}](${query.searchUrl})
-  - Query: ${query.query}
-  - Execution Note: ${query.executionNote || 'Visit URL to execute search'}`).join('\n')}
-` : ''}
-
-## Search Results Summary
-- **Total Opportunities:** ${results.opportunities?.length || 0}
-- **Platform URL:** ${results.url}
-- **Search URLs Generated:** ${hasSearchUrls ? results.searchQueries.length : 0}
-- **Verification Status:** ${Object.keys(results.urlValidation || {}).length} URLs validated
-${hasSearchUrls ? '- **Manual Execution Required:** Visit generated search URLs to find specific opportunities' : ''}
-
-${hasOpportunities ? `## Direct Job Opportunities
-
-${results.opportunities.map((opp, index) => `### Position ${index + 1}: ${opp.title} - ${opp.company}
-- **Job URL:** ${opp.url}
-- **URL Status:** ${results.urlValidation?.[opp.url]?.status || 'NOT_VERIFIED'}
-- **Location:** ${opp.location}
-- **Salary:** ${opp.salary || 'Not specified'}
-- **Fit Score:** ${opp.fitScore ? opp.fitScore.toFixed(1) : 'N/A'}/10
-- **Posted:** ${opp.posted || 'Unknown'}
-- **Requirements:** ${opp.requirements?.join(', ') || 'Not specified'}
-- **Description:** ${opp.description || 'Not available'}
-`).join('\n')}` : `## Manual Search Required
-
-This platform requires manual execution of the generated search URLs above. The script has prepared the search queries based on your configuration, but you need to:
-
-1. Visit each generated search URL
-2. Execute the search on the platform
-3. Review and document relevant opportunities
-4. Validate job posting URLs for active positions
-5. Update this report with findings`}
-
-${Object.keys(results.urlValidation || {}).length > 0 ? `## URL Verification Log
-${Object.entries(results.urlValidation || {}).map(([url, validation]) => 
-`- ${url}: **${validation.status}** (Verified: ${validation.verifiedDate})`
-).join('\n')}` : ''}
-
-## Market Intelligence
-${hasOpportunities ? `- **Salary Analysis:** Average: $${results.marketIntelligence?.salaryAnalysis?.average?.toLocaleString() || 'N/A'}, Median: $${results.marketIntelligence?.salaryAnalysis?.median?.toLocaleString() || 'N/A'}
-- **Location Distribution:** ${Object.entries(results.marketIntelligence?.locationDistribution || {}).map(([loc, count]) => `${loc} (${count})`).join(', ') || 'No data'}
-- **Top Requirements:** ${results.marketIntelligence?.keyRequirements?.slice(0, 5).map(r => r.requirement).join(', ') || 'None identified'}` : `- **Analysis Pending:** Market intelligence will be available after manual search execution
-- **Search Strategy:** Use generated URLs to target specific roles and technologies
-- **Expected Results:** Based on platform specialization: ${results.category}`}
-
-## Competitive Advantages
-${results.competitiveAdvantages?.uniqueDifferentiators?.map(diff => `- ${diff}`).join('\n') || '- Pure .NET AI/ML Implementation\n- Enterprise Framework Creation\n- SQL Server Vector Extensions\n- Crisis Resolution Expertise'}
-
-## Platform Alignment Score
-**Overall Score:** ${results.competitiveAdvantages?.platformAlignment?.overallScore || 'N/A'}/10
-
-## Next Steps
-${hasSearchUrls ? `1. Execute searches using the generated URLs above
-2. Document opportunities found in this report
-3. Validate job posting URLs using WebFetch or manual verification
-4. Calculate fit scores for relevant positions
-5. Add high-scoring opportunities to apply-next.md` : `1. Review opportunities identified above
-2. Validate active job posting URLs
-3. Research companies for cultural fit
-4. Prepare targeted application materials`}
-
-*Generated by Job Search Automation Script on ${date}*
-`;
+        for (const [key, value] of Object.entries(obj)) {
+            if (value === null) {
+                yaml += `${spaces}${key}: null\n`;
+            } else if (value === undefined) {
+                continue;
+            } else if (Array.isArray(value)) {
+                yaml += `${spaces}${key}:\n`;
+                if (value.length === 0) {
+                    yaml += `${spaces}  []\n`;
+                } else {
+                    for (const item of value) {
+                        if (typeof item === 'object' && item !== null) {
+                            yaml += `${spaces}  -\n`;
+                            yaml += this.objectToYAML(item, indent + 2);
+                        } else {
+                            const itemStr = typeof item === 'string' ? 
+                                (item.includes('\n') || item.includes('"') ? `"${item.replace(/"/g, '\\"')}"` : item) : 
+                                String(item);
+                            yaml += `${spaces}  - ${itemStr}\n`;
+                        }
+                    }
+                }
+            } else if (typeof value === 'object') {
+                yaml += `${spaces}${key}:\n`;
+                yaml += this.objectToYAML(value, indent + 1);
+            } else if (typeof value === 'string') {
+                const valueStr = value.includes('\n') || value.includes('"') || value.includes(':') ? 
+                    `"${value.replace(/"/g, '\\"')}"` : value;
+                yaml += `${spaces}${key}: ${valueStr}\n`;
+            } else {
+                yaml += `${spaces}${key}: ${value}\n`;
+            }
+        }
+        
+        return yaml;
     }
 
     async generateComprehensiveSummary() {
