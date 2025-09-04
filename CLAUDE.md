@@ -85,8 +85,7 @@ Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist wit
 **Industry Focus & Exclusions:** Targeting enterprise technology, healthcare technology, manufacturing/logistics, and traditional software companies. Age-appropriate professional environments that value senior technical expertise over youth-oriented cultures.
 
 ## Current Interview Pipeline - September 2025
-- **Atmosera:** Azure consulting (9/5 10:00am EST) - recruiter screen
-- **UPS:** Logistics transformation (9/5 12:15pm EST) - screening call  
+- **Atmosera:** Azure consulting - second round scheduled (60min with Derek Batchelor & team member)
 - **Cadwell:** Medical devices (technical interview pending scheduling) - 9.1/10 fit
 
 ## Resume Strategy - MEMORIZED
