@@ -1,0 +1,120 @@
+{
+  "platform_id": "glassdoor",
+  "display_name": "Glassdoor",
+  "category": "job-aggregator",
+  "base_url": "https://www.glassdoor.com",
+  "search_endpoint": "/Job/jobs.htm",
+  
+  "url_parameters": {
+    "sc.keyword": "sc.keyword",
+    "locT": "locT", 
+    "locId": "locId",
+    "jobType": "jobType",
+    "fromAge": "fromAge",
+    "minSalary": "minSalary",
+    "includeNoSalaryJobs": "includeNoSalaryJobs"
+  },
+
+  "default_values": {
+    "locT": "N",
+    "locId": "1",
+    "fromAge": "7",
+    "includeNoSalaryJobs": "true"
+  },
+
+  "advanced_filters": {
+    "job_types": {
+      "full_time": "fulltime",
+      "part_time": "parttime",
+      "contract": "contract",
+      "internship": "internship"
+    },
+    "experience_levels": {
+      "entry": "0,1",
+      "mid": "2,3",
+      "senior": "4,5", 
+      "executive": "6+"
+    },
+    "company_sizes": {
+      "startup": "1,50",
+      "small": "51,200",
+      "medium": "201,1000",
+      "large": "1001,5000",
+      "enterprise": "5001+"
+    }
+  },
+
+  "search_capabilities": {
+    "supports_remote_filter": true,
+    "supports_salary_filter": true,
+    "supports_date_filter": true,
+    "supports_company_size": true,
+    "supports_boolean_operators": false,
+    "supports_quoted_phrases": true,
+    "max_results_per_page": 30,
+    "requires_authentication": false
+  },
+
+  "specialization": {
+    "category": "job-aggregator",
+    "strengths": [
+      "Company reviews and ratings",
+      "Salary transparency and insights",
+      "Company culture information",
+      "Employee interview experiences",
+      "Comprehensive company profiles"
+    ],
+    "ideal_for": [
+      "Company research and due diligence",
+      "Salary benchmarking",
+      "Culture fit assessment",
+      "Interview preparation",
+      "Employee satisfaction insights"
+    ],
+    "limitations": [
+      "Limited advanced search operators",
+      "Requires account for full features",
+      "Some data requires premium subscription"
+    ]
+  },
+
+  "execution_instructions": {
+    "manual_steps": [
+      "Visit the generated search URL",
+      "Filter by remote work options",
+      "Review company ratings and reviews",
+      "Check salary ranges and benefits",
+      "Read employee interview experiences",
+      "Save positions with company research"
+    ],
+    "optimization_tips": [
+      "Create profile for personalized recommendations",
+      "Use company reviews to assess culture fit",
+      "Leverage salary insights for negotiation",
+      "Read interview reviews for preparation"
+    ]
+  },
+
+  "competitive_advantages": {
+    "platform_specific": [
+      "Technical leadership experience aligns with company evaluation",
+      "Crisis resolution expertise valuable for company assessment",
+      "Community impact demonstrates culture contribution potential"
+    ],
+    "search_strategies": [
+      "Use company reviews to identify technical culture fit",
+      "Leverage salary data for executive compensation research",
+      "Focus on employee satisfaction scores for leadership roles"
+    ]
+  },
+
+  "result_structure": {
+    "includes_direct_apply": false,
+    "includes_salary_data": true,
+    "includes_company_info": true,
+    "includes_location_data": true,
+    "includes_company_ratings": true,
+    "includes_employee_reviews": true,
+    "provides_interview_insights": true
+  }
+}

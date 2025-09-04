@@ -1,0 +1,100 @@
+{
+  "platformDefinitions": {
+    "linkedin_jobs": {
+      "configFile": "linkedin-jobs.json",
+      "enabled": true,
+      "priority": 1
+    },
+    "indeed": {
+      "configFile": "indeed.json", 
+      "enabled": true,
+      "priority": 2
+    },
+    "dice": {
+      "configFile": "dice.json",
+      "enabled": true,
+      "priority": 3
+    },
+    "ziprecruiter": {
+      "configFile": "ziprecruiter.json",
+      "enabled": true, 
+      "priority": 4
+    },
+    "glassdoor": {
+      "configFile": "glassdoor.json",
+      "enabled": true,
+      "priority": 5
+    },
+    "wellfound": {
+      "configFile": "wellfound.json",
+      "enabled": true,
+      "priority": 6,
+      "focus": "startup"
+    },
+    "remote_co": {
+      "configFile": "remote-co.json", 
+      "enabled": true,
+      "priority": 7,
+      "focus": "remote"
+    },
+    "builtin": {
+      "configFile": "builtin.json",
+      "enabled": true,
+      "priority": 8,
+      "focus": "startup"
+    },
+    "toptal": {
+      "configFile": "toptal.json",
+      "enabled": true,
+      "priority": 9,
+      "focus": "contracting"
+    },
+    "aijobs_net": {
+      "configFile": "aijobs-net.json",
+      "enabled": true,
+      "priority": 10,
+      "focus": "ai-ml"
+    }
+  },
+
+  "categoryMappings": {
+    "major-job-boards": ["linkedin_jobs", "indeed", "ziprecruiter", "dice", "glassdoor"],
+    "specialized-platforms": ["wellfound", "remote_co", "builtin", "aijobs_net"],
+    "contracting-platforms": ["toptal"],
+    "executive-recruiters": []
+  },
+
+  "focusAreas": {
+    "professional-network": ["linkedin_jobs"],
+    "job-aggregator": ["indeed", "glassdoor"], 
+    "technology-specialist": ["dice"],
+    "ai-matching": ["ziprecruiter"],
+    "startup": ["wellfound", "builtin"],
+    "remote": ["remote_co"],
+    "ai-ml": ["aijobs_net"],
+    "contracting": ["toptal"]
+  },
+
+  "recommendationRules": {
+    "executive_roles": {
+      "platforms": ["linkedin_jobs"],
+      "priority": "high",
+      "reason": "Best for senior leadership positions"
+    },
+    "technical_specialization": {
+      "platforms": ["dice", "aijobs_net"],
+      "priority": "high", 
+      "reason": "Strong technical focus"
+    },
+    "remote_work": {
+      "platforms": ["remote_co", "wellfound"],
+      "priority": "medium",
+      "reason": "Remote-first opportunities"
+    },
+    "high_salary": {
+      "platforms": ["ziprecruiter", "linkedin_jobs"],
+      "priority": "medium",
+      "reason": "Salary transparency"
+    }
+  }
+}

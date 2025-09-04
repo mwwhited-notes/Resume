@@ -1,0 +1,123 @@
+{
+  "platform_id": "remote_co",
+  "display_name": "Remote.co",
+  "category": "remote",
+  "base_url": "https://remote.co",
+  "search_endpoint": "/remote-jobs/search",
+  
+  "url_parameters": {
+    "search": "search",
+    "region": "region",
+    "job_type": "job_type",
+    "category": "category",
+    "date_posted": "date_posted"
+  },
+
+  "default_values": {
+    "region": "anywhere",
+    "job_type": "full-time",
+    "date_posted": "7"
+  },
+
+  "advanced_filters": {
+    "job_categories": {
+      "software_development": "software-development",
+      "customer_service": "customer-service",
+      "design": "design",
+      "marketing": "marketing",
+      "sales": "sales",
+      "writing": "writing",
+      "accounting_finance": "accounting-finance",
+      "all_others": "all-others"
+    },
+    "job_types": {
+      "full_time": "full-time",
+      "part_time": "part-time",
+      "contract": "contract",
+      "freelance": "freelance"
+    },
+    "experience_levels": {
+      "entry": "entry",
+      "mid": "mid",
+      "senior": "senior",
+      "executive": "executive"
+    }
+  },
+
+  "search_capabilities": {
+    "supports_remote_filter": true,
+    "supports_category_filter": true,
+    "supports_date_filter": true,
+    "supports_job_type_filter": true,
+    "supports_boolean_operators": false,
+    "supports_quoted_phrases": true,
+    "max_results_per_page": 20,
+    "requires_authentication": false
+  },
+
+  "specialization": {
+    "category": "remote",
+    "strengths": [
+      "100% remote-first opportunities",
+      "Global remote company database",
+      "Remote work culture focus",
+      "Distributed team expertise",
+      "Timezone flexibility information"
+    ],
+    "ideal_for": [
+      "Remote-first career focus",
+      "Distributed team leadership",
+      "Global opportunity access",
+      "Flexible work arrangements",
+      "Remote technical leadership"
+    ],
+    "limitations": [
+      "Smaller job volume compared to major boards",
+      "Limited advanced search features",
+      "Fewer enterprise companies",
+      "Basic filtering options"
+    ]
+  },
+
+  "execution_instructions": {
+    "manual_steps": [
+      "Visit the generated search URL",
+      "Filter by software development category",
+      "Review remote work arrangements",
+      "Check timezone requirements",
+      "Assess distributed team structure",
+      "Apply directly through company links"
+    ],
+    "optimization_tips": [
+      "Highlight remote leadership experience",
+      "Emphasize distributed team management",
+      "Showcase asynchronous communication skills",
+      "Demonstrate results-oriented work style"
+    ]
+  },
+
+  "competitive_advantages": {
+    "platform_specific": [
+      "Technical leadership experience in distributed environments",
+      "Crisis resolution skills valuable for remote teams",
+      "Community impact demonstrates remote collaboration",
+      "Fractional CTO model aligns with remote flexibility"
+    ],
+    "search_strategies": [
+      "Target companies with distributed technical teams",
+      "Focus on senior remote leadership positions", 
+      "Emphasize timezone flexibility for global teams",
+      "Leverage remote work experience and expertise"
+    ]
+  },
+
+  "result_structure": {
+    "includes_direct_apply": false,
+    "includes_salary_data": false,
+    "includes_company_info": true,
+    "includes_location_data": false,
+    "includes_remote_details": true,
+    "includes_timezone_info": true,
+    "provides_company_culture": true
+  }
+}

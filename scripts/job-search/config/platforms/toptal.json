@@ -1,0 +1,117 @@
+{
+  "platform_id": "toptal",
+  "display_name": "Toptal",
+  "category": "contracting",
+  "base_url": "https://www.toptal.com",
+  "search_endpoint": "/freelance-jobs",
+  
+  "url_parameters": {
+    "skill": "skill",
+    "location": "location",
+    "engagement_type": "engagement_type",
+    "duration": "duration",
+    "rate_min": "rate_min"
+  },
+
+  "default_values": {
+    "location": "remote",
+    "engagement_type": "part-time,full-time"
+  },
+
+  "advanced_filters": {
+    "engagement_types": {
+      "part_time": "part-time",
+      "full_time": "full-time",
+      "hourly": "hourly",
+      "project": "project"
+    },
+    "skill_categories": {
+      "software_development": "software-development",
+      "design": "design",
+      "finance": "finance",
+      "project_management": "project-management",
+      "product_management": "product-management"
+    },
+    "experience_levels": {
+      "senior": "senior",
+      "expert": "expert",
+      "architect": "architect"
+    }
+  },
+
+  "search_capabilities": {
+    "supports_remote_filter": true,
+    "supports_skill_filter": true,
+    "supports_rate_filter": true,
+    "supports_duration_filter": true,
+    "supports_boolean_operators": false,
+    "supports_quoted_phrases": false,
+    "max_results_per_page": 20,
+    "requires_authentication": true
+  },
+
+  "specialization": {
+    "category": "contracting",
+    "strengths": [
+      "Elite freelancer network",
+      "Premium hourly rates",
+      "High-quality client projects",
+      "Rigorous vetting process",
+      "Long-term engagement opportunities"
+    ],
+    "ideal_for": [
+      "High-end freelance consulting",
+      "Fractional leadership roles",
+      "Premium hourly rate projects",
+      "Elite client engagements",
+      "Technical advisory positions"
+    ],
+    "limitations": [
+      "Extremely selective acceptance process",
+      "Requires extensive vetting",
+      "Limited entry-level opportunities",
+      "High performance expectations"
+    ]
+  },
+
+  "execution_instructions": {
+    "manual_steps": [
+      "Complete rigorous application process",
+      "Pass technical and soft skill assessments",
+      "Build comprehensive freelancer profile",
+      "Apply for matching client projects",
+      "Negotiate rates and engagement terms"
+    ],
+    "optimization_tips": [
+      "Highlight premium technical expertise",
+      "Showcase high-impact project results",
+      "Demonstrate client satisfaction history",
+      "Emphasize fractional leadership experience"
+    ]
+  },
+
+  "competitive_advantages": {
+    "platform_specific": [
+      "22K+ Stack Overflow reputation demonstrates technical excellence",
+      "657K+ NuGet downloads show community impact",
+      "Crisis resolution expertise ideal for premium consulting",
+      "Enterprise framework creation showcases elite technical skills"
+    ],
+    "search_strategies": [
+      "Target fractional CTO and technical advisory roles",
+      "Emphasize crisis resolution and scaling expertise",
+      "Leverage community influence for credibility",
+      "Focus on high-value, strategic engagements"
+    ]
+  },
+
+  "result_structure": {
+    "includes_direct_apply": true,
+    "includes_rate_data": true,
+    "includes_client_info": true,
+    "includes_location_data": false,
+    "includes_project_scope": true,
+    "includes_engagement_details": true,
+    "provides_client_matching": true
+  }
+}

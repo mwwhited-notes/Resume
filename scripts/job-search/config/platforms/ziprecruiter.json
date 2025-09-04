@@ -1,0 +1,106 @@
+{
+  "platform_id": "ziprecruiter",
+  "display_name": "ZipRecruiter",
+  "category": "ai-matching",
+  "base_url": "https://www.ziprecruiter.com",
+  "search_endpoint": "/jobs/search",
+  
+  "url_parameters": {
+    "search": "search",
+    "location": "location",
+    "radius": "radius",
+    "days_ago": "days_ago",
+    "salary_min": "salary_min"
+  },
+
+  "default_values": {
+    "location": "Remote",
+    "radius": "25",
+    "days_ago": "7"
+  },
+
+  "advanced_filters": {
+    "employment_type": {
+      "full_time": "full_time",
+      "part_time": "part_time", 
+      "contract": "contract",
+      "temporary": "temporary"
+    },
+    "experience_level": {
+      "entry": "entry_level",
+      "mid": "mid_level", 
+      "senior": "senior_level",
+      "executive": "executive"
+    }
+  },
+
+  "search_capabilities": {
+    "supports_remote_filter": true,
+    "supports_salary_filter": true,
+    "supports_date_filter": true,
+    "supports_boolean_operators": false,
+    "supports_quoted_phrases": true,
+    "max_results_per_page": 20,
+    "requires_authentication": false
+  },
+
+  "specialization": {
+    "category": "ai-matching",
+    "strengths": [
+      "AI-powered job matching",
+      "One-click apply functionality",
+      "Salary transparency", 
+      "Mobile-optimized experience",
+      "Quick application process"
+    ],
+    "ideal_for": [
+      "Fast job applications",
+      "Mobile job searching",
+      "Salary-focused searches",
+      "Broad market coverage"
+    ],
+    "limitations": [
+      "Limited advanced search operators",
+      "Fewer filtering options",
+      "Less detailed job descriptions"
+    ]
+  },
+
+  "execution_instructions": {
+    "manual_steps": [
+      "Visit the generated search URL",
+      "Use location filter for remote opportunities",
+      "Apply salary filters if available",
+      "Utilize one-click apply for quick applications",
+      "Save promising positions"
+    ],
+    "optimization_tips": [
+      "Upload resume for better matching",
+      "Set up job alerts for automatic notifications", 
+      "Use mobile app for on-the-go applications",
+      "Review salary estimates for negotiation data"
+    ]
+  },
+
+  "competitive_advantages": {
+    "platform_specific": [
+      "Technical expertise showcased through comprehensive profile",
+      "Quick application process leverages efficiency",
+      "AI matching aligns with technical background"
+    ],
+    "search_strategies": [
+      "Focus on salary transparency for compensation targeting",
+      "Use broad search terms due to limited boolean support",
+      "Leverage mobile optimization for frequent checking"
+    ]
+  },
+
+  "result_structure": {
+    "includes_direct_apply": true,
+    "includes_salary_data": true,
+    "includes_company_info": true,
+    "includes_location_data": true,
+    "supports_easy_apply": true,
+    "provides_application_tracking": true
+  }
+}

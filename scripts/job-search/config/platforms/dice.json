@@ -1,0 +1,166 @@
+{
+  "platform_id": "dice", 
+  "display_name": "Dice",
+  "category": "technology-specialist",
+  "base_url": "https://www.dice.com",
+  "search_endpoint": "/jobs",
+  
+  "url_parameters": {
+    "query": "q",
+    "location": "location",
+    "radius": "radius",
+    "radius_unit": "radiusUnit", 
+    "page": "page",
+    "page_size": "pageSize",
+    "posted_date": "filters.postedDate",
+    "remote_work": "filters.workFromHomeAvailability",
+    "employment_type": "filters.employmentType",
+    "experience_level": "filters.experienceLevel",
+    "salary_min": "filters.annualSalaryMin"
+  },
+
+  "default_values": {
+    "location": "Remote",
+    "radius": "30",
+    "radius_unit": "mi",
+    "page": "1", 
+    "page_size": "20",
+    "posted_date": "ONE",
+    "remote_work": "1"
+  },
+
+  "advanced_filters": {
+    "posted_date": {
+      "last_24_hours": "ONE",
+      "last_3_days": "THREE",
+      "last_7_days": "SEVEN", 
+      "last_14_days": "FOURTEEN"
+    },
+    "employment_types": {
+      "fulltime": "FULLTIME",
+      "contract": "CONTRACTS",
+      "contract_to_hire": "CONTRACT_TO_HIRE",
+      "parttime": "PARTTIME"
+    },
+    "experience_levels": {
+      "entry": "ENTRY_LEVEL",
+      "mid": "MID_LEVEL", 
+      "senior": "SENIOR",
+      "executive": "EXECUTIVE"
+    },
+    "remote_options": {
+      "remote_only": "1",
+      "hybrid": "2",
+      "onsite": "0"
+    }
+  },
+
+  "search_capabilities": {
+    "supports_remote_filter": true,
+    "supports_salary_filter": true,
+    "supports_date_filter": true,
+    "supports_technology_filter": true,
+    "supports_security_clearance": true,
+    "supports_contract_details": true,
+    "max_results_per_page": 20,
+    "requires_authentication": false
+  },
+
+  "specialization": {
+    "category": "technology-specialist",
+    "strengths": [
+      "Deep technology-focused job board",
+      "Comprehensive technical skill filtering",
+      "Contract and permanent position coverage",
+      "Security clearance job specialization",
+      "Detailed technology requirement specifications", 
+      "Direct IT recruiter relationships"
+    ],
+    "ideal_for": [
+      "Technology-specific role targeting",
+      "Contract and consulting opportunities",
+      "Detailed technical requirement matching",
+      "IT consulting and services positions",
+      "Government contractor positions"
+    ],
+    "limitations": [
+      "Limited non-technical role coverage",
+      "Heavy focus on contract positions", 
+      "Recruiter-heavy environment",
+      "Less executive-level positioning"
+    ]
+  },
+
+  "search_term_optimizations": {
+    "technical_focus": true,
+    "quote_exact_phrases": {
+      "AI": "\"Artificial Intelligence\"",
+      "ML": "\"Machine Learning\"", 
+      ".NET": ".NET",
+      "Azure": "\"Microsoft Azure\"",
+      "Enterprise": "\"Enterprise Architecture\""
+    },
+    "skill_combinations": [
+      ".NET AND (AI OR ML OR \"Machine Learning\")",
+      "\"Enterprise Architecture\" AND Azure",
+      "\"Principal Architect\" AND (.NET OR Azure)"
+    ]
+  },
+
+  "execution_instructions": {
+    "manual_steps": [
+      "Visit the generated search URL",
+      "Use advanced technology filters (.NET, AI/ML, Azure, Enterprise Architecture)",
+      "Filter by employment type (Permanent vs Contract) based on preference",
+      "Set experience level to Senior or Executive",
+      "Focus on direct employer postings over recruiter submissions", 
+      "Check for security clearance requirements",
+      "Save job URLs and Dice job IDs"
+    ],
+    "optimization_tips": [
+      "Create detailed Dice profile with technical skills",
+      "Upload resume with technology keywords",
+      "Set up job alerts for specific technology combinations",
+      "Connect with IT recruiters for consulting opportunities"
+    ]
+  },
+
+  "competitive_advantages": {
+    "platform_specific": [
+      "Deep .NET and AI/ML expertise matches platform's technical focus",
+      "Enterprise architecture experience aligns with platform's enterprise clients",
+      "Performance optimization skills address common technical challenges", 
+      "Technical authority (Stack Overflow, NuGet) resonates with audience"
+    ],
+    "search_strategies": [
+      "Use specific technology combinations to reduce competition",
+      "Target permanent positions for career stability",
+      "Focus on direct employer postings over recruiter submissions",
+      "Leverage detailed technical requirements for precise matching"
+    ]
+  },
+
+  "contract_vs_permanent": {
+    "permanent": {
+      "advantages": ["Career stability", "Benefits package", "Long-term growth"],
+      "search_filter": "FULLTIME",
+      "salary_expectations": "$180K+ annual"
+    },
+    "contract": {
+      "advantages": ["Higher hourly rates", "Flexible engagements", "Diverse projects"],
+      "search_filter": "CONTRACTS", 
+      "rate_expectations": "$85+ per hour"
+    }
+  },
+
+  "result_structure": {
+    "includes_direct_apply": true,
+    "includes_salary_data": true,
+    "includes_company_info": true,
+    "includes_location_data": true,
+    "includes_detailed_tech_requirements": true,
+    "includes_contract_details": true,
+    "shows_security_clearance_info": true,
+    "recruiter_heavy": true
+  }
+}
