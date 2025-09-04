@@ -3,92 +3,113 @@ const IndeedStrategy = require('./IndeedStrategy');
 const ZipRecruiterStrategy = require('./ZipRecruiterStrategy');
 const DiceStrategy = require('./DiceStrategy');
 const SpecializedPlatformStrategy = require('./SpecializedPlatformStrategy');
+const ConfigurationLoader = require('../config/ConfigurationLoader');
 
 /**
  * Factory class for creating appropriate search strategy instances
- * Implements the Factory pattern to create platform-specific search strategies
+ * Now uses ConfigurationLoader instead of magic strings
  */
 class PlatformFactory {
-    /**
-     * Create appropriate search strategy based on platform configuration
-     * @param {Object} platformConfig - Platform configuration object
-     * @returns {SearchStrategy} - Concrete search strategy instance
-     */
-    static createStrategy(platformConfig) {
-        if (!platformConfig || !platformConfig.name) {
-            throw new Error('Platform configuration must include a name');
-        }
-
-        const platformName = platformConfig.name.toLowerCase();
-        
-        // Major job boards with dedicated strategy classes
-        if (platformName.includes('linkedin')) {
-            return new LinkedInJobsStrategy(platformConfig);
-        }
-        
-        if (platformName.includes('indeed')) {
-            return new IndeedStrategy(platformConfig);
-        }
-        
-        if (platformName.includes('ziprecruiter')) {
-            return new ZipRecruiterStrategy(platformConfig);
-        }
-        
-        if (platformName.includes('dice')) {
-            return new DiceStrategy(platformConfig);
-        }
-        
-        // Specialized platforms using the generic specialized strategy
-        const specializedPlatforms = {
-            'wellfound': 'startup',
-            'angel': 'startup', // AngelList variations
-            'aijobs': 'ai-ml',
-            'remote.co': 'remote',
-            'toptal': 'contracting',
-            'built in': 'startup',
-            'builtin': 'startup',
-            'glassdoor': 'research', // Company research focus
-            'monster': 'general'
-        };
-        
-        // Check for specialized platform matches
-        for (const [platformKey, focus] of Object.entries(specializedPlatforms)) {
-            if (platformName.includes(platformKey)) {
-                return new SpecializedPlatformStrategy({
-                    ...platformConfig,
-                    focus: focus
-                });
-            }
-        }
-        
-        // Default to specialized platform strategy with general focus
-        return new SpecializedPlatformStrategy({
-            ...platformConfig,
-            focus: 'general'
-        });
+    constructor(configDir = null) {
+        this.configLoader = new ConfigurationLoader(configDir);
     }
 
     /**
-     * Create multiple strategies from configuration array
-     * @param {Array} platformConfigs - Array of platform configurations
-     * @returns {Array} - Array of search strategy instances
+     * Create appropriate search strategy based on platform ID and user config
+     * @param {string} platformId - Platform identifier (e.g., 'linkedin_jobs')
+     * @param {Object} userConfig - User configuration (optional)
+     * @returns {SearchStrategy} - Concrete search strategy instance
      */
-    static createStrategies(platformConfigs) {
-        if (!Array.isArray(platformConfigs)) {
-            throw new Error('Platform configurations must be an array');
+    async createStrategy(platformId, userConfig = null) {
+        const platformConfig = await this.configLoader.getPlatformConfigWithOverrides(platformId, userConfig);
+        
+        return this.createStrategyFromConfig(platformConfig, userConfig);
+    }
+
+    /**
+     * Create strategy from loaded platform configuration
+     * @param {Object} platformConfig - Complete platform configuration
+     * @param {Object} userConfig - User configuration
+     * @returns {SearchStrategy} - Concrete search strategy instance
+     */
+    createStrategyFromConfig(platformConfig, userConfig = null) {
+        if (!platformConfig || !platformConfig.platform_id) {
+            throw new Error('Platform configuration must include platform_id');
         }
 
-        return platformConfigs
-            .filter(config => config && config.enabled !== false)
-            .map(config => {
-                try {
-                    return this.createStrategy(config);
-                } catch (error) {
-                    console.warn(`Failed to create strategy for platform ${config.name}: ${error.message}`);
-                    return null;
+        const platformId = platformConfig.platform_id;
+        
+        // Major job boards with dedicated strategy classes
+        switch (platformId) {
+            case 'linkedin_jobs':
+                return new LinkedInJobsStrategy(platformConfig, userConfig);
+            
+            case 'indeed':
+                return new IndeedStrategy(platformConfig, userConfig);
+            
+            case 'ziprecruiter':
+                return new ZipRecruiterStrategy(platformConfig, userConfig);
+            
+            case 'dice':
+                return new DiceStrategy(platformConfig, userConfig);
+            
+            default:
+                // Use specialized platform strategy for others
+                return new SpecializedPlatformStrategy(platformConfig, userConfig);
+        }
+    }
+
+    /**
+     * Create multiple strategies from platform IDs and user config
+     * @param {Array} platformIds - Array of platform IDs
+     * @param {Object} userConfig - User configuration
+     * @returns {Array} - Array of search strategy instances
+     */
+    async createStrategies(platformIds, userConfig = null) {
+        if (!userConfig) {
+            userConfig = await this.configLoader.loadUserConfig();
+        }
+
+        const strategies = [];
+        for (const platformId of platformIds) {
+            try {
+                const strategy = await this.createStrategy(platformId, userConfig);
+                if (strategy.enabled) {
+                    strategies.push(strategy);
                 }
-            })
-            .filter(strategy => strategy !== null);
+            } catch (error) {
+                console.warn(`Failed to create strategy for platform ${platformId}: ${error.message}`);
+            }
+        }
+
+        return strategies;
+    }
+
+    /**
+     * Create all enabled strategies from configuration
+     * @param {Object} userConfig - User configuration (optional)
+     * @returns {Array} - Array of enabled search strategy instances  
+     */
+    async createAllEnabledStrategies(userConfig = null) {
+        if (!userConfig) {
+            userConfig = await this.configLoader.loadUserConfig();
+        }
+
+        const platformConfigs = await this.configLoader.loadAllPlatformConfigs();
+        const strategies = [];
+
+        for (const platformConfig of platformConfigs) {
+            try {
+                const strategy = this.createStrategyFromConfig(platformConfig, userConfig);
+                if (strategy.enabled) {
+                    strategies.push(strategy);
+                }
+            } catch (error) {
+                console.warn(`Failed to create strategy for platform ${platformConfig.platform_id}: ${error.message}`);
+            }
+        }
+
+        return strategies;
     }
 
     /**

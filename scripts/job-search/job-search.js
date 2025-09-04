@@ -12,11 +12,15 @@ const path = require('path');
 const https = require('https');
 const { URL } = require('url');
 const PlatformFactory = require('./platforms/PlatformFactory');
+const ConfigurationLoader = require('./config/ConfigurationLoader');
 
 class JobSearchManager {
-    constructor(configPath = './job-search-config.json') {
-        this.configPath = configPath;
+    constructor(useNewConfig = true) {
+        this.useNewConfig = useNewConfig;
+        this.configLoader = new ConfigurationLoader(path.join(__dirname, 'config'));
+        this.platformFactory = new PlatformFactory(path.join(__dirname, 'config'));
         this.config = null;
+        this.userConfig = null;
         this.results = {
             platforms: {},
             summary: {
@@ -30,11 +34,20 @@ class JobSearchManager {
 
     async initialize() {
         try {
-            const configData = await fs.readFile(this.configPath, 'utf8');
-            this.config = JSON.parse(configData);
-            this.validateConfiguration();
+            if (this.useNewConfig) {
+                // Use new configuration system
+                const completeConfig = await this.configLoader.loadCompleteConfiguration();
+                this.config = completeConfig;
+                this.userConfig = completeConfig.user;
+                console.log(`✅ Initialized job search with new configuration system`);
+            } else {
+                // Fallback to old config for backwards compatibility
+                const configData = await fs.readFile('./job-search-config.json', 'utf8');
+                this.config = JSON.parse(configData);
+                this.validateConfiguration();
+            }
+            
             await this.ensureDirectoryStructure();
-            console.log(`✅ Initialized job search with config: ${this.configPath}`);
         } catch (error) {
             throw new Error(`Failed to initialize: ${error.message}`);
         }
@@ -50,7 +63,13 @@ class JobSearchManager {
     }
 
     async ensureDirectoryStructure() {
-        const baseDir = this.config.output?.baseDirectory || './SearchResults/Jobs';
+        let baseDir;
+        if (this.useNewConfig) {
+            baseDir = this.userConfig?.output?.baseDirectory || './SearchResults/Jobs';
+        } else {
+            baseDir = this.config.output?.baseDirectory || './SearchResults/Jobs';
+        }
+        
         try {
             await fs.mkdir(path.resolve(baseDir), { recursive: true });
             console.log(`📁 Created output directory: ${baseDir}`);
@@ -64,7 +83,7 @@ class JobSearchManager {
     async executeJobSearch(platformFilter = null) {
         console.log('🚀 Starting comprehensive job search execution...');
         
-        const platforms = this.getAllPlatforms();
+        const platforms = await this.getAllPlatforms();
         
         for (const platformStrategy of platforms) {
             if (platformFilter && platformStrategy.name !== platformFilter) {
@@ -77,55 +96,72 @@ class JobSearchManager {
             }
 
             console.log(`🔍 Processing platform: ${platformStrategy.name}`);
+            console.log(`🔧 Platform is available: ${platformStrategy.isAvailable()}`);
             await this.processPlatform(platformStrategy);
         }
 
-        if (this.config.output?.generateSummary) {
+        const shouldGenerateSummary = this.useNewConfig ? 
+            this.userConfig?.output?.generateSummary : 
+            this.config.output?.generateSummary;
+            
+        if (shouldGenerateSummary) {
             await this.generateComprehensiveSummary();
+        }
+
+        // Check if any results were found
+        if (this.results.summary.totalOpportunities === 0) {
+            throw new Error('No job opportunities found across all platforms. This could indicate connectivity issues, platform changes, or overly restrictive search criteria.');
         }
 
         console.log('✅ Job search execution completed');
         return this.results;
     }
 
-    getAllPlatforms() {
-        const platformConfigs = [];
-        
-        // Major job boards
-        if (this.config.platforms.majorJobBoards) {
-            platformConfigs.push(...this.config.platforms.majorJobBoards.map(p => ({
-                ...p,
-                category: 'major-job-boards'
-            })));
-        }
+    async getAllPlatforms() {
+        if (this.useNewConfig) {
+            // Use new configuration system
+            return await this.platformFactory.createAllEnabledStrategies(this.userConfig);
+        } else {
+            // Fallback to old system
+            const platformConfigs = [];
+            
+            // Major job boards
+            if (this.config.platforms.majorJobBoards) {
+                platformConfigs.push(...this.config.platforms.majorJobBoards.map(p => ({
+                    ...p,
+                    category: 'major-job-boards'
+                })));
+            }
 
-        // Executive recruiters
-        if (this.config.platforms.executiveRecruiters) {
-            platformConfigs.push(...this.config.platforms.executiveRecruiters.map(p => ({
-                ...p,
-                category: 'executive-recruiters'
-            })));
-        }
+            // Executive recruiters
+            if (this.config.platforms.executiveRecruiters) {
+                platformConfigs.push(...this.config.platforms.executiveRecruiters.map(p => ({
+                    ...p,
+                    category: 'executive-recruiters'
+                })));
+            }
 
-        // Specialized platforms
-        if (this.config.platforms.specializedPlatforms) {
-            platformConfigs.push(...this.config.platforms.specializedPlatforms.map(p => ({
-                ...p,
-                category: 'specialized-platforms'
-            })));
-        }
+            // Specialized platforms
+            if (this.config.platforms.specializedPlatforms) {
+                platformConfigs.push(...this.config.platforms.specializedPlatforms.map(p => ({
+                    ...p,
+                    category: 'specialized-platforms'
+                })));
+            }
 
-        // Create strategy instances using the factory
-        return PlatformFactory.createStrategies(platformConfigs);
+            // For backwards compatibility, would need to convert to new format
+            // For now, return empty array to force use of new config
+            return [];
+        }
     }
 
     async processPlatform(platformStrategy) {
         const platformResults = {
             name: platformStrategy.name,
             category: platformStrategy.getSpecialization().category,
-            url: platformStrategy.url,
+            url: platformStrategy.baseUrl,
             searchExecutionDate: new Date().toISOString(),
-            searchTerms: platformStrategy.config.searchTerms || this.buildSearchTerms(),
+            searchTerms: platformStrategy.config?.searchTerms || this.buildSearchTerms(),
             opportunities: [],
             urlValidation: {},
             marketIntelligence: {},
@@ -180,7 +216,8 @@ class JobSearchManager {
                 }
                 
                 // URL validation if enabled and opportunities exist
-                if (this.config.output?.urlValidation && searchResults.opportunities?.length > 0) {
+                const outputConfig = this.useNewConfig ? this.userConfig.output : this.config.output;
+                if (outputConfig?.urlValidation && searchResults.opportunities?.length > 0) {
                     const validationResults = await this.validateUrls(searchResults.opportunities);
                     Object.assign(platformResults.urlValidation, validationResults);
                 }
@@ -211,29 +248,41 @@ class JobSearchManager {
 
     buildSearchQueries(platformStrategy) {
         const queries = [];
+        const searchCriteria = this.useNewConfig ? 
+            this.userConfig.searchCriteria : 
+            this.config.searchCriteria;
         
-        // Build queries based on search criteria
-        for (const roleCategory of this.config.searchCriteria.targetRoles) {
+        // Build simplified queries for better job discovery
+        for (const roleCategory of searchCriteria.targetRoles) {
             for (const title of roleCategory.titles) {
-                let searchTerms = [
-                    `"${title}"`,
-                    ...this.config.searchCriteria.technologies.slice(0, 3),
-                    ...this.config.searchCriteria.workTypes,
-                    '2025'
-                ].join(' ');
-                
-                // Use platform strategy to optimize search terms if available
-                if (typeof platformStrategy.optimizeSearchTerms === 'function') {
-                    searchTerms = platformStrategy.optimizeSearchTerms(searchTerms);
-                }
-                
-                const query = {
+                // Create multiple variations with different focus areas
+                const baseQuery = {
                     platform: platformStrategy.name,
-                    searchTerms: searchTerms,
                     roleCategory: roleCategory.category,
                     targetTitle: title
                 };
-                queries.push(query);
+                
+                // Primary query: just the job title
+                let searchTerms = title;
+                if (typeof platformStrategy.optimizeSearchTerms === 'function') {
+                    searchTerms = platformStrategy.optimizeSearchTerms(searchTerms);
+                }
+                queries.push({
+                    ...baseQuery,
+                    searchTerms: searchTerms
+                });
+                
+                // Secondary query: job title + remote (if not executive roles)
+                if (!title.includes('CTO') && !title.includes('VP') && !title.includes('Director')) {
+                    let remoteSearchTerms = `${title} remote`;
+                    if (typeof platformStrategy.optimizeSearchTerms === 'function') {
+                        remoteSearchTerms = platformStrategy.optimizeSearchTerms(remoteSearchTerms);
+                    }
+                    queries.push({
+                        ...baseQuery,
+                        searchTerms: remoteSearchTerms
+                    });
+                }
             }
         }
 
@@ -242,17 +291,20 @@ class JobSearchManager {
 
     buildSearchTerms() {
         const terms = [];
+        const searchCriteria = this.useNewConfig ? 
+            this.userConfig.searchCriteria : 
+            this.config.searchCriteria;
         
         // Add role titles
-        for (const roleCategory of this.config.searchCriteria.targetRoles) {
+        for (const roleCategory of searchCriteria.targetRoles) {
             terms.push(...roleCategory.titles);
         }
         
         // Add key technologies
-        terms.push(...this.config.searchCriteria.technologies.slice(0, 5));
+        terms.push(...searchCriteria.technologies.slice(0, 5));
         
         // Add work preferences
-        terms.push(...this.config.searchCriteria.workTypes);
+        terms.push(...searchCriteria.workTypes);
         
         return terms;
     }
@@ -265,18 +317,15 @@ class JobSearchManager {
             const searchUrl = platformStrategy.buildSearchUrl(query.searchTerms);
             console.log(`    🌐 Search URL: ${searchUrl}`);
             
-            // Get platform-specific execution instructions
-            const executionNote = platformStrategy.getExecutionInstructions(searchUrl);
+            // Make actual HTTP request to fetch job results
+            const jobResults = await this.fetchJobResults(searchUrl, platformStrategy);
             
-            // Note: In real implementation, this would use WebSearch API or web scraping
-            // For now, return structured placeholder that indicates real search is needed
             const searchResults = {
                 searchUrl: searchUrl,
                 platform: platformStrategy.name,
                 query: query.searchTerms,
-                executionNote: executionNote,
-                opportunities: [], // Would be populated by actual web search
-                needsManualExecution: true,
+                opportunities: jobResults,
+                needsManualExecution: false,
                 platformSpecificData: {
                     specialization: platformStrategy.getSpecialization(),
                     searchParameters: platformStrategy.getSearchParameters(),
@@ -284,6 +333,7 @@ class JobSearchManager {
                 }
             };
             
+            console.log(`    ✅ Found ${jobResults.length} opportunities`);
             return searchResults;
             
         } catch (error) {
@@ -295,6 +345,159 @@ class JobSearchManager {
                 error: error.message
             };
         }
+    }
+
+    async fetchJobResults(searchUrl, platformStrategy) {
+        return new Promise((resolve, reject) => {
+            const url = new URL(searchUrl);
+            const options = {
+                hostname: url.hostname,
+                port: url.port || 443,
+                path: url.pathname + url.search,
+                method: 'GET',
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Accept-Encoding': 'gzip, deflate',
+                    'Connection': 'keep-alive',
+                    'Upgrade-Insecure-Requests': '1'
+                }
+            };
+
+            const req = https.request(options, (res) => {
+                console.log(`    📡 HTTP ${res.statusCode} response from ${platformStrategy.name}`);
+                let data = '';
+                
+                res.on('data', (chunk) => {
+                    data += chunk;
+                });
+                
+                res.on('end', () => {
+                    console.log(`    📄 Received ${data.length} bytes of HTML data`);
+                    
+                    // Save raw HTML response for debugging
+                    const fs = require('fs');
+                    const path = require('path');
+                    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+                    const filename = `raw-response-${platformStrategy.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${timestamp}.html`;
+                    const filepath = path.join('../../SearchResults/Jobs', filename);
+                    
+                    try {
+                        fs.writeFileSync(filepath, data, 'utf8');
+                        console.log(`    💾 Saved raw HTML response to: ${filepath}`);
+                    } catch (writeError) {
+                        console.error(`    ⚠️  Could not save raw response: ${writeError.message}`);
+                    }
+                    
+                    try {
+                        // Parse HTML response to extract job opportunities
+                        const opportunities = this.parseJobResults(data, platformStrategy);
+                        console.log(`    🎯 Parsed ${opportunities.length} opportunities from HTML`);
+                        resolve(opportunities);
+                    } catch (parseError) {
+                        console.error(`    ⚠️  Parse error for ${platformStrategy.name}: ${parseError.message}`);
+                        resolve([]); // Return empty array instead of rejecting
+                    }
+                });
+            });
+
+            req.on('error', (error) => {
+                console.error(`    ⚠️  Request error for ${platformStrategy.name}: ${error.message}`);
+                resolve([]); // Return empty array instead of rejecting
+            });
+
+            req.setTimeout(10000, () => {
+                req.destroy();
+                console.error(`    ⚠️  Request timeout for ${platformStrategy.name}`);
+                resolve([]); // Return empty array instead of rejecting
+            });
+
+            req.end();
+        });
+    }
+
+    parseJobResults(htmlData, platformStrategy) {
+        // Basic HTML parsing to extract job postings
+        // This is a simplified parser - in production would use a proper HTML parser
+        const opportunities = [];
+        
+        try {
+            // Look for job postings in HTML - updated for current LinkedIn structure
+            const jobPatterns = [
+                // LinkedIn job titles with various patterns
+                /([^<\n]+(?:Engineer|Architect|Developer|Consultant|Manager|Director|CTO|VP|Lead|Principal|Senior|Staff|Analyst|Specialist))\s*(?:<[^>]*>)*\s*with verification/gi,
+                /([^<\n]+(?:Engineer|Architect|Developer|Consultant|Manager|Director|CTO|VP|Lead|Principal|Senior|Staff|Analyst|Specialist))[^<\n]*/gi,
+                // Generic job title patterns
+                /((?:Senior|Principal|Staff|Lead|Chief)\s+[^<\n]+)/gi
+            ];
+
+            for (const pattern of jobPatterns) {
+                let match;
+                while ((match = pattern.exec(htmlData)) !== null && opportunities.length < 20) {
+                    const title = match[1]?.replace(/<[^>]*>/g, '').trim();
+                    
+                    if (title && title.length > 5 && 
+                        !title.toLowerCase().includes('search') &&
+                        !title.toLowerCase().includes('logo') &&
+                        !title.toLowerCase().includes('benefits') &&
+                        !opportunities.some(opp => opp.title === title)) {
+                        
+                        // Generate a placeholder URL - in a real implementation we'd extract the actual URL
+                        const encodedTitle = encodeURIComponent(title);
+                        const searchUrl = `https://www.linkedin.com/jobs/search/?keywords=${encodedTitle}`;
+                        
+                        opportunities.push({
+                            id: `${platformStrategy.name}-${opportunities.length + 1}`,
+                            title: title,
+                            url: searchUrl,
+                            platform: platformStrategy.name,
+                            dateFound: new Date().toISOString(),
+                            fitScore: this.calculateFitScore(title),
+                            source: 'parsed'
+                        });
+                    }
+                }
+            }
+
+            // If no jobs found with patterns, look for any links that might be jobs
+            if (opportunities.length === 0) {
+                const linkPattern = /<a[^>]*href="([^"]+)"[^>]*>([^<]+)<\/a>/gi;
+                let match;
+                while ((match = linkPattern.exec(htmlData)) !== null && opportunities.length < 5) {
+                    const url = match[1];
+                    const text = match[2]?.replace(/<[^>]*>/g, '').trim();
+                    
+                    if (text && url && 
+                        (text.toLowerCase().includes('architect') || 
+                         text.toLowerCase().includes('engineer') ||
+                         text.toLowerCase().includes('developer') ||
+                         text.toLowerCase().includes('cto'))) {
+                        opportunities.push({
+                            id: `${platformStrategy.name}-${opportunities.length + 1}`,
+                            title: text,
+                            url: url.startsWith('http') ? url : `https://${platformStrategy.name.toLowerCase()}.com${url}`,
+                            platform: platformStrategy.name,
+                            dateFound: new Date().toISOString(),
+                            fitScore: this.calculateFitScore(text)
+                        });
+                    }
+                }
+            }
+
+        } catch (error) {
+            console.error(`    ⚠️  HTML parsing error: ${error.message}`);
+        }
+
+        return opportunities;
+    }
+
+    calculateFitScore(title) {
+        const keywords = ['architect', 'principal', 'senior', 'cto', 'vp', 'director', 'lead', 'fractional'];
+        const score = keywords.reduce((acc, keyword) => {
+            return acc + (title.toLowerCase().includes(keyword) ? 1 : 0);
+        }, 0);
+        return Math.min(10, Math.max(1, score * 1.5));
     }
 
     async validateUrls(opportunities) {
@@ -365,9 +568,13 @@ class JobSearchManager {
     }
 
     applyExclusions(opportunities) {
+        const exclusions = this.useNewConfig ? 
+            this.userConfig.exclusions : 
+            this.config.exclusions;
+            
         return opportunities.filter(opportunity => {
             // Check company exclusions
-            if (this.config.exclusions.companies?.includes(opportunity.company)) {
+            if (exclusions.companies?.includes(opportunity.company)) {
                 console.log(`    🚫 Excluded company: ${opportunity.company}`);
                 return false;
             }
@@ -425,12 +632,13 @@ class JobSearchManager {
         }
         
         // Adjust for remote work support
-        if (searchParams.supportsRemoteFilter && this.config.userProfile.location.preferredWork === 'remote') {
+        const userProfile = this.useNewConfig ? this.userConfig.userProfile : this.config.userProfile;
+        if (searchParams.supportsRemoteFilter && userProfile.location.preferredWork === 'remote') {
             workStyleMatch += 1.0;
         }
         
         // Adjust for salary filtering
-        if (searchParams.supportsSalaryFilter && this.config.userProfile.preferences.minSalary >= 180000) {
+        if (searchParams.supportsSalaryFilter && userProfile.preferences.minSalary >= 180000) {
             compensationAlignment += 0.5;
         }
         
@@ -546,7 +754,8 @@ class JobSearchManager {
     }
 
     async savePlatformResults(platformName, results) {
-        const baseDir = this.config.output?.baseDirectory || './SearchResults/Jobs';
+        const outputConfig = this.useNewConfig ? this.userConfig.output : this.config.output;
+        const baseDir = outputConfig?.baseDirectory || './SearchResults/Jobs';
         const filename = `${platformName.toLowerCase().replace(/[^a-z0-9]/g, '-')}.yml`;
         const filepath = path.join(baseDir, filename);
         
@@ -886,16 +1095,26 @@ async function main() {
     const dryRun = args.includes('--dry-run');
 
     try {
-        const jobSearch = new JobSearchManager(configPath);
+        const jobSearch = new JobSearchManager(true); // Use new config system
         await jobSearch.initialize();
         
         if (dryRun) {
             console.log('🧪 Dry run mode - configuration validated successfully');
             console.log('Configuration summary:');
-            console.log(`- User: ${jobSearch.config.userProfile.name}`);
-            console.log(`- Target roles: ${jobSearch.config.searchCriteria.targetRoles.length} categories`);
-            console.log(`- Platforms: ${jobSearch.getAllPlatforms().length} configured`);
-            console.log(`- Output directory: ${jobSearch.config.output?.baseDirectory || './SearchResults/Jobs'}`);
+            
+            if (jobSearch.useNewConfig) {
+                console.log(`- User: ${jobSearch.userConfig.userProfile.name}`);
+                console.log(`- Target roles: ${jobSearch.userConfig.searchCriteria.targetRoles.length} categories`);
+                const platforms = await jobSearch.getAllPlatforms();
+                console.log(`- Platforms: ${platforms.length} configured`);
+                console.log(`- Output directory: ${jobSearch.userConfig.output?.baseDirectory || './SearchResults/Jobs'}`);
+            } else {
+                console.log(`- User: ${jobSearch.config.userProfile.name}`);
+                console.log(`- Target roles: ${jobSearch.config.searchCriteria.targetRoles.length} categories`);
+                const platforms = await jobSearch.getAllPlatforms();
+                console.log(`- Platforms: ${platforms.length} configured`);
+                console.log(`- Output directory: ${jobSearch.config.output?.baseDirectory || './SearchResults/Jobs'}`);
+            }
             return;
         }
         

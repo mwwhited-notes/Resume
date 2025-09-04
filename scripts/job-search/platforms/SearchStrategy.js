@@ -1,16 +1,37 @@
 /**
  * Abstract base class for platform search strategies
  * Defines the interface that all platform-specific search implementations must follow
+ * Now uses configuration files instead of magic strings
  */
 class SearchStrategy {
-    constructor(platformConfig) {
+    constructor(platformConfig, userConfig = null) {
         if (this.constructor === SearchStrategy) {
             throw new Error('SearchStrategy is abstract and cannot be instantiated directly');
         }
-        this.config = platformConfig;
-        this.name = platformConfig.name;
-        this.url = platformConfig.url;
-        this.enabled = platformConfig.enabled !== false;
+        
+        // Platform-specific configuration loaded from config files
+        this.platformConfig = platformConfig;
+        this.userConfig = userConfig;
+        
+        // Extract commonly used properties
+        this.platformId = platformConfig.platform_id;
+        this.name = platformConfig.display_name;
+        this.baseUrl = platformConfig.base_url;
+        this.searchEndpoint = platformConfig.search_endpoint;
+        this.category = platformConfig.category;
+        this.enabled = platformConfig.metadata?.enabled !== false;
+        
+        // Configuration sections
+        this.urlParams = platformConfig.url_parameters || {};
+        this.defaultValues = platformConfig.default_values || {};
+        this.advancedFilters = platformConfig.advanced_filters || {};
+        this.searchCapabilities = platformConfig.search_capabilities || {};
+        this.specializationConfig = platformConfig.specialization || {};
+        this.searchOptimizations = platformConfig.search_term_optimizations || {};
+        this.competitiveAdvantagesConfig = platformConfig.competitive_advantages || {};
+        
+        // User overrides if provided
+        this.userOverrides = userConfig?.platformPreferences?.platformSpecificSettings?.[this.platformId] || {};
     }
 
     /**
@@ -24,23 +45,16 @@ class SearchStrategy {
     }
 
     /**
-     * Get platform-specific search parameters
-     * Can be overridden by concrete classes for custom behavior
+     * Get platform-specific search parameters from configuration
      * @returns {Object} - Platform-specific search configuration
      */
     getSearchParameters() {
-        return {
-            supportsRemoteFilter: true,
-            supportsSalaryFilter: false,
-            supportsDateFilter: false,
-            defaultRadius: 25,
-            maxResultsPerPage: 20
-        };
+        return this.searchCapabilities;
     }
 
     /**
      * Validate search terms for platform compatibility
-     * Can be overridden for platform-specific validation
+     * Uses configuration-defined limits and rules
      * @param {string} searchTerms - Search terms to validate
      * @returns {boolean} - Whether terms are valid for this platform
      */
@@ -48,41 +62,52 @@ class SearchStrategy {
         if (!searchTerms || searchTerms.trim().length === 0) {
             return false;
         }
-        // Basic validation - most platforms support standard terms
-        return searchTerms.length <= 500; // Reasonable URL length limit
+        
+        const maxLength = this.searchCapabilities.max_search_length || 500;
+        return searchTerms.length <= maxLength;
     }
 
     /**
-     * Get platform-specific specializations and focus areas
-     * Override in concrete classes to specify platform strengths
+     * Get platform-specific specializations from configuration
      * @returns {Object} - Platform specialization information
      */
     getSpecialization() {
-        return {
-            category: 'general',
-            strengths: ['general job search'],
-            idealFor: ['broad market coverage'],
-            limitations: []
-        };
+        return this.specializationConfig;
     }
 
     /**
-     * Generate execution instructions for manual search
-     * Override in concrete classes for platform-specific guidance
+     * Generate execution instructions for manual search from configuration
      * @param {string} searchUrl - Generated search URL
      * @returns {string} - Human-readable execution instructions
      */
     getExecutionInstructions(searchUrl) {
-        return `Visit ${searchUrl} to execute search on ${this.name}`;
+        const instructions = this.platformConfig.execution_instructions;
+        if (!instructions) {
+            return `Visit ${searchUrl} to execute search on ${this.name}`;
+        }
+        
+        const steps = instructions.manual_steps || [];
+        const tips = instructions.optimization_tips || [];
+        
+        let instructionText = `MANUAL SEARCH REQUIRED: Visit ${searchUrl} to execute search on ${this.name}.`;
+
+        if (steps.length > 0) {
+            instructionText += ` Steps: ${steps.join(', ')}.`;
+        }
+        
+        if (tips.length > 0) {
+            instructionText += ` Tips: ${tips.join(', ')}.`;
+        }
+        
+        return instructionText;
     }
 
     /**
-     * Get expected result structure for this platform
-     * Override in concrete classes to specify platform-specific data structure
+     * Get expected result structure from configuration
      * @returns {Object} - Expected result metadata
      */
     getExpectedResultStructure() {
-        return {
+        return this.platformConfig.result_structure || {
             hasDirectApply: false,
             includesSalaryData: false,
             includesCompanyInfo: true,
@@ -96,7 +121,7 @@ class SearchStrategy {
      * @returns {boolean} - Platform availability status
      */
     isAvailable() {
-        return this.enabled && this.url && this.name;
+        return this.enabled && this.baseUrl && this.name;
     }
 
     /**
@@ -106,7 +131,7 @@ class SearchStrategy {
     getMetadata() {
         return {
             name: this.name,
-            url: this.url,
+            url: this.baseUrl,
             enabled: this.enabled,
             category: this.getSpecialization().category,
             specialization: this.getSpecialization(),

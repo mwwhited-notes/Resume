@@ -2,187 +2,95 @@ const SearchStrategy = require('./SearchStrategy');
 
 /**
  * LinkedIn Jobs search strategy implementation
- * Specializes in professional network-based job searching with advanced filtering
+ * Uses configuration files instead of magic strings
  */
 class LinkedInJobsStrategy extends SearchStrategy {
-    constructor(platformConfig) {
-        super(platformConfig);
+    constructor(platformConfig, userConfig = null) {
+        super(platformConfig, userConfig);
     }
 
     buildSearchUrl(searchTerms) {
         const encodedTerms = encodeURIComponent(searchTerms);
-        // LinkedIn Jobs specific URL structure with remote work filter (f_WT=2)
-        return `https://www.linkedin.com/jobs/search/?keywords=${encodedTerms}&location=Remote&f_WT=2&sortBy=DD`;
-    }
-
-    getSearchParameters() {
-        return {
-            supportsRemoteFilter: true,
-            supportsSalaryFilter: true,
-            supportsDateFilter: true,
-            supportsExperienceLevel: true,
-            supportsCompanySize: true,
-            defaultRadius: 25,
-            maxResultsPerPage: 25,
-            sortOptions: ['date', 'relevance'],
-            advancedFilters: [
-                'experience_level',
-                'company_size', 
-                'job_type',
-                'industry',
-                'salary_range'
-            ]
-        };
-    }
-
-    getSpecialization() {
-        return {
-            category: 'professional-network',
-            strengths: [
-                'Professional networking integration',
-                'Company insights and employee connections',
-                'Advanced filtering options',
-                'Salary transparency',
-                'Direct recruiter contact',
-                'Company culture information'
-            ],
-            idealFor: [
-                'Senior and executive positions',
-                'Professional services roles',
-                'Enterprise companies',
-                'Network-based referrals',
-                'Company research and due diligence'
-            ],
-            limitations: [
-                'Requires LinkedIn profile optimization',
-                'Premium features may require subscription',
-                'High competition for visible positions'
-            ]
-        };
-    }
-
-    getExecutionInstructions(searchUrl) {
-        return `MANUAL SEARCH REQUIRED: Visit ${searchUrl} to execute search on LinkedIn Jobs. ` +
-               `Use advanced filters for experience level (Senior/Executive), company size, and salary range. ` +
-               `Review company profiles and employee networks for referral opportunities.`;
-    }
-
-    getExpectedResultStructure() {
-        return {
-            hasDirectApply: true,
-            includesSalaryData: true,
-            includesCompanyInfo: true,
-            includesLocationData: true,
-            includesEmployeeCount: true,
-            includesCompanyInsights: true,
-            requiresRegistration: true,
-            supportsEasyApply: true,
-            providesNetworkConnections: true,
-            showsApplicationCount: true
-        };
+        const params = new URLSearchParams();
+        
+        // Use configured parameter names
+        params.set(this.urlParams.keywords, encodedTerms);
+        params.set(this.urlParams.location, this.defaultValues.location);
+        params.set(this.urlParams.remote_filter, this.defaultValues.remote_filter);
+        params.set(this.urlParams.sort, this.defaultValues.sort);
+        
+        // Apply user overrides if available
+        if (this.userOverrides.preferredExperienceLevel) {
+            const expLevel = this.advancedFilters.experience_levels[this.userOverrides.preferredExperienceLevel];
+            if (expLevel) {
+                params.set(this.urlParams.experience_level, expLevel);
+            }
+        }
+        
+        if (this.userOverrides.preferredCompanySize) {
+            const companySize = this.advancedFilters.company_sizes[this.userOverrides.preferredCompanySize];
+            if (companySize) {
+                params.set(this.urlParams.company_size, companySize);
+            }
+        }
+        
+        return `${this.baseUrl}${this.searchEndpoint}?${params.toString()}`;
     }
 
     /**
-     * LinkedIn-specific search term optimization
+     * LinkedIn-specific search term optimization using configuration
      * @param {string} searchTerms - Original search terms
      * @returns {string} - Optimized search terms for LinkedIn
      */
     optimizeSearchTerms(searchTerms) {
-        // LinkedIn performs better with quoted exact phrases and boolean operators
-        const terms = searchTerms.split(' ');
-        const optimized = [];
-        
-        // Group related terms
-        const jobTitles = ['CTO', 'Principal', 'Architect', 'VP', 'Director', 'Staff', 'Senior'];
-        const technologies = ['AI', 'ML', '.NET', 'Azure', 'Enterprise'];
-        
-        // Add job title phrases in quotes
-        const titleTerms = terms.filter(term => 
-            jobTitles.some(title => term.toLowerCase().includes(title.toLowerCase()))
-        );
-        if (titleTerms.length > 1) {
-            optimized.push(`"${titleTerms.join(' ')}"`);
-        } else {
-            optimized.push(...titleTerms);
+        if (!this.searchOptimizations.technology_terms?.expand_abbreviations) {
+            return searchTerms;
         }
         
-        // Add technology terms
-        const techTerms = terms.filter(term => 
-            technologies.some(tech => term.toLowerCase().includes(tech.toLowerCase()))
-        );
-        optimized.push(...techTerms);
+        let optimized = searchTerms;
+        const expansions = this.searchOptimizations.technology_terms.expand_abbreviations;
         
-        // Add remaining terms
-        const remainingTerms = terms.filter(term => 
-            !titleTerms.includes(term) && !techTerms.includes(term)
-        );
-        optimized.push(...remainingTerms);
+        // Apply configured abbreviation expansions
+        for (const [abbrev, expansion] of Object.entries(expansions)) {
+            const regex = new RegExp(`\\b${abbrev}\\b`, 'gi');
+            optimized = optimized.replace(regex, expansion);
+        }
         
-        return optimized.join(' ');
+        return optimized;
     }
 
     buildAdvancedSearchUrl(searchTerms, filters = {}) {
         const baseUrl = this.buildSearchUrl(searchTerms);
-        const params = new URLSearchParams(baseUrl.split('?')[1]);
+        const url = new URL(baseUrl);
         
-        // Add advanced filters
+        // Add advanced filters using configuration
         if (filters.experienceLevel) {
-            // 2=Associate, 3=Mid-Senior, 4=Director, 5=Executive
-            const expLevels = {
-                'senior': '3,4',
-                'executive': '4,5',
-                'principal': '3,4'
-            };
-            if (expLevels[filters.experienceLevel.toLowerCase()]) {
-                params.set('f_E', expLevels[filters.experienceLevel.toLowerCase()]);
+            const expLevel = this.advancedFilters.experience_levels[filters.experienceLevel.toLowerCase()];
+            if (expLevel) {
+                url.searchParams.set(this.urlParams.experience_level, expLevel);
             }
         }
         
         if (filters.salaryMin) {
-            // LinkedIn salary filter format
-            params.set('f_SB2', filters.salaryMin.toString());
+            url.searchParams.set(this.urlParams.salary_min, filters.salaryMin.toString());
         }
         
         if (filters.companySize) {
-            // A=1-10, B=11-50, C=51-200, D=201-500, E=501-1000, F=1001-5000, G=5001-10000, H=10001+
-            const sizeMap = {
-                'startup': 'A,B,C',
-                'medium': 'D,E',
-                'large': 'F,G,H',
-                'enterprise': 'G,H'
-            };
-            if (sizeMap[filters.companySize.toLowerCase()]) {
-                params.set('f_C', sizeMap[filters.companySize.toLowerCase()]);
+            const companySize = this.advancedFilters.company_sizes[filters.companySize.toLowerCase()];
+            if (companySize) {
+                url.searchParams.set(this.urlParams.company_size, companySize);
             }
         }
         
-        return `${baseUrl.split('?')[0]}?${params.toString()}`;
+        return url.toString();
     }
 
     /**
-     * Get LinkedIn-specific competitive advantages analysis
+     * Get LinkedIn-specific competitive advantages from configuration
      * @returns {Object} - Platform-specific advantages
      */
     getCompetitiveAdvantages() {
-        return {
-            networkEffects: [
-                '22K+ Stack Overflow reputation provides technical credibility',
-                '657K+ NuGet downloads demonstrate community impact',
-                'Professional network can provide referrals and introductions'
-            ],
-            platformSpecific: [
-                'LinkedIn profile optimization showcases technical leadership',
-                'Company employee connections enable warm introductions',
-                'Technical content sharing demonstrates thought leadership',
-                'Recruiter InMail provides direct access to hiring managers'
-            ],
-            searchStrategy: [
-                'Use boolean search operators for precise targeting',
-                'Filter by company size and industry for culture fit',
-                'Leverage salary transparency for negotiation data',
-                'Monitor company updates for timing opportunities'
-            ]
-        };
+        return this.competitiveAdvantagesConfig;
     }
 }
 
