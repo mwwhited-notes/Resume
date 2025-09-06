@@ -381,16 +381,15 @@ class JobSearchManager {
                     const path = require('path');
                     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
 
-                    //TODO: 
-                    // const filename = `raw-response-${platformStrategy.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${timestamp}.html`;
-                    // const filepath = path.join('../../SearchResults/Jobs', filename);
+                    const filename = `raw-response-${platformStrategy.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${timestamp}.html`;
+                    const filepath = path.join('../../SearchResults/Jobs', filename);
                     
-                    // try {
-                    //     fs.writeFileSync(filepath, data, 'utf8');
-                    //     console.log(`    💾 Saved raw HTML response to: ${filepath}`);
-                    // } catch (writeError) {
-                    //     console.error(`    ⚠️  Could not save raw response: ${writeError.message}`);
-                    // }
+                    try {
+                        fs.writeFileSync(filepath, data, 'utf8');
+                        console.log(`    💾 Saved raw HTML response to: ${filepath}`);
+                    } catch (writeError) {
+                        console.error(`    ⚠️  Could not save raw response: ${writeError.message}`);
+                    }
                     
                     try {
                         // Parse HTML response to extract job opportunities
@@ -757,7 +756,7 @@ class JobSearchManager {
 
     async savePlatformResults(platformName, results) {
         const outputConfig = this.useNewConfig ? this.userConfig.output : this.config.output;
-        const baseDir = outputConfig?.baseDirectory || './SearchResults/Jobs';
+        const baseDir = outputConfig?.baseDirectory || '../../SearchResults/Jobs';
         const filename = `${platformName.toLowerCase().replace(/[^a-z0-9]/g, '-')}.yml`;
         const filepath = path.join(baseDir, filename);
         
