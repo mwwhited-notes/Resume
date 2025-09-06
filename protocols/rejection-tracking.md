@@ -33,19 +33,19 @@ This protocol is triggered when:
 grep -n "Company Name" ./SearchResults/applied-to.md
 ```
 
-#### 2.2 Update Application Status
+#### 2.2 Archive Application as Rejected
+Applications are now moved to `./SearchResults/closed-archive.md` when rejected:
+
 If company found in applied-to.md:
-- Change Status column from "Applied" to "Rejected"
-- Add rejection date to Notes column: "Rejected MM/DD"
-- Update summary counts at top of file:
-  - Decrease "Active Applications" count by 1
-  - Increase "Rejected/Closed" count by 1
-  - Update "Last Updated" date
+- **Remove entry** from applied-to.md
+- **Add entry** to closed-archive.md under "Rejected Applications" section
+- **Update counts** in both files (decrease active, increase rejected)
+- **No strikethrough formatting** (separate archive file)
 
 If company NOT found in applied-to.md:
-- Add new entry to appropriate date section
-- Set Status as "Rejected"
-- Include all available information
+- Add new entry directly to closed-archive.md
+- Mark as "Rejected" with all available information
+- Update archive counts only
 
 #### 2.3 Update File Header
 ```markdown
@@ -62,21 +62,18 @@ If company NOT found in applied-to.md:
 grep -n "Company Name" ./SearchResults/apply-next.md
 ```
 
-#### 3.2 Update Job Status
+#### 3.2 Update Job Status (if apply-next.md is used)
+**Note:** With the new archive system, apply-next.md updates are optional since primary tracking is in applied-to.md and closed-archive.md
+
 If company found in apply-next.md:
-- Add strikethrough to company name: `~~Company Name~~`
-- Add strikethrough to position: `~~Position Title~~`
 - Change Status to: `❌ REJECTED - MM/DD`
 - Update Notes with rejection details
+- **No strikethrough formatting** (clean status update)
 - Keep application materials links intact for reference
 
-Example transformation:
+Example:
 ```markdown
-# Before:
-| 43 | [URL] | Company | Position | 8.5/10 | ✅ APPLIED | Materials | Notes |
-
-# After:
-| 43 | [URL] | ~~Company~~ | ~~Position~~ | 8.5/10 | ❌ REJECTED - 8/23 | Materials | Rejected without interview |
+| 43 | [URL] | Company | Position | 8.5/10 | ❌ REJECTED - 8/23 | Materials | Rejected without interview |
 ```
 
 #### 3.3 Update Summary Section
