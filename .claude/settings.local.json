@@ -124,7 +124,8 @@
       "WebFetch(domain:www.crunchbase.com)",
       "WebFetch(domain:www.cadwell.com)",
       "WebFetch(domain:www.cadwell.com)",
-      "Bash(timeout:*)"
+      "Bash(timeout:*)",
+      "WebFetch(domain:ralliant.eightfold.ai)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
