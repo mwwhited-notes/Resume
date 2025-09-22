@@ -126,7 +126,9 @@
       "WebFetch(domain:www.cadwell.com)",
       "Bash(timeout:*)",
       "WebFetch(domain:ralliant.eightfold.ai)",
-      "WebFetch(domain:www.cybercoders.com)"
+      "WebFetch(domain:www.cybercoders.com)",
+      "Bash(awk:*)",
+      "Bash(sort:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
