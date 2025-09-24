@@ -603,6 +603,33 @@ When jobs are added to apply-next.md with status "⭐ High Priority" or "🎯 To
 - **Reapplication Logic:** Note companies applied to >6 months ago as potential reapplication candidates
 - **Status Synchronization:** Keep apply-next.md and applied-to.md synchronized
 
+### Step 9: Rejection Notification Handling
+**EFFICIENCY PROTOCOL:** Handle rejection notifications without unnecessary file updates
+
+#### Rejection Processing Workflow
+1. **Initial Status Check:**
+   ```bash
+   # Search closed archive for company and position
+   grep -i "company_name.*position_title" ./SearchResults/closed-archive.md
+   ```
+
+2. **Action Decision Tree:**
+   - **Already Rejected → NO ACTION:** If position shows "Rejected" status, ignore duplicate notification
+   - **Status is "Withdrawn" → UPDATE:** Change status from "Withdrawn" to "Rejected" with date
+   - **Not in Archive → MOVE:** Check applied-to.md and move to closed-archive.md
+
+3. **Duplicate Rejection Prevention:**
+   - Companies send multiple rejection emails (automated + recruiter + system updates)
+   - Only process first rejection notification
+   - Subsequent rejections for same position require no action
+   - Maintains clean tracking without redundant updates
+
+#### Common Duplicate Scenarios
+- **ATS Auto-Rejection** followed by recruiter courtesy email
+- **Position filled notification** after initial rejection
+- **Quarterly cleanup emails** for old applications
+- **Multiple system notifications** from same company
+
 ## Success Metrics
 
 ### Quantitative Measures

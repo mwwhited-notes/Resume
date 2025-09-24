@@ -407,7 +407,28 @@ For each resume and cover letter pair:
 [Tracking approach for application success]
 ```
 
-### Phase 8: Execution Summary
+### Phase 8: Rejection Handling Protocol
+
+#### Step 8.1: Process Rejection Notifications
+**When receiving rejection emails or notifications:**
+
+1. **Check Existing Status First:**
+   ```bash
+   # Search for the company and position in closed archive
+   grep -i "company_name.*position_title" ./SearchResults/closed-archive.md
+   ```
+
+2. **Duplicate Rejection Handling:**
+   - **If Already Rejected:** Ignore the duplicate rejection notification completely - no action needed
+   - **If Status is "Withdrawn":** Update to "Rejected" with current date
+   - **If Not Found:** Check applied-to.md and move to closed-archive.md with rejection status
+
+3. **No Action Required for Duplicates:**
+   - Companies often send multiple rejection emails (automated systems, recruiter follow-ups)
+   - If position already shows as "Rejected" in closed-archive.md, take no action
+   - Prevents unnecessary file updates and maintains clean tracking
+
+### Phase 9: Execution Summary
 
 #### Step 8.1: Output Verification
 Ensure all files created:
