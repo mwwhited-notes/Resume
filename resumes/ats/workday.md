@@ -55,6 +55,14 @@ Principal Solutions Architect with over 20 years of experience bridging hardware
 
 ## Professional Experience
 
+### Principal Software Engineer/Architect
+**Cadwell Industries | October 2025 - Present**
+
+- Developing backend communication and synchronization software for Cadwell/Cadlink medical devices
+- Implementing healthcare technology architecture with FDA compliance considerations
+- Collaborating with hardware engineers and clinical specialists for integrated medical solutions
+- Applying advanced software architecture principles to improve diagnostic accuracy
+
 ### Principal Solutions Architect
 **Green Onion (Life Time Foundation), Eliassen Group | February 2025 - Present**
 
@@ -101,7 +109,7 @@ Principal Solutions Architect with over 20 years of experience bridging hardware
 - Database Deployment Integration: Direct dacpac generation and deployment from Entity Framework Core
 
 ### Chief Solutions Architect
-**Out-of-Band Development, LLC | March 2015 - Present**
+**Out-of-Band Development, LLC | March 2015 - October 2025**
 
 - Designed and implemented Vector Search and Indexing capabilities for Microsoft SQL Server
 - Developed custom SQLCLR implementations for database enhancement and performance optimization

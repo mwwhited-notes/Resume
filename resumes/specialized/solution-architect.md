@@ -74,7 +74,7 @@
 - **Solution Crisis Resolution:** Served as organizational solution expert resolving critical challenges spanning deployment failures, integration complications, and complex cross-domain solution challenges
 - **Solution Process Innovation:** Created enterprise solution methodology with feedback loops, improving delivery quality while maintaining efficient timeframes
 
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Custom solution consulting and technical innovation**
 
 - **Solution Innovation Leadership:** Pioneered Vector Search and Indexing solutions for Microsoft SQL Server using custom SQLCLR implementations, creating industry-first database enhancement solutions

@@ -2,8 +2,10 @@
 
 ## Current Professional Context
 - **User:** Matthew Whited
-- **Professional Identity:** Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist
-- **Current Position:** Green Onion (February 2025 - Present)
+- **Professional Identity:** Principal Software Engineer/Architect, Fractional CTO & Crisis Resolution Specialist
+- **Current Position:** Principal Software Engineer/Architect - Cadwell Industries (October 6, 2025 - Present)
+- **Active Contracts:** Green Onion (February 2025 - Present)
+- **Previous Consulting:** Out-of-Band Development, LLC (March 2015 - October 2025)
 - **Address:** 1221 N Calvert St, Baltimore, MD 21202 (Charles Village/Midtown)
 - **Location:** /current/src
 
@@ -80,13 +82,15 @@
 - **Documentation:** Track all changes in daily change history files
 
 ## Current Professional Identity
-Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with validated technical authority. Crisis resolution positioning demonstrates ability to rescue failing projects (77% cost reduction, 1-week delivery after 12-month failures). Self-taught programming excellence with anti-hype philosophy based on decades of pattern recognition.
+Principal Software Engineer/Architect at Cadwell Industries specializing in medical device software and healthcare technology. Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with validated technical authority. Crisis resolution positioning demonstrates ability to rescue failing projects (77% cost reduction, 1-week delivery after 12-month failures). Self-taught programming excellence with anti-hype philosophy based on decades of pattern recognition.
 
 **Industry Focus & Exclusions:** Targeting enterprise technology, healthcare technology, manufacturing/logistics, and traditional software companies. Age-appropriate professional environments that value senior technical expertise over youth-oriented cultures.
 
-## Current Interview Pipeline - September 2025
-- **Atmosera:** Azure consulting - second round scheduled (60min with Derek Batchelor & team member)
-- **Cadwell:** Medical devices (technical interview pending scheduling) - 9.1/10 fit
+## Current Employment Status - October 2025
+- **Cadwell Industries:** ACCEPTED POSITION - Principal Software Engineer/Architect (Started October 6, 2025)
+  - Medical device software development for backend communication and synchronization (Cadwell/Cadlink)
+  - Healthcare technology with FDA compliance considerations
+- **Green Onion:** Continuing contract work - Application rescue and modernization project
 
 ## Resume Strategy - MEMORIZED
 **Full details in:** resumes/master-resume.md
@@ -101,7 +105,17 @@ Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist wit
 - targeted/ - complete application packages
 - Portfolio/ - self-audit and presence analysis
 
-## Important Session Notes - September 3, 2025
+## Important Session Notes
+
+### October 6, 2025
+✅ **Started at Cadwell Industries:** Principal Software Engineer/Architect position
+✅ **Resume Updates:** All resumes updated with new position
+✅ **Out-of-Band Development:** Updated end date to October 2025
+✅ **Green Onion:** Continuing as concurrent contract
+✅ **Profile Updates:** All profile documents made generic for general use
+✅ **Career Skills:** Created comprehensive skills list at ./profiles/career-skills.md
+
+### September 3, 2025
 ✅ **Major Pipeline Refinement:** Closed 89+ applications, archived 215 positions for ATS optimization
 ✅ **Industry Exclusions Enhanced:** Added comprehensive exclusion criteria across all categories
 ✅ **Protocol Updates:** All protocols enhanced with mandatory industry classification

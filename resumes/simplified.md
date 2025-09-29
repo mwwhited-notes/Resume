@@ -15,13 +15,15 @@ Principal Solutions Architect and Technical Leadership Expert with 20+ years of 
 
 ## Professional Experience
 
+### Principal Software Engineer/Architect | Cadwell Industries | October 2025 - Present
+
 ### Principal Solutions Architect | Green Onion | February 2025 - Present
 
 ### Principal Solutions Architect (AI/ML Specialist) | ERisk Services | November 2024 - August 2025
 
 ### Principal Solutions Architect | Eliassen Group | September 2015 - October 2024
 
-### Chief Solutions Architect | Out-of-Band Development, LLC | March 2015 - Present
+### Chief Solutions Architect | Out-of-Band Development, LLC | March 2015 - October 2025
 
 ### Chief Technology Officer / Chief Solutions Architect | Itrica | November 2009 - July 2015
 

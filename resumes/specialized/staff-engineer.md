@@ -55,7 +55,12 @@
 
 ## Professional Experience
 
-### Principal Solutions Architect - Green Onion LLC (February 2025 - Present)
+### Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)
+**Medical Device Software & Healthcare Technology Innovation**
+
+- **Medical Device Software Development:** Helping develop backend communication and synchronization software for Cadwell/Cadlink
+
+### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
 **Technical Leadership & Advanced Engineering Solutions**
 
 - **Application Rescue Engineering:** Inherited application in "horrible, hardly functioning state" from failed offshore development - leading complete technical transformation
@@ -64,7 +69,7 @@
 - **Technical Crisis Resolution:** Systematic approach to technical debt elimination while maintaining business operations during system transformation
 - **Engineering Innovation:** Implementing cutting-edge solutions within budget constraints demonstrating technical creativity and resource optimization
 
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Technical Advisory & Advanced Engineering Consulting**
 
 - **Technical Architecture Consulting:** Deep technical evaluation of vendor proposals and system architectures preventing costly mistakes and vendor lock-in
@@ -159,8 +164,8 @@
 
 ## Complete Career History
 
-### Principal Solutions Architect - Green Onion LLC (February 2025 - Present)
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)  
+### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)  
 ### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
 ### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)

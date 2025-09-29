@@ -116,7 +116,21 @@
 
 ## Work History & Professional Experience
 
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+### Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)
+**Medical Device Software & Healthcare Technology Innovation**
+
+- **Medical Device Software Development:** Helping develop backend communication and synchronization software for Cadwell/Cadlink
+
+### Principal Solutions Architect - Green Onion (February 2025 - Present)
+**Application Rescue & Modernization - Crisis Recovery Leadership**
+
+- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
+- **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+- **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
+- **Budget Recovery Success:** Cost savings from infrastructure optimization funding continued development work
+- **Crisis Leadership:** Systematic approach to technical debt resolution while maintaining business operations during rewrite
+
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Independent Technology Consulting - Technical Advisory & SOW Review Services**
 
 - **SOW & Technical Contract Review:** Expert evaluation of vendor proposals and technical contracts for small/mid-sized companies - preventing costly mistakes and vendor lock-in
@@ -130,22 +144,6 @@
 - **Enterprise Security Reviews:** Third-party security assessments and breach investigations - cleared specialty retailer/grocery client after suspected security concerns
 - **Current Innovation Projects:** Swagger/Handlebars client generator with custom extensions for automated multi-platform API client generation supporting modern API-first development workflows
 
-### Principal Solutions Architect - Green Onion (February 2025 - Present)
-**Application Rescue & Modernization - Crisis Recovery Leadership**
-
-- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
-- **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
-- **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
-- **Budget Recovery Success:** Cost savings from infrastructure optimization funding continued development work
-- **Crisis Leadership:** Systematic approach to technical debt resolution while maintaining business operations during rewrite
-
-### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
-**Nonprofit Leadership and Technical Automation**
-- **Board Governance:** Served on board of directors providing strategic oversight and governance for nonprofit foundation operations
-- **Software Automation:** Developed custom automation solutions for foundation operational processes and workflow optimization
-- **Technical Leadership:** Contributed specialized technical expertise to support foundation mission and enhance operational efficiency
-- **Community Impact:** Applied technology solutions to amplify nonprofit mission and improve service delivery capabilities
-
 ### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
 **Crisis Project Recovery - 1-Week AI/ML Delivery After 12 Months of Failed Development**
 
@@ -156,6 +154,13 @@
 - **Advanced Search Engine:** Complex pattern matching, form predicates, and semantic matching for insurance submission processing
 - **Pure .NET AI/ML Implementation:** Avoided typical Python dependencies through custom .NET integration - enterprise-friendly architecture
 - **Hybrid Search Innovation:** Combined traditional SQL with modern vector search capabilities in single system
+
+### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
+**Nonprofit Leadership and Technical Automation**
+- **Board Governance:** Served on board of directors providing strategic oversight and governance for nonprofit foundation operations
+- **Software Automation:** Developed custom automation solutions for foundation operational processes and workflow optimization
+- **Technical Leadership:** Contributed specialized technical expertise to support foundation mission and enhance operational efficiency
+- **Community Impact:** Applied technology solutions to amplify nonprofit mission and improve service delivery capabilities
 
 ### Principal Solutions Architect - Eliassen Group/Lightwell (September 2015 - October 2024)
 **Lead Developer/Architect on Multiple Projects & Practice-Wide Technical Standards Leader**

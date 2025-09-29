@@ -33,7 +33,7 @@
 
 ## Executive Technology Leadership Experience
 
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Fractional CTO/Chief Solutions Architect - Strategic Technology Leadership & Enterprise Innovation**
 
 - **C-Level Technology Strategy:** Provide fractional CTO/Chief Solutions Architect services across multiple enterprise clients, delivering strategic technology vision, architecture governance, and technical team leadership
@@ -51,7 +51,7 @@
 - **Strategic Technology Risk Management:** Prevented costly enterprise technology adoption mistakes through comprehensive evaluation processes, notably steering organization away from conference-driven MongoDB/Kafka adoption toward proven alternatives like Entity Framework Code-First migrations, saving substantial implementation costs
 - **Process Innovation Leadership:** Created enterprise SDLC methodology with upstream feedback loops, eliminating assumptions and improving delivery quality while maintaining similar timeframes, demonstrating executive-level process optimization
 
-### Principal Solutions Architect - Green Onion LLC (February 2025 - Present)
+### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
 **Cloud architecture optimization and strategic business impact**
 
 - **Cost Optimization Leadership:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and strategic optimization

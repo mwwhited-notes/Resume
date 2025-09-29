@@ -55,7 +55,7 @@
 
 ## Professional Consulting Experience
 
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Independent Technology Consulting - Vendor-Neutral Advisory Services**
 
 - **SOW & Technical Contract Review:** Expert evaluation of vendor proposals preventing costly mistakes and vendor lock-in for 50+ client engagements
@@ -65,7 +65,7 @@
 - **Vendor-Neutral Advisory:** Completely unbiased technology guidance with zero vendor partnerships ensuring recommendations optimized for client success
 - **Technical Translation Services:** "Handling the nerdy stuff" - converting complex technical challenges into clear business implications and actionable recommendations
 
-### Principal Solutions Architect - Green Onion LLC (February 2025 - Present)
+### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
 **Application Rescue & Cost Optimization Consulting**
 
 - **Crisis Consulting Success:** Rescued application in "horrible, hardly functioning state" from failed offshore development team
@@ -155,8 +155,8 @@
 
 ## Complete Career History
 
-### Principal Solutions Architect - Green Onion LLC (February 2025 - Present)
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)  
+### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)  
 ### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
 ### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)

@@ -29,6 +29,14 @@ Principal Solutions Architect and Fractional CTO with 20+ years of enterprise so
 
 ## Work Experience
 
+### Principal Software Engineer/Architect - Cadwell Industries
+**October 2025 - Present**
+
+- Medical device software development for backend communication and synchronization (Cadwell/Cadlink)
+- Healthcare technology architecture with FDA compliance considerations
+- Cross-functional collaboration with hardware engineers and clinical specialists
+- Applied advanced software architecture principles for diagnostic accuracy improvements
+
 ### Principal Solutions Architect - Green Onion
 **February 2025 - Present**
 
@@ -91,7 +99,7 @@ Principal Solutions Architect and Fractional CTO with 20+ years of enterprise so
 - Developed MARS messaging platform for patient engagement and retention
 
 ### Chief Solutions Architect - Out-of-Band Development, LLC
-**March 2015 - Present**
+**March 2015 - October 2025**
 
 - Independent technology consulting and technical advisory services
 - SOW and technical contract review preventing costly vendor mistakes

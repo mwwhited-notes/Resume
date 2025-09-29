@@ -57,7 +57,7 @@
 - **AI/ML Framework Integration:** Successfully integrated AI capabilities with comprehensive testing, monitoring, and quality controls into enterprise AI frameworks
 - **AI/ML Cost-Benefit Analysis:** Provided strategic guidance on AI operational costs, ML resource requirements, and sustainable AI technology deployment
 
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **AI/ML Consulting & Advanced Technology Innovation**
 
 - **AI/ML Innovation Leadership:** Pioneered Vector Search and Indexing for Microsoft SQL Server using custom SQLCLR implementations, creating industry-first database AI capabilities

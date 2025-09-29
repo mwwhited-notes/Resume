@@ -1,6 +1,6 @@
 Dear Hiring Manager,
 
-I am writing to express my interest in joining your organization as a Principal Solutions Architect. With over 20 years of experience spanning enterprise software development, AI/ML infrastructure, platform engineering, and technical leadership, I am excited about the opportunity to contribute to your team's continued success.
+I am writing to express my interest in joining your organization as a Principal Software Engineer/Architect. With over 20 years of experience spanning enterprise software development, AI/ML infrastructure, platform engineering, and technical leadership, I am excited about the opportunity to contribute to your team's continued success.
 
 ## What I Bring to Your Organization
 

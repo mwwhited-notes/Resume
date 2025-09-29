@@ -1,6 +1,6 @@
 # Hello, I'm Matthew Whited
 
-I'm a Chief Solutions Architect with a passion for architecting enterprise-scale AI/ML solutions and solving complex technical challenges that drive real business impact. With over 20 years in software development and system architecture, I've had the privilege of designing and implementing everything from embedded microcontrollers to production AI/ML infrastructure serving millions of users.
+I'm a Principal Software Engineer/Architect at Cadwell Industries, specializing in medical device software and healthcare technology. I have a passion for architecting enterprise-scale solutions and solving complex technical challenges that drive real business impact. With over 20 years in software development and system architecture, I've had the privilege of designing and implementing everything from embedded microcontrollers to production AI/ML infrastructure serving millions of users.
 
 ## What Drives Me
 
@@ -12,7 +12,7 @@ My career started with electronics and embedded systems, which taught me to thin
 
 ## What I'm Architecting
 
-Currently, I'm leading enterprise cloud architecture optimization initiatives at Green Onion (Life Time Foundation), where I'm achieving substantial cost reductions (77%+ in some cases) through comprehensive architecture review and system redesign. As a Principal Solutions Architect, I'm particularly focused on AI/ML infrastructure design, semantic search architectures, and high-performance vector database implementations. 
+Currently, I'm developing backend communication and synchronization software for medical devices at Cadwell Industries, applying my expertise in healthcare technology and FDA-compliant systems. I'm also continuing contract work with Green Onion, where I've achieved substantial cost reductions (77%+) through comprehensive architecture review and system redesign. As a Principal Software Engineer/Architect, I'm particularly focused on medical device software, AI/ML infrastructure design, semantic search architectures, and high-performance database implementations. 
 
 I've architected custom SQLCLR extensions for SQL Server that have been downloaded over 650,000 times across my 20 NuGet packages - it's incredibly rewarding to see enterprise teams adopting these architectural patterns and tools. My solutions range from performance-critical command-line frameworks to specialized enterprise systems for electronic scoring and radiation monitoring. My vector search architecture extensions are being used in production enterprise systems, and I'm working with sentence transformer models to architect fuzzy matching solutions at scale. It's fascinating how we can now architect systems that understand semantic meaning, not just perform text matching.
 

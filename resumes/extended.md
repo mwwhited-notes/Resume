@@ -38,7 +38,12 @@
 
 ## Work History
 
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+### Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)
+**Medical Device Software & Healthcare Technology Innovation**
+
+- **Medical Device Software Development:** Helping develop backend communication and synchronization software for Cadwell/Cadlink
+
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 
 Custom microelectronics and software design, architecture, and engineering. Custom framework design, database enhancement and queue processing. Added Vector Search and Indexing to Microsoft SQL Server using SQLCLR.
 
@@ -82,7 +87,7 @@ Custom microelectronics and software design, architecture, and engineering. Cust
 - **Technical Leadership:** Contributed specialized technical expertise to support foundation mission and enhance operational efficiency
 - **Community Impact:** Applied technology solutions to amplify nonprofit mission and improve service delivery capabilities
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+### Principal Solutions Architect - Green Onion (February 2025 - Present)
 **Cloud architecture optimization and application performance enhancement**
 
 - **Cost Optimization:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and optimization

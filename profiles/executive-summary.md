@@ -2,7 +2,7 @@
 
 ## Professional Profile
 
-Matthew Whited is a Chief Solutions Architect with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. His exceptional open-source contributions (20+ NuGet packages with 652K+ downloads, 22K+ Stack Overflow reputation with 600+ solutions spanning 16+ years, GitHub Arctic Code Vault Contributor status) demonstrate significant community impact. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions, 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients.
+Matthew Whited is a Principal Software Engineer/Architect with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. His exceptional open-source contributions (20+ NuGet packages with 652K+ downloads, 22K+ Stack Overflow reputation with 600+ solutions spanning 16+ years, GitHub Arctic Code Vault Contributor status) demonstrate significant community impact. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions, 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients.
 
 ## Core Competencies
 
@@ -28,9 +28,10 @@ Matthew Whited is a Chief Solutions Architect with over 20 years bridging hardwa
 ## Career Highlights
 
 **Recent Achievements (2024-2025)**
-- **ERisk Services**: Dramatically improved embedding query performance through locality-sensitive hashing (LSH) implementation
-- **Green Onion**: Achieved substantial reduction in recurring cloud costs through architecture review and optimization
-- **Out-of-Band Development**: Developed custom vector search capabilities for Microsoft SQL Server
+- **Medical Device Software**: Developing backend communication and synchronization software for healthcare technology systems
+- **AI/ML Performance**: Dramatically improved embedding query performance through locality-sensitive hashing (LSH) implementation
+- **Cloud Cost Optimization**: Achieved 77% reduction in recurring cloud costs through architecture review and optimization
+- **Database Innovation**: Developed custom vector search capabilities for Microsoft SQL Server
 
 **Innovation & Development**
 - Created hybrid search engines combining full-text and semantic search with LLM summarization

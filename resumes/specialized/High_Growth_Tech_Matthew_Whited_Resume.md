@@ -53,6 +53,11 @@
 
 ## Professional Experience
 
+### Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)
+**Medical Device Software & Healthcare Technology Innovation**
+
+- **Medical Device Software Development:** Helping develop backend communication and synchronization software for Cadwell/Cadlink
+
 ### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
 **Rapid Infrastructure Optimization & Strategic Technology Leadership**
 
@@ -72,7 +77,7 @@
 - **Business Value Acceleration:** Delivered automated duplicate detection system with 84 completed work items, dramatically reducing manual processes while maintaining quality and compliance
 - **Excellence Under Pressure:** Achieved 4.8/5.0 exceptional performance rating through clean architecture, comprehensive error handling, and rapid iteration capabilities
 
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Custom Innovation & Rapid Technical Solution Development**
 
 - **Database Innovation:** Added Vector Search and Indexing to Microsoft SQL Server using custom SQLCLR implementations, demonstrating ability to rapidly extend existing systems with cutting-edge capabilities

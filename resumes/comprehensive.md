@@ -107,7 +107,12 @@
 
 ## Work History
 
-### Principal Solutions Architect - Green Onion LLC (February 2025 - Present)
+### Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)
+**Medical Device Software & Healthcare Technology Innovation**
+
+- **Medical Device Software Development:** Helping develop backend communication and synchronization software for Cadwell/Cadlink
+
+### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
 **Enterprise Technology Leadership & Advanced .NET Development**
 
 - **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team

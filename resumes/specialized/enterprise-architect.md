@@ -61,7 +61,7 @@
 - **Enterprise AI Framework Integration:** Successfully integrated AI capabilities with comprehensive testing, monitoring, and enterprise architecture quality controls
 - **Enterprise AI Cost-Benefit Analysis:** Provided strategic guidance on AI operational costs, architecture resource requirements, and sustainable enterprise technology deployment
 
-### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - Present)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Enterprise Architecture Consulting & Strategic Technology Leadership**
 
 - **Enterprise Architecture Consulting:** Provide fractional enterprise architecture services across multiple clients, delivering strategic technology vision and comprehensive architecture governance
