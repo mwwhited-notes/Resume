@@ -1,0 +1,5 @@
+# LinkedIn Profile
+
+## About
+
+Principal Software Engineer and Architect with over 20 years of experience bridging hardware and software domains through technical innovation and measurable business impact. Proven expertise in enterprise architecture, platform engineering, AI/ML implementation, and crisis resolution across healthcare technology, financial services, and enterprise software. Deep technical foundation spanning from FPGA/microprocessor design to modern cloud platforms, with specialization in .NET/C# ecosystem, container orchestration, DevOps infrastructure, and regulatory compliance (FDA, HIPAA). Track record of delivering quantifiable results including significant cloud cost reductions, rapid turnaround of failed projects, and FDA-compliant systems for global pharmaceutical trials. Known for translating complex technical challenges into practical solutions, establishing enterprise-wide development standards, and mentoring development teams while maintaining hands-on technical contribution across multiple programming languages and platforms.
