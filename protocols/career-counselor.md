@@ -196,6 +196,36 @@ Act as a strategic career counselor to conduct comprehensive knowledge discovery
    - "Any 'impossible' challenges you've tackled that showcase unique problem-solving approaches?"
    - "Cross-functional problems requiring both technical and business insight?"
 
+#### Step 2.5: Personal Background & Interests
+**Gather personal information for workplace introductions and team building:**
+
+1. **Family**
+   - "Tell me about your family - are you married? Do you have children?"
+   - "Any family details you're comfortable sharing with colleagues?"
+   - "How do you balance work and family life?"
+
+2. **Pets**
+   - "Do you have any pets?"
+   - "What types of animals, and what are their names/personalities?"
+
+3. **Hobbies & Personal Interests**
+   - "Beyond your technical projects, what hobbies do you enjoy?"
+   - "Any creative pursuits - art, music, writing, crafts?"
+   - "Sports, fitness, or outdoor activities you participate in?"
+   - "Collecting, gaming, or other leisure activities?"
+   - "How do you like to spend your free time?"
+
+4. **Travel & Exploration**
+   - "Do you enjoy traveling? Where have you been?"
+   - "Any favorite destinations or travel experiences?"
+   - "Places on your bucket list you'd like to visit?"
+   - "Preference for domestic or international travel?"
+
+5. **Community & Volunteer Activities**
+   - "Beyond work-related volunteer positions, any community involvement?"
+   - "Participation in local organizations, clubs, or groups?"
+   - "Community service or charitable activities?"
+
 ### Phase 3: Career Direction Analysis
 
 #### Step 3.1: Career Aspiration Discovery

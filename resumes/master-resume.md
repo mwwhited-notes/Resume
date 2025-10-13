@@ -421,15 +421,23 @@
 - **Pattern Recognition Learning:** Analyzed game code structure to deduce programming logic through pure experimentation
 - **Technology Progression:** Apple IIc BASIC → QBasic (grandfather's 486) → Visual Basic + C/C++ collaborative learning
 - **Game Development Foundation:** QuakeC extensions for video game modification - early experience with specialized C variants
-- **Professional Mentorship:** Lucent Technologies and Battelle Memorial Institute engineers through Venture Scouts program
-- **Eagle Scout Achievement (2000):** Demonstrated early leadership capability and commitment to service
 - **Technical Production:** Stage Crew technical production, Marching Band, Fencing Club
+
+### Youth Leadership & Development Programs (Standalone)
+**Boy Scouts of America & Professional Mentorship**
+- **Eagle Scout Achievement (2000)** - Demonstrated early leadership capability and commitment to service through Boy Scouts of America
+- **Venture Scouts - Lucent Technologies & Battelle Memorial Institute** - Professional engineering mentorship program
+  - **Industry Professional Mentorship:** Direct collaboration with professional engineers from major technology companies
+  - **BASIC Stamp Programming:** Microcontroller programming and embedded systems development
+  - **Electronics Engineering:** Hands-on experience with electronic circuits and hardware design
+  - **Unix Systems Administration:** System V Unix, Solaris, and Linux system management
+  - **Hardware Archaeology:** Hardware acquisition and reverse engineering experience
+  - **Professional Engineering Environment:** Early exposure to enterprise engineering practices
 
 ### Professional Certifications & Industry Recognition
 - **Electronics Technician Certification** - Certified circuit troubleshooting and electronic repair
 - **CompTIA A+ Certification** - Computer hardware and software troubleshooting (LinkedIn validated)
 - **CompTIA Network+ Certification** - Network configuration and management (LinkedIn validated)
-- **Eagle Scout Achievement (2000)** - Leadership development and community service excellence
 - **National Vocational-Technical Honor Society** - Academic recognition for technical excellence
 - **Novell Publications** - Technical articles published on Novell client support portal (ZenWorks, Border Manager)
 - **Industry Impact** - Personal open source ClientTrust implementation became basis for official Novell product
