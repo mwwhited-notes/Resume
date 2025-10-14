@@ -147,6 +147,7 @@ grep -c "CompanyName.*PositionTitle" ./SearchResults/closed-archive.md
 - Preserve original application dates
 - Keep notes concise and factual
 - Update counts when changes are made
+- Track positive contacts in `./SearchResults/contacts.md` when interactions are professional and future opportunities expressed
 
 ### DON'T:
 - Create duplicate rejection entries

@@ -428,6 +428,31 @@ For each resume and cover letter pair:
    - If position already shows as "Rejected" in closed-archive.md, take no action
    - Prevents unnecessary file updates and maintains clean tracking
 
+#### Step 8.2: Track Positive Professional Contacts
+**When rejection or withdrawal involves positive professional interaction:**
+
+1. **Evaluate Relationship Quality:**
+   - Professional and responsive communication throughout process
+   - Expressed interest in future opportunities or keeping in touch
+   - Positive interview or discussion experience
+   - Recruiter/hiring manager offered to maintain contact
+
+2. **Record Contact in** `./SearchResults/contacts.md`
+
+3. **Include Contact Details:**
+   - Name, title, and company
+   - Contact information (email, LinkedIn)
+   - Position context and interaction notes
+   - Future opportunity potential
+   - Quality of interaction and professionalism
+
+4. **When to Track Contacts:**
+   - Recruiter offered future collaboration despite position being filled
+   - Hiring manager expressed interest in keeping connected
+   - Professional relationship developed during interview process
+   - Company suggested background check for future opportunities
+   - Positive technical discussions or mutual professional respect established
+
 ### Phase 9: Execution Summary
 
 #### Step 8.1: Output Verification

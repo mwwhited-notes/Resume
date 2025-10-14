@@ -118,6 +118,21 @@ Verify that:
 - Archive count increased by same amount
 - Total applications across both files remains consistent
 
+### Step 5: Contact Tracking (When Applicable)
+If rejection/withdrawal involved positive professional interaction:
+1. **Evaluate relationship quality:**
+   - Professional and responsive communication
+   - Expressed interest in future opportunities
+   - Offered to keep in contact
+   - Positive interview/discussion experience
+2. **Record contact in** `./SearchResults/contacts.md`
+3. **Include details:**
+   - Name and title
+   - Company and position context
+   - Contact information (email/LinkedIn)
+   - Notes on interaction quality
+   - Future opportunity potential
+
 ---
 
 ## Special Cases
