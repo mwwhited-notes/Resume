@@ -32,13 +32,15 @@
 
 ## Principal Solutions Architect Experience
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
-**Cloud architecture optimization and strategic business impact**
+### Principal Solutions Architect - Green Onion (February 2025 - Present)
+**Application Rescue & Modernization - Crisis Recovery Leadership**
 
-- **Cost Optimization Excellence:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and strategic optimization
-- **Performance Enhancement Solutions:** Improved application performance across multiple systems, achieving significant response time improvements
-- **API Integration Strategy:** Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
-- **Business Impact Delivery:** Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
+- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
+- **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+- **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
+- **Code Generation Framework Development:** Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
+- **Budget Recovery Success:** Cost savings from infrastructure optimization funding continued development work
+- **Crisis Leadership:** Systematic approach to technical debt resolution while maintaining business operations during rewrite
 
 ### Principal Solutions Architect, AI Specialization - ERisk Services, Eliassen Group (November 2024 - August 2025)
 **Advanced AI/ML integration and semantic search implementation for insurance industry**

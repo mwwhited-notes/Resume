@@ -32,19 +32,20 @@ Principal Solutions Architect and Fractional CTO with 20+ years of enterprise so
 ### Principal Software Engineer/Architect - Cadwell Industries
 **October 2025 - Present**
 
-- Medical device software development for backend communication and synchronization (Cadwell/Cadlink)
-- Healthcare technology architecture with FDA compliance considerations
-- Cross-functional collaboration with hardware engineers and clinical specialists
-- Applied advanced software architecture principles for diagnostic accuracy improvements
+- Medical Device Software Development: Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies
+- Technical Leadership & Code Quality: Conducting peer code reviews, leading grooming sessions, and providing architectural guidance for medical device software development
+- Full-Stack Development: Backend development, application styling, and comprehensive unit testing across medical device communication systems
+- Architecture Review: Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
 ### Principal Solutions Architect - Green Onion
 **February 2025 - Present**
 
-- Application rescue project leadership for failed offshore development
-- Achieved 77% Azure cost reduction from $1,500+ to under $350 monthly ($13,800+ annual savings)
-- Led complete system redesign and modernization within budget constraints
-- Managed technical debt resolution while maintaining business operations
-- Implemented infrastructure optimization funding continued development work
+- Application Rescue Project: Inherited application in "horrible, hardly functioning state" from failed offshore development team
+- Dramatic Cost Optimization: Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+- Complete System Redesign: Leading full application rewrite and modernization within extremely limited budget constraints
+- Code Generation Framework Development: Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
+- Budget Recovery Success: Cost savings from infrastructure optimization funding continued development work
+- Crisis Leadership: Systematic approach to technical debt resolution while maintaining business operations during rewrite
 
 ### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group
 **November 2024 - August 2025**

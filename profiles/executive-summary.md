@@ -28,9 +28,9 @@ Matthew Whited is a Principal Software Engineer/Architect with over 20 years bri
 ## Career Highlights
 
 **Recent Achievements (2024-2025)**
-- **Medical Device Software**: Developing backend communication and synchronization software for healthcare technology systems
+- **Medical Device Software** (Cadwell Industries - October 2025-Present): Developing backend communication and synchronization software for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies, conducting peer code reviews and providing architectural guidance for FDA-regulated healthcare technology
+- **Application Rescue & Modernization** (Green Onion - February 2025-Present): Leading complete application rewrite after inheriting failed offshore development in "horrible, hardly functioning state," achieved 77% Azure cost reduction from $1,500+/month to <$350 ($13,800+ annual savings), architecting code generation framework to reduce technical debt and increase development velocity
 - **AI/ML Performance**: Dramatically improved embedding query performance through locality-sensitive hashing (LSH) implementation
-- **Cloud Cost Optimization**: Achieved 77% reduction in recurring cloud costs through architecture review and optimization
 - **Database Innovation**: Developed custom vector search capabilities for Microsoft SQL Server
 
 **Innovation & Development**

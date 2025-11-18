@@ -65,14 +65,15 @@
 - **Vendor-Neutral Advisory:** Completely unbiased technology guidance with zero vendor partnerships ensuring recommendations optimized for client success
 - **Technical Translation Services:** "Handling the nerdy stuff" - converting complex technical challenges into clear business implications and actionable recommendations
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
-**Application Rescue & Cost Optimization Consulting**
+### Principal Solutions Architect - Green Onion (February 2025 - Present)
+**Application Rescue & Modernization - Crisis Recovery Leadership**
 
-- **Crisis Consulting Success:** Rescued application in "horrible, hardly functioning state" from failed offshore development team
-- **Strategic Cost Optimization:** Delivered 77% Azure cost reduction ($13,800+ annual savings) through comprehensive architecture review and optimization consulting
-- **System Transformation Consulting:** Leading complete application rewrite and modernization within extremely limited budget constraints
-- **Budget Recovery Consulting:** Cost savings from infrastructure optimization funding continued development demonstrating immediate ROI from consulting engagement
-- **Technical Crisis Management:** Systematic approach to technical debt resolution while maintaining business operations during transformation
+- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
+- **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+- **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
+- **Code Generation Framework Development:** Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
+- **Budget Recovery Success:** Cost savings from infrastructure optimization funding continued development work
+- **Crisis Leadership:** Systematic approach to technical debt resolution while maintaining business operations during rewrite
 
 ### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
 **AI/ML Crisis Consulting - Rapid Innovation Delivery**

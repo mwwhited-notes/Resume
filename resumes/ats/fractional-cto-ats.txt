@@ -25,14 +25,23 @@ FRACTIONAL CTO VALUE PROPOSITION
 
 EXECUTIVE LEADERSHIP EXPERIENCE
 
-Fractional CTO / Principal Solutions Architect
-Green Onion (Life Time Foundation), Eliassen Group
+Principal Software Engineer/Architect
+Cadwell Industries
+October 2025 - Present
+• Medical Device Software Development: Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies
+• Technical Leadership & Code Quality: Conducting peer code reviews, leading grooming sessions, and providing architectural guidance for medical device software development
+• Full-Stack Development: Backend development, application styling, and comprehensive unit testing across medical device communication systems
+• Architecture Review: Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
+
+Principal Solutions Architect
+Green Onion
 February 2025 - Present
-• C-Suite Technology Leadership: Provide executive-level technology strategy, architecture governance, and strategic decision-making for growing foundation
-• Cost Optimization Excellence: Delivered 77% reduction in recurring cloud infrastructure costs through strategic technology decisions and vendor management
-• Digital Transformation Leadership: Led comprehensive digital transformation initiative improving operational efficiency and competitive positioning
-• Vendor Management Strategy: Implemented vendor-neutral technology advisory services eliminating vendor lock-in and reducing technology risks
-• Executive Reporting: Provide regular technology strategy updates to board and executive leadership with clear ROI metrics and strategic recommendations
+• Application Rescue Project: Inherited application in "horrible, hardly functioning state" from failed offshore development team
+• Dramatic Cost Optimization: Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+• Complete System Redesign: Leading full application rewrite and modernization within extremely limited budget constraints
+• Code Generation Framework Development: Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
+• Budget Recovery Success: Cost savings from infrastructure optimization funding continued development work
+• Crisis Leadership: Systematic approach to technical debt resolution while maintaining business operations during rewrite
 
 Chief Technology Officer / Chief Solutions Architect
 Itrica
@@ -43,6 +52,15 @@ November 2009 - July 2015
 • Team Leadership and Development: Built and led development teams of 5+ engineers with complete technical and regulatory compliance responsibility
 • Executive Partnership: Collaborated with CEO, CFO, and board members on technology strategy, budget planning, and business alignment initiatives
 • Merit-Based Promotion: Promoted to CTO role for exceptional technical leadership and being recognized as "most skilled senior architect"
+
+Chief Solutions Architect
+Out-of-Band Development, LLC
+March 2015 - October 2025
+• SOW & Technical Contract Review: Expert evaluation of vendor proposals and technical contracts for small/mid-sized companies - preventing costly mistakes and vendor lock-in
+• Technical Advisory Services: "Handling the nerdy stuff" so business leaders can focus on core operations - translating complex technical proposals into clear business implications
+• Vendor-Neutral Advisory: No vendor partnerships or bias - unbiased technology guidance ensuring clients get best solutions at reasonable prices
+• Technical Due Diligence: Architecture assessment, vendor evaluation, and risk analysis for technology investments and M&A transactions
+• Fractional CTO Services: Strategic technology leadership for companies needing executive-level expertise without full-time CTO budget
 
 FRACTIONAL CTO ENGAGEMENTS AND TECHNOLOGY LEADERSHIP
 

@@ -60,16 +60,20 @@
 ### Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)
 **Medical Device Software & Healthcare Technology Innovation**
 
-- **Medical Device Software Development:** Helping develop backend communication and synchronization software for Cadwell/Cadlink
+- **Medical Device Software Development:** Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies
+- **Technical Leadership & Code Quality:** Conducting peer code reviews, leading grooming sessions, and providing architectural guidance for medical device software development
+- **Full-Stack Development:** Backend development, application styling, and comprehensive unit testing across medical device communication systems
+- **Architecture Review:** Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
-**Platform Rescue & Infrastructure Optimization**
+### Principal Solutions Architect - Green Onion (February 2025 - Present)
+**Application Rescue & Modernization - Crisis Recovery Leadership**
 
-- **Platform Crisis Recovery:** Inherited application platform in "horrible, hardly functioning state" from failed offshore development team
-- **Infrastructure Cost Optimization:** Delivered 77% Azure platform cost reduction ($13,800+ annual savings) through comprehensive architecture optimization and resource rightsizing
-- **Platform Modernization Leadership:** Leading complete platform rewrite using modern container orchestration, microservices architecture, and cloud-native solutions
-- **DevOps Platform Implementation:** Establishing comprehensive CI/CD automation, monitoring systems, and deployment pipeline optimization
-- **Performance Platform Engineering:** Systematic approach to platform performance optimization while maintaining business operations during transformation
+- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
+- **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+- **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
+- **Code Generation Framework Development:** Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
+- **Budget Recovery Success:** Cost savings from infrastructure optimization funding continued development work
+- **Crisis Leadership:** Systematic approach to technical debt resolution while maintaining business operations during rewrite
 
 ### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Platform Advisory & Enterprise Architecture Consulting**

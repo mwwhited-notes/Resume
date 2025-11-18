@@ -15,8 +15,9 @@ My unique background combines enterprise platform architecture with embedded sys
 
 ## Recent Platform Engineering Achievements
 
+- **Medical Device Software Development**: Currently developing backend communication and synchronization software for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX, including peer code reviews and architectural guidance for FDA-regulated healthcare technology
+- **Application Rescue & Cost Optimization**: Leading complete application rewrite for Green Onion after inheriting failed offshore development, achieving 77% Azure cost reduction ($13,800+ annual savings) and developing code generation frameworks to reduce technical debt
 - **AI/ML Infrastructure**: Successfully implemented sentence transformer models for enterprise fuzzy matching, dramatically improving query performance through advanced indexing and platform optimization techniques
-- **Infrastructure Cost Optimization**: Achieved 77% reduction in recurring cloud costs through systematic platform architecture review and infrastructure automation
 - **Platform Framework Development**: Created reusable middleware frameworks, command-line tools, and specialized infrastructure applications that have enhanced productivity across multiple development teams and organizations
 - **Open Source Contributions**: Developed and maintain 20 NuGet packages with 650K+ total downloads, recognized as GitHub Arctic Code Vault Contributor with 30+ repositories and achievements including Pull Shark (x2), Quickdraw, YOLO, Starstruck, and maintain 22K+ Stack Overflow reputation with 600+ solutions spanning 15+ years serving nearly 5 million users
 

@@ -109,6 +109,19 @@ Principal Software Engineer/Architect at Cadwell Industries specializing in medi
 
 ## Important Session Notes
 
+### November 18, 2025
+✅ **Comprehensive Resume Ecosystem Update:** Updated all 34 resume and profile files with detailed Cadwell Industries and Green Onion employment information
+✅ **Cadwell Industries Position Enhancement:** Added comprehensive technical details (WPF, .NET 4.8, SQLite, WiX installer) and responsibilities (peer reviews, grooming, unit testing, architectural review, FDA-regulated medical device software)
+✅ **Green Onion Position Enhancement:** Added code generation framework development detail to application rescue and modernization work
+✅ **Files Updated:**
+  - Core resumes: comprehensive.md, abbreviated.md, extended.md (3 files)
+  - ATS files: All 7 ATS resume files
+  - Specialized resumes: All 13 specialized resume files
+  - Other resumes: icims-ats-optimized-resume.md, simplified.md (2 files)
+  - Profiles: All 6 active profile documents
+✅ **Consistency Verification:** Verified 14 files with Cadwell position, 23 files with Green Onion position, 25 files mentioning code generation framework, 22 files with Cadwell technology details
+✅ **Documentation Updates:** Created change-history-20251118.md documenting all ecosystem updates
+
 ### October 14, 2025
 ✅ **Professional Contacts Tracking System:** Created ./SearchResults/contacts.md for tracking positive professional relationships
 ✅ **Contact Tracking Protocols:** Updated rejection-handling.md, application-status-management.md, and targeted-application.md to reference contacts tracking

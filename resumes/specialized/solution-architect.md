@@ -30,13 +30,15 @@
 
 ## Solution Architect Experience
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
-**Solution optimization and performance enhancement**
+### Principal Solutions Architect - Green Onion (February 2025 - Present)
+**Application Rescue & Modernization - Crisis Recovery Leadership**
 
-- **Cost Optimization Solutions:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive solution architecture review and strategic optimization
-- **Performance Enhancement Implementation:** Improved application performance across multiple systems, achieving significant response time improvements through custom solution development
-- **API Integration Solutions:** Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks through strategic solution architecture
-- **Business Impact Solution Delivery:** Delivered measurable ROI through infrastructure optimization and operational efficiency improvements via comprehensive solution implementation
+- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
+- **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+- **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
+- **Code Generation Framework Development:** Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
+- **Budget Recovery Success:** Cost savings from infrastructure optimization funding continued development work
+- **Crisis Leadership:** Systematic approach to technical debt resolution while maintaining business operations during rewrite
 
 ### Principal Solutions Architect - ERisk Services, Eliassen Group (November 2024 - August 2025)
 **Advanced solution implementation for insurance industry automation**

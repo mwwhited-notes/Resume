@@ -49,17 +49,19 @@ Principal Solutions Architect with over 20 years bridging hardware and software 
 
 ### Principal Software Engineer/Architect - Cadwell Industries
 **October 2025 - Present**
-- Medical device software development for backend communication and synchronization (Cadwell/Cadlink)
-- Healthcare technology architecture with FDA compliance considerations
-- Cross-functional collaboration with hardware engineers and clinical specialists
-- Applied advanced software architecture principles for diagnostic accuracy improvements
+- Medical Device Software Development: Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies
+- Technical Leadership & Code Quality: Conducting peer code reviews, leading grooming sessions, and providing architectural guidance for medical device software development
+- Full-Stack Development: Backend development, application styling, and comprehensive unit testing across medical device communication systems
+- Architecture Review: Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group
+### Principal Solutions Architect - Green Onion
 **February 2025 - Present**
-- Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and optimization
-- Improved application performance across multiple systems, achieving significant response time improvements
-- Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
-- Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
+- Application Rescue Project: Inherited application in "horrible, hardly functioning state" from failed offshore development team
+- Dramatic Cost Optimization: Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+- Complete System Redesign: Leading full application rewrite and modernization within extremely limited budget constraints
+- Code Generation Framework Development: Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
+- Budget Recovery Success: Cost savings from infrastructure optimization funding continued development work
+- Crisis Leadership: Systematic approach to technical debt resolution while maintaining business operations during rewrite
 
 ### Principal Solutions Architect, specialized in AI - ERisk Services, Eliassen Group
 **November 2024 - August 2025**
@@ -89,10 +91,12 @@ Principal Solutions Architect with over 20 years bridging hardware and software 
 
 ### Chief Solutions Architect - Out-of-Band Development, LLC
 **March 2015 - October 2025**
-- Added Vector Search and Indexing to Microsoft SQL Server using custom SQLCLR implementations
-- Custom framework design for database enhancement and queue processing
-- Specializations: Application architecture, reverse engineering, performance tuning, custom technical training
-- Client focus: .NET, ASP.NET MVC, WPF, databases, and embedded systems integration
+- SOW & Technical Contract Review: Expert evaluation of vendor proposals and technical contracts for small/mid-sized companies - preventing costly mistakes and vendor lock-in
+- Technical Advisory Services: "Handling the nerdy stuff" so business leaders can focus on core operations - translating complex technical proposals into clear business implications
+- Vendor-Neutral Advisory: No vendor partnerships or bias - unbiased technology guidance ensuring clients get best solutions at reasonable prices
+- Technical Due Diligence: Architecture assessment, vendor evaluation, and risk analysis for technology investments and M&A transactions
+- Fractional CTO Services: Strategic technology leadership for companies needing executive-level expertise without full-time CTO budget
+- Database Innovation Pioneer: Pioneered Vector Search for SQL Server using custom SQLCLR before commercial offerings - work at ERisk and Eliassen predated market trends
 
 ### Chief Solutions Architect - Itrica
 **November 2009 - July 2015**

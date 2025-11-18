@@ -41,16 +41,34 @@ Business and Technology Alignment:
 
 PROFESSIONAL EXPERIENCE
 
-Principal Solutions Architect / Enterprise Architecture Lead
-Green Onion (Life Time Foundation), Eliassen Group
-February 2025 - Present
-• Enterprise Cost Optimization: Achieved 77% reduction in recurring cloud infrastructure costs through comprehensive enterprise architecture review and strategic optimization initiatives
-• Technology Strategy Leadership: Led enterprise-wide technology strategy development, vendor evaluation, and technology standardization efforts
-• Digital Transformation: Designed and implemented comprehensive digital transformation roadmap improving operational efficiency across multiple business units
-• Vendor Management: Managed technology vendor relationships, contract negotiations, and vendor-neutral advisory services eliminating vendor lock-in risks
-• Performance Architecture: Implemented enterprise-wide performance monitoring, optimization strategies, and scalability planning delivering 300%+ improvements
+Principal Software Engineer/Architect
+Cadwell Industries
+October 2025 - Present
+• Medical Device Software Development: Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies
+• Technical Leadership & Code Quality: Conducting peer code reviews, leading grooming sessions, and providing architectural guidance for medical device software development
+• Full-Stack Development: Backend development, application styling, and comprehensive unit testing across medical device communication systems
+• Architecture Review: Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
-Principal Solutions Architect / Enterprise Architecture Specialist
+Principal Solutions Architect
+Green Onion
+February 2025 - Present
+• Application Rescue Project: Inherited application in "horrible, hardly functioning state" from failed offshore development team
+• Dramatic Cost Optimization: Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+• Complete System Redesign: Leading full application rewrite and modernization within extremely limited budget constraints
+• Code Generation Framework Development: Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
+• Budget Recovery Success: Cost savings from infrastructure optimization funding continued development work
+• Crisis Leadership: Systematic approach to technical debt resolution while maintaining business operations during rewrite
+
+Chief Solutions Architect
+Out-of-Band Development, LLC
+March 2015 - October 2025
+• SOW & Technical Contract Review: Expert evaluation of vendor proposals and technical contracts for small/mid-sized companies - preventing costly mistakes and vendor lock-in
+• Technical Advisory Services: "Handling the nerdy stuff" so business leaders can focus on core operations - translating complex technical proposals into clear business implications
+• Vendor-Neutral Advisory: No vendor partnerships or bias - unbiased technology guidance ensuring clients get best solutions at reasonable prices
+• Technical Due Diligence: Architecture assessment, vendor evaluation, and risk analysis for technology investments and M&A transactions
+• Fractional CTO Services: Strategic technology leadership for companies needing executive-level expertise without full-time CTO budget
+
+Principal Solutions Architect (AI/ML Specialist)
 ERisk Services, Eliassen Group
 November 2024 - August 2025
 • Enterprise AI/ML Strategy: Developed comprehensive AI/ML strategy and architecture framework for enterprise-wide artificial intelligence adoption

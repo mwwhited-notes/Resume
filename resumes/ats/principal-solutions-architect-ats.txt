@@ -48,14 +48,23 @@ Architecture and Design:
 
 PROFESSIONAL EXPERIENCE
 
+Principal Software Engineer/Architect
+Cadwell Industries
+October 2025 - Present
+• Medical Device Software Development: Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies
+• Technical Leadership & Code Quality: Conducting peer code reviews, leading grooming sessions, and providing architectural guidance for medical device software development
+• Full-Stack Development: Backend development, application styling, and comprehensive unit testing across medical device communication systems
+• Architecture Review: Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
+
 Principal Solutions Architect
-Green Onion (Life Time Foundation), Eliassen Group
+Green Onion
 February 2025 - Present
-• Cost Optimization Excellence: Achieved 77% reduction in recurring cloud infrastructure costs through comprehensive architecture review and strategic optimization, delivering $13,800+ annual savings
-• Performance Enhancement Solutions: Improved application performance across multiple systems, achieving 300%+ response time improvements
-• API Integration Strategy: Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
-• Business Impact Delivery: Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
-• Strategic Technology Advisory: Provided vendor-neutral technology guidance preventing costly adoption mistakes
+• Application Rescue Project: Inherited application in "horrible, hardly functioning state" from failed offshore development team
+• Dramatic Cost Optimization: Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+• Complete System Redesign: Leading full application rewrite and modernization within extremely limited budget constraints
+• Code Generation Framework Development: Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
+• Budget Recovery Success: Cost savings from infrastructure optimization funding continued development work
+• Crisis Leadership: Systematic approach to technical debt resolution while maintaining business operations during rewrite
 
 Principal Solutions Architect, AI/ML Specialist
 ERisk Services, Eliassen Group
@@ -76,6 +85,15 @@ September 2015 - October 2024
 • Training and Development: Led internal professional development programs, project management, and comprehensive technical training including .NET Boot Camps and AI/ML training
 • Performance Specialization: Specialized in database and application performance optimization, reusable middleware frameworks, and automated testability frameworks
 • Technical Leadership: Provided architectural guidance across multiple client engagements, code reviews, and technical mentorship
+
+Chief Solutions Architect
+Out-of-Band Development, LLC
+March 2015 - October 2025
+• SOW & Technical Contract Review: Expert evaluation of vendor proposals and technical contracts for small/mid-sized companies - preventing costly mistakes and vendor lock-in
+• Technical Advisory Services: "Handling the nerdy stuff" so business leaders can focus on core operations - translating complex technical proposals into clear business implications
+• Vendor-Neutral Advisory: No vendor partnerships or bias - unbiased technology guidance ensuring clients get best solutions at reasonable prices
+• Technical Due Diligence: Architecture assessment, vendor evaluation, and risk analysis for technology investments and M&A transactions
+• Fractional CTO Services: Strategic technology leadership for companies needing executive-level expertise without full-time CTO budget
 
 Chief Solutions Architect / CTO
 Itrica

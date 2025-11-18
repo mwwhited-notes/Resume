@@ -49,13 +49,15 @@
 - **Business Impact Solutions:** Delivered automated duplicate detection system with 84 completed work items, dramatically reducing manual review workload while maintaining compliance
 - **Technical Excellence Achievement:** Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles and sophisticated caching strategies
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
-**Cloud Architecture Solutions & Performance Optimization**
+### Principal Solutions Architect - Green Onion (February 2025 - Present)
+**Application Rescue & Modernization - Crisis Recovery Leadership**
 
-- **Cloud Solutions Architecture:** Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and strategic optimization
-- **Performance Solution Engineering:** Improved application performance across multiple systems, achieving significant response time improvements
-- **API Integration Solutions:** Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks
-- **Business Impact Solutions:** Delivered measurable ROI through infrastructure optimization and operational efficiency improvements
+- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
+- **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+- **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
+- **Code Generation Framework Development:** Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
+- **Budget Recovery Success:** Cost savings from infrastructure optimization funding continued development work
+- **Crisis Leadership:** Systematic approach to technical debt resolution while maintaining business operations during rewrite
 
 ### Centers of Excellence Leadership - Eliassen Group (July 2022 - October 2024)
 **Enterprise-Wide Solution Standards & Technology Leadership**

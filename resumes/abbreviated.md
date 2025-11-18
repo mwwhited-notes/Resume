@@ -86,8 +86,9 @@
 
 ## Work History
 
+- **Principal Software Engineer/Architect** - Cadwell Industries (October 2025 - Present)
 - **Principal Solutions Architect** - Green Onion LLC (February 2025 - Present)
-- **Chief Solutions Architect** - Out-of-Band Development, LLC (March 2015 - Present)
+- **Chief Solutions Architect** - Out-of-Band Development, LLC (March 2015 - October 2025)
 - **Principal Solutions Architect (AI/ML Specialist)** - ERisk Services, Eliassen Group (November 2024 - August 2025)
 - **Rose and Gold Foundation - Board Member + Software Automation Engineer** (2017 - 2020)
 - **Principal Solutions Architect** - Eliassen Group (September 2015 - October 2024)
