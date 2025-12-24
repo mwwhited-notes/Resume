@@ -170,6 +170,11 @@
 - **Pure .NET AI/ML Implementation:** Avoided typical Python dependencies through custom .NET integration - enterprise-friendly architecture
 - **Hybrid Search Innovation:** Combined traditional SQL with modern vector search capabilities in single system
 
+#### ERiskFramework - Enterprise AI/ML Platform (17 Projects, 6,400+ LOC)
+- **Enterprise Framework Architecture:** Architected 17-project modular .NET 8.0/9.0 framework integrating Microsoft Semantic Kernel with Ollama LLM for AI-powered chat functionality with automatic function calling
+- **ONNX Runtime Integration:** Implemented sentence embedding generation using All-MiniLM-L6-v2 model with custom BERT tokenizer, supporting batch processing and multiple vector distance metrics (cosine, Euclidean, Manhattan, dot product)
+- **Enterprise Middleware Pipeline:** Built comprehensive ASP.NET Core middleware for audit logging with correlation ID propagation, request/response capture, and configurable endpoint filtering
+
 ### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
 **Nonprofit Leadership and Technical Automation**
 - **Board Governance:** Served on board of directors providing strategic oversight and governance for nonprofit foundation operations
