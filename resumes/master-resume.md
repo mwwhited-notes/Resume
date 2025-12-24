@@ -235,6 +235,14 @@
 - **Developer & Architect Training:** Delivered comprehensive training programs to both internal teams and client organizations, covering advanced architecture patterns, AI/ML implementation, and enterprise best practices
 - **Sales Enablement Engineering:** Technical sales support including RFP responses, technical proposal writing, and solution estimation for multi-million dollar enterprise opportunities
 
+#### "Choose Your Own Adventure" R&D & Training Program (228 commits, 16,360+ LOC)
+**Internal R&D initiative and developer training platform demonstrating enterprise architecture patterns**
+
+- **Nucleus Enterprise Platform:** Architected 100+ specialized .NET 8 libraries with plugin-based architecture, dynamic assembly loading, and Azure AD B2C integration as training reference implementation
+- **ContainerStore AI Infrastructure:** Designed GPU-aware Docker Compose orchestration with 20+ pre-configured services (Ollama LLM, SBERT, Qdrant, Keycloak) with CUDA acceleration for hands-on AI/ML training
+- **RebuildIt Code Generator:** Built LLM-powered CLI using Ollama and Handlebars templating for automated test generation and cross-framework migrations as practical AI tooling example
+- **Training Impact:** Provided hands-on learning environment for developers to explore enterprise architecture patterns, AI/ML integration, and modern DevOps practices
+
 #### Business Impact & Technical Excellence
 - **Leadership Roles:** Centers of Excellence Lead for .Net, Sales Enablement Engineer, Pre-Sales Technical Lead, Full-time Solutions Architect
 - **Enterprise Architecture Specializations:** **Event-Driven Architecture & Complex Event Processing**, **Platform Engineering & DevOps Leadership**, **Enterprise Integration & Message Queue Architecture**, **Testing Architecture & Quality Engineering**, database and application performance, reusable middleware frameworks, **organizational process design & change management**
