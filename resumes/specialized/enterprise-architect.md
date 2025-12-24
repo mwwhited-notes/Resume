@@ -11,7 +11,7 @@
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
 - **Stack Overflow:** [22K+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
-- **NuGet Profile:** [650K+ downloads](https://www.nuget.org/profiles/mwwhited/)
+- **NuGet Profile:** [796K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
 
@@ -119,7 +119,7 @@
 - **Enterprise Development Leadership:** Architecture frameworks increasing team productivity with measurable efficiency gains across multiple enterprise projects
 
 ### Enterprise Architecture Authority & Recognition
-- **Enterprise Community Impact:** 650K+ package downloads demonstrating widespread adoption of enterprise-ready architecture frameworks
+- **Enterprise Community Impact:** 796K+ package downloads demonstrating widespread adoption of enterprise-ready architecture frameworks
 - **Enterprise Technical Authority:** 22K+ Stack Overflow reputation with architecture solutions reaching millions of developers globally
 - **Enterprise Innovation Recognition:** GitHub Arctic Code Vault Contributor with proven beneficial enterprise architecture contributions
 - **Enterprise Technical Validation:** 100% verification of all technical architecture claims through comprehensive code review ensuring accuracy

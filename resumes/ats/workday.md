@@ -253,7 +253,7 @@ Principal Solutions Architect with over 20 years of experience bridging hardware
 ## Key Achievements
 
 ### Community Impact & Recognition
-- **650K+ total NuGet package downloads** across 20 published packages
+- **796K+ total NuGet package downloads** across 42 published packages
 - **22K+ Stack Overflow reputation** reaching nearly 5 million developers over 15+ years
 - **GitHub Arctic Code Vault Contributor** with multiple achievement badges including Pull Shark
 - **Top Package Downloads:** BinaryDataDecoders.ToolKit (36,270+ downloads), XSLT CLI tool (34,726+ downloads), I/O Abstractions (34,004+ downloads)
@@ -275,7 +275,7 @@ Principal Solutions Architect with over 20 years of experience bridging hardware
 ## Personal Projects & Technical Innovations
 
 ### Extensions for .NET Framework
-**20 NuGet packages with 650K+ total downloads**
+**42 NuGet packages with 796K+ total downloads**
 
 - **Vector Support for Microsoft SQL Server:** Custom SQLCLR implementation with SqlVector and SqlVectorF data types
 - **High-Performance Binary Data Processing:** Zero-allocation parsing framework using System.IO.Pipelines
@@ -329,7 +329,7 @@ Principal Solutions Architect with over 20 years of experience bridging hardware
 
 ### Technical Profiles
 - **GitHub:** github.com/mwwhited - 30+ repositories, Arctic Code Vault Contributor status with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
-- **NuGet:** nuget.org/profiles/mwwhited - 20 packages published, 650K+ total downloads
+- **NuGet:** nuget.org/profiles/mwwhited - 42 packages published, 796K+ total downloads
 - **Stack Overflow:** stackoverflow.com/users/89586/matthew-whited - 22K+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
 - **NPM:** npmjs.com/~mwwhited - Node.js package contributions and JavaScript library development
 

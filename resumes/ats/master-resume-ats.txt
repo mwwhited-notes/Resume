@@ -201,9 +201,9 @@ CERTIFICATIONS
 
 OPEN SOURCE CONTRIBUTIONS AND COMMUNITY RECOGNITION
 
-Extensions for .NET - 657K+ Downloads
+Extensions for .NET - 796K+ Downloads
 GitHub: https://github.com/OutOfBandDevelopment/dotex
-• 20+ NuGet packages with 657K+ total downloads
+• 42 NuGet packages with 796K+ total downloads
 • Vector Support for MS-SQL Server via SQLCLR with custom SqlVector/SqlVectorF types
 • Mathematical operations, binary serialization, and distance aggregation functions
 • BinaryDataDecoders.ToolKit: 36,270+ downloads
@@ -241,7 +241,7 @@ GitHub: https://github.com/mwwhited/SecondShooter
 Community Recognition:
 • Stack Overflow: 22,433+ reputation, 4.7M+ user reach, 606+ solutions spanning 16+ years
 • GitHub Achievements: Arctic Code Vault Contributor, Pull Shark (x2), Quickdraw, YOLO, Starstruck
-• NuGet Profile: 20+ packages, 657K+ total downloads
+• NuGet Profile: 42 packages, 796K+ total downloads
 • NPM Profile: 3 published packages including SignalR client and BeagleBone toolkit
 
 TECHNICAL ACHIEVEMENTS
@@ -264,7 +264,7 @@ Leadership and Influence:
 • Team Leadership: 125+ developers across Centers of Excellence
 • Training Delivery: 25+ enterprise programs spanning software, AI/ML, and hardware
 • Mentorship: Comprehensive professional development programs
-• Community Impact: 4.7M+ Stack Overflow reach, 657K+ package downloads
+• Community Impact: 4.7M+ Stack Overflow reach, 796K+ package downloads
 • Technical Innovation: Multiple industry-first implementations and frameworks
 
 SPECIALIZATIONS

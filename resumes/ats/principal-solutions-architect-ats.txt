@@ -128,9 +128,9 @@ CERTIFICATIONS
 
 OPEN SOURCE CONTRIBUTIONS AND COMMUNITY RECOGNITION
 
-Extensions for .NET - 657K+ Downloads
+Extensions for .NET - 796K+ Downloads
 GitHub: https://github.com/OutOfBandDevelopment/dotex
-• 20+ NuGet packages with 657K+ total downloads
+• 42 NuGet packages with 796K+ total downloads
 • Vector Support for MS-SQL Server via SQLCLR with custom SqlVector/SqlVectorF types
 • Mathematical operations, binary serialization, and distance aggregation functions
 • BinaryDataDecoders.ToolKit: 36,270+ downloads
@@ -153,7 +153,7 @@ GitHub: https://github.com/mwwhited/EmbeddedBakery
 Community Recognition:
 • Stack Overflow: 22,433+ reputation, 4.7M+ user reach, 606+ solutions spanning 16+ years
 • GitHub Achievements: Arctic Code Vault Contributor, Pull Shark (x2), Quickdraw, YOLO, Starstruck
-• NuGet Profile: 20+ packages, 657K+ total downloads with professional quality standards
+• NuGet Profile: 42 packages, 796K+ total downloads with professional quality standards
 • Industry Influence: Documented technical solutions and frameworks adopted by enterprise organizations
 
 KEY ACHIEVEMENTS AND BUSINESS IMPACT
@@ -180,7 +180,7 @@ Leadership and Organizational Impact:
 • Team Leadership: Centers of Excellence influence across 125+ developers
 • Training Excellence: 25+ enterprise programs spanning software, AI/ML, and hardware domains
 • Mentorship: Comprehensive professional development programs and career guidance
-• Community Impact: 4.7M+ Stack Overflow user reach and 657K+ package downloads
+• Community Impact: 4.7M+ Stack Overflow user reach and 796K+ package downloads
 
 SPECIALIZATIONS FOR PRINCIPAL SOLUTIONS ARCHITECT ROLES
 

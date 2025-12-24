@@ -19,7 +19,7 @@
 - **Pre-Sales Engineering Excellence:** Proof-of-concepts, technical demonstrations, business requirements analysis, and solution development expertise
 - **Framework Architecture Innovation:** Transformational product leadership (Shared Framework framework evolution) with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
-- **Community Impact:** 657K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Community Impact:** 796K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** 77% cloud cost reduction, dramatic performance improvements, crisis resolution, and organizational productivity enhancements
 
 ## Professional Skills
@@ -102,7 +102,7 @@
 
 ## Personal Projects
 
-- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 20 NuGet packages, 650K+ downloads, SQL Server vector support
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 42 packages, 796K+ downloads, SQL Server vector support
 - **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 200+ commits, FPGA/VHDL projects, custom 16-bit microprocessor
 - **Stack Overflow:** 22K+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
 - **[Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)** - Full Text + Semantic Search with LLM reranking
@@ -114,5 +114,5 @@
 - **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
 - **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22K+ reputation, 600+ solutions, nearly 5 million user reach
 - **[NPM](https://www.npmjs.com/~mwwhited)**
-- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 650K+ downloads across 20 packages
+- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 796K+ downloads across 42 packages
 - **[Personal Profile](http://matthewwhited.com)**

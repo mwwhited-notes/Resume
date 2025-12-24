@@ -11,7 +11,7 @@
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
 - **Stack Overflow:** [22K+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
-- **NuGet Profile:** [650K+ downloads](https://www.nuget.org/profiles/mwwhited/)
+- **NuGet Profile:** [796K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
 
@@ -141,7 +141,7 @@
 - **Zero vendor partnerships** ensuring completely unbiased recommendations optimized for client success rather than vendor profit margins
 
 ### Technical Authority Validation
-- **652K+ NuGet package downloads** demonstrating practical expertise and community value creation
+- **796K+ NuGet package downloads** demonstrating practical expertise and community value creation
 - **22K+ Stack Overflow reputation** with C# Gold Badge representing recognized technical authority and knowledge sharing
 - **GitHub Arctic Code Vault Contributor** with verified long-term technical contributions and innovation leadership
 - **Industry-first innovations** including SQLCLR vector extensions and protocol implementations becoming vendor standards

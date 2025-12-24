@@ -12,7 +12,7 @@
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
-- **NuGet Profile:** [652K+ downloads](https://www.nuget.org/profiles/mwwhited/)
+- **NuGet Profile:** [796K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
 
@@ -161,7 +161,7 @@
 
 ### Enterprise Leadership & Community Impact
 - **Enterprise Team Influence:** Influenced 125+ developers across enterprise teams creating lasting architectural standards that persist across multiple technology transformations
-- **Technical Authority:** 652,868+ total NuGet package downloads and 22,433+ Stack Overflow reputation demonstrating recognized expertise in enterprise technologies
+- **Technical Authority:** 796,000+ total NuGet package downloads and 22,433+ Stack Overflow reputation demonstrating recognized expertise in enterprise technologies
 - **Strategic Architecture Leadership:** Led successful enterprise initiatives including framework development, performance optimization, and strategic technology adoption
 - **Business Value Creation:** Delivered quantifiable business impact through strategic architectural guidance, technology optimization, and proven enterprise solutions
 

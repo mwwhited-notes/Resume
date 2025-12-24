@@ -20,7 +20,7 @@
 - **Framework Architecture Innovation:** Created enterprise-grade framework ecosystems including 50+ library OoBDev .NET Framework and transformational Shared Framework evolution with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **ML/AI Strategic Foresight:** Comprehensive AI strategy development, hybrid search innovation, and early recognition of LLM cost/efficiency limitations
-- **Community Impact:** 657K+ package downloads, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Community Impact:** 796K+ package downloads across 42 packages, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** 77% cloud cost reduction ($13,800+ annual savings), dramatic performance improvements, crisis resolution, and organizational productivity enhancements
 
 ## Professional Skills
@@ -288,6 +288,6 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
 - **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22K+ reputation, 600+ solutions, nearly 5 million user reach
 - **[Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)**
 - **[NPM](https://www.npmjs.com/~mwwhited)**
-- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 650K+ downloads across 20 packages
+- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 796K+ downloads across 42 packages
 - **[Personal Profile](http://matthewwhited.com)**
 - **[Flickr](http://www.flickr.com/photos/mwwhited/)**

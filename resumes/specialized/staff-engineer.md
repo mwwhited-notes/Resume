@@ -11,7 +11,7 @@
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
 - **Stack Overflow:** [22K+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
-- **NuGet Profile:** [650K+ downloads](https://www.nuget.org/profiles/mwwhited/)
+- **NuGet Profile:** [796K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
 
@@ -147,7 +147,7 @@
 ## Quantifiable Technical Achievements
 
 ### Community Technical Authority
-- **652K+ NuGet package downloads** across 20+ production-ready packages demonstrating technical excellence and community value
+- **796K+ NuGet package downloads** across 42 production-ready packages demonstrating technical excellence and community value
 - **22K+ Stack Overflow reputation** with C# Gold Badge (1,323 score) representing top 3% of global C# developers
 - **GitHub Arctic Code Vault Contributor** with verified technical contributions and long-term value recognition
 - **4.7 million developer reach** through 600+ Stack Overflow solutions spanning 16+ years of consistent technical contribution

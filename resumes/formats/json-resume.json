@@ -5,7 +5,7 @@
     "label": "Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist",
     "email": "matt@whited.us",
     "phone": "+1 (614) 989-1748",
-    "summary": "Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. The trusted technology advisor companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions, 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients. Proven community authority with 652K+ package downloads, 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status.",
+    "summary": "Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. The trusted technology advisor companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions, 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients. Proven community authority with 796K+ package downloads, 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status.",
     "location": {
       "city": "Baltimore",
       "region": "MD",
@@ -328,16 +328,16 @@
   ],
   "projects": [
     {
-      "name": "Extensions for .Net - 652K+ Downloads",
+      "name": "Extensions for .Net - 796K+ Downloads",
       "url": "https://github.com/OutOfBandDevelopment/dotex",
-      "description": "20 NuGet packages with 650K+ total downloads. Vector Support for MS-SQL Server via SQLCLR and extensive .NET abstractions. Top packages: BinaryDataDecoders.ToolKit includes extensive downloads."
+      "description": "42 NuGet packages with 796K+ total downloads. Vector Support for MS-SQL Server via SQLCLR and extensive .NET abstractions. Top packages: BinaryDataDecoders.ToolKit includes extensive downloads."
       "keywords": [
         "Vector Search",
         "SQL Server",
         "SQLCLR",
         ".NET Extensions",
         "NuGet Packages",
-        "652K Downloads"
+        "796K Downloads"
       ]
     },
     {
