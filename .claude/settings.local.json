@@ -128,7 +128,8 @@
       "WebFetch(domain:ralliant.eightfold.ai)",
       "WebFetch(domain:www.cybercoders.com)",
       "Bash(awk:*)",
-      "Bash(sort:*)"
+      "Bash(sort:*)",
+      "WebFetch(domain:www.flickr.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
