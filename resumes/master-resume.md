@@ -366,7 +366,8 @@
 - **Architecture Documentation:** PlantUML diagram-as-code, Visio enterprise diagrams, Figma wireframes, pen/paper ideation
 - **Quality Assurance:** Test-driven development, continuous integration, automated testing frameworks, code review processes, architecture reviews
 - **Performance Engineering:** Zero-allocation programming, memory optimization, scalability design, application optimization, database optimization
-- **Security Architecture:** Authentication/authorization, OAuth implementation, audit logging, compliance frameworks, security reviews
+- **Security Architecture:** Authentication/authorization, OAuth2/OIDC implementation, audit logging, compliance frameworks, security reviews
+- **Identity Providers:** Azure AD B2C, Keycloak, JWT token management, claim-based authorization, token exchange patterns
 - **Business Requirements:** Requirements gathering and documentation, solution development, business analysis, stakeholder management
 
 ### Data Architecture & Analytics
@@ -386,19 +387,30 @@
 - **Continuous Integration/Continuous Delivery (CI/CD):** Azure Pipelines, GitHub Actions, Bitbucket Pipelines, automated deployment, infrastructure as code
 - **Project Management Integration:** JIRA for issue tracking, Confluence for documentation, Azure DevOps work items, Microsoft Project for resource planning
 
+### Web & Frontend Technologies
+**Modern Frontend Development:**
+- **React Ecosystem:** React 19, Redux Toolkit, PrimeReact v10, component-based architecture
+- **TypeScript:** Advanced generics, type inference, schema validation with Zod v4
+- **Build Tooling:** Vite, Vitest testing framework, NSwag code generation
+- **State Management:** Redux Toolkit, React Context, custom hooks
+- **UI/UX Development:** Responsive design, theme systems (light/dark), accessibility, drag-drop interactions
+- **Python Web:** Flask for AI/ML service endpoints
+
 ### AI/ML & Advanced Technologies
 **Enterprise AI Integration:**
 - **Machine Learning:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), production model deployment, custom ONNX inference engines
 - **Vector Search:** Custom LSH algorithms (16-bit hashes), approximate nearest neighbor search, hybrid search architectures
-- **LLM Integration:** OpenAI, Ollama local deployment, RAG systems, business applications, semantic kernel orchestration
+- **LLM Integration:** OpenAI, Ollama/OllamaSharp, GroqCloud, RAG systems, business applications
+- **AI Orchestration:** Microsoft Semantic Kernel, function-calling agents, multi-model pipelines
 - **Performance Optimization:** Sub-linear similarity search, caching strategies, scalability engineering
-- **Custom AI Pipelines:** GPU-accelerated processing, bilingual document processing, multi-modal AI orchestration
+- **Custom AI Pipelines:** GPU/CUDA-accelerated processing, bilingual document processing, multi-modal AI orchestration
 - **Advanced Vector Operations:** Custom SQL CLR vector aggregates, centroid calculations, statistical operations
-- **AI Development Tools:** Handlebars template engines with LLM integration, automated code generation, batch processing frameworks
+- **AI Development Tools:** Handlebars template engines with LLM integration, automated code generation, NSwag API client generation
 
 ### Specialized Technologies & Domains
 **Unique Expertise:**
-- **Zero-Allocation Programming:** System.IO.Pipelines, Memory<T>, Span<T>, high-performance .NET with **.NET 8.0 Adoption Leadership** (all 20+ NuGet packages maintained at latest framework)
+- **Zero-Allocation Programming:** System.IO.Pipelines, Memory<T>, Span<T>, high-performance .NET with **.NET 9.0 Adoption Leadership** (all 42 NuGet packages maintained at latest framework)
+- **Advanced .NET Patterns:** Dynamic assembly loading, plugin architecture, Named Pipes IPC, expression tree compilation
 - **Binary Data Processing:** Protocol parsing, file format implementations, network protocols
 - **Reverse Engineering:** Protocol analysis, legacy system integration, software archaeology
 - **Domain-Specific Languages:** ANTLR, custom compilers, AST manipulation, XSLT code generation
@@ -406,7 +418,9 @@
 - **Specialized Domain Applications:** **Fencing electronic scoring systems**, **radiation detection monitoring**, device communication protocols, Arduino integration
 - **PCB Design & Electronics:** KiCad and Eagle for circuit board layout, schematic capture, and electronic hardware design
 - **Message Queuing Systems:** SQL Server Service Broker, Azure Service Bus, RabbitMQ, custom correlation tracking
-- **Document Processing:** Apache Tika integration, multi-format conversion pipelines, stream-based processing
+- **Document Processing:** Apache Tika integration, wkhtmltopdf, HtmlToOpenXml, multi-format conversion pipelines (PDF, HTML, DOCX, Markdown)
+- **Healthcare Technology:** HL7 v2.3-2.5 integration standards, HIPAA compliance, medical device software, FDA-regulated environments
+- **Communication Services:** SendGrid email, Twilio SMS, Google Maps API, Bing Maps API
 - **Home Automation:** Multi-scale image tiling, TOTP authentication, barcode generation, IoT device orchestration
 - **Sports Technology:** Real-time tournament scoring, proprietary hardware protocol decoding, HDMI switching, camera control
 
@@ -424,7 +438,7 @@
 **Professional Proficiency:**
 - **Version Control:** Git, TFS, SVN, Visual SourceSafe, branching strategies, code review processes, Bitbucket
 - **Build Systems:** MSBuild, advanced Directory.Build.props patterns, dependency management
-- **Testing:** MSTest, NUnit, integration testing, automated testing frameworks
+- **Testing:** MSTest, NUnit, xUnit, Vitest, Moq, integration testing, automated testing frameworks
 - **Project Management:** Agile (Scrum, Kanban, XP), Waterfall, Azure DevOps, JIRA, Confluence, Microsoft Project, estimation
 - **Design & Architecture Tools:** Pen/paper, PlantUML, Visio, Figma, Mermaid, whiteboards, diagram-as-code versioning
 - **Development Environments:** Visual Studio, Visual Studio Code, IntelliJ IDEA, Eclipse, Arduino IDE, Atmel Studio, Vivado
