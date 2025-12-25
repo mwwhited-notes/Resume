@@ -56,12 +56,8 @@ Match repository to employer based on:
 - User confirmation if unclear
 
 **Current Employers (for reference):**
-- Cadwell Industries (October 2025 - Present)
-- Green Onion (February 2025 - Present)
-- Out-of-Band Development, LLC (March 2015 - October 2025)
-- Eliassen Group/Lightwell (September 2015 - October 2024)
-- ERisk Services (November 2024 - August 2025)
-- Prior employers per master resume
+Reference `resumes/master-resume.md` for current employment dates and positions.
+The master resume is the authoritative source for all employment history.
 
 ---
 

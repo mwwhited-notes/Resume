@@ -33,12 +33,12 @@ Create todo list with these initial tasks:
 # Follow existing job search protocol
 read protocols/job-search.md and execute all steps
 ```
-- **EXCLUSION LIST VERIFICATION FIRST:** Review `./SearchResults/excluded-companies.md` and exclude all companies associated with Peter Thiel, Elon Musk, or Marc Andreessen
+- **EXCLUSION LIST VERIFICATION FIRST:** Review `./SearchResults/excluded-companies.md` and exclude all companies per exclusion list
 - **Check Application History:** Review `./SearchResults/applied-to.md` and `./SearchResults/apply-next.md` to avoid duplicates
 - **Already Applied Check:** If position found in either tracking file, respond with "Already applied to [Company] - [Position] on [Date]" and skip this position
-- **Excluded Company Check:** If company found in exclusion list, respond with "Skipping [Company] - on exclusion list due to [investor association]" and skip this position
+- **Excluded Company Check:** If company found in exclusion list, respond with "Skipping [Company] - on exclusion list" and skip this position
 - Use all existing job search methodology
-- Apply user preferences (remote priority, $180K+/$85+hr, no clearance)
+- Apply user preferences from CLAUDE.md (location, compensation minimums, exclusions)
 - Focus on positions with direct application links
 - Filter out companies applied to within last 6 months
 - Document results in SearchResults/Jobs/ directory
@@ -81,14 +81,14 @@ For each position: `(Technical Match + Experience Match + Culture Match + Applic
 - **Maximum:** No more than 8 positions per execution to maintain quality
 
 #### Step 2.3: Final Validation
-Ensure selected positions meet all criteria:
-- ✅ Remote work available
-- ✅ Compensation ≥ $180K/$85hr
-- ✅ No security clearance required
+Ensure selected positions meet all criteria from CLAUDE.md:
+- ✅ Work arrangement matches preferences (remote/hybrid/on-site per CLAUDE.md)
+- ✅ Compensation meets minimums specified in CLAUDE.md
+- ✅ Meets any exclusion criteria (e.g., no clearance, specific industries) from CLAUDE.md
 - ✅ Direct application process available
 - ✅ Job posting is current (within 30 days)
 - ✅ **Not Previously Applied:** Verify against both applied-to.md and apply-next.md (no application within 6 months)
-- ✅ **Commute Analysis:** For on-site/hybrid positions in Baltimore metro, verify company address and calculate commute time from 1221 N Calvert St, Baltimore, MD 21202
+- ✅ **Commute Analysis:** For on-site/hybrid positions, verify company address and calculate commute time from user's address in CLAUDE.md
 
 ### Phase 3: Company Research Execution
 
@@ -104,7 +104,7 @@ read protocols/company-research.md and execute all steps
 - **Business Model & Market Position:** Core services, revenue model, market position, recent strategic moves
 - **Technology Stack & Engineering:** Technology choices, architecture decisions, engineering culture, scale metrics
 - **Culture & Opportunities:** Remote work policies, company values, hiring philosophy, growth trajectory
-- **Strategic Alignment:** How company mission/values align with Matthew's expertise and career goals
+- **Strategic Alignment:** How company mission/values align with candidate's expertise and career goals
 
 **Research Output Requirements:**
 - Create company analysis document: `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md`
@@ -122,9 +122,9 @@ For each company researched:
 - **Competitive Positioning:** How company differentiates itself, market challenges, growth opportunities
 
 **Application Positioning Strategy:**
-- **Value Proposition Alignment:** Connect Matthew's background to company's specific strategic needs
+- **Value Proposition Alignment:** Connect candidate's background to company's specific strategic needs
 - **Language Integration:** Use company's terminology and phrases naturally in application materials
-- **Problem-Solution Fit:** Position Matthew's crisis resolution and innovation experience to address company's stated challenges
+- **Problem-Solution Fit:** Position candidate's unique expertise and experience to address company's stated challenges
 - **Cultural Alignment:** Demonstrate understanding of company values and work environment preferences
 
 ### Phase 4: Directory Structure Creation
@@ -135,20 +135,18 @@ mkdir -p ./SearchResults/targeted
 ```
 
 #### Step 4.2: File Naming Convention
-**Format:** `MatthewWhited-{CompanyName}-{JobTitle}-{resume|coverletter|intro}.md`
+**Format:** `{CandidateName}-{CompanyName}-{JobTitle}-{resume|coverletter|intro}.md`
 **Storage Location:** `./SearchResults/targeted/`
 
-**Examples:**
-- `./SearchResults/targeted/MatthewWhited-Microsoft-Principal-AI-ML-Architect-resume.md`
-- `./SearchResults/targeted/MatthewWhited-Microsoft-Principal-AI-ML-Architect-coverletter.md`
-- `./SearchResults/targeted/MatthewWhited-Microsoft-Principal-AI-ML-Architect-intro.md`
-- `./SearchResults/targeted/MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-resume.md`
-- `./SearchResults/targeted/MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-coverletter.md`
-- `./SearchResults/targeted/MatthewWhited-IntelliPro-Principal-AI-ML-Engineer-intro.md`
+**Examples (using placeholder name):**
+- `./SearchResults/targeted/[Name]-Acme-Principal-Architect-resume.md`
+- `./SearchResults/targeted/[Name]-Acme-Principal-Architect-coverletter.md`
+- `./SearchResults/targeted/[Name]-Acme-Principal-Architect-intro.md`
 
 **Naming Rules:**
+- Use candidate's name from master resume
 - Replace spaces with hyphens in company and job titles
-- Use proper case for company names (Microsoft, IntelliPro, not microsoft)
+- Use proper case for company names (Acme, TechCorp, not acme)
 - Abbreviate long job titles reasonably (Principal-Solutions-Architect-AI-ML)
 - Maximum filename length of 100 characters
 
@@ -188,13 +186,13 @@ For each selected position:
 
 #### Step 4.3: Resume Structure
 ```markdown
-# Matthew Whited
+# [Candidate Name from Master Resume]
 ## [Job Title from Posting] | [Company-Specific Value Proposition]
 
 ---
 
 ## Contact Information
-[Standard contact information - consistent across all resumes]
+[Standard contact information from master resume - consistent across all resumes]
 
 ---
 
@@ -252,10 +250,10 @@ For each selected position:
 
 #### Step 5.3: Quick Intro Template with Company Research Integration
 ```markdown
-# Quick Introduction - Matthew Whited
+# Quick Introduction - [Candidate Name]
 **{Company} {Position Title}**
 
-I'm a Principal Solutions Architect with 20+ years of [relevant domain] experience, having recently [specific relevant achievement that aligns with company's strategic needs from research]. My background includes [relevant leadership/technical experience] while achieving [specific accomplishment that addresses company's stated challenges]. I'm particularly drawn to [Company]'s [specific mission/initiative/technology from company research] and see a perfect opportunity to apply my deep experience with [relevant domain/technology matching company's technology stack] to [specific company challenge/strategic initiative from research]. My unique combination of [technical innovation/community authority] and proven business impact—demonstrated through [specific metric that resonates with company's scale and market]—positions me to drive meaningful results for [Company]'s [relevant strategic goal/growth initiative from research].
+I'm a [Primary Job Title from master resume] with [X]+ years of [relevant domain] experience, having recently [specific relevant achievement that aligns with company's strategic needs from research]. My background includes [relevant leadership/technical experience] while achieving [specific accomplishment that addresses company's stated challenges]. I'm particularly drawn to [Company]'s [specific mission/initiative/technology from company research] and see a perfect opportunity to apply my deep experience with [relevant domain/technology matching company's technology stack] to [specific company challenge/strategic initiative from research]. My unique combination of [technical innovation/community authority] and proven business impact—demonstrated through [specific metric that resonates with company's scale and market]—positions me to drive meaningful results for [Company]'s [relevant strategic goal/growth initiative from research].
 ```
 
 **Company Research Integration Requirements:**
@@ -278,16 +276,16 @@ For each position:
 
 #### Step 5.2: Cover Letter Structure
 ```markdown
-# Cover Letter - Matthew Whited
-**Position:** [Job Title]  
-**Company:** [Company Name]  
+# Cover Letter - [Candidate Name]
+**Position:** [Job Title]
+**Company:** [Company Name]
 **Date:** [Current Date]
 
 ---
 
-**[Hiring Manager Name]**  
-**[Title if known]**  
-**[Company Name]**  
+**[Hiring Manager Name]**
+**[Title if known]**
+**[Company Name]**
 
 Dear [Hiring Manager Name / Hiring Team],
 
@@ -310,9 +308,9 @@ Dear [Hiring Manager Name / Hiring Team],
 [Next steps and availability]
 [Professional closing]
 
-Sincerely,  
-Matthew Whited  
-[Email] | [Phone] | [LinkedIn]
+Sincerely,
+[Candidate Name]
+[Email from master resume] | [Phone from master resume] | [LinkedIn from master resume]
 
 ---
 
@@ -325,7 +323,7 @@ Matthew Whited
 - **Language & Terminology:** Use company's specific terminology, mission language, and technology names from research
 - **Problem-Solution Alignment:** Address specific pain points and challenges identified in company analysis
 - **Culture Demonstration:** Show understanding of company values, work environment, and innovation approach from research
-- **Competitive Positioning:** Position Matthew's experience to address company's stated market challenges and growth opportunities
+- **Competitive Positioning:** Position candidate's experience to address company's stated market challenges and growth opportunities
 
 **Role-Specific Elements:**
 - Address every "required" qualification from job posting
@@ -475,8 +473,8 @@ Ensure all files created:
 **File:** `./SearchResults/Lessons/suggested.md`
 
 **Identify and Document Learning Opportunities:**
-1. **Gap Analysis:** Compare job requirements against Matthew's current expertise across all targeted positions
-2. **Technology Assessment:** Note specific technologies, frameworks, or certifications mentioned but not in Matthew's background
+1. **Gap Analysis:** Compare job requirements against candidate's current expertise (from master resume) across all targeted positions
+2. **Technology Assessment:** Note specific technologies, frameworks, or certifications mentioned but not in candidate's background
 3. **Priority Classification:** Categorize gaps as High/Medium/Low priority based on:
    - Frequency of appearance across target positions
    - Compensation impact potential
@@ -542,10 +540,10 @@ Ensure all files created:
 ```
 ./SearchResults/targeted/
 ├── Application_Strategy_YYYYMMDD.md
-├── MatthewWhited-[Company1]-[Role1]-resume.md
-├── MatthewWhited-[Company1]-[Role1]-coverletter.md
-├── MatthewWhited-[Company2]-[Role2]-resume.md
-├── MatthewWhited-[Company2]-[Role2]-coverletter.md
+├── [CandidateName]-[Company1]-[Role1]-resume.md
+├── [CandidateName]-[Company1]-[Role1]-coverletter.md
+├── [CandidateName]-[Company2]-[Role2]-resume.md
+├── [CandidateName]-[Company2]-[Role2]-coverletter.md
 └── [Additional company applications...]
 ```
 
@@ -576,11 +574,13 @@ Ensure all files created:
 - **User Preference Changes:** Any changes to work preferences or requirements
 
 ### Version Control
-- **Protocol Version:** 1.0 (Initial Creation)
-- **Last Updated:** August 11, 2025
-- **Next Review:** November 11, 2025
+- **Protocol Version:** 2.0 (Made generic and reusable)
+- **Last Updated:** December 25, 2025
+- **Next Review:** March 25, 2026
 - **Update Frequency:** Quarterly or as needed based on market changes
 
 ---
 
 **Protocol Completion Indicator:** User receives executive summary with targeted applications ready for immediate submission, including specific application strategy and timeline for optimal results.
+
+**Note:** This protocol is designed to be reusable. All candidate-specific information (name, contact, preferences, exclusions) should be derived from master resume (resumes/master-resume.md) and CLAUDE.md configuration.

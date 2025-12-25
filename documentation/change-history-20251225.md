@@ -183,9 +183,62 @@ All markdown tables must have:
 
 ## Protocol Updates
 
+**PRINCIPLE CHANGE:** Protocols should NOT contain hardcoded metrics or employment dates. They should reference `resumes/master-resume.md` as the authoritative source.
+
 ### protocols/consistency-check.md
-- Updated line 144: Changed "Current Position" from Green Onion to Cadwell Industries
-- Added line 145: "Active Contract" for Green Onion concurrent work
+- Removed hardcoded employment dates - now references master resume
+- Removed hardcoded metrics - now references master resume
+- Updated verification commands to be generic (compare against master resume)
+- Updated spot-check guidance to reference master resume
+
+### protocols/job-search.md
+- Removed hardcoded metrics (650K, 796K, etc.) - now references master resume
+- Community validation section now references master resume for current metrics
+
+### protocols/external-findings-import.md
+- Removed hardcoded employer list with dates
+- Now references master resume as authoritative source for employment history
+
+---
+
+## Session 2: Protocol Genericization (December 25, 2025)
+
+### Key Principle Established
+**Protocols should NOT contain hardcoded user-specific content.** All job titles, compensation requirements, exclusion lists, and personal information should be derived from source documents:
+- `resumes/master-resume.md` - Target job titles, skills, experience
+- `CLAUDE.md` - User preferences (compensation, location, exclusions)
+- `./SearchResults/excluded-companies.md` - Company/industry exclusions
+
+### Protocols Made Generic and Reusable
+
+#### protocols/job-search.md (v2.0)
+- Removed hardcoded exclusion companies (Microsoft, Salesforce, Peter Thiel, etc.) - now references excluded-companies.md
+- Removed hardcoded job titles - now references master resume
+- Removed hardcoded compensation ($180K+, $85+/hr) - now references CLAUDE.md
+- Removed hardcoded address (1221 N Calvert St, Baltimore) - now references CLAUDE.md
+- Removed hardcoded search terms - now dynamically built from master resume
+- Made all platform-specific search queries use placeholders for job titles and technologies
+- Updated example templates to use placeholders instead of specific values
+
+#### protocols/targeted-application.md (v2.0)
+- Replaced "Matthew Whited" name references with "[Candidate Name from Master Resume]"
+- Made file naming convention generic: `{CandidateName}-{CompanyName}-{JobTitle}` format
+- Updated all template sections to pull candidate info from master resume
+- Removed specific address and compensation references
+- Updated exclusion verification to reference excluded-companies.md
+- Made resume and cover letter templates fully generic
+
+#### protocols/company-research.md
+- Updated purpose to explain reusable design
+- Removed "Matthew Whited" references - now references candidate from master resume
+- Made technical alignment search use master resume technologies
+- Updated analysis template to reference excluded-companies.md for exclusions
+- Generalized alignment assessment section
+
+#### protocols/position-fit-analysis.md
+- Removed specific investor name references (Peter Thiel, Elon Musk, Marc Andreessen)
+- Updated to reference excluded-companies.md for all exclusion checks
+- Made gap analysis reference master resume instead of user name
 
 ---
 
@@ -204,9 +257,14 @@ All markdown tables must have:
 11. resumes/formats/json-resume.json
 12. resumes/formats/fresh-schema.yaml
 13. protocols/consistency-check.md
-14. CLAUDE.md
-15. documentation/style-guide.md
-16. documentation/change-history-20251225.md (this file)
+14. protocols/job-search.md (v2.0 - made reusable)
+15. protocols/targeted-application.md (v2.0 - made reusable)
+16. protocols/company-research.md (made reusable)
+17. protocols/position-fit-analysis.md (made reusable)
+18. protocols/external-findings-import.md
+19. CLAUDE.md
+20. documentation/style-guide.md
+21. documentation/change-history-20251225.md (this file)
 
 ---
 

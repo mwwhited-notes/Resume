@@ -107,7 +107,7 @@ Create targeted resumes for each specific position type using master resume as a
 - Consistent job titles and company names
 - Aligned achievement language and metrics
 - Current contact information
-- **Style compliance**: General quantitative language (650K+ not 652,868+)
+- **Style compliance**: General quantitative language (reference master resume for current metrics)
 - **Language consistency**: Natural, conversational terms vs. exact precision
 
 ### 3. Check Structured Resume Formats (DEPRECATED - covered in Section 2)
@@ -134,18 +134,19 @@ Update all profile documents using master resume as authoritative source and car
 - **Hidden Expertise Integration:** Incorporate career background revelations (crisis resolution, vendor-neutral advisory, etc.)
 - **Resume Multi-Track Capability:** Specialized resumes can target multiple architecture disciplines (Platform, Enterprise, Solutions)
 - **Profile vs Resume Strategy:** Profiles maintain single-title focus while resumes provide comprehensive specialization coverage
-- **Style Alignment:** Apply general quantitative language per style guide (650K+ not 652,868+)
+- **Style Alignment:** Apply general quantitative language per style guide (reference master resume for current metrics)
 - **Natural Language:** Use conversational terms maintaining master resume accuracy
 
 ### 5. Verify Position Information Consistency
 Ensure across ALL documents using master resume as authoritative source:
 
 **Employment History Verification:**
-- **Current Position:** Cadwell Industries (October 2025 - Present) appears first chronologically per master resume
-- **Active Contract:** Green Onion (February 2025 - Present) concurrent contract work
-- **Recent Positions:** ERisk Services, Eliassen Group dates and details match master resume exactly
+Reference `resumes/master-resume.md` for authoritative employment dates. Verify:
+- **Current Position:** First chronologically (most recent position from master resume)
+- **Active Contracts:** Any concurrent contract work appears with correct dates per master resume
+- **Recent Positions:** All dates and details match master resume exactly
 - **Complete Work History:** All positions from master resume properly represented with accurate dates
-- **Out-of-Band Development:** Independent consulting (March 2015 - Present) properly positioned per master resume
+- **Employment End Dates:** Verify all "Present" vs. specific end dates match master resume
 - **Achievement Language:** Conservative, professional tone maintaining master resume accuracy
 - **Technical Claims:** All validated against master resume technical innovation portfolio
 - **Career Background Integration:** Position descriptions enhanced with career background context where appropriate
@@ -215,14 +216,15 @@ find resumes/ profiles/ -name "*.md" ! -name "master-resume.md" -exec grep -l "P
 find resumes/ profiles/ -name "*.md" ! -name "master-resume.md" -exec grep -l "Fractional CTO" {} \; # Should be minimal
 
 # Check quantitative language compliance across ALL markdown files
-find resumes/ profiles/ -name "*.md" -exec grep -l "657K" {} \;  # Should appear in presentation documents
-find resumes/ profiles/ -name "*.md" -exec grep -l "657,373" {} \;  # Should only appear in master-resume.md
+# Reference master-resume.md for current NuGet download count, then verify consistency
+grep "NuGet.*downloads" resumes/master-resume.md  # Get current metric from master
+find resumes/ profiles/ -name "*.md" -exec grep -l "NuGet.*downloads" {} \;  # Find all files with metric
 
 # Verify Principal Solutions Architect positioning across files
 find resumes/ profiles/ -name "*.md" -exec grep -l "Platform Architecture Excellence" {} \;
 
-# Check for outdated package download numbers
-find resumes/ profiles/ -name "*.md" -exec grep -l "650K" {} \;  # Should be updated to 657K+
+# Check for outdated package download numbers by comparing to master resume
+# Master resume is authoritative - all other files should match its general format
 ```
 
 ## Success Criteria
@@ -267,7 +269,7 @@ grep -c "Principal Solutions Architect\|Fractional CTO\|Principal Platform Archi
 1. Select 3-4 random files from different directories for manual review
 2. Verify current position appears first in all chronological listings
 3. Confirm contact information is current across all documents
-4. Check quantitative language compliance (657K+ vs exact numbers)
+4. Check quantitative language compliance (metrics match master resume)
 5. Verify Platform Architecture Excellence positioning in core differentiators
 
 ### 4. Specialized Resume Cover Letter Validation

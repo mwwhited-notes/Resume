@@ -17,8 +17,8 @@ Analyze individual job postings provided by URL to determine fit quality and aut
    - **CRITICAL:** Check company against `./SearchResults/excluded-companies.md` BEFORE proceeding with analysis
    - **INDUSTRY CLASSIFICATION:** Identify primary industry (fintech, blockchain, cannabis, marketing/advertising, government contractor)
    - **If company is excluded:** Immediately stop analysis and report: "This company is on the exclusion list due to [specific reason: industry/investor association/company exclusion]. Analysis cannot proceed."
-   - **Verify investor associations:** Check for connections to Peter Thiel, Elon Musk, or Marc Andreessen
-   - **Verify company exclusions:** Check for Microsoft, Salesforce, Big Tech (Meta, Alphabet, Amazon, Netflix, Oracle)
+   - **Verify investor associations:** Check against investor exclusions in `./SearchResults/excluded-companies.md`
+   - **Verify company exclusions:** Check against specific company exclusions in `./SearchResults/excluded-companies.md`
    - **Only proceed if company is approved:** Continue with company intelligence phase
 
 2. **Company Intelligence**
@@ -233,8 +233,8 @@ File: `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md`
 **Update Suggested Learning File:** `./SearchResults/Lessons/suggested.md`
 
 **Identify and Document Learning Opportunities:**
-1. **Gap Analysis:** Compare job requirements against Matthew's current expertise
-2. **Technology Assessment:** Note specific technologies, frameworks, or certifications mentioned but not in Matthew's background
+1. **Gap Analysis:** Compare job requirements against candidate's current expertise (from master resume)
+2. **Technology Assessment:** Note specific technologies, frameworks, or certifications mentioned but not in candidate's background
 3. **Priority Classification:** Categorize gaps as High/Medium/Low priority based on:
    - Frequency of appearance across positions
    - Compensation impact potential

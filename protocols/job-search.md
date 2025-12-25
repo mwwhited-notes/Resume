@@ -1,7 +1,12 @@
 # Job Search Protocol - Comprehensive Market Analysis
 
 ## Purpose
-This protocol provides a systematic approach to conducting comprehensive job searches across multiple platforms, targeting Principal Solutions Architect, CTO, and senior technology leadership roles. The process creates detailed market analysis with rankings based on interest level and likelihood of success, automatically feeds high-quality opportunities into apply-next.md for tracking, and triggers targeted application creation for the best matches.
+This protocol provides a systematic approach to conducting comprehensive job searches across multiple platforms. The process creates detailed market analysis with rankings based on interest level and likelihood of success, automatically feeds high-quality opportunities into apply-next.md for tracking, and triggers targeted application creation for the best matches.
+
+**IMPORTANT:** This protocol is designed to be reusable. All job titles, compensation requirements, and search criteria should be derived from:
+- `resumes/master-resume.md` - Target job titles, skills, and experience
+- `CLAUDE.md` - User preferences (compensation, location, exclusions)
+- `./SearchResults/excluded-companies.md` - Company/industry exclusions
 
 ## When to Execute This Protocol
 - Quarterly job market assessment
@@ -20,105 +25,107 @@ mkdir -p /current/src/SearchResults/Jobs
 ### 2. Company Exclusion Verification
 **CRITICAL STEP:** Before executing any job search, review exclusion list to avoid excluded companies:
 
-- **Read Exclusion List:** Review `./SearchResults/excluded-companies.md` for complete list of companies to exclude
-- **Industry Exclusions:** Automatically exclude fintech, blockchain/cryptocurrency, cannabis, marketing/advertising technology, government contractors
-- **Company Exclusions:** Exclude Microsoft, Salesforce, Big Tech (Meta/Facebook, Alphabet/Google, Amazon, Netflix, Oracle, OpenAI)
-- **Investor Exclusions:** Exclude Palantir, Tesla, SpaceX, Neuralink, X (Twitter), all Founders Fund portfolio companies, all a16z portfolio companies
-- **Portfolio Company Check:** When researching any company, verify against investor associations (Peter Thiel, Elon Musk, Marc Andreessen, Sam Altman)
+- **Read Exclusion List:** Review `./SearchResults/excluded-companies.md` for complete list of companies and industries to exclude
+- **Industry Exclusions:** Apply all industry exclusions defined in the exclusion list
+- **Company Exclusions:** Apply all specific company exclusions defined in the exclusion list
+- **Investor Exclusions:** Apply investor/portfolio exclusions if defined in the exclusion list
 - **Industry Classification:** Always identify company's primary industry before proceeding with analysis
+
+**Note:** If no exclusion file exists, create `./SearchResults/excluded-companies.md` with user's exclusion preferences before proceeding.
 
 ### 3. Master Resume Analysis & Understanding
 **CRITICAL STEP:** After exclusion verification, thoroughly analyze the master resume to understand optimal job matching criteria:
 
-- **Read Master Resume:** Complete analysis of `resumes/master-resume.md` to understand multi-track positioning capabilities
-- **Executive Track Understanding:** Fractional CTO, Chief Solutions Architect, Enterprise Architect positioning
-- **Strategic Architecture Track:** Principal Solutions Architect, Solution Architect, AI/ML Principal specialization 
-- **Core Differentiators:** Pure .NET AI/ML innovation, 125+ developer influence, 650K+ community impact, crisis resolution expertise
-- **Technical Authority:** Advanced AI/ML implementation, custom vector databases, framework architecture, performance optimization
-- **Business Impact Focus:** Cost reduction, technology risk management, measurable ROI, strategic technology guidance
-- **Compensation Requirements:** Executive-level positioning supports $250K+ targets vs. $180K+ minimum
+- **Read Master Resume:** Complete analysis of `resumes/master-resume.md` to understand:
+  - Target job titles and career tracks (extract from Professional Identity section)
+  - Core technical skills and competencies (extract from Skills Matrix or Technical Skills section)
+  - Key achievements and differentiators (extract from Achievements section)
+  - Community validation metrics (NuGet, Stack Overflow, GitHub, etc. if applicable)
+- **Read CLAUDE.md:** Extract user preferences including:
+  - Work location requirements (remote, hybrid, on-site preferences)
+  - Compensation requirements (salary minimums, hourly rates)
+  - Travel tolerance
+  - Other exclusions or preferences
+- **Define Search Criteria:** Based on master resume analysis, identify:
+  - Primary target job titles
+  - Secondary/alternative job titles
+  - Key technology focus areas
+  - Experience level positioning
 
-### 3. Define Search Criteria
+### 4. Define Search Criteria
+**IMPORTANT:** The job titles and criteria below are EXAMPLES. Replace with actual titles and preferences extracted from master resume and CLAUDE.md.
 
-#### Executive Leadership Roles
-- **C-Level Positions:** CTO, Chief Technology Officer, Chief Solutions Architect, Chief Digital Officer, VP Engineering, VP Technology
+#### Example Executive Leadership Roles
+- **C-Level Positions:** CTO, Chief Technology Officer, Chief Solutions Architect, Chief Digital Officer, VP Engineering
 - **Fractional Executive:** Fractional CTO, Part-Time CTO, Technology Advisory, Strategic Technology Consultant
 - **Technology Leadership:** Director of Engineering, Head of Engineering, Technology Director
 
-#### Principal/Senior Architecture Roles  
+#### Example Architecture Roles
 - **Principal Architect:** Principal Solutions Architect, Principal Software Architect, Principal Enterprise Architect, Principal Platform Architect
-- **Senior Architecture:** Senior Solutions Architect, Senior Software Architect, Senior Enterprise Architect, Senior Technical Architect
+- **Senior Architecture:** Senior Solutions Architect, Senior Software Architect, Senior Enterprise Architect
 - **Specialized Architecture:** AI/ML Architect, Cloud Architect, Platform Architect, Integration Architect, Data Architect
 
-#### Engineering Leadership & Individual Contributor Roles
-- **Staff/Principal Engineering:** Staff Software Engineer, Principal Software Engineer, Distinguished Engineer, Senior Staff Engineer
-- **Technology Specialization:** Principal AI/ML Engineer, Senior Platform Engineer, Principal .NET Engineer, Senior Full-Stack Engineer
+#### Example Engineering Roles
+- **Staff/Principal Engineering:** Staff Software Engineer, Principal Software Engineer, Distinguished Engineer
+- **Technology Specialization:** Principal AI/ML Engineer, Senior Platform Engineer, Principal .NET Engineer
 - **Consulting/Advisory:** Solutions Engineer, Pre-Sales Engineer, Technical Consultant, Technology Advisor
 
-#### Crisis Resolution & Specialized Roles
-- **Crisis Management:** Technical Crisis Manager, Project Recovery Specialist, Technology Turnaround Consultant
-- **Due Diligence:** Technical Due Diligence Consultant, M&A Technology Advisor, Technology Assessment Specialist
-- **Performance Engineering:** Performance Architect, Optimization Engineer, Database Performance Engineer
+#### Technology Focus Areas (Derive from Master Resume Skills)
+- **Extract from Skills Matrix:** Primary programming languages, frameworks, and platforms
+- **Cloud & Infrastructure:** AWS, Azure, GCP, Kubernetes, Docker, etc.
+- **Specializations:** AI/ML, Data Engineering, DevOps, Security, etc.
 
-#### Technology Focus Areas
-- **AI/ML:** Artificial Intelligence, Machine Learning, LLM, Vector Databases, Semantic Search, Neural Networks
-- **Enterprise Architecture:** Microservices, Event-Driven Architecture, CQRS, Enterprise Integration, API Gateway
-- **Microsoft Stack:** .NET, C#, Azure, SQL Server, Blazor, Entity Framework, Visual Studio
-- **Platform Engineering:** DevOps, Kubernetes, Docker, CI/CD, Infrastructure as Code, Monitoring
-- **Framework Development:** Custom Framework Development, SDK Development, API Design, Open Source
-
-#### Work & Compensation Preferences
-- **Work Preference:** 100% remote PRIORITY, hybrid acceptable Baltimore MD metro area only
-- **Compensation Requirements:** $180K+ salary or $85+/hour contractor rate minimum
-- **Travel:** Up to 25% travel acceptable
-- **Experience Level:** 20+ years, strategic technology leadership
-- **EXCLUSIONS:** No positions requiring security clearance (user preference)
-- **Commute Evaluation:** For on-site/hybrid positions, verify commute time from 1221 N Calvert St, Baltimore, MD 21202
+#### Work & Compensation Preferences (Extract from CLAUDE.md)
+- **Work Preference:** Remote/hybrid/on-site preference from CLAUDE.md
+- **Compensation Requirements:** Salary and hourly rate minimums from CLAUDE.md
+- **Travel Tolerance:** Acceptable travel percentage from CLAUDE.md
+- **Location:** Address for commute evaluation (if hybrid/on-site considered)
+- **Other Exclusions:** Security clearance, specific industries, etc. from CLAUDE.md
 
 ## Job Search Platform Categories
 
 ### Category 1: Major Job Boards
-Execute searches and create individual platform analysis files:
+Execute searches and create individual platform analysis files.
+
+**Search Term Construction:** Build search queries using:
+- Target job titles from master resume analysis (Step 3)
+- Key technical skills from Skills Matrix
+- Work preference terms (remote, hybrid, etc.)
+- Technology keywords from master resume
 
 #### LinkedIn Jobs
-- **Search Terms:** "Principal Solutions Architect" "CTO" "Staff Software Engineer" "VP Engineering" "Fractional CTO" remote AI ML enterprise architecture crisis resolution
-- **Additional Searches:** "Technology Advisor" "Technical Consultant" "Principal Engineer" "Platform Architect" "Performance Engineer" .NET Azure
-- **Advanced Filters:** Remote work, 20+ years experience, technology industry
+- **Search Terms:** [Primary job titles] + [key technologies] + [location preference] + [experience level]
+- **Advanced Filters:** Work type preference, experience level, technology industry
 - **Output File:** `SearchResults/Jobs/linkedin.md`
 - **Focus:** Enterprise-scale opportunities, established companies
 
 #### Indeed.com
-- **Search Terms:** "Chief Technology Officer" "Principal Architect" "Staff Engineer" "Technology Director" remote AI ML framework development .NET enterprise crisis
-- **Additional Searches:** "Due Diligence Consultant" "Performance Architect" "Platform Engineer" "Technical Advisory" Azure cloud
+- **Search Terms:** [Target job titles] + [technology keywords] + [location]
 - **Advanced Filters:** Remote/hybrid, salary ranges, company size
 - **Output File:** `SearchResults/Jobs/indeed.md`
 - **Focus:** Broad market coverage, diverse company sizes
 
 #### ZipRecruiter.com
-- **Search Terms:** "Principal Solutions Architect" "CTO" "Staff Software Engineer" "VP Engineering" remote AI ML enterprise .NET platform
-- **Additional Searches:** "Technology Consultant" "Crisis Manager" "Performance Engineer" "Principal Engineer" Azure DevOps
-- **Advanced Filters:** Remote work, salary ranges $180K+, technology sector
+- **Search Terms:** [Target job titles] + [technology keywords] + [location]
+- **Advanced Filters:** Work type, salary ranges from CLAUDE.md, technology sector
 - **Platform Advantage:** AI-powered matching, salary insights, mobile-optimized
 - **Output File:** `SearchResults/Jobs/ziprecruiter.md`
 - **Focus:** Rapid application process, recruiter connections, salary transparency
 
 #### Dice.com
-- **Search Terms:** "Principal Solutions Architect" "CTO" "Staff Engineer" "Technology Director" remote AI ML enterprise .NET Azure
-- **Additional Searches:** "Performance Architect" "Platform Engineer" "Technical Consultant" "Principal Engineer" DevOps crisis
+- **Search Terms:** [Target job titles] + [technology keywords] + [location]
 - **Platform Advantage:** Tech-focused with 70,000+ job openings
 - **Output File:** `SearchResults/Jobs/dice.md`
 - **Focus:** Technical depth, established tech relationships
 
 #### Glassdoor.com
-- **Search Terms:** "Principal Solutions Architect" "CTO" "VP Engineering" "Staff Engineer" remote AI ML .NET Azure platform
-- **Additional Searches:** "Technology Director" "Principal Engineer" "Performance Architect" "Technical Consultant" DevOps
+- **Search Terms:** [Target job titles] + [technology keywords] + [location]
 - **Platform Advantage:** Company reviews, salary insights, interview experiences
 - **Output File:** `SearchResults/Jobs/glassdoor.md`
 - **Focus:** Company culture insights, compensation transparency, interview preparation
 
-#### Monster.com  
-- **Search Terms:** "Chief Technology Officer" "Principal Architect" "VP Engineering" "Technology Director" remote AI ML .NET
-- **Additional Searches:** "Staff Engineer" "Performance Engineer" "Platform Architect" "Technical Consultant" Azure enterprise
+#### Monster.com
+- **Search Terms:** [Target job titles] + [technology keywords] + [location]
 - **Platform Advantage:** Broad coverage, established relationships, diverse industries
 - **Output File:** `SearchResults/Jobs/monster.md`
 - **Focus:** Comprehensive market coverage, diverse company types and sizes
@@ -161,8 +168,7 @@ Target AI-specific platforms and startup ecosystems:
 - **Hiring.Cafe:** https://hiring.cafe/ - Remote-first startup jobs with transparent compensation
 
 #### Search Process
-- **Search Terms:** "Principal Architect" "CTO" "Staff Engineer" "VP Engineering" remote artificial intelligence machine learning startup platform
-- **Additional Searches:** "Technology Advisor" "Principal Engineer" "Performance Engineer" "Platform Architect" vector database semantic search
+- **Search Terms:** [Target job titles] + [AI/ML keywords from master resume] + [location preference]
 - **Focus:** Equity opportunities, cutting-edge technology, innovation roles
 - **Output File:** `SearchResults/Jobs/ai-ml-job-boards.md`
 
@@ -186,23 +192,23 @@ Research technology leadership opportunities in consulting and Fortune 500 compa
 - **Pivotal Labs / VMware Tanzu:** Agile development and platform modernization
 - **BCG Digital Ventures:** Technology strategy and innovation consulting
 
-#### Fortune 500 Tech Company Career Sites (Remote US Focus)
-- **Google Careers:** https://careers.google.com (remote-friendly positions)
-- **Apple Careers:** https://jobs.apple.com (remote technology roles)
-- **Meta Careers:** https://www.metacareers.com (remote engineering positions)
-- **Salesforce Careers** - CTO and Principal Architect roles
-- **Oracle Careers** - Enterprise architecture leadership
-- **IBM Careers** - AI and technology transformation roles
-- **Intel Careers** - Technology leadership and architecture
+#### Fortune 500 Tech Company Career Sites
+Research major tech company career sites, filtering against exclusion list:
+- **Google Careers:** https://careers.google.com
+- **Apple Careers:** https://jobs.apple.com
+- **Meta Careers:** https://www.metacareers.com
+- **Microsoft Careers:** https://careers.microsoft.com
+- **Salesforce Careers:** https://careers.salesforce.com
+- **Oracle Careers:** https://careers.oracle.com
+- **IBM Careers:** https://careers.ibm.com
+- **Intel Careers:** https://jobs.intel.com
 
-**EXCLUDED COMPANIES:**
-- **Microsoft:** All Microsoft positions excluded from future searches (user preference - not viable)
-- **Amazon:** No longer offers remote work - return-to-office mandate excludes from remote job searches
+**IMPORTANT:** Cross-reference all companies against `./SearchResults/excluded-companies.md` before proceeding with research.
 
 #### Research Focus
-- AI investment strategies and workforce expansion
-- Remote US technology leadership opportunities
-- Salary ranges for CTO/Principal Architect remote positions ($250K-$400K+)
+- Technology leadership opportunities matching target job titles
+- Work arrangement alignment (remote/hybrid/on-site per CLAUDE.md preferences)
+- Compensation ranges for target positions
 - Technology leadership roles and requirements
 - Client engagement models and project types
 - **Output File:** `SearchResults/Jobs/consulting-firms.md`
@@ -219,8 +225,7 @@ Target platforms specializing in remote work opportunities:
 - **Working Nomads:** https://workingnomads.co/ - Curated remote job listings
 
 #### Search Process
-- **Search Terms:** "Principal Architect" "CTO" "Staff Engineer" "VP Engineering" AI ML .NET Azure platform enterprise
-- **Additional Searches:** "Technology Director" "Performance Engineer" "Technical Consultant" "Principal Engineer" DevOps crisis
+- **Search Terms:** [Target job titles] + [key technologies from master resume] + remote
 - **Focus:** 100% remote opportunities, distributed teams, flexible arrangements
 - **Output File:** `SearchResults/Jobs/remote-job-boards.md`
 
@@ -235,14 +240,13 @@ Research high-value contractor and consulting opportunities:
 - **CodementorX:** https://www.codementor.io/x - Expert-level freelancing
 - **10x Management:** https://www.10xmanagement.com/ - High-end technology talent
 
-#### Search Process  
-- **Search Terms:** "Principal Architect" "CTO Consultant" "Technology Advisor" "Crisis Resolution" AI ML .NET Azure platform
-- **Additional Searches:** "Performance Engineer" "Technical Due Diligence" "Platform Architect" enterprise consulting
-- **Focus:** High-value consulting engagements, fractional executive roles, crisis projects
+#### Search Process
+- **Search Terms:** [Target job titles] + consultant + [key technologies from master resume]
+- **Focus:** High-value consulting engagements, fractional executive roles, specialized projects
 - **Output File:** `SearchResults/Jobs/contractor-platforms.md`
 
-#### Remote US Job Market Focus
-**CRITICAL:** All searches must prioritize positions that can be performed remotely within the United States. International positions or roles requiring significant on-site presence should be flagged but deprioritized unless extraordinary opportunities.
+#### Remote Job Market Focus
+**Note:** Prioritize searches based on location preferences from CLAUDE.md. For remote-preferred candidates, prioritize remote positions and flag on-site requirements. For location-specific candidates, include geographic filters in searches.
 
 ## Search Execution Process
 
@@ -278,24 +282,27 @@ For each platform category, execute the following:
    - **Cross-Reference Applications:** Check each opportunity against applied-to.md
    - **Mark Applied Status:** Note if previously applied to company/position
    - **EXCLUSION LIST VERIFICATION:** Cross-reference each company against `./SearchResults/excluded-companies.md` and mark excluded companies
-   - **INVESTOR ASSOCIATION CHECK:** Verify no connections to Peter Thiel, Elon Musk, or Marc Andreessen investments
+   - **INVESTOR ASSOCIATION CHECK:** If investor exclusions are defined in exclusion list, verify company ownership/investment relationships
    - **CRITICAL:** Document all search results in individual platform files for comprehensive summary building
 
 ### Step 2: Competitive Advantage Analysis
-For each platform, document how Matthew Whited's profile provides competitive advantages:
+For each platform, document how the candidate's profile provides competitive advantages.
 
-#### Unique Differentiators
-- **Pure .NET AI/ML Implementation:** Without Python dependencies
-- **Enterprise Framework Creation:** 50+ library OoBDev ecosystem
-- **SQL Server Vector Extensions:** Database innovation ahead of trends
-- **Centers of Excellence Leadership:** 125+ developer influence
-- **Crisis Resolution Expertise:** Cross-functional problem solving
-- **Technology Risk Management:** Preventing costly adoption mistakes
+#### Unique Differentiators (Extract from Master Resume)
+Reference `resumes/master-resume.md` for unique differentiators:
+- Key technical innovations and specializations
+- Framework/library development or open source contributions
+- Leadership experience and team influence
+- Crisis resolution or turnaround expertise (if applicable)
+- Technology risk management experience
+- Any other distinctive capabilities from master resume
 
-#### Community Validation
-- **623K+ NuGet downloads** across 20 packages
-- **22K+ Stack Overflow reputation** reaching 4.7M developers
-- **GitHub Arctic Code Vault Contributor**
+#### Community Validation (Extract from Master Resume)
+Reference `resumes/master-resume.md` for current metrics:
+- Package downloads (NuGet, npm, PyPI, etc.) if applicable
+- Community platform reputation (Stack Overflow, GitHub, etc.)
+- Open source achievements and contributions
+- Speaking engagements or publications
 
 ### Step 3: Individual Search Results Documentation
 **CRITICAL REQUIREMENT:** For each search executed, create individual platform documentation files to support comprehensive summary building.
@@ -365,12 +372,12 @@ For each WebSearch executed:
 # LinkedIn Job Search Results
 
 ## Search Query Executed
-"LinkedIn "Principal Solutions Architect" "Chief Technology Officer" remote 2025 AI ML enterprise architecture $250K"
+"LinkedIn [target job title] [secondary title] [location preference] [year] [key technologies]"
 
 ## Search Results Summary
-- **Total Results:** 6,000+ Principal Solutions Architect jobs
-- **Salary Range:** $161K-$250K+ 
-- **Remote Options:** Widely available
+- **Total Results:** X+ [target job title] jobs
+- **Salary Range:** $XXX-$XXX+ (based on market data)
+- **Remote Options:** [availability assessment]
 - **Key Companies:** Major tech companies, consulting firms
 
 ## Specific Opportunities Found
@@ -426,8 +433,8 @@ During search execution, identify additional relevant platforms:
 - **Specialized Technical:** AIJobs.fyi (10K+ AI/ML jobs), Scion Technical (award-winning IT staffing)
 - **Consulting/Contracting:** Motion Recruitment (Top 15 US tech), Robert Half (300+ locations)
 - **Executive Search Specialized:** Technology executive search firms, CTO placement specialists
-- **Geographic Regional:** Baltimore metro area tech companies, DC government contractors
-- **Remote-First Platforms:** $85+/hour Principal Architect contracting, $180K+ salary positions
+- **Geographic Regional:** Local metro area tech companies (if hybrid/on-site preferred per CLAUDE.md)
+- **Remote-First Platforms:** Contract/salary positions meeting compensation requirements from CLAUDE.md
 - **Company Career Pages:** Direct applications to researched target companies
 
 #### Protocol Update Process
@@ -700,8 +707,8 @@ When jobs are added to apply-next.md with status "⭐ High Priority" or "🎯 To
 
 ---
 
-**Last Updated:** 2025-08-22  
-**Next Scheduled Review:** 2025-11-22  
-**Protocol Version:** 1.2 - Added mandatory link validation, apply-next.md integration, and automatic targeted application workflow
+**Last Updated:** 2025-12-25
+**Next Scheduled Review:** 2026-03-25
+**Protocol Version:** 2.0 - Made protocol reusable and generic; all user-specific content now references source documents (master-resume.md, CLAUDE.md, excluded-companies.md)
 
-*This protocol should be executed systematically using TodoWrite to track progress through each category and platform. The goal is creating a comprehensive market analysis that enables strategic career decision-making based on data-driven insights and competitive positioning. The protocol automatically integrates with apply-next.md for opportunity tracking and triggers targeted application creation for high-fit opportunities, creating a seamless workflow from job discovery to application submission.*
+*This protocol is designed to be reusable for any job seeker. All job titles, compensation requirements, exclusions, and preferences should be derived from the user's master resume (resumes/master-resume.md), CLAUDE.md configuration, and exclusion list (SearchResults/excluded-companies.md). Execute systematically using TodoWrite to track progress through each category and platform. The goal is creating a comprehensive market analysis that enables strategic career decision-making based on data-driven insights and competitive positioning.*

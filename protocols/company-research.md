@@ -1,7 +1,12 @@
 # Company Research Protocol
 
 ## Purpose
-This protocol standardizes comprehensive company research to evaluate potential career opportunities and strategic fit for Matthew Whited's professional goals.
+This protocol standardizes comprehensive company research to evaluate potential career opportunities and strategic fit.
+
+**IMPORTANT:** This protocol is designed to be reusable. Candidate-specific information should be derived from:
+- `resumes/master-resume.md` - Technical expertise, career goals, skills
+- `CLAUDE.md` - User preferences and exclusion criteria
+- `./SearchResults/excluded-companies.md` - Company/industry exclusions
 
 ## Trigger Commands
 Execute this protocol when the user requests:
@@ -20,7 +25,7 @@ Create todo list with these tasks:
 4. Research [Company] overview and business model
 5. Analyze [Company] technology stack and technical challenges  
 6. Investigate career opportunities and company culture
-7. Assess alignment with Matthew's technical expertise and career goals
+7. Assess alignment with candidate's technical expertise and career goals (from master resume)
 8. Create comprehensive analysis document in ./SearchResults/Companies/[CompanyName]_[YYYYMMDD].md
 
 ### Phase 2: Business Intelligence Research
@@ -55,10 +60,10 @@ Execute these searches in parallel:
 - Employee benefits and work-life balance
 
 #### Search 4: Technical Alignment (if relevant)
-**Query:** `"[Company Name]" .NET C# backend engineering positions architecture`
+**Query:** `"[Company Name]" [key technologies from master resume] engineering positions architecture`
 **Focus Areas:**
-- Specific technology alignments with Matthew's expertise
-- Senior/principal level positions
+- Specific technology alignments with candidate's expertise (from master resume)
+- Senior/principal level positions matching target job titles
 - Architecture and technical leadership roles
 - Technology flexibility requirements
 
@@ -76,19 +81,17 @@ mkdir -p ./SearchResults/Companies
 
 ```markdown
 # [Company Name] Company Analysis
-**Research Date:** [Current Date]  
-**Analyst:** Matthew Whited, Principal Solutions Architect
+**Research Date:** [Current Date]
+**Analyst:** [Candidate Name from master resume]
 
 ---
 
 ## EXCLUSION STATUS: [APPROVED/EXCLUDED]
 **Exclusion Check Date:** [Current Date]
 **PRIMARY INDUSTRY:** [Industry Classification - verify against exclusion list]
-**Industry Exclusion Check:** [Fintech/Blockchain/Cannabis/Marketing-Advertising/Government Contractor - specify if excluded]
-**Peter Thiel Association:** [None/Details]
-**Elon Musk Association:** [None/Details]  
-**Marc Andreessen Association:** [None/Details]
-**Company Exclusion Check:** [Microsoft/Salesforce/Big Tech - specify if excluded]
+**Industry Exclusion Check:** [Check against industries listed in excluded-companies.md]
+**Investor Exclusion Check:** [Check against investor associations listed in excluded-companies.md]
+**Company Exclusion Check:** [Check against specific companies listed in excluded-companies.md]
 **Investor Verification:** [All clear/Found associations - specify]
 
 *[If EXCLUDED, stop analysis here and note exclusion reason and category]*
@@ -155,12 +158,12 @@ mkdir -p ./SearchResults/Companies
 
 ---
 
-## Alignment Assessment for Matthew Whited
+## Alignment Assessment
 
 ### Strategic Fit Analysis
 
 #### **Strengths & Alignments**
-✅ [List specific alignments with Matthew's expertise]
+✅ [List specific alignments with candidate's expertise from master resume]
 ✅ [Technical stack matches]
 ✅ [Leadership/architecture opportunities]
 ✅ [Scale and complexity alignment]
@@ -220,7 +223,7 @@ mkdir -p ./SearchResults/Companies
 Provide concise summary focusing on:
 - **Key findings** (3-4 bullet points)
 - **Overall recommendation** (interest level and reasoning)
-- **Strategic considerations** (alignment with Matthew's goals)
+- **Strategic considerations** (alignment with candidate's goals from master resume)
 
 ## Quality Standards
 - **Comprehensive:** Cover all major aspects of company and opportunity
