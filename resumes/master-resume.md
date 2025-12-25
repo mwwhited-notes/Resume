@@ -521,34 +521,51 @@
 
 #### High-Performance Binary Data Processing
 **Repository:** [github.com/mwwhited/BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders)
-- **BinaryDataDecoders.ToolKit:** 36,270+ downloads, zero-allocation parsing framework
+
+#### Core Framework (438 commits, 32,363 LOC, 65+ modules)
+- **BinaryDataDecoders.ToolKit:** 45,850+ downloads, zero-allocation parsing framework
 - **Format Support:** PKZip, TAR, ISO9660, Telnet, LDAP, SNTP protocols
 - **Modern Architecture:** System.IO.Pipelines, Memory<T>, async/await patterns
-- **Enterprise Quality:** Comprehensive testing, error handling, resource management
+- **Enterprise Quality:** 25 test projects, comprehensive CI/CD with GitHub Actions
+
+#### Cryptographic & Code Analysis
+- **Historical Cipher Machines:** Enigma, Lorenz, Vigenere implementations with accurate rotor mechanics and bidirectional encryption
+- **Roslyn Code Navigation:** XPath-navigable C#/VB.NET syntax trees enabling XML-like queries on abstract syntax trees
+- **Expression Calculator:** ANTLR4-based mathematical parser supporting multiple numeric types (Int8-UInt64, Decimal)
+
+#### Hardware Device Interfaces
+- **Scientific Instruments:** Rigol oscilloscopes, RadexOne radiation detector, Velleman K8055 USB experiment interface
+- **Media Devices:** Zoom H4n audio recorder, LanC camera protocol, Kuando Busylight status indicators
+- **Sports Equipment:** Favero and Saint George fencing scoring machine protocol decoders
+- **Legacy Systems:** Apple II DOS 3.3 disk image parser with Applesoft BASIC detokenizer
 
 #### Developer Productivity Tools
-- **XSLT CLI Processor:** 34,726+ downloads, global .NET tool
-- **I/O Abstractions:** 34,004+ downloads, cross-platform compatibility
-- **USB HID Communication:** Device interface abstractions for embedded systems
-- **Professional Practices:** Automated builds, comprehensive documentation, CI/CD integration
+- **XSLT CLI Processor:** 43,177+ downloads, global .NET tool
+- **I/O Abstractions:** 43,077+ downloads, cross-platform compatibility
+- **NMEA GPS Parser:** Complete NMEA 0183 protocol implementation for GPS/GIS applications
+- **Text Processors:** Navigable JSON, YAML, Markdown parsers with XPath querying
 
-### Custom Microprocessor Design (EXCEPTIONAL Innovation)
-**Complete 16-bit CPU implementation with toolchain**  
+### Custom Microprocessor Design & Embedded Systems (201 commits, 21,228+ LOC)
+**Complete hardware-to-software stack from discrete logic to FPGA SoCs**
 **Repository:** [github.com/mwwhited/EmbeddedBakery](https://github.com/mwwhited/EmbeddedBakery)
 
-#### MW16C Processor Architecture
-- **SystemVerilog Implementation:** Complete 5-stage pipeline (Fetch, Decode, Execute, Memory, Writeback)
-- **Instruction Set:** 30+ custom instructions (arithmetic, logical, memory, control flow)
-- **Custom Assembler:** Python-based assembler with instruction encoding and testing
-- **Component Library:** Comprehensive VHDL components (ALU, registers, decoders, multiplexers)
+#### Custom CPU Architecture
+- **MW16C Processor:** Complete 5-stage pipeline in SystemVerilog (Fetch, Decode, Execute, Memory, Writeback) with 30+ custom instructions
+- **MicroBlaze SoC Integration:** Xilinx soft-processor systems with AXI interconnect, UART, GPIO, and interrupt controllers
+- **BinaryBaker Toolchain:** .NET microcode compiler (3,369 LOC) with truth table expansion, logic minimization, and ROM font generation
+- **Component Library:** Comprehensive VHDL components (ALU, registers, decoders, multiplexers) portable across Xilinx and Altera
 
-#### Hardware Engineering Portfolio (194+ commits)
-- **FPGA/CPLD Projects:** Verilog (30%), VHDL (21.9%), SystemVerilog, C/C++ (35.7%) developed in Vivado and Atmel Studio
-- **Digital Design:** From basic gates to complete computer systems using professional FPGA design environments
-- **PCB Development:** Circuit board design and layout using KiCad and Eagle for custom hardware solutions
-- **Multi-Platform Development:** Arduino IDE for embedded systems, professional FPGA toolchains for digital design
-- **Educational Value:** Well-structured progression demonstrating learning methodology across multiple hardware platforms
-- **Custom Hardware:** 3D printer/CNC router firmware modifications with integrated electronics design
+#### Professional Hardware Projects (EXCEPTIONAL Innovation)
+- **LXI Serial Bridge:** ESP8266-based SCPI Raw Socket server (TCP 5025) with mDNS service discovery and IEEE 488.2 command compliance for test equipment
+- **Analog Calculator Suite:** Complete analog computer platform with logarithmic amplifiers, op-amp multipliers, and Systron Donner SD-80 clone
+- **Historic Computer Recreations:** Altair 8800 clone PCB, diode logic computers with discrete 1-byte registers and 4-to-16 decoders
+
+#### Hardware Engineering Portfolio (25+ PCBs, 20+ FPGA Projects, 318 HDL Files)
+- **FPGA Development:** Xilinx Vivado (Artix-7, Zynq SoC), Altera Quartus Prime, Verilog/VHDL/SystemVerilog synthesis
+- **Microcontrollers:** AVR (ATmega328P, ATtiny series), ARM Cortex-M (STM32F103), ESP8266 WiFi SoC, PIC16F627
+- **Real-Time Systems:** FreeRTOS implementations with interrupt-driven queues, matrix keypad scanning, I2C LCD, HID keyboard output
+- **Custom Libraries:** 45+ Arduino libraries, 50+ KiCad symbols/footprints, KiBot automation for PCB manufacturing
+- **Development Tools:** PlatformIO, WinAVR/avr-gcc toolchain, Make-based build systems
 
 ### AI/ML Research & Production Systems (HIGH Innovation)
 
@@ -672,6 +689,27 @@
 - **Testing Frameworks:** Dynamic proxy-based mocking with modern .NET integration
 - **Document Conversion Pipelines:** Apache Tika integration with stream-based processing
 - **AI-Powered Code Generation:** Handlebars template engines with LLM integration for automated transformation
+
+### Historical Portfolio Archive (15+ years, 7,266 C# files)
+**Enterprise and experimental projects migrated from TFS/SVN demonstrating career-long innovation**
+
+#### Enterprise Platforms (Itrica)
+- **Cloud Orchestrator:** Distributed message bus with SQL Server Service Broker, workflow engine, and multi-tenant document processing for accounts receivable automation
+- **Gateway Enterprise Portal:** MEF plugin architecture with 10+ extensible modules (Admin, Reporting, Imaging, StateManagement, Dashboard, Messaging)
+- **Contract Parser/Service Builder:** Code generation toolkit using Roslyn and XSLT for automatic service scaffolding and standardized microservice patterns
+
+#### Framework Innovation
+- **Unmanaged Exports Framework:** .NET methods exposed as native DLL exports enabling managed code integration with legacy C/C++ applications (EXCEPTIONAL innovation)
+- **Code Contracts Implementation:** Precondition/postcondition validation framework predating mainstream adoption
+
+#### Game & Mixed Reality Development
+- **XNA Game Projects:** Stratego AI implementation, hex-tile mapping systems, 3D rendering pipeline with HLSL shaders
+- **HoloLens/Unity:** Mixed reality development experiments and spatial computing prototypes
+- **16-bit CPU Emulator:** Software-based processor simulation validating hardware design understanding
+
+#### Recognition & Embedded Systems
+- **Dare to Dream (Microsoft Contest):** .NET Micro Framework network alarm clock - selected for Microsoft's "Dare to Dream Different" innovation contest
+- **Roomba Control:** Robotics integration and autonomous navigation experiments
 
 ---
 
