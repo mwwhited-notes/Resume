@@ -45,6 +45,37 @@ This guide captures preferred communication style for professional responses, ap
 - **Exact statistical precision** in presentation documents (save for master resume)
 - **Resume footnotes** - Never include explanatory footnotes or commentary on resumes (e.g., "*This resume demonstrates..." commentary is unprofessional)
 
+### **Markdown Table Formatting**
+All tables must have properly aligned columns with consistent whitespace for readability:
+
+**Column Alignment:**
+- Use alignment markers in separator row: `:---` (left), `:---:` (center), `---:` (right)
+- Center-align numeric columns (Years, Dates, Percentages)
+- Left-align text columns (Names, Descriptions, Evidence)
+
+**Whitespace Requirements:**
+- Pad all cells so columns align visually in raw markdown
+- Maintain consistent column widths within each table
+- Use spaces to create visual alignment when viewing the raw file
+
+**Example - Skills Matrix:**
+```markdown
+| Skill                    | Years |  Last Used  |     Level     | Evidence                    |
+|:-------------------------|:-----:|:-----------:|:-------------:|:----------------------------|
+| C#                       |  20+  |   Current   |   Expert (5)  | 796K+ NuGet downloads       |
+| .NET Framework/.NET Core |  20+  |   Current   |   Expert (5)  | .NET 9.0 adoption           |
+| SQL/T-SQL                |  20+  |   Current   |   Expert (5)  | Custom SQLCLR extensions    |
+```
+
+**Example - Simple Table:**
+```markdown
+| Category        | Status    | Notes                           |
+|:----------------|:---------:|:--------------------------------|
+| Core Skills     | Complete  | All skills documented           |
+| Experience      | Complete  | Full work history included      |
+| Certifications  | Partial   | Missing cloud certifications    |
+```
+
 ### **Technical Communication**
 - **Specific over general**: "enterprise architecture and database expertise" vs. "technical skills"
 - **Concrete challenges**: "scalable platforms that process complex data" vs. "build great software"

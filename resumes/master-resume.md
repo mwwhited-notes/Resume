@@ -388,134 +388,134 @@
 
 ### Core Programming Languages
 
-| Skill | Years | Last Used | Level | Evidence |
-|-------|-------|-----------|-------|----------|
-| C# | 20+ | Current | Expert (5) | 796K+ NuGet downloads, Gold SO badge, 42 packages |
-| .NET Framework/.NET Core | 20+ | Current | Expert (5) | .NET 9.0 adoption, zero-allocation programming |
-| SQL/T-SQL | 20+ | Current | Expert (5) | Custom SQLCLR extensions, vector types |
-| JavaScript | 15+ | Current | Advanced (4) | React frontends, Node.js tooling |
-| TypeScript | 5+ | Current | Advanced (4) | Green Onion frontend, Zod schemas |
-| Python | 5+ | Current | Proficient (3) | AI/ML pipelines, Flask endpoints |
-| Java | 10+ | 2024 | Advanced (4) | Eliassen DSL compiler, ANTLR4 |
-| Go | 3+ | 2023 | Proficient (3) | AT&T/Alien Vault security platform |
-| F# | 5+ | Current | Proficient (3) | Functional programming, NuGet packages |
-| Rust | 2+ | Current | Familiar (2) | Cross-language algorithm portfolio |
-| PowerShell | 15+ | Current | Advanced (4) | DevOps automation, scripting |
-| Bash | 15+ | Current | Advanced (4) | Linux administration, CI/CD scripts |
+| Skill                      | Years |  Last Used  |     Level     | Evidence                                          |
+|:---------------------------|:-----:|:-----------:|:-------------:|:--------------------------------------------------|
+| C#                         |  20+  |   Current   |   Expert (5)  | 796K+ NuGet downloads, Gold SO badge, 42 packages |
+| .NET Framework/.NET Core   |  20+  |   Current   |   Expert (5)  | .NET 9.0 adoption, zero-allocation programming    |
+| SQL/T-SQL                  |  20+  |   Current   |   Expert (5)  | Custom SQLCLR extensions, vector types            |
+| JavaScript                 |  15+  |   Current   | Advanced (4)  | React frontends, Node.js tooling                  |
+| TypeScript                 |   5+  |   Current   | Advanced (4)  | Green Onion frontend, Zod schemas                 |
+| Python                     |   5+  |   Current   | Proficient (3)| AI/ML pipelines, Flask endpoints                  |
+| Java                       |  10+  |    2024     | Advanced (4)  | Eliassen DSL compiler, ANTLR4                     |
+| Go                         |   3+  |    2023     | Proficient (3)| AT&T/Alien Vault security platform                |
+| F#                         |   5+  |   Current   | Proficient (3)| Functional programming, NuGet packages            |
+| Rust                       |   2+  |   Current   |  Familiar (2) | Cross-language algorithm portfolio                |
+| PowerShell                 |  15+  |   Current   | Advanced (4)  | DevOps automation, scripting                      |
+| Bash                       |  15+  |   Current   | Advanced (4)  | Linux administration, CI/CD scripts               |
 
 ### Hardware & Low-Level
 
-| Skill | Years | Last Used | Level | Evidence |
-|-------|-------|-----------|-------|----------|
-| SystemVerilog | 5+ | Current | Advanced (4) | MW16C 16-bit CPU design |
-| VHDL | 5+ | Current | Advanced (4) | FPGA component library |
-| Verilog | 5+ | Current | Advanced (4) | Digital logic design |
-| C/C++ (Embedded) | 10+ | Current | Proficient (3) | Arduino, AVR, ARM Cortex-M |
-| Assembly (Various) | 10+ | Current | Proficient (3) | 6800, AVR, custom CPU |
-| PCB Design (KiCad/Eagle) | 10+ | Current | Advanced (4) | 25+ PCB designs |
-| Electronics/Circuit Design | 25+ | Current | Expert (5) | Certified Electronics Technician |
+| Skill                       | Years |  Last Used  |     Level     | Evidence                          |
+|:----------------------------|:-----:|:-----------:|:-------------:|:----------------------------------|
+| SystemVerilog               |   5+  |   Current   | Advanced (4)  | MW16C 16-bit CPU design           |
+| VHDL                        |   5+  |   Current   | Advanced (4)  | FPGA component library            |
+| Verilog                     |   5+  |   Current   | Advanced (4)  | Digital logic design              |
+| C/C++ (Embedded)            |  10+  |   Current   | Proficient (3)| Arduino, AVR, ARM Cortex-M        |
+| Assembly (Various)          |  10+  |   Current   | Proficient (3)| 6800, AVR, custom CPU             |
+| PCB Design (KiCad/Eagle)    |  10+  |   Current   | Advanced (4)  | 25+ PCB designs                   |
+| Electronics/Circuit Design  |  25+  |   Current   |   Expert (5)  | Certified Electronics Technician  |
 
 ### Databases & Data
 
-| Skill | Years | Last Used | Level | Evidence |
-|-------|-------|-----------|-------|----------|
-| Microsoft SQL Server | 20+ | Current | Expert (5) | SQLCLR, vector extensions, DBA |
-| PostgreSQL | 5+ | Current | Advanced (4) | pgvector, production deployments |
-| SQLite | 3+ | Current | Proficient (3) | Cadwell medical device software |
-| MongoDB | 3+ | 2023 | Proficient (3) | Evaluated, production use |
-| Redis | 3+ | 2024 | Proficient (3) | Caching implementations |
-| Qdrant | 2+ | Current | Advanced (4) | Vector search, RAG systems |
-| OpenSearch/Elasticsearch | 3+ | Current | Proficient (3) | Hybrid search engines |
-| Entity Framework/EF Core | 15+ | Current | Expert (5) | Code-first, migrations, optimization |
+| Skill                     | Years |  Last Used  |     Level     | Evidence                           |
+|:--------------------------|:-----:|:-----------:|:-------------:|:-----------------------------------|
+| Microsoft SQL Server      |  20+  |   Current   |   Expert (5)  | SQLCLR, vector extensions, DBA     |
+| PostgreSQL                |   5+  |   Current   | Advanced (4)  | pgvector, production deployments   |
+| SQLite                    |   3+  |   Current   | Proficient (3)| Cadwell medical device software    |
+| MongoDB                   |   3+  |    2023     | Proficient (3)| Evaluated, production use          |
+| Redis                     |   3+  |    2024     | Proficient (3)| Caching implementations            |
+| Qdrant                    |   2+  |   Current   | Advanced (4)  | Vector search, RAG systems         |
+| OpenSearch/Elasticsearch  |   3+  |   Current   | Proficient (3)| Hybrid search engines              |
+| Entity Framework/EF Core  |  15+  |   Current   |   Expert (5)  | Code-first, migrations, optimization|
 
 ### Cloud & Infrastructure
 
-| Skill | Years | Last Used | Level | Evidence |
-|-------|-------|-----------|-------|----------|
-| Microsoft Azure | 8+ | Current | Advanced (4) | 77% cost reduction, B2C, Service Bus |
-| Azure DevOps | 8+ | Current | Expert (5) | Pipelines, repos, artifacts |
-| AWS | 5+ | 2024 | Proficient (3) | SQS, Lambda, S3 |
-| Docker | 8+ | Current | Expert (5) | Multi-service orchestration, GPU |
-| Kubernetes | 5+ | Current | Advanced (4) | Helm charts, production deployments |
-| GitHub Actions | 5+ | Current | Advanced (4) | CI/CD for 42 NuGet packages |
-| Linux Administration | 20+ | Current | Expert (5) | System V, Solaris, Ubuntu |
-| Windows Server | 20+ | Current | Expert (5) | AD, IIS, enterprise infrastructure |
-| Networking (Cisco/3Com) | 15+ | 2024 | Advanced (4) | VLANs, routing, firewalls |
+| Skill                   | Years |  Last Used  |     Level     | Evidence                              |
+|:------------------------|:-----:|:-----------:|:-------------:|:--------------------------------------|
+| Microsoft Azure         |   8+  |   Current   | Advanced (4)  | 77% cost reduction, B2C, Service Bus  |
+| Azure DevOps            |   8+  |   Current   |   Expert (5)  | Pipelines, repos, artifacts           |
+| AWS                     |   5+  |    2024     | Proficient (3)| SQS, Lambda, S3                       |
+| Docker                  |   8+  |   Current   |   Expert (5)  | Multi-service orchestration, GPU      |
+| Kubernetes              |   5+  |   Current   | Advanced (4)  | Helm charts, production deployments   |
+| GitHub Actions          |   5+  |   Current   | Advanced (4)  | CI/CD for 42 NuGet packages           |
+| Linux Administration    |  20+  |   Current   |   Expert (5)  | System V, Solaris, Ubuntu             |
+| Windows Server          |  20+  |   Current   |   Expert (5)  | AD, IIS, enterprise infrastructure    |
+| Networking (Cisco/3Com) |  15+  |    2024     | Advanced (4)  | VLANs, routing, firewalls             |
 
 ### AI/ML & Data Science
 
-| Skill | Years | Last Used | Level | Evidence |
-|-------|-------|-----------|-------|----------|
-| Sentence Transformers | 3+ | Current | Advanced (4) | AllMiniLM-L6-v2, SBERT production |
-| Vector Search/Embeddings | 3+ | Current | Expert (5) | Custom LSH, FAISS, Qdrant |
-| ONNX Runtime | 2+ | Current | Advanced (4) | Pure .NET inference engine |
-| LLM Integration (Ollama/OpenAI) | 2+ | Current | Advanced (4) | RAG systems, Semantic Kernel |
-| Custom ML Algorithms | 3+ | Current | Advanced (4) | LSH, hybrid search, neural networks |
-| Microsoft Semantic Kernel | 2+ | Current | Proficient (3) | Function-calling agents |
+| Skill                          | Years |  Last Used  |     Level     | Evidence                           |
+|:-------------------------------|:-----:|:-----------:|:-------------:|:-----------------------------------|
+| Sentence Transformers          |   3+  |   Current   | Advanced (4)  | AllMiniLM-L6-v2, SBERT production  |
+| Vector Search/Embeddings       |   3+  |   Current   |   Expert (5)  | Custom LSH, FAISS, Qdrant          |
+| ONNX Runtime                   |   2+  |   Current   | Advanced (4)  | Pure .NET inference engine         |
+| LLM Integration (Ollama/OpenAI)|   2+  |   Current   | Advanced (4)  | RAG systems, Semantic Kernel       |
+| Custom ML Algorithms           |   3+  |   Current   | Advanced (4)  | LSH, hybrid search, neural networks|
+| Microsoft Semantic Kernel      |   2+  |   Current   | Proficient (3)| Function-calling agents            |
 
 ### Web & Frontend
 
-| Skill | Years | Last Used | Level | Evidence |
-|-------|-------|-----------|-------|----------|
-| React | 4+ | Current | Advanced (4) | Green Onion frontend, 360+ commits |
-| ASP.NET MVC/Core | 15+ | Current | Expert (5) | Enterprise applications |
-| REST API Design | 15+ | Current | Expert (5) | OpenAPI, GraphQL, OData |
-| WPF | 10+ | Current | Expert (5) | Cadwell medical device UI |
-| HTML/CSS | 20+ | Current | Advanced (4) | Responsive, accessibility |
-| Redux/State Management | 4+ | Current | Advanced (4) | Redux Toolkit, React Context |
-| SignalR/WebSockets | 8+ | Current | Advanced (4) | Real-time scoring systems |
+| Skill                  | Years |  Last Used  |     Level     | Evidence                           |
+|:-----------------------|:-----:|:-----------:|:-------------:|:-----------------------------------|
+| React                  |   4+  |   Current   | Advanced (4)  | Green Onion frontend, 360+ commits |
+| ASP.NET MVC/Core       |  15+  |   Current   |   Expert (5)  | Enterprise applications            |
+| REST API Design        |  15+  |   Current   |   Expert (5)  | OpenAPI, GraphQL, OData            |
+| WPF                    |  10+  |   Current   |   Expert (5)  | Cadwell medical device UI          |
+| HTML/CSS               |  20+  |   Current   | Advanced (4)  | Responsive, accessibility          |
+| Redux/State Management |   4+  |   Current   | Advanced (4)  | Redux Toolkit, React Context       |
+| SignalR/WebSockets     |   8+  |   Current   | Advanced (4)  | Real-time scoring systems          |
 
 ### Architecture & Patterns
 
-| Skill | Years | Last Used | Level | Evidence |
-|-------|-------|-----------|-------|----------|
-| Microservices Architecture | 10+ | Current | Expert (5) | Enterprise frameworks |
-| Event-Driven Architecture | 10+ | Current | Expert (5) | Kafka, Service Bus, CQRS |
-| Domain-Driven Design | 10+ | Current | Advanced (4) | Enterprise implementations |
-| CQRS/Event Sourcing | 8+ | Current | Advanced (4) | Itrica, GCA/Nucleus |
-| API Gateway Design | 10+ | Current | Expert (5) | Custom implementations |
-| SOA/Enterprise Integration | 15+ | Current | Expert (5) | Multi-system integration |
+| Skill                      | Years |  Last Used  |     Level     | Evidence                   |
+|:---------------------------|:-----:|:-----------:|:-------------:|:---------------------------|
+| Microservices Architecture |  10+  |   Current   |   Expert (5)  | Enterprise frameworks      |
+| Event-Driven Architecture  |  10+  |   Current   |   Expert (5)  | Kafka, Service Bus, CQRS   |
+| Domain-Driven Design       |  10+  |   Current   | Advanced (4)  | Enterprise implementations |
+| CQRS/Event Sourcing        |   8+  |   Current   | Advanced (4)  | Itrica, GCA/Nucleus        |
+| API Gateway Design         |  10+  |   Current   |   Expert (5)  | Custom implementations     |
+| SOA/Enterprise Integration |  15+  |   Current   |   Expert (5)  | Multi-system integration   |
 
 ### DevOps & Tools
 
-| Skill | Years | Last Used | Level | Evidence |
-|-------|-------|-----------|-------|----------|
-| Git | 15+ | Current | Expert (5) | Complex branching, code review |
-| CI/CD Pipeline Design | 10+ | Current | Expert (5) | Azure, GitHub, Bitbucket |
-| JIRA/Confluence | 10+ | Current | Advanced (4) | Project management integration |
-| Visual Studio | 20+ | Current | Expert (5) | Extensions, advanced debugging |
-| VS Code | 8+ | Current | Advanced (4) | Extensions, remote development |
+| Skill                | Years |  Last Used  |     Level     | Evidence                        |
+|:---------------------|:-----:|:-----------:|:-------------:|:--------------------------------|
+| Git                  |  15+  |   Current   |   Expert (5)  | Complex branching, code review  |
+| CI/CD Pipeline Design|  10+  |   Current   |   Expert (5)  | Azure, GitHub, Bitbucket        |
+| JIRA/Confluence      |  10+  |   Current   | Advanced (4)  | Project management integration  |
+| Visual Studio        |  20+  |   Current   |   Expert (5)  | Extensions, advanced debugging  |
+| VS Code              |   8+  |   Current   | Advanced (4)  | Extensions, remote development  |
 
 ### Testing & Quality
 
-| Skill | Years | Last Used | Level | Evidence |
-|-------|-------|-----------|-------|----------|
-| Unit Testing (MSTest/xUnit/NUnit) | 15+ | Current | Expert (5) | TDD, test automation frameworks |
-| Mocking (Moq) | 10+ | Current | Expert (5) | Custom mocking framework author |
-| Integration Testing | 15+ | Current | Expert (5) | API testing, E2E |
-| Performance Testing | 10+ | Current | Advanced (4) | Benchmarking, optimization |
+| Skill                              | Years |  Last Used  |     Level     | Evidence                        |
+|:-----------------------------------|:-----:|:-----------:|:-------------:|:--------------------------------|
+| Unit Testing (MSTest/xUnit/NUnit)  |  15+  |   Current   |   Expert (5)  | TDD, test automation frameworks |
+| Mocking (Moq)                      |  10+  |   Current   |   Expert (5)  | Custom mocking framework author |
+| Integration Testing                |  15+  |   Current   |   Expert (5)  | API testing, E2E                |
+| Performance Testing                |  10+  |   Current   | Advanced (4)  | Benchmarking, optimization      |
 
 ### Compliance & Regulated Industries
 
-| Skill | Years | Last Used | Level | Evidence |
-|-------|-------|-----------|-------|----------|
-| FDA Compliance | 6+ | Current | Expert (5) | Itrica CTMS, Cadwell medical devices |
-| HIPAA | 6+ | Current | Advanced (4) | Healthcare systems |
-| HL7 v2.3-2.5 | 2+ | Current | Proficient (3) | Cadwell patient data |
-| Financial Compliance | 3+ | 2008 | Proficient (3) | JPMorgan broker/dealer systems |
+| Skill                | Years |  Last Used  |     Level     | Evidence                            |
+|:---------------------|:-----:|:-----------:|:-------------:|:------------------------------------|
+| FDA Compliance       |   6+  |   Current   |   Expert (5)  | Itrica CTMS, Cadwell medical devices|
+| HIPAA                |   6+  |   Current   | Advanced (4)  | Healthcare systems                  |
+| HL7 v2.3-2.5         |   2+  |   Current   | Proficient (3)| Cadwell patient data                |
+| Financial Compliance |   3+  |    2008     | Proficient (3)| JPMorgan broker/dealer systems      |
 
 ### Leadership & Soft Skills
 
-| Skill | Years | Last Used | Level | Evidence |
-|-------|-------|-----------|-------|----------|
-| Technical Team Leadership | 15+ | Current | Expert (5) | 5-10 direct reports, CoE lead |
-| Architecture Review | 10+ | Current | Expert (5) | Enterprise standards |
-| Technical Mentoring | 15+ | Current | Expert (5) | Boot camps, training programs |
-| Pre-Sales Engineering | 8+ | Current | Advanced (4) | POCs, RFP responses |
-| Crisis Resolution | 10+ | Current | Expert (5) | 1-week delivery after 12-month failures |
-| Stakeholder Management | 10+ | Current | Advanced (4) | VP/Director presentations |
-| Vendor Management | 10+ | Current | Advanced (4) | Selection, contract negotiation |
-| Technical Writing | 20+ | Current | Expert (5) | Novell publications, documentation |
+| Skill                      | Years |  Last Used  |     Level     | Evidence                                |
+|:---------------------------|:-----:|:-----------:|:-------------:|:----------------------------------------|
+| Technical Team Leadership  |  15+  |   Current   |   Expert (5)  | 5-10 direct reports, CoE lead           |
+| Architecture Review        |  10+  |   Current   |   Expert (5)  | Enterprise standards                    |
+| Technical Mentoring        |  15+  |   Current   |   Expert (5)  | Boot camps, training programs           |
+| Pre-Sales Engineering      |   8+  |   Current   | Advanced (4)  | POCs, RFP responses                     |
+| Crisis Resolution          |  10+  |   Current   |   Expert (5)  | 1-week delivery after 12-month failures |
+| Stakeholder Management     |  10+  |   Current   | Advanced (4)  | VP/Director presentations               |
+| Vendor Management          |  10+  |   Current   | Advanced (4)  | Selection, contract negotiation         |
+| Technical Writing          |  20+  |   Current   |   Expert (5)  | Novell publications, documentation      |
 
 ---
 

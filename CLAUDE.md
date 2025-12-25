@@ -78,6 +78,21 @@
 - **Format:** Relative paths with `./` prefix
 - **Examples:** `resumes/master-resume.md` → `./resumes/master-resume.md`
 
+## Markdown Table Formatting - MEMORIZED
+**All tables must have properly aligned columns with consistent whitespace:**
+- Pad all cells so columns align visually in raw markdown
+- Use alignment markers in separator row: `:---` (left), `:---:` (center), `---:` (right)
+- Center-align numeric columns (Years, Dates)
+- Left-align text columns (Names, Descriptions, Evidence)
+
+**Example:**
+```markdown
+| Skill                    | Years |  Last Used  |     Level     | Evidence                    |
+|:-------------------------|:-----:|:-----------:|:-------------:|:----------------------------|
+| C#                       |  20+  |   Current   |   Expert (5)  | 796K+ NuGet downloads       |
+| .NET Framework/.NET Core |  20+  |   Current   |   Expert (5)  | .NET 9.0 adoption           |
+```
+
 ## Key Constraints & Preferences
 - **DO NOT relocate** (travel up to 25% acceptable)
 - **Gold standard authority:** ALL changes start with updating gold standard first
