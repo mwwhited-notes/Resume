@@ -14,7 +14,7 @@ NuGet Profile: https://www.nuget.org/profiles/mwwhited/
 
 PROFESSIONAL SUMMARY
 
-Enterprise Architect with 20+ years leading digital transformation initiatives, enterprise-wide technology strategy, and cross-functional architecture governance. Proven expertise in technology risk management, regulatory compliance frameworks (FDA, HIPAA, financial services), and vendor-neutral advisory services. Demonstrated ability to prevent costly technology adoption mistakes while delivering measurable business impact including 77% cost reductions, enterprise-wide standardization across 125+ developers, and regulatory-compliant systems for Big Pharma clients. Uniquely combines strategic technology vision with hands-on implementation experience spanning AI/ML, cloud platforms, and enterprise integration patterns.
+Enterprise Architect with 20+ years leading digital transformation initiatives, enterprise-wide technology strategy, and cross-functional architecture governance. Proven expertise in technology risk management, regulatory compliance frameworks (FDA, HIPAA, financial services), and vendor-neutral advisory services. Demonstrated ability to prevent costly technology adoption mistakes while delivering measurable business impact including 77% cost reductions, enterprise-wide standardization across 125+ developers, and regulatory-compliant systems for Big Pharma clients. Uniquely combines strategic technology vision with hands-on implementation experience spanning AI/ML, cloud platforms, and enterprise integration patterns. Proven community authority with 796K+ NuGet package downloads, 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status.
 
 CORE COMPETENCIES
 

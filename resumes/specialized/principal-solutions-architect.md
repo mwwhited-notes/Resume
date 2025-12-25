@@ -32,6 +32,12 @@
 
 ## Principal Solutions Architect Experience
 
+### Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)
+**Medical Device Software Development**
+- Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies
+- Technical leadership through peer code reviews, grooming sessions, and architectural guidance for FDA-regulated medical device software
+- Full-stack development including backend systems, application styling, and comprehensive unit testing
+
 ### Principal Solutions Architect - Green Onion (February 2025 - Present)
 **Application Rescue & Modernization - Crisis Recovery Leadership**
 
