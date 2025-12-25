@@ -19,6 +19,36 @@
 
 ---
 
+## Professional Status & Availability
+
+### Employment & Authorization
+- **Work Authorization:** US Citizen
+- **Current Status:** Employed full-time at Cadwell Industries (available for consulting/fractional work)
+- **Notice Period:** 2 weeks for new full-time opportunities
+- **Contract Preferences:** W-2 or 1099 (flexible on arrangement type)
+- **Background Check:** Ready with no concerns
+- **Non-Compete Status:** No active restrictions (standard employer IP assignment only)
+- **Veteran Status:** Not a veteran
+
+### Consulting & Fractional Rates
+- **Fractional CTO / Executive Advisory:** $200-250/hr
+- **Principal Architecture / Crisis Resolution:** $200-250/hr
+
+### Availability & Flexibility
+- **Working Hours:** Flexible across all US timezones
+- **International Travel:** Valid passport, available for up to 25% travel
+- **Languages:** English
+
+### References
+- **Professional References:** 3-5 references available upon request
+- **LinkedIn Recommendations:** Available on profile
+
+### Career Continuity
+- **Employment History:** Continuous career with brief planned sabbaticals between long-term engagements
+- **Sabbatical Purpose:** Strategic breaks for personal performance review and skill development after intensive project delivery periods
+
+---
+
 ## Professional Identity & Core Value Proposition
 
 **Principal Platform Architect, Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale platform architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions ($13,800+ annual savings), 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients.
@@ -243,7 +273,8 @@
 - **Sales Enablement Engineering:** Technical sales support including RFP responses, technical proposal writing, and solution estimation for multi-million dollar enterprise opportunities
 
 #### "Choose Your Own Adventure" R&D & Training Program (228 commits, 16,360+ LOC)
-**Internal R&D initiative and developer training platform demonstrating enterprise architecture patterns**
+**Program Head - Internal R&D Initiative and Developer Training Platform**
+**Led enterprise-wide R&D and training program demonstrating architecture patterns**
 
 - **Nucleus Enterprise Platform:** Architected 100+ specialized .NET 8 libraries with plugin-based architecture, dynamic assembly loading, and Azure AD B2C integration as training reference implementation
 - **ContainerStore AI Infrastructure:** Designed GPU-aware Docker Compose orchestration with 20+ pre-configured services (Ollama LLM, SBERT, Qdrant, Keycloak) with CUDA acceleration for hands-on AI/ML training
@@ -342,7 +373,149 @@
 - **Multi-Site WAN Management:** Direct TCP/IP links and dedicated leased ATM lines with complex multi-partner network integration
 - **Custom Development Innovation:** Multiple support ticket tracking systems (PHP/RADIUS and ASP/VBScript/LDAP versions)
 - **Mainframe Programming:** System Builder programming with Unidata mainframe for student management system extensions
-- **Role Evolution:** Computer Technician → System Administrator → Network Engineer/Architect → Department Lead
+- **Internal Promotion Track:** Hired as Computer Technician → Promoted to Network Technician → Promoted to Systems Engineer/Network Architect → Promoted to Department Head
+
+---
+
+## Skills Matrix
+
+### Proficiency Scale
+- **Expert (5):** Deep mastery, can architect solutions, mentor others, innovate in the space
+- **Advanced (4):** Production experience, can lead projects, solve complex problems independently
+- **Proficient (3):** Solid working knowledge, can deliver features, needs occasional guidance on edge cases
+- **Familiar (2):** Basic understanding, can contribute with support, actively developing skills
+- **Exposure (1):** Awareness level, have used in limited contexts
+
+### Core Programming Languages
+
+| Skill | Years | Last Used | Level | Evidence |
+|-------|-------|-----------|-------|----------|
+| C# | 20+ | Current | Expert (5) | 796K+ NuGet downloads, Gold SO badge, 42 packages |
+| .NET Framework/.NET Core | 20+ | Current | Expert (5) | .NET 9.0 adoption, zero-allocation programming |
+| SQL/T-SQL | 20+ | Current | Expert (5) | Custom SQLCLR extensions, vector types |
+| JavaScript | 15+ | Current | Advanced (4) | React frontends, Node.js tooling |
+| TypeScript | 5+ | Current | Advanced (4) | Green Onion frontend, Zod schemas |
+| Python | 5+ | Current | Proficient (3) | AI/ML pipelines, Flask endpoints |
+| Java | 10+ | 2024 | Advanced (4) | Eliassen DSL compiler, ANTLR4 |
+| Go | 3+ | 2023 | Proficient (3) | AT&T/Alien Vault security platform |
+| F# | 5+ | Current | Proficient (3) | Functional programming, NuGet packages |
+| Rust | 2+ | Current | Familiar (2) | Cross-language algorithm portfolio |
+| PowerShell | 15+ | Current | Advanced (4) | DevOps automation, scripting |
+| Bash | 15+ | Current | Advanced (4) | Linux administration, CI/CD scripts |
+
+### Hardware & Low-Level
+
+| Skill | Years | Last Used | Level | Evidence |
+|-------|-------|-----------|-------|----------|
+| SystemVerilog | 5+ | Current | Advanced (4) | MW16C 16-bit CPU design |
+| VHDL | 5+ | Current | Advanced (4) | FPGA component library |
+| Verilog | 5+ | Current | Advanced (4) | Digital logic design |
+| C/C++ (Embedded) | 10+ | Current | Proficient (3) | Arduino, AVR, ARM Cortex-M |
+| Assembly (Various) | 10+ | Current | Proficient (3) | 6800, AVR, custom CPU |
+| PCB Design (KiCad/Eagle) | 10+ | Current | Advanced (4) | 25+ PCB designs |
+| Electronics/Circuit Design | 25+ | Current | Expert (5) | Certified Electronics Technician |
+
+### Databases & Data
+
+| Skill | Years | Last Used | Level | Evidence |
+|-------|-------|-----------|-------|----------|
+| Microsoft SQL Server | 20+ | Current | Expert (5) | SQLCLR, vector extensions, DBA |
+| PostgreSQL | 5+ | Current | Advanced (4) | pgvector, production deployments |
+| SQLite | 3+ | Current | Proficient (3) | Cadwell medical device software |
+| MongoDB | 3+ | 2023 | Proficient (3) | Evaluated, production use |
+| Redis | 3+ | 2024 | Proficient (3) | Caching implementations |
+| Qdrant | 2+ | Current | Advanced (4) | Vector search, RAG systems |
+| OpenSearch/Elasticsearch | 3+ | Current | Proficient (3) | Hybrid search engines |
+| Entity Framework/EF Core | 15+ | Current | Expert (5) | Code-first, migrations, optimization |
+
+### Cloud & Infrastructure
+
+| Skill | Years | Last Used | Level | Evidence |
+|-------|-------|-----------|-------|----------|
+| Microsoft Azure | 8+ | Current | Advanced (4) | 77% cost reduction, B2C, Service Bus |
+| Azure DevOps | 8+ | Current | Expert (5) | Pipelines, repos, artifacts |
+| AWS | 5+ | 2024 | Proficient (3) | SQS, Lambda, S3 |
+| Docker | 8+ | Current | Expert (5) | Multi-service orchestration, GPU |
+| Kubernetes | 5+ | Current | Advanced (4) | Helm charts, production deployments |
+| GitHub Actions | 5+ | Current | Advanced (4) | CI/CD for 42 NuGet packages |
+| Linux Administration | 20+ | Current | Expert (5) | System V, Solaris, Ubuntu |
+| Windows Server | 20+ | Current | Expert (5) | AD, IIS, enterprise infrastructure |
+| Networking (Cisco/3Com) | 15+ | 2024 | Advanced (4) | VLANs, routing, firewalls |
+
+### AI/ML & Data Science
+
+| Skill | Years | Last Used | Level | Evidence |
+|-------|-------|-----------|-------|----------|
+| Sentence Transformers | 3+ | Current | Advanced (4) | AllMiniLM-L6-v2, SBERT production |
+| Vector Search/Embeddings | 3+ | Current | Expert (5) | Custom LSH, FAISS, Qdrant |
+| ONNX Runtime | 2+ | Current | Advanced (4) | Pure .NET inference engine |
+| LLM Integration (Ollama/OpenAI) | 2+ | Current | Advanced (4) | RAG systems, Semantic Kernel |
+| Custom ML Algorithms | 3+ | Current | Advanced (4) | LSH, hybrid search, neural networks |
+| Microsoft Semantic Kernel | 2+ | Current | Proficient (3) | Function-calling agents |
+
+### Web & Frontend
+
+| Skill | Years | Last Used | Level | Evidence |
+|-------|-------|-----------|-------|----------|
+| React | 4+ | Current | Advanced (4) | Green Onion frontend, 360+ commits |
+| ASP.NET MVC/Core | 15+ | Current | Expert (5) | Enterprise applications |
+| REST API Design | 15+ | Current | Expert (5) | OpenAPI, GraphQL, OData |
+| WPF | 10+ | Current | Expert (5) | Cadwell medical device UI |
+| HTML/CSS | 20+ | Current | Advanced (4) | Responsive, accessibility |
+| Redux/State Management | 4+ | Current | Advanced (4) | Redux Toolkit, React Context |
+| SignalR/WebSockets | 8+ | Current | Advanced (4) | Real-time scoring systems |
+
+### Architecture & Patterns
+
+| Skill | Years | Last Used | Level | Evidence |
+|-------|-------|-----------|-------|----------|
+| Microservices Architecture | 10+ | Current | Expert (5) | Enterprise frameworks |
+| Event-Driven Architecture | 10+ | Current | Expert (5) | Kafka, Service Bus, CQRS |
+| Domain-Driven Design | 10+ | Current | Advanced (4) | Enterprise implementations |
+| CQRS/Event Sourcing | 8+ | Current | Advanced (4) | Itrica, GCA/Nucleus |
+| API Gateway Design | 10+ | Current | Expert (5) | Custom implementations |
+| SOA/Enterprise Integration | 15+ | Current | Expert (5) | Multi-system integration |
+
+### DevOps & Tools
+
+| Skill | Years | Last Used | Level | Evidence |
+|-------|-------|-----------|-------|----------|
+| Git | 15+ | Current | Expert (5) | Complex branching, code review |
+| CI/CD Pipeline Design | 10+ | Current | Expert (5) | Azure, GitHub, Bitbucket |
+| JIRA/Confluence | 10+ | Current | Advanced (4) | Project management integration |
+| Visual Studio | 20+ | Current | Expert (5) | Extensions, advanced debugging |
+| VS Code | 8+ | Current | Advanced (4) | Extensions, remote development |
+
+### Testing & Quality
+
+| Skill | Years | Last Used | Level | Evidence |
+|-------|-------|-----------|-------|----------|
+| Unit Testing (MSTest/xUnit/NUnit) | 15+ | Current | Expert (5) | TDD, test automation frameworks |
+| Mocking (Moq) | 10+ | Current | Expert (5) | Custom mocking framework author |
+| Integration Testing | 15+ | Current | Expert (5) | API testing, E2E |
+| Performance Testing | 10+ | Current | Advanced (4) | Benchmarking, optimization |
+
+### Compliance & Regulated Industries
+
+| Skill | Years | Last Used | Level | Evidence |
+|-------|-------|-----------|-------|----------|
+| FDA Compliance | 6+ | Current | Expert (5) | Itrica CTMS, Cadwell medical devices |
+| HIPAA | 6+ | Current | Advanced (4) | Healthcare systems |
+| HL7 v2.3-2.5 | 2+ | Current | Proficient (3) | Cadwell patient data |
+| Financial Compliance | 3+ | 2008 | Proficient (3) | JPMorgan broker/dealer systems |
+
+### Leadership & Soft Skills
+
+| Skill | Years | Last Used | Level | Evidence |
+|-------|-------|-----------|-------|----------|
+| Technical Team Leadership | 15+ | Current | Expert (5) | 5-10 direct reports, CoE lead |
+| Architecture Review | 10+ | Current | Expert (5) | Enterprise standards |
+| Technical Mentoring | 15+ | Current | Expert (5) | Boot camps, training programs |
+| Pre-Sales Engineering | 8+ | Current | Advanced (4) | POCs, RFP responses |
+| Crisis Resolution | 10+ | Current | Expert (5) | 1-week delivery after 12-month failures |
+| Stakeholder Management | 10+ | Current | Advanced (4) | VP/Director presentations |
+| Vendor Management | 10+ | Current | Advanced (4) | Selection, contract negotiation |
+| Technical Writing | 20+ | Current | Expert (5) | Novell publications, documentation |
 
 ---
 
@@ -721,6 +894,26 @@
 - **Knowledge Transfer:** Creating and executing professional development programs
 - **Team Enablement:** Mentorship programs for application development practice
 
+### Team Leadership & People Management
+**Full-spectrum leadership experience from hiring through performance management**
+- **Hiring Authority:** Conducted technical interviews, made hiring decisions, and built development teams
+- **Performance Management:** Conducted performance reviews and managed direct reports (5-10 developers)
+- **Remote Team Leadership:** Led fully remote teams, hybrid teams, and timezone-spanning distributed teams
+- **Technical Mentorship:** Structured mentoring programs for developer skill development and career growth
+
+### Stakeholder & Vendor Management
+**Cross-functional leadership and external relationship management**
+- **Stakeholder Conflict Resolution:** Mediated between business and technical stakeholders to resolve competing priorities
+- **Executive Communication:** Regular presentations to VP/Director level leadership on technical strategy and project status
+- **Vendor Selection & Management:** Led complete vendor evaluation processes, technical assessments, and contract negotiations
+- **SOW/Contract Review:** Expert evaluation of vendor proposals and technical contracts for accuracy and risk mitigation
+
+### Public Speaking & Knowledge Sharing
+**Technical presentations and community engagement**
+- **Meetup/User Group Presentations:** Technical talks at local developer meetups and user groups
+- **Internal Training Delivery:** Lunch-and-learns, boot camps, and technical workshops for internal teams
+- **Client Training Programs:** Delivered technical training to client organizations on architecture and best practices
+
 ### Professional Development Programs
 **Comprehensive training initiatives improving team capabilities**
 
@@ -937,4 +1130,4 @@ This document serves as the **definitive source of truth** for all information a
 
 ---
 
-*This document contains comprehensive information validated through extensive code review and community verification. All technical claims have been verified through actual implementation analysis. Last updated: 2025-07-11 (Eastern)*
+*This document contains comprehensive information validated through extensive code review and community verification. All technical claims have been verified through actual implementation analysis. Last updated: 2025-12-25 (Eastern)*
