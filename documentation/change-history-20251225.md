@@ -281,6 +281,40 @@ Added `.gitkeep` to all empty directories under `./SearchResults/Lessons/`
 
 ---
 
+## Session 4: Protocol Genericization Completion (December 25, 2025)
+
+### Protocols Made Fully Generic
+All protocols now reference source documents instead of hardcoded values:
+
+**Updated Protocols:**
+- `protocols/batch-position-analysis.md` - Removed hardcoded compensation, location; added pre-requisites section
+- `protocols/job-search.md` - Removed remaining location reference, updated Category 3 to reference Targets files
+- `protocols/targeted-application.md` - Added pre-requisites section for target list verification
+
+### New Protocol Created
+**protocols/master-resume-builder.md**
+- Builds master resume from scratch through structured interview
+- Starts by requesting existing resume(s)
+- Asks field-specific questions based on candidate's industry
+- Creates complete master resume with all sections
+- Generates CLAUDE.md and target lists
+
+### CLAUDE.md Updates
+- Added command #10: Build master resume from scratch
+- Added command #11: Generate target lists
+- Added Targets/ directory to SearchResults reference
+
+### Design Principle Finalized
+**Protocols are fully reusable for any person:**
+- No hardcoded job titles, salaries, locations, or names
+- All user-specific data comes from:
+  - `resumes/master-resume.md` - Professional information
+  - `CLAUDE.md` - User preferences
+  - `./SearchResults/excluded-companies.md` - Exclusions
+  - `./SearchResults/Targets/` - Dynamically generated target lists
+
+---
+
 ## Files Modified
 
 ### Session 1: Master Resume Updates
@@ -315,8 +349,14 @@ Added `.gitkeep` to all empty directories under `./SearchResults/Lessons/`
 25. SearchResults/Targets/job-platforms.md (NEW - job search platforms)
 26. protocols/job-search.md (updated to reference Targets files)
 
+### Session 4: Protocol Genericization Completion
+27. protocols/master-resume-builder.md (NEW - builds master resume through interview)
+28. protocols/batch-position-analysis.md (removed hardcoded values, added pre-requisites)
+29. protocols/targeted-application.md (added pre-requisites section)
+30. CLAUDE.md (added new commands and Targets reference)
+
 ### Documentation
-27. documentation/change-history-20251225.md (this file)
+31. documentation/change-history-20251225.md (this file)
 
 ---
 

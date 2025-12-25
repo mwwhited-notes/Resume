@@ -39,6 +39,12 @@
 ### 9. Personalized learning plan creation: "I need to know more about {topic}"
 **Required Response:** `read protocols/personalized-learning-plan.md and execute all steps`
 
+### 10. Build a master resume from scratch
+**Required Response:** `read protocols/master-resume-builder.md and execute all steps`
+
+### 11. Generate target lists (companies, job roles, platforms)
+**Required Response:** `read protocols/target-list-generation.md and execute all steps`
+
 ## Key Professional Metrics - REFERENCE
 **Current metrics available in:** analysis/stackoverflow-metrics.md and analysis/technical-review.md
 - Stack Overflow: 22K+ reputation, C# Gold Badge
@@ -119,9 +125,11 @@ Principal Software Engineer/Architect at Cadwell Industries specializing in medi
 ## Search Results Reference
 **Organized directory structure:** SearchResults/
 - Jobs/ - market analysis and opportunities
-- Companies/ - detailed company analyses  
+- Companies/ - detailed company analyses
 - targeted/ - complete application packages
 - Portfolio/ - self-audit and presence analysis
+- Targets/ - dynamically generated target lists (job roles, companies, platforms)
+- External/ - private repository audit imports
 
 ## Important Session Notes
 
