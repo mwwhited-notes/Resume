@@ -129,7 +129,8 @@
       "WebFetch(domain:www.cybercoders.com)",
       "Bash(awk:*)",
       "Bash(sort:*)",
-      "WebFetch(domain:www.flickr.com)"
+      "WebFetch(domain:www.flickr.com)",
+      "Bash(done)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

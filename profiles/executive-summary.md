@@ -10,7 +10,7 @@ Matthew Whited is a Principal Software Engineer/Architect with over 20 years bri
 - Architects and implements complex, enterprise-scale AI/ML and data processing systems
 - Specializes in performance optimization, vector databases, and hybrid search architectures  
 - Expert in creating reusable frameworks and middleware that enhance team productivity across 125+ developers
-- Develops production-grade solutions and specialized domain applications (650K+ total downloads)
+- Develops production-grade solutions and specialized domain applications (796K+ total downloads across 42 packages)
 
 **AI/ML & Emerging Technologies**
 - Currently leading AI integration initiatives with focus on semantic search and vector databases

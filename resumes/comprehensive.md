@@ -252,7 +252,7 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
 
 ## Personal Projects
 
-- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 20 NuGet packages with 650K+ downloads
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 42 NuGet packages with 796K+ downloads
   - **[Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors)** - Custom SQLCLR implementation with SqlVector/SqlVectorF types, mathematical operations, binary serialization, and distance aggregation functions
   - [BinaryDataDecoders.ToolKit](https://www.nuget.org/packages/BinaryDataDecoders.ToolKit/) - 36K+ downloads
   - Extensive collection of .NET abstractions and extensions with professional CI/CD

@@ -795,7 +795,7 @@
 
 ### Technical Profiles
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited) - 30+ repositories, Arctic Code Vault Contributor
-- **NuGet:** [652K+ downloads](https://www.nuget.org/profiles/mwwhited/) - 20 packages, professional CI/CD
+- **NuGet:** [796K+ downloads](https://www.nuget.org/profiles/mwwhited/) - 42 packages, professional CI/CD
 - **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited) - 606+ solutions, 4.7M user reach
 - **NPM:** [npmjs.com/~mwwhited](https://www.npmjs.com/~mwwhited) - Node.js contributions
 

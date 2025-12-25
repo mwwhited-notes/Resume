@@ -13,7 +13,7 @@
 
 ## Professional Summary
 
-Principal Solutions Architect and Fractional CTO with 20+ years of enterprise software development and technology leadership experience. Proven crisis resolution specialist delivering measurable business results including 77% cloud cost reductions and 1-week project delivery after 12-month failures. Expert in AI/ML implementation, enterprise architecture, cloud platforms, and vendor-neutral technology advisory services. Led technical teams of 125+ developers across multiple Centers of Excellence. Stack Overflow Gold Badge holder with 657K+ NuGet downloads and Arctic Code Vault Contributor.
+Principal Solutions Architect and Fractional CTO with 20+ years of enterprise software development and technology leadership experience. Proven crisis resolution specialist delivering measurable business results including 77% cloud cost reductions and 1-week project delivery after 12-month failures. Expert in AI/ML implementation, enterprise architecture, cloud platforms, and vendor-neutral technology advisory services. Led technical teams of 125+ developers across multiple Centers of Excellence. Stack Overflow Gold Badge holder with 796K+ NuGet downloads across 42 packages and Arctic Code Vault Contributor.
 
 **Core Competencies:**
 - Enterprise Architecture and Solutions Design
