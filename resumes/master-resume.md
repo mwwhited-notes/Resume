@@ -19,6 +19,27 @@
 
 ---
 
+## Table of Contents
+
+1. [Professional Status & Availability](#professional-status--availability)
+2. [Professional Identity & Core Value Proposition](#professional-identity--core-value-proposition)
+3. [Quantifiable Achievements & Community Recognition](#quantifiable-achievements--community-recognition)
+4. [Work History & Professional Experience](#work-history--professional-experience)
+5. [Skills Matrix](#skills-matrix)
+6. [Technical Skills & Core Competencies](#technical-skills--core-competencies)
+7. [Education & Professional Development](#education--professional-development)
+8. [Personal Projects & Technical Innovations](#personal-projects--technical-innovations)
+9. [Leadership & Mentorship Experience](#leadership--mentorship-experience)
+10. [Community Contributions & Industry Recognition](#community-contributions--industry-recognition)
+11. [Business Impact & Measurable Results](#business-impact--measurable-results)
+12. [Professional Network & Online Presence](#professional-network--online-presence)
+13. [Technical Philosophy & Approach](#technical-philosophy--approach)
+14. [Additional Technical Details & Specifications](#additional-technical-details--specifications)
+15. [Future Directions & Continuous Learning](#future-directions--continuous-learning)
+16. [Usage Instructions for This Document](#usage-instructions-for-this-document)
+
+---
+
 ## Professional Status & Availability
 
 ### Employment & Authorization
