@@ -242,8 +242,48 @@ All markdown tables must have:
 
 ---
 
+## Session 3: Target Lists Infrastructure (December 25, 2025)
+
+### New Directory Structure
+Created `./SearchResults/Targets/` directory to store dynamically-generated target lists:
+- `README.md` - Documentation for the Targets directory
+- `job-roles.md` - Target job titles derived from master resume
+- `target-companies.md` - Companies to target by category (consulting, executive search, enterprise, etc.)
+- `job-platforms.md` - Job search platforms to use
+
+### New Protocol Created
+**protocols/target-list-generation.md**
+- Generates target lists from master resume analysis
+- Creates job-roles.md, target-companies.md, job-platforms.md
+- Called by other protocols when target files are missing
+- Includes cross-reference against exclusion list
+
+### Protocol Updates to Reference Target Files
+**protocols/job-search.md**
+- Added Step 2: Verify Target List Files Exist
+- Added Step 4: Load Target Lists
+- Updated Category 2 (Executive Recruiting) to reference target-companies.md
+- Updated Category 4 (Consulting/Fortune 500) to reference target-companies.md
+- Updated Category 5 (Remote) to reference job-platforms.md and target-companies.md
+- Updated Category 6 (Contractor) to reference job-platforms.md
+- Removed all hardcoded company lists in favor of file references
+
+### Design Principle
+**Protocols reference external data files, not hardcoded lists:**
+- Company lists stored in `./SearchResults/Targets/target-companies.md`
+- Job titles stored in `./SearchResults/Targets/job-roles.md`
+- Platforms stored in `./SearchResults/Targets/job-platforms.md`
+- When files don't exist, protocols call `target-list-generation.md` to create them
+- All files are derived from master resume analysis
+
+### .gitkeep Files Added
+Added `.gitkeep` to all empty directories under `./SearchResults/Lessons/`
+
+---
+
 ## Files Modified
 
+### Session 1: Master Resume Updates
 1. resumes/master-resume.md
 2. resumes/comprehensive.md
 3. resumes/extended.md
@@ -256,15 +296,27 @@ All markdown tables must have:
 10. resumes/ats/workday.md
 11. resumes/formats/json-resume.json
 12. resumes/formats/fresh-schema.yaml
-13. protocols/consistency-check.md
-14. protocols/job-search.md (v2.0 - made reusable)
-15. protocols/targeted-application.md (v2.0 - made reusable)
-16. protocols/company-research.md (made reusable)
-17. protocols/position-fit-analysis.md (made reusable)
-18. protocols/external-findings-import.md
-19. CLAUDE.md
-20. documentation/style-guide.md
-21. documentation/change-history-20251225.md (this file)
+13. CLAUDE.md
+14. documentation/style-guide.md
+
+### Session 2: Protocol Genericization
+15. protocols/consistency-check.md
+16. protocols/job-search.md (v2.0 - made reusable)
+17. protocols/targeted-application.md (v2.0 - made reusable)
+18. protocols/company-research.md (made reusable)
+19. protocols/position-fit-analysis.md (made reusable)
+20. protocols/external-findings-import.md
+
+### Session 3: Target Lists Infrastructure
+21. protocols/target-list-generation.md (NEW - generates target lists from master resume)
+22. SearchResults/Targets/README.md (NEW)
+23. SearchResults/Targets/job-roles.md (NEW - target job titles)
+24. SearchResults/Targets/target-companies.md (NEW - companies to target)
+25. SearchResults/Targets/job-platforms.md (NEW - job search platforms)
+26. protocols/job-search.md (updated to reference Targets files)
+
+### Documentation
+27. documentation/change-history-20251225.md (this file)
 
 ---
 

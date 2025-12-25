@@ -8,6 +8,11 @@ This protocol provides a systematic approach to conducting comprehensive job sea
 - `CLAUDE.md` - User preferences (compensation, location, exclusions)
 - `./SearchResults/excluded-companies.md` - Company/industry exclusions
 
+**Target List Files (in `./SearchResults/Targets/`):**
+- `job-roles.md` - Target job titles derived from master resume
+- `target-companies.md` - Companies to target by category
+- `job-platforms.md` - Job search platforms to use
+
 ## When to Execute This Protocol
 - Quarterly job market assessment
 - When considering career transitions
@@ -19,10 +24,25 @@ This protocol provides a systematic approach to conducting comprehensive job sea
 
 ### 1. Create SearchResults Directory Structure
 ```bash
-mkdir -p /current/src/SearchResults/Jobs
+mkdir -p ./SearchResults/Jobs
+mkdir -p ./SearchResults/Targets
 ```
 
-### 2. Company Exclusion Verification
+### 2. Verify Target List Files Exist
+**CRITICAL:** Before proceeding, verify target list files exist in `./SearchResults/Targets/`:
+- `job-roles.md` - Target job titles
+- `target-companies.md` - Companies to target
+- `job-platforms.md` - Job search platforms
+
+**If any files are missing, execute the target list generation protocol:**
+```
+read protocols/target-list-generation.md and follow the protocol
+```
+Then return to this protocol.
+
+**If files exist but are outdated (>90 days old), consider refreshing them.**
+
+### 3. Company Exclusion Verification
 **CRITICAL STEP:** Before executing any job search, review exclusion list to avoid excluded companies:
 
 - **Read Exclusion List:** Review `./SearchResults/excluded-companies.md` for complete list of companies and industries to exclude
@@ -33,7 +53,13 @@ mkdir -p /current/src/SearchResults/Jobs
 
 **Note:** If no exclusion file exists, create `./SearchResults/excluded-companies.md` with user's exclusion preferences before proceeding.
 
-### 3. Master Resume Analysis & Understanding
+### 4. Load Target Lists
+**Read the target list files generated in Step 2:**
+- **Job Roles:** `./SearchResults/Targets/job-roles.md` - Use these titles for search queries
+- **Target Companies:** `./SearchResults/Targets/target-companies.md` - Reference for company targeting
+- **Job Platforms:** `./SearchResults/Targets/job-platforms.md` - Platforms to search on
+
+### 5. Master Resume Analysis & Understanding
 **CRITICAL STEP:** After exclusion verification, thoroughly analyze the master resume to understand optimal job matching criteria:
 
 - **Read Master Resume:** Complete analysis of `resumes/master-resume.md` to understand:
@@ -52,8 +78,8 @@ mkdir -p /current/src/SearchResults/Jobs
   - Key technology focus areas
   - Experience level positioning
 
-### 4. Define Search Criteria
-**IMPORTANT:** The job titles and criteria below are EXAMPLES. Replace with actual titles and preferences extracted from master resume and CLAUDE.md.
+### 6. Define Search Criteria
+**IMPORTANT:** Use the job titles from `./SearchResults/Targets/job-roles.md` for actual searches. The examples below are for reference only.
 
 #### Example Executive Leadership Roles
 - **C-Level Positions:** CTO, Chief Technology Officer, Chief Solutions Architect, Chief Digital Officer, VP Engineering
@@ -131,79 +157,46 @@ Execute searches and create individual platform analysis files.
 - **Focus:** Comprehensive market coverage, diverse company types and sizes
 
 ### Category 2: Executive Recruiting Firms
-Research and document executive search opportunities:
+Research and document executive search opportunities.
 
-#### Target Firms (SHREK + Specialized)
-- **Korn Ferry:** Digital and technology recruiting practice (global #1)
-- **Russell Reynolds Associates:** C-level technology placement
-- **Spencer Stuart:** Global technology leadership search  
-- **Heidrick & Struggles:** Technology executive placement
-- **Egon Zehnder:** Premium technology leadership search
-- **Bespoke Partners:** Software executive search and private equity (95% success rate)
-- **Cowen Partners:** Technology leadership for software companies
-- **The Good Search:** Technology Fortune 100 companies, proprietary AI
-- **Vell Executive Search:** Technology officer practice (22+ years experience)
-- **Y Scouts:** Boutique firm $50M+ revenue companies
+**Reference:** `./SearchResults/Targets/target-companies.md` - Category 2: Executive Search Firms
 
 #### Search Process
+- Read target executive search firms from `./SearchResults/Targets/target-companies.md`
 - Research each firm's technology practice
 - Identify key recruiters and practice leaders
 - Document typical client profiles and role requirements
 - **Output File:** `SearchResults/Jobs/executive-recruiters.md`
 
-### Category 3: Specialized AI/ML Job Boards
-Target AI-specific platforms and startup ecosystems:
+### Category 3: Specialized Job Boards
+Target specialized platforms based on candidate's field and skills.
 
-#### AI Job Boards
-- **AIJobs.net:** https://aijobs.net/ - AI, ML, Data Science, Big Data
-- **AIJobs.ai:** https://aijobs.ai/ - Leading AI/ML job board
-- **AIJobs.com:** https://www.aijobs.com/ - Official AI job marketplace
-- **MoAIJobs:** https://www.moaijobs.com - Latest AI jobs from top companies
-- **AI Engineering Jobs:** https://jobs.applied-llms.org/ - Applied LLM positions
+**Reference:** `./SearchResults/Targets/job-platforms.md` - Specialized Platforms section
 
-#### Startup Platforms
-- **Wellfound (AngelList):** https://wellfound.com/ - 130,000+ startup jobs with salary/equity transparency
-- **Built In:** Regional tech company focus
-- **AngelList Direct:** Startup CTO and founding engineer roles
-- **Hiring.Cafe:** https://hiring.cafe/ - Remote-first startup jobs with transparent compensation
+#### Platform Selection
+Read `./SearchResults/Targets/job-platforms.md` to identify specialized platforms matching:
+- Candidate's primary technical skills (e.g., AI/ML, .NET, DevOps)
+- Target industry (e.g., healthcare, fintech, enterprise)
+- Experience level (e.g., executive, startup, enterprise)
 
 #### Search Process
-- **Search Terms:** [Target job titles] + [AI/ML keywords from master resume] + [location preference]
-- **Focus:** Equity opportunities, cutting-edge technology, innovation roles
-- **Output File:** `SearchResults/Jobs/ai-ml-job-boards.md`
+- Read platforms from `./SearchResults/Targets/job-platforms.md`
+- **Search Terms:** [Target job titles from job-roles.md] + [keywords from master resume] + [location preference from CLAUDE.md]
+- **Focus:** Specialized opportunities matching candidate's expertise
+- **Output File:** `SearchResults/Jobs/specialized-job-boards.md`
 
 ### Category 4: Major Consulting Firms & Fortune 500 Companies
-Research technology leadership opportunities in consulting and Fortune 500 companies:
+Research technology leadership opportunities in consulting and Fortune 500 companies.
 
-#### Major Consulting Firms
-- **McKinsey & Company:** Digital and AI practice
-- **Deloitte:** AI Institute and digital transformation
-- **Accenture:** $3B AI investment, doubling AI workforce
-- **PwC:** $1B AI investment over three years
-- **EY:** AI specialists and specialized acquisitions
-- **KPMG:** $2B Microsoft partnership for AI integration
+**Reference:** `./SearchResults/Targets/target-companies.md`
+- Category 1: Major Consulting Firms
+- Category 3: Enterprise Technology Companies
 
-#### Strategic Technology Consulting Firms
-- **Thoughtworks:** Technology innovation and enterprise modernization
-- **Neudesic:** Microsoft technology consulting and AI/ML implementation
-- **Infosys:** Global technology consulting and digital transformation
-- **Booz Allen Hamilton:** Technology strategy and enterprise architecture
-- **Slalom:** Technology consulting and cloud transformation
-- **Pivotal Labs / VMware Tanzu:** Agile development and platform modernization
-- **BCG Digital Ventures:** Technology strategy and innovation consulting
-
-#### Fortune 500 Tech Company Career Sites
-Research major tech company career sites, filtering against exclusion list:
-- **Google Careers:** https://careers.google.com
-- **Apple Careers:** https://jobs.apple.com
-- **Meta Careers:** https://www.metacareers.com
-- **Microsoft Careers:** https://careers.microsoft.com
-- **Salesforce Careers:** https://careers.salesforce.com
-- **Oracle Careers:** https://careers.oracle.com
-- **IBM Careers:** https://careers.ibm.com
-- **Intel Careers:** https://jobs.intel.com
-
-**IMPORTANT:** Cross-reference all companies against `./SearchResults/excluded-companies.md` before proceeding with research.
+#### Research Process
+1. Read target companies from `./SearchResults/Targets/target-companies.md`
+2. Cross-reference all companies against `./SearchResults/excluded-companies.md`
+3. Research career opportunities at non-excluded companies
+4. Focus on positions matching job titles from `./SearchResults/Targets/job-roles.md`
 
 #### Research Focus
 - Technology leadership opportunities matching target job titles
@@ -214,34 +207,25 @@ Research major tech company career sites, filtering against exclusion list:
 - **Output File:** `SearchResults/Jobs/consulting-firms.md`
 
 ### Category 5: Remote-Specific Job Boards
-Target platforms specializing in remote work opportunities:
+Target platforms specializing in remote work opportunities.
 
-#### Remote-First Platforms
-- **Remote.co:** https://remote.co/remote-jobs/ - Curated remote positions
-- **RemoteOK:** https://remoteok.io/ - Global remote job board
-- **We Work Remotely:** https://weworkremotely.com/ - Largest remote work community
-- **FlexJobs:** https://www.flexjobs.com/ - Professional remote and flexible jobs
-- **JustRemote:** https://justremote.co/ - Remote jobs across all industries
-- **Working Nomads:** https://workingnomads.co/ - Curated remote job listings
+**Reference:** `./SearchResults/Targets/job-platforms.md` - Remote-First Platforms section
+**Reference:** `./SearchResults/Targets/target-companies.md` - Category 5: Remote-First Companies
 
 #### Search Process
-- **Search Terms:** [Target job titles] + [key technologies from master resume] + remote
+- Read platforms from `./SearchResults/Targets/job-platforms.md`
+- **Search Terms:** [Target job titles from job-roles.md] + [key technologies from master resume] + remote
 - **Focus:** 100% remote opportunities, distributed teams, flexible arrangements
 - **Output File:** `SearchResults/Jobs/remote-job-boards.md`
 
 ### Category 6: Contractor & Freelance Platforms
-Research high-value contractor and consulting opportunities:
+Research high-value contractor and consulting opportunities.
 
-#### Contractor Platforms
-- **Toptal:** https://www.toptal.com/ - Top 3% of freelance talent
-- **Gigster:** https://gigster.com/ - Enterprise software projects
-- **Gun.io:** https://gun.io/ - Freelance software development
-- **Turing:** https://www.turing.com/ - Long-term remote software jobs
-- **CodementorX:** https://www.codementor.io/x - Expert-level freelancing
-- **10x Management:** https://www.10xmanagement.com/ - High-end technology talent
+**Reference:** `./SearchResults/Targets/job-platforms.md` - Contractor Platforms section
 
 #### Search Process
-- **Search Terms:** [Target job titles] + consultant + [key technologies from master resume]
+- Read platforms from `./SearchResults/Targets/job-platforms.md`
+- **Search Terms:** [Target job titles from job-roles.md] + consultant + [key technologies from master resume]
 - **Focus:** High-value consulting engagements, fractional executive roles, specialized projects
 - **Output File:** `SearchResults/Jobs/contractor-platforms.md`
 
@@ -263,7 +247,7 @@ For each platform category, execute the following:
 
 1. **Web Search Query Construction**
    - Combine platform name with target roles and technologies
-   - Include location preferences (remote, Baltimore MD)
+   - Include location preferences from CLAUDE.md
    - Add current year for recent postings
 
 2. **Search Execution**

@@ -16,6 +16,27 @@ Execute when user requests:
 - "create targeted resumes and cover letters"
 - Any variation requesting job search with application materials
 
+## Pre-Requisites
+
+### Verify Target List Files Exist
+Before proceeding, verify these files exist in `./SearchResults/Targets/`:
+- `job-roles.md` - Target job titles derived from master resume
+- `target-companies.md` - Companies to target by category
+- `job-platforms.md` - Job search platforms to use
+
+**If any files are missing, execute:**
+```
+read protocols/target-list-generation.md and follow the protocol
+```
+Then return to this protocol.
+
+### Load Source Documents
+- **Read CLAUDE.md:** Extract user preferences (location, compensation, exclusions)
+- **Read Master Resume:** `resumes/master-resume.md` for skills, experience, achievements
+- **Read Exclusion List:** `./SearchResults/excluded-companies.md` for companies to avoid
+
+---
+
 ## Protocol Steps
 
 ### Phase 1: Job Search Execution (TodoWrite Required)

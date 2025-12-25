@@ -29,6 +29,27 @@ Execute when user requests:
 - Comprehensive approach for maximum opportunity coverage
 - Quality maintained through threshold scoring requirements
 
+## Pre-Requisites
+
+### Verify Target List Files Exist
+Before proceeding, verify these files exist in `./SearchResults/Targets/`:
+- `job-roles.md` - Target job titles derived from master resume
+- `target-companies.md` - Companies to target by category
+- `job-platforms.md` - Job search platforms to use
+
+**If any files are missing, execute:**
+```
+read protocols/target-list-generation.md and follow the protocol
+```
+Then return to this protocol.
+
+### Load Source Documents
+- **Read CLAUDE.md:** Extract user preferences (location, compensation, exclusions)
+- **Read Master Resume:** `resumes/master-resume.md` for skills, experience, achievements
+- **Read Exclusion List:** `./SearchResults/excluded-companies.md` for companies to avoid
+
+---
+
 ## Protocol Steps
 
 ### Phase 1: Batch Position Analysis (TodoWrite Required)
@@ -52,17 +73,17 @@ read protocols/position-fit-analysis.md and execute for each position
 - **Already Applied Check:** If position found in either tracking file, respond with "Already applied to [Company] - [Position] on [Date]" and skip
 - **Score ALL Positions:** Complete analysis for every non-duplicate position
 - **NO ARBITRARY LIMITS:** Process all positions regardless of quantity
-- Apply user preferences (remote priority, $180K+/$85+hr, no clearance)
+- **Apply user preferences from CLAUDE.md** (location, compensation, exclusions)
 - Focus on positions with direct application links
 - Document results for EVERY position analyzed
 
 #### Step 1.2: Threshold Qualification (NO LIMITS)
-**Qualification Criteria:**
+**Qualification Criteria (from CLAUDE.md):**
 - **Minimum Score:** ≥7.5/10 composite score
 - **ALL Qualifying Positions:** No maximum limit on number of positions
-- **Compensation:** ≥$180K/$85hr minimum
-- **Work Location:** 100% Remote OR Baltimore metro area
-- **Security Clearance:** NO clearance requirements
+- **Compensation:** Meets minimum from CLAUDE.md
+- **Work Location:** Matches preference from CLAUDE.md
+- **Other Exclusions:** Apply any exclusions from CLAUDE.md
 - **Application Process:** Direct application available
 
 **CRITICAL REQUIREMENT:**
@@ -96,7 +117,8 @@ read protocols/company-research.md and execute all steps
 - **Master Resume Source:** Use master resume as exclusive source for all materials
 
 #### Step 3.2: File Naming Convention (Batch Processing)
-**Format:** `MatthewWhited-{CompanyName}-{JobTitle}-{resume|coverletter|intro}.md`
+**Format:** `{CandidateName}-{CompanyName}-{JobTitle}-{resume|coverletter|intro}.md`
+Use candidate name from master resume.
 
 **Batch Processing Organization:**
 ```
