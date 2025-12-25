@@ -45,9 +45,34 @@
   },
   "work": [
     {
+      "name": "Cadwell Industries",
+      "position": "Principal Software Engineer/Architect",
+      "startDate": "2025-10",
+      "summary": "Medical device software development for healthcare technology innovation.",
+      "highlights": [
+        "Medical Device Software Development: Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies",
+        "Technical Leadership & Code Quality: Conducting peer code reviews, leading grooming sessions, and providing architectural guidance for medical device software development",
+        "Full-Stack Development: Backend development, application styling, and comprehensive unit testing across medical device communication systems",
+        "Architecture Review: Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software"
+      ]
+    },
+    {
+      "name": "Green Onion",
+      "position": "Principal Solutions Architect",
+      "startDate": "2025-02",
+      "summary": "Application rescue and modernization with crisis recovery leadership.",
+      "highlights": [
+        "Application Rescue: Inherited application in non-functional state from failed offshore development team",
+        "Cost Optimization: Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)",
+        "Code Generation Framework: Architecting and developing code generation framework to improve reliable UI development and maintenance",
+        "Crisis Leadership: Systematic approach to technical debt resolution while maintaining business operations during rewrite"
+      ]
+    },
+    {
       "name": "Out-of-Band Development, LLC",
       "position": "Chief Solutions Architect",
       "startDate": "2015-03",
+      "endDate": "2025-10",
       "summary": "Custom microelectronics and software design, architecture, and engineering.",
       "highlights": [
         "Focused on custom microelectronics and software design",
@@ -58,20 +83,8 @@
       ]
     },
     {
-      "name": "Green Onion (Life Time Foundation), Eliassen Group",
-      "position": "Principal Solutions Architect",
-      "startDate": "2025-02",
-      "summary": "Cloud architecture optimization and application performance enhancement.",
-      "highlights": [
-        "Cost Optimization: Achieved substantial reduction in recurring cloud infrastructure costs through comprehensive architecture review and optimization",
-        "Performance Enhancement: Improved application performance across multiple systems, achieving significant response time improvements",
-        "API Integration: Remapped and replaced third-party APIs for better performance and cost efficiency, eliminating vendor lock-in risks",
-        "Business Impact: Delivered measurable ROI through infrastructure optimization and operational efficiency improvements"
-      ]
-    },
-    {
       "name": "ERisk Services, Eliassen Group",
-      "position": "Principal Solutions Architect, specialized in AI",
+      "position": "Principal Solutions Architect (AI/ML Specialist)",
       "startDate": "2024-11",
       "endDate": "2025-08",
       "summary": "AI/ML integration and semantic search implementation for insurance industry duplicate detection.",

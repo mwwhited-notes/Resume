@@ -215,10 +215,12 @@
 - Developed software and databases for production scanning projects.
 - Improved performance of image conversion processes and developed web-based reporting tools.
 
-### Systems Engineer - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)
+### Systems Engineer/Department Head - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)
+**Internal Promotion Track:** Computer Technician → Network Technician → Systems Engineer/Network Architect → Department Head
 
 - Designed and managed wide area network for the school district.
 - Developed custom helpdesk and inventory systems, and provided network and project planning support.
+- Managed over 3,500 computers across 2 main campuses, admin building, and multiple offsite locations.
 
 ## Education
 

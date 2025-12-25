@@ -98,7 +98,7 @@
 - **Senior .Net Developer** - JPMorgan Chase, TEKsystems (June 2008 - December 2008)
 - **.Net Developer** - The Dot Net Factory, TEKsystems (August 2007 - April 2008)
 - **Software Engineer** - 3SG Corporation (August 2006 - August 2007)
-- **Systems Engineer** - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)
+- **Systems Engineer/Department Head** - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)*
 
 ## Personal Projects
 

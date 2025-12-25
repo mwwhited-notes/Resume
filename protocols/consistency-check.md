@@ -141,7 +141,8 @@ Update all profile documents using master resume as authoritative source and car
 Ensure across ALL documents using master resume as authoritative source:
 
 **Employment History Verification:**
-- **Current Position:** Green Onion (February 2025 - Present) appears first chronologically per master resume
+- **Current Position:** Cadwell Industries (October 2025 - Present) appears first chronologically per master resume
+- **Active Contract:** Green Onion (February 2025 - Present) concurrent contract work
 - **Recent Positions:** ERisk Services, Eliassen Group dates and details match master resume exactly
 - **Complete Work History:** All positions from master resume properly represented with accurate dates
 - **Out-of-Band Development:** Independent consulting (March 2015 - Present) properly positioned per master resume

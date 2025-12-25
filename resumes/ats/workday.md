@@ -169,10 +169,11 @@ Principal Solutions Architect with over 20 years of experience bridging hardware
 - Supplemented enterprise imaging software with custom external system integrations
 - Created web-based reporting tools for quality assurance and document tracking
 
-### Systems Engineer
+### Systems Engineer/Department Head
 **Eastland-Fairfield Career and Technical Schools | July 2000 - August 2006**
+*Internal Promotion: Computer Technician → Network Technician → Systems Engineer → Department Head*
 
-- Designed and managed wide area network infrastructure for school district
+- Designed and managed wide area network infrastructure for school district (3,500+ computers)
 - Developed custom helpdesk ticketing and inventory management systems
 - Implemented multiple network topology generations including Novell, Windows, Linux, and Unix AIX
 - Created Visual Basic for Applications (VBA) and barcode systems reducing inventory processing time

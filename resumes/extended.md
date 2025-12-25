@@ -281,9 +281,10 @@ Primary duties entailed developing software and databases to support production 
 - Web-based reporting tools developed for quality assurance team. These tools increased accuracy and productivity by allowing scanned documents to monitor and track from  return shipment.
 - Secondary duties included helping IT support teams as needed mainly by configuring routers, firewalls, and VPNs.
 
-### Systems Engineer - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)
+### Systems Engineer/Department Head - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)
+**Internal Promotion Track:** Computer Technician → Network Technician → Systems Engineer/Network Architect → Department Head
 
-Designed and managed wide area network for use by students and staff of the school district. Developed databases, scripts, tools and applications to improve productivity for computer support department.
+Designed and managed wide area network for use by students and staff of the school district. Developed databases, scripts, tools and applications to improve productivity for computer support department. Managed over 3,500 computers across multiple campuses.
 
 #### Accomplishments
 
