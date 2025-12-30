@@ -45,6 +45,37 @@
 ### 11. Generate target lists (companies, job roles, platforms)
 **Required Response:** `read protocols/target-list-generation.md and execute all steps`
 
+### 12. "refresh the virtual recruiter" or "update virtual-recruiter"
+**Required Response:** Update the `./virtual-recruiter/` template project
+**Location:** `./virtual-recruiter/` (gitignored, standalone template for sharing)
+**Purpose:** Generic career management system template for others to use
+
+**What this project is:**
+- Standalone career resume management system template
+- NO personal information - fully generic with placeholders
+- Designed to be copied to a separate public repository
+- Users run welcome-onboarding protocol to populate their own data
+
+**Key structure:**
+- `./virtual-recruiter/CLAUDE.md` - Self-contained AI instructions (no knowledge of this project)
+- `./virtual-recruiter/.private/` - Private data directory (designed as git submodule)
+- `./virtual-recruiter/protocols/` - 10 generic protocols adapted from this project
+- `./virtual-recruiter/protocols/templates/` - Document templates
+
+**When refreshing/updating:**
+1. Review protocols in this project for improvements
+2. Adapt changes to generic versions (remove all personal info)
+3. Update corresponding files in `./virtual-recruiter/protocols/`
+4. Ensure NO references to: Matthew, Whited, Cadwell, Green Onion, Baltimore, specific metrics (796K, 22K), specific salaries ($180K, $85/hr), specific exclusions
+5. All user-specific content must use `[bracketed placeholders]`
+6. Test by reading `./virtual-recruiter/CLAUDE.md` - should be self-explanatory to fresh Claude instance
+
+**Files to check when updating:**
+- Protocols: Compare `./protocols/*.md` with `./virtual-recruiter/protocols/*.md`
+- Templates: `./virtual-recruiter/protocols/templates/*.md`
+- Main docs: CLAUDE.md, README.md, README_SETUP.md
+- Subdir READMEs: resumes/, .private/, documentation/, profiles/, analysis/
+
 ## Key Professional Metrics - REFERENCE
 **Current metrics available in:** analysis/stackoverflow-metrics.md and analysis/technical-review.md
 - Stack Overflow: 22K+ reputation, C# Gold Badge
