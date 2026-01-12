@@ -131,7 +131,8 @@
       "Bash(sort:*)",
       "WebFetch(domain:www.flickr.com)",
       "Bash(done)",
-      "Bash(xargs:*)"
+      "Bash(xargs:*)",
+      "Bash(echo:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

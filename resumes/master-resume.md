@@ -47,20 +47,20 @@
     - [Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)](#principal-software-engineerarchitect---cadwell-industries-october-2025---present)
       - [CadLink Platform Contributions](#cadlink-platform-contributions)
     - [Principal Solutions Architect - Green Onion (February 2025 - January 2026)](#principal-solutions-architect---green-onion-february-2025---january-2026)
-      - [Backend Architecture (651 commits, 38% of API codebase)](#backend-architecture-651-commits-38-of-api-codebase)
-      - [Frontend Architecture (360+ commits, 36% of UI codebase)](#frontend-architecture-360-commits-36-of-ui-codebase)
+      - [Backend Architecture](#backend-architecture)
+      - [Frontend Architecture](#frontend-architecture)
     - [Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)](#chief-solutions-architect---out-of-band-development-llc-march-2015---october-2025)
     - [Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)](#principal-solutions-architect-aiml-specialist---erisk-services-eliassen-group-november-2024---august-2025)
-      - [ERiskFramework - Enterprise AI/ML Platform (17 Projects, 6,400+ LOC)](#eriskframework---enterprise-aiml-platform-17-projects-6400-loc)
+      - [ERiskFramework - Enterprise AI/ML Platform](#eriskframework---enterprise-aiml-platform)
     - [Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)](#rose-and-gold-foundation---board-member--software-automation-engineer-2017---2020)
     - [Principal Solutions Architect - Eliassen Group/Lightwell (September 2015 - October 2024)](#principal-solutions-architect---eliassen-grouplightwell-september-2015---october-2024)
       - [Practice-Wide Technical Leadership \& Standards Development](#practice-wide-technical-leadership--standards-development)
       - [Strategic Organizational Leadership - Centers of Excellence (July 2022 - October 2024)](#strategic-organizational-leadership---centers-of-excellence-july-2022---october-2024)
       - [Framework Architecture \& Strategic Innovation](#framework-architecture--strategic-innovation)
-      - [Eliassen Shared Libraries (dotnet-libs) - Primary Author (786 commits, 83%)](#eliassen-shared-libraries-dotnet-libs---primary-author-786-commits-83)
+      - [Eliassen Shared Libraries (dotnet-libs) - Primary Author](#eliassen-shared-libraries-dotnet-libs---primary-author)
       - [AI/ML Strategic Foresight \& Innovation](#aiml-strategic-foresight--innovation)
       - [Pre-Sales Engineering \& Business Development Excellence](#pre-sales-engineering--business-development-excellence)
-      - ["Choose Your Own Adventure" R\&D \& Training Program (228 commits, 16,360+ LOC)](#choose-your-own-adventure-rd--training-program-228-commits-16360-loc)
+      - ["Choose Your Own Adventure" R\&D \& Training Program](#choose-your-own-adventure-rd--training-program)
       - [Business Impact \& Technical Excellence](#business-impact--technical-excellence)
     - [Chief Technology Officer / Chief Solutions Architect - Itrica (November 2009 - July 2015)](#chief-technology-officer--chief-solutions-architect---itrica-november-2009---july-2015)
       - [Revolutionary Clinical Trial Systems](#revolutionary-clinical-trial-systems)
@@ -325,18 +325,18 @@
 ### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - School Nutrition Management Platform**
 
-- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team - now primary contributor with 1,011+ commits (~37% of combined codebase)
+- **Application Rescue Project:** Stabilized and advanced a legacy application inherited from an offshore development transition, serving as the primary contributor to the combined codebase.
 - **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
 - **Complete System Redesign:** Leading full application rewrite for K-12 school nutrition management system handling allergen tracking, nutritional compliance, and product procurement
 
-#### Backend Architecture (651 commits, 38% of API codebase)
+#### Backend Architecture
 - **Dynamic LINQ Expression Tree Query Engine:** Architected runtime query composition system with complex filtering, sorting, and search operations across 23 API endpoints serving multi-tenant school district data
 - **Reusable .NET Framework Library:** Designed Eliassen.Common framework with 400+ source files providing JWT authentication, SwaggerGen extensions, expression tree builders, and middleware components
 - **OpenAPI Extension System:** Built 21 custom schema annotations from attribute metadata enabling automatic TypeScript client generation with full type safety and UI component scaffolding
 - **Handlebars Template Engine:** Created 35 custom helpers and 129 templates for code generation powering front-end component automation
 - **Multi-Tenant Security Architecture:** Implemented role-based data scoping (SuperAdmin → CooperativeAdmin → DistrictAdmin) with automatic query filtering based on user organizational access
 
-#### Frontend Architecture (360+ commits, 36% of UI codebase)
+#### Frontend Architecture
 - **TypeScript Code Generation System:** Reduced frontend development time by 80% through automated React component generation from OpenAPI specifications for 18 entity types
 - **Enterprise Data Grid Component:** Engineered 43K+ LOC component supporting real-time filtering, sorting, pagination, bulk actions, and column customization used across all entity management screens
 - **Schema-Driven UI Architecture:** Achieved 67-84% code reduction by generating DataGrid columns dynamically from Zod schemas with custom cell renderers
@@ -368,7 +368,7 @@
 - **Pure .NET AI/ML Implementation:** Avoided typical Python dependencies through custom .NET integration - enterprise-friendly architecture
 - **Hybrid Search Innovation:** Combined traditional SQL with modern vector search capabilities in single system
 
-#### ERiskFramework - Enterprise AI/ML Platform (17 Projects, 6,400+ LOC)
+#### ERiskFramework - Enterprise AI/ML Platform
 - **Enterprise Framework Architecture:** Architected 17-project modular .NET 8.0/9.0 framework integrating Microsoft Semantic Kernel with Ollama LLM for AI-powered chat functionality with automatic function calling
 - **ONNX Runtime Integration:** Implemented sentence embedding generation using All-MiniLM-L6-v2 model with custom BERT tokenizer, supporting batch processing and multiple vector distance metrics (cosine, Euclidean, Manhattan, dot product)
 - **Enterprise Middleware Pipeline:** Built comprehensive ASP.NET Core middleware for audit logging with correlation ID propagation, request/response capture, and configurable endpoint filtering
@@ -411,8 +411,8 @@
 - **Lasting Organizational Impact:** Framework architecture remains foundational to AppDev group's .NET product development years after implementation
 - **Strategic Technology Guidance:** Championed "technology pragmatism" philosophy focusing on proven workhorse solutions over trend-driven "hot zebra" technologies
 
-#### Eliassen Shared Libraries (dotnet-libs) - Primary Author (786 commits, 83%)
-- **Enterprise Framework Scale:** Architected 80 NuGet-publishable projects with 28,700+ lines of C# across 590 source files covering message queueing, templating, document conversion, identity management, and AI/vector search
+#### Eliassen Shared Libraries (dotnet-libs) - Primary Author
+- **Enterprise Framework Scale:** Architected comprehensive enterprise framework with NuGet-publishable projects covering message queueing, templating, document conversion, identity management, and AI/vector search
 - **Document Conversion Pipeline:** Built multi-format conversion system integrating Apache Tika, wkhtmltopdf, and HtmlToOpenXml for PDF, HTML, DOCX, and Markdown transformations with 19 external service integrations
 - **RAG Engine CLI:** Developed file-based Retrieval Augmented Generation tool with Qdrant/OpenSearch vector database integration, Ollama/GroqCloud LLM support, and Sentence-BERT embeddings
 
@@ -433,7 +433,7 @@
 - **Developer & Architect Training:** Delivered comprehensive training programs to both internal teams and client organizations, covering advanced architecture patterns, AI/ML implementation, and enterprise best practices
 - **Sales Enablement Engineering:** Technical sales support including RFP responses, technical proposal writing, and solution estimation for multi-million dollar enterprise opportunities
 
-#### "Choose Your Own Adventure" R&D & Training Program (228 commits, 16,360+ LOC)
+#### "Choose Your Own Adventure" R&D & Training Program
 **Program Head - Internal R&D Initiative and Developer Training Platform**
 **Led enterprise-wide R&D and training program demonstrating architecture patterns**
 
@@ -618,7 +618,7 @@
 
 | Skill                  | Years |  Last Used  |     Level     | Evidence                           |
 |:-----------------------|:-----:|:-----------:|:-------------:|:-----------------------------------|
-| React                  |   4+  |   Current   | Advanced (4)  | Green Onion frontend, 360+ commits |
+| React                  |   4+  |   Current   | Advanced (4)  | Green Onion frontend               |
 | ASP.NET MVC/Core       |  15+  |   Current   |   Expert (5)  | Enterprise applications            |
 | REST API Design        |  15+  |   Current   |   Expert (5)  | OpenAPI, GraphQL, OData            |
 | WPF                    |  10+  |   Current   |   Expert (5)  | Cadwell medical device UI          |

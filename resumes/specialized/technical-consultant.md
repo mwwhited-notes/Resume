@@ -60,7 +60,6 @@
 - Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies
 - Technical leadership through peer code reviews, grooming sessions, and architectural guidance for FDA-regulated medical device software
 - Full-stack development including backend systems, application styling, and comprehensive unit testing
-- now primary contributor with 1,011+ commits (~37% of combined codebase)
 
 #### CadLink Platform Contributions
 - **Real-Time Monitoring System:** Architected upload progress tracking across distributed client-server architecture with automatic status synchronization for medical data workflows
@@ -82,7 +81,7 @@
 ### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - Crisis Recovery Leadership**
 
-- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team - now primary contributor with 1,011+ commits (~37% of combined codebase)
+- **Application Rescue Project:** Stabilized and advanced a legacy application inherited from an offshore development transition, serving as the primary contributor to the combined codebase.
 - **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
 - **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
 

@@ -46,7 +46,7 @@
 ### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - Crisis Recovery Leadership**
 
-- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team - now primary contributor with 1,011+ commits (~37% of combined codebase)
+- **Application Rescue Project:** Stabilized and advanced a legacy application inherited from an offshore development transition, serving as the primary contributor to the combined codebase.
 - **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
 - **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
 
