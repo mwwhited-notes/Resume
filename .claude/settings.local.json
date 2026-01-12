@@ -132,7 +132,8 @@
       "WebFetch(domain:www.flickr.com)",
       "Bash(done)",
       "Bash(xargs:*)",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "WebFetch(domain:stackexchange.com)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
