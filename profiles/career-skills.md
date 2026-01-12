@@ -1,5 +1,26 @@
 # Career Skills & Competencies
 
+## Table of Contents
+
+- [Technical Architecture & Design](#technical-architecture--design)
+- [Software Development & Engineering](#software-development--engineering)
+- [Database & Data Management](#database--data-management)
+- [Cloud & Infrastructure](#cloud--infrastructure)
+- [AI/ML & Advanced Analytics](#aiml--advanced-analytics)
+- [DevOps & Automation](#devops--automation)
+- [Security & Compliance](#security--compliance)
+- [Leadership & Management](#leadership--management)
+- [Business & Strategy](#business--strategy)
+- [Integration & Messaging](#integration--messaging)
+- [Quality Assurance & Testing](#quality-assurance--testing)
+- [Hardware & Embedded Systems](#hardware--embedded-systems)
+- [Training & Knowledge Transfer](#training--knowledge-transfer)
+- [Problem Solving & Innovation](#problem-solving--innovation)
+- [Communication & Collaboration](#communication--collaboration)
+- [Specialized Technologies](#specialized-technologies)
+
+---
+
 ## Technical Architecture & Design
 - Enterprise architecture strategy and governance
 - Solution architecture design and implementation
