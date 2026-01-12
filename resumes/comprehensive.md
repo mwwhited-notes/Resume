@@ -198,7 +198,7 @@
 - **Strategic Technology Guidance:** Championed "technology pragmatism" philosophy focusing on proven workhorse solutions over trend-driven "hot zebra" technologies
 
 #### Eliassen Shared Libraries (dotnet-libs) - Primary Author
-- **Enterprise Framework Scale:** Architected 80 NuGet-publishable projects with 28,700+ lines of C# across 590 source files covering message queueing, templating, document conversion, identity management, and AI/vector search
+- **Enterprise Framework Scale:** Architected comprehensive enterprise framework with NuGet-publishable projects covering message queueing, templating, document conversion, identity management, and AI/vector search
 - **Document Conversion Pipeline:** Built multi-format conversion system integrating Apache Tika, wkhtmltopdf, and HtmlToOpenXml for PDF, HTML, DOCX, and Markdown transformations with 19 external service integrations
 - **RAG Engine CLI:** Developed file-based Retrieval Augmented Generation tool with Qdrant/OpenSearch vector database integration, Ollama/GroqCloud LLM support, and Sentence-BERT embeddings
 

@@ -78,10 +78,29 @@
 
 ## Key Professional Metrics - REFERENCE
 **Current metrics available in:** analysis/stackoverflow-metrics.md and analysis/technical-review.md
-- Stack Overflow: 22K+ reputation, C# Gold Badge
+- Stack Overflow: 22,433+ reputation, C# Gold Badge
 - NuGet Downloads: 796K+ across 42 packages
 - Community Impact: 600+ solutions, 4.7M developer reach
 - Leadership: 125+ developers influenced
+
+## Metrics Policy for Resumes - CRITICAL
+**ONLY PUBLIC METRICS may be included in resumes:**
+
+**✅ ALLOWED (Public Metrics):**
+- NuGet downloads (public packages on nuget.org)
+- Stack Overflow reputation (publicly visible)
+- GitHub achievements (Arctic Code Vault, Pull Shark, etc.)
+- Personal public repository statistics (commit counts from personal projects)
+- Public community impact metrics
+
+**❌ NEVER INCLUDE (Private/Company Metrics):**
+- Commit counts from company/private repositories
+- Pull request counts from company work
+- Lines of code from company projects
+- Percentage contributions to company codebases
+- Internal repository statistics
+
+**Rationale:** Private repository metrics are confidential company information. Only publicly verifiable metrics should appear in resumes.
 
 ## Documentation Files Reference
 - **Gold Standard:** resumes/master-resume.md (authoritative source)
