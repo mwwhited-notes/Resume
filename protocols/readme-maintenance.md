@@ -44,8 +44,7 @@ When user says "update the TOC" or "Table of Contents" OR when you realize TOC n
    grep -n "\]\([^\.]" /current/src/README.md
    ```
 
-7. **Update Documentation Status**
-   - Document changes in ../documentation/change-history-YYYYMMDD.md (use current date)
+7. **Complete Protocol**
    - Update memory in ../CLAUDE.md if significant changes
    - Use TodoWrite to track progress through all steps
 

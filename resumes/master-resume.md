@@ -139,6 +139,7 @@
       - [Framework Innovation](#framework-innovation)
       - [Game \& Mixed Reality Development](#game--mixed-reality-development)
       - [Recognition \& Embedded Systems](#recognition--embedded-systems)
+  - [Technical Hobbies \& Maker Activities](#technical-hobbies--maker-activities)
   - [Leadership \& Mentorship Experience](#leadership--mentorship-experience)
     - [Centers of Excellence Leadership](#centers-of-excellence-leadership)
     - [Team Leadership \& People Management](#team-leadership--people-management)
@@ -1086,6 +1087,20 @@
 
 - **Dare to Dream (Microsoft Contest):** .NET Micro Framework network alarm clock - selected for Microsoft's "Dare to Dream Different" innovation contest featuring embedded networking capabilities on resource-constrained hardware
 - **Roomba Control:** Robotics integration and autonomous navigation experiments
+
+---
+
+## Technical Hobbies & Maker Activities
+
+**Photography & Astrophotography:** Serious photography hobbyist with professional-grade equipment including Nikon D800 FX full-frame DSLR and Nikon F6 35mm film camera. Specialized in astrophotography using Sky-Watcher Star Adventurer 2i motorized star tracker for deep-sky imaging. Complete film workflow including darkroom processing (Paterson Universal developing tank) and high-resolution scanning (Epson Perfection V850 Pro 6400 dpi scanner). Color calibration using X-Rite i1 Display Pro and ColorChecker Passport for accurate digital reproduction.
+
+**Electronics & PCB Design:** Active electronics maker with professional-grade workshop including Hantek DSO5202P 200 MHz oscilloscope, HP 34401A 6½ digit DMM, DE-5000 LCR meter, FLIR E4 thermal camera, and AmScope SM-4TZ stereo microscope for SMD work. Full surface-mount rework capabilities with KSGER T12 soldering station, YaeCCC 858D hot air, and Hakko FR-301 desoldering gun. Custom PCB design using KiCad with custom symbol and footprint libraries - designed and fabricated multiple production boards including RS-485 camera control interfaces (lanc2rs485), audio recorder control (h4n2rs485), and analog computer modules (ComdynaGP6 power supplies). Maintains extensive component stock ready for rapid prototyping.
+
+**Vintage Computing Preservation:** Collector and restorer of 1980s vintage computers including Apple IIc (1984, 65C02), Apple IIgs (1986, 65C816), and TI-99/4A (1981, TMS9900). Modern preservation equipment includes Floppy Emu SD card-based floppy emulator for Apple II systems and Greaseweazle V4.1 USB floppy controller for disk imaging and preservation. Maintains period-appropriate development tools including cc65 C compiler for 6502, Merlin32 assembler for 65816, and xdt99 TI-99/4A cross-development tools. Active in vintage computing community preserving software and documenting hardware.
+
+**Home Lab & DevOps Infrastructure:** Maintains multi-node home lab with DevOps Playground cluster (AMD FX-9590/FX-8350 systems, 64GB RAM total) for Docker/Kubernetes experimentation and CI/CD pipeline testing. Network infrastructure includes 9-node eero 6+ WiFi 6 mesh with Thread support, 2× MokerLink 2.5GbE managed switches with 10G SFP+ interconnect, and WD My Cloud PR4100 NAS for centralized storage. Infrastructure-as-code approach to home automation, media server, and development environment management.
+
+**3D Printing & Digital Fabrication:** Upgraded Velleman K8200 3D printer with Duet 3 multi-tool control system for custom enclosures, mechanical parts, and workshop organization solutions. Configuration and upgrades documented in [MyMashedDuet](https://github.com/mwwhited/MyMashedDuet) repository. Integration of 3D printing with electronics projects for complete product development (PCB + enclosure workflow).
 
 ---
 

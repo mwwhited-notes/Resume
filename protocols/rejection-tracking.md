@@ -99,16 +99,7 @@ If position was filled or closed:
 - Status: "Position Closed" or "Position Filled"
 - Different from personal rejection
 
-### Step 5: Documentation
-
-Create brief change entry (if significant):
-```markdown
-# If documenting in change history
-- Rejection tracking: Updated [Company] rejection in applied-to.md and apply-next.md
-- Updated application counts: [X active, Y rejected]
-```
-
-### Step 6: Verification
+### Step 5: Verification
 
 Run quick verification:
 1. Confirm both files updated
