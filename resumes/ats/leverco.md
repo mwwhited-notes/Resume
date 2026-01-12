@@ -55,7 +55,7 @@ Principal Solutions Architect with over 20 years bridging hardware and software 
 - Architecture Review: Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
 ### Principal Solutions Architect - Green Onion
-**February 2025 - Present**
+**February 2025 - January 2026**
 - Application Rescue Project: Inherited application in "horrible, hardly functioning state" from failed offshore development team
 - Dramatic Cost Optimization: Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
 - Complete System Redesign: Leading full application rewrite and modernization within extremely limited budget constraints

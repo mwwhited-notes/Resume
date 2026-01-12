@@ -10,7 +10,7 @@
 - **Location:** Baltimore, MD (Remote preferred)
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
-- **Stack Overflow:** [22K+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
+- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
 - **NuGet Profile:** [796K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
@@ -38,6 +38,14 @@
 - Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies
 - Technical leadership through peer code reviews, grooming sessions, and architectural guidance for FDA-regulated medical device software
 - Full-stack development including backend systems, application styling, and comprehensive unit testing
+- now primary contributor with 1,011+ commits (~37% of combined codebase)
+
+#### CadLink Platform Contributions
+- **Real-Time Monitoring System:** Architected upload progress tracking across distributed client-server architecture with automatic status synchronization for medical data workflows
+- **File Storage Architecture:** Redesigned timestamp-based hierarchical directory structure preventing performance degradation in high-volume medical data environments
+- **Healthcare Compliance Extension:** Implemented Gender Identity patient data model with database schema migration, HL7 v2.3-2.5 integration updates, and automated test coverage
+- **Security Modernization:** Migrated hardcoded API keys to encrypted configuration with automated installer upgrade support across 150+ deployment sites
+- **UI/UX Overhaul:** Rebuilt management interface with themed icon system, interactive status visualizations, and detail viewers improving administrator productivity
 
 ### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Fractional CTO/Chief Solutions Architect - Strategic Technology Leadership & Enterprise Innovation**
@@ -57,7 +65,7 @@
 - **Strategic Technology Risk Management:** Prevented costly enterprise technology adoption mistakes through comprehensive evaluation processes, notably steering organization away from conference-driven MongoDB/Kafka adoption toward proven alternatives like Entity Framework Code-First migrations, saving substantial implementation costs
 - **Process Innovation Leadership:** Created enterprise SDLC methodology with upstream feedback loops, eliminating assumptions and improving delivery quality while maintaining similar timeframes, demonstrating executive-level process optimization
 
-### Principal Solutions Architect - Green Onion (February 2025 - Present)
+### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - Crisis Recovery Leadership**
 
 - **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
@@ -109,7 +117,7 @@
 
 ### Community Authority & Industry Recognition
 - **Technology Community Leadership:** 796K+ package downloads with enterprise-applicable solutions demonstrating widespread adoption of production-ready frameworks
-- **Stack Overflow Authority:** 22K+ reputation with 600+ solutions reaching millions of developers globally, validating technical expertise and community influence
+- **Stack Overflow Authority:** 22,433+ reputation with 600+ solutions reaching millions of developers globally, validating technical expertise and community influence
 - **GitHub Recognition:** Arctic Code Vault Contributor with specific achievements demonstrating beneficial technology contributions
 - **Technical Validation:** 100% verification of all technical claims through comprehensive code review, ensuring complete accuracy of innovation statements
 

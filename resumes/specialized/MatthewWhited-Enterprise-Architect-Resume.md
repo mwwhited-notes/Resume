@@ -64,15 +64,33 @@
 - **Full-Stack Development:** Backend development, application styling, and comprehensive unit testing across medical device communication systems
 - **Architecture Review:** Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
-### Principal Solutions Architect - Green Onion (February 2025 - Present)
-**Application Rescue & Modernization - Crisis Recovery Leadership**
+#### CadLink Platform Contributions
+- **Real-Time Monitoring System:** Architected upload progress tracking across distributed client-server architecture with automatic status synchronization for medical data workflows
+- **File Storage Architecture:** Redesigned timestamp-based hierarchical directory structure preventing performance degradation in high-volume medical data environments
+- **Healthcare Compliance Extension:** Implemented Gender Identity patient data model with database schema migration, HL7 v2.3-2.5 integration updates, and automated test coverage
+- **Security Modernization:** Migrated hardcoded API keys to encrypted configuration with automated installer upgrade support across 150+ deployment sites
+- **UI/UX Overhaul:** Rebuilt management interface with themed icon system, interactive status visualizations, and detail viewers improving administrator productivity
 
-- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
+### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
+**Application Rescue & Modernization - School Nutrition Management Platform**
+
+- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team - now primary contributor with 1,011+ commits (~37% of combined codebase)
 - **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
-- **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
-- **Code Generation Framework Development:** Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
-- **Budget Recovery Success:** Cost savings from infrastructure optimization funding continued development work
-- **Crisis Leadership:** Systematic approach to technical debt resolution while maintaining business operations during rewrite
+- **Complete System Redesign:** Leading full application rewrite for K-12 school nutrition management system handling allergen tracking, nutritional compliance, and product procurement
+
+#### Backend Architecture
+- **Dynamic LINQ Expression Tree Query Engine:** Architected runtime query composition system with complex filtering, sorting, and search operations across 23 API endpoints serving multi-tenant school district data
+- **Reusable .NET Framework Library:** Designed Eliassen.Common framework with 400+ source files providing JWT authentication, SwaggerGen extensions, expression tree builders, and middleware components
+- **OpenAPI Extension System:** Built 21 custom schema annotations from attribute metadata enabling automatic TypeScript client generation with full type safety and UI component scaffolding
+- **Handlebars Template Engine:** Created 35 custom helpers and 129 templates for code generation powering front-end component automation
+- **Multi-Tenant Security Architecture:** Implemented role-based data scoping (SuperAdmin → CooperativeAdmin → DistrictAdmin) with automatic query filtering based on user organizational access
+
+#### Frontend Architecture
+- **TypeScript Code Generation System:** Reduced frontend development time by 80% through automated React component generation from OpenAPI specifications for 18 entity types
+- **Enterprise Data Grid Component:** Engineered 43K+ LOC component supporting real-time filtering, sorting, pagination, bulk actions, and column customization used across all entity management screens
+- **Schema-Driven UI Architecture:** Achieved 67-84% code reduction by generating DataGrid columns dynamically from Zod schemas with custom cell renderers
+- **Dual API Client Migration:** Designed zero-downtime transition framework from monolithic to modular architecture with Azure B2C/MSAL authentication
+- **PrimeReact v10 Migration:** Led complete UI framework modernization with role-based access control supporting 6 user types across 50+ routes
 
 ### Principal Solutions Architect, AI/ML Engineering - ERisk Services, Eliassen Group (November 2024 - August 2025)
 **Advanced Enterprise AI/ML Architecture & Compliance Systems**

@@ -17,7 +17,7 @@ Principal Solutions Architect and Technical Leadership Expert with 20+ years of 
 
 ### Principal Software Engineer/Architect | Cadwell Industries | October 2025 - Present
 
-### Principal Solutions Architect | Green Onion | February 2025 - Present
+### Principal Solutions Architect | Green Onion | February 2025 - January 2026
 
 ### Principal Solutions Architect (AI/ML Specialist) | ERisk Services | November 2024 - August 2025
 

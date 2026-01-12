@@ -4,7 +4,7 @@
 - **User:** Matthew Whited
 - **Professional Identity:** Principal Software Engineer/Architect, Fractional CTO & Crisis Resolution Specialist
 - **Current Position:** Principal Software Engineer/Architect - Cadwell Industries (October 6, 2025 - Present)
-- **Active Contracts:** Green Onion (February 2025 - Present)
+- **Recent Contracts:** Green Onion (February 2025 - January 2026) - Completed
 - **Previous Consulting:** Out-of-Band Development, LLC (March 2015 - October 2025)
 - **Address:** 1221 N Calvert St, Baltimore, MD 21202 (Charles Village/Midtown)
 - **Location:** /current/src
@@ -141,11 +141,11 @@ Principal Software Engineer/Architect at Cadwell Industries specializing in medi
 
 **Industry Focus & Exclusions:** Targeting enterprise technology, healthcare technology, manufacturing/logistics, and traditional software companies. Age-appropriate professional environments that value senior technical expertise over youth-oriented cultures.
 
-## Current Employment Status - October 2025
-- **Cadwell Industries:** ACCEPTED POSITION - Principal Software Engineer/Architect (Started October 6, 2025)
+## Current Employment Status - January 2026
+- **Cadwell Industries:** CURRENT POSITION - Principal Software Engineer/Architect (Started October 6, 2025)
   - Medical device software development for backend communication and synchronization (Cadwell/Cadlink)
   - Healthcare technology with FDA compliance considerations
-- **Green Onion:** Continuing contract work - Application rescue and modernization project
+- **Green Onion:** COMPLETED CONTRACT (February 2025 - January 2026) - Application rescue and modernization project
 
 ## Resume Strategy - MEMORIZED
 **Full details in:** resumes/master-resume.md

@@ -20,7 +20,7 @@
 - **Framework Architecture Innovation:** Created enterprise-grade framework ecosystems including 50+ library OoBDev .NET Framework and transformational Shared Framework evolution with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **ML/AI Strategic Foresight:** Comprehensive AI strategy development, hybrid search innovation, and early recognition of LLM cost/efficiency limitations
-- **Community Impact:** 796K+ package downloads across 42 packages, 22K+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Community Impact:** 796K+ package downloads across 42 packages, 22,433+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** 77% cloud cost reduction ($13,800+ annual savings), dramatic performance improvements, crisis resolution, and organizational productivity enhancements
 
 ## Professional Skills
@@ -115,15 +115,33 @@
 - **Full-Stack Development:** Backend development, application styling, and comprehensive unit testing across medical device communication systems
 - **Architecture Review:** Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
-### Principal Solutions Architect - Green Onion (February 2025 - Present)
-**Application Rescue & Modernization - Crisis Recovery Leadership**
+#### CadLink Platform Contributions
+- **Real-Time Monitoring System:** Architected upload progress tracking across distributed client-server architecture with automatic status synchronization for medical data workflows
+- **File Storage Architecture:** Redesigned timestamp-based hierarchical directory structure preventing performance degradation in high-volume medical data environments
+- **Healthcare Compliance Extension:** Implemented Gender Identity patient data model with database schema migration, HL7 v2.3-2.5 integration updates, and automated test coverage
+- **Security Modernization:** Migrated hardcoded API keys to encrypted configuration with automated installer upgrade support across 150+ deployment sites
+- **UI/UX Overhaul:** Rebuilt management interface with themed icon system, interactive status visualizations, and detail viewers improving administrator productivity
 
-- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
+### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
+**Application Rescue & Modernization - School Nutrition Management Platform**
+
+- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team - now primary contributor with 1,011+ commits (~37% of combined codebase)
 - **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
-- **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
-- **Code Generation Framework Development:** Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
-- **Budget Recovery Success:** Cost savings from infrastructure optimization funding continued development work
-- **Crisis Leadership:** Systematic approach to technical debt resolution while maintaining business operations during rewrite
+- **Complete System Redesign:** Leading full application rewrite for K-12 school nutrition management system handling allergen tracking, nutritional compliance, and product procurement
+
+#### Backend Architecture
+- **Dynamic LINQ Expression Tree Query Engine:** Architected runtime query composition system with complex filtering, sorting, and search operations across 23 API endpoints serving multi-tenant school district data
+- **Reusable .NET Framework Library:** Designed Eliassen.Common framework with 400+ source files providing JWT authentication, SwaggerGen extensions, expression tree builders, and middleware components
+- **OpenAPI Extension System:** Built 21 custom schema annotations from attribute metadata enabling automatic TypeScript client generation with full type safety and UI component scaffolding
+- **Handlebars Template Engine:** Created 35 custom helpers and 129 templates for code generation powering front-end component automation
+- **Multi-Tenant Security Architecture:** Implemented role-based data scoping (SuperAdmin → CooperativeAdmin → DistrictAdmin) with automatic query filtering based on user organizational access
+
+#### Frontend Architecture
+- **TypeScript Code Generation System:** Reduced frontend development time by 80% through automated React component generation from OpenAPI specifications for 18 entity types
+- **Enterprise Data Grid Component:** Engineered 43K+ LOC component supporting real-time filtering, sorting, pagination, bulk actions, and column customization used across all entity management screens
+- **Schema-Driven UI Architecture:** Achieved 67-84% code reduction by generating DataGrid columns dynamically from Zod schemas with custom cell renderers
+- **Dual API Client Migration:** Designed zero-downtime transition framework from monolithic to modular architecture with Azure B2C/MSAL authentication
+- **PrimeReact v10 Migration:** Led complete UI framework modernization with role-based access control supporting 6 user types across 50+ routes
 
 ### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Independent Technology Consulting - Technical Advisory & SOW Review Services**
@@ -148,8 +166,15 @@
 - **Project Crisis Recovery:** Called in after two previous "AI/ML" developers worked 6 months each with no results - delivered working prototype within one week
 - **Rapid Technical Innovation:** Built custom .NET service hosting sentence transformer embedding model to extend SQL Server with vector support using SQLCLR
 - **Custom Algorithm Development:** Implemented Locality-Sensitive Hashing with random hyperplanes over embedding space for dramatic query performance improvements
-- **Production Architecture:** Complete semantic search solution with hybrid BM25/vector search, FAISS integration, and enterprise audit logging
-- **Crisis Leadership Success:** Transformed 12-month failure into production system within weeks, preventing client relationship loss and contract cancellation
+- **Legacy Integration Excellence:** Made modern AI/ML work with SQL Server 2012/2019 on-premises - no cloud dependencies required
+- **Advanced Search Engine:** Complex pattern matching, form predicates, and semantic matching for insurance submission processing
+- **Pure .NET AI/ML Implementation:** Avoided typical Python dependencies through custom .NET integration - enterprise-friendly architecture
+- **Hybrid Search Innovation:** Combined traditional SQL with modern vector search capabilities in single system
+
+#### ERiskFramework - Enterprise AI/ML Platform
+- **Enterprise Framework Architecture:** Architected 17-project modular .NET 8.0/9.0 framework integrating Microsoft Semantic Kernel with Ollama LLM for AI-powered chat functionality with automatic function calling
+- **ONNX Runtime Integration:** Implemented sentence embedding generation using All-MiniLM-L6-v2 model with custom BERT tokenizer, supporting batch processing and multiple vector distance metrics (cosine, Euclidean, Manhattan, dot product)
+- **Enterprise Middleware Pipeline:** Built comprehensive ASP.NET Core middleware for audit logging with correlation ID propagation, request/response capture, and configurable endpoint filtering
 
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
 **Full-time Solutions Architect and Centers of Excellence Lead for .Net**
@@ -157,11 +182,11 @@
 #### Strategic Organizational Leadership - Centers of Excellence (July 2022 - October 2024)
 **Led enterprise-wide development standards and strategic technology initiatives across 125+ developers**
 
-- **Organizational Impact:** Influenced numerous development teams through Centers of Excellence leadership, establishing standards across multiple technology disciplines
-- **Training & Mentorship Programs:** Delivered comprehensive developer education ranging from intimate 1-5 person sessions to large-scale 20+ developer boot camps covering software design, architecture, design patterns, and SDLC best practices
+- **Organizational Impact:** Influenced 10-15 development teams through Centers of Excellence leadership, establishing standards across multiple technology disciplines
+- **Enterprise Training & Curriculum Development:** Delivered **25+ comprehensive training programs** for both internal teams and client organizations, ranging from intimate 1-5 person sessions to large-scale 20+ developer boot camps covering **Event-Driven Architecture**, **Enterprise Testing Automation** (unit testing, mocking frameworks, integration testing strategies), **Message Queue Architecture**, **DevOps/CI-CD Pipeline Development**, **Docker Platform Mastery** (hosting platform, tools platform, local development pipelines), **Scripting Automation** (Bash, Batch/CMD, PowerShell), **Master Data Management**, **Data Deployment & Schema Management** (DacFX, SQL Server projects, migration strategies), **AI/ML Engineering** (vector databases, text/image embeddings, document chunking, semantic search, BM25/fulltext search, vector distance calculations, neural networks), **Hardware & Electronics** (analog computing, digital logic, embedded microcontrollers, protocol reverse engineering for network/USB/serial, microelectronics, breadboarding, through-hole and surface mount soldering), **Network Programming** (socket programming, protocol implementation), software design, architecture, design patterns, and **custom SDLC methodology** creation - supporting both pre-sales technical enablement and post-sales client success
 - **Crisis Resolution Leadership:** Served as organizational "fire fighter" resolving critical client issues spanning upset clients, failed deployments, library upgrade complications, data corruption recovery, and cross-domain integration challenges
 - **Strategic Technology Risk Management:** Prevented costly technology adoption mistakes through comprehensive evaluation processes, notably steering organization away from conference-driven MongoDB/Kafka adoption toward proven alternatives like Entity Framework Code-First migrations
-- **Process Innovation:** Created enterprise SDLC methodology with upstream feedback loops, eliminating assumptions and improving delivery quality while maintaining similar timeframes
+- **Organizational Process Architecture:** Created comprehensive **enterprise SDLC methodology** with upstream feedback loops, role architecture (Product Manager/Owner separation, Technical Architect governance), **Agile/Kanban integration strategy**, and quality gate development - eliminating assumptions and improving delivery quality while maintaining similar timeframes
 
 #### Framework Architecture & Strategic Innovation
 **Nucleus/Shared Framework Transformation - Strategic Product Leadership**
@@ -171,6 +196,11 @@
 - **Open Source Leadership:** Led successful initiative to open-source framework, though organizational support for community maintenance was not provided
 - **Lasting Organizational Impact:** Framework architecture remains foundational to AppDev group's .NET product development years after implementation
 - **Strategic Technology Guidance:** Championed "technology pragmatism" philosophy focusing on proven workhorse solutions over trend-driven "hot zebra" technologies
+
+#### Eliassen Shared Libraries (dotnet-libs) - Primary Author
+- **Enterprise Framework Scale:** Architected 80 NuGet-publishable projects with 28,700+ lines of C# across 590 source files covering message queueing, templating, document conversion, identity management, and AI/vector search
+- **Document Conversion Pipeline:** Built multi-format conversion system integrating Apache Tika, wkhtmltopdf, and HtmlToOpenXml for PDF, HTML, DOCX, and Markdown transformations with 19 external service integrations
+- **RAG Engine CLI:** Developed file-based Retrieval Augmented Generation tool with Qdrant/OpenSearch vector database integration, Ollama/GroqCloud LLM support, and Sentence-BERT embeddings
 
 #### AI/ML Strategic Foresight & Innovation
 **Comprehensive AI Strategy Development & Hybrid Search Architecture**
@@ -258,7 +288,7 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
   - **[Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors)** - Custom SQLCLR implementation with SqlVector/SqlVectorF types, mathematical operations, binary serialization, and distance aggregation functions
   - [BinaryDataDecoders.ToolKit](https://www.nuget.org/packages/BinaryDataDecoders.ToolKit/) - 36K+ downloads
   - Extensive collection of .NET abstractions and extensions with professional CI/CD
-- **Stack Overflow:** 22K+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
+- **Stack Overflow:** 22,433+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
 - **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 200+ commits, multi-language hardware projects
   - **Custom designed 16-bit microprocessor (MW16C)** in SystemVerilog with multi-stage pipeline, comprehensive instruction set, and Python assembler
   - **Comprehensive VHDL component library** including ALU, memory elements, decoders, multiplexers
@@ -287,7 +317,7 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
 
 - **[GitHub](https://github.com/mwwhited)** - 30+ repositories, Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
 - **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
-- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22K+ reputation, 600+ solutions, nearly 5 million user reach
+- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22,433+ reputation, 600+ solutions, nearly 5 million user reach
 - **[Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)**
 - **[NPM](https://www.npmjs.com/~mwwhited)**
 - **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 796K+ downloads across 42 packages

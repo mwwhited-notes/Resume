@@ -5,7 +5,7 @@
     "label": "Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist",
     "email": "matt@whited.us",
     "phone": "+1 (614) 989-1748",
-    "summary": "Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. The trusted technology advisor companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions, 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients. Proven community authority with 796K+ package downloads, 22K+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status.",
+    "summary": "Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. The trusted technology advisor companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions, 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients. Proven community authority with 796K+ package downloads, 22,433+ Stack Overflow reputation, and GitHub Arctic Code Vault Contributor status.",
     "location": {
       "city": "Baltimore",
       "region": "MD",
@@ -60,6 +60,7 @@
       "name": "Green Onion",
       "position": "Principal Solutions Architect",
       "startDate": "2025-02",
+      "endDate": "2026-01",
       "summary": "Application rescue and modernization with crisis recovery leadership.",
       "highlights": [
         "Application Rescue: Inherited application in non-functional state from failed offshore development team",

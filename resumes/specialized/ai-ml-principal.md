@@ -10,7 +10,7 @@
 - **Location:** Baltimore, MD (Remote preferred)
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
-- **Stack Overflow:** [22K+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
+- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
 - **NuGet Profile:** [796K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
@@ -113,7 +113,7 @@
 
 ### AI/ML Authority & Technical Recognition
 - **AI/ML Community Impact:** 796K+ package downloads demonstrating widespread adoption of production-ready AI/ML frameworks
-- **AI/ML Technical Authority:** 22K+ Stack Overflow reputation with AI/ML solutions reaching millions of developers globally
+- **AI/ML Technical Authority:** 22,433+ Stack Overflow reputation with AI/ML solutions reaching millions of developers globally
 - **AI/ML Innovation Recognition:** GitHub Arctic Code Vault Contributor with proven beneficial AI/ML contributions
 - **AI/ML Technical Validation:** 100% verification of all technical AI/ML claims through comprehensive code review ensuring accuracy
 

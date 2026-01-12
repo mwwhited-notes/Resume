@@ -10,7 +10,7 @@
 - **Location:** Baltimore, MD (Remote preferred)
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
-- **Stack Overflow:** [22K+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
+- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
 - **NuGet Profile:** [796K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
@@ -36,6 +36,13 @@
 - Technical leadership through peer code reviews, grooming sessions, and architectural guidance for FDA-regulated medical device software
 - Full-stack development including backend systems, application styling, and comprehensive unit testing
 
+#### CadLink Platform Contributions
+- **Real-Time Monitoring System:** Architected upload progress tracking across distributed client-server architecture with automatic status synchronization for medical data workflows
+- **File Storage Architecture:** Redesigned timestamp-based hierarchical directory structure preventing performance degradation in high-volume medical data environments
+- **Healthcare Compliance Extension:** Implemented Gender Identity patient data model with database schema migration, HL7 v2.3-2.5 integration updates, and automated test coverage
+- **Security Modernization:** Migrated hardcoded API keys to encrypted configuration with automated installer upgrade support across 150+ deployment sites
+- **UI/UX Overhaul:** Rebuilt management interface with themed icon system, interactive status visualizations, and detail viewers improving administrator productivity
+
 ### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Enterprise Innovation & Strategic Architecture Leadership**
 
@@ -55,15 +62,26 @@
 - **Business Impact Solutions:** Delivered automated duplicate detection system with 84 completed work items, dramatically reducing manual review workload while maintaining compliance
 - **Technical Excellence Achievement:** Achieved 4.8/5.0 exceptional performance rating through clean architecture following SOLID principles and sophisticated caching strategies
 
-### Principal Solutions Architect - Green Onion (February 2025 - Present)
+### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - Crisis Recovery Leadership**
 
-- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
+- **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team - now primary contributor with 1,011+ commits (~37% of combined codebase)
 - **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
 - **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
-- **Code Generation Framework Development:** Architecting and developing code generation framework to improve reliable UI development and maintenance, reducing technical debt and increasing development velocity
-- **Budget Recovery Success:** Cost savings from infrastructure optimization funding continued development work
-- **Crisis Leadership:** Systematic approach to technical debt resolution while maintaining business operations during rewrite
+
+#### Backend Architecture
+- **Dynamic LINQ Expression Tree Query Engine:** Architected runtime query composition system with complex filtering, sorting, and search operations across 23 API endpoints serving multi-tenant school district data
+- **Reusable .NET Framework Library:** Designed Eliassen.Common framework with 400+ source files providing JWT authentication, SwaggerGen extensions, expression tree builders, and middleware components
+- **OpenAPI Extension System:** Built 21 custom schema annotations from attribute metadata enabling automatic TypeScript client generation with full type safety and UI component scaffolding
+- **Handlebars Template Engine:** Created 35 custom helpers and 129 templates for code generation powering front-end component automation
+- **Multi-Tenant Security Architecture:** Implemented role-based data scoping (SuperAdmin → CooperativeAdmin → DistrictAdmin) with automatic query filtering based on user organizational access
+
+#### Frontend Architecture
+- **TypeScript Code Generation System:** Reduced frontend development time by 80% through automated React component generation from OpenAPI specifications for 18 entity types
+- **Enterprise Data Grid Component:** Engineered 43K+ LOC component supporting real-time filtering, sorting, pagination, bulk actions, and column customization used across all entity management screens
+- **Schema-Driven UI Architecture:** Achieved 67-84% code reduction by generating DataGrid columns dynamically from Zod schemas with custom cell renderers
+- **Dual API Client Migration:** Designed zero-downtime transition framework from monolithic to modular architecture with Azure B2C/MSAL authentication
+- **PrimeReact v10 Migration:** Led complete UI framework modernization with role-based access control supporting 6 user types across 50+ routes
 
 ### Centers of Excellence Leadership - Eliassen Group (July 2022 - October 2024)
 **Enterprise-Wide Solution Standards & Technology Leadership**
@@ -116,7 +134,7 @@
 
 ### Solution Authority & Technical Recognition
 - **Solution Community Impact:** 796K+ package downloads demonstrating widespread adoption of enterprise-ready solution frameworks
-- **Solution Technical Authority:** 22K+ Stack Overflow reputation with 600+ solutions reaching millions of developers globally
+- **Solution Technical Authority:** 22,433+ Stack Overflow reputation with 600+ solutions reaching millions of developers globally
 - **Solution Innovation Recognition:** GitHub Arctic Code Vault Contributor with proven beneficial solution contributions
 - **Solution Technical Validation:** 100% verification of all technical solution claims through comprehensive code review ensuring accuracy
 

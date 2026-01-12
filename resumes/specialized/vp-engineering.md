@@ -10,7 +10,7 @@
 - **Location:** Baltimore, MD (Remote preferred)
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
-- **Stack Overflow:** [22K+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
+- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
 - **NuGet Profile:** [796K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
@@ -56,7 +56,14 @@
 - **Full-Stack Development:** Backend development, application styling, and comprehensive unit testing across medical device communication systems
 - **Architecture Review:** Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
-### Principal Solutions Architect - Green Onion (February 2025 - Present)
+#### CadLink Platform Contributions
+- **Real-Time Monitoring System:** Architected upload progress tracking across distributed client-server architecture with automatic status synchronization for medical data workflows
+- **File Storage Architecture:** Redesigned timestamp-based hierarchical directory structure preventing performance degradation in high-volume medical data environments
+- **Healthcare Compliance Extension:** Implemented Gender Identity patient data model with database schema migration, HL7 v2.3-2.5 integration updates, and automated test coverage
+- **Security Modernization:** Migrated hardcoded API keys to encrypted configuration with automated installer upgrade support across 150+ deployment sites
+- **UI/UX Overhaul:** Rebuilt management interface with themed icon system, interactive status visualizations, and detail viewers improving administrator productivity
+
+### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - Crisis Recovery Leadership**
 
 - **Application Rescue Project:** Inherited application in "horrible, hardly functioning state" from failed offshore development team
@@ -116,7 +123,7 @@
 
 ## Complete Career History
 
-### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - Present)
+### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - January 2026)
 ### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)  
 ### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
 ### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
@@ -153,7 +160,7 @@
 
 ### Organizational Impact
 - **796K+ NuGet package downloads** demonstrating technical authority and community influence
-- **22K+ Stack Overflow reputation** with 600+ solutions reaching 4.7 million users over 16+ years
+- **22,433+ Stack Overflow reputation** with 600+ solutions reaching 4.7 million users over 16+ years
 - **GitHub Arctic Code Vault Contributor** with verified technical contributions and innovation leadership
 - **125+ developer influence** through Centers of Excellence with lasting enterprise-wide impact
 
