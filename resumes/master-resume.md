@@ -693,9 +693,9 @@
 - **Binary Data Processing:** Protocol parsing, file format implementations, network protocols
 - **Reverse Engineering:** Protocol analysis, legacy system integration, software archaeology
 - **Domain-Specific Languages:** ANTLR, custom compilers, AST manipulation, XSLT code generation
-- **Hardware Description Languages:** **Professional Verilog, VHDL, SystemVerilog expertise** for FPGA/CPLD development (Vivado, Atmel Studio) with advanced digital logic design
-- **Specialized Domain Applications:** **Fencing electronic scoring systems**, **radiation detection monitoring**, device communication protocols, Arduino integration
-- **PCB Design & Electronics:** KiCad and Eagle for circuit board layout, schematic capture, and electronic hardware design
+- **Hardware Description Languages:** **Professional Verilog, VHDL, SystemVerilog expertise** for FPGA/CPLD development (Xilinx Vivado, Altera Quartus Prime, ISE) with advanced digital logic design, custom CPU architectures, and reusable IP cores
+- **Specialized Domain Applications:** **Fencing electronic scoring systems** (ScoreMachine production deployment), **radiation detection monitoring** (RadexOne), **test equipment automation** (LXI Serial Bridge), device communication protocols, Arduino integration
+- **PCB Design & Electronics:** KiCad for circuit board layout with custom symbol and footprint libraries, schematic capture, KiBot automation for professional documentation generation, analog computer designs, interface adapters
 - **Message Queuing Systems:** SQL Server Service Broker, Azure Service Bus, RabbitMQ, custom correlation tracking
 - **Document Processing:** Apache Tika integration, wkhtmltopdf, HtmlToOpenXml, multi-format conversion pipelines (PDF, HTML, DOCX, Markdown)
 - **Healthcare Technology:** HL7 v2.3-2.5 integration standards, HIPAA compliance, medical device software, FDA-regulated environments
@@ -787,6 +787,10 @@
 
 ## Personal Projects & Technical Innovations
 
+**Primary Repositories:**
+- **[shared](https://github.com/mwwhited-notes/shared)** - Personal technical notebook with hardware inventory, project documentation, and analog computing research (232+ PDFs, 660MB)
+- **[proving-grounds](https://github.com/mwwhited/proving-grounds)** - Experimental projects and example code (21 projects, 113+ C# projects) spanning embedded systems, distributed systems, database patterns, AI/ML infrastructure, and software architecture patterns
+
 ### Extensions for .Net Framework (42 NuGet packages, 796,000+ downloads)
 **Comprehensive .NET ecosystem with professional CI/CD**  
 **Repository:** [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex)
@@ -835,25 +839,33 @@
 - **Component Library:** Comprehensive VHDL components (ALU, registers, decoders, multiplexers) portable across Xilinx and Altera
 
 #### Professional Hardware Projects (EXCEPTIONAL Innovation)
-- **LXI Serial Bridge:** ESP8266-based SCPI Raw Socket server (TCP 5025) with mDNS service discovery and IEEE 488.2 command compliance for test equipment
-- **Analog Calculator Suite:** Complete analog computer platform with logarithmic amplifiers, op-amp multipliers, and Systron Donner SD-80 clone
-- **Historic Computer Recreations:** Altair 8800 clone PCB, diode logic computers with discrete 1-byte registers and 4-to-16 decoders
+- **LXI Serial Bridge (ESP8266):** SCPI Raw Socket server (TCP 5025) with mDNS service discovery and IEEE 488.2 command compliance for test equipment automation and remote instrument control
+- **Analog Calculator Suite (ComdynaGP6):** Complete analog computer platform with logarithmic amplifiers, op-amp multipliers, Systron Donner SD-80 clone, and custom PCB designs for analog computation research
+- **Historic Computer Recreations:** Altair 8800 clone PCB, diode logic computers with discrete 1-byte registers and 4-to-16 decoders, 8051 development boards
+- **LANC Camera Control:** RS-485 interface PCB (lanc2rs485) for Sony/Canon camera automation in fencing scoring system
+- **Audio Device Interfaces:** Zoom H4N audio recorder control PCB (h4n2rs485) with RS-232 to RS-485 conversion for automated recording
+- **Scoring System Hardware:** Saint George power supply and interface boards (SG_Power, Favero) for professional fencing equipment integration
 
 #### Hardware Engineering Portfolio (25+ PCBs, 20+ FPGA Projects, 318 HDL Files)
-- **FPGA Development:** Xilinx Vivado (Artix-7, Zynq SoC), Altera Quartus Prime, Verilog/VHDL/SystemVerilog synthesis
-- **Microcontrollers:** AVR (ATmega328P, ATtiny series), ARM Cortex-M (STM32F103), ESP8266 WiFi SoC, PIC16F627
+- **FPGA Development:** Xilinx Vivado (Artix-7 Arty A7-100, Zynq-7020 Arty Z7-20), Altera Quartus Prime (Cyclone II), XC9500 CPLD, Verilog/VHDL/SystemVerilog synthesis
+- **FPGA IP Cores:** Generic reusable IP cores, Pmod interface modules (PmodLED8x8, Pmod16bitBanked), MicroBlaze SoC tutorials, Zynq HLS projects
+- **Microcontrollers:** AVR (ATmega328P, ATtiny2313, ATtiny85), ARM Cortex-M (STM32F103 Blue Pill), ESP8266 WiFi SoC, PIC16F627, Basic Stamp, Particle IoT
+- **Development Boards:** ATmega32 DevKit, custom I/O shields (MyIOShield), helper boards for prototyping
 - **Real-Time Systems:** FreeRTOS implementations with interrupt-driven queues, matrix keypad scanning, I2C LCD, HID keyboard output
-- **Custom Libraries:** 45+ Arduino libraries, 50+ KiCad symbols/footprints, KiBot automation for PCB manufacturing
-- **Development Tools:** PlatformIO, WinAVR/avr-gcc toolchain, Make-based build systems
+- **Custom Libraries:** 45+ Arduino libraries (including FreeRTOS, LANC control, relay controllers, sensor interfaces), 50+ KiCad symbols/footprints in custom libraries
+- **PCB Manufacturing:** KiBot automation for documentation generation (schematics, BOM, gerbers), professional fabrication-ready outputs
+- **Development Tools:** PlatformIO, WinAVR/avr-gcc toolchain, STM32duino, MPLAB X + XC8, arduino-cli, Make-based build systems
 
 ### AI/ML Research & Production Systems (HIGH Innovation)
 
 #### Advanced Algorithm Development
-**Repository:** [github.com/mwwhited-notes/shared](https://github.com/mwwhited-notes/shared)
+**Repository:** [github.com/mwwhited-notes/shared](https://github.com/mwwhited-notes/shared) | [proving-grounds/hybridsearch](https://github.com/mwwhited/proving-grounds/tree/main/examples/hybridsearch)
 - **Custom LSH Implementation:** Locality Sensitive Hashing for approximate nearest neighbor search
 - **Performance Research:** Hamming vs Euclidean distance optimization with significant speedup
-- **Hybrid Search Engines:** Combining semantic similarity with keyword matching using FAISS
-- **Production Quality:** Complete search engines with scalable architecture
+- **Hybrid Search Engine (hybridsearch):** Production document store combining semantic search (sentence transformers, Qdrant vector DB) with lexical search (OpenSearch inverted indexes), LLM-based summarization ("Muse" - Ollama + Mistral), and PlantUML rendering with caching
+- **Multi-Language Implementation:** Parallel C# and Go implementations demonstrating language-agnostic architecture patterns
+- **Enterprise Features:** Markdig Markdown-to-HTML conversion, Apache Tika document processing, Keycloak authorization support (planned)
+- **Production Quality:** Complete search engines with scalable architecture, health monitoring, and OpenAPI compatibility
 
 #### Pure .NET ONNX Sentence Transformer Engine (EXCEPTIONAL Innovation)
 - **Complete .NET Implementation:** AllMiniLM-L6-v2 transformer without Python dependencies
@@ -900,20 +912,28 @@
 - **Code Quality Pipeline:** Automated analysis and deployment workflows
 
 #### Multi-Language Programming Platform (HIGH Innovation)
-**Educational platform demonstrating exceptional breadth**  
-**Repository:** [github.com/mwwhited-forks/ChallengeAccepted](https://github.com/mwwhited-forks/ChallengeAccepted)
+**Educational platform demonstrating exceptional breadth**
+**Repository:** [ChallengeAccepted](https://github.com/Mwwhited-BookLearning/ChallengeAccepted)
 
-##### Coding Challenges Collection (25+ challenges)
+##### Coding Challenges Collection (44 challenges, 39 C# projects)
 - **Language Diversity:** C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%)
-- **Advanced Implementations:** CARDIAC CPU emulator, BK-tree spell checker, cryptography
-- **Cross-Platform:** Consistent algorithms across multiple runtime environments
-- **Educational Impact:** Comprehensive programming reference and learning resource
+- **Algorithm Implementations:** Dijkstra's Shortest Path, Hamming sequence generator, Markov text generator, DNA sequence matcher, Longest Common Substring, Graph Traversal
+- **Computer Science Fundamentals:** CARDIAC CPU emulator, compiler/interpreter projects, expression parser and plotter, event queue system, event dispatcher
+- **Cryptography & Security:** Caesar cipher, Enigma cipher, One-Time Pad generator, One-Time Password (OTP/TOTP), Morse code encoder/decoder
+- **Data Processing:** CSV parser, JSON transformer, log analyzer, data aggregator, grid layout algorithms
+- **Classic Problems:** Game of Life, maze generation, card shuffle algorithms, Magic 8 Ball, amortization calculator, accounting functions
+- **Cross-Platform:** Consistent algorithm implementations across multiple runtime environments
+- **Educational Impact:** Comprehensive programming reference demonstrating breadth across computer science domains
 
 ##### Game Development Evolution
-- **Historical Progression:** QBasic → Visual Basic 6 → C# .NET → C++ → XNA/MonoGame
+**Repository:** [PlaygroundGames](https://github.com/mwwhited/PlaygroundGames)
+
+- **Historical Progression:** QBasic (APPLE.BAS, Star Trek, cal.bas, tty.bas) → Visual Basic 6 (PONG, High Low card game) → C# .NET → C++ → XNA/MonoGame (StrategoXna, HexTile2d, 3D rendering tests)
+- **Self-Taught Programming Foundation:** Collection of games demonstrating progressive skill development from keyword-only BASIC documentation to professional game frameworks
 - **Technical Breadth:** 2D/3D graphics, physics, audio, input handling, state management
 - **Framework Mastery:** XNA, MonoGame, DirectX integration, content pipelines
 - **Platform Diversity:** Windows, Xbox 360, Zune development experience
+- **Educational Archive:** Historical record of 15+ years of game development learning progression
 
 ##### Historical Cryptography Implementations
 - **Complete Enigma Machine Simulation:** Accurate rotor mechanics with plugboard
@@ -924,19 +944,29 @@
 ### Specialized Domain Applications
 
 #### Real-Time Sports Scoring Systems (EXCEPTIONAL Innovation)
-- **ScoreMachine:** Complete distributed fencing tournament scoring system
-- **Hardware Integration:** Proprietary protocol decoders for Saint George and Favero scoring machines
-- **Arduino Integration:** Custom HDMI switching and LANC camera control
-- **Real-Time Web Dashboard:** SignalR live updates with multi-provider architecture
-- **Embedded Deployment:** Raspberry Pi with custom networking and containerization
-- **Multi-Protocol Support:** Binary protocol parsing with state management for live competition scoring
+**ScoreMachine - Production Deployment (2018-2020 Arnold Fencing Classic, 2020-Present Royal Arts)**
+**Repository:** [shared/projects/scoremachine](https://github.com/mwwhited-notes/shared/tree/main/projects/scoremachine) | [Production Code](https://github.com/mwwhited/FencingScoreBoard)
+
+- **Production Deployment:** Arnold Fencing Classic (major international tournament, 2018-2020), Royal Arts Fencing Academy (2020-present, still in production 2026)
+- **Multi-Target Overlay Architecture:** Single HTML/CSS/JS page serving both NeTV FPGA hardware overlay (Phase 1) and OBS Browser Source (Phase 2) without code duplication
+- **Phase 1 (2017-2019):** Raspberry Pi 2 + NeTV FPGA hardware overlay with 4× E810-DTU serial-to-TCP/IP converters, Arduino LANC camera control, HDMI switching, distributed A/V control
+- **Phase 2 (2019-Present):** Simplified Windows PC + OBS Studio architecture with direct RS-485-to-USB adapter, 77% complexity reduction
+- **Protocol Engineering:** Complete Favero and Saint George fencing scoring machine protocol decoders in [BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders) library (796K+ NuGet downloads)
+- **Hardware Integration:** Raspberry Pi networking (dual-interface: eth0 external, usb0 internal), NeTV HTTP API integration, custom PCB designs (h4n2rs485, lanc2rs485, SG_Power in KiCad)
+- **Real-Time Communication:** ASP.NET Core + SignalR with transport fallback (WebSockets for OBS, LongPolling/SSE for NeTV browser limitations)
+- **Performance Metrics:** ~30-50ms latency (score update to display), 99%+ uptime during 3-day tournaments, 4-8 concurrent strips
+- **Zoom H4N Protocol:** Reverse-engineered RS-232 2400 baud protocol for automated audio recording control
+- **Community Impact:** Production system demonstrating hardware-to-software migration strategy as technology matured
 
 #### Enterprise Home Automation Platform
+**Repository:** [proving-grounds/OoBDev.HomeSeer](https://github.com/mwwhited/proving-grounds/tree/main/examples/OoBDev.HomeSeer)
+
+- **OoBDev.HomeSeer Framework:** Comprehensive home automation infrastructure with form generation engine (OobDev.FormEngine.Core), image processing tools (OobDev.ImageTools), and identity management (OobDev.AspNet.Identity)
 - **Multi-Scale Image Tiling:** Advanced zoom/pan functionality with performance optimization
 - **Authentication Systems:** Custom TOTP (Time-based One-Time Password) provider implementation
-- **Advanced Image Processing:** Barcode generation (Code39) with cross-platform compatibility
-- **Extensible Architecture:** Holiday API adapter pattern with XML schema validation
-- **Form Processing Engine:** XSLT transformations with comprehensive validation
+- **Advanced Image Processing:** Barcode generation (Code39) with cross-platform GDI+ compatibility
+- **Extensible Architecture:** Holiday API adapter pattern (OobDev.Adapter.HolidayApi.Client) with XML schema validation
+- **Form Processing Engine:** Dynamic WPF-style form generation with XSLT transformations and comprehensive validation
 - **Credential Management:** Cross-platform settings and security management
 
 #### Custom Domain-Specific Language Development
@@ -947,25 +977,35 @@
 - **Meta-Programming:** Complete compiler toolchain demonstrating language design expertise
 
 #### Enterprise Message Processing Platforms
-- **SQL Server Service Broker Integration:** Custom message type definitions with queue activation
-- **Visual Modeling Tools:** WPF-based drag-drop interface for message flow design
-- **Automatic Code Generation:** SQL script generation from visual models with sequence diagrams
-- **Advanced MVVM:** Complex commanding patterns with live SQL Server schema import
+**Repository:** [proving-grounds/OoBDev.MessageBroker](https://github.com/mwwhited/proving-grounds/tree/main/examples/OoBDev.MessageBroker) | [proving-grounds/Ssb.Modeling](https://github.com/mwwhited/proving-grounds/tree/main/examples/Ssb.Modeling)
+
+- **OoBDev.MessageBroker:** SQL Server Service Broker message broker implementation with Entity Framework 7 integration, custom message type definitions, queue activation, and dependency injection CLI tool (OoBDev.DependencyInjection.Cli)
+- **Ssb.Modeling (WPF Designer):** Visual designer for SQL Service Broker workflows using MVVM pattern, drag-drop interface for message flow design, automatic SQL script generation from visual models, live SQL Server schema import, and comprehensive sequence diagram support
 - **Message Queue Abstractions:** Multi-provider support with correlation tracking and stack frame inspection
+- **Documentation Excellence:** Includes detailed technical notes on EF7, SessionContext patterns, and Service Broker implementation
 
 #### Hardware-Software Integration
-- **DeviceBridge:** Legacy hardware modernization with IEEE-1284 protocol implementation
+**Repository:** [proving-grounds/UsbMonitor](https://github.com/mwwhited/proving-grounds/tree/main/examples/UsbMonitor) | [DeviceBridge](https://github.com/mwwhited/DeviceBridge)
+
+- **UsbMonitor:** USB device detection and enumeration using WMI and WinRT API integration, GPS device support (UsbGps), driver information extraction (InfFinder), and desktop-to-WinRT bridge (DesktopToWinRT) for cross-platform device management
+- **DeviceBridge:** Legacy hardware modernization with IEEE-1284 parallel port protocol implementation, TDS2024 oscilloscope data capture
 - **Real-Time Systems:** Interrupt-driven data capture with ring buffer implementation
-- **Multi-Storage Architecture:** SD card, EEPROM, SPI flash with NASA EEFS integration
+- **Multi-Storage Architecture:** SD card, EEPROM, SPI flash with NASA EEFS embedded file system integration
 - **Custom Shield Design:** Extensive hardware modifications with comprehensive documentation
 - **Unmanaged Exports:** .NET interop tool for creating unmanaged exports from managed assemblies
 - **IL Code Modification:** Runtime assembly manipulation with custom attribute processing
 
 #### Professional Tools & Utilities
+**Repository:** [proving-grounds](https://github.com/mwwhited/proving-grounds/tree/main/examples)
+
+- **BuildFirstOnce:** MSBuild orchestration pattern demonstrating Directory.Build.props for solution-wide tasks with one-time execution, detailed output examples in documentation
+- **HandyClasses (MIT License):** Comprehensive utility library collection including SmtpClientService (ASP.NET Identity integration), Code39 barcode generator (GDI+), ConsoleEx (interactive CLI prompts), XFragment (XML fragment handling), CsvWriter (RFC 4180 CSV serialization), IniFile (Win32 INI wrapper), and Base64/Base32/Base16/Base8 encoding utilities (VB.NET)
+- **markdownplantuml:** PlantUML extension for Markdig markdown processor enabling inline diagram rendering, custom block parser, and specialized renderers for documentation-as-code workflows
+- **TOTP Authentication Library (TotpExample):** Time-Based One-Time Password generation with QR code support for Windows, Windows Phone, and Web platforms, includes sample CLI and web integration
 - **MSBuild Automation:** Advanced build orchestration with cross-project dependencies
 - **Container Orchestration:** Universal development environment containerization (10+ languages)
 - **Kubernetes Charts:** Professional Helm chart development with production patterns
-- **Testing Frameworks:** Dynamic proxy-based mocking with modern .NET integration
+- **Testing Frameworks (oobtainium):** Dynamic proxy-based mocking framework with modern .NET integration, expression trees, and dependency injection
 - **Document Conversion Pipelines:** Apache Tika integration with stream-based processing
 - **AI-Powered Code Generation:** Handlebars template engines with LLM integration for automated transformation
 
@@ -987,7 +1027,9 @@
 - **16-bit CPU Emulator:** Software-based processor simulation validating hardware design understanding
 
 #### Recognition & Embedded Systems
-- **Dare to Dream (Microsoft Contest):** .NET Micro Framework network alarm clock - selected for Microsoft's "Dare to Dream Different" innovation contest
+**Repository:** [DotnetMicroFramework-DareToDream](https://github.com/mwwhited-archives/DotnetMicroFramework-DareToDream)
+
+- **Dare to Dream (Microsoft Contest):** .NET Micro Framework network alarm clock - selected for Microsoft's "Dare to Dream Different" innovation contest featuring embedded networking capabilities on resource-constrained hardware
 - **Roomba Control:** Robotics integration and autonomous navigation experiments
 
 ---
