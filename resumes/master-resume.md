@@ -15,7 +15,7 @@
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
 - **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
 - **Personal Website:** [matthewwhited.com](https://matthewwhited.com)
-- **NuGet Profile:** [823K+ downloads](https://www.nuget.org/profiles/mwwhited/)
+- **NuGet Profile:** [829K+ downloads (829,742 verified)](https://www.nuget.org/profiles/mwwhited/)
 
 ---
 
@@ -103,7 +103,7 @@
     - [Professional Certifications \& Industry Recognition](#professional-certifications--industry-recognition)
     - [Self-Teaching Excellence \& Pattern Recognition](#self-teaching-excellence--pattern-recognition)
   - [Personal Projects \& Technical Innovations](#personal-projects--technical-innovations)
-    - [Extensions for .Net Framework (42 NuGet packages, 823,000+ downloads)](#extensions-for-net-framework-42-nuget-packages-796000-downloads)
+    - [Extensions for .Net Framework (42 NuGet packages, 829,742+ downloads)](#extensions-for-net-framework-42-nuget-packages-829000-downloads)
       - [Vector Support for MS-SQL Server (EXCEPTIONAL Innovation)](#vector-support-for-ms-sql-server-exceptional-innovation)
       - [High-Performance Binary Data Processing](#high-performance-binary-data-processing)
       - [Core Framework (438 commits, 32,363 LOC, 65+ modules)](#core-framework-438-commits-32363-loc-65-modules)
@@ -242,14 +242,14 @@
 - **Self-Taught Excellence Foundation:** Started with Apple IIc game reverse engineering, taught vocational instructor networking, offered first job before graduation for ILOVEYOU virus cleanup
 - **Hardware-Software Complete Stack:** Electronics Technician certification through AI/ML custom algorithms, microprocessor design to cloud optimization, **professional Hardware Description Language expertise** (Verilog, VHDL, SystemVerilog)
 - **Anti-Hype Technology Wisdom:** Pattern recognition from decades of technology cycles - "AI/ML has tools but massively overhyped, chat everywhere is poor UX"
-- **Quantifiable Business Impact:** 823K+ downloads across 42-package modular ecosystem (6-year sustained maintenance), 324+ GitHub stars, 22,433+ Stack Overflow reputation (127 badges including C# Gold), Arctic Code Vault Contributor, $500K+ financial risk prevention
+- **Quantifiable Business Impact:** 829K+ downloads (829,742 verified) across 42-package modular ecosystem (6-year sustained maintenance), 324+ GitHub stars, 22,433+ Stack Overflow reputation (127 badges including C# Gold), Arctic Code Vault Contributor, $500K+ financial risk prevention
 
 ---
 
 ## Quantifiable Achievements & Community Recognition
 
 ### Open Source & Community Impact
-- **823,000+ total NuGet package downloads** across 42-package modular ecosystem with 6-year sustained maintenance (2020-2026)
+- **829,742 total NuGet package downloads** (829K+) across 42-package modular ecosystem with 6-year sustained maintenance (2020-2026)
 - **324+ GitHub stars** across original repositories demonstrating community validation and code quality
 - **22,433+ Stack Overflow reputation** with 127 total badges (4 Gold, 54 Silver, 69 Bronze) including Gold Badge in C# programming (1,323 score), Populist Badge, and Great Answer Badge (x2) - 606+ solutions reaching 4.7 million users over 16+ years with comprehensive technical authority spanning cryptographically secure programming, advanced LINQ transformations, bit manipulation, and modern async patterns - demonstrating continuous technical evolution from basic reflection (2008) to sophisticated functional programming
 - **GitHub Arctic Code Vault Contributor** with 5 achievement badges: Pull Shark (x2), Quickdraw, YOLO, Starstruck
@@ -312,7 +312,7 @@
 - **100% verification** of all technical claims through comprehensive code review of 14+ major repositories
 - **EXCEPTIONAL Innovation:** Custom 16-bit microprocessor (MW16C) with SystemVerilog implementation, Complete SQLCLR Vector Extensions for SQL Server, Hybrid semantic-lexical search with RAG architecture
 - **HIGH Innovation:** Custom LSH algorithms for AI/ML, Zero-allocation .NET programming with System.IO.Pipelines, Binary protocol reverse engineering, XSLT transformation framework
-- **823,000+ verified NuGet downloads** across 42-package modular ecosystem with professional CI/CD and 6-year sustained maintenance
+- **829,742 verified NuGet downloads** (829K+) across 42-package modular ecosystem with professional CI/CD and 6-year sustained maintenance
 - **324+ GitHub stars** demonstrating community validation across original repositories
 - **Arctic Code Vault Contributor** with 5 GitHub achievement badges (Pull Shark x2, Quickdraw, YOLO, Starstruck)
 - **Multi-domain mastery:** Database extensions, microprocessor design, AI/ML algorithms, modern .NET performance optimization
@@ -565,7 +565,7 @@
 
 | Skill                      | Years |  Last Used  |     Level     | Evidence                                          |
 |:---------------------------|:-----:|:-----------:|:-------------:|:--------------------------------------------------|
-| C#                         |  20+  |   Current   |   Expert (5)  | 823K+ NuGet downloads, Gold SO badge, 42 packages |
+| C#                         |  20+  |   Current   |   Expert (5)  | 829K+ NuGet downloads, Gold SO badge, 42 packages |
 | .NET Framework/.NET Core   |  20+  |   Current   |   Expert (5)  | .NET 9.0 adoption, zero-allocation programming    |
 | SQL/T-SQL                  |  20+  |   Current   |   Expert (5)  | Custom SQLCLR extensions, vector types            |
 | JavaScript                 |  15+  |   Current   | Advanced (4)  | React frontends, Node.js tooling                  |
@@ -860,13 +860,26 @@
 
 ## Personal Projects & Technical Innovations
 
-**Primary Repositories:**
-- **[shared](https://github.com/mwwhited-notes/shared)** - Personal technical notebook with hardware inventory, project documentation, and analog computing research (232+ PDFs, 660MB)
-- **[proving-grounds](https://github.com/mwwhited/proving-grounds)** - Experimental projects and example code (21 projects, 113+ C# projects) spanning embedded systems, distributed systems, database patterns, AI/ML infrastructure, and software architecture patterns
+**Personal GitHub Repositories (7 Public):**
+- **[PlaygroundGames](https://github.com/mwwhited/PlaygroundGames)** (C#) - Game development evolution from QBasic through XNA/MonoGame, demonstrating self-taught programming progression
+- **[proving-grounds](https://github.com/mwwhited/proving-grounds)** (C#) - Experimental projects and example implementations spanning embedded systems, distributed patterns, AI/ML, and architecture
+- **[CodingChallenges](https://github.com/mwwhited/CodingChallenges)** - Algorithm implementations across multiple languages (C#, F#, Rust, Java, Python)
+- **[EmbeddedBakery](https://github.com/mwwhited/EmbeddedBakery)** (Verilog) - Hardware engineering portfolio with Arduino, FPGA, microcontroller projects (201 commits, 21K+ LOC)
+- **[DeviceBridge](https://github.com/mwwhited/DeviceBridge)** (C++) - Oscilloscope-to-USB bridge for Tektronix TDS2024 vintage test equipment modernization
+- **[helm-charts](https://github.com/mwwhited/helm-charts)** (Mustache) - Kubernetes Helm chart collection for DevOps infrastructure
+- **[MyMashedDuet](https://github.com/mwwhited/MyMashedDuet)** (C#) - Duet 3D printer customizations with scripts and electronics
 
-### Extensions for .Net Framework (42 NuGet packages, 823,000+ downloads)
-**Comprehensive .NET ecosystem with professional CI/CD**  
-**Repository:** [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex)
+**Professional Documentation Repositories:**
+- **[mwwhited-notes/shared](https://github.com/mwwhited-notes/shared)** - Personal technical notebook with hardware inventory, project documentation, and analog computing research (232+ PDFs, 660MB)
+- **[mwwhited-notes/Resume](https://github.com/mwwhited-notes/Resume)** - Comprehensive professional resume system with 16+ document formats and 374 commits
+
+**Consulting & Framework Repositories:**
+- **[OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex)** - .NET Framework Extensions (active unified architecture for all 42 NuGet packages)
+
+### Extensions for .Net Framework (42 NuGet packages, 829,742+ downloads)
+**Comprehensive .NET ecosystem with professional CI/CD**
+**Primary Repository:** [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex)
+**Note:** BinaryDataDecoders framework (archived 1/11/2026) migrating to unified dotex architecture
 
 #### Vector Support for MS-SQL Server (EXCEPTIONAL Innovation)
 - **Custom SQLCLR Implementation:** SqlVector/SqlVectorF types with full mathematical operations
@@ -1024,7 +1037,7 @@
 - **Multi-Target Overlay Architecture:** Single HTML/CSS/JS page serving both NeTV FPGA hardware overlay (Phase 1) and OBS Browser Source (Phase 2) without code duplication
 - **Phase 1 (2017-2019):** Raspberry Pi 2 + NeTV FPGA hardware overlay with 4× E810-DTU serial-to-TCP/IP converters, Arduino LANC camera control, HDMI switching, distributed A/V control
 - **Phase 2 (2019-Present):** Simplified Windows PC + OBS Studio architecture with direct RS-485-to-USB adapter, 77% complexity reduction
-- **Protocol Engineering:** Complete Favero and Saint George fencing scoring machine protocol decoders in [BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders) library (823K+ NuGet downloads, 6-year maintenance, migrating to dotex framework)
+- **Protocol Engineering:** Complete Favero and Saint George fencing scoring machine protocol decoders in [BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders) library (829K+ NuGet downloads - 829,742 verified, 6-year maintenance, **archived 1/11/2026**, migrating to [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex))
 - **Hardware Integration:** Raspberry Pi networking (dual-interface: eth0 external, usb0 internal), NeTV HTTP API integration, custom PCB designs (h4n2rs485, lanc2rs485, SG_Power in KiCad)
 - **Real-Time Communication:** ASP.NET Core + SignalR with transport fallback (WebSockets for OBS, LongPolling/SSE for NeTV browser limitations)
 - **Performance Metrics:** ~30-50ms latency (score update to display), 99%+ uptime during 3-day tournaments, 4-8 concurrent strips
@@ -1206,7 +1219,7 @@
 - **Technical Debt Reduction:** Legacy system modernization and performance tuning
 
 ### Community & Business Value Creation
-- **Download Metrics:** 823,000+ package downloads indicating widespread adoption
+- **Download Metrics:** 829,742+ package downloads (829K+) indicating widespread adoption
 - **Community Reach:** 4.7 million Stack Overflow users reached with technical knowledge
 - **Educational Impact:** Learning platforms and knowledge transfer resources
 - **Innovation Leadership:** First-to-market solutions in vector databases and AI/ML integration
@@ -1222,9 +1235,15 @@
 ## Professional Network & Online Presence
 
 ### Technical Profiles
-- **GitHub:** [github.com/mwwhited](https://github.com/mwwhited) - 35+ repositories across 5 organizations, 324+ stars, Arctic Code Vault Contributor, 5 achievement badges
-- **NuGet:** [823K+ downloads](https://www.nuget.org/profiles/mwwhited/) - 42-package modular ecosystem, 6-year sustained maintenance, professional CI/CD
-- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited) - 606+ solutions, 4.7M user reach
+- **GitHub:** [github.com/mwwhited](https://github.com/mwwhited) - 7 personal repositories, Arctic Code Vault Contributor, 5 achievement badges
+  - **GitHub Organizations:**
+    - [mwwhited-notes](https://github.com/mwwhited-notes) - Professional documentation (Resume system with 374 commits, Virtual-Recruiter project, Shared technical notes)
+    - [OutOfBandDevelopment](https://github.com/OutOfBandDevelopment) - Consulting frameworks (dotex .NET Framework Extensions, React/PrimeReact templates, DevOps utilities)
+    - [mwwhited-forks](https://github.com/mwwhited-forks) - Reference collection (58 curated forks organized separately to keep profile clean)
+    - [mwwhited-archives](https://github.com/mwwhited-archives) - Historical projects (11 archived projects including signalr-client-nodejs with 37 stars, legacy frameworks, research projects)
+- **NuGet:** [829K+ downloads (829,742 verified)](https://www.nuget.org/profiles/mwwhited/) - 42-package modular ecosystem, 6-year sustained maintenance (2020-2026), professional CI/CD
+  - **BinaryDataDecoders Migration:** Flagship framework transitioning from github.com/mwwhited/BinaryDataDecoders (archived 1/11/2026) to [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex) for unified architecture
+- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited) - 606+ solutions, 4.7M user reach, C# Gold Badge
 - **NPM:** [npmjs.com/~mwwhited](https://www.npmjs.com/~mwwhited) - Node.js contributions
 
 ### Professional Networks
