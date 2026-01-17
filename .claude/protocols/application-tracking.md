@@ -1,7 +1,9 @@
 # Application Tracking Protocol
 
 ## Purpose
-This protocol standardizes tracking and recording job applications to maintain a comprehensive record of Matthew Whited's application activity and prevent duplicate applications.
+This protocol standardizes tracking and recording job applications to maintain a comprehensive record of [User Name]'s application activity and prevent duplicate applications.
+
+**See:** `./SearchResults/Parameters/personal-info.md` for user information
 
 ## Trigger Commands
 Execute this protocol when the user states:

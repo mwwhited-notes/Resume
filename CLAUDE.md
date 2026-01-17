@@ -71,7 +71,7 @@
 6. Test by reading `./virtual-recruiter/CLAUDE.md` - should be self-explanatory to fresh Claude instance
 
 **Files to check when updating:**
-- Protocols: Compare `./protocols/*.md` with `./virtual-recruiter/protocols/*.md`
+- Protocols: Compare `./.claude/protocols/*.md` with `./virtual-recruiter/protocols/*.md`
 - Templates: `./virtual-recruiter/protocols/templates/*.md`
 - Main docs: CLAUDE.md, README.md, README_SETUP.md
 - Subdir READMEs: resumes/, .private/, documentation/, profiles/, analysis/
@@ -111,7 +111,7 @@
 - **Closed Applications:** SearchResults/closed-archive.md (rejected/withdrawn/closed positions)
 - **Professional Contacts:** SearchResults/contacts.md (positive relationships for future opportunities)
 - **External Findings:** SearchResults/External/ (private repository audit imports and integration log)
-- **All Protocols:** protocols/ directory (step-by-step procedures)
+- **All Protocols:** ./.claude/protocols/ directory (step-by-step procedures)
 - **Style Guide:** documentation/style-guide.md
 - **Search Results:** SearchResults/ directory organized by topic
 
@@ -251,7 +251,7 @@ Principal Software Engineer/Architect at Cadwell Industries specializing in medi
 ### October 13, 2025
 ✅ **Manager Introduction Document:** Created comprehensive background document at ./SearchResults/Matthew_Whited_Manager_Introduction.md for new Cadwell manager
 ✅ **Personal Information Documentation:** Added family, pets, hobbies, travel, entertainment, and food preferences to career background
-✅ **Career Counselor Protocol Enhanced:** Updated ./protocols/career-counselor.md with Step 2.5 for personal information gathering
+✅ **Career Counselor Protocol Enhanced:** Updated ./.claude/protocols/career-counselor.md with Step 2.5 for personal information gathering
 ✅ **Youth Programs Clarification:** Corrected Eagle Scout and Venture Scouts to show as standalone programs (not school-related) across all documents
 ✅ **Personal Details Captured:**
   - Family: Married to research scientist (virology specialist)

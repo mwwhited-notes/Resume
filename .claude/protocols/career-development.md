@@ -1,4 +1,6 @@
-# Matthew Whited - Career Development & Strategic Planning
+# [User Name] - Career Development & Strategic Planning
+
+**See:** `./SearchResults/Parameters/personal-info.md` for user information
 
 ## Career Coaching Session - 2025-08-05
 
@@ -195,4 +197,6 @@ This Centers of Excellence experience is GOLD for senior technical advisory posi
 
 ---
 
-*This document tracks career development insights, gaps identified, and strategic positioning recommendations for Matthew Whited's career advancement.*
+*This document tracks career development insights, gaps identified, and strategic positioning recommendations for [User Name]'s career advancement.*
+
+**Personal information available at:** `./SearchResults/Parameters/personal-info.md`
