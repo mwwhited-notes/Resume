@@ -12,38 +12,38 @@
 ## Critical User Commands - MEMORIZED
 
 ### 1. "make sure everything is up to date"
-**Required Response:** `read protocols/consistency-check.md and do what it says`
+**Required Response:** `read .claude/protocols/consistency-check.md and do what it says`
 
-### 2. "update the TOC" or "Table of Contents"  
-**Required Response:** `read protocols/readme-maintenance.md and follow the protocol step-by-step`
+### 2. "update the TOC" or "Table of Contents"
+**Required Response:** `read .claude/protocols/readme-maintenance.md and follow the protocol step-by-step`
 
 ### 3. Job search requests
-**Required Response:** `read protocols/job-search.md and follow the protocol step-by-step`
+**Required Response:** `read .claude/protocols/job-search.md and follow the protocol step-by-step`
 
 ### 4. Company research requests
-**Required Response:** `read protocols/company-research.md and follow the protocol step-by-step`
+**Required Response:** `read .claude/protocols/company-research.md and follow the protocol step-by-step`
 - **CRITICAL: Always identify primary industry** to verify against exclusion list
 
 ### 5. Self-audit requests
-**Required Response:** `read protocols/self-audit.md and follow the protocol step-by-step`
+**Required Response:** `read .claude/protocols/self-audit.md and follow the protocol step-by-step`
 
 ### 6. Career system generation requests
-**Required Response:** `read protocols/career-system-generator.md and follow the protocol step-by-step`
+**Required Response:** `read .claude/protocols/career-system-generator.md and follow the protocol step-by-step`
 
 ### 7. Targeted application creation
-**Required Response:** `read protocols/targeted-application.md and execute all steps`
+**Required Response:** `read .claude/protocols/targeted-application.md and execute all steps`
 
 ### 8. Position fit analysis with URL: "how well do I fit this position {url}"
-**Required Response:** `read protocols/position-fit-analysis.md and execute all steps`
+**Required Response:** `read .claude/protocols/position-fit-analysis.md and execute all steps`
 
 ### 9. Personalized learning plan creation: "I need to know more about {topic}"
-**Required Response:** `read protocols/personalized-learning-plan.md and execute all steps`
+**Required Response:** `read .claude/protocols/personalized-learning-plan.md and execute all steps`
 
 ### 10. Build a master resume from scratch
-**Required Response:** `read protocols/master-resume-builder.md and execute all steps`
+**Required Response:** `read .claude/protocols/master-resume-builder.md and execute all steps`
 
 ### 11. Generate target lists (companies, job roles, platforms)
-**Required Response:** `read protocols/target-list-generation.md and execute all steps`
+**Required Response:** `read .claude/protocols/target-list-generation.md and execute all steps`
 
 ### 12. "refresh the virtual recruiter" or "update virtual-recruiter"
 **Required Response:** Update the `./virtual-recruiter/` template project
