@@ -64,9 +64,11 @@ Create targeted resumes for each specific position type using master resume as a
 - [ ] `staff-engineer.md` + `staff-engineer-cover-letter.md` - Staff Engineer positioning with technical authority emphasis
 - [ ] `platform-architect.md` + `platform-architect-cover-letter.md` - **PRIMARY TARGET:** Principal Platform Architect positioning with DevOps and infrastructure expertise
 - [ ] `technical-consultant.md` + `technical-consultant-cover-letter.md` - Technology Consultant positioning with vendor-neutral advisory approach
-- [ ] `Enterprise_AI_ML_Matthew_Whited_Resume.md` + `Enterprise_AI_ML_Matthew_Whited_Resume-cover-letter.md` - Enterprise AI/ML specialization
-- [ ] `High_Growth_Tech_Matthew_Whited_Resume.md` + `High_Growth_Tech_Matthew_Whited_Resume-cover-letter.md` - High Growth Tech specialization
-- [ ] `MatthewWhited-Enterprise-Architect-Resume.md` + `MatthewWhited-Enterprise-Architect-Resume-cover-letter.md` - Enterprise Architect specialization
+- [ ] `Enterprise_AI_ML_[User_Last_Name]_Resume.md` + `Enterprise_AI_ML_[User_Last_Name]_Resume-cover-letter.md` - Enterprise AI/ML specialization
+- [ ] `High_Growth_Tech_[User_Last_Name]_Resume.md` + `High_Growth_Tech_[User_Last_Name]_Resume-cover-letter.md` - High Growth Tech specialization
+- [ ] `[User_Last_Name]-Enterprise-Architect-Resume.md` + `[User_Last_Name]-Enterprise-Architect-Resume-cover-letter.md` - Enterprise Architect specialization
+
+**See:** `./SearchResults/Parameters/personal-info.md` for user name to substitute in filenames
 - [ ] **All other .md files in resumes/specialized/** - Check systematically for consistency with matching cover letters
 
 **Cover Letter Requirements:**
@@ -207,8 +209,9 @@ find resumes/targeted/ -name "*.md" | sort
 Use these to spot-check consistency across ALL discovered files:
 ```bash
 # Check for position date consistency across ALL resume and profile files
-find resumes/ profiles/ -name "*.md" -exec grep -l "Green Onion.*Present" {} \;
-find resumes/ profiles/ -name "*.md" -exec grep -l "ERisk.*2025" {} \;
+# Replace [Current_Employer] and [Contract_Company] with values from SearchResults/Parameters/employment.md
+find resumes/ profiles/ -name "*.md" -exec grep -l "[Current_Employer].*Present" {} \;
+find resumes/ profiles/ -name "*.md" -exec grep -l "[Previous_Employer].*[Year]" {} \;
 
 # Verify target job title consistency (should be Principal Solutions Architect in non-master files)
 find resumes/ profiles/ -name "*.md" ! -name "master-resume.md" -exec grep -l "Principal Solutions Architect" {} \;

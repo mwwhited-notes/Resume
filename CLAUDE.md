@@ -134,6 +134,29 @@
 - **Format:** Relative paths with `./` prefix
 - **Examples:** `resumes/master-resume.md` → `./resumes/master-resume.md`
 
+## Parameters System - CRITICAL
+**Privacy-Related Data Storage:**
+All sensitive personal, employment, compensation, and preference information is stored in separate parameter files to enable protocol sharing without exposing private data.
+
+**Parameter Files Location:** `./SearchResults/Parameters/`
+- `personal-info.md` - User identity, location, family, interests
+- `employment.md` - Current/past employment details
+- `compensation.md` - Salary requirements, work preferences
+- `metrics.md` - Public metrics (safe for resumes)
+- `preferences.md` - Industry focus, exclusion criteria
+- `README.md` - System documentation
+- `PROTOCOL-UPDATE-GUIDE.md` - Implementation guide
+
+**Protocol Update Status:**
+All 7 active protocols have been updated to use placeholders instead of hardcoded values:
+✅ `application-tracking.md` - Uses [User Name] placeholder
+✅ `career-development.md` - Uses [User Name] placeholder
+✅ `career-system-generator.md` - Uses [User Name] placeholder
+✅ `consistency-check.md` - Uses [User_Last_Name] and [Current_Employer] placeholders
+✅ `external-findings-import.md` - Uses [Consulting Company] placeholder
+✅ `readme-maintenance.md` - Uses [LastName] placeholder
+✅ `self-audit.md` - Uses [User Name] placeholder
+
 ## Markdown Table Formatting - MEMORIZED
 **All tables must have properly aligned columns with consistent whitespace:**
 - Pad all cells so columns align visually in raw markdown

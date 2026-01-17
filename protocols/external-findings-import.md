@@ -46,7 +46,7 @@ For each audit, classify where contributions should be integrated:
 |----------------|-------------------|
 | Employer project | Work History → Appropriate employer section |
 | Personal project | Personal Projects & Technical Innovations |
-| Consulting/Contract | Work History → Out-of-Band Development or specific client |
+| Consulting/Contract | Work History → [Consulting Company] or specific client |
 | Open source contribution | Community Contributions section |
 
 #### Step 2.2: Identify Employer Association

@@ -56,9 +56,11 @@ When user says "update the TOC" or "Table of Contents" OR when you realize TOC n
 - Only periods become hyphens
 
 **Examples:**
-- `MatthewWhited-Resume.md` → `matthewwhited-resume-md`
-- `ZZ_MatthewWhited-Resume-FRESH.yaml` → `zz_matthewwhited-resume-fresh-yaml`
-- `_MatthewWhited-Brief-FirstPerson.md` → `_matthewwhited-brief-firstperson-md`
+- `[LastName]-Resume.md` → `[lastname]-resume-md`
+- `ZZ_[LastName]-Resume-FRESH.yaml` → `zz_[lastname]-resume-fresh-yaml`
+- `_[LastName]-Brief-FirstPerson.md` → `_[lastname]-brief-firstperson-md`
+
+**See:** `./SearchResults/Parameters/personal-info.md` for user name to substitute in examples
 
 ## Quality Assurance Checklist
 

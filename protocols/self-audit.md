@@ -1,7 +1,9 @@
 # Self-Audit Protocol
 
 ## Purpose
-This protocol systematically evaluates Matthew Whited's online professional presence by researching all linked profiles and repositories from the master resume, identifying gaps between documented achievements and actual online evidence, and recommending resume enhancements to better reflect demonstrated technical abilities and professional experience.
+This protocol systematically evaluates [User Name]'s online professional presence by researching all linked profiles and repositories from the master resume, identifying gaps between documented achievements and actual online evidence, and recommending resume enhancements to better reflect demonstrated technical abilities and professional experience.
+
+**See:** `./SearchResults/Parameters/personal-info.md` for user information
 
 ## Trigger Commands
 Execute this protocol when the user requests:

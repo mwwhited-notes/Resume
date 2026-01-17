@@ -133,7 +133,8 @@
       "Bash(done)",
       "Bash(xargs:*)",
       "Bash(echo:*)",
-      "WebFetch(domain:stackexchange.com)"
+      "WebFetch(domain:stackexchange.com)",
+      "Bash(for file in /current/src/SearchResults/Parameters/*.md)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

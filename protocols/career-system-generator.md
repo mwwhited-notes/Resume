@@ -4,7 +4,9 @@
 This meta-protocol creates a complete career management ecosystem for any professional by analyzing their existing resume(s) and generating a comprehensive suite of tailored documents, protocols, and research frameworks specific to their industry, role level, and career objectives.
 
 ## Protocol Overview
-Transform any professional's career materials into a systematic career management system equivalent to what has been created for Matthew Whited, but customized for their specific background, industry, and goals.
+Transform any professional's career materials into a systematic career management system equivalent to what has been created for [User Name], but customized for their specific background, industry, and goals.
+
+**See:** `./SearchResults/Parameters/personal-info.md` for user information
 
 ---
 
