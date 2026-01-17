@@ -11,7 +11,7 @@
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
 - **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
-- **NuGet Profile:** [796K+ downloads](https://www.nuget.org/profiles/mwwhited/)
+- **NuGet Profile:** [829K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
 
@@ -159,7 +159,7 @@
 ## Quantifiable Engineering Leadership Achievements
 
 ### Organizational Impact
-- **796K+ NuGet package downloads** demonstrating technical authority and community influence
+- **829K+ NuGet package downloads** demonstrating technical authority and community influence
 - **22,433+ Stack Overflow reputation** with 600+ solutions reaching 4.7 million users over 16+ years
 - **GitHub Arctic Code Vault Contributor** with verified technical contributions and innovation leadership
 - **125+ developer influence** through Centers of Excellence with lasting enterprise-wide impact

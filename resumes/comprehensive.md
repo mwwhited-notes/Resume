@@ -20,7 +20,7 @@
 - **Framework Architecture Innovation:** Created enterprise-grade framework ecosystems including 50+ library OoBDev .NET Framework and transformational Shared Framework evolution with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **ML/AI Strategic Foresight:** Comprehensive AI strategy development, hybrid search innovation, and early recognition of LLM cost/efficiency limitations
-- **Community Impact:** 796K+ package downloads across 42 packages, 22,433+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Community Impact:** 829K+ package downloads across 42 packages, 22,433+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** 77% cloud cost reduction ($13,800+ annual savings), dramatic performance improvements, crisis resolution, and organizational productivity enhancements
 
 ## Professional Skills
@@ -284,7 +284,7 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
 
 ## Personal Projects
 
-- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 42 NuGet packages with 796K+ downloads
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 42 NuGet packages with 829K+ downloads
   - **[Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors)** - Custom SQLCLR implementation with SqlVector/SqlVectorF types, mathematical operations, binary serialization, and distance aggregation functions
   - [BinaryDataDecoders.ToolKit](https://www.nuget.org/packages/BinaryDataDecoders.ToolKit/) - 36K+ downloads
   - Extensive collection of .NET abstractions and extensions with professional CI/CD
@@ -294,10 +294,11 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
   - **Comprehensive VHDL component library** including ALU, memory elements, decoders, multiplexers
   - FPGA/CPLD projects in Verilog (approximately 30%), VHDL (approximately 20%), C/C++ (approximately 35%)
   - Customized 3D printer/CNC router
-- **[Binary Data Processing Framework](https://github.com/mwwhited/BinaryDataDecoders/)** - 400+ commits
+- **[Binary Data Processing Framework](https://github.com/OutOfBandDevelopment/dotex)** - Migrating from archived [BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders/) (archived 1/11/2026) to unified dotex architecture
   - **Zero-allocation parsing** using System.IO.Pipelines and Memory<T> with async/await patterns
   - **Multiple format support:** PKZip, TAR, ISO9660, Telnet, LDAP, SNTP
   - **Enterprise-grade quality** with comprehensive testing and error handling
+  - **Continued as:** OutOfBandDevelopment/dotex for unified framework architecture
 - **[AI/ML Research Notebooks](https://github.com/mwwhited-notes/shared)** - 88.7% Jupyter Notebooks
   - **Custom LSH implementation** for approximate nearest neighbor search with performance benchmarking
   - **Production hybrid search engine** combining semantic similarity with keyword matching using FAISS
@@ -315,11 +316,11 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
   
 ## Profile Links
 
-- **[GitHub](https://github.com/mwwhited)** - 30+ repositories, Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
+- **[GitHub](https://github.com/mwwhited)** - 7 personal repositories + organizations (mwwhited-notes, OutOfBandDevelopment, mwwhited-forks with 58 curated forks, mwwhited-archives), Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
 - **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
 - **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22,433+ reputation, 600+ solutions, nearly 5 million user reach
 - **[Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)**
 - **[NPM](https://www.npmjs.com/~mwwhited)**
-- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 796K+ downloads across 42 packages
+- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 829K+ downloads across 42 packages
 - **[Personal Profile](http://matthewwhited.com)**
 - **[Flickr](http://www.flickr.com/photos/mwwhited/)**

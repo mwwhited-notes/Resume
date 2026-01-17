@@ -18,7 +18,7 @@
 - **Framework Architecture Innovation:** Created enterprise-grade framework ecosystems including 50+ library OoBDev .NET Framework and transformational Shared Framework evolution with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **ML/AI Strategic Foresight:** Comprehensive AI strategy development, hybrid search innovation, and early recognition of LLM cost/efficiency limitations
-- **Community Impact:** 796K+ package downloads across 42 packages, 22,433+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Community Impact:** 829K+ package downloads across 42 packages, 22,433+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** Substantial cloud cost reduction, dramatic performance improvements, crisis resolution, and organizational productivity enhancements
 
 ### Technical Specializations
@@ -348,7 +348,7 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
 
 ### Profile Links
 
-- **[GitHub](https://github.com/mwwhited)** - 30+ repositories, Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
+- **[GitHub](https://github.com/mwwhited)** - 7 personal repositories + organizations (mwwhited-notes, OutOfBandDevelopment, mwwhited-forks with 58 curated forks, mwwhited-archives), Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
   - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
   - [Coding Challenges: Algorithms and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
   - [Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)
@@ -356,7 +356,7 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
 - **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22,433+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
 - **[Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)**
 - **[NPM](https://www.npmjs.com/~mwwhited)**
-- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 796K+ downloads across 42 packages
+- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 829K+ downloads across 42 packages
 - **[Flickr](http://www.flickr.com/photos/mwwhited/)** - Photography portfolio
 
 ### Some projects that I have created in my spare time include
@@ -375,11 +375,11 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
 - Developed model first language targeted at patterned best practice implementation/code generation
 - customized 3D printer/CNC router.
 - Working on developing a SoC/Custom CPU using SystemVerilog
-- [Extension framework for .Net](https://github.com/mwwhited/BinaryDataDecoders/)
-  - custom framework for building IO device and other binary communication protocols using .Net Core. 
-    - Created over System.IO.Pipelines and Spans<> for no allocation parsing and processing
+- [Extension framework for .Net - Now at dotex](https://github.com/OutOfBandDevelopment/dotex)
+  - Custom framework for building IO device and other binary communication protocols using .NET Core (migrating from archived BinaryDataDecoders repo).
+    - Created with System.IO.Pipelines and Spans<> for zero-allocation parsing and processing
   - Analyze and document source code, data files, databases, build results, test reports and any other data.
-- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 42 packages, 796K+ total downloads
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 42 packages, 829K+ total downloads
   - [Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors) - SQLCLR vector operations
   - [BinaryDataDecoders.ToolKit](https://www.nuget.org/packages/BinaryDataDecoders.ToolKit/) - 36,270 downloads
   - [BinaryDataDecoders.Xslt.Cli](https://www.nuget.org/packages/BinaryDataDecoders.Xslt.Cli/) - 34,726 downloads
@@ -398,10 +398,11 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
   - Image similarity search using Vision Transformer (ViT) embeddings and vector store (Qdrant)
   - Large Language and Vision Assistant (LLaVA) based image classification
   - Text embeddings with Sentence Transformers (SBERT) and vector store (Qdrant)
-- **[Binary Data Processing Framework](https://github.com/mwwhited/BinaryDataDecoders/)**
+- **[Binary Data Processing Framework](https://github.com/OutOfBandDevelopment/dotex)** (Migrated from archived BinaryDataDecoders)
   - Zero-allocation parsing using System.IO.Pipelines and Spans<> for high-performance processing
   - File format support: PKZip, TAR, ISO9660
   - Network protocol implementations: Telnet, LDAP bindery, SNTP
+  - Repository archived 1/11/2026 and migrating to unified dotex architecture
 - **[Command-Line Tools and Utilities](https://www.nuget.org/profiles/mwwhited/)**
   - [BinaryDataDecoders.Xslt.Cli](https://www.nuget.org/packages/BinaryDataDecoders.Xslt.Cli/) - 34,726 downloads, XSLT processing CLI tool
   - [BinaryDataDecoders.IO.Abstractions](https://www.nuget.org/packages/BinaryDataDecoders.IO.Abstractions/) - 34,004 downloads, I/O abstractions

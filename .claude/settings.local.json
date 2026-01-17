@@ -134,7 +134,9 @@
       "Bash(xargs:*)",
       "Bash(echo:*)",
       "WebFetch(domain:stackexchange.com)",
-      "Bash(for file in /current/src/SearchResults/Parameters/*.md)"
+      "Bash(for file in /current/src/SearchResults/Parameters/*.md)",
+      "Bash(for file in /current/src/resumes/*.md /current/src/resumes/**/*.md)",
+      "Bash(do echo '=== $\\(basename $file\\) ===' grep -o [0-9][0-9]*K[+]* $file)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
