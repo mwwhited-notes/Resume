@@ -15,7 +15,7 @@ My unique background combines enterprise platform architecture with embedded sys
 
 ## Recent Platform Engineering Achievements
 
-- **Medical Device Software Development**: Currently developing backend communication and synchronization software for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX, including peer code reviews and architectural guidance for FDA-regulated healthcare technology
+- **Medical Device Software & Platform Architecture** (Cadwell Industries): Delivering security hardening and service reliability improvements across CadLink medical data management; architecting next-generation modular clinical platform runtime with cross-service security trust model, IoC/DI refactoring, and Roslyn static analysis enforcement for FDA-regulated healthcare technology
 - **Application Rescue & Cost Optimization**: Led complete application rewrite for Green Onion (February 2025 - January 2026) after inheriting failed offshore development, achieving 77% Azure cost reduction ($13,800+ annual savings) and developing code generation frameworks to reduce technical debt
 - **AI/ML Infrastructure**: Successfully implemented sentence transformer models for enterprise fuzzy matching, dramatically improving query performance through advanced indexing and platform optimization techniques
 - **Platform Framework Development**: Created reusable middleware frameworks, command-line tools, and specialized infrastructure applications that have enhanced productivity across multiple development teams and organizations

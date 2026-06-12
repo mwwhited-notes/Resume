@@ -207,6 +207,8 @@
 - Defect tracking and management
 - Test environment management
 - Quality metrics and reporting
+- Roslyn SDK / static analysis / compiler plugin development
+- Compile-time architectural convention enforcement
 
 ## Hardware & Embedded Systems
 - Microprocessor design and implementation
