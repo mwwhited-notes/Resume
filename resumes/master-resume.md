@@ -1,4 +1,4 @@
-# Matthew Whited - Gold Standard Resume
+﻿# Matthew Whited - Gold Standard Resume
 ## Source of Truth for All Resume Variations
 
 ---
@@ -13,9 +13,9 @@
 - **Time Zone:** East Coast US preferred, other time zones available
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
-- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
+- **Stack Overflow:** [22,510+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
 - **Personal Website:** [matthewwhited.com](https://matthewwhited.com)
-- **NuGet Profile:** [829K+ downloads (829,742 verified)](https://www.nuget.org/profiles/mwwhited/)
+- **NuGet Profile:** [900K+ downloads (899,722 verified)](https://www.nuget.org/profiles/mwwhited/)
 
 ---
 
@@ -104,7 +104,7 @@
     - [Professional Certifications \& Industry Recognition](#professional-certifications--industry-recognition)
     - [Self-Teaching Excellence \& Pattern Recognition](#self-teaching-excellence--pattern-recognition)
   - [Personal Projects \& Technical Innovations](#personal-projects--technical-innovations)
-    - [Extensions for .Net Framework (42 NuGet packages, 829,742+ downloads)](#extensions-for-net-framework-42-nuget-packages-829742-downloads)
+    - [Extensions for .Net Framework (42 NuGet packages, 899,722+ downloads)](#extensions-for-net-framework-42-nuget-packages-899722-downloads)
       - [Vector Support for MS-SQL Server (EXCEPTIONAL Innovation)](#vector-support-for-ms-sql-server-exceptional-innovation)
       - [High-Performance Binary Data Processing](#high-performance-binary-data-processing)
       - [Core Framework (438 commits, 32,363 LOC, 65+ modules)](#core-framework-438-commits-32363-loc-65-modules)
@@ -243,16 +243,16 @@
 - **Self-Taught Excellence Foundation:** Started with Apple IIc game reverse engineering, taught vocational instructor networking, offered first job before graduation for ILOVEYOU virus cleanup
 - **Hardware-Software Complete Stack:** Electronics Technician certification through AI/ML custom algorithms, microprocessor design to cloud optimization, **professional Hardware Description Language expertise** (Verilog, VHDL, SystemVerilog)
 - **Anti-Hype Technology Wisdom:** Pattern recognition from decades of technology cycles - "AI/ML has tools but massively overhyped, chat everywhere is poor UX"
-- **Quantifiable Business Impact:** 829K+ downloads (829,742 verified) across 42-package modular ecosystem (6-year sustained maintenance), 324+ GitHub stars, 22,433+ Stack Overflow reputation (127 badges including C# Gold), Arctic Code Vault Contributor, $500K+ financial risk prevention
+- **Quantifiable Business Impact:** 900K+ downloads (899,722 verified) across 42-package modular ecosystem (6-year sustained maintenance), 324+ GitHub stars, 22,510+ Stack Overflow reputation (128 badges including C# Gold), Arctic Code Vault Contributor, $500K+ financial risk prevention
 
 ---
 
 ## Quantifiable Achievements & Community Recognition
 
 ### Open Source & Community Impact
-- **829,742 total NuGet package downloads** (829K+) across 42-package modular ecosystem with 6-year sustained maintenance (2020-2026)
+- **899,722 total NuGet package downloads** (900K+) across 42-package modular ecosystem with 6-year sustained maintenance (2020-2026)
 - **324+ GitHub stars** across original repositories demonstrating community validation and code quality
-- **22,433+ Stack Overflow reputation** with 127 total badges (4 Gold, 54 Silver, 69 Bronze) including Gold Badge in C# programming (1,323 score), Populist Badge, and Great Answer Badge (x2) - 606+ solutions reaching 4.7 million users over 16+ years with comprehensive technical authority spanning cryptographically secure programming, advanced LINQ transformations, bit manipulation, and modern async patterns - demonstrating continuous technical evolution from basic reflection (2008) to sophisticated functional programming
+- **22,510+ Stack Overflow reputation** with 128 total badges (4 Gold, 55 Silver, 69 Bronze) including Gold Badge in C# programming (1,323 score), Populist Badge, and Great Answer Badge (x2) - 606+ solutions reaching 4.7 million users over 16+ years with comprehensive technical authority spanning cryptographically secure programming, advanced LINQ transformations, bit manipulation, and modern async patterns - demonstrating continuous technical evolution from basic reflection (2008) to sophisticated functional programming
 - **GitHub Arctic Code Vault Contributor** with 5 achievement badges: Pull Shark (x2), Quickdraw, YOLO, Starstruck
 - **BinaryDataDecoders Package Suite:** 444 commits over 6 years (2020-2026), currently being migrated to dotex framework for continued evolution under unified architecture
 - **Top Package Downloads:**
@@ -313,7 +313,7 @@
 - **100% verification** of all technical claims through comprehensive code review of 14+ major repositories
 - **EXCEPTIONAL Innovation:** Custom 16-bit microprocessor (MW16C) with SystemVerilog implementation, Complete SQLCLR Vector Extensions for SQL Server, Hybrid semantic-lexical search with RAG architecture
 - **HIGH Innovation:** Custom LSH algorithms for AI/ML, Zero-allocation .NET programming with System.IO.Pipelines, Binary protocol reverse engineering, XSLT transformation framework
-- **829,742 verified NuGet downloads** (829K+) across 42-package modular ecosystem with professional CI/CD and 6-year sustained maintenance
+- **899,722 verified NuGet downloads** (900K+) across 42-package modular ecosystem with professional CI/CD and 6-year sustained maintenance
 - **324+ GitHub stars** demonstrating community validation across original repositories
 - **Arctic Code Vault Contributor** with 5 GitHub achievement badges (Pull Shark x2, Quickdraw, YOLO, Starstruck)
 - **Multi-domain mastery:** Database extensions, microprocessor design, AI/ML algorithms, modern .NET performance optimization
@@ -333,7 +333,7 @@
 #### CadLink Platform Contributions
 - Resolved 3 critical security vulnerabilities in a HIPAA-regulated medical data management platform — removing hard-coded credentials, migrating API keys to configuration, and eliminating plaintext passwords from security event logs
 - Redesigned async/parallel service shutdown for the CadLink clinical data pipeline, reducing multi-service restart time and improving operational reliability in point-of-care deployments
-- Expanded WPF CadManager administration tool across 16+ PRs — improving client migration, status visibility, upload progress indicators, and icon interactability — materially improving clinical IT operator UX
+- Expanded WPF CadManager administration tool across numerous contributions — improving client migration, status visibility, upload progress indicators, and icon interactability — materially improving clinical IT operator UX
 - Authored 7-protocol Claude Code AI development framework (CLAUDE.md + lifecycle, review, documentation, test plan, and failure analysis protocols), establishing AI-assisted development workflows for the engineering team
 - Improved CadLink query engine to support cross joins and resolved silent query failures, expanding data retrieval capability for a dual-database (SQLite + SQL Server) medical records system
 - Expanded ForeignFile system with sub-folder support and file extension handling, correcting data integrity issues for third-party file attachments in clinical records
@@ -581,7 +581,7 @@
 
 | Skill                      | Years |  Last Used  |     Level     | Evidence                                          |
 |:---------------------------|:-----:|:-----------:|:-------------:|:--------------------------------------------------|
-| C#                         |  20+  |   Current   |   Expert (5)  | 829K+ NuGet downloads, Gold SO badge, 42 packages |
+| C#                         |  20+  |   Current   |   Expert (5)  | 900K+ NuGet downloads, Gold SO badge, 42 packages |
 | .NET Framework/.NET Core   |  20+  |   Current   |   Expert (5)  | .NET 9.0 adoption, zero-allocation programming    |
 | SQL/T-SQL                  |  20+  |   Current   |   Expert (5)  | Custom SQLCLR extensions, vector types            |
 | JavaScript                 |  15+  |   Current   | Advanced (4)  | React frontends, Node.js tooling                  |
@@ -895,7 +895,7 @@
 **Consulting & Framework Repositories:**
 - **[OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex)** - .NET Framework Extensions (active unified architecture for all 42 NuGet packages)
 
-### Extensions for .Net Framework (42 NuGet packages, 829,742+ downloads)
+### Extensions for .Net Framework (42 NuGet packages, 899,722+ downloads)
 **Comprehensive .NET ecosystem with professional CI/CD**
 **Primary Repository:** [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex)
 **Note:** BinaryDataDecoders framework (archived 1/11/2026) migrating to unified dotex architecture
@@ -946,6 +946,8 @@
 #### Professional Hardware Projects (EXCEPTIONAL Innovation)
 - **LXI Serial Bridge (ESP8266):** SCPI Raw Socket server (TCP 5025) with mDNS service discovery and IEEE 488.2 command compliance for test equipment automation and remote instrument control
 - **Analog Calculator Suite (ComdynaGP6):** Complete analog computer platform with logarithmic amplifiers, op-amp multipliers, Systron Donner SD-80 clone, and custom PCB designs for analog computation research
+- **Anabrid THAT (The Analog Thing):** Active experimentation on a modern educational analog computer — implementing integrators, chaos systems (Lorenz attractor), predator-prey models, and hybrid analog-digital systems via STM32 ADC interface; extending analog computing knowledge from historical research (232+ PDF library) into hands-on real-time differential equation solving
+- **SAP-1 Breadboard Computer:** Building Ben Eater's 8-bit TTL computer from discrete 74-series logic, AT28C16 EEPROMs for microcode storage, and ATF16v8b GAL chips for memory control — demonstrating gate-level computer architecture from DRL/DTL logic fundamentals through full ALU and control unit implementation
 - **Historic Computer Recreations:** Altair 8800 clone PCB, diode logic computers with discrete 1-byte registers and 4-to-16 decoders, 8051 development boards
 - **LANC Camera Control:** RS-485 interface PCB (lanc2rs485) for Sony/Canon camera automation in fencing scoring system
 - **Audio Device Interfaces:** Zoom H4N audio recorder control PCB (h4n2rs485) with RS-232 to RS-485 conversion for automated recording
@@ -1056,7 +1058,7 @@
 - **Multi-Target Overlay Architecture:** Single HTML/CSS/JS page serving both NeTV FPGA hardware overlay (Phase 1) and OBS Browser Source (Phase 2) without code duplication
 - **Phase 1 (2017-2019):** Raspberry Pi 2 + NeTV FPGA hardware overlay with 4× E810-DTU serial-to-TCP/IP converters, Arduino LANC camera control, HDMI switching, distributed A/V control
 - **Phase 2 (2019-Present):** Simplified Windows PC + OBS Studio architecture with direct RS-485-to-USB adapter, 77% complexity reduction
-- **Protocol Engineering:** Complete Favero and Saint George fencing scoring machine protocol decoders in [BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders) library (829K+ NuGet downloads - 829,742 verified, 6-year maintenance, **archived 1/11/2026**, migrating to [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex))
+- **Protocol Engineering:** Complete Favero and Saint George fencing scoring machine protocol decoders in [BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders) library (900K+ NuGet downloads - 899,722 verified, 6-year maintenance, **archived 1/11/2026**, migrating to [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex))
 - **Hardware Integration:** Raspberry Pi networking (dual-interface: eth0 external, usb0 internal), NeTV HTTP API integration, custom PCB designs (h4n2rs485, lanc2rs485, SG_Power in KiCad)
 - **Real-Time Communication:** ASP.NET Core + SignalR with transport fallback (WebSockets for OBS, LongPolling/SSE for NeTV browser limitations)
 - **Performance Metrics:** ~30-50ms latency (score update to display), 99%+ uptime during 3-day tournaments, 4-8 concurrent strips
@@ -1215,7 +1217,7 @@
 
 ### Knowledge Sharing & Community Support
 **16+ years of continuous community engagement**
-- **Stack Overflow:** 22,433+ reputation reaching 4.7 million users
+- **Stack Overflow:** 22,510+ reputation reaching 4.7 million users
 - **Top Expertise Areas:** C# (Gold badge), .NET (Silver badge), XML (Bronze badge)
 - **Community Impact:** 606 answers, 8 questions, helping thousands of developers
 - **Knowledge Transfer:** Public research notebooks and educational platforms
@@ -1238,7 +1240,7 @@
 - **Technical Debt Reduction:** Legacy system modernization and performance tuning
 
 ### Community & Business Value Creation
-- **Download Metrics:** 829,742+ package downloads (829K+) indicating widespread adoption
+- **Download Metrics:** 899,722+ package downloads (900K+) indicating widespread adoption
 - **Community Reach:** 4.7 million Stack Overflow users reached with technical knowledge
 - **Educational Impact:** Learning platforms and knowledge transfer resources
 - **Innovation Leadership:** First-to-market solutions in vector databases and AI/ML integration
@@ -1260,9 +1262,9 @@
     - [OutOfBandDevelopment](https://github.com/OutOfBandDevelopment) - Consulting frameworks (dotex .NET Framework Extensions, React/PrimeReact templates, DevOps utilities)
     - [mwwhited-forks](https://github.com/mwwhited-forks) - Reference collection (58 curated forks organized separately to keep profile clean)
     - [mwwhited-archives](https://github.com/mwwhited-archives) - Historical projects (11 archived projects including signalr-client-nodejs with 37 stars, legacy frameworks, research projects)
-- **NuGet:** [829K+ downloads (829,742 verified)](https://www.nuget.org/profiles/mwwhited/) - 42-package modular ecosystem, 6-year sustained maintenance (2020-2026), professional CI/CD
+- **NuGet:** [900K+ downloads (899,722 verified)](https://www.nuget.org/profiles/mwwhited/) - 42-package modular ecosystem, 6-year sustained maintenance (2020-2026), professional CI/CD
   - **BinaryDataDecoders Migration:** Flagship framework transitioning from github.com/mwwhited/BinaryDataDecoders (archived 1/11/2026) to [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex) for unified architecture
-- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited) - 606+ solutions, 4.7M user reach, C# Gold Badge
+- **Stack Overflow:** [22,510+ reputation](http://stackoverflow.com/users/89586/matthew-whited) - 606+ solutions, 4.7M user reach, C# Gold Badge
 - **NPM:** [npmjs.com/~mwwhited](https://www.npmjs.com/~mwwhited) - Node.js contributions
 
 ### Professional Networks

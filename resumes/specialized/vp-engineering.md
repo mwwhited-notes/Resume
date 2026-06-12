@@ -1,4 +1,4 @@
-# Matthew Whited - Vice President of Engineering
+﻿# Matthew Whited - Vice President of Engineering
 ## Strategic Technology Leadership & Engineering Excellence
 
 ---
@@ -10,8 +10,8 @@
 - **Location:** Baltimore, MD (Remote preferred)
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
-- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
-- **NuGet Profile:** [829K+ downloads](https://www.nuget.org/profiles/mwwhited/)
+- **Stack Overflow:** [22,510+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
+- **NuGet Profile:** [900K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
 
@@ -174,8 +174,8 @@
 ## Quantifiable Engineering Leadership Achievements
 
 ### Organizational Impact
-- **829K+ NuGet package downloads** demonstrating technical authority and community influence
-- **22,433+ Stack Overflow reputation** with 600+ solutions reaching 4.7 million users over 16+ years
+- **900K+ NuGet package downloads** demonstrating technical authority and community influence
+- **22,510+ Stack Overflow reputation** with 600+ solutions reaching 4.7 million users over 16+ years
 - **GitHub Arctic Code Vault Contributor** with verified technical contributions and innovation leadership
 - **125+ developer influence** through Centers of Excellence with lasting enterprise-wide impact
 

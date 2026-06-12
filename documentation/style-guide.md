@@ -1,4 +1,4 @@
-# Professional Writing Style Guide
+﻿# Professional Writing Style Guide
 
 ## Purpose
 This guide captures preferred communication style for professional responses, application materials, and career-related writing to ensure consistency across all outputs.
@@ -29,7 +29,7 @@ This guide captures preferred communication style for professional responses, ap
 
 #### **Quantitative Language Preferences:**
 - **General over exact**: "650K+ downloads" not "652,868 downloads"
-- **Round numbers**: "22K+ reputation" not "22,433+ reputation"
+- **Round numbers**: "22K+ reputation" not "22,510+ reputation"
 - **Natural terms**: "600+ solutions" not "606+ solutions"
 - **Approximate language**: "nearly 5 million users" not "4.7 million users"
 - **Substantial descriptors**: "extensive work items" not "84 completed work items"
@@ -109,7 +109,7 @@ All tables must have properly aligned columns with consistent whitespace for rea
 - **All Other Documents**: Use general quantitative language for natural, professional presentation
 
 ### **Master Resume Purpose**
-- **Authoritative Source**: Contains precise metrics (652,868+ downloads, 22,433+ reputation, 606+ solutions)
+- **Authoritative Source**: Contains precise metrics (652,868+ downloads, 22,510+ reputation, 606+ solutions)
 - **Technical Validation**: Serves as source of truth for verifying all claims
 - **Internal Reference**: Comprehensive background documentation with full detail
 - **Gold Standard**: Basis for all other resume variants while maintaining exact accuracy

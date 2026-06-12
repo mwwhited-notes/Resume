@@ -1,4 +1,4 @@
-# Matthew Whited
+﻿# Matthew Whited
 
 - **Email:** [matt@whited.us](mailto:matt@whited.us)
 - **Phone:** [+1 (614) 989-1748](tel:+16149891748)
@@ -18,7 +18,7 @@
 - **Framework Architecture Innovation:** Created enterprise-grade framework ecosystems including 50+ library OoBDev .NET Framework and transformational Shared Framework evolution with lasting organizational impact years after implementation
 - **Hardware-Software Bridge:** Rare combination of electronics engineering background with enterprise software architecture spanning microprocessor design to cloud optimization
 - **ML/AI Strategic Foresight:** Comprehensive AI strategy development, hybrid search innovation, and early recognition of LLM cost/efficiency limitations
-- **Community Impact:** 829K+ package downloads across 42 packages, 22,433+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
+- **Community Impact:** 900K+ package downloads across 42 packages, 22,510+ Stack Overflow reputation, Arctic Code Vault Contributor demonstrating industry influence
 - **Business Results:** Substantial cloud cost reduction, dramatic performance improvements, crisis resolution, and organizational productivity enhancements
 
 ### Technical Specializations
@@ -368,10 +368,10 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
   - [Coding Challenges: Algorithms and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
   - [Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)
 - **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
-- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22,433+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
+- **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22,510+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
 - **[Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)**
 - **[NPM](https://www.npmjs.com/~mwwhited)**
-- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 829K+ downloads across 42 packages
+- **[NuGet](https://www.nuget.org/profiles/mwwhited/)** - 900K+ downloads across 42 packages
 - **[Flickr](http://www.flickr.com/photos/mwwhited/)** - Photography portfolio
 
 ### Some projects that I have created in my spare time include
@@ -394,7 +394,7 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
   - Custom framework for building IO device and other binary communication protocols using .NET Core (migrating from archived BinaryDataDecoders repo).
     - Created with System.IO.Pipelines and Spans<> for zero-allocation parsing and processing
   - Analyze and document source code, data files, databases, build results, test reports and any other data.
-- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 42 packages, 829K+ total downloads
+- **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 42 packages, 900K+ total downloads
   - [Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors) - SQLCLR vector operations
   - [BinaryDataDecoders.ToolKit](https://www.nuget.org/packages/BinaryDataDecoders.ToolKit/) - 36,270 downloads
   - [BinaryDataDecoders.Xslt.Cli](https://www.nuget.org/packages/BinaryDataDecoders.Xslt.Cli/) - 34,726 downloads

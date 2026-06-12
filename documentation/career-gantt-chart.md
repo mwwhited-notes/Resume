@@ -1,4 +1,4 @@
-# Matthew Whited - Career Timeline
+﻿# Matthew Whited - Career Timeline
 
 Basic chronological view of career progression from electronics technician to fractional CTO and crisis resolution specialist.
 
@@ -99,7 +99,7 @@ end note
 -- Community Impact --
 [Stack Overflow Gold Badge] happens 2015-01-01 and is colored in Gold
 note bottom
-    22,433+ reputation, C# expertise, 4.7M developer reach
+    22,510+ reputation, C# expertise, 4.7M developer reach
 end note
 [Arctic Code Vault Contributor] happens 2020-01-01 and is colored in LightBlue
 [796K+ NuGet Downloads] happens 2023-01-01 and is colored in Orange

@@ -1,4 +1,4 @@
-# Matthew Whited - Technology Consultant
+﻿# Matthew Whited - Technology Consultant
 ## Vendor-Neutral Advisory & Strategic Technical Guidance
 
 ---
@@ -10,8 +10,8 @@
 - **Location:** Baltimore, MD (Remote preferred, up to 25% travel)
 - **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
-- **Stack Overflow:** [22,433+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
-- **NuGet Profile:** [829K+ downloads](https://www.nuget.org/profiles/mwwhited/)
+- **Stack Overflow:** [22,510+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
+- **NuGet Profile:** [900K+ downloads](https://www.nuget.org/profiles/mwwhited/)
 
 ---
 
@@ -180,8 +180,8 @@
 - **Zero vendor partnerships** ensuring completely unbiased recommendations optimized for client success rather than vendor profit margins
 
 ### Technical Authority Validation
-- **829K+ NuGet package downloads** demonstrating practical expertise and community value creation
-- **22,433+ Stack Overflow reputation** with C# Gold Badge representing recognized technical authority and knowledge sharing
+- **900K+ NuGet package downloads** demonstrating practical expertise and community value creation
+- **22,510+ Stack Overflow reputation** with C# Gold Badge representing recognized technical authority and knowledge sharing
 - **GitHub Arctic Code Vault Contributor** with verified long-term technical contributions and innovation leadership
 - **Industry-first innovations** including SQLCLR vector extensions and protocol implementations becoming vendor standards
 
