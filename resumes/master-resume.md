@@ -46,6 +46,7 @@
   - [Work History \& Professional Experience](#work-history--professional-experience)
     - [Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)](#principal-software-engineerarchitect---cadwell-industries-october-2025---present)
       - [CadLink Platform Contributions](#cadlink-platform-contributions)
+      - [Cadwell Platform Service — Next-Generation Modular Runtime](#cadwell-platform-service--next-generation-modular-runtime)
     - [Principal Solutions Architect - Green Onion (February 2025 - January 2026)](#principal-solutions-architect---green-onion-february-2025---january-2026)
       - [Backend Architecture](#backend-architecture)
       - [Frontend Architecture](#frontend-architecture)
@@ -103,7 +104,7 @@
     - [Professional Certifications \& Industry Recognition](#professional-certifications--industry-recognition)
     - [Self-Teaching Excellence \& Pattern Recognition](#self-teaching-excellence--pattern-recognition)
   - [Personal Projects \& Technical Innovations](#personal-projects--technical-innovations)
-    - [Extensions for .Net Framework (42 NuGet packages, 829,742+ downloads)](#extensions-for-net-framework-42-nuget-packages-829000-downloads)
+    - [Extensions for .Net Framework (42 NuGet packages, 829,742+ downloads)](#extensions-for-net-framework-42-nuget-packages-829742-downloads)
       - [Vector Support for MS-SQL Server (EXCEPTIONAL Innovation)](#vector-support-for-ms-sql-server-exceptional-innovation)
       - [High-Performance Binary Data Processing](#high-performance-binary-data-processing)
       - [Core Framework (438 commits, 32,363 LOC, 65+ modules)](#core-framework-438-commits-32363-loc-65-modules)
@@ -330,11 +331,22 @@
 - **Architecture Review:** Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
 #### CadLink Platform Contributions
-- **Real-Time Monitoring System:** Architected upload progress tracking across distributed client-server architecture with automatic status synchronization for medical data workflows
-- **File Storage Architecture:** Redesigned timestamp-based hierarchical directory structure preventing performance degradation in high-volume medical data environments
-- **Healthcare Compliance Extension:** Implemented Gender Identity patient data model with database schema migration, HL7 v2.3-2.5 integration updates, and automated test coverage
-- **Security Modernization:** Migrated hardcoded API keys to encrypted configuration with automated installer upgrade support across 150+ deployment sites
-- **UI/UX Overhaul:** Rebuilt management interface with themed icon system, interactive status visualizations, and detail viewers improving administrator productivity
+- Delivered 58 merged PRs over 6.5 months on a medical data management platform, resolving 3 critical security vulnerabilities (hard-coded credentials, API keys, plaintext passwords in HIPAA-regulated event logs)
+- Redesigned async/parallel service shutdown for the CadLink clinical data pipeline, reducing multi-service restart time and improving operational reliability in point-of-care deployments
+- Expanded WPF CadManager administration tool across 16+ PRs — improving client migration, status visibility, upload progress indicators, and icon interactability — materially improving clinical IT operator UX
+- Authored 7-protocol Claude Code AI development framework (CLAUDE.md + lifecycle, review, documentation, test plan, and failure analysis protocols), establishing AI-assisted development workflows for the engineering team
+- Improved CadLink query engine to support cross joins and resolved silent query failures, expanding data retrieval capability for a dual-database (SQLite + SQL Server) medical records system
+- Expanded ForeignFile system with sub-folder support and file extension handling, correcting data integrity issues for third-party file attachments in clinical records
+- Removed 4GB ZIP export size limit, unblocking large-scale patient data migration and export workflows
+- Implemented role-based permissions checks on user management operations, improving security posture in a HIPAA-regulated environment
+
+#### Cadwell Platform Service — Next-Generation Modular Runtime
+- Designed cross-service security trust model for a modular clinical platform, producing ADRs, security architecture documentation, and permission enforcement infrastructure for inter-service WebSocket and HTTP communication
+- Refactored platform KernelHost to full IoC/DI compliance and implemented contract-based HTTP endpoint mapping, eliminating service-locator anti-patterns across a process-separated medical device runtime
+- Bootstrapped Roslyn static analysis project enforcing platform coding conventions at compile time, shifting architectural compliance from code review to automated build gates
+- Extended hosting framework with .NET / .NET Framework multi-target support, enabling clinical module backward compatibility without separate build pipelines
+- Drove 30% of platform repository commits over 22 days as #2 contributor, spanning host infrastructure, module pattern migration, TypeScript SDK alignment, and security architecture
+- POC exploration of polyglot SDK generation (Go, Python) and outbox messaging patterns for future platform capabilities
 
 ### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - School Nutrition Management Platform**
@@ -657,22 +669,24 @@
 
 ### DevOps & Tools
 
-| Skill                | Years |  Last Used  |     Level     | Evidence                        |
-|:---------------------|:-----:|:-----------:|:-------------:|:--------------------------------|
-| Git                  |  15+  |   Current   |   Expert (5)  | Complex branching, code review  |
-| CI/CD Pipeline Design|  10+  |   Current   |   Expert (5)  | Azure, GitHub, Bitbucket        |
-| JIRA/Confluence      |  10+  |   Current   | Advanced (4)  | Project management integration  |
-| Visual Studio        |  20+  |   Current   |   Expert (5)  | Extensions, advanced debugging  |
-| VS Code              |   8+  |   Current   | Advanced (4)  | Extensions, remote development  |
+| Skill                        | Years |  Last Used  |     Level     | Evidence                        |
+|:-----------------------------|:-----:|:-----------:|:-------------:|:--------------------------------|
+| Git                          |  15+  |   Current   |   Expert (5)  | Complex branching, code review            |
+| CI/CD Pipeline Design        |  10+  |   Current   |   Expert (5)  | Azure, GitHub, Bitbucket                  |
+| JIRA/Confluence              |  10+  |   Current   | Advanced (4)  | Project management integration            |
+| Visual Studio                |  20+  |   Current   |   Expert (5)  | Extensions, advanced debugging            |
+| VS Code                      |   8+  |   Current   | Advanced (4)  | Extensions, remote development            |
+| WiX Installer (MSI/MSBuild)  |   2+  |   Current   | Proficient (3)| Cadwell medical device MSI packaging      |
 
 ### Testing & Quality
 
 | Skill                              | Years |  Last Used  |     Level     | Evidence                        |
 |:-----------------------------------|:-----:|:-----------:|:-------------:|:--------------------------------|
-| Unit Testing (MSTest/xUnit/NUnit)  |  15+  |   Current   |   Expert (5)  | TDD, test automation frameworks |
-| Mocking (Moq)                      |  10+  |   Current   |   Expert (5)  | Custom mocking framework author |
-| Integration Testing                |  15+  |   Current   |   Expert (5)  | API testing, E2E                |
-| Performance Testing                |  10+  |   Current   | Advanced (4)  | Benchmarking, optimization      |
+| Unit Testing (MSTest/xUnit/NUnit)  |  15+  |   Current   |   Expert (5)  | TDD, test automation frameworks        |
+| Mocking (Moq)                      |  10+  |   Current   |   Expert (5)  | Custom mocking framework author        |
+| Integration Testing                |  15+  |   Current   |   Expert (5)  | API testing, E2E                       |
+| Performance Testing                |  10+  |   Current   | Advanced (4)  | Benchmarking, optimization             |
+| Roslyn SDK / Static Analysis       |   2+  |   Current   | Advanced (4)  | Platform coding convention enforcement |
 
 ### Compliance & Regulated Industries
 
@@ -1384,4 +1398,4 @@ This document serves as the **definitive source of truth** for all information a
 
 ---
 
-*This document contains comprehensive information validated through extensive code review and community verification. All technical claims have been verified through actual implementation analysis. Last updated: 2025-12-25 (Eastern)*
+*This document contains comprehensive information validated through extensive code review and community verification. All technical claims have been verified through actual implementation analysis. Last updated: 2026-06-12 (Eastern)*
