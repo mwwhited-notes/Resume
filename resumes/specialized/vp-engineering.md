@@ -72,6 +72,11 @@
 - Bootstrapped Roslyn static analysis project enforcing platform coding conventions at compile time, shifting architectural compliance from code review to automated build gates
 - Extended hosting framework with .NET / .NET Framework multi-target support, enabling clinical module backward compatibility without separate build pipelines
 - Drove substantial platform repository contributions as a primary contributor, spanning host infrastructure, module pattern migration, TypeScript SDK alignment, and security architecture
+- Designed generic outbox abstraction with per-type DI-keyed routing, enabling pluggable event streaming backends without changing event-producer call sites
+- Built NSwag code-generation pipeline producing .NET Framework bridge module stubs from OpenAPI documents, with compile-time API contract parity enforcement between .NET and .NET Framework module hosts
+- Implemented full Cadwell Platform module in Go with OpenTelemetry tracing and Prometheus metrics, demonstrating the platform's language-agnostic contract-based module pattern
+- Created dotnet new scaffolding template generating a complete contract/implementation/test project set for platform modules, reducing new module bootstrap to a single CLI command
+- Extended NSwag to generate Python SDK via custom Liquid template overrides, adding Python as a first-class typed SDK target alongside .NET and TypeScript
 
 ### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - Crisis Recovery Leadership**

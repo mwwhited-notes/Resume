@@ -331,7 +331,7 @@
 - **Architecture Review:** Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
 #### CadLink Platform Contributions
-- Delivered 58 merged PRs over 6.5 months on a medical data management platform, resolving 3 critical security vulnerabilities (hard-coded credentials, API keys, plaintext passwords in HIPAA-regulated event logs)
+- Resolved 3 critical security vulnerabilities in a HIPAA-regulated medical data management platform — removing hard-coded credentials, migrating API keys to configuration, and eliminating plaintext passwords from security event logs
 - Redesigned async/parallel service shutdown for the CadLink clinical data pipeline, reducing multi-service restart time and improving operational reliability in point-of-care deployments
 - Expanded WPF CadManager administration tool across 16+ PRs — improving client migration, status visibility, upload progress indicators, and icon interactability — materially improving clinical IT operator UX
 - Authored 7-protocol Claude Code AI development framework (CLAUDE.md + lifecycle, review, documentation, test plan, and failure analysis protocols), establishing AI-assisted development workflows for the engineering team
@@ -345,8 +345,12 @@
 - Refactored platform KernelHost to full IoC/DI compliance and implemented contract-based HTTP endpoint mapping, eliminating service-locator anti-patterns across a process-separated medical device runtime
 - Bootstrapped Roslyn static analysis project enforcing platform coding conventions at compile time, shifting architectural compliance from code review to automated build gates
 - Extended hosting framework with .NET / .NET Framework multi-target support, enabling clinical module backward compatibility without separate build pipelines
-- Drove 30% of platform repository commits over 22 days as #2 contributor, spanning host infrastructure, module pattern migration, TypeScript SDK alignment, and security architecture
-- POC exploration of polyglot SDK generation (Go, Python) and outbox messaging patterns for future platform capabilities
+- Delivered foundational platform contributions spanning host infrastructure, module pattern migration, TypeScript SDK alignment, and security architecture across a modular process-separated clinical runtime
+- Designed `IOutbox<T>` generic abstraction with per-type DI-keyed routing, enabling pluggable outbox backends (in-memory, service bus, SSE, WebSocket) without changing event-producer call sites
+- Built NSwag code-generation pipeline producing .NET Framework 4.8 bridge module stubs from OpenAPI documents, with compile-time API contract parity enforcement — making API drift between .NET and .NET Framework module hosts a compiler error rather than a runtime failure (EXCEPTIONAL)
+- Implemented full Cadwell Platform module in Go with OpenTelemetry tracing and Prometheus metrics, demonstrating the platform's language-agnostic contract-based module pattern
+- Created `dotnet new cadwell-module` scaffolding template generating a complete contract/implementation/test project set, reducing new module bootstrap to a single CLI command
+- Extended NSwag to generate Python SDK via custom Liquid template overrides, adding Python as a first-class typed SDK target alongside .NET and TypeScript in the platform's polyglot SDK pipeline
 
 ### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - School Nutrition Management Platform**
@@ -584,7 +588,7 @@
 | TypeScript                 |   5+  |   Current   | Advanced (4)  | Green Onion frontend, Zod schemas                 |
 | Python                     |   5+  |   Current   | Proficient (3)| AI/ML pipelines, Flask endpoints                  |
 | Java                       |  10+  |    2024     | Advanced (4)  | Eliassen DSL compiler, ANTLR4                     |
-| Go                         |   3+  |    2023     | Proficient (3)| AT&T/Alien Vault security platform                |
+| Go                         |   3+  |   Current   | Proficient (3)| AT&T/Alien Vault security platform, Cadwell Platform POC |
 | F#                         |   5+  |   Current   | Proficient (3)| Functional programming, NuGet packages            |
 | Rust                       |   2+  |   Current   |  Familiar (2) | Cross-language algorithm portfolio                |
 | PowerShell                 |  15+  |   Current   | Advanced (4)  | DevOps automation, scripting                      |
@@ -676,7 +680,8 @@
 | JIRA/Confluence              |  10+  |   Current   | Advanced (4)  | Project management integration            |
 | Visual Studio                |  20+  |   Current   |   Expert (5)  | Extensions, advanced debugging            |
 | VS Code                      |   8+  |   Current   | Advanced (4)  | Extensions, remote development            |
-| WiX Installer (MSI/MSBuild)  |   2+  |   Current   | Proficient (3)| Cadwell medical device MSI packaging      |
+| WiX Installer (MSI/MSBuild)  |   2+  |   Current   | Proficient (3)| Cadwell medical device MSI packaging                    |
+| dotnet new Template Engine   |   5+  |   Current   | Advanced (4)  | Eliassen SharedFramework, Cadwell Platform scaffolding  |
 
 ### Testing & Quality
 
