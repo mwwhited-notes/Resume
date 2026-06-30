@@ -1021,6 +1021,34 @@ This document captures deep career insights, preferences, and hidden expertise d
 - Prefers open standards over proprietary solutions
 - Designs for migration and evolution, not permanent commitment
 
+### Standards-First Engineering — Adopt Before Build
+**Core Principle:**
+Hierarchy of preference before writing custom code:
+1. **Established RFC / web standard** — IETF, W3C, OASIS, OpenID Foundation, CNCF
+2. **Proven FOSS library / framework** — community-maintained, security-reviewed
+3. **COTS product** — extend or integrate before replacing
+4. **Custom build** — only when existing solutions genuinely don't fit the problem
+
+**Rationale:**
+- Existing standards carry years of community security review, edge-case handling, and interoperability testing that custom implementations cannot replicate cheaply
+- RFC-based designs are self-documenting — any engineer familiar with the standard understands the intent without reading internal docs
+- FOSS libraries distribute maintenance cost and receive community security fixes automatically
+- "Not invented here" syndrome is a common source of unnecessary technical debt and hidden risk
+- Custom code is a liability until proven otherwise — every line written is a line to test, document, and maintain forever
+- **Philosophy:** "The best custom code is the code you didn't have to write"
+
+**Career Evidence:**
+- **DPoP (RFC 9449) + Response Signing (RFC 9421) — Cadwell Platform:** Implemented proof-of-possession and tamper-evident responses using IETF RFCs rather than inventing proprietary token-binding schemes
+- **OAuth 2.0/OIDC STS — Cadwell Platform:** Built authentication server on established grant types (RFC 6749, RFC 7523, RFC 8693, RFC 9449) rather than a bespoke auth protocol
+- **OpenTelemetry + Prometheus:** Adopted CNCF observability standards rather than proprietary monitoring instrumentation
+- **NSwag + OpenAPI:** Leveraged existing toolchain for SDK code generation rather than building generators from scratch
+- **LDAP RFC compliance — Itrica/LifeTime:** Deep RFC study before implementation to ensure standards compliance and interoperability with existing LDAP client applications
+- **iCalendar Calendaring (RFC 5545) — Eliassen SharedFramework:** Implemented calendaring using the vCal/iCalendar standard rather than a proprietary format, ensuring interoperability with any RFC-compliant calendar client
+- **vCard Contacts (RFC 6350) — Eliassen SharedFramework:** Built contact information module on the vCard standard rather than a custom schema
+- **Crontab Scheduling — Eliassen SharedFramework:** Used POSIX cron expression syntax as the scheduling DSL rather than inventing a proprietary expression language
+- **COTS Extension — TurboScan, Itrica:** Extended commercial platforms rather than replacing them when existing functionality was sufficient
+- **NuGet ecosystem (900K+ downloads):** Publishes reusable FOSS libraries so others don't have to rebuild common infrastructure
+
 ---
 
 ## Career Insights & Patterns

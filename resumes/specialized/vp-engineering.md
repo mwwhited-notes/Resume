@@ -65,9 +65,12 @@
 - Extended ForeignFile system with sub-folder support and file extension handling, correcting data integrity issues for third-party file attachments
 - Removed ZIP export size limit, unblocking large-scale patient data migration and export workflows
 - Implemented role-based permissions on user management operations, improving security posture in a HIPAA-regulated environment
+- Refactored CadLink's process-global identity model for concurrent multi-user hosting using `AsyncLocal<T>`-backed ambient user scopes with scoped disposal, enabling the Platform bridge module to serve multiple simultaneous authenticated users without per-user process isolation
+- Introduced `CadLinkApplicationInterface` hosting mode — an environment-variable-activated configuration that bypasses Windows session-based identity for service deployments, maintaining full backward compatibility with existing desktop and server modes
+- Built JWT-to-legacy-user bridge connecting Platform RS256 Cortex tokens to CadLink's existing `User` model, supporting GUID and display-name subject resolution with generic namespace-prefix normalization
 
 #### Cadwell Platform Service — Next-Generation Modular Runtime
-- Designed cross-service security trust model for a modular clinical platform, producing architecture documentation and permission enforcement infrastructure for inter-service WebSocket and HTTP communication
+- Designed and delivered the platform's cross-service trust model (ADR-0018) — an OAuth 2.0/OIDC STS, deny-by-default permission attribute system with Roslyn build-time enforcement, and `ResponseMaskingMiddleware` for PHI-safe masked vs. unmasked API responses across distributed clinical Platform Services
 - Refactored platform KernelHost to full IoC/DI compliance and implemented contract-based HTTP endpoint mapping, eliminating service-locator anti-patterns across a process-separated medical device runtime
 - Bootstrapped Roslyn static analysis project enforcing platform coding conventions at compile time, shifting architectural compliance from code review to automated build gates
 - Extended hosting framework with .NET / .NET Framework multi-target support, enabling clinical module backward compatibility without separate build pipelines
@@ -77,6 +80,9 @@
 - Implemented full Cadwell Platform module in Go with OpenTelemetry tracing and Prometheus metrics, demonstrating the platform's language-agnostic contract-based module pattern
 - Created dotnet new scaffolding template generating a complete contract/implementation/test project set for platform modules, reducing new module bootstrap to a single CLI command
 - Extended NSwag to generate Python SDK via custom Liquid template overrides, adding Python as a first-class typed SDK target alongside .NET and TypeScript
+- Implemented DPoP proof-of-possession (RFC 9449) across the platform — server-side validation middleware and SDK proof generation — binding tokens to the caller's key pair and eliminating bearer-token replay attacks on clinical data access tokens
+- Engineered a transparent five-handler SDK pipeline (proactive token refresh with concurrent-request coalescing, auto claims-upgrade on insufficient_scope, DPoP proof generation, response signature verification, trace propagation) so SDK consumers inherit complete security guarantees with no auth boilerplate
+- Implemented refresh-token family rotation with reuse detection — presenting an invalidated token invalidates the entire family and forces re-authentication — alongside FIPS-mode enforcement via platform-abstracted Windows/Linux OS providers
 
 ### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - Crisis Recovery Leadership**

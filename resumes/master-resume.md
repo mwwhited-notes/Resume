@@ -243,6 +243,7 @@
 - **Self-Taught Excellence Foundation:** Started with Apple IIc game reverse engineering, taught vocational instructor networking, offered first job before graduation for ILOVEYOU virus cleanup
 - **Hardware-Software Complete Stack:** Electronics Technician certification through AI/ML custom algorithms, microprocessor design to cloud optimization, **professional Hardware Description Language expertise** (Verilog, VHDL, SystemVerilog)
 - **Anti-Hype Technology Wisdom:** Pattern recognition from decades of technology cycles - "AI/ML has tools but massively overhyped, chat everywhere is poor UX"
+- **Standards-First Engineering:** Adopts established RFCs, open web standards, FOSS libraries, and COTS before building custom — evaluates existing specifications first, reserving custom development for genuinely novel problems; the best custom code is the code you didn't have to write
 - **Quantifiable Business Impact:** 900K+ downloads (899,722 verified) across 42-package modular ecosystem (6-year sustained maintenance), 324+ GitHub stars, 22,510+ Stack Overflow reputation (128 badges including C# Gold), Arctic Code Vault Contributor, $500K+ financial risk prevention
 
 ---
@@ -325,8 +326,9 @@
 ### Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)
 **Medical Device Software & Healthcare Technology Innovation**
 
-- **Medical Device Software Development:** Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies
+- **Medical Device Software Development:** Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, WCF (named pipes and TCP for IPC/RPC), and WiX installer technologies
 - **Technical Leadership & Code Quality:** Conducting peer code reviews, leading grooming sessions, and providing architectural guidance for medical device software development
+- **Platform Architecture Review:** Providing code and architecture reviews for the next-generation Platform Service — evaluating module design, security patterns, and platform coding convention compliance as the platform team grows
 - **Full-Stack Development:** Backend development, application styling, and comprehensive unit testing across medical device communication systems
 - **Architecture Review:** Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
@@ -339,9 +341,12 @@
 - Expanded ForeignFile system with sub-folder support and file extension handling, correcting data integrity issues for third-party file attachments in clinical records
 - Removed 4GB ZIP export size limit, unblocking large-scale patient data migration and export workflows
 - Implemented role-based permissions checks on user management operations, improving security posture in a HIPAA-regulated environment
+- Refactored CadLink's process-global identity model for concurrent multi-user hosting using `AsyncLocal<T>`-backed ambient user scopes with scoped disposal, enabling the Platform bridge module to serve multiple simultaneous authenticated users without per-user process isolation
+- Introduced `CadLinkApplicationInterface` hosting mode — an environment-variable-activated configuration that bypasses Windows session-based identity for service deployments, maintaining full backward compatibility with existing desktop and server modes
+- Built JWT-to-legacy-user bridge connecting Platform RS256 Cortex tokens to CadLink's existing `User` model, supporting GUID and display-name subject resolution with generic namespace-prefix normalization
 
 #### Cadwell Platform Service — Next-Generation Modular Runtime
-- Designed cross-service security trust model for a modular clinical platform, producing ADRs, security architecture documentation, and permission enforcement infrastructure for inter-service WebSocket and HTTP communication
+- Designed and delivered the platform's cross-service trust model (ADR-0018) — an OAuth 2.0/OIDC STS, deny-by-default permission attribute system with Roslyn build-time enforcement, and `ResponseMaskingMiddleware` for PHI-safe masked vs. unmasked API responses across distributed clinical Platform Services
 - Refactored platform KernelHost to full IoC/DI compliance and implemented contract-based HTTP endpoint mapping, eliminating service-locator anti-patterns across a process-separated medical device runtime
 - Bootstrapped Roslyn static analysis project enforcing platform coding conventions at compile time, shifting architectural compliance from code review to automated build gates
 - Extended hosting framework with .NET / .NET Framework multi-target support, enabling clinical module backward compatibility without separate build pipelines
@@ -351,6 +356,9 @@
 - Implemented full Cadwell Platform module in Go with OpenTelemetry tracing and Prometheus metrics, demonstrating the platform's language-agnostic contract-based module pattern
 - Created `dotnet new cadwell-module` scaffolding template generating a complete contract/implementation/test project set, reducing new module bootstrap to a single CLI command
 - Extended NSwag to generate Python SDK via custom Liquid template overrides, adding Python as a first-class typed SDK target alongside .NET and TypeScript in the platform's polyglot SDK pipeline
+- Implemented DPoP proof-of-possession (RFC 9449) across the platform — server-side validation middleware and SDK proof generation — binding tokens to the caller's key pair and eliminating bearer-token replay attacks on clinical data access tokens
+- Engineered a transparent five-handler SDK pipeline (proactive token refresh with concurrent-request coalescing, auto claims-upgrade on `insufficient_scope`, DPoP proof generation, response signature verification, trace propagation) so SDK consumers inherit complete security guarantees with no auth boilerplate
+- Implemented refresh-token family rotation with reuse detection — presenting an invalidated token invalidates the entire family and forces re-authentication — alongside FIPS-mode enforcement via platform-abstracted Windows/Linux OS providers
 
 ### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - School Nutrition Management Platform**
@@ -379,6 +387,7 @@
 - **SOW & Technical Contract Review:** Expert evaluation of vendor proposals and technical contracts for small/mid-sized companies - preventing costly mistakes and vendor lock-in
 - **Technical Advisory Services:** "Handling the nerdy stuff" so business leaders can focus on core operations - translating complex technical proposals into clear business implications
 - **Vendor-Neutral Advisory:** No vendor partnerships or bias - unbiased technology guidance ensuring clients get best solutions at reasonable prices
+- **Standards-First Guidance:** Steers clients toward established RFCs, open standards, FOSS, and COTS before custom builds — reduces risk, maintenance burden, and vendor lock-in by leveraging community-proven solutions
 - **Technical Due Diligence:** Architecture assessment, vendor evaluation, and risk analysis for technology investments and M&A transactions
 - **Fractional CTO Services:** Strategic technology leadership for companies needing executive-level expertise without full-time CTO budget
 - **Crisis Project Recovery:** Takes over failed projects others can't deliver - rapid implementation when teams have struggled for months
@@ -445,6 +454,9 @@
 - **Enterprise Framework Scale:** Architected comprehensive enterprise framework with NuGet-publishable projects covering message queueing, templating, document conversion, identity management, and AI/vector search
 - **Document Conversion Pipeline:** Built multi-format conversion system integrating Apache Tika, wkhtmltopdf, and HtmlToOpenXml for PDF, HTML, DOCX, and Markdown transformations with 19 external service integrations
 - **RAG Engine CLI:** Developed file-based Retrieval Augmented Generation tool with Qdrant/OpenSearch vector database integration, Ollama/GroqCloud LLM support, and Sentence-BERT embeddings
+- **Standards-Based Scheduler:** Implemented crontab-pattern scheduling engine (POSIX cron expression parsing) backed by an abstracted event bus, enabling pluggable scheduling backends without coupling business logic to a specific scheduler runtime
+- **iCalendar Calendaring System:** Built calendaring module implementing vCal/iCalendar (RFC 5545) standard for interoperable event and schedule data exchange — adopting the open standard rather than designing a proprietary calendar format
+- **vCard Contact System:** Built contact information module implementing vCard (RFC 6350) standard for structured contact data exchange — enabling interoperability with any RFC-compliant client without custom format negotiation
 
 #### AI/ML Strategic Foresight & Innovation
 **Comprehensive AI Strategy Development & Hybrid Search Architecture**
@@ -593,6 +605,8 @@
 | Rust                       |   2+  |   Current   |  Familiar (2) | Cross-language algorithm portfolio                |
 | PowerShell                 |  15+  |   Current   | Advanced (4)  | DevOps automation, scripting                      |
 | Bash                       |  15+  |   Current   | Advanced (4)  | Linux administration, CI/CD scripts               |
+| PHP                        |  10+  |    2010     | Proficient (3)| Support ticket system (RADIUS auth integration)   |
+| VBScript / Classic ASP     |   8+  |    2008     | Proficient (3)| LDAP-backed ticket systems, legacy web dev        |
 
 ### Hardware & Low-Level
 
@@ -656,20 +670,37 @@
 | ASP.NET MVC/Core       |  15+  |   Current   |   Expert (5)  | Enterprise applications            |
 | REST API Design        |  15+  |   Current   |   Expert (5)  | OpenAPI, GraphQL, OData            |
 | WPF                    |  10+  |   Current   |   Expert (5)  | Cadwell medical device UI          |
+| WCF / SOAP             |  15+  |   Current   |   Expert (5)  | CadLink IPC (named pipes, TCP); enterprise services, mainframe bridge, MSMQ bindings |
+| GraphQL                |   5+  |   Current   | Advanced (4)  | Eliassen framework, API design     |
+| OData                  |   8+  |   Current   | Advanced (4)  | Framework design, Green Onion API  |
 | HTML/CSS               |  20+  |   Current   | Advanced (4)  | Responsive, accessibility          |
 | Redux/State Management |   4+  |   Current   | Advanced (4)  | Redux Toolkit, React Context       |
 | SignalR/WebSockets     |   8+  |   Current   | Advanced (4)  | Real-time scoring systems          |
+| iCalendar / vCal (RFC 5545) |  3+  |   Current   | Proficient (3)| Eliassen SharedFramework calendaring|
+| vCard (RFC 6350)       |   3+  |   Current   | Proficient (3)| Eliassen SharedFramework contacts  |
 
 ### Architecture & Patterns
 
-| Skill                      | Years |  Last Used  |     Level     | Evidence                   |
-|:---------------------------|:-----:|:-----------:|:-------------:|:---------------------------|
-| Microservices Architecture |  10+  |   Current   |   Expert (5)  | Enterprise frameworks      |
-| Event-Driven Architecture  |  10+  |   Current   |   Expert (5)  | Kafka, Service Bus, CQRS   |
-| Domain-Driven Design       |  10+  |   Current   | Advanced (4)  | Enterprise implementations |
-| CQRS/Event Sourcing        |   8+  |   Current   | Advanced (4)  | Itrica, GCA/Nucleus        |
-| API Gateway Design         |  10+  |   Current   |   Expert (5)  | Custom implementations     |
-| SOA/Enterprise Integration |  15+  |   Current   |   Expert (5)  | Multi-system integration   |
+| Skill                           | Years |  Last Used  |     Level     | Evidence                                      |
+|:--------------------------------|:-----:|:-----------:|:-------------:|:----------------------------------------------|
+| Microservices Architecture      |  10+  |   Current   |   Expert (5)  | Enterprise frameworks                         |
+| Event-Driven Architecture       |  10+  |   Current   |   Expert (5)  | Kafka, Service Bus, CQRS                      |
+| Domain-Driven Design            |  10+  |   Current   | Advanced (4)  | Enterprise implementations                    |
+| CQRS/Event Sourcing             |   8+  |   Current   | Advanced (4)  | Itrica, GCA/Nucleus                           |
+| API Gateway Design              |  10+  |   Current   |   Expert (5)  | Custom implementations (Itrica, BMW, Eliassen)|
+| SOA/Enterprise Integration      |  15+  |   Current   |   Expert (5)  | Multi-system integration                      |
+| Delegating Handler / Middleware Pipeline | 8+ | Current | Advanced (4) | Cadwell Platform SDK; ASP.NET Core pipelines  |
+| Circuit Breaker / Bulkhead      |   8+  |   Current   | Advanced (4)  | Polly, Eliassen resilience framework          |
+
+### Messaging & Event Streaming
+
+| Skill                      | Years |  Last Used  |     Level     | Evidence                                      |
+|:---------------------------|:-----:|:-----------:|:-------------:|:----------------------------------------------|
+| Kafka / Azure Event Hubs   |   8+  |   Current   | Advanced (4)  | Eliassen LightWell framework, multiple clients|
+| Azure Service Bus          |   8+  |   Current   | Advanced (4)  | Production integrations, IMessageSender framework |
+| RabbitMQ                   |   3+  |    2024     | Proficient (3)| Enterprise messaging evaluations              |
+| MSMQ                       |  10+  |    2022     | Proficient (3)| WCF MSMQ bindings, legacy integration         |
+| Custom Message Abstraction |   8+  |   Current   | Advanced (4)  | IMessageSender framework with pluggable providers |
 
 ### DevOps & Tools
 
@@ -682,6 +713,16 @@
 | VS Code                      |   8+  |   Current   | Advanced (4)  | Extensions, remote development            |
 | WiX Installer (MSI/MSBuild)  |   2+  |   Current   | Proficient (3)| Cadwell medical device MSI packaging                    |
 | dotnet new Template Engine   |   5+  |   Current   | Advanced (4)  | Eliassen SharedFramework, Cadwell Platform scaffolding  |
+| MSBuild / SDK Project System |  10+  |   Current   | Advanced (4)  | Multi-targeting, build-shim projects, WiX integration   |
+| OpenTelemetry                |   3+  |   Current   | Advanced (4)  | Cadwell Platform auth metrics, Go module (Prometheus)   |
+| Node.js                      |   5+  |   Current   | Proficient (3)| Platform diagnostic scripts, API tooling                |
+| ANTLR4                       |   5+  |    2025     | Advanced (4)  | Eliassen McClane DSL compiler (Java AST listener)       |
+| Liquid Templates             |   3+  |   Current   | Advanced (4)  | NSwag SDK generation (.NET, TypeScript, Python targets) |
+| Crontab / Scheduling Patterns|   5+  |   Current   | Advanced (4)  | Eliassen SharedFramework scheduler engine               |
+| Handlebars Templates         |   5+  |   Current   | Advanced (4)  | Green Onion (129 templates, 35 helpers), RebuildIt CLI  |
+| NSwag                        |   3+  |   Current   | Advanced (4)  | Cadwell Platform SDK gen; .NET/TS/Python targets        |
+| SendGrid / Email APIs        |   5+  |    2025     | Proficient (3)| MARS messaging platform, Eliassen                      |
+| Twilio / SMS APIs            |   5+  |    2025     | Proficient (3)| MARS patient appointment reminders                     |
 
 ### Testing & Quality
 
@@ -690,8 +731,24 @@
 | Unit Testing (MSTest/xUnit/NUnit)  |  15+  |   Current   |   Expert (5)  | TDD, test automation frameworks        |
 | Mocking (Moq)                      |  10+  |   Current   |   Expert (5)  | Custom mocking framework author        |
 | Integration Testing                |  15+  |   Current   |   Expert (5)  | API testing, E2E                       |
+| E2E Testing (process-level)        |   3+  |   Current   | Advanced (4)  | Cadwell Platform real-process auth E2E |
 | Performance Testing                |  10+  |   Current   | Advanced (4)  | Benchmarking, optimization             |
 | Roslyn SDK / Static Analysis       |   2+  |   Current   | Advanced (4)  | Platform coding convention enforcement |
+| OpenAPI / Contract Validation      |   5+  |   Current   | Advanced (4)  | OpenApiValidator, NSwag, API drift gates|
+
+### Security & Authentication
+
+| Skill                             | Years |  Last Used  |     Level     | Evidence                                          |
+|:----------------------------------|:-----:|:-----------:|:-------------:|:--------------------------------------------------|
+| OAuth 2.0 / OIDC                  |   5+  |   Current   | Advanced (4)  | Cadwell Platform STS; RFC 6749/7523/8693          |
+| JWT / RS256 / JWKS                |   5+  |   Current   | Advanced (4)  | Cadwell STS, Eliassen, Green Onion (Azure B2C)    |
+| DPoP (RFC 9449)                   |   1+  |   Current   | Proficient (3)| Cadwell Platform cross-service trust model        |
+| ASP.NET Core Auth / Claims        |  10+  |   Current   |   Expert (5)  | Claims-based identity, policy providers           |
+| FIPS 140-2                        |   1+  |   Current   | Proficient (3)| Cadwell Platform auth infrastructure              |
+| AsyncLocal / Async Context Patterns|  2+  |   Current   | Advanced (4)  | CadLink multi-user identity refactor              |
+| LDAP Protocol              |  10+  |   Current   | Advanced (4)  | Custom .NET LDAP server impl via RFC analysis; LifeTime connectors |
+| Active Directory / eDirectory |  15+ |  Current   | Advanced (4)  | Novell NetWare, enterprise auth, IAM connectors   |
+| SAML / WS-Federation       |   8+  |    2022     | Proficient (3)| Enterprise SSO integrations                       |
 
 ### Compliance & Regulated Industries
 
@@ -700,7 +757,7 @@
 | FDA Compliance       |   6+  |   Current   |   Expert (5)  | Itrica CTMS, Cadwell medical devices|
 | HIPAA                |   6+  |   Current   | Advanced (4)  | Healthcare systems                  |
 | HL7 v2.3-2.5         |   2+  |   Current   | Proficient (3)| Cadwell patient data                |
-| Financial Compliance |   3+  |    2008     | Proficient (3)| JPMorgan broker/dealer systems      |
+| Financial Compliance |   3+  |    2008     |  Familiar (2) | JPMorgan broker/dealer systems      |
 
 ### Leadership & Soft Skills
 
