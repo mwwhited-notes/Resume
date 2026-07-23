@@ -176,15 +176,18 @@ Append to `./SearchResults/External/integration-log.md`:
 
 **❌ NEVER include internal identifiers in resumes:**
 - Internal design/architecture document numbers (ADR-XXXX, work item numbers, ticket IDs, PR numbers)
-- Internal class or component names (e.g., `ResponseMaskingMiddleware`, `CadLinkApplicationInterface`, `IOutbox<T>`, `KernelHost`, `CortexAuth`, `Cortex` as a product/component code name)
-- Internal interface, module, or type names unique to the employer's private codebase
+- Internal class, component, or product code names unique to the employer's private codebase
+- Internal interface, module, or type names not published in public documentation
 - Internal branch names, build tags, or deployment identifiers
 
 **✅ INSTEAD use descriptive language:**
-- Replace class names with what the class DOES: "response-masking middleware" instead of `ResponseMaskingMiddleware`
-- Replace interface names with the pattern: "a generic outbox abstraction" instead of `IOutbox<T>`
-- Replace internal component names with their function: "the platform microkernel host" instead of `KernelHost`
+- Replace class names with what the class DOES
+- Replace interface names with the pattern or contract they represent
+- Replace internal component names with their function or role
 - Remove all "(ADR-XXXX)" references — they expose internal design processes
+
+**For current examples of prohibited names and their safe replacements, read:**
+`./SearchResults/Parameters/prohibited-names.md` (private — stored in SearchResults submodule)
 
 **Exceptions — public/standard names are fine:**
 - Public .NET BCL classes (`AsyncLocal<T>`, `IServiceCollection`, `HttpClient`, etc.)
