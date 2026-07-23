@@ -117,7 +117,7 @@
 
 ## User Preferences - CRITICAL
 - **Work Location:** 100% REMOTE ONLY (unless Baltimore MD metro area)
-- **Compensation:** $192K+ salary minimum (= 20% above $160K current Cadwell salary)
+- **Compensation:** $200K+ salary minimum
 - **Employment Type:** Full-time only (passive search) — contract/hourly currently NOT being considered
 - **Travel:** Up to 25% acceptable
 - **Security Clearance:** NOT interested
@@ -205,78 +205,17 @@ Principal Software Engineer/Architect at Cadwell Industries specializing in medi
 - Targets/ - dynamically generated target lists (job roles, companies, platforms)
 - External/ - private repository audit imports
 
-## Important Session Notes
+## Session Notes Archive
 
-### December 24-25, 2025
-✅ **Comprehensive Internet Profile Audit:** Reviewed GitHub (mwwhited), all organizations, NuGet, Stack Overflow, LinkedIn
-✅ **NuGet Metrics Discovery:** Found actual downloads 796K+ (was reporting 657K), packages 42 (was 20)
-✅ **Private Repository Audit System Created:**
-  - Created `protocols/private-repo-audit-prompt.md` for auditing private repos
-  - Created `protocols/external-findings-import.md` for importing findings
-  - Created `SearchResults/External/` directory with integration-log.md and processed/ subfolder
-✅ **Skills Gap Analysis:** Added 25+ missing technologies discovered in audits
-✅ **Metrics Updated:** 45+ files updated with 796K+/42 packages
-✅ **Total Integration:** 53+ bullet points added across all sections
-✅ **Documentation:** Created change-history-20251224.md with complete session log
+Session notes have been moved to the private submodule to keep this public file concise.
 
-### November 18, 2025
-✅ **Comprehensive Resume Ecosystem Update:** Updated all 34 resume and profile files with detailed Cadwell Industries and Green Onion employment information
-✅ **Cadwell Industries Position Enhancement:** Added comprehensive technical details (WPF, .NET 4.8, SQLite, WiX installer) and responsibilities (peer reviews, grooming, unit testing, architectural review, FDA-regulated medical device software)
-✅ **Green Onion Position Enhancement:** Added code generation framework development detail to application rescue and modernization work
-✅ **Files Updated:**
-  - Core resumes: comprehensive.md, abbreviated.md, extended.md (3 files)
-  - ATS files: All 7 ATS resume files
-  - Specialized resumes: All 13 specialized resume files
-  - Other resumes: icims-ats-optimized-resume.md, simplified.md (2 files)
-  - Profiles: All 6 active profile documents
-✅ **Consistency Verification:** Verified 14 files with Cadwell position, 23 files with Green Onion position, 25 files mentioning code generation framework, 22 files with Cadwell technology details
-✅ **Documentation Updates:** Created change-history-20251118.md documenting all ecosystem updates
+**Archive location:** `./SearchResults/Archives/Sessions-yyyy-mm.md`
+- `Sessions-2025-09.md` — September 2025
+- `Sessions-2025-10.md` — October 2025
+- `Sessions-2025-11.md` — November 2025
+- `Sessions-2025-12.md` — December 2025
 
-### October 14, 2025
-✅ **Professional Contacts Tracking System:** Created ./SearchResults/contacts.md for tracking positive professional relationships
-✅ **Contact Tracking Protocols:** Updated rejection-handling.md, application-status-management.md, and targeted-application.md to reference contacts tracking
-✅ **Atmosera - Patrick Stearns:**
-  - Final interview completed after reschedule (company no-showed 9/24, rescheduled and completed)
-  - Position filled internally, offered background check for future opportunities
-  - Declined background check to avoid pending contract/personal info on file
-  - Added Patrick Stearns to contacts.md (patrick.stearns@atmosera.com)
-✅ **Lantern - Paul Ficca:**
-  - Paul followed up on Staff Software Engineer (Architecture - USA) position
-  - Position originally sent to hiring manager 9/15, withdrawn 10/1 after 20+ days
-  - Declined on 10/14 due to accepting Cadwell position
-  - Updated closed-archive.md with follow-up interaction
-✅ **Application Rejections Processed:**
-  - Nymbus Solutions Architect: Updated rejection date to 10/14 (already withdrawn 8/21 for fintech exclusion)
-  - Archive counts updated: Rejected 130→131, Withdrawn 340→339
-
-### October 13, 2025
-✅ **Manager Introduction Document:** Created comprehensive background document at ./SearchResults/Matthew_Whited_Manager_Introduction.md for new Cadwell manager
-✅ **Personal Information Documentation:** Added family, pets, hobbies, travel, entertainment, and food preferences to career background
-✅ **Career Counselor Protocol Enhanced:** Updated ./.claude/protocols/career-counselor.md with Step 2.5 for personal information gathering
-✅ **Youth Programs Clarification:** Corrected Eagle Scout and Venture Scouts to show as standalone programs (not school-related) across all documents
-✅ **Personal Details Captured:**
-  - Family: Married to research scientist (virology specialist)
-  - Pets: Buddy (orange American Shorthair cat), Q (Blue Heeler dog)
-  - Hobbies: Photography, electronics, game development, scuba diving, mountain biking, fencing
-  - Travel: Utah, New Mexico, Vietnam, Cambodia, Saba (planning European vacation)
-  - Entertainment: Star Trek/sci-fi, superhero movies, electronic/alt-rock music, technical books
-  - Food: Doesn't like seafood
-✅ **Documentation Updates:** Updated career-background.md, master-resume.md, and new manager introduction file with consistent information
-
-### October 6, 2025
-✅ **Started at Cadwell Industries:** Principal Software Engineer/Architect position
-✅ **Resume Updates:** All resumes updated with new position
-✅ **Out-of-Band Development:** Updated end date to October 2025
-✅ **Green Onion:** Continuing as concurrent contract
-✅ **Profile Updates:** All profile documents made generic for general use
-✅ **Career Skills:** Created comprehensive skills list at ./profiles/career-skills.md
-
-### September 3, 2025
-✅ **Major Pipeline Refinement:** Closed 89+ applications, archived 215 positions for ATS optimization
-✅ **Industry Exclusions Enhanced:** Added comprehensive exclusion criteria across all categories
-✅ **Protocol Updates:** All protocols enhanced with mandatory industry classification
-✅ **Active Applications:** 248 high-quality applications focused on appropriate industries
-✅ **Performance Optimization:** 51% file size reduction in main tracking through archival system
+**July 2026 session:** Compensation updated to $200K+ minimum. Full job search executed (all platforms). Company research and position analysis files in `SearchResults/Companies/` and `SearchResults/Jobs/`. All session changes tracked in `SearchResults/apply-next.md`.
 
 ---
 
