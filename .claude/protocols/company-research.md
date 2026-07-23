@@ -35,10 +35,11 @@ Execute these searches in parallel:
 **Query:** `"[Company Name]" business model revenue strategy funding industry sector`
 **Focus Areas:**
 - **PRIMARY INDUSTRY CLASSIFICATION** (critical for exclusion verification)
+- **PRIVATE EQUITY OWNERSHIP CHECK:** Confirm company is publicly traded OR founder/employee/institutional-investor owned. If majority-owned or board-controlled by a PE firm (KKR, Blackstone, Apollo, Carlyle, Bain, Vista, Francisco, Thoma Bravo, Silver Lake, TPG, Warburg Pincus, etc.) → exclude immediately.
 - Core products/services and value proposition
 - Revenue model and pricing structure
 - Market position and competitive landscape
-- Recent funding rounds and financial health
+- Recent funding rounds and financial health (note LBO/going-private transactions as exclusion trigger)
 - Key customers and market segments
 
 #### Search 2: Technology Stack & Engineering
@@ -66,6 +67,22 @@ Execute these searches in parallel:
 - Senior/principal level positions matching target job titles
 - Architecture and technical leadership roles
 - Technology flexibility requirements
+
+#### Search 5: Employee Culture & Work-Life Balance (MANDATORY)
+**Query:** `"[Company Name]" Glassdoor Blind reviews "work life balance" OR "996" OR "crunch" OR "overtime" OR "long hours"`
+**Also search:** `site:teamblind.com "[Company Name]"` and `layoffs.fyi "[Company Name]"`
+**Focus Areas:**
+- Glassdoor rating (below 3.0 = auto-reject flag)
+- Blind/Teamblind employee sentiment on WLB and management
+- 996/997-style work culture indicators (9am–9pm, 6–7 days/week as norm)
+- CEO approval rating and management culture
+- Recent mass layoffs (Layoffs.fyi entries within 12 months = instability flag)
+- Recurring complaints about work-life balance across 20%+ of reviews
+
+**Auto-Reject Triggers:**
+- Consistent pattern of 996/997-style overtime expectations reported by multiple employees
+- Glassdoor overall rating below 3.0 with WLB specifically called out
+- Multiple Blind posts describing sustained 70+ hour weeks as normal expectation
 
 ### Phase 3: Analysis & Documentation
 
@@ -139,9 +156,12 @@ mkdir -p ./SearchResults/Companies
 ## Career Opportunities & Culture
 
 ### Remote Work & Culture
-- Remote work policies
+- Remote work policies — confirm 100% remote; "hybrid" = disqualifying
+- RTO risk: note any executive statements or news about return-to-office mandates
 - Company culture and values
-- Work-life balance approach
+- Work-life balance approach (Glassdoor WLB rating, Blind/Teamblind sentiment)
+- 996/997 culture risk (documented overtime expectations)
+- Benefits culture: flag if "unlimited vacation" is a primary selling point (associated with fewer days actually taken)
 - Global team considerations
 
 ### Hiring & Compensation

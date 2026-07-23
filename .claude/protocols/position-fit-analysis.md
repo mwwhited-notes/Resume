@@ -12,6 +12,9 @@ Analyze individual job postings provided by URL to determine fit quality and aut
    - Extract key position details: company name, job title, location, compensation
    - Identify technical requirements, experience levels, and key responsibilities
    - Note application process details and timeline requirements
+   - **LOCATION AUTO-REJECT:** If the posting requires in-office attendance or hybrid schedule (any days on-site), reject immediately — 100% remote is required. "Hybrid" = reject regardless of frequency.
+   - **NIGHT/WEEKEND AUTO-REJECT:** If the posting requires scheduled night shifts, recurring weekend on-call, or explicitly states after-hours work as a normal expectation, reject immediately.
+   - **UNLIMITED VACATION FLAG:** If "unlimited vacation" or "unlimited PTO" is listed as a benefit, flag as a red flag in the analysis. Do not auto-reject, but note it clearly — industry data shows employees take less time off under unlimited PTO than defined accrual.
 
 2. **MANDATORY EXCLUSION VERIFICATION** (UPDATED January 2026)
    - **CRITICAL:** Check company against `./SearchResults/excluded-companies.md` BEFORE proceeding with analysis
@@ -20,9 +23,25 @@ Analyze individual job postings provided by URL to determine fit quality and aut
    - **Board Alignment Check:** Verify no board members or executives are aligned with DOGE/Trump/MAGA PACs
    - **If company is excluded:** Immediately stop analysis and report: "This company is on the exclusion list due to [specific reason: industry/investor association/company exclusion/DOGE/Trump board alignment]. Analysis cannot proceed."
    - **Verify investor associations:** Check against investor exclusions in `./SearchResults/excluded-companies.md`
+   - **PRIVATE EQUITY CHECK:** Verify company is not majority-owned or board-controlled by a PE firm. Check Crunchbase, company investor page, or news for LBO/going-private transactions. PE-owned = reject immediately. Publicly traded companies with minor PE stakes are acceptable.
    - **Verify company exclusions:** Check against specific company exclusions in `./SearchResults/excluded-companies.md`
    - **Verify DOGE/Trump/MAGA alignment:** Check board composition against `./SearchResults/doge-trump-maga-alignment-exclusions.md`
    - **Only proceed if company is approved:** Continue with company intelligence phase
+
+3. **OPS-HEAVY ROLE AUTO-REJECT** — Reject immediately if the PRIMARY function is:
+   - Incident management, problem management, or escalation management (ITSM/ITIL ops leadership)
+   - SRE/NOC leadership focused on on-call coverage and ticket resolution rather than system design
+   - Site reliability without substantial software engineering or architecture content
+   - Operations center management (24/7 on-call rotations as the core deliverable)
+   - Example: "Site/Service/Problem/Incident/Escalation Management" (SPIE) roles — these are ops, not engineering
+   - **Design, engineering, and architecture must be the PRIMARY function** of the role
+
+4. **PM/PERSONNEL MANAGEMENT AUTO-REJECT** — Reject immediately if the PRIMARY function is:
+   - Project management without technical authority (delivery manager, scrum master, program manager)
+   - Personnel management with HR responsibilities as the core job (performance reviews, hiring/firing authority, headcount budgeting)
+   - Time management / capacity planning / resource allocation as primary deliverable
+   - **Exception:** Technical leadership of a team with people responsibilities is acceptable — the role must have meaningful technical authority or architectural contribution as its core function
+   - **Signal phrases that trigger review:** "manage a team of X," "responsible for delivery," "own the roadmap" (as PM, not architect), "performance management," "headcount planning"
 
 **AUTOMATIC EXCLUSION - DOGE/Trump/MAGA Alignment (January 2026):**
 Exclude immediately if ANY of these apply:

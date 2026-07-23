@@ -116,12 +116,13 @@
 - **Search Results:** SearchResults/ directory organized by topic
 
 ## User Preferences - CRITICAL
-- **Work Location:** 100% REMOTE ONLY (unless Baltimore MD metro area)
+- **Work Location:** 100% REMOTE ONLY (unless Baltimore MD metro area) — "hybrid" = reject, RTO mandates = reject
 - **Compensation:** $200K+ salary minimum
 - **Employment Type:** Full-time only (passive search) — contract/hourly currently NOT being considered
 - **Travel:** Up to 25% acceptable
 - **Security Clearance:** NOT interested
 - **Architecture Role Flexibility:** Programming language less critical - comfortable with Go, Java, Python, C#/.NET
+- **Role Function:** Strongly prefer technical leadership, guidance, and mentorship — avoid roles where project management, time management, or personnel management (HR authority, performance reviews, headcount) are the PRIMARY function. Technical leadership of a team is fine; pure people management or PM is not.
 
 **COMPREHENSIVE EXCLUSION CRITERIA:**
 **Full details in:** SearchResults/excluded-companies.md
