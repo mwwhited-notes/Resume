@@ -46,7 +46,7 @@
   - [Work History \& Professional Experience](#work-history--professional-experience)
     - [Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)](#principal-software-engineerarchitect---cadwell-industries-october-2025---present)
       - [CadLink Platform Contributions](#cadlink-platform-contributions)
-      - [Cadwell Platform Service — Next-Generation Modular Runtime](#cadwell-platform-service--next-generation-modular-runtime)
+      - [Cadwell Mesa — Next-Generation Modular Runtime](#cadwell-mesa--next-generation-modular-runtime)
     - [Principal Solutions Architect - Green Onion (February 2025 - January 2026)](#principal-solutions-architect---green-onion-february-2025---january-2026)
       - [Backend Architecture](#backend-architecture)
       - [Frontend Architecture](#frontend-architecture)
@@ -328,7 +328,7 @@
 
 - **Medical Device Software Development:** Backend communication and synchronization software development for Cadwell/Cadlink medical device systems using WPF, .NET 4.8, SQLite, WCF (named pipes and TCP for IPC/RPC), and WiX installer technologies
 - **Technical Leadership & Code Quality:** Conducting peer code reviews, leading grooming sessions, and providing architectural guidance for medical device software development
-- **Platform Architecture Review:** Providing code and architecture reviews for the next-generation Platform Service — evaluating module design, security patterns, and platform coding convention compliance as the platform team grows
+- **Platform Architecture Review:** Providing code and architecture reviews for the next-generation Cadwell Mesa service — evaluating module design, security patterns, and platform coding convention compliance as the platform team grows
 - **Full-Stack Development:** Backend development, application styling, and comprehensive unit testing across medical device communication systems
 - **Architecture Review:** Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
 
@@ -345,20 +345,22 @@
 - Introduced `CadLinkApplicationInterface` hosting mode — an environment-variable-activated configuration that bypasses Windows session-based identity for service deployments, maintaining full backward compatibility with existing desktop and server modes
 - Built JWT-to-legacy-user bridge connecting Platform RS256 Cortex tokens to CadLink's existing `User` model, supporting GUID and display-name subject resolution with generic namespace-prefix normalization
 
-#### Cadwell Platform Service — Next-Generation Modular Runtime
-- Designed and delivered the platform's cross-service trust model (ADR-0018) — an OAuth 2.0/OIDC STS, deny-by-default permission attribute system with Roslyn build-time enforcement, and `ResponseMaskingMiddleware` for PHI-safe masked vs. unmasked API responses across distributed clinical Platform Services
+#### Cadwell Mesa — Next-Generation Modular Runtime
+- Designed and delivered the platform's cross-service trust model (ADR-0018) — an OAuth 2.0/OIDC STS, deny-by-default permission attribute system with Roslyn build-time enforcement, and `ResponseMaskingMiddleware` for PHI-safe masked vs. unmasked API responses across distributed distributed clinical Mesa services
 - Refactored platform KernelHost to full IoC/DI compliance and implemented contract-based HTTP endpoint mapping, eliminating service-locator anti-patterns across a process-separated medical device runtime
-- Bootstrapped Roslyn static analysis project enforcing platform coding conventions at compile time, shifting architectural compliance from code review to automated build gates
+- Expanded platform Roslyn static-analysis tooling from initial bootstrap to a production-grade enforcement suite — 12+ custom diagnostic analyzers with paired automated code-fix providers covering DI/IoC registration form, naming conventions, async-lock threading, member ordering, acronym casing, and module-layer reference boundaries — wired into a full git-hook gating pipeline (pre-commit, pre-push, post-merge) and Azure DevOps CI, automating platform coding-standard enforcement at commit, push, and build time
 - Extended hosting framework with .NET / .NET Framework multi-target support, enabling clinical module backward compatibility without separate build pipelines
 - Delivered foundational platform contributions spanning host infrastructure, module pattern migration, TypeScript SDK alignment, and security architecture across a modular process-separated clinical runtime
 - Designed `IOutbox<T>` generic abstraction with per-type DI-keyed routing, enabling pluggable outbox backends (in-memory, service bus, SSE, WebSocket) without changing event-producer call sites
 - Built NSwag code-generation pipeline producing .NET Framework 4.8 bridge module stubs from OpenAPI documents, with compile-time API contract parity enforcement — making API drift between .NET and .NET Framework module hosts a compiler error rather than a runtime failure (EXCEPTIONAL)
-- Implemented full Cadwell Platform module in Go with OpenTelemetry tracing and Prometheus metrics, demonstrating the platform's language-agnostic contract-based module pattern
+- Implemented full Cadwell Mesa module in Go with OpenTelemetry tracing and Prometheus metrics, demonstrating the platform's language-agnostic contract-based module pattern
 - Created `dotnet new cadwell-module` scaffolding template generating a complete contract/implementation/test project set, reducing new module bootstrap to a single CLI command
 - Extended NSwag to generate Python SDK via custom Liquid template overrides, adding Python as a first-class typed SDK target alongside .NET and TypeScript in the platform's polyglot SDK pipeline
 - Implemented DPoP proof-of-possession (RFC 9449) across the platform — server-side validation middleware and SDK proof generation — binding tokens to the caller's key pair and eliminating bearer-token replay attacks on clinical data access tokens
 - Engineered a transparent five-handler SDK pipeline (proactive token refresh with concurrent-request coalescing, auto claims-upgrade on `insufficient_scope`, DPoP proof generation, response signature verification, trace propagation) so SDK consumers inherit complete security guarantees with no auth boilerplate
 - Implemented refresh-token family rotation with reuse detection — presenting an invalidated token invalidates the entire family and forces re-authentication — alongside FIPS-mode enforcement via platform-abstracted Windows/Linux OS providers
+- Implemented SSE and WebSocket stream-ticket authentication — server-side ticket issuance and SDK-side transport — enabling authenticated long-lived streaming connections from any platform SDK consumer without per-request bearer tokens
+- Root-caused a thread-pool starvation deadlock hanging platform health checks via controlled binary A/B testing, then fixed the HTTP request-reuse defect the mitigation exposed; diagnosed an OpenAPI/NSwag codegen bug where dual content-type advertising caused generated SDK clients to mislabel token-exchange request bodies, fixed it at the contract layer, and verified correct behavior with an RFC 6749 wire-format compliance test suite driving real OAuth grant flows through the actual generated SDK
 
 ### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
 **Application Rescue & Modernization - School Nutrition Management Platform**
@@ -601,7 +603,7 @@
 | TypeScript                 |   5+  |   Current   | Advanced (4)  | Green Onion frontend, Zod schemas                 |
 | Python                     |   5+  |   Current   | Proficient (3)| AI/ML pipelines, Flask endpoints                  |
 | Java                       |  10+  |    2024     | Advanced (4)  | Eliassen DSL compiler, ANTLR4                     |
-| Go                         |   3+  |   Current   | Proficient (3)| AT&T/Alien Vault security platform, Cadwell Platform POC |
+| Go                         |   3+  |   Current   | Proficient (3)| AT&T/Alien Vault security platform, Cadwell Mesa POC |
 | F#                         |   5+  |   Current   | Proficient (3)| Functional programming, NuGet packages            |
 | Rust                       |   2+  |   Current   |  Familiar (2) | Cross-language algorithm portfolio                |
 | PowerShell                 |  15+  |   Current   | Advanced (4)  | DevOps automation, scripting                      |
@@ -677,7 +679,7 @@
 | OData                  |   8+  |   Current   | Advanced (4)  | Framework design, Green Onion API  |
 | HTML/CSS               |  20+  |   Current   | Advanced (4)  | Responsive, accessibility          |
 | Redux/State Management |   4+  |   Current   | Advanced (4)  | Redux Toolkit, React Context       |
-| SignalR/WebSockets     |   8+  |   Current   | Advanced (4)  | Real-time scoring systems          |
+| SignalR/WebSockets/SSE |   8+  |   Current   | Advanced (4)  | Real-time scoring systems; Cadwell Mesa stream-ticket auth |
 | iCalendar / vCal (RFC 5545) |  3+  |   Current   | Proficient (3)| Eliassen SharedFramework calendaring|
 | vCard (RFC 6350)       |   3+  |   Current   | Proficient (3)| Eliassen SharedFramework contacts  |
 
@@ -691,7 +693,7 @@
 | CQRS/Event Sourcing             |   8+  |   Current   | Advanced (4)  | Itrica, GCA/Nucleus                           |
 | API Gateway Design              |  10+  |   Current   |   Expert (5)  | Custom implementations (Itrica, BMW, Eliassen)|
 | SOA/Enterprise Integration      |  15+  |   Current   |   Expert (5)  | Multi-system integration                      |
-| Delegating Handler / Middleware Pipeline | 8+ | Current | Advanced (4) | Cadwell Platform SDK; ASP.NET Core pipelines  |
+| Delegating Handler / Middleware Pipeline | 8+ | Current | Advanced (4) | Cadwell Mesa SDK; ASP.NET Core pipelines  |
 | Circuit Breaker / Bulkhead      |   8+  |   Current   | Advanced (4)  | Polly, Eliassen resilience framework          |
 
 ### Messaging & Event Streaming
@@ -714,15 +716,15 @@
 | Visual Studio                |  20+  |   Current   |   Expert (5)  | Extensions, advanced debugging            |
 | VS Code                      |   8+  |   Current   | Advanced (4)  | Extensions, remote development            |
 | WiX Installer (MSI/MSBuild)  |   2+  |   Current   | Proficient (3)| Cadwell medical device MSI packaging                    |
-| dotnet new Template Engine   |   5+  |   Current   | Advanced (4)  | Eliassen SharedFramework, Cadwell Platform scaffolding  |
+| dotnet new Template Engine   |   5+  |   Current   | Advanced (4)  | Eliassen SharedFramework, Cadwell Mesa scaffolding  |
 | MSBuild / SDK Project System |  10+  |   Current   | Advanced (4)  | Multi-targeting, build-shim projects, WiX integration   |
-| OpenTelemetry                |   3+  |   Current   | Advanced (4)  | Cadwell Platform auth metrics, Go module (Prometheus)   |
+| OpenTelemetry                |   3+  |   Current   | Advanced (4)  | Cadwell Mesa auth metrics, Go module (Prometheus)   |
 | Node.js                      |   5+  |   Current   | Proficient (3)| Platform diagnostic scripts, API tooling                |
 | ANTLR4                       |   5+  |    2025     | Advanced (4)  | Eliassen McClane DSL compiler (Java AST listener)       |
 | Liquid Templates             |   3+  |   Current   | Advanced (4)  | NSwag SDK generation (.NET, TypeScript, Python targets) |
 | Crontab / Scheduling Patterns|   5+  |   Current   | Advanced (4)  | Eliassen SharedFramework scheduler engine               |
 | Handlebars Templates         |   5+  |   Current   | Advanced (4)  | Green Onion (129 templates, 35 helpers), RebuildIt CLI  |
-| NSwag                        |   3+  |   Current   | Advanced (4)  | Cadwell Platform SDK gen; .NET/TS/Python targets        |
+| NSwag                        |   3+  |   Current   | Advanced (4)  | Cadwell Mesa SDK gen; .NET/TS/Python targets        |
 | SendGrid / Email APIs        |   5+  |    2025     | Proficient (3)| MARS messaging platform, Eliassen                      |
 | Twilio / SMS APIs            |   5+  |    2025     | Proficient (3)| MARS patient appointment reminders                     |
 
@@ -733,7 +735,7 @@
 | Unit Testing (MSTest/xUnit/NUnit)  |  15+  |   Current   |   Expert (5)  | TDD, test automation frameworks        |
 | Mocking (Moq)                      |  10+  |   Current   |   Expert (5)  | Custom mocking framework author        |
 | Integration Testing                |  15+  |   Current   |   Expert (5)  | API testing, E2E                       |
-| E2E Testing (process-level)        |   3+  |   Current   | Advanced (4)  | Cadwell Platform real-process auth E2E |
+| E2E Testing (process-level)        |   3+  |   Current   | Advanced (4)  | Cadwell Mesa real-process auth E2E |
 | Performance Testing                |  10+  |   Current   | Advanced (4)  | Benchmarking, optimization             |
 | Roslyn SDK / Static Analysis       |   2+  |   Current   | Advanced (4)  | Platform coding convention enforcement |
 | OpenAPI / Contract Validation      |   5+  |   Current   | Advanced (4)  | OpenApiValidator, NSwag, API drift gates|
@@ -742,11 +744,11 @@
 
 | Skill                             | Years |  Last Used  |     Level     | Evidence                                          |
 |:----------------------------------|:-----:|:-----------:|:-------------:|:--------------------------------------------------|
-| OAuth 2.0 / OIDC                  |   5+  |   Current   | Advanced (4)  | Cadwell Platform STS; RFC 6749/7523/8693          |
+| OAuth 2.0 / OIDC                  |   5+  |   Current   | Advanced (4)  | Cadwell Mesa STS; RFC 6749/7523/8693          |
 | JWT / RS256 / JWKS                |   5+  |   Current   | Advanced (4)  | Cadwell STS, Eliassen, Green Onion (Azure B2C)    |
-| DPoP (RFC 9449)                   |   1+  |   Current   | Proficient (3)| Cadwell Platform cross-service trust model        |
+| DPoP (RFC 9449)                   |   1+  |   Current   | Proficient (3)| Cadwell Mesa cross-service trust model        |
 | ASP.NET Core Auth / Claims        |  10+  |   Current   |   Expert (5)  | Claims-based identity, policy providers           |
-| FIPS 140-2                        |   1+  |   Current   | Proficient (3)| Cadwell Platform auth infrastructure              |
+| FIPS 140-2                        |   1+  |   Current   | Proficient (3)| Cadwell Mesa auth infrastructure              |
 | AsyncLocal / Async Context Patterns|  2+  |   Current   | Advanced (4)  | CadLink multi-user identity refactor              |
 | LDAP Protocol              |  10+  |   Current   | Advanced (4)  | Custom .NET LDAP server impl via RFC analysis; LifeTime connectors |
 | Active Directory / eDirectory |  15+ |  Current   | Advanced (4)  | Novell NetWare, enterprise auth, IAM connectors   |

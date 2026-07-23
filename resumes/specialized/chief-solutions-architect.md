@@ -49,20 +49,22 @@
 - Introduced `CadLinkApplicationInterface` hosting mode — an environment-variable-activated configuration that bypasses Windows session-based identity for service deployments, maintaining full backward compatibility with existing desktop and server modes
 - Built JWT-to-legacy-user bridge connecting Platform RS256 Cortex tokens to CadLink's existing `User` model, supporting GUID and display-name subject resolution with generic namespace-prefix normalization
 
-#### Cadwell Platform Service — Next-Generation Modular Runtime
-- Designed and delivered the platform's cross-service trust model (ADR-0018) — an OAuth 2.0/OIDC STS, deny-by-default permission attribute system with Roslyn build-time enforcement, and `ResponseMaskingMiddleware` for PHI-safe masked vs. unmasked API responses across distributed clinical Platform Services
+#### Cadwell Mesa — Next-Generation Modular Runtime
+- Designed and delivered the platform's cross-service trust model (ADR-0018) — an OAuth 2.0/OIDC STS, deny-by-default permission attribute system with Roslyn build-time enforcement, and `ResponseMaskingMiddleware` for PHI-safe masked vs. unmasked API responses across distributed distributed clinical Mesa services
 - Refactored platform KernelHost to full IoC/DI compliance and implemented contract-based HTTP endpoint mapping, eliminating service-locator anti-patterns across a process-separated medical device runtime
-- Bootstrapped Roslyn static analysis project enforcing platform coding conventions at compile time, shifting architectural compliance from code review to automated build gates
+- Expanded platform Roslyn static-analysis tooling from initial bootstrap to a production-grade enforcement suite — 12+ custom diagnostic analyzers with paired automated code-fix providers covering DI/IoC registration form, naming conventions, async-lock threading, member ordering, acronym casing, and module-layer reference boundaries — wired into a full git-hook gating pipeline (pre-commit, pre-push, post-merge) and Azure DevOps CI, automating platform coding-standard enforcement at commit, push, and build time
 - Extended hosting framework with .NET / .NET Framework multi-target support, enabling clinical module backward compatibility without separate build pipelines
 - Drove substantial platform repository contributions as a primary contributor, spanning host infrastructure, module pattern migration, TypeScript SDK alignment, and security architecture
 - Designed generic outbox abstraction with per-type DI-keyed routing, enabling pluggable event streaming backends without changing event-producer call sites
 - Built NSwag code-generation pipeline producing .NET Framework bridge module stubs from OpenAPI documents, with compile-time API contract parity enforcement between .NET and .NET Framework module hosts
-- Implemented full Cadwell Platform module in Go with OpenTelemetry tracing and Prometheus metrics, demonstrating the platform's language-agnostic contract-based module pattern
+- Implemented full Cadwell Mesa module in Go with OpenTelemetry tracing and Prometheus metrics, demonstrating the platform's language-agnostic contract-based module pattern
 - Created dotnet new scaffolding template generating a complete contract/implementation/test project set for platform modules, reducing new module bootstrap to a single CLI command
 - Extended NSwag to generate Python SDK via custom Liquid template overrides, adding Python as a first-class typed SDK target alongside .NET and TypeScript
 - Implemented DPoP proof-of-possession (RFC 9449) across the platform — server-side validation middleware and SDK proof generation — binding tokens to the caller's key pair and eliminating bearer-token replay attacks on clinical data access tokens
 - Engineered a transparent five-handler SDK pipeline (proactive token refresh with concurrent-request coalescing, auto claims-upgrade on insufficient_scope, DPoP proof generation, response signature verification, trace propagation) so SDK consumers inherit complete security guarantees with no auth boilerplate
 - Implemented refresh-token family rotation with reuse detection — presenting an invalidated token invalidates the entire family and forces re-authentication — alongside FIPS-mode enforcement via platform-abstracted Windows/Linux OS providers
+- Implemented SSE and WebSocket stream-ticket authentication — server-side ticket issuance and SDK-side transport — enabling authenticated long-lived streaming connections from any platform SDK consumer without per-request bearer tokens
+- Root-caused a thread-pool starvation deadlock hanging platform health checks via controlled binary A/B testing, then fixed the HTTP request-reuse defect the mitigation exposed; diagnosed an OpenAPI/NSwag codegen bug where dual content-type advertising caused generated SDK clients to mislabel token-exchange request bodies, fixed it at the contract layer, and verified correct behavior with an RFC 6749 wire-format compliance test suite driving real OAuth grant flows through the actual generated SDK
 
 ### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
 **Enterprise Innovation & Strategic Architecture Leadership**
