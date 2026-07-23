@@ -70,7 +70,7 @@
 - Built JWT-to-legacy-user bridge connecting Platform RS256 Cortex tokens to CadLink's existing `User` model, supporting GUID and display-name subject resolution with generic namespace-prefix normalization
 
 #### Cadwell Mesa — Next-Generation Modular Runtime
-- Designed and delivered the platform's cross-service trust model (ADR-0018) — an OAuth 2.0/OIDC STS, deny-by-default permission attribute system with Roslyn build-time enforcement, and `ResponseMaskingMiddleware` for PHI-safe masked vs. unmasked API responses across distributed distributed clinical Mesa services
+- Designed and delivered the platform's cross-service trust model — an OAuth 2.0/OIDC STS, deny-by-default permission attribute system with Roslyn build-time enforcement, and `ResponseMaskingMiddleware` for PHI-safe masked vs. unmasked API responses across distributed clinical Mesa services
 - Refactored platform KernelHost to full IoC/DI compliance and implemented contract-based HTTP endpoint mapping, eliminating service-locator anti-patterns across a process-separated medical device runtime
 - Expanded platform Roslyn static-analysis tooling from initial bootstrap to a production-grade enforcement suite — 12+ custom diagnostic analyzers with paired automated code-fix providers covering DI/IoC registration form, naming conventions, async-lock threading, member ordering, acronym casing, and module-layer reference boundaries — wired into a full git-hook gating pipeline (pre-commit, pre-push, post-merge) and Azure DevOps CI, automating platform coding-standard enforcement at commit, push, and build time
 - Extended hosting framework with .NET / .NET Framework multi-target support, enabling clinical module backward compatibility without separate build pipelines

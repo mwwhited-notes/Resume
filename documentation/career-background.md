@@ -1038,8 +1038,8 @@ Hierarchy of preference before writing custom code:
 - **Philosophy:** "The best custom code is the code you didn't have to write"
 
 **Career Evidence:**
-- **DPoP (RFC 9449) + Response Signing (RFC 9421) — Cadwell Platform:** Implemented proof-of-possession and tamper-evident responses using IETF RFCs rather than inventing proprietary token-binding schemes
-- **OAuth 2.0/OIDC STS — Cadwell Platform:** Built authentication server on established grant types (RFC 6749, RFC 7523, RFC 8693, RFC 9449) rather than a bespoke auth protocol
+- **DPoP (RFC 9449) + Response Signing (RFC 9421) — Cadwell Mesa:** Implemented proof-of-possession and tamper-evident responses using IETF RFCs rather than inventing proprietary token-binding schemes
+- **OAuth 2.0/OIDC STS — Cadwell Mesa:** Built authentication server on established grant types (RFC 6749, RFC 7523, RFC 8693, RFC 9449) rather than a bespoke auth protocol
 - **OpenTelemetry + Prometheus:** Adopted CNCF observability standards rather than proprietary monitoring instrumentation
 - **NSwag + OpenAPI:** Leveraged existing toolchain for SDK code generation rather than building generators from scratch
 - **LDAP RFC compliance — Itrica/LifeTime:** Deep RFC study before implementation to ensure standards compliance and interoperability with existing LDAP client applications
