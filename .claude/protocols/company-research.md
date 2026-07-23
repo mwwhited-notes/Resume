@@ -35,7 +35,9 @@ Execute these searches in parallel:
 **Query:** `"[Company Name]" business model revenue strategy funding industry sector`
 **Focus Areas:**
 - **PRIMARY INDUSTRY CLASSIFICATION** (critical for exclusion verification)
-- **PRIVATE EQUITY OWNERSHIP CHECK:** Confirm company is publicly traded OR founder/employee/institutional-investor owned. If majority-owned or board-controlled by a PE firm (KKR, Blackstone, Apollo, Carlyle, Bain, Vista, Francisco, Thoma Bravo, Silver Lake, TPG, Warburg Pincus, etc.) → exclude immediately.
+- **PRIVATE EQUITY / VC OWNERSHIP CHECK:** Confirm company is publicly traded OR founder/employee/nonprofit/health-system owned. If majority-owned by PE or VC-backed → exclude immediately.
+  - Check order: (1) company "About/Investors" or "Partners" page via WebFetch; (2) news search for funding rounds, LBO, or acquisition; (3) Crunchbase at `crunchbase.com/organization/[company]` — attempts WebFetch but blocks with 403; (4) **PitchBook — subscription-only, also returns 403 on WebFetch**. If all automated checks are inconclusive, flag explicitly for manual user verification — do NOT assume approved.
+  - **EXISTENCE CHECK FIRST:** Before any other research, fetch the company's primary domain. If it is parked, for sale, or returns no content — stop immediately and reject the position. Cannot research or apply to a company whose existence cannot be confirmed.
 - Core products/services and value proposition
 - Revenue model and pricing structure
 - Market position and competitive landscape

@@ -312,9 +312,7 @@ Create detailed analysis files for each platform including:
 - `SearchResults/Jobs/glassdoor.md` - Glassdoor Jobs platform analysis (company insights + salaries)
 - `SearchResults/Jobs/monster.md` - Monster.com platform analysis (broad coverage)
 - `SearchResults/Jobs/executive-recruiters.md` - Executive recruiting firms analysis
-- `SearchResults/Jobs/ai-ml-job-boards.md` - AI/ML specialized platforms analysis
 - `SearchResults/Jobs/consulting-firms.md` - Major consulting and Fortune 500 analysis
-- `SearchResults/Jobs/startup-platforms.md` - Startup and equity-focused platforms analysis
 - `SearchResults/Jobs/remote-job-boards.md` - Remote-specific job boards analysis
 - `SearchResults/Jobs/contractor-platforms.md` - Contractor and freelance platforms analysis
 
@@ -398,14 +396,13 @@ Execute searches and create individual files for:
 - `SearchResults/Jobs/linkedin.md`
 - `SearchResults/Jobs/indeed.md`
 - `SearchResults/Jobs/consulting-firms.md`
-- `SearchResults/Jobs/ai-ml-job-boards.md`
 - `SearchResults/Jobs/fortune-500-tech.md`
-- `SearchResults/Jobs/startup-platforms.md`
 
 ### Step 4: Dynamic Platform Discovery
 During search execution, identify additional relevant platforms:
 
 #### 2025 Additional Platforms Discovered
+- **Teamblind Jobs:** https://www.teamblind.com/jobs/ - Job board from anonymous employee review platform; listings often include WLB context from verified employees
 - **Built In:** https://builtin.com/jobs/remote - Tech jobs with new positions daily from top companies & startups
 - **RemoteOK:** https://remoteok.com/ - 1M+ remote jobs, salary transparency (#OpenSalaries)
 - **FlexJobs:** https://www.flexjobs.com/ - 66K+ Solutions Architect jobs, 68K+ Data Architect jobs
@@ -470,9 +467,7 @@ The comprehensive summary **MUST** be built from these individual platform files
 - `SearchResults/Jobs/linkedin.md` - LinkedIn search results and analysis
 - `SearchResults/Jobs/indeed.md` - Indeed and major job boards analysis
 - `SearchResults/Jobs/consulting-firms.md` - Strategic consulting firms research  
-- `SearchResults/Jobs/ai-ml-job-boards.md` - AI/ML specialized platforms
 - `SearchResults/Jobs/fortune-500-tech.md` - Major tech company opportunities
-- `SearchResults/Jobs/startup-platforms.md` - Startup ecosystem research
 
 **Output File:** `SearchResults/Jobs/comprehensive-job-search-[YYYYMMDD].md`
 

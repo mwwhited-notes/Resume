@@ -9,12 +9,14 @@ Analyze individual job postings provided by URL to determine fit quality and aut
 1. **URL Fetch and Analysis**
    - Use WebFetch to retrieve job posting content from provided URL
    - **CRITICAL:** Verify position is still open/active - if closed or expired, immediately report status and stop analysis
+   - **COMPANY EXISTENCE CHECK:** Fetch the company's primary website. If the domain is parked, for sale, or returns no content — reject immediately. Cannot apply to a company whose existence cannot be confirmed.
    - Extract key position details: company name, job title, location, compensation
    - Identify technical requirements, experience levels, and key responsibilities
    - Note application process details and timeline requirements
    - **LOCATION AUTO-REJECT:** If the posting requires in-office attendance or hybrid schedule (any days on-site), reject immediately — 100% remote is required. "Hybrid" = reject regardless of frequency.
+   - **REMOTE VERIFICATION:** For any role claiming to be remote, verify via: (1) job posting explicit language ("work remotely from anywhere in the U.S." = confirmed), (2) company careers page / remote work policy, (3) Glassdoor or Blind — **note: both block WebFetch with 403 and require manual login**. **If remote status cannot be confirmed through accessible sources — assume in-office or hybrid and reject. Do not give benefit of the doubt. Do not ask the user to verify.**
    - **NIGHT/WEEKEND AUTO-REJECT:** If the posting requires scheduled night shifts, recurring weekend on-call, or explicitly states after-hours work as a normal expectation, reject immediately.
-   - **UNLIMITED VACATION FLAG:** If "unlimited vacation" or "unlimited PTO" is listed as a benefit, flag as a red flag in the analysis. Do not auto-reject, but note it clearly — industry data shows employees take less time off under unlimited PTO than defined accrual.
+   - **UNLIMITED VACATION AUTO-REJECT:** If "unlimited vacation" or "unlimited PTO" is listed as a benefit, reject immediately. Industry data shows employees take less time off under unlimited PTO than defined accrual — it is a cost-cutting benefit disguised as flexibility.
 
 2. **MANDATORY EXCLUSION VERIFICATION** (UPDATED January 2026)
    - **CRITICAL:** Check company against `./SearchResults/excluded-companies.md` BEFORE proceeding with analysis
@@ -23,7 +25,12 @@ Analyze individual job postings provided by URL to determine fit quality and aut
    - **Board Alignment Check:** Verify no board members or executives are aligned with DOGE/Trump/MAGA PACs
    - **If company is excluded:** Immediately stop analysis and report: "This company is on the exclusion list due to [specific reason: industry/investor association/company exclusion/DOGE/Trump board alignment]. Analysis cannot proceed."
    - **Verify investor associations:** Check against investor exclusions in `./SearchResults/excluded-companies.md`
-   - **PRIVATE EQUITY CHECK:** Verify company is not majority-owned or board-controlled by a PE firm. Check Crunchbase, company investor page, or news for LBO/going-private transactions. PE-owned = reject immediately. Publicly traded companies with minor PE stakes are acceptable.
+   - **PRIVATE EQUITY / VC CHECK:** Verify company ownership structure. Use in order:
+     1. **Crunchbase** (`crunchbase.com/organization/[company]`) — free, WebFetch accessible, shows investors and funding rounds
+     2. **Company "About" / "Investors" page** — often discloses backers directly
+     3. **News search** — `"[Company]" funding OR "series A" OR "private equity" OR "acquired by"`
+     4. **PitchBook** — subscription-only, returns 403 on WebFetch; requires user to check manually at pitchbook.com
+     - PE majority ownership = reject immediately. VC-backed = reject (startup exclusion). Publicly traded = acceptable. Nonprofit / health-system / founder-owned = acceptable.
    - **Verify company exclusions:** Check against specific company exclusions in `./SearchResults/excluded-companies.md`
    - **Verify DOGE/Trump/MAGA alignment:** Check board composition against `./SearchResults/doge-trump-maga-alignment-exclusions.md`
    - **Only proceed if company is approved:** Continue with company intelligence phase
