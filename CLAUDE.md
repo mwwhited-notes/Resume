@@ -117,7 +117,8 @@
 
 ## User Preferences - CRITICAL
 - **Work Location:** 100% REMOTE ONLY (unless Baltimore MD metro area)
-- **Compensation:** $180K+ salary OR $85+/hour minimum
+- **Compensation:** $192K+ salary minimum (= 20% above $160K current Cadwell salary)
+- **Employment Type:** Full-time only (passive search) — contract/hourly currently NOT being considered
 - **Travel:** Up to 25% acceptable
 - **Security Clearance:** NOT interested
 - **Architecture Role Flexibility:** Programming language less critical - comfortable with Go, Java, Python, C#/.NET
