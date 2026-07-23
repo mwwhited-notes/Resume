@@ -13,6 +13,19 @@ This protocol provides a systematic approach to conducting comprehensive job sea
 - `target-companies.md` - Companies to target by category
 - `job-platforms.md` - Job search platforms to use
 
+## Protocol Chaining Overview — CRITICAL
+
+**This protocol does not run in isolation.** Ad hoc web-search scoring cannot reliably confirm exclusion status, company existence, Glassdoor/Blind culture signals, or whether a posting is actually still live — only `company-research.md` and `position-fit-analysis.md` do that. This protocol therefore **automatically chains** into those protocols as part of normal execution, not as a separate step the user must request:
+
+| After this protocol does... | It automatically triggers... | Why |
+|:-----------------------------|:------------------------------|:----|
+| Discovers a candidate opportunity that survives keyword/salary/location screening | `company-research.md` (if no fresh analysis exists for that company) | Only company-research.md verifies exclusion status, PE/VC ownership, and WLB/culture signals with real rigor |
+| Has a company-approved candidate opportunity with a URL | `position-fit-analysis.md` (single URL) or `batch-position-analysis.md` (multiple URLs from the same run) | Only these protocols verify the posting is live, confirm remote status, and produce an authoritative composite fit score |
+| Adds an opportunity to `apply-next.md` with High Priority/Top Target status | `targeted-application.md` — but resuming at **Phase 3 (Company Research Execution)**, not Phase 1 | Phase 1 of targeted-application.md re-runs this same job search — skip it to avoid redundant re-searching; company research and position analysis are already complete by this point |
+| Processes a rejection notification | `rejection-handling.md` | That protocol is the authoritative decision tree for duplicate/withdrawn/archive handling — do not reimplement its logic inline |
+
+See **Step 4.5** below for exactly how and when this chaining executes during a search.
+
 ## When to Execute This Protocol
 - Quarterly job market assessment
 - When considering career transitions
@@ -433,6 +446,53 @@ When new relevant platforms are discovered:
 3. Define search terms specific to platform audience
 4. Create new SearchResults/Jobs file for platform analysis
 
+### Step 4.5: Automatic Deep-Dive Verification (Company Research + Position Fit Analysis)
+
+**MANDATORY — do not skip.** Before any opportunity is ranked (Step 5) or added to apply-next.md (Step 6), it must pass through the two verification protocols below. This replaces ad hoc scoring with authoritative, protocol-driven analysis.
+
+#### 4.5.1: Build the Candidate List
+From all platform files created in Steps 1-4, compile the list of opportunities that:
+- Pass keyword/title relevance to `job-roles.md`
+- Have a disclosed salary with a ceiling at or above the minimum in CLAUDE.md
+- Are not an exact duplicate of an entry already in `applied-to.md` or `closed-archive.md` within the reapplication window
+- Are not already excluded by company/industry name alone (obvious cases — Meta, Amazon, known crypto/fintech firms, etc.)
+
+Anything failing these cheap checks is rejected now, before spending protocol cycles on deep verification.
+
+#### 4.5.2: Chain to Company Research
+For each **distinct company** remaining on the candidate list:
+1. **Check for existing analysis first:** look for `./SearchResults/Companies/{CompanyName}_*.md` dated within the last 90 days. If found and still relevant, reuse it — do not re-run research on a company already vetted this quarter.
+2. **If no fresh analysis exists:** execute
+   ```
+   read protocols/company-research.md and follow the protocol step-by-step
+   ```
+   for that company. This is what actually confirms exclusion status (industry/investor/PE-VC/DOGE-alignment), company existence, and Glassdoor/Blind culture signals — none of which ad hoc WebSearch snippets can reliably establish.
+3. **If the company comes back EXCLUDED:** drop every opportunity at that company from the candidate list immediately — do not proceed to position analysis for it.
+
+#### 4.5.3: Chain to Position Fit Analysis
+For each surviving opportunity (company-approved):
+- **Single opportunity for a company:** execute
+  ```
+  read protocols/position-fit-analysis.md and execute all steps
+  ```
+  against that job URL.
+- **Multiple qualifying opportunities discovered in this same search run:** prefer
+  ```
+  read protocols/batch-position-analysis.md and execute all steps
+  ```
+  to process them together — it applies the same per-URL verification (live posting, remote confirmation, salary confirmation, composite scoring) but runs company research and position analysis for the whole batch efficiently instead of one at a time, and will call company research itself for any company not already covered in 4.5.2.
+
+Either path produces:
+- `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md` with the authoritative composite fit score
+- `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md` if not already produced in 4.5.2
+
+**Do not substitute an eyeballed/estimated fit score for the composite score these protocols produce.** Liveness verification is `position-fit-analysis.md`'s job, not this protocol's — but the outcome flows straight through: if that protocol's Link Liveness Verification (Phase 1) could not resolve a posting to confirmed-active (after retrying alternate URLs, date-mathing snippet dates, and cross-checking mirrors — see that protocol for the full sequence), do **not** add it to `apply-next.md`'s active pipeline regardless of composite score. Log it as **Monitor Only** instead. A single blocked WebFetch attempt, on its own, is never sufficient grounds to hand liveness verification off to the user.
+
+#### 4.5.4: Carry Results Forward
+Use the verified composite scores and exclusion outcomes from 4.5.2/4.5.3 — not independent judgment — when building the Tier tables in Step 5 and the apply-next.md entries in Step 6.
+
+---
+
 ## Application Status Integration
 
 ### Application History Cross-Reference
@@ -529,14 +589,15 @@ Include in summary:
 **MANDATORY:** All high-quality opportunities identified during job search must be added to apply-next.md for systematic tracking and decision-making.
 
 #### Add Jobs to Apply-Next.md Process
-For each verified active opportunity with fit score ≥7.0/10:
+For each opportunity that completed **Step 4.5** with a composite fit score ≥7.0/10 from `position-fit-analysis.md` or `batch-position-analysis.md`:
 
 1. **Update Apply-Next.md Entry:**
    ```markdown
    | # | URL | Company | Position | Match Score | Status | Application Materials | Notes |
    |---|-----|---------|----------|-------------|--------|---------------------|-------|
-   | X | [job-url](verified-active-url) | Company Name | Position Title | X.X/10 | 🔍 Possible Match | - | Platform: [source], Salary: [range], Verified: [date] |
+   | X | [job-url](verified-active-url) | Company Name | Position Title | X.X/10 | 🔍 Possible Match | - | Platform: [source], Salary: [range], Verified: [date], [Position Analysis](../Jobs/Position_Analysis_{Company}_{date}.md), [Company Research](../Companies/{Company}_{date}.md) |
    ```
+   The Match Score is the composite score from the Position Analysis document — link both source documents so the score is traceable back to its authoritative source, not restated from memory.
 
 2. **Status Classification for Apply-Next.md:**
    - **🔍 Possible Match:** Initial discovery, fit score 7.0-7.9/10
@@ -559,10 +620,11 @@ For each verified active opportunity with fit score ≥7.0/10:
 #### Targeted Application Auto-Execution
 When jobs are added to apply-next.md with status "⭐ High Priority" or "🎯 Top Target":
 
-1. **Execute Targeted Application Protocol:** 
+1. **Execute Targeted Application Protocol — starting at Phase 3, not Phase 1:**
    ```
-   read protocols/targeted-application.md and execute all steps
+   read protocols/targeted-application.md and execute Phase 3 (Company Research Execution) onward
    ```
+   **Do not re-run Phase 1** (Job Search Execution) — this protocol's own Step 4.5 has already produced the job search, company research, and position-fit-analysis output that Phase 1 would otherwise redo from scratch. Company research from Step 4.5.2 already satisfies targeted-application.md's Phase 3 requirement — reuse the existing `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md` file rather than regenerating it.
 
 2. **Focus on Top Opportunities:**
    - Prioritize fit scores 9.0+/10 for immediate execution
@@ -598,31 +660,11 @@ When jobs are added to apply-next.md with status "⭐ High Priority" or "🎯 To
 - **Status Synchronization:** Keep apply-next.md and applied-to.md synchronized
 
 ### Step 9: Rejection Notification Handling
-**EFFICIENCY PROTOCOL:** Handle rejection notifications without unnecessary file updates
-
-#### Rejection Processing Workflow
-1. **Initial Status Check:**
-   ```bash
-   # Search closed archive for company and position
-   grep -i "company_name.*position_title" ./SearchResults/closed-archive.md
-   ```
-
-2. **Action Decision Tree:**
-   - **Already Rejected → NO ACTION:** If position shows "Rejected" status, ignore duplicate notification
-   - **Status is "Withdrawn" → UPDATE:** Change status from "Withdrawn" to "Rejected" with date
-   - **Not in Archive → MOVE:** Check applied-to.md and move to closed-archive.md
-
-3. **Duplicate Rejection Prevention:**
-   - Companies send multiple rejection emails (automated + recruiter + system updates)
-   - Only process first rejection notification
-   - Subsequent rejections for same position require no action
-   - Maintains clean tracking without redundant updates
-
-#### Common Duplicate Scenarios
-- **ATS Auto-Rejection** followed by recruiter courtesy email
-- **Position filled notification** after initial rejection
-- **Quarterly cleanup emails** for old applications
-- **Multiple system notifications** from same company
+**Delegate — do not reimplement:** execute
+```
+read protocols/rejection-handling.md and follow the protocol step-by-step
+```
+That protocol is the authoritative decision tree for duplicate/withdrawn/archive-move handling, including the duplicate-rejection patterns (ATS auto-rejection + recruiter courtesy email, quarterly cleanup batches, etc.). Keeping the logic in one place means updates to rejection handling don't have to be copied across protocols.
 
 ## Success Metrics
 
@@ -694,8 +736,8 @@ When jobs are added to apply-next.md with status "⭐ High Priority" or "🎯 To
 
 ---
 
-**Last Updated:** 2025-12-25
-**Next Scheduled Review:** 2026-03-25
-**Protocol Version:** 2.0 - Made protocol reusable and generic; all user-specific content now references source documents (master-resume.md, CLAUDE.md, excluded-companies.md)
+**Last Updated:** 2026-07-23
+**Next Scheduled Review:** 2026-10-23
+**Protocol Version:** 2.2 - v2.1 added Step 4.5 (Automatic Deep-Dive Verification): job discovery now automatically chains into company-research.md and position-fit-analysis.md/batch-position-analysis.md before ranking or apply-next.md entry, instead of requiring the user to separately request company research or fit analysis. Step 7 now resumes targeted-application.md at Phase 3 to avoid redundantly re-running the job search. Step 9 now delegates to rejection-handling.md instead of duplicating its logic inline. v2.2 (same day): a real search batch showed 3/3 "unverified, manual check needed" postings were actually dead when the user checked by hand — closed that gap by requiring position-fit-analysis.md to exhaust its own Link Liveness Verification sequence before ever handing an unresolved posting to the user, and by keeping unresolved postings out of apply-next.md's active pipeline entirely (Monitor Only instead).
 
 *This protocol is designed to be reusable for any job seeker. All job titles, compensation requirements, exclusions, and preferences should be derived from the user's master resume (resumes/master-resume.md), CLAUDE.md configuration, and exclusion list (SearchResults/excluded-companies.md). Execute systematically using TodoWrite to track progress through each category and platform. The goal is creating a comprehensive market analysis that enables strategic career decision-making based on data-driven insights and competitive positioning.*

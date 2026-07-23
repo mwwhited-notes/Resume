@@ -9,6 +9,11 @@ Analyze individual job postings provided by URL to determine fit quality and aut
 1. **URL Fetch and Analysis**
    - Use WebFetch to retrieve job posting content from provided URL
    - **CRITICAL:** Verify position is still open/active - if closed or expired, immediately report status and stop analysis
+   - **LINK LIVENESS VERIFICATION — MANDATORY, DO IT YOURSELF, DO NOT DEFER TO THE USER:** A single blocked/JS-rendered WebFetch response is NOT sufficient grounds to label a posting "unverified, manual check needed." Before reaching that fallback, actually attempt to confirm liveness:
+     1. **Retry with an alternate URL:** if the original link is an aggregator mirror (Glassdoor, Ladders, Lensa, BeBee, RemoteRocketship, etc.), WebFetch the company's own direct careers-portal page for the same req ID/title instead — direct employer ATS pages (Workday, Greenhouse, etc.) are sometimes fetchable even when the aggregator wrapper isn't.
+     2. **Date-math the snippet itself before fetching anything:** WebSearch result snippets frequently include an explicit posted date ("posted March 2026"), an application deadline ("available until 6/7/2026"), or a relative age ("posted 5 months ago"). Compare that date against today's date arithmetically. If a stated deadline has already passed, or a posted date is >45 days old with no independent evidence of a repost, **treat the posting as EXPIRED now** — do not wait for a fetch attempt or a user click to confirm what the date already proves.
+     3. **Cross-check multiple independent sources:** if two or more aggregator listings (e.g., Glassdoor + Lensa + BeBee) all reference the identical req ID/title/salary with no fresher variant found, that repetition is itself a staleness signal (aggregators re-index the same cached listing for months) — do not treat "found on multiple sites" as corroboration of freshness.
+     4. **Only after 1-3 fail to resolve the question** may a posting be logged as "liveness unconfirmed" — and even then, it must NOT be added to `apply-next.md`'s active pipeline as a Possible Match/High Priority/Top Target. Log it as **Monitor Only** (outside the active pipeline) until a direct fetch or an explicit fresh date resolves it. A high composite fit score never overrides an unresolved liveness question.
    - **COMPANY EXISTENCE CHECK:** Fetch the company's primary website. If the domain is parked, for sale, or returns no content — reject immediately. Cannot apply to a company whose existence cannot be confirmed.
    - Extract key position details: company name, job title, location, compensation
    - Identify technical requirements, experience levels, and key responsibilities
@@ -95,6 +100,7 @@ Exclude immediately if ANY of these apply:
 - **Competition Level:** Estimated applicant volume and competition
 - **Network Connections:** Existing connections or warm introduction opportunities
 - **Hiring Timeline:** Urgency and timeline compatibility
+- **Liveness confirmed?** If Phase 1's Link Liveness Verification could not resolve to a confirmed-active status after all steps (retry alternate URL, date-math, cross-check), cap this sub-score at 2/10 regardless of how the other factors look — an unconfirmed posting is not "accessible," it may not exist to apply to at all.
 
 ### Phase 3: Scoring and Decision Matrix
 
