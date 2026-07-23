@@ -226,6 +226,7 @@
 - Sensor integration and calibration
 - Power management and optimization
 - Hardware-software co-design
+- RF/SDR (software-defined radio) experimentation
 
 ## Training & Knowledge Transfer
 - Technical curriculum development

@@ -483,6 +483,7 @@
 - **ContainerStore AI Infrastructure:** Designed GPU-aware Docker Compose orchestration with 20+ pre-configured services (Ollama LLM, SBERT, Qdrant, Keycloak) with CUDA acceleration for hands-on AI/ML training
 - **RebuildIt Code Generator:** Built LLM-powered CLI using Ollama and Handlebars templating for automated test generation and cross-framework migrations as practical AI tooling example
 - **Training Impact:** Provided hands-on learning environment for developers to explore enterprise architecture patterns, AI/ML integration, and modern DevOps practices
+- **Lasting Community Legacy:** Program spawned an independent public mentorship community ([Discord](https://discord.gg/dyj84PZKvh)) that continues to operate beyond the original internal initiative, demonstrating durable impact on developer growth
 
 #### Business Impact & Technical Excellence
 - **Leadership Roles:** Centers of Excellence Lead for .Net, Sales Enablement Engineer, Pre-Sales Technical Lead, Full-time Solutions Architect
@@ -1264,6 +1265,7 @@
 - **Junior Developer Mentorship:** Structured programs for skill development
 - **Architecture Guidance:** Leading architectural decisions and design reviews
 - **Best Practices:** Training teams on patterns, practices, and quality standards
+- **Community Mentorship (Discord):** Founded and run a public developer mentorship [Discord community](https://discord.gg/dyj84PZKvh), a spinoff of the Eliassen "Choose Your Own Adventure" training program extending mentorship beyond a single employer
 
 ### Sales & Business Development
 **Technical expertise supporting business growth**
@@ -1333,6 +1335,7 @@
   - **BinaryDataDecoders Migration:** Flagship framework transitioning from github.com/mwwhited/BinaryDataDecoders (archived 1/11/2026) to [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex) for unified architecture
 - **Stack Overflow:** [22,510+ reputation](http://stackoverflow.com/users/89586/matthew-whited) - 606+ solutions, 4.7M user reach, C# Gold Badge
 - **NPM:** [npmjs.com/~mwwhited](https://www.npmjs.com/~mwwhited) - Node.js contributions
+- **Discord:** [Developer mentorship community](https://discord.gg/dyj84PZKvh) - Spinoff of the Eliassen "Choose Your Own Adventure" training program, providing ongoing public mentorship
 
 ### Professional Networks
 - **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/) - Professional networking
