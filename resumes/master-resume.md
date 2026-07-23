@@ -619,6 +619,7 @@
 | Assembly (Various)          |  10+  |   Current   | Proficient (3)| 6800, AVR, custom CPU             |
 | PCB Design (KiCad/Eagle)    |  10+  |   Current   | Advanced (4)  | 25+ PCB designs                   |
 | Electronics/Circuit Design  |  25+  |   Current   |   Expert (5)  | Certified Electronics Technician  |
+| RF / SDR (Software-Defined Radio) | 1+ | Current | Familiar (2)  | RTL-SDR, GNU Radio, passive radar research |
 
 ### Databases & Data
 
@@ -1051,6 +1052,13 @@
 - **Custom Licensing:** MIT NON-AI license demonstrating legal/ethical AI awareness
 - **Microservices:** Health monitoring, OpenAPI compatibility, enterprise deployment
 
+#### Synchronized Telemetry Streaming Research (Protocol & Standards Architecture)
+**Repository:** [shared/projects/synchronized-telemetry-streaming-research](https://github.com/mwwhited-notes/shared/tree/main/projects/synchronized-telemetry-streaming-research)
+- **Standards Depth:** Comprehensive research catalog of 40+ RFCs, IEEE standards, and CNCF specifications covering real-time streaming protocols (RTSP 2.0, RTP/RTCP), multi-stream synchronization, and cloud-native event formats (CloudEvents)
+- **Distributed Architecture Patterns:** P2P design principles from BitTorrent v2, ALTO protocol for network telemetry, out-of-order blob transfer techniques (RaptorQ/RFC 6330, FECFRAME, QUIC, SCTP)
+- **Deliverables:** 100+ implementation resources indexed, quick-start guides for 4 common streaming scenarios, downloaded primary standards documents for reference
+- **Application:** Demonstrates protocol-first architecture methodology applicable to distributed telemetry, IoT data pipelines, and multi-source real-time systems
+
 ### Enterprise Framework Architecture (EXCEPTIONAL Innovation)
 **Comprehensive .NET framework ecosystem with AI integration**
 
@@ -1202,7 +1210,9 @@
 
 **Photography & Astrophotography:** Serious photography hobbyist with professional-grade equipment including Nikon D800 FX full-frame DSLR and Nikon F6 35mm film camera. Specialized in astrophotography using Sky-Watcher Star Adventurer 2i motorized star tracker for deep-sky imaging. Complete film workflow including darkroom processing (Paterson Universal developing tank) and high-resolution scanning (Epson Perfection V850 Pro 6400 dpi scanner). Color calibration using X-Rite i1 Display Pro and ColorChecker Passport for accurate digital reproduction.
 
-**Electronics & PCB Design:** Active electronics maker with professional-grade workshop including Hantek DSO5202P 200 MHz oscilloscope, HP 34401A 6½ digit DMM, DE-5000 LCR meter, FLIR E4 thermal camera, and AmScope SM-4TZ stereo microscope for SMD work. Full surface-mount rework capabilities with KSGER T12 soldering station, YaeCCC 858D hot air, and Hakko FR-301 desoldering gun. Custom PCB design using KiCad with custom symbol and footprint libraries - designed and fabricated multiple production boards including RS-485 camera control interfaces (lanc2rs485), audio recorder control (h4n2rs485), and analog computer modules (ComdynaGP6 power supplies). Maintains extensive component stock ready for rapid prototyping.
+**Electronics & PCB Design:** Active electronics maker with professional-grade workshop including Tektronix TDS2024 200 MHz oscilloscope, HP 34401A 6½ digit DMM, DE-5000 LCR meter, FLIR TG130 thermal camera, and AmScope SM-3 stereo microscope for SMD work. Full surface-mount rework capabilities with KSGER T12 soldering station, YaeCCC 858D hot air, and Hakko FR-301 desoldering gun. Custom PCB design using KiCad with custom symbol and footprint libraries - designed and fabricated multiple production boards including RS-485 camera control interfaces (lanc2rs485), audio recorder control (h4n2rs485), and analog computer modules (ComdynaGP6 power supplies). Maintains extensive component stock ready for rapid prototyping.
+
+**RF & Software-Defined Radio:** Hands-on SDR experimentation using an RTL-SDR Blog V4 receiver (500 kHz - 1766 MHz) for spectrum analysis, ADS-B aircraft tracking, and weather satellite reception. Currently developing a passive radar system using GNU Radio and the KrakenSDR passive radar toolkit, applying bistatic radar principles to detect aircraft and vehicles using existing RF illuminators (FM radio, TV broadcast, cellular towers) without transmitting.
 
 **Vintage Computing Preservation:** Collector and restorer of 1980s vintage computers including Apple IIc (1984, 65C02), Apple IIgs (1986, 65C816), and TI-99/4A (1981, TMS9900). Modern preservation equipment includes Floppy Emu SD card-based floppy emulator for Apple II systems and Greaseweazle V4.1 USB floppy controller for disk imaging and preservation. Maintains period-appropriate development tools including cc65 C compiler for 6502, Merlin32 assembler for 65816, and xdt99 TI-99/4A cross-development tools. Active in vintage computing community preserving software and documenting hardware.
 
