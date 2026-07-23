@@ -172,10 +172,37 @@ Append to `./SearchResults/External/integration-log.md`:
 - Should include quantifiable result when possible
 - Must be verifiable from audit data
 
+### CRITICAL: Prohibited Content in Resume Bullets
+
+**❌ NEVER include internal identifiers in resumes:**
+- Internal design/architecture document numbers (ADR-XXXX, work item numbers, ticket IDs, PR numbers)
+- Internal class or component names (e.g., `ResponseMaskingMiddleware`, `CadLinkApplicationInterface`, `IOutbox<T>`, `KernelHost`, `CortexAuth`, `Cortex` as a product/component code name)
+- Internal interface, module, or type names unique to the employer's private codebase
+- Internal branch names, build tags, or deployment identifiers
+
+**✅ INSTEAD use descriptive language:**
+- Replace class names with what the class DOES: "response-masking middleware" instead of `ResponseMaskingMiddleware`
+- Replace interface names with the pattern: "a generic outbox abstraction" instead of `IOutbox<T>`
+- Replace internal component names with their function: "the platform microkernel host" instead of `KernelHost`
+- Remove all "(ADR-XXXX)" references — they expose internal design processes
+
+**Exceptions — public/standard names are fine:**
+- Public .NET BCL classes (`AsyncLocal<T>`, `IServiceCollection`, `HttpClient`, etc.)
+- Well-known open source library types (`ILogger`, `DbContext`, etc.)
+- Standard protocol/framework names (OAuth2, OIDC, DPoP, etc.)
+
+### Parallel Audit Files (Same Repository)
+When multiple audit files cover the same repository from different branches/views:
+- Synthesize all files into a single coherent contribution narrative
+- The most comprehensive file is authoritative for scope/metrics
+- Do not create duplicate bullets — identify the union of new content
+- Note in the integration log that files were parallel views of the same project
+
 ### Metric Accuracy
 - Do not inflate numbers beyond audit documentation
 - Round appropriately (thousands to "K+", etc.)
 - Note source of metrics in integration log
+- **NEVER include private metrics in resumes:** commit counts, PR counts, lines of code, file counts, or contribution percentages from company/private repositories
 
 ### Innovation Claims
 - EXCEPTIONAL: Novel solutions, first-of-kind implementations
@@ -222,6 +249,7 @@ If audit contains content already in resume:
 
 ---
 
-**Protocol Version:** 1.0
+**Protocol Version:** 1.1
 **Created:** December 24, 2025
+**Updated:** July 23, 2026 — Added prohibited content rules (internal identifiers, class names, design numbers), parallel-audit synthesis guidance, and private metrics policy
 **Related:** `protocols/private-repo-audit-prompt.md`

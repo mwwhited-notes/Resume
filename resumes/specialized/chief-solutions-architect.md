@@ -46,12 +46,12 @@
 - Removed ZIP export size limit, unblocking large-scale patient data migration and export workflows
 - Implemented role-based permissions on user management operations, improving security posture in a HIPAA-regulated environment
 - Refactored CadLink's process-global identity model for concurrent multi-user hosting using `AsyncLocal<T>`-backed ambient user scopes with scoped disposal, enabling the Platform bridge module to serve multiple simultaneous authenticated users without per-user process isolation
-- Introduced `CadLinkApplicationInterface` hosting mode — an environment-variable-activated configuration that bypasses Windows session-based identity for service deployments, maintaining full backward compatibility with existing desktop and server modes
-- Built JWT-to-legacy-user bridge connecting Platform RS256 Cortex tokens to CadLink's existing `User` model, supporting GUID and display-name subject resolution with generic namespace-prefix normalization
+- Introduced an environment-variable-activated service hosting mode that bypasses Windows session-based identity for deployments, maintaining full backward compatibility with existing desktop and server modes
+- Built JWT-to-legacy-user bridge connecting platform-issued RS256 tokens to CadLink's existing user model, supporting GUID and display-name subject resolution with generic namespace-prefix normalization
 
 #### Cadwell Mesa — Next-Generation Modular Runtime
-- Designed and delivered the platform's cross-service trust model — an OAuth 2.0/OIDC STS, deny-by-default permission attribute system with Roslyn build-time enforcement, and `ResponseMaskingMiddleware` for PHI-safe masked vs. unmasked API responses across distributed clinical Mesa services
-- Refactored platform KernelHost to full IoC/DI compliance and implemented contract-based HTTP endpoint mapping, eliminating service-locator anti-patterns across a process-separated medical device runtime
+- Designed and delivered the platform's cross-service trust model — an OAuth 2.0/OIDC STS, deny-by-default permission attribute system with Roslyn build-time enforcement, and response-masking middleware for PHI-safe masked vs. unmasked API responses across distributed clinical Mesa services
+- Refactored platform microkernel host to full IoC/DI compliance and implemented contract-based HTTP endpoint mapping, eliminating service-locator anti-patterns across a process-separated medical device runtime
 - Expanded platform Roslyn static-analysis tooling from initial bootstrap to a production-grade enforcement suite — 12+ custom diagnostic analyzers with paired automated code-fix providers covering DI/IoC registration form, naming conventions, async-lock threading, member ordering, acronym casing, and module-layer reference boundaries — wired into a full git-hook gating pipeline (pre-commit, pre-push, post-merge) and Azure DevOps CI, automating platform coding-standard enforcement at commit, push, and build time
 - Extended hosting framework with .NET / .NET Framework multi-target support, enabling clinical module backward compatibility without separate build pipelines
 - Drove substantial platform repository contributions as a primary contributor, spanning host infrastructure, module pattern migration, TypeScript SDK alignment, and security architecture
