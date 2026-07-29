@@ -3,6 +3,38 @@
 ## Purpose
 Use this prompt in private repositories to gather contribution data for import into the master resume system.
 
+## Applicability
+This protocol applies to any repository being audited for resume content — private company repos, personal repos, and open-source forks alike. The output template and quality bar are the same regardless of source. The only difference is what's safe to disclose:
+- **Company/client repos:** repo path and internal names must stay out of the audit file (see Prohibited Content rules in `external-findings-import.md`).
+- **Personal/OSS repos:** repo path, remote URL, and identifying details are safe to include since there's no employer confidentiality concern.
+
+---
+
+## High-Water Mark Tracking
+
+To avoid re-analyzing an entire repository's history on every audit pass, each audit records the exact commit it was run against. Future audits of the same repository diff from that point forward instead of starting over.
+
+### Watermark File
+`./SearchResults/External/audit-watermarks.md` — one row per audited repository:
+
+```markdown
+| Repository | Path | Branch | Commit Hash | Audit Date | Audit File |
+|:-----------|:-----|:-------|:-------------|:-----------|:-----------|
+| dotex      | C:\repo\oobdev\dotex | main | abc1234 | 2026-07-29 | contribution-audit-dotex-20260729.md |
+```
+
+### Before Running the Audit
+1. Check `./SearchResults/External/audit-watermarks.md` for an existing row matching this repository.
+2. **No prior watermark:** run a full-history audit as described below.
+3. **Prior watermark exists:** run an incremental audit:
+   - `git log <watermark-hash>..HEAD` (and `git diff <watermark-hash>..HEAD --stat`) scoped to the same author(s) as before.
+   - Only report NEW contributions since the watermark — don't re-derive metrics already captured in the prior audit file.
+   - Name the output `contribution-audit-[repo-name]-[YYYYMMDD]-incremental.md` and note the prior audit file it builds on.
+   - If nothing changed since the watermark (`git log` empty), skip the audit and just note "no new commits since [hash]" — don't create an empty file.
+
+### After Running the Audit
+Record the current `HEAD` commit hash (`git rev-parse HEAD`) and branch (`git branch --show-current`) for the repository as a new row in the watermark table (update the existing row if one exists, rather than duplicating it).
+
 ---
 
 ## Prompt to Run in Private Repositories
@@ -16,6 +48,8 @@ I need you to audit my contributions to this repository for resume documentation
 
 ### 1. Basic Repository Info
 - Repository name and purpose
+- Repository path and current branch (omit path if this is a company/client repo — see Applicability above)
+- HEAD commit hash at time of audit (`git rev-parse HEAD`) — this becomes the high-water mark
 - Primary programming languages and percentages
 - Total commits (by me if identifiable)
 - Date range of my contributions
@@ -61,6 +95,8 @@ Please structure the output as markdown that can be directly imported into my re
 ## [Repository Name] - Contribution Analysis
 
 **Analysis Date:** [Date]
+**Repository Path:** [Path or "omitted — client repo"]
+**Branch / HEAD Commit (high-water mark):** [branch] @ [commit hash]
 **Repository Type:** [Original/Fork/Collaborative]
 **My Role:** [Owner/Primary Contributor/Contributor]
 **Date Range:** [Start - End]
@@ -106,12 +142,14 @@ Important Notes:
 
 ## How to Use This Prompt
 
-1. Open Claude Code in the private repository
-2. Copy the prompt above
-3. Paste and run it
-4. Save the output to a file named `contribution-audit-[repo-name]-[YYYYMMDD].md`
-5. Copy the file to `./SearchResults/External/` in the resume repository
-6. Run the import protocol: `read protocols/external-findings-import.md and follow the protocol`
+1. Check `./SearchResults/External/audit-watermarks.md` for a prior watermark on this repository (see High-Water Mark Tracking above)
+2. Open Claude Code in the repository
+3. Copy the prompt above (adjusted to full-history or incremental per the watermark check)
+4. Paste and run it
+5. Save the output to a file named `contribution-audit-[repo-name]-[YYYYMMDD].md` (or `-incremental.md`)
+6. Copy the file to `./SearchResults/External/` in the resume repository
+7. Update `./SearchResults/External/audit-watermarks.md` with the new HEAD commit hash
+8. Run the import protocol: `read protocols/external-findings-import.md and follow the protocol`
 
 ---
 
@@ -157,6 +195,7 @@ Use this checklist to track which private repositories need auditing:
 
 ---
 
-**Protocol Version:** 1.0
+**Protocol Version:** 1.1
 **Created:** December 24, 2025
-**Purpose:** Enable systematic contribution documentation from private repositories
+**Updated:** July 29, 2026 — Added high-water-mark commit tracking for incremental re-audits, clarified applicability to personal/OSS repos vs. company repos
+**Purpose:** Enable systematic contribution documentation from private and personal repositories

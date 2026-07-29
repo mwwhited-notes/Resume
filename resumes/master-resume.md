@@ -106,8 +106,10 @@
     - [Professional Certifications \& Industry Recognition](#professional-certifications--industry-recognition)
     - [Self-Teaching Excellence \& Pattern Recognition](#self-teaching-excellence--pattern-recognition)
   - [Personal Projects \& Technical Innovations](#personal-projects--technical-innovations)
+    - [Distributed Event-Sourcing Platform (sync-mesh) (HIGH Innovation)](#distributed-event-sourcing-platform-sync-mesh-high-innovation)
     - [Extensions for .Net Framework (42 NuGet packages, 899,722+ downloads)](#extensions-for-net-framework-42-nuget-packages-899722-downloads)
       - [Vector Support for MS-SQL Server (EXCEPTIONAL Innovation)](#vector-support-for-ms-sql-server-exceptional-innovation)
+      - [Framework Architecture \& Test Infrastructure (123 Projects, 4-Layer Design)](#framework-architecture--test-infrastructure-123-projects-4-layer-design)
       - [High-Performance Binary Data Processing](#high-performance-binary-data-processing)
       - [Core Framework (438 commits, 32,363 LOC, 65+ modules)](#core-framework-438-commits-32363-loc-65-modules)
       - [Cryptographic \& Code Analysis](#cryptographic--code-analysis)
@@ -130,6 +132,8 @@
         - [Coding Challenges Collection (44 challenges, 39 C# projects)](#coding-challenges-collection-44-challenges-39-c-projects)
         - [Game Development Evolution](#game-development-evolution)
         - [Historical Cryptography Implementations](#historical-cryptography-implementations)
+        - [CQRS/Event-Sourcing Reference Application Modernization (Fork)](#cqrsevent-sourcing-reference-application-modernization-fork)
+        - [Event-Sourcing Platform Architecture Design (Pre-Implementation)](#event-sourcing-platform-architecture-design-pre-implementation)
     - [Specialized Domain Applications](#specialized-domain-applications)
       - [Real-Time Sports Scoring Systems (EXCEPTIONAL Innovation)](#real-time-sports-scoring-systems-exceptional-innovation)
       - [Enterprise Home Automation Platform](#enterprise-home-automation-platform)
@@ -706,6 +710,7 @@
 | Azure Service Bus          |   8+  |   Current   | Advanced (4)  | Production integrations, IMessageSender framework |
 | RabbitMQ                   |   3+  |    2024     | Proficient (3)| Enterprise messaging evaluations              |
 | MSMQ                       |  10+  |    2022     | Proficient (3)| WCF MSMQ bindings, legacy integration         |
+| NATS (Core + JetStream)    |   1+  |   Current   | Proficient (3)| sync-mesh leaf-node/gateway event mesh        |
 | Custom Message Abstraction |   8+  |   Current   | Advanced (4)  | IMessageSender framework with pluggable providers |
 
 ### DevOps & Tools
@@ -721,6 +726,7 @@
 | dotnet new Template Engine   |   5+  |   Current   | Advanced (4)  | Eliassen SharedFramework, Cadwell Mesa scaffolding  |
 | MSBuild / SDK Project System |  10+  |   Current   | Advanced (4)  | Multi-targeting, build-shim projects, WiX integration   |
 | OpenTelemetry                |   3+  |   Current   | Advanced (4)  | Cadwell Mesa auth metrics, Go module (Prometheus)   |
+| .NET Aspire                  |   1+  |   Current   | Proficient (3)| sync-mesh multi-topology orchestration, fohjin-cqrs   |
 | Node.js                      |   5+  |   Current   | Proficient (3)| Platform diagnostic scripts, API tooling                |
 | ANTLR4                       |   5+  |    2025     | Advanced (4)  | Eliassen McClane DSL compiler (Java AST listener)       |
 | Liquid Templates             |   3+  |   Current   | Advanced (4)  | NSwag SDK generation (.NET, TypeScript, Python targets) |
@@ -958,6 +964,16 @@
 **Consulting & Framework Repositories:**
 - **[OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex)** - .NET Framework Extensions (active unified architecture for all 42 NuGet packages)
 
+### Distributed Event-Sourcing Platform (sync-mesh) (HIGH Innovation)
+**Four-tier distributed event mesh with NAT-traversing sync and remote monitoring**
+**Repository:** [Mwwhited-BookLearning/sync-mesh](https://github.com/Mwwhited-BookLearning/sync-mesh)
+
+- **Four-Tier Distributed Architecture:** Designed and implemented a local daemon → nearest server → server mesh event-sourcing architecture using NATS leaf nodes and Hybrid Logical Clocks for deterministic event ordering and idempotent replication without relying on transport-level delivery guarantees
+- **Security Engineering:** Replaced an insecure bearer-token-in-URL SignalR authentication scheme with a one-time ticket-exchange protocol (HMAC-SHA256 over a client-generated secret), verified end-to-end against live JWT issuance and single-use redemption
+- **NAT-Traversing Remote Monitoring:** Built a custom reverse-tunnel mechanism enabling remote monitoring of live recording instances through the nearest server when direct access is blocked by NAT/firewalls, architecturally isolated from the durability-critical event-sync path
+- **Documentation-First Engineering:** Authored a complete pre-implementation design package (system design doc, 9 architecture decision records, C4 diagrams, BDD/Gherkin feature specs), then executed it in ~2,300 net lines of C# across 6 days, keeping implementation traceable to documented decisions
+- **Multi-Provider Persistence & Demonstration Domain:** Established EF Core persistence across SQLite/PostgreSQL/SQL Server with portable schema migrations, plus a CQRS-based order-book example domain and live market-data generator, orchestrated via .NET Aspire with a Vue 3 real-time monitoring dashboard
+
 ### Extensions for .Net Framework (42 NuGet packages, 899,722+ downloads)
 **Comprehensive .NET ecosystem with professional CI/CD**
 **Primary Repository:** [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex)
@@ -969,6 +985,12 @@
 - **Innovation Impact:** First-of-its-kind vector database capabilities directly in SQL Server, predating commercial offerings
 - **Technical Depth:** Deep CLR integration requiring expert-level SQL Server and .NET knowledge
 - **Production Integration:** Multiple distance metrics (cosine, euclidean, manhattan, dot product) with optimized binary serialization
+- **DacPac Builder/Validator via Reflection:** Built a `MetadataLoadContext`-based reflection tool that extracts SQL CLR metadata (UDTs, aggregates, functions) directly from compiled assemblies, generates the XML model, and assembles a valid DacPac package — validated against Microsoft's own DacFx — without depending on Visual Studio/SSDT tooling
+
+#### Framework Architecture & Test Infrastructure (123 Projects, 4-Layer Design)
+- **Layered Dependency Architecture:** Designed and build-enforced a 4-layer dependency structure (Common → Framework → Extensions → ExternalServices) across 123 projects, with build failures on missing READMEs or sub-80% coverage in the Framework layer
+- **Docker-Based Integration Test Environment:** Authored a 15-service Docker Compose test harness (SQL Server, MongoDB, RabbitMQ, Redis, Qdrant, OpenSearch, Azurite, LocalStack, Keycloak, Ollama, and more) wired into a 5-tier MSTest category system with CI-scheduled daily integration runs
+- **MSTest/IConfiguration Bridge:** Built a custom bridge integrating MSTest `.runsettings` test properties with .NET's `IConfiguration`/`IOptions<T>` binding, supporting hierarchical keys and prefix filtering
 
 #### High-Performance Binary Data Processing
 **Repository:** [github.com/mwwhited/BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders)
@@ -1118,6 +1140,18 @@
 - **Educational Cryptography:** Historical algorithm recreation with modern .NET
 - **Binary Processing Excellence:** Apple II DOS 3.3, AppleSoft BASIC tokenization
 
+##### CQRS/Event-Sourcing Reference Application Modernization (Fork)
+**Repository:** [Mwwhited-BookLearning/fohjin-cqrs](https://github.com/Mwwhited-BookLearning/fohjin-cqrs) — fork of Mark Nijhof's original CQRS/Event-Sourcing teaching example (2009-2013); original domain design and CQRS/Event-Sourcing pattern credited to Nijhof, all modernization work below is original
+
+- **API & Auth Modernization:** Rebuilt a single-client, network-free WinForms/SQLite reference app into an ASP.NET Core Web API (OData, Server-Sent Events, custom RFC HTTP `QUERY` implementation) secured by an OAuth2/OIDC identity provider (OpenIddict)
+- **Multi-Client Rebuild:** Shipped three feature-parity UI clients against the new API — a Vue 3 SPA, a WPF MVVM desktop app, and the original WinForms app retargeted to call the API over HTTP
+- **Observability & Automated Testing:** Instrumented the system with OpenTelemetry traces/metrics on a .NET Aspire dashboard, and built FlaUI/Vitest UI regression coverage that caught real bugs invisible to static type-checking alone
+
+##### Event-Sourcing Platform Architecture Design (Pre-Implementation)
+**Repository:** [Mwwhited-BookLearning/EventSourcing](https://github.com/Mwwhited-BookLearning/EventSourcing) — design-only exercise, no implementation yet
+
+- **Design Discipline:** Authored a complete pre-implementation architecture package for an event-sourcing/CQRS platform — 53 ADRs, 15 technology comparison documents, and full API/data-model specifications covering hash-chained tamper evidence, event upcasting, and a dual-axis (OAuth2 scope + per-event-type claims) DPoP-bound authorization model
+
 ### Specialized Domain Applications
 
 #### Real-Time Sports Scoring Systems (EXCEPTIONAL Innovation)
@@ -1175,6 +1209,7 @@
 #### Professional Tools & Utilities
 **Repository:** [proving-grounds](https://github.com/mwwhited/proving-grounds/tree/main/examples)
 
+- **OoBDev.Oobtainium:** Hand-rolled `DispatchProxy`-based dynamic interface proxy/mocking library supporting generic methods, async `Task`/`Task<T>` interception, call recording, and fluent method binding, integrated with Microsoft.Extensions.DependencyInjection
 - **BuildFirstOnce:** MSBuild orchestration pattern demonstrating Directory.Build.props for solution-wide tasks with one-time execution, detailed output examples in documentation
 - **HandyClasses (MIT License):** Comprehensive utility library collection including SmtpClientService (ASP.NET Identity integration), Code39 barcode generator (GDI+), ConsoleEx (interactive CLI prompts), XFragment (XML fragment handling), CsvWriter (RFC 4180 CSV serialization), IniFile (Win32 INI wrapper), and Base64/Base32/Base16/Base8 encoding utilities (VB.NET)
 - **markdownplantuml:** PlantUML extension for Markdig markdown processor enabling inline diagram rendering, custom block parser, and specialized renderers for documentation-as-code workflows
