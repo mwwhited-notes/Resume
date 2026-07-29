@@ -103,6 +103,7 @@
 ## Personal Projects
 
 - **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 42 packages, 900K+ downloads, SQL Server vector support
+- **[Distributed Event-Sourcing Mesh](https://github.com/Mwwhited-BookLearning/sync-mesh)** - Multi-tier event synchronization platform using NATS and Hybrid Logical Clocks
 - **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 200+ commits, FPGA/VHDL projects, custom 16-bit microprocessor
 - **Stack Overflow:** 22,510+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
 - **[Hybrid Search Engine](https://github.com/Mwwhited-BookLearning/YearOfCode2024/tree/main/src/hybridsearch)** - Full Text + Semantic Search with LLM reranking

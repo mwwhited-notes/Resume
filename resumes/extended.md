@@ -375,6 +375,7 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
   - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
   - [Coding Challenges: Algorithms and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
   - [Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)
+  - [Distributed Event-Sourcing Mesh](https://github.com/Mwwhited-BookLearning/sync-mesh)
 - **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
 - **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22,510+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
 - **[Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)**
@@ -407,6 +408,10 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
   - [BinaryDataDecoders.ToolKit](https://www.nuget.org/packages/BinaryDataDecoders.ToolKit/) - 36,270 downloads
   - [BinaryDataDecoders.Xslt.Cli](https://www.nuget.org/packages/BinaryDataDecoders.Xslt.Cli/) - 34,726 downloads
   - [BinaryDataDecoders.IO.Abstractions](https://www.nuget.org/packages/BinaryDataDecoders.IO.Abstractions/) - 34,004 downloads
+- **[Distributed Event-Sourcing Mesh](https://github.com/Mwwhited-BookLearning/sync-mesh)** - Multi-tier distributed synchronization platform
+  - Event ordering via NATS leaf nodes and Hybrid Logical Clocks, idempotent replication without relying on transport delivery guarantees
+  - Custom reverse-tunnel mechanism for NAT-traversing remote monitoring, isolated from the durability-critical event path
+  - One-time ticket-exchange authentication replacing a bearer-token-in-URL scheme for a real-time monitoring dashboard
 - **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 200+ commits, multi-platform hardware projects
   - Custom designed 16-bit microprocessor using SystemVerilog
   - FPGA projects: Verilog (approximately 30%), VHDL (approximately 20%), C (approximately 18%), C++ (approximately 18%)

@@ -309,8 +309,14 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
 
 - **[Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)** - 42 NuGet packages with 900K+ downloads
   - **[Vector Support for MS-SQL Server](https://github.com/OutOfBandDevelopment/dotex/tree/main/src/Extensions/OoBDev.Data.Vectors)** - Custom SQLCLR implementation with SqlVector/SqlVectorF types, mathematical operations, binary serialization, and distance aggregation functions
+  - **DacPac deployment tooling** - Reflection-based builder/validator generating deployment packages directly from compiled assemblies
   - [BinaryDataDecoders.ToolKit](https://www.nuget.org/packages/BinaryDataDecoders.ToolKit/) - 36K+ downloads
-  - Extensive collection of .NET abstractions and extensions with professional CI/CD
+  - Extensive collection of .NET abstractions and extensions with professional CI/CD, organized as a layered, build-governed framework across 100+ projects
+- **[Distributed Event-Sourcing Mesh](https://github.com/Mwwhited-BookLearning/sync-mesh)** - Multi-tier distributed synchronization platform
+  - **Event ordering architecture** using NATS leaf nodes and Hybrid Logical Clocks for deterministic, idempotent replication without relying on transport delivery guarantees
+  - **Security-hardened real-time monitoring** with a custom one-time ticket-exchange authentication scheme replacing bearer-token-in-URL patterns
+  - **NAT-traversing remote monitoring** via a custom reverse-tunnel mechanism, architecturally isolated from the durability-critical event path
+  - Documentation-first build: full design doc, architecture decision records, and BDD feature specs preceding implementation
 - **Stack Overflow:** 22,510+ reputation with 600+ solutions spanning 15+ years reaching nearly 5 million users
 - **[Microcontrollers and Electronics](https://github.com/mwwhited/EmbeddedBakery)** - 200+ commits, multi-language hardware projects
   - **Custom designed 16-bit microprocessor (MW16C)** in SystemVerilog with multi-stage pipeline, comprehensive instruction set, and Python assembler
