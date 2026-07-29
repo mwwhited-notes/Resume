@@ -192,7 +192,7 @@
 
 ### Employment & Authorization
 - **Work Authorization:** US Citizen
-- **Current Status:** Employed full-time at Cadwell Industries (available for consulting/fractional work)
+- **Current Status:** Employed full-time at Cadwell Industries, passively open to full-time Principal/Director/Executive opportunities only (fractional/consulting work not currently offered — full-time search confirmed July 29, 2026)
 - **Notice Period:** 2 weeks for new full-time opportunities
 - **Contract Preferences:** W-2 or 1099 (flexible on arrangement type)
 - **Background Check:** Ready with no concerns
@@ -200,6 +200,7 @@
 - **Veteran Status:** Not a veteran
 
 ### Consulting & Fractional Rates
+*(Not currently offered — full-time search confirmed July 29, 2026; rates retained below for reference if consulting becomes active again)*
 - **Fractional CTO / Executive Advisory:** $200-250/hr
 - **Principal Architecture / Crisis Resolution:** $200-250/hr
 
@@ -220,12 +221,12 @@
 
 ## Professional Identity & Core Value Proposition
 
-**Principal Platform Architect, Fractional CTO, Principal Solutions Architect & Crisis Resolution Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale platform architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions ($13,800+ annual savings), 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients.
+**Principal Platform Architect, Chief Solutions Architect, Principal Solutions Architect & Crisis Resolution Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale platform architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions ($13,800+ annual savings), 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients.
 
 ### Multi-Track Leadership Profile
 
 **Executive Technology Leadership:**
-- **Fractional CTO / Chief Solutions Architect:** Strategic technology vision, architecture governance, and vendor-neutral advisory services for growing companies
+- **Chief Solutions Architect:** Strategic technology vision, architecture governance, and vendor-neutral advisory services for growing companies *(fractional/consulting delivery model not currently offered — targeting full-time roles)*
 - **Crisis Resolution Specialist:** Called when projects fail, costs spiral, or "impossible" integrations are needed - delivered 77% cost reductions and 1-week solutions after others failed for months
 - **Enterprise Architect:** Cross-functional architecture strategy, technology risk management, and regulatory compliance (FDA, financial, healthcare)
 
