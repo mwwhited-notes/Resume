@@ -8,7 +8,8 @@ This document captures deep career insights, preferences, and hidden expertise d
   - [Document Purpose](#document-purpose)
   - [Table of Contents](#table-of-contents)
   - [Career Direction \& Preferences](#career-direction--preferences)
-    - [Desired Positioning (Updated 2025-08-19)](#desired-positioning-updated-2025-08-19)
+    - [Desired Positioning (Updated 2026-07-29 — supersedes 2026-01-12 consulting framing below)](#desired-positioning-updated-2026-07-29--supersedes-2026-01-12-consulting-framing-below)
+    - [Superseded: Prior Consulting-Focused Positioning (2026-01-12, no longer active)](#superseded-prior-consulting-focused-positioning-2026-01-12-no-longer-active)
     - [Work Style Preferences](#work-style-preferences)
     - [Engagement Model Flexibility](#engagement-model-flexibility)
   - [Hidden Technical Expertise](#hidden-technical-expertise)
@@ -86,16 +87,23 @@ This document captures deep career insights, preferences, and hidden expertise d
   - [Session History](#session-history)
     - [Career Counseling Session - 2025-08-12](#career-counseling-session---2025-08-12)
     - [Education Documentation Update - 2025-08-21](#education-documentation-update---2025-08-21)
+    - [Career Counseling Session - 2026-07-29](#career-counseling-session---2026-07-29)
     - [Personal Information Documentation - 2025-10-13](#personal-information-documentation---2025-10-13)
 
 ---
 
 ## Career Direction & Preferences
 
-### Desired Positioning (Updated 2026-01-12)
+### Desired Positioning (Updated 2026-07-29 — supersedes 2026-01-12 consulting framing below)
+- **Resolved contradiction:** The fractional-CTO/SOW-review consulting positioning described below (Jan 2026) had drifted out of sync with actual current preference. As of the 2026-07-29 career counseling session, confirmed **full-time employment only, for real** — not a passive placeholder while secretly pursuing consulting. The consulting/advisory framing is shelved, not merely deprioritized.
+- **Preferred Title:** Chief Solutions Architect (primary target), with Principal Solutions Architect / VP Engineering / Technical Consultant as viable secondary tracks — see `SearchResults/Targets/job-roles.md`
+- **Employment Type:** Full-time W2 only. Contract/hourly/fractional engagements are explicitly NOT being considered at this time.
+- **Search Posture:** Passive/opportunistic, not active. Currently 9+ months into Cadwell Industries (Principal Software Engineer/Architect, since October 2025) and it's going fine — this is not a "get me out" search. Only a clearly better Chief Solutions Architect / Director-or-above opportunity at an established company would prompt a move.
+- **Differentiator:** Vendor-neutral, anti-hype expertise preventing costly mistakes through pattern recognition from 20+ years experience — this positioning language still applies to how he presents himself in interviews/resumes, it just no longer implies an independent-consulting business model.
+
+### Superseded: Prior Consulting-Focused Positioning (2026-01-12, no longer active)
 - **Primary Evolution:** Expanding trusted technical advisor role to include specific SOW review and contract evaluation services
 - **Core Services:** Technical advisory spanning from quick SOW reviews to fractional CTO engagements
-- **Preferred Title:** Chief Solutions Architect (emphasizes strategic architecture over pure execution)
 - **Target Market Focus:** Small to medium businesses (20-100 employees) who need technical expertise but not full-time CTO
 - **Value Proposition:** "Your trusted guide through technology decisions that matter" - from reviewing vendor contracts to strategic technology planning
 - **Service Spectrum:**
@@ -103,7 +111,7 @@ This document captures deep career insights, preferences, and hidden expertise d
   - Strategic projects: Technical due diligence, architecture reviews, technology roadmaps (1-4 weeks)
   - Ongoing advisory: Fractional CTO, retained technical advisor, strategic technology partner (monthly)
 - **Philosophy:** Being the "Scotty from Star Trek" advisor who handles the complex technical details so business leaders can focus on growth
-- **Differentiator:** Vendor-neutral, anti-hype expertise preventing costly mistakes through pattern recognition from 20+ years experience
+- **Note:** Keep this section for historical context (e.g., if circumstances change and consulting becomes attractive again), but do not use it to inform current job search targeting.
 
 ### Work Style Preferences
 - **NOT Interested In:**
@@ -652,6 +660,7 @@ This document captures deep career insights, preferences, and hidden expertise d
 - **Analog Computing Deep Dive:** Advanced study of analog computer principles, applications, and modern implementations
 - **Electronics Engineering:** Hands-on electronics projects and circuit design experimentation
 - **Personal .NET Extensions Project:** Ongoing development and extension of custom .NET framework libraries
+- **Distributed Event-Sourcing Platform (sync-mesh):** From-scratch personal build exploring NATS-based event mesh architecture, Hybrid Logical Clocks for event ordering, and NAT-traversing remote monitoring. **Confirmed 2026-07-29 career counseling session: this is a hobby/curiosity-driven deep-dive, not a signal to pivot job targeting toward distributed-systems-specialist roles.** Still valid as general evidence of continued hands-on technical range — just not a search-narrowing filter.
 - **Swagger/Handlebars Client Generator:** Building collection of extensions for Swagger and Handlebars to create automated client generation system
   - **Code Generation Innovation:** Template-based client generation from API specifications
   - **Multi-Platform Support:** Generating clients for different programming languages and frameworks
@@ -1329,6 +1338,13 @@ The DeVry Electronic Engineering Technology coursework provided crucial hardware
 - **Academic Performance:** 3.12 GPA with excellence in core engineering subjects
 - **Course Analysis:** Strong performance in Digital Circuits, Digital Systems, and Mathematics
 - **Career Connection:** Technical foundation supporting later hardware/software integration expertise
+
+### Career Counseling Session - 2026-07-29
+- **Context:** Ran immediately after a target-list-generation refresh (job-roles.md, target-companies.md corrected and updated same day) and a batch personal-repository audit (dotex, sync-mesh, EventSouring, fohjin-cqrs, EmbeddedBakery, proving-grounds) that had already surfaced most "hidden expertise" discovery organically — so this session skipped the full Phase 2 technical/personal Socratic interview (already exhaustively documented in prior sessions) and went straight to resolving open strategic contradictions.
+- **Major Discovery — Resolved Contradiction:** career-background.md's Jan 2026 positioning described pivoting toward fractional CTO/consulting work, but CLAUDE.md/job-roles.md said full-time only. Confirmed: **full-time only is correct and current**; the consulting positioning is shelved (moved to a "Superseded" section, not deleted, in case circumstances change).
+- **Search Posture Confirmed:** Passive/opportunistic, not active. 9+ months into Cadwell Industries and it's going fine — only a clearly better Chief Solutions Architect / Director-or-above role at an established company would prompt a move. This should temper application volume/urgency going forward relative to the earlier high-volume active-search phase (463 total applications logged in job-platforms.md).
+- **sync-mesh Clarified:** The new distributed event-sourcing personal project is confirmed hobby/curiosity-driven, not a signal to narrow job targeting toward distributed-systems-specialist roles. Removed "Distributed Systems Architect" from `job-roles.md`'s target title list accordingly (kept "Security Architect," which is grounded in real Cadwell Mesa professional work, not a hobby project).
+- **No New Technical/Personal Discoveries:** Everything from Phase 2 (technical depth, philosophy, industry domains, leadership, personal/family/hobbies) remains accurate from prior sessions — no changes needed there.
 
 ### Personal Information Documentation - 2025-10-13
 - **Manager Introduction Preparation:** Collected comprehensive personal information for new manager at Cadwell Industries
