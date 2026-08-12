@@ -146,6 +146,45 @@ Execute searches and create individual platform analysis files.
 - **Output File:** `SearchResults/Jobs/linkedin.md`
 - **Focus:** Enterprise-scale opportunities, established companies
 
+**Optional: LinkedIn MCP server** — if the `linkedin` MCP server (see below) is connected, prefer its job-search tools over manual browser search/scraping for this platform; fall back to manual search if it's not configured or fails.
+
+##### LinkedIn MCP Server Setup (Windows + Docker)
+Uses [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server) — logs into LinkedIn via your own browser session (no API key), so it's still subject to LinkedIn's ToS restrictions on automated access (account restriction risk with heavy use).
+
+**Two Windows-specific gotchas to know before setting this up again:**
+1. A Windows bind mount (`-v ~/.linkedin-mcp:...`) fails with `Operation not permitted` because the container chmods the profile dir and NTFS doesn't support that — **use a named Docker volume instead** (`docker volume create linkedin-mcp-data`).
+2. `docker run -i` (stdio transport) reliably drops the first JSON-RPC message on Windows (a docker-attach race), which Claude Code reports as `Connection closed` — **use `--transport streamable-http` instead of stdio**, bound to loopback only.
+3. Git Bash mangles `/`-leading args (e.g. `/mcp`, `/data`) into Windows paths — prefix affected commands with `MSYS_NO_PATHCONV=1`.
+
+**One-time login** (do this whenever the session expires or on first setup):
+```bash
+docker volume create linkedin-mcp-data
+MSYS_NO_PATHCONV=1 docker run --rm \
+  -v linkedin-mcp-data:/home/pwuser/.linkedin-mcp \
+  -p 127.0.0.1:6080:6080 \
+  stickerdaniel/linkedin-mcp-server:latest \
+  --login --login-viewer
+```
+This prints a one-time `http://127.0.0.1:6080/vnc_lite.html#?token=...` URL — open it and log into LinkedIn manually (handles 2FA/captcha). Session cookies persist in the `linkedin-mcp-data` volume; the container exits on its own once login succeeds.
+
+**Run the server** (detached, HTTP transport, loopback-only):
+```bash
+MSYS_NO_PATHCONV=1 docker run -d --name linkedin-mcp \
+  -v linkedin-mcp-data:/home/pwuser/.linkedin-mcp \
+  -p 127.0.0.1:8765:8080 \
+  --restart unless-stopped \
+  stickerdaniel/linkedin-mcp-server:latest \
+  --transport streamable-http --host 0.0.0.0 --port 8080 --path /mcp
+```
+`--restart unless-stopped` means it survives reboots — no need to re-run this once it's up, only re-run the login step if auth expires.
+
+**Register with Claude Code** (user scope, so it's available in every project):
+```bash
+claude mcp add --scope user --transport http linkedin http://127.0.0.1:8765/mcp
+claude mcp get linkedin   # should show "✔ Connected"
+```
+**Important:** tools from a newly-added MCP server only appear in *new* Claude Code sessions — restart the session after registering before expecting `mcp__linkedin__*` tools to show up in `ToolSearch`.
+
 #### Indeed.com
 - **Search Terms:** [Target job titles] + [technology keywords] + [location]
 - **Advanced Filters:** Remote/hybrid, salary ranges, company size
