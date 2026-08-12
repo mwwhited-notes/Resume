@@ -139,7 +139,12 @@
       "Bash(do echo '=== $\\(basename $file\\) ===' grep -o [0-9][0-9]*K[+]* $file)",
       "Artifact",
       "Bash(docker run *)",
-      "Bash(docker volume *)"
+      "Bash(docker volume *)",
+      "Read(//c/Users/mwwhi/.claude/**)",
+      "Bash(claude mcp *)",
+      "mcp__linkedin__search_jobs",
+      "mcp__linkedin__get_company_profile",
+      "mcp__linkedin__get_job_details"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

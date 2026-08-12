@@ -116,12 +116,13 @@
 - **Search Results:** SearchResults/ directory organized by topic
 
 ## User Preferences - CRITICAL
-- **Work Location:** 100% REMOTE ONLY (unless Baltimore MD metro area) — "hybrid" = reject, RTO mandates = reject
-- **Compensation:** $200K+ salary minimum
+- **Work Location:** 100% REMOTE ONLY (unless Baltimore MD metro area) — RTO mandates = reject. Exceptions: hybrid considered only if $250K+/year AND ≤1hr commute; on-site considered only if $350K+/year AND ≤1hr commute. Commute radius includes MARC Penn Line corridor (Baltimore Penn Station → BWI → Odenton → New Carrollton → DC Union Station), not just driving distance — see `SearchResults/Parameters/compensation.md`
+- **Compensation:** $200K+ salary minimum. Postings without listed compensation are automatically excluded (undisclosed range = negative signal, not missing data)
 - **Employment Type:** Full-time only (passive search) — contract/hourly currently NOT being considered
 - **Travel:** Up to 25% acceptable
 - **Security Clearance:** NOT interested
-- **Architecture Role Flexibility:** Programming language less critical - comfortable with Go, Java, Python, C#/.NET
+- **Architecture Role Flexibility:** For architecture titles (Principal/Chief/Enterprise/Solutions Architect, etc.), technology stack does not matter at all — comfortable with any language/platform, evaluate on architecture merit alone
+- **Development Role Language Preference:** For hands-on development/engineering titles (Software Engineer, Staff/Principal Software Engineer, etc.) where the role is primarily coding-focused rather than architecture-focused, prefer .NET/C#. A dev-focused role requiring deep expertise in a different primary language/runtime (e.g. core Java/JVM internals) is a pass, even with strong domain overlap — confirmed August 12, 2026 after declining Elastic's "Principal Software Engineer, Search Infra" (Java/Lucene-internals-heavy) for exactly this reason
 - **Role Function:** Strongly prefer technical leadership, guidance, and mentorship — avoid roles where project management, time management, or personnel management (HR authority, performance reviews, headcount) are the PRIMARY function. Technical leadership of a team is fine; pure people management or PM is not.
 
 **COMPREHENSIVE EXCLUSION CRITERIA:**

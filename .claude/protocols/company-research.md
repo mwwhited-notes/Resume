@@ -17,6 +17,14 @@ Execute this protocol when the user requests:
 
 ## Protocol Steps
 
+### Phase 0: Fast Exclusion Pre-Check (RUN FIRST — before any other research)
+Ownership/funding status is the cheapest possible disqualifier and should gate everything else, not be discovered midway through a full research pass. Before doing ANY of the deeper Phase 1/2 research:
+1. **Existence check:** Fetch the company's primary domain. Parked/for-sale/no-content → reject immediately, stop here.
+2. **Named exclusion check:** Quick check against `./SearchResults/excluded-companies.md` company blacklist and named investors — if already listed, stop here.
+3. **PE/VC ownership check (1-2 targeted searches, not the full battery):** Determine funding structure — publicly traded, founder/employee/nonprofit/health-system owned, PE-owned/LBO, or VC-backed (any stage, Seed through Series D+/unicorn). **Per current policy, VC-backed and PE-owned are BOTH hard excludes** ("nothing to do with VC or PE," added August 12, 2026) — this is broader than just LBO/buyout firms.
+4. If Phase 0 finds a disqualifying result (excluded company/investor, PE-owned, VC-backed, or nonexistent) — **stop immediately**. Write a short-form exclusion note (not the full template) and skip Phases 1-3 entirely. Do not spend time on tech stack, culture, or WLB research for a company that's already excluded on ownership grounds.
+5. Only if Phase 0 clears (public company, founder/employee/nonprofit/health-system owned, no named exclusion) does the full research below proceed.
+
 ### Phase 1: Initialize Research (TodoWrite Required)
 Create todo list with these tasks:
 1. **Check Application History:** Review `./SearchResults/applied-to.md` for previous applications to company

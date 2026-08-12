@@ -148,6 +148,11 @@ Execute searches and create individual platform analysis files.
 
 **Optional: LinkedIn MCP server** — if the `linkedin` MCP server (see below) is connected, prefer its job-search tools over manual browser search/scraping for this platform; fall back to manual search if it's not configured or fails.
 
+**Posting age — hard exclusion + incremental search:**
+- **Hard rule:** Any posting older than 30 days is automatically excluded, regardless of fit — use `date_posted: "past_month"` on `search_jobs` calls as the outer bound, and verify via `get_job_details` if a result's actual post date is ambiguous.
+- **Incremental runs:** Before searching, check `SearchResults/Jobs/linkedin.md` for a "Last MCP Search Run" date. If one exists and is less than 30 days old, tighten `date_posted` to cover just the gap instead of the full month (`past_24_hours` if run today, `past_week` if run 2-7 days ago, `past_month` if run 8-30 days ago) — this avoids re-surfacing postings already screened in the prior run. If no prior run date exists, or it's 30+ days old, do a full `past_month` sweep.
+- **After every run:** Update the "Last MCP Search Run" date in `SearchResults/Jobs/linkedin.md` to today's date so the next session can compute the gap.
+
 ##### LinkedIn MCP Server Setup (Windows + Docker)
 Uses [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server) — logs into LinkedIn via your own browser session (no API key), so it's still subject to LinkedIn's ToS restrictions on automated access (account restriction risk with heavy use).
 
