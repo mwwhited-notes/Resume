@@ -1,0 +1,13 @@
+{
+  "name": "job-search-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Job search automation scripts, including a Playwright-based career-portal scraper for JS-rendered ATS sites (Workday, Greenhouse, Eightfold, Phenom, etc.) that plain HTTP fetches cannot read.",
+  "scripts": {
+    "scrape": "node career-portal-scraper.js",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}

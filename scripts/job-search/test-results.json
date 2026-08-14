@@ -1,0 +1,40 @@
+[
+  {
+    "company": "CrowdStrike",
+    "ticker": "CRWD",
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers",
+    "status": "matched",
+    "matches": [
+      {
+        "title_line": "Principal Software Engineer, Real Time Data Enrichment Platform (Hybrid)",
+        "context": "R28442 | Principal Software Engineer, Real Time Data Enrichment Platform (Hybrid) | locations | 4 Locations",
+        "compensation": null
+      },
+      {
+        "title_line": "Principal Software Engineer – Sensor, Telemetry & Observability (Hybrid)",
+        "context": "R28983 | Principal Software Engineer – Sensor, Telemetry & Observability (Hybrid) | locations | USA - Remote, OR",
+        "compensation": null
+      }
+    ],
+    "error": null,
+    "urlTried": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers"
+  },
+  {
+    "company": "Axon Enterprise",
+    "ticker": "AXON",
+    "url": "https://job-boards.greenhouse.io/axon",
+    "status": "no-match",
+    "matches": [],
+    "error": null,
+    "urlTried": "https://job-boards.greenhouse.io/axon"
+  },
+  {
+    "company": "Tenable Holdings",
+    "ticker": "TENB",
+    "url": "https://tenable.com/careers/search",
+    "status": "no-match",
+    "matches": [],
+    "error": null,
+    "urlTried": "https://tenable.com/careers/search"
+  }
+]

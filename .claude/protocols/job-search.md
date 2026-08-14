@@ -161,6 +161,20 @@ Uses [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linked
 2. `docker run -i` (stdio transport) reliably drops the first JSON-RPC message on Windows (a docker-attach race), which Claude Code reports as `Connection closed` — **use `--transport streamable-http` instead of stdio**, bound to loopback only.
 3. Git Bash mangles `/`-leading args (e.g. `/mcp`, `/data`) into Windows paths — prefix affected commands with `MSYS_NO_PATHCONV=1`.
 
+#### Direct Company Career-Page Search (S&P 500 / NASDAQ target list)
+
+**Target list:** `SearchResults/Targets/target-companies.md` "Category 6" holds a pre-screened list of publicly-traded companies (S&P 500 + NASDAQ, merged/deduplicated) with real in-house software engineering orgs, already run through the full exclusion pipeline (named individuals/investors, DOGE/Trump/MAGA board + corporate donations, VC/PE-backed, dual-class share structure, IT staff-augmentation business model, Larry Ellison family, recruiting/staffing firms). Being a major public-index constituent inherently clears the VC/PE exclusion for almost all of these, which is most of the value of maintaining this list. Re-run the exclusion checks on any *new* addition before trusting it — the existing 100+ entries don't need re-checking unless a specific company's status changes (acquisition, go-private, etc.).
+
+**Do NOT use plain WebFetch to search these companies' career pages.** Discovered August 2026: most corporate ATS platforms (Workday, Greenhouse, Eightfold, Phenom People, Oracle Cloud Recruiting, custom React SPAs) render job listings via client-side JavaScript. WebFetch only retrieves the static HTML shell before that JS executes, so it returns empty results indistinguishable from a genuine zero — this produced dozens of false "portal not searchable" results in earlier attempts, wasting significant effort re-discovering the same limitation across parallel agents.
+
+**Use the Playwright scraper instead:** `scripts/job-search/career-portal-scraper.js`
+- **Setup (one-time per machine):** `cd scripts/job-search && npm install` — this also downloads the Chromium browser binary via the `postinstall` hook.
+- **Run:** `node career-portal-scraper.js --input companies.json --output scrape-results-{YYYYMMDD}.json` — reads a JSON array of `{company, ticker, url}` (defaults to `companies.json` in the same directory, which mirrors the target list's career URLs), launches a real headless browser per company (concurrency 4), waits for JS to render, tries an in-page search box or common `?q=`/`?search=`/`?keyword=` URL patterns if nothing matches on first load, and regex-matches the rendered text for Principal/Staff/Chief/Distinguished/Enterprise Architect/Engineer titles plus any nearby compensation figures.
+- **Output statuses:** `matched` (found qualifying titles — inspect the `matches` array, each with `title_line`, surrounding `context`, and any extracted `compensation`), `no-match` (page rendered successfully but no matching titles found — a real negative, not a rendering failure), `unreachable` (navigation/timeout/bot-block error — genuinely unresolved, worth a manual check).
+- **Still apply all normal screening after scraping:** the script only finds title matches: run every "matched" company's actual comp against the listed-compensation-required rule, spread ≤ $51K rule, and $200K floor before treating anything as a real candidate — the script does not do this filtering itself.
+- **Update `companies.json`** as the target list changes (new companies added, career URLs change, or a company's exclusion status flips) rather than maintaining a second, drifting copy of the list.
+- **Tool choice is not fixed to Playwright** — Puppeteer works identically for this use case (the existing `scripts/job-search/job-search.js` already uses Puppeteer for platform search automation). Playwright was used here because it was already set up in-session; either is fine going forward, whichever is faster to reach for.
+
 **One-time login** (do this whenever the session expires or on first setup):
 ```bash
 docker volume create linkedin-mcp-data
