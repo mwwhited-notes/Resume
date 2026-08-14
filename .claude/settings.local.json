@@ -165,7 +165,12 @@
       "PowerShell(& \"C:\\\\Program Files\\\\Inkscape\\\\bin\\\\python.exe\" -c \"import pypdf\" 2>&1; & \"C:\\\\Program Files\\\\Inkscape\\\\bin\\\\python.exe\" -m pip --version 2>&1)",
       "Bash(perl -CSD -pe 's/<[^>]+>/ /g; s/&#8220;|&#8221;/\"/g; s/&#8217;/'\"'\"'/g; s/&nbsp;/ /g;' /c/repo/notes/Resume/.tmp_wbd10k.htm)",
       "mcp__linkedin__search_companies",
-      "mcp__linkedin__search_people"
+      "mcp__linkedin__search_people",
+      "Bash(mv \"scripts\\\\job-search\\\\career-portal-scraper.js\" \"SearchResults\\\\Jobs\\\\career-portal-scraper.js\")",
+      "Bash(mv \"scripts\\\\job-search\\\\companies.json\" \"SearchResults\\\\Jobs\\\\companies.json\")",
+      "Bash(mv \"scripts\\\\job-search\\\\package.json\" \"SearchResults\\\\Jobs\\\\package.json\")",
+      "Bash(mv \"scripts\\\\job-search\\\\package-lock.json\" \"SearchResults\\\\Jobs\\\\package-lock.json\")",
+      "Bash(mv \"scripts\\\\job-search\\\\scrape-results-20260814.json\" \"SearchResults\\\\Jobs\\\\scrape-results-20260814.json\")"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
