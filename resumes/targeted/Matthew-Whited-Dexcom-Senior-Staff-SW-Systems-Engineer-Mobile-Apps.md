@@ -1,5 +1,5 @@
-# Matthew Whited - Senior Staff SW Systems Engineer
-## Connected Medical Device Architecture & Regulated Software Systems
+# Matthew Whited - Senior Staff SW Systems Engineer - Mobile Apps
+## Systems Engineering Architect & Technical Lead | Connected Ecosystem | Mobile, SDKs, Backend Services, Cloud Infrastructure, APIs & Partner Integrations
 
 ---
 
@@ -17,14 +17,17 @@
 
 ## Professional Summary
 
-**Senior Staff Systems Engineer / Platform Architect** with over 20 years designing secure, regulated, cross-platform software systems — including 6+ years of direct FDA-compliant, HIPAA-adjacent medical device software development. Systems architect and technical lead for a distributed, multi-language clinical platform, owning cross-service security architecture, SDK/API design, and real-time data delivery across mobile, backend, and cloud consumers — the same architecture-across-mobile/backend/cloud/SDK/partner-integration scope this role is chartered to own for Dexcom's connected CGM ecosystem. Deep expertise in modern authentication and token-security standards directly applicable to securing connected medical devices. IC-track technical leader who drives cross-functional architecture decisions and mentors engineers, not a people-manager.
+**Senior Staff Systems Engineer / Systems Engineering Architect and Technical Lead** with over 20 years architecting connected software ecosystems spanning **Mobile Applications (iOS/Android), SDKs, Backend Services, Cloud Infrastructure, APIs, and partner integrations** — including 6+ years of direct FDA-compliant, HIPAA-adjacent medical device software development. Currently serves as systems architect and technical lead for a distributed, multi-language clinical software platform, owning cross-service security architecture, SDK/API design, and real-time **alerts, notifications, and data-sharing** delivery across mobile, backend, and cloud consumers — the same connected-ecosystem scope this role is chartered to own for Dexcom. Proven track record owning and driving resolution of highly complex, cross-functional initiatives, including interoperability and connected product functionality. Deep expertise in modern authentication and token-security standards directly applicable to cybersecurity for connected medical devices. IC-track technical leader who drives cross-functional architecture decisions and mentors engineers, not a people-manager.
+
+### Core Skills & Keywords
+Systems Engineering, Systems Architecture, Technical Lead, Connected Ecosystem, Mobile Applications, iOS, Android, SDK Design, Backend Services, Cloud Infrastructure, API Design, Partner Integrations, Cross-Functional Initiatives, Alerts & Notifications, Data Sharing, Interoperability, Connected Product Functionality, Cybersecurity, OAuth 2.0/OIDC, Token Security, FDA-Regulated Software, HIPAA, Medical Device Software, C#/.NET, TypeScript, Python, Go, Embedded C/C++, Microservices, Event-Driven Architecture, Real-Time Streaming (SSE/WebSockets), Technical Leadership, Mentoring
 
 ### Core Value Proposition for Dexcom
 - **Direct Regulated Medical Device Domain Match:** 6+ years of FDA-compliant, design-controls, verification & validation (V&V) software development for clinical medical device systems and life-critical FDA-regulated systems for Big Pharma clients and a major academic medical research group — this is the same regulatory environment as Dexcom's CGM software, not an adjacent industry
-- **Connected-Ecosystem Systems Architecture:** Owns cross-service security architecture and multi-target SDK/API design spanning mobile, backend, and cloud consumers — directly analogous to Dexcom's "architecture and design decisions across Mobile Applications, SDKs, Backend Services, Cloud Infrastructure, APIs, and partner integrations"
-- **Security Architecture for Connected Devices:** Modern authentication and token-security implementation (OAuth 2.0/OIDC, proof-of-possession token binding) eliminating a class of token-replay attacks on sensitive clinical data — a near-exact match for "cybersecurity for connected medical devices"
-- **Real-Time Connected-Device Experience:** Authenticated long-lived streaming connections for real-time data delivery — directly relevant to alerts, notifications, and data-sharing experiences across a connected device ecosystem
-- **Cross-Functional Complex-Initiative Ownership:** Track record of owning and resolving highly complex, cross-functional technical initiatives end-to-end, from root-cause diagnosis through production-verified fixes
+- **Connected-Ecosystem Systems Architecture:** Systems Engineering architect and technical lead experience owning cross-service security architecture and multi-target SDK/API design spanning Mobile Applications, Backend Services, Cloud Infrastructure, and partner integrations — a direct match to this role's core mandate
+- **Cybersecurity for Connected Devices:** Modern authentication and token-security implementation (OAuth 2.0/OIDC, proof-of-possession token binding) eliminating a class of token-replay attacks on sensitive clinical data
+- **Alerts, Notifications & Data-Sharing Experience:** Authenticated long-lived streaming connections for real-time data delivery — directly relevant to user-facing alerts, notifications, and data-sharing experiences across a connected device ecosystem
+- **Cross-Functional Initiative Ownership:** Track record of owning and driving resolution of highly complex, cross-functional technical initiatives end-to-end, from root-cause diagnosis through production-verified fixes, including interoperability and connected product functionality
 
 ---
 
@@ -37,14 +40,15 @@
 - Technical leadership through peer code reviews, grooming sessions, and architectural guidance for FDA-regulated medical device software
 - Architecture review and technical design input for the next-generation Cadwell Mesa platform as it scales
 
-#### Cadwell Mesa — Next-Generation Modular Runtime (Connected Systems Architecture)
-- Designed and delivered the platform's cross-service security and trust architecture, including modern OAuth 2.0/OIDC authentication and fine-grained, deny-by-default authorization enforced across distributed clinical services
-- Designed a secure SDK architecture giving consumers across mobile, desktop, and server contexts consistent, built-in security guarantees with minimal integration overhead
-- Built a code-generation pipeline producing typed client SDKs across multiple languages (.NET, TypeScript, Python) from a single API contract, with automated enforcement keeping client and server contracts in sync
+#### Cadwell Mesa — Next-Generation Modular Runtime (Systems Engineering Architect & Technical Lead, Connected Ecosystem)
+- Serve as systems architect and technical lead for a connected clinical software ecosystem spanning desktop, mobile-adjacent, backend, and cloud consumers — the same Mobile Applications / SDKs / Backend Services / Cloud Infrastructure / APIs / partner integrations scope as this role
+- Designed and delivered the platform's cross-service security architecture, including modern OAuth 2.0/OIDC authentication and fine-grained, deny-by-default authorization enforced across distributed clinical services — directly applicable to cybersecurity for connected medical devices
+- Designed a secure SDK architecture giving consumers across mobile, desktop, and server contexts consistent, built-in security guarantees with minimal integration overhead, supporting partner integrations without duplicated security logic
+- Built a code-generation pipeline producing typed client SDKs across multiple languages (.NET, TypeScript, Python) from a single API contract, with automated enforcement keeping client and server contracts in sync — direct precedent for SDK design across a multi-platform ecosystem including iOS/Android consumers
 - Implemented modern proof-of-possession token security, closing a class of token-replay vulnerabilities on sensitive clinical data access
-- Implemented authenticated, long-lived streaming connections for real-time data delivery, directly analogous to alert/notification delivery in a connected-device ecosystem
-- Delivered a cross-platform, multi-language module pattern supporting Go alongside .NET, demonstrating flexible, language-agnostic platform architecture
-- Diagnosed and resolved a subtle concurrency defect causing intermittent platform health-check failures, then root-caused and fixed a related API contract-generation bug — both verified with dedicated automated test coverage
+- Implemented authenticated, long-lived streaming connections for real-time data delivery — directly analogous to alerts, notifications, and data-sharing delivery in a connected-device ecosystem
+- Delivered a cross-platform, multi-language module pattern supporting Go alongside .NET, demonstrating flexible, language-agnostic platform architecture and interoperability across services
+- Owned and drove resolution of a complex, cross-functional connected product functionality initiative: diagnosed and resolved a subtle concurrency defect causing intermittent platform health-check failures, then root-caused and fixed a related API contract-generation bug — both verified with dedicated automated test coverage
 
 #### CadLink Platform Contributions
 - Resolved critical security vulnerabilities in a HIPAA-regulated platform — removing hard-coded credentials, migrating secrets to configuration, and eliminating plaintext passwords from security event logs
@@ -73,7 +77,7 @@
 
 ---
 
-## Technical Excellence
+## Skills
 
 ### Systems Architecture & Connected Devices
 - Microservices Architecture, Event-Driven Architecture, API Gateway Design, Contract-Based Module Systems — Expert level, direct multi-platform SDK/backend/cloud design experience
