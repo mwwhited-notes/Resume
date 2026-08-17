@@ -170,7 +170,12 @@
       "Bash(mv \"scripts\\\\job-search\\\\companies.json\" \"SearchResults\\\\Jobs\\\\companies.json\")",
       "Bash(mv \"scripts\\\\job-search\\\\package.json\" \"SearchResults\\\\Jobs\\\\package.json\")",
       "Bash(mv \"scripts\\\\job-search\\\\package-lock.json\" \"SearchResults\\\\Jobs\\\\package-lock.json\")",
-      "Bash(mv \"scripts\\\\job-search\\\\scrape-results-20260814.json\" \"SearchResults\\\\Jobs\\\\scrape-results-20260814.json\")"
+      "Bash(mv \"scripts\\\\job-search\\\\scrape-results-20260814.json\" \"SearchResults\\\\Jobs\\\\scrape-results-20260814.json\")",
+      "Bash(\"/c/Program Files/Docker/Docker/Docker Desktop.exe\")",
+      "Bash(disown)",
+      "Bash(docker info *)",
+      "Bash(break)",
+      "Bash(docker start *)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
