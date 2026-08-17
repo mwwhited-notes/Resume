@@ -18,7 +18,7 @@
 **Required Response:** `read .claude/protocols/readme-maintenance.md and follow the protocol step-by-step`
 
 ### 3. Job search requests
-**Required Response:** `read .claude/protocols/job-search.md and follow the protocol step-by-step`
+**Required Response:** Invoke the `job-search` skill (`.claude/skills/job-search/SKILL.md`) — it runs the full pipeline (search → screen → auto company-research → auto position-fit-analysis → comprehensive report), not just the raw search step. Falls back to reading `.claude/protocols/job-search.md` directly only if the skill file is missing.
 
 ### 4. Company research requests
 **Required Response:** `read .claude/protocols/company-research.md and follow the protocol step-by-step`
