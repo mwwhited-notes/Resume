@@ -47,6 +47,12 @@ professional summary actually captures them — and iterate on feedback. Once co
 `target-list-generation` skill to produce the job-roles/target-companies/job-platforms files this
 resume now supports.
 
+**If this run replaced or substantially edited an *existing* master resume** (not a first-time build —
+there's nothing to sync yet on a genuinely new one), ask whether to run `consistency-check` afterward.
+Specialized resumes, ATS formats, and profile documents all derive from the master resume; a
+substantial rewrite drifts them out of sync the moment it's saved. Offer it, don't run it unprompted —
+same pattern as `self-audit`'s Phase 6.
+
 ## What NOT to Automate
 
 - **Never include an unverifiable metric.** Push for a real number during the interview; if the

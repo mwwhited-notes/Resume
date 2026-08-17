@@ -136,15 +136,32 @@ Skip this phase entirely on a default invocation. When the skill is invoked with
 3. **Generate materials per `targeted-application.md`'s Phase 5 templates:** resume, cover letter,
    and quick intro, using the master resume as the exclusive content source and the Phase 2
    company-research findings for language/positioning integration. File naming and location per that
-   protocol: `SearchResults/targeted/{CandidateName}-{Company}-{JobTitle}-{resume|coverletter|intro}.md`.
-4. **Track every qualifying position** — add to `apply-next.md` with status `❓ Match - Materials
-   Created`, score, compensation, and material file links (invoke the `application-lifecycle` skill's
-   conventions for this, don't hand-roll a different format).
+   protocol: `SearchResults/targeted/{CandidateName}-{Company}-{JobTitle}-{resume|coverletter|intro}.md`
+   (this directory lives under `SearchResults/`, which is private per the wrapper repo's publication
+   rules — targeted materials are never public).
+3a. **Ground-truth qualification check, while drafting — not before.** `position-fit-analysis.md`'s
+   composite score is a category-weighted estimate; actually writing the tailored resume against the
+   real job description's specific requirements is a stricter, more concrete test. While drafting each
+   position's materials, check honestly whether the master resume — even after the best legitimate
+   tailoring/emphasis — actually demonstrates the position's stated requirements. If it doesn't (the
+   fit was overestimated by the composite score, or the tailored resume would have to overstate
+   qualifications to look like a match), **stop drafting that position's materials.** Do not produce
+   the misleading resume. Instead, reclassify the position: per the `application-lifecycle` skill's
+   Withdrawn-vs-Rejected philosophy, this is **Withdrawn** (self-determined, before any employer
+   acted), not Rejected (that term is reserved for an employer decision) — invoke `application-lifecycle`
+   to record it that way, with a note citing the specific gap discovered during drafting, rather than
+   leaving it in the active pipeline or silently skipping it.
+4. **Track every qualifying position that survived 3a** — add to `apply-next.md` with status `❓ Match
+   - Materials Created`, score, compensation, and material file links (invoke the `application-lifecycle`
+   skill's conventions for this, don't hand-roll a different format).
 5. **Write the batch summary** at `SearchResults/targeted/Batch_Analysis_{yyyyMMdd}.md` per
    `batch-position-analysis.md`'s template (counts, qualifying-positions table, application strategy,
-   next steps) — this is in addition to, not instead of, the Phase 4 comprehensive report.
+   next steps) — this is in addition to, not instead of, the Phase 4 comprehensive report. Note any
+   positions reclassified to Withdrawn in 3a here too, so the count reconciles.
 6. **Learning-gap pass:** per `targeted-application.md`'s Phase 9, note any recurring skill/technology
-   gaps found across the qualifying positions in `SearchResults/Lessons/suggested.md`.
+   gaps found across the qualifying positions in `SearchResults/Lessons/suggested.md` — a 3a
+   reclassification is itself a strong learning-gap signal (the specific stated requirement that didn't
+   hold up), worth feeding in here even more than a merely-weak score would be.
 
 ## What NOT to Automate
 
@@ -154,6 +171,9 @@ Skip this phase entirely on a default invocation. When the skill is invoked with
 - **Never silently soften a rule to produce more candidates.** If a whole run turns up zero qualifying
   candidates, say so plainly (it has happened before) rather than relaxing comp-disclosure, commute, or
   exclusion criteria to manufacture a result.
+- **Never finish drafting a resume that overstates fit just because a score said to.** Phase 5's 3a
+  check exists specifically to catch this — a composite score is an estimate, not a guarantee, and
+  producing polished-but-misleading materials is worse than reclassifying the position as Withdrawn.
 - **Ambiguous exclusion calls still go to the user**, not a unilateral decision — e.g. a company whose
   disqualifying evidence is genuinely thin (a single-source report, an unclear ownership split) should
   be flagged for a decision, following the pattern already established for prior close calls (PE-adjacent

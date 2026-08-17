@@ -49,10 +49,60 @@ detail, prioritized recommendations) and
 `SearchResults/Portfolio/missing-elements-summary_{yyyyMMdd}.md` (top 5 missing achievements, top 3
 quantification opportunities, immediate action items) per the protocol's exact templates.
 
+### Phase 5 — Draft Concrete Master Resume Edits
+
+A bullet-point recommendation ("update your download count") still leaves the actual editing work to
+a separate pass. Close that gap: for every High and Medium priority item from Phase 4, draft the
+**actual suggested text** — quote the current line from `resumes/master-resume.md` verbatim, then show
+the proposed replacement, so the user is looking at a real edit to approve, not a to-do item to
+translate themselves later.
+
+Write this to `SearchResults/Portfolio/suggested-resume-edits_{yyyyMMdd}.md`:
+
+```markdown
+# Suggested Master Resume Edits — {date}
+Source: comprehensive-findings_{yyyyMMdd}.md
+
+## [Section name, e.g. "Community Impact Metrics"]
+**Master resume line ~{N}:**
+> {exact current text, quoted verbatim}
+
+**Suggested replacement:**
+> {drafted new text}
+
+**Why:** {one line — the specific audit finding driving this change}
+
+[repeat per item]
+```
+
+Low-priority items and anything genuinely unverified (LinkedIn/Discord-type findings) don't need a
+drafted edit — list those as open questions instead, since there's no verified text to propose yet.
+
+### Phase 6 — Ask, Then Apply, Then Offer to Sync
+
+Don't stop at handing over a file of drafted edits and waiting to be asked again later — that's the
+exact gap Phase 5 was added to close, and leaving the loop open at the last step defeats the point.
+Once Phase 5's document exists:
+
+1. **Ask directly whether to apply the drafted edits** (all of them, or a subset) — present it as a
+   real choice, not a rhetorical one, but don't make the user separately re-request what was just
+   drafted for exactly this purpose.
+2. **If yes, apply them** to `resumes/master-resume.md` using the exact quoted before/after text from
+   Phase 5 — this is the one point where editing the master resume directly *is* in scope for this
+   skill, specifically because it's now an approved, reviewed edit rather than a blind suggestion.
+3. **After applying, ask whether to run `consistency-check`.** Any change to the master resume creates
+   drift against every derivative document (specialized resumes, ATS formats, profiles) the moment
+   it's saved — `consistency-check` exists precisely to propagate that. Don't silently run it
+   unprompted (it's a separate skill with its own scope), but do proactively surface it as the obvious
+   next step rather than leaving the user to remember it's needed.
+4. **Open-question items** (Phase 5's low-priority/unverified list) don't get applied even if the user
+   says yes to "apply the drafted edits" — there's no drafted text for those, by design; surface them
+   again as still-open rather than silently dropping them.
+
 ## What NOT to Automate
 
-- **Never edit the master resume directly as part of this skill** — self-audit produces
-  recommendations; folding a finding into the actual resume is a separate, explicit follow-up (hand
-  off to a normal resume-editing pass, or `consistency-check` once the addition is decided).
+- **Don't apply Phase 5's drafted edits without asking first**, even though applying *is* in scope for
+  this skill once approved (see Phase 6) — draft quality never substitutes for the explicit go-ahead.
+- **Don't run `consistency-check` unprompted** after applying edits — offer it, don't assume it.
 - **Every recommendation needs a specific online source**, not a vague "you should mention your
   leadership more" — cite the repo, the answer, the metric.

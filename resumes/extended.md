@@ -371,7 +371,7 @@ Electronics technician for digital and analog circuits. Hand assemble and machin
 
 ### Profile Links
 
-- **[GitHub](https://github.com/mwwhited)** - 7 personal repositories + organizations (mwwhited-notes, OutOfBandDevelopment, mwwhited-forks with 58 curated forks, mwwhited-archives), Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
+- **[GitHub](https://github.com/mwwhited)** - 7 personal repositories + organizations (mwwhited-notes, OutOfBandDevelopment, mwwhited-forks with 60 curated forks, mwwhited-archives), Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck, Pair Extraordinaire
   - [Microcontrollers, Arduino, FPGA](https://github.com/mwwhited/EmbeddedBakery)
   - [Coding Challenges: Algorithms and Services](https://github.com/mwwhited-forks/ChallengeAccepted)
   - [Extensions for .Net](https://github.com/OutOfBandDevelopment/dotex)

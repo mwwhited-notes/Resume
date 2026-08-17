@@ -345,7 +345,7 @@ Networking (cabling, routing, bridging and management). Computer technician (tro
   
 ## Profile Links
 
-- **[GitHub](https://github.com/mwwhited)** - 7 personal repositories + organizations (mwwhited-notes, OutOfBandDevelopment, mwwhited-forks with 58 curated forks, mwwhited-archives), Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck
+- **[GitHub](https://github.com/mwwhited)** - 7 personal repositories + organizations (mwwhited-notes, OutOfBandDevelopment, mwwhited-forks with 60 curated forks, mwwhited-archives), Arctic Code Vault Contributor with achievements: Pull Shark (x2), Quickdraw, YOLO, Starstruck, Pair Extraordinaire
 - **[LinkedIn](https://www.linkedin.com/in/mwwhited/)**
 - **[Stack Overflow](http://stackoverflow.com/users/89586/matthew-whited)** - 22,510+ reputation, 600+ solutions, nearly 5 million user reach
 - **[Stack Exchange](https://stackexchange.com/users/32329/matthew-whited)**
