@@ -1,6 +1,6 @@
 ---
 name: job-search
-description: Run the full job-search pipeline end to end — search for openings, screen them against every exclusion rule, and for anything that survives, automatically chain into company research and then position-fit analysis, finishing with one comprehensive report. Use when the user asks to search for jobs, run a job search, find openings, or look for positions — this is the "do it all the way through" version of job-search.md, not just the raw search step. Triggers on "do a job search", "search for jobs", "find me jobs", "look for openings", "run the job search", "job search today".
+description: Run the full job-search pipeline end to end — search for openings, screen them against every exclusion rule, and for anything that survives, automatically chain into company research and then position-fit analysis, finishing with one comprehensive report. Pass "apply" as an argument to continue past the report and generate resume/cover-letter/intro materials for every qualifying (≥7.5/10) candidate, with no cap on how many. Use when the user asks to search for jobs, run a job search, find openings, or look for positions — this is the "do it all the way through" version of job-search.md, not just the raw search step. Triggers on "do a job search", "search for jobs", "find me jobs", "look for openings", "run the job search", "job search today"; the apply mode additionally triggers on "do a targeted job search", "find jobs and create applications for them", "create targeted resumes and cover letters", "analyze all these positions and create materials".
 ---
 
 # Job Search Pipeline
@@ -10,15 +10,25 @@ automatically chain into `company-research.md` and then `position-fit-analysis.m
 this skill, that chaining only happens if someone remembers to ask for each step in turn. Invoking
 this skill means: run the whole pipeline, unattended, and hand back one finished report.
 
+`targeted-application.md` and `batch-position-analysis.md` describe what is really the same pipeline
+at a second depth — search, score, *then also* generate application materials for everything that
+qualifies — not a separate pipeline. Rather than re-run Phases 0–3 from scratch under a different
+skill (which is what happens if `targeted-application.md` is followed literally: its own Phase 1 says
+"read job-search.md and execute all steps," re-triggering company-research and position-fit-analysis
+that may have just run), this skill absorbs both as an optional continuation: pass `apply` as the
+skill argument to go all the way to application materials in one pass. Default (no argument) stops at
+the report, same as before.
+
 ## Protocols This Orchestrates
 
 Read each of these in full before running the phase it governs — this skill does not restate their
 content, only the order and automation layer on top:
 
 1. `.claude/protocols/job-search.md` — search execution, exclusion screening, LinkedIn MCP usage
-2. `.claude/protocols/company-research.md` — Phase 0 fast-exclusion check, then full research if it clears
-3. `.claude/protocols/position-fit-analysis.md` — per-posting scoring once the company is approved
-4. `.claude/protocols/target-list-generation.md` — only if `SearchResults/Targets/target-companies.md` is missing or stale
+2. `.claude/protocols/company-research.md` — Phase 0 fast-exclusion check, then full research if it clears (or invoke the `company-research` skill directly, which wraps the same logic)
+3. `.claude/protocols/position-fit-analysis.md` — per-posting scoring once the company is approved (or invoke the `position-fit-analysis` skill directly)
+4. `.claude/protocols/target-list-generation.md` — only if `SearchResults/Targets/target-companies.md` is missing or stale (or invoke the `target-list-generation` skill directly)
+5. **`apply` mode only:** `.claude/protocols/targeted-application.md` and `.claude/protocols/batch-position-analysis.md` — resume/cover-letter/intro generation and tracking. Skip their own Phase 1 (re-running the search) entirely — Phases 0–3 below already covered it.
 
 ## Pipeline
 
@@ -112,10 +122,35 @@ Compile everything from Phases 1–3 into `SearchResults/Jobs/comprehensive-job-
 
 Update the "Last MCP Search Run" date in `SearchResults/Jobs/linkedin.md` as the final step.
 
+### Phase 5 — Application Materials (Only If Invoked With `apply`)
+
+Skip this phase entirely on a default invocation. When the skill is invoked with `apply`:
+
+1. **Threshold, no cap.** Every posting scored ≥7.5/10 in Phase 3 qualifies — per
+   `batch-position-analysis.md`, there is no maximum count (this supersedes the older 5–8 cap
+   language in `targeted-application.md`; more recent protocol wins). If zero positions cleared
+   Phase 3, say so and stop — don't lower the threshold to manufacture candidates.
+2. **Duplicate check first.** For each qualifying position, check `SearchResults/applied-to.md` and
+   `SearchResults/apply-next.md` for an existing entry before creating materials. Already-applied
+   positions get skipped with a one-line note, not new materials.
+3. **Generate materials per `targeted-application.md`'s Phase 5 templates:** resume, cover letter,
+   and quick intro, using the master resume as the exclusive content source and the Phase 2
+   company-research findings for language/positioning integration. File naming and location per that
+   protocol: `SearchResults/targeted/{CandidateName}-{Company}-{JobTitle}-{resume|coverletter|intro}.md`.
+4. **Track every qualifying position** — add to `apply-next.md` with status `❓ Match - Materials
+   Created`, score, compensation, and material file links (invoke the `application-lifecycle` skill's
+   conventions for this, don't hand-roll a different format).
+5. **Write the batch summary** at `SearchResults/targeted/Batch_Analysis_{yyyyMMdd}.md` per
+   `batch-position-analysis.md`'s template (counts, qualifying-positions table, application strategy,
+   next steps) — this is in addition to, not instead of, the Phase 4 comprehensive report.
+6. **Learning-gap pass:** per `targeted-application.md`'s Phase 9, note any recurring skill/technology
+   gaps found across the qualifying positions in `SearchResults/Lessons/suggested.md`.
+
 ## What NOT to Automate
 
-- **Never auto-apply.** This skill produces a report and recommendation; submitting an application is
-  always a separate, explicit user decision.
+- **Never auto-apply.** Materials generation (`apply` mode) still only produces drafts — actually
+  submitting an application is always a separate, explicit user decision. "Apply mode" is a naming
+  collision with "submit an application"; it means "prepare materials," nothing more.
 - **Never silently soften a rule to produce more candidates.** If a whole run turns up zero qualifying
   candidates, say so plainly (it has happened before) rather than relaxing comp-disclosure, commute, or
   exclusion criteria to manufacture a result.

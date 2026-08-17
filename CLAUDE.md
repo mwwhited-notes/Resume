@@ -11,39 +11,60 @@
 
 ## Critical User Commands - MEMORIZED
 
+**Note (August 2026):** Most of the commands below now have a dedicated skill in `.claude/skills/`
+rather than relying on remembering to read the underlying protocol — invoke the skill by name via the
+Skill tool; it orchestrates the protocol rather than replacing it. Fall back to `read
+.claude/protocols/{name}.md and follow it step-by-step` only if the skill file is ever missing.
+
 ### 1. "make sure everything is up to date"
-**Required Response:** `read .claude/protocols/consistency-check.md and do what it says`
+**Required Response:** Invoke the `consistency-check` skill.
 
 ### 2. "update the TOC" or "Table of Contents"
-**Required Response:** `read .claude/protocols/readme-maintenance.md and follow the protocol step-by-step`
+**Required Response:** `read .claude/protocols/readme-maintenance.md and follow the protocol step-by-step` (no dedicated skill yet — this one's simple/mechanical enough that a skill wrapper wasn't judged worth it)
 
 ### 3. Job search requests
-**Required Response:** Invoke the `job-search` skill (`.claude/skills/job-search/SKILL.md`) — it runs the full pipeline (search → screen → auto company-research → auto position-fit-analysis → comprehensive report), not just the raw search step. Falls back to reading `.claude/protocols/job-search.md` directly only if the skill file is missing.
+**Required Response:** Invoke the `job-search` skill — it runs the full pipeline (search → screen →
+auto company-research → auto position-fit-analysis → comprehensive report), not just the raw search
+step. Pass `apply` as the skill argument if the user also wants application materials generated for
+every qualifying (≥7.5/10) result — this replaces separately invoking `targeted-application.md` or
+`batch-position-analysis.md`, which are now absorbed into `job-search`'s apply mode rather than
+separate flows.
 
 ### 4. Company research requests
-**Required Response:** `read .claude/protocols/company-research.md and follow the protocol step-by-step`
+**Required Response:** Invoke the `company-research` skill — it runs the fast Phase 0 exclusion
+pre-check first (existence, named blacklist, PE/VC/dual-class/DOGE-alignment) and only pays for the
+full research pass if that clears.
 - **CRITICAL: Always identify primary industry** to verify against exclusion list
 
 ### 5. Self-audit requests
-**Required Response:** `read .claude/protocols/self-audit.md and follow the protocol step-by-step`
+**Required Response:** Invoke the `self-audit` skill.
 
 ### 6. Career system generation requests
-**Required Response:** `read .claude/protocols/career-system-generator.md and follow the protocol step-by-step`
+**Required Response:** Invoke the `career-system-generator` skill.
 
 ### 7. Targeted application creation
-**Required Response:** `read .claude/protocols/targeted-application.md and execute all steps`
+**Required Response:** Invoke the `job-search` skill with the `apply` argument (see #3) — do not
+invoke `targeted-application.md` directly, it now runs as part of `job-search`'s apply mode to avoid
+re-running the search/research/scoring phases from scratch.
 
 ### 8. Position fit analysis with URL: "how well do I fit this position {url}"
-**Required Response:** `read .claude/protocols/position-fit-analysis.md and execute all steps`
+**Required Response:** Invoke the `position-fit-analysis` skill — accepts one URL or many.
 
 ### 9. Personalized learning plan creation: "I need to know more about {topic}"
-**Required Response:** `read .claude/protocols/personalized-learning-plan.md and execute all steps`
+**Required Response:** Invoke the `personalized-learning-plan` skill.
 
 ### 10. Build a master resume from scratch
-**Required Response:** `read .claude/protocols/master-resume-builder.md and execute all steps`
+**Required Response:** Invoke the `master-resume-builder` skill.
 
 ### 11. Generate target lists (companies, job roles, platforms)
-**Required Response:** `read .claude/protocols/target-list-generation.md and execute all steps`
+**Required Response:** Invoke the `target-list-generation` skill.
+
+### 11a. Application status updates — "I applied to [Company]", "I got an interview/offer at
+[Company]", "I was rejected by [Company]", forwarded rejection emails
+**Required Response:** Invoke the `application-lifecycle` skill — it replaces separately invoking
+`application-tracking.md`, `rejection-handling.md`, `rejection-tracking.md`, or
+`application-status-management.md`, which are now one consolidated flow against the same tracking
+files.
 
 ### 12. "refresh the virtual recruiter" or "update virtual-recruiter"
 **Required Response:** Update the `./virtual-recruiter/` template project
