@@ -26,6 +26,27 @@ This protocol provides a systematic approach to conducting comprehensive job sea
 
 See **Step 4.5** below for exactly how and when this chaining executes during a search.
 
+## Active Search Sources — Current Standing Policy (Added August 17, 2026)
+
+**LinkedIn job search is DISABLED for now.** Confirmed this session (independently, across three
+separate sub-agent runs) that `mcp__linkedin__search_jobs`'s `keywords` parameter does not filter by
+company name at all — combining a company name with a title term returns an identical generic
+"recommended for you" feed regardless of what's queried. This invalidated most of a prior session's
+per-company LinkedIn screening. Until the tool (or a replacement) is verified reliable again, **do not
+run LinkedIn searches** — skip the `#### LinkedIn Jobs` section below and the MCP health-check step
+entirely.
+
+**Only run the targeted search for now:** the `#### Direct Company Career-Page Search` section below
+(the Playwright scraper against `SearchResults/Targets/target-companies.md` / `companies.json`). This
+matches the user's own stated preference ("prefer to check the direct company pages over LinkedIn"),
+which this finding independently vindicates. Indeed/ZipRecruiter/Dice/Glassdoor/Monster and the other
+platform categories further below are retained for reference but are not part of the active rotation
+right now either — direct company career-page search is the only source in active use.
+
+This is a standing policy, not a one-time skip — don't silently re-enable LinkedIn search in a future
+run without either (a) confirming the keyword-filtering bug has actually been fixed upstream, or (b)
+an explicit user instruction to turn it back on.
+
 ## When to Execute This Protocol
 - Quarterly job market assessment
 - When considering career transitions
@@ -140,7 +161,7 @@ Execute searches and create individual platform analysis files.
 - Work preference terms (remote, hybrid, etc.)
 - Technology keywords from master resume
 
-#### LinkedIn Jobs
+#### LinkedIn Jobs — **DISABLED, see "Active Search Sources" note above**
 - **Search Terms:** [Primary job titles] + [key technologies] + [location preference] + [experience level]
 - **Advanced Filters:** Work type preference, experience level, technology industry
 - **Output File:** `SearchResults/Jobs/linkedin.md`
@@ -163,7 +184,22 @@ Uses [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linked
 
 #### Direct Company Career-Page Search (S&P 500 / NASDAQ target list)
 
-**Target list:** `SearchResults/Targets/target-companies.md` "Category 6" holds a pre-screened list of publicly-traded companies (S&P 500 + NASDAQ, merged/deduplicated) with real in-house software engineering orgs, already run through the full exclusion pipeline (named individuals/investors, DOGE/Trump/MAGA board + corporate donations, VC/PE-backed, dual-class share structure, IT staff-augmentation business model, Larry Ellison family, recruiting/staffing firms). Being a major public-index constituent inherently clears the VC/PE exclusion for almost all of these, which is most of the value of maintaining this list. Re-run the exclusion checks on any *new* addition before trusting it — the existing 100+ entries don't need re-checking unless a specific company's status changes (acquisition, go-private, etc.).
+**Target list:** `SearchResults/Targets/target-companies.md` — reorganized August 17, 2026 from a
+"Category N, added on date X" structure into industry-sector headings (Enterprise Technology &
+Software, Healthcare & Life Sciences, Financial Services & Insurance, Industrials/Manufacturing/
+Logistics, Energy & Utilities, Real Estate, Consumer/Retail/Travel, plus a separately flagged Executive
+Search & Professional Services Firms section). There is no longer a single "Category 6" block — the
+publicly-traded S&P 500/NASDAQ companies with real in-house software engineering orgs are now spread
+across every industry section (most rows in the file are public companies; a handful of explicitly
+noted private/family-owned companies are mixed in per-section). All of them have already been run
+through the full exclusion pipeline (named individuals/investors, DOGE/Trump/MAGA board + corporate
+donations, VC/PE-backed, dual-class share structure, IT staff-augmentation business model, Larry
+Ellison family, recruiting/staffing firms) — being a major public-index constituent inherently clears
+the VC/PE exclusion for almost all of these, which is most of the value of maintaining this list.
+Re-run the exclusion checks on any *new* addition before trusting it — existing entries don't need
+re-checking unless a specific company's status changes (acquisition, go-private, etc.). When
+regenerating `companies.json` from this file for the scraper, pull from every industry section, not
+just one.
 
 **Do NOT use plain WebFetch to search these companies' career pages.** Discovered August 2026: most corporate ATS platforms (Workday, Greenhouse, Eightfold, Phenom People, Oracle Cloud Recruiting, custom React SPAs) render job listings via client-side JavaScript. WebFetch only retrieves the static HTML shell before that JS executes, so it returns empty results indistinguishable from a genuine zero — this produced dozens of false "portal not searchable" results in earlier attempts, wasting significant effort re-discovering the same limitation across parallel agents.
 
@@ -180,6 +216,12 @@ Uses [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linked
 - **Update `companies.json`** as the target list changes (new companies added, career URLs change) rather than maintaining a second, drifting copy of the list. Newly-excluded companies don't need manual removal — the automatic exclusion check handles that on the next run.
 - **Never delete a newly-excluded company's entry from `companies.json` — flag it instead.** Add `"excluded": true` and `"excludedReason": "<short reason + date, see excluded-companies.md>"` to its object (the scraper checks this flag before the name-match check and skips immediately). Deleting the entry outright means a future S&P/NASDAQ rescan that regenerates or merges into `companies.json` has no record that the company was already reviewed and rejected — it could get silently re-added and re-scraped as if it were new. This mirrors the strikethrough + **REMOVED (date)** annotation convention already used in `SearchResults/Targets/target-companies.md` — keep both files in that same "flag, don't delete" style.
 - **Tool choice is not fixed to Playwright** — Puppeteer works identically for this use case (the top-level `scripts/job-search/job-search.js` already uses Puppeteer for platform search automation). Playwright was used here because it was already set up in-session; either is fine going forward, whichever is faster to reach for.
+- **Automatic redirect-to-a-different-company detection.** After navigation, the scraper compares the requested URL's registrable domain to the final page's registrable domain. A same-company subdomain hop (e.g. `nvidia.com` → `jobs.nvidia.com`) is ignored; a landing on a genuinely different company's domain (e.g. `hashicorp.com` → `ibm.com`, `cyberark.com` → `paloaltonetworks.com`) is flagged as `possibleAcquisitionRedirect: {from, to}` on that company's result and printed in the run summary. **When this fires: verify it's a real acquisition (a quick WebSearch confirming the deal/closing date is enough), and if the redirect target is already its own row in `target-companies.md`, remove the source company's row entirely rather than keeping both** — this is exactly the HashiCorp/IBM and CyberArk/Palo Alto Networks pattern found and fixed manually on August 17, 2026, now caught automatically going forward. Don't auto-delete without confirming the acquisition first — a redirect can also mean a rebrand, a temporary outage page, or an unrelated domain squat.
+
+**Troubleshooting an "unreachable" or "no-match" result before concluding a company has no openings** (added August 18, 2026, after a run produced 9 "unreachable" results out of 169):
+1. **Verify the URL in `target-companies.md`/`companies.json` is actually correct first.** Several "unreachable" results traced back to a stale or simply wrong Careers URL (e.g. `careers.jll.com` doesn't resolve at all — the real portal is `jll.wd1.myworkdayjobs.com/jllcareers`; `prudential.com/careers` refused the connection — the real portal is `jobs.prudential.com/us-en`). A WebSearch for "`{Company}` careers page official URL" resolves this in one call — do this before assuming the site itself is broken.
+2. **Confirm the Playwright scraper (not plain WebFetch) was actually used.** Plain WebFetch only sees the pre-JS static HTML shell on most modern ATS platforms (Workday, Greenhouse, Eightfold, Phenom People, Oracle Cloud Recruiting, custom SPAs) — an empty/no-listings result from WebFetch is indistinguishable from a genuine zero and must not be trusted. `career-portal-scraper.js` renders the page with a real (headless) browser first.
+3. **A same-URL retry with the scraper is now automatic** for a subset of transient errors (`ERR_HTTP2_PROTOCOL_ERROR`, `ERR_HTTP_RESPONSE_CODE_FAILURE`, navigation timeout) — the scraper retries once in a fresh browser context before giving up. If a company is still `unreachable` after that automatic retry, it's more likely a genuinely wrong/dead URL (fix per step 1) than a transient hiccup.
 
 **One-time login** (do this whenever the session expires or on first setup):
 ```bash
@@ -244,7 +286,9 @@ claude mcp get linkedin   # should show "✔ Connected"
 ### Category 2: Executive Recruiting Firms
 Research and document executive search opportunities.
 
-**Reference:** `./SearchResults/Targets/target-companies.md` - Category 2: Executive Search Firms
+**Reference:** `./SearchResults/Targets/target-companies.md` - "Executive Search & Professional
+Services Firms" section (flagged/use-with-caution — a different relationship type than a direct
+employer; verify direct-hire terms before treating any sourced posting as a real lead).
 
 #### Search Process
 - Read target executive search firms from `./SearchResults/Targets/target-companies.md`
@@ -273,9 +317,9 @@ Read `./SearchResults/Targets/job-platforms.md` to identify specialized platform
 ### Category 4: Major Consulting Firms & Fortune 500 Companies
 Research technology leadership opportunities in consulting and Fortune 500 companies.
 
-**Reference:** `./SearchResults/Targets/target-companies.md`
-- Category 1: Major Consulting Firms
-- Category 3: Enterprise Technology Companies
+**Reference:** `./SearchResults/Targets/target-companies.md` - "Enterprise Technology & Software"
+section (Cloud/SaaS, Cybersecurity, Semiconductors sub-sections) and the "Executive Search &
+Professional Services Firms" section for consulting-adjacent firms.
 
 #### Research Process
 1. Read target companies from `./SearchResults/Targets/target-companies.md`
@@ -295,7 +339,9 @@ Research technology leadership opportunities in consulting and Fortune 500 compa
 Target platforms specializing in remote work opportunities.
 
 **Reference:** `./SearchResults/Targets/job-platforms.md` - Remote-First Platforms section
-**Reference:** `./SearchResults/Targets/target-companies.md` - Category 5: Remote-First Companies
+**Reference:** `./SearchResults/Targets/target-companies.md` - remote-first software companies now
+live at the bottom of the "Enterprise Technology & Software → Cloud, Enterprise SaaS & Data
+Infrastructure" sub-section (Zapier, Automattic, Buffer, Doist), not a standalone category.
 
 #### Search Process
 - Read platforms from `./SearchResults/Targets/job-platforms.md`
@@ -552,6 +598,8 @@ Either path produces:
 
 **Do not substitute an eyeballed/estimated fit score for the composite score these protocols produce.** Liveness verification is `position-fit-analysis.md`'s job, not this protocol's — but the outcome flows straight through: if that protocol's Link Liveness Verification (Phase 1) could not resolve a posting to confirmed-active (after retrying alternate URLs, date-mathing snippet dates, and cross-checking mirrors — see that protocol for the full sequence), do **not** add it to `apply-next.md`'s active pipeline regardless of composite score. Log it as **Monitor Only** instead. A single blocked WebFetch attempt, on its own, is never sufficient grounds to hand liveness verification off to the user.
 
+**Nor does a ≥7.0 composite score alone qualify an entry for `apply-next.md`.** `position-fit-analysis.md`'s Phase 3.5 (added August 18, 2026) requires an actual attempted tailored-resume draft against the specific named requirements in the posting for anything scoring ≥7.0 — if the master resume can't honestly support the posting's specific named tools/technologies without overstating, the position is rejected at this stage regardless of how strong the category-level score looks. Only a posting that survives that gate belongs in the Tier tables/apply-next.md below.
+
 #### 4.5.4: Carry Results Forward
 Use the verified composite scores and exclusion outcomes from 4.5.2/4.5.3 — not independent judgment — when building the Tier tables in Step 5 and the apply-next.md entries in Step 6.
 
@@ -800,8 +848,8 @@ That protocol is the authoritative decision tree for duplicate/withdrawn/archive
 
 ---
 
-**Last Updated:** 2026-07-23
+**Last Updated:** 2026-08-17
 **Next Scheduled Review:** 2026-10-23
-**Protocol Version:** 2.2 - v2.1 added Step 4.5 (Automatic Deep-Dive Verification): job discovery now automatically chains into company-research.md and position-fit-analysis.md/batch-position-analysis.md before ranking or apply-next.md entry, instead of requiring the user to separately request company research or fit analysis. Step 7 now resumes targeted-application.md at Phase 3 to avoid redundantly re-running the job search. Step 9 now delegates to rejection-handling.md instead of duplicating its logic inline. v2.2 (same day): a real search batch showed 3/3 "unverified, manual check needed" postings were actually dead when the user checked by hand — closed that gap by requiring position-fit-analysis.md to exhaust its own Link Liveness Verification sequence before ever handing an unresolved posting to the user, and by keeping unresolved postings out of apply-next.md's active pipeline entirely (Monitor Only instead).
+**Protocol Version:** 2.3 - v2.1 added Step 4.5 (Automatic Deep-Dive Verification): job discovery now automatically chains into company-research.md and position-fit-analysis.md/batch-position-analysis.md before ranking or apply-next.md entry, instead of requiring the user to separately request company research or fit analysis. Step 7 now resumes targeted-application.md at Phase 3 to avoid redundantly re-running the job search. Step 9 now delegates to rejection-handling.md instead of duplicating its logic inline. v2.2 (same day): a real search batch showed 3/3 "unverified, manual check needed" postings were actually dead when the user checked by hand — closed that gap by requiring position-fit-analysis.md to exhaust its own Link Liveness Verification sequence before ever handing an unresolved posting to the user, and by keeping unresolved postings out of apply-next.md's active pipeline entirely (Monitor Only instead). v2.3 (2026-08-17): LinkedIn search disabled per the new "Active Search Sources" standing policy (its keyword search doesn't filter by company name — confirmed independently 3 times) — direct company career-page search via `target-companies.md` is the only active source for now. All `target-companies.md` "Category N" cross-references updated to match that file's industry-sector reorganization (it no longer uses category numbers).
 
 *This protocol is designed to be reusable for any job seeker. All job titles, compensation requirements, exclusions, and preferences should be derived from the user's master resume (resumes/master-resume.md), CLAUDE.md configuration, and exclusion list (SearchResults/excluded-companies.md). Execute systematically using TodoWrite to track progress through each category and platform. The goal is creating a comprehensive market analysis that enables strategic career decision-making based on data-driven insights and competitive positioning.*

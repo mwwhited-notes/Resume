@@ -118,6 +118,40 @@ Exclude immediately if ANY of these apply:
 - Application Accessibility × 0.15
 - **Threshold for Auto-Application:** ≥7.5/10
 
+### Phase 3.5: Ground-Truth Resume Draft Gate (MANDATORY for any score ≥7.0) — Added August 18, 2026
+
+**A composite score is an estimate, not a verdict.** For any posting scoring ≥7.0 (the floor for even a
+"Possible Match" — this is not limited to `apply` mode or the ≥7.5 auto-application threshold),
+actually attempt to draft the position's tailored resume against the master resume before finalizing
+the recommendation:
+
+1. **Pull the position's actual stated requirements** — not a paraphrase, the specific named
+   technologies/tools/frameworks/certifications the posting lists (e.g. "Databricks, Apache Iceberg,
+   Apache Airflow, Terraform" is a materially different bar than "data platform architecture
+   experience").
+2. **Check each named requirement against `resumes/master-resume.md` directly** (grep for the specific
+   term, don't rely on category-level familiarity) — does the master resume show genuine hands-on
+   evidence, a clearly transferable adjacent skill, or nothing at all?
+3. **If the gaps are genuine and would require overstating scope/depth to paper over** (claiming deep
+   expertise in a named tool with zero resume evidence, not a reasonable adjacent-skill translation),
+   **do not draft the resume — reject the position instead, regardless of the composite score.** A high
+   score built on category-level averages (e.g. "Technical Match 8/10" from strong *adjacent* skills)
+   can still fail this gate if the posting's specific named stack has real, material gaps — the gate
+   exists precisely to catch that gap between "conceptually similar" and "can honestly claim."
+   Architecture-titled roles being stack-agnostic (per standing policy) means the *language/platform*
+   doesn't need to match — it does not mean every named *tool* in the posting is optional to have
+   genuine evidence for.
+4. **If the gaps are bridgeable with legitimate emphasis/reframing** (the master resume has real,
+   if differently-labeled, evidence), proceed to draft normally and continue to Phase 4.
+5. **Record the outcome either way** in the Position Analysis document (Phase 4's report) — a Reject
+   here needs the same "Potential Challenges or Gaps" honesty as a proceed, not a silent drop from the
+   report.
+6. This supersedes the older `targeted-application.md`/`job-search` skill Phase 5 language that framed
+   the equivalent check ("3a Ground-truth qualification check") as an `apply`-mode-only step gated at
+   ≥7.5/10 — that check still applies in full at that later stage, but this earlier gate means a
+   position with a genuine stack gap gets caught and rejected at Position Fit Analysis time, before it
+   ever reaches `apply-next.md` as an unqualified "Possible Match" or "High Priority" entry.
+
 ### Phase 4: Detailed Analysis Report
 
 #### Create Position Analysis Document
