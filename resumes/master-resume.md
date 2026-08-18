@@ -63,14 +63,13 @@
       - [Pre-Sales Engineering \& Business Development Excellence](#pre-sales-engineering--business-development-excellence)
       - ["Choose Your Own Adventure" R\&D \& Training Program](#choose-your-own-adventure-rd--training-program)
       - [Business Impact \& Technical Excellence](#business-impact--technical-excellence)
-    - [Chief Technology Officer / Chief Solutions Architect - Itrica (November 2009 - July 2015)](#chief-technology-officer--chief-solutions-architect---itrica-november-2009---july-2015)
+    - [Chief Solutions Architect / CTO - Itrica (November 2009 - July 2015)](#chief-solutions-architect--cto---itrica-november-2009---july-2015)
       - [Revolutionary Clinical Trial Systems](#revolutionary-clinical-trial-systems)
     - [Senior .Net Developer Contractor - TEKsystems (August 2007 - September 2010)](#senior-net-developer-contractor---teksystems-august-2007---september-2010)
       - [United Healthcare/Harrington Health (December 2008 - April 2010)](#united-healthcareharrington-health-december-2008---april-2010)
       - [JPMorgan Chase (June 2008 - December 2008)](#jpmorgan-chase-june-2008---december-2008)
       - [Safe Auto Insurance (April 2010 - September 2010)](#safe-auto-insurance-april-2010---september-2010)
     - [.Net Developer - The Dot Net Factory/EmpowerID, TEKsystems (August 2007 - April 2008)](#net-developer---the-dot-net-factoryempowerid-teksystems-august-2007---april-2008)
-    - [.NET Developer - SafeAuto Insurance (2007)](#net-developer---safeauto-insurance-2007)
     - [Software Engineer - 3SG Corporation (August 2006 - August 2007)](#software-engineer---3sg-corporation-august-2006---august-2007)
     - [Systems Engineer/Department Head - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)](#systems-engineerdepartment-head---eastland-fairfield-career-and-technical-schools-july-2000---august-2006)
   - [Skills Matrix](#skills-matrix)
@@ -505,8 +504,10 @@
 - **Message Architecture & Event Streaming:** **Azure Service Bus vs Storage Queue comparative analysis**, **Kafka and Azure Event Hubs implementation**, custom **IMessageSender framework** with generic queue providers, **CQRS event-driven architecture** (Itrica/MARS, GCA/Nucleus), **message routing architecture** with dependency injection integration
 - **Observability & Monitoring:** **Azure Application Insights production monitoring**, **Prometheus/Grafana infrastructure monitoring**, distributed tracing for enterprise applications, **FinOps and cloud cost optimization** (77% Azure cost reduction)
 
-### Chief Technology Officer / Chief Solutions Architect - Itrica (November 2009 - July 2015)
+### Chief Solutions Architect / CTO - Itrica (November 2009 - July 2015)
 **FDA-Compliant CTMS Leadership - Dual CTO/CSA Role with Hands-On Development Management**
+**Location:** Quincy, MA / Gahanna, OH (Hybrid)
+**Title Progression:** Private Consultant, Senior Developer (Nov 2009 - Sep 2010, part-time alongside concurrent full-time roles at United Healthcare and Safe Auto Insurance) → Senior Engineer / Senior Software Architect (Sep 2010 - Mar 2015) → Chief Technology Officer / Development Manager (Jun 2011 - Feb 2014) → Chief Solutions Architect (Feb 2014 - Jul 2015)
 
 - **Merit-Based CTO/CSA Promotion:** Promoted by CEO as "most skilled senior architect on team" - uniquely combined CTO strategic responsibilities with CSA technical leadership and hands-on development management
 - **CTMS Architecture & Development:** Personally architected, built, and maintained the Clinical Trial Management System (CTMS) while simultaneously managing the development team - true player-coach model
@@ -530,6 +531,7 @@
 ### Senior .Net Developer Contractor - TEKsystems (August 2007 - September 2010)
 
 #### United Healthcare/Harrington Health (December 2008 - April 2010)
+**Location:** Columbus, OH (On-site)
 **EDI/X12 Healthcare Transaction Processing & Mainframe Integration**
 - **Production Deployment Risk Mitigation:** Prevented $500K+ documented overcharge by moving configuration from scripts to environment variables
 - **EDI/X12 Processing:** Healthcare transaction processing using industry-standard formats with banking transfer record automation
@@ -538,6 +540,7 @@
 - **WinBatch Automation:** Scripted EDI transformation and batch processing workflows for healthcare claims processing
 
 #### JPMorgan Chase (June 2008 - December 2008) 
+**Location:** Columbus, OH (On-site)
 **Financial Regulatory Compliance & Custom Framework Development**
 - **Broker/Dealer Compliance Tracking:** Designed and built application ensuring regulatory compliance including insider trading prevention
 - **Custom Query Framework:** Built custom data access framework due to Entity Framework limitations - early custom ORM development
@@ -545,25 +548,19 @@
 - **ASP.NET Enterprise Development:** Large-scale web application architecture with SQL Server backend for financial compliance
 
 #### Safe Auto Insurance (April 2010 - September 2010)
+**Location:** Columbus, OH (On-site)
 - **Enterprise Services:** Designed and implemented enterprise message passing services and deployment tools
 - **Communication:** Custom XSLT transformation processes and WCF services (WS-*, Basic HTTP, MSMQ)
 - **Tools Development:** Service deployment tools and batch processing systems
 
 ### .Net Developer - The Dot Net Factory/EmpowerID, TEKsystems (August 2007 - April 2008)
+**Location:** Dublin, OH (On-site)
 **Enterprise Identity Management & Protocol Engineering**
 - **Universal Authentication Connectors:** Created connectors for LDAP, eDirectory, Active Directory, Linux users/groups through API integration and protocol analysis
 - **Custom LDAP Server Implementation:** Built .NET service emulating complete LDAP authentication protocol through RFC analysis and Wireshark traffic reverse engineering
 - **Legacy Application Integration:** Enabled existing LDAP client applications to authenticate against modern IAM system without client changes
 - **Secure 2FA Enhancement:** GDI+ graphics rendering for multi-factor authentication cards preventing text extraction vulnerabilities
 - **Cross-Platform Authentication:** Universal identity management across heterogeneous enterprise environments
-
-### .NET Developer - SafeAuto Insurance (2007)
-**Insurance Platform Configuration Management & Automation**
-- **Configuration Management Crisis:** Complex, difficult-to-manage platform configurations across multiple deployment environments creating deployment bottlenecks
-- **XML/XSLT Automation Solution:** Created configuration management tool using simple XML definitions with collection of XSLT stylesheets for multi-platform generation  
-- **Single-Source Configuration:** Transformed per-platform manual configuration management into automated single-source deployment system
-- **Deployment Acceleration:** Simplified and accelerated application deployment and testing processes through template-based configuration generation
-- **XSLT Template Engine:** Flexible transformation system enabling rapid configuration adaptation for different platforms and environments
 
 ### Software Engineer - 3SG Corporation (August 2006 - August 2007)
 **Career Transition & Crisis Project Recovery - Database Administrator to Primary Developer**

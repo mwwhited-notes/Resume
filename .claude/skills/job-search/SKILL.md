@@ -151,6 +151,13 @@ Skip this phase entirely on a default invocation. When the skill is invoked with
    acted), not Rejected (that term is reserved for an employer decision) — invoke `application-lifecycle`
    to record it that way, with a note citing the specific gap discovered during drafting, rather than
    leaving it in the active pipeline or silently skipping it.
+   **Exception — degree requirements:** A posting's "Bachelor's Degree" (or any degree-level) Basic
+   Qualification, standing alone with no other unmet requirement, is not itself a 3a-disqualifying gap —
+   user's standing policy (confirmed 2026-08-17) is to treat 20+ years of senior/principal-level
+   experience as satisfying any degree-level attestation question. Don't stop drafting, and don't
+   reclassify to Withdrawn, over a bare degree-level mismatch alone. Still apply 3a normally to any
+   other unmet requirement (specific professional license/certification, a materially different tech
+   stack, an unmet years-of-experience threshold on a specific skill).
 4. **Track every qualifying position that survived 3a** — add to `apply-next.md` with status `❓ Match
    - Materials Created`, score, compensation, and material file links (invoke the `application-lifecycle`
    skill's conventions for this, don't hand-roll a different format).

@@ -151,12 +151,11 @@
 ### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
 ### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
 ### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
-### Chief Solutions Architect - Itrica Inc. (July 2022 - July 2023)
+### Chief Solutions Architect / CTO - Itrica (November 2009 - July 2015)
 ### Senior .Net Developer - Safe Auto Insurance, TEKsystems (April 2010 - September 2010)
 ### Senior .Net Developer - United Healthcare, TEKsystems (December 2008 - April 2010)
 ### Senior .Net Developer - JPMorgan Chase, TEKsystems (June 2008 - December 2008)
 ### .Net Developer - The Dot Net Factory, TEKsystems (August 2007 - April 2008)
-### .NET Developer - SafeAuto Insurance (2007)
 ### Software Engineer - 3SG Corporation (August 2006 - August 2007)
 ### Systems Engineer/Department Head - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)
 
