@@ -26,7 +26,10 @@ research battery.
 1. **Existence check.** Fetch the company's primary domain. Parked/for-sale/no-content → reject
    immediately, write a one-line note, stop.
 2. **Named exclusion check.** Quick scan of `SearchResults/excluded-companies.md`'s company blacklist,
-   recruiting/staffing-firm list, and IT-staff-aug/consulting list. Already listed → stop.
+   recruiting/staffing-firm list, and IT-staff-aug/consulting list, **plus
+   `SearchResults/Targets/removed-targeted-companies.md`** (some removals are target-list-specific —
+   a remote-policy failure or WLB-floor miss — and never got a write-up in the main exclusion file).
+   Already listed in either → stop.
 3. **PE/VC/dual-class/political ownership check (1–2 targeted searches, not the full battery).**
    Current policy is broad, not narrow — re-read the actual exclusion file rather than trusting memory
    of an earlier session, since these rules have changed shape multiple times:
@@ -70,7 +73,13 @@ research battery.
 4. If Phase 0 finds anything disqualifying (or the company can't be confirmed to exist) — **stop
    immediately.** Write a short exclusion note, not the full template, and skip straight to reporting
    back. Do not spend a single additional search on tech stack, culture, or WLB for a company already
-   excluded on ownership/political grounds.
+   excluded on ownership/political grounds. If the company has a row in
+   `SearchResults/Targets/target-companies.md`, move that row to
+   `SearchResults/Targets/removed-targeted-companies.md` under the matching reason section (dual-class,
+   PE ownership, VC-backed, Trump donation/Trump-branded program, named-individual/family political
+   alignment, government contractor, IT staff-aug, fails 100% remote/RTO, unlimited PTO, fails WLB
+   floor, industry exclusion, or flagged/unresolved) — don't leave a struck-through row in the active
+   file.
 5. Only proceed to the full protocol below if Phase 0 genuinely clears.
 
 ### Phase 1+ — Full Research (Only If Phase 0 Clears)

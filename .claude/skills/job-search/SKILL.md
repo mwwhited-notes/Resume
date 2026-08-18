@@ -54,7 +54,8 @@ order, cheapest checks first, so obviously-dead results don't consume later chec
 
 1. **Named/company-blacklist check** against `excluded-companies.md` (includes recruiting/staffing
    agencies, IT staff-aug/consulting firms, dual-class companies, VC/PE-backed companies, and the
-   individual company blacklist).
+   individual company blacklist) **and `SearchResults/Targets/removed-targeted-companies.md`** (some
+   removals are target-list-specific and never got a write-up in the main exclusion file).
 2. **Posting age** — hard exclude anything older than 30 days.
 3. **Compensation disclosed?** No listed compensation = automatic exclusion, no exceptions, regardless
    of how good the title/company looks. This has been the single biggest filter in every past run —

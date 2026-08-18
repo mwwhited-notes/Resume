@@ -142,10 +142,21 @@ For each relevant industry category:
 Before adding any company:
 ```
 Check against ./SearchResults/excluded-companies.md
+AND ./SearchResults/Targets/removed-targeted-companies.md
 ```
-Remove any companies that match exclusion criteria.
+Remove any companies that match exclusion criteria. Checking the removed-companies file too matters
+just as much as checking `excluded-companies.md` — a company can be a target-list-specific removal
+(remote-policy failure, WLB floor, etc.) that never needed a full entry in the broader exclusion
+policy file, so checking only `excluded-companies.md` will miss it.
 
-#### Step 3.4: Create/Update `./SearchResults/Targets/target-companies.md`
+#### Step 3.4: Create/Update `./SearchResults/Targets/target-companies.md` — Active Targets Only
+
+**`target-companies.md` holds ONLY currently-approved, active targets — never leave a removed company
+struck through in place.** This keeps the file lean and fast to work with as the removed-company count
+grows into the hundreds. When a company already on the list gets excluded (new political finding, RTO
+policy discovered, dual-class confirmed, etc.), **move its row out of `target-companies.md` and into
+`./SearchResults/Targets/removed-targeted-companies.md`** with the reason and date — don't just
+strike it through and leave it in place.
 
 **Structure:**
 ```markdown
@@ -153,6 +164,9 @@ Remove any companies that match exclusion criteria.
 
 **Generated From:** Master Resume Analysis
 **Last Updated:** [Current Date]
+
+**Note:** This file contains only active/approved targets. Removed companies live in
+`removed-targeted-companies.md` alongside this file — check there before re-adding anything.
 
 ---
 
@@ -163,6 +177,67 @@ Remove any companies that match exclusion criteria.
 
 [Repeat for each category]
 ```
+
+#### Step 3.5: Create/Update `./SearchResults/Targets/removed-targeted-companies.md` — Removal Archive
+
+**Structure — grouped by reason, not by the category the company came from** (a reason-based
+grouping is what makes this file useful as a quick reference — "is this company already ruled out,
+and why" is the question this file answers, and that's answered fastest by reason, not by which
+sector sweep originally found the company):
+
+```markdown
+# Removed Target Companies (Reference Archive)
+
+**Purpose:** Every company once on `target-companies.md` that got removed, with reason and date.
+Check here before re-adding anything to the active list.
+
+---
+
+## Dual-Class Share Structure
+| Company | Ticker | Reason | Date |
+|:--------|:------:|:-------|:-----|
+| [Company] | [Ticker] | [Specific dual-class finding] | [Date] |
+
+## Private Equity Ownership
+[same table format]
+
+## Venture Capital-Backed (Never IPO'd)
+[same table format]
+
+## Trump 2025 Inaugural Fund / Trump Accounts / Political Donations
+[same table format]
+
+## Named-Individual / Family Political Alignment
+[same table format]
+
+## Government Contractor
+[same table format]
+
+## IT Staff-Augmentation / Consulting Business Model
+[same table format]
+
+## Fails 100% Remote Requirement / RTO Mandate
+[same table format]
+
+## Unlimited PTO (Auto-Reject Benefit)
+[same table format]
+
+## Fails Mandatory WLB / Glassdoor Floor
+[same table format]
+
+## Industry Exclusion (InsurTech vendor, adtech, etc.)
+[same table format]
+
+## Flagged / Unresolved — Not a Confirmed Exclude
+[same table format, for genuinely ambiguous cases pending user decision or follow-up research]
+
+## Other / Structural
+[same table format, for anything that doesn't fit a category above]
+```
+
+A company with more than one disqualifying reason goes under whichever reason was found/confirmed
+first (or whichever is most significant), with the secondary reason noted in its own row's
+description — don't duplicate the same company across multiple reason sections.
 
 ---
 
@@ -262,7 +337,9 @@ Before proceeding with job search:
 - **Quarterly Update:** Refresh all target lists
 - **After Resume Updates:** Regenerate if master resume changes significantly
 - **Market Changes:** Update when industry or market shifts occur
-- **Company Status Changes:** Remove companies that have layoffs, acquisitions, or exclusion triggers
+- **Company Status Changes:** Remove companies that have layoffs, acquisitions, or exclusion triggers —
+  move the row to `removed-targeted-companies.md` under the matching reason section, don't leave a
+  struck-through row in `target-companies.md`
 
 ---
 

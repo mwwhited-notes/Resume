@@ -27,14 +27,23 @@ understanding of exclusion scope, it has changed shape (and grown considerably) 
 Executive leadership, principal/senior architecture, engineering leadership, specialized, and
 consulting/advisory role titles, all derived from the master resume — not invented titles.
 
-### Phase 3 — Generate `SearchResults/Targets/target-companies.md`
+### Phase 3 — Generate `SearchResults/Targets/target-companies.md` (Active Targets Only)
 
 For each relevant category (enterprise technology, high-growth, remote-first, industry-specific,
 consulting firms/executive search if applicable), populate companies **and cross-reference every one
-against `excluded-companies.md` before including it** — this is the step most likely to silently go
-stale, since the exclusion file changes far more often than the target list gets regenerated. A
-company that was fine six months ago may now be VC-backed, dual-class, or have a fresh political
-finding; don't assume a name surviving in an old list is still clean.
+against `excluded-companies.md` AND `SearchResults/Targets/removed-targeted-companies.md`** before
+including it — this is the step most likely to silently go stale, since the exclusion file changes far
+more often than the target list gets regenerated. A company that was fine six months ago may now be
+VC-backed, dual-class, or have a fresh political finding; don't assume a name surviving in an old list
+is still clean. Checking the removed-companies file matters just as much as the main exclusion policy
+file — some removals are target-list-specific (a remote-policy failure, a WLB-floor miss) and never
+needed a full write-up in `excluded-companies.md`.
+
+**`target-companies.md` holds active/approved targets only.** When an already-listed company gets
+newly excluded, move its row into `removed-targeted-companies.md` under the matching reason section
+(grouped by reason, not by which category originally found it) — never leave a struck-through row in
+place in the active file. This is what keeps the active file fast to scan as the removed-company count
+grows.
 
 ### Phase 4 — Generate `SearchResults/Targets/job-platforms.md`
 
@@ -52,3 +61,6 @@ against the current exclusion list, not an assumed-still-valid prior pass.
   check is exactly how a stale, since-excluded company ends up back in active search results.
 - **Don't invent job titles or companies not grounded in the master resume / real research** — every
   entry needs a traceable source.
+- **Don't leave removed companies struck-through in `target-companies.md`.** Move them to
+  `removed-targeted-companies.md` under the matching reason section instead — the whole point of the
+  two-file split is an active list that stays fast to scan, not a growing list of dead rows.
