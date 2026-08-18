@@ -46,6 +46,10 @@ research battery.
      covers money moving toward any Trump-branded/Trump-created program even without a direct
      campaign/PAC/inaugural donation (e.g. matching employee contributions into "Trump Accounts") —
      "any company that gave money to Trump" is read broadly, not limited to direct-to-Trump donations.
+     This explicitly includes funding **Project 2025** or **Freedom 250** (directly or via indirect
+     mechanisms like donor-advised funds) — same hard-exclude tier as a direct inaugural-fund donation.
+     Check `atr.org/trumpaccounts/` (the official Americans for Tax Reform Trump Accounts contributor
+     list) directly for any company being researched — it catches donations a plain news search misses.
    - **Named-individual family/portfolio exclusions** (e.g. the Larry Ellison family, the Charles Koch
      / Koch donor network) cover pending, not-yet-closed acquisitions too if the deal is agreed and
      shareholder-approved — don't wait for a deal to formally close before excluding.
