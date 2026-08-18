@@ -175,7 +175,9 @@
       "Bash(disown)",
       "Bash(docker info *)",
       "Bash(break)",
-      "Bash(docker start *)"
+      "Bash(docker start *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

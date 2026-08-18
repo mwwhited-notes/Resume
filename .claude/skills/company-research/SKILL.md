@@ -39,10 +39,30 @@ research battery.
    - **DOGE/Trump/MAGA alignment** covers named individuals on the board/C-suite AND corporate
      donations (not just personal-executive donations) to the inaugural fund, White House
      Ballroom/other Trump-branded projects, or MAGA-aligned PACs — this scope was explicitly broadened
-     mid-session once; don't revert to checking personal donations only.
-   - **Named-individual family/portfolio exclusions** (e.g. the Larry Ellison family) cover pending,
-     not-yet-closed acquisitions too if the deal is agreed and shareholder-approved — don't wait for
-     a deal to formally close before excluding.
+     mid-session once; don't revert to checking personal donations only. It also covers any board
+     member/exec who is a current member of Trump's "Board of Peace," a current Cabinet member, or
+     credibly/multiply-corroborated as a personal friend of Trump (not a single thin mention) — verify
+     current membership/reporting at research time rather than assuming a fixed roster. Scope also
+     covers money moving toward any Trump-branded/Trump-created program even without a direct
+     campaign/PAC/inaugural donation (e.g. matching employee contributions into "Trump Accounts") —
+     "any company that gave money to Trump" is read broadly, not limited to direct-to-Trump donations.
+   - **Named-individual family/portfolio exclusions** (e.g. the Larry Ellison family, the Charles Koch
+     / Koch donor network) cover pending, not-yet-closed acquisitions too if the deal is agreed and
+     shareholder-approved — don't wait for a deal to formally close before excluding.
+   - **"Key holding, not controlling position"** — for every named-individual category, a board seat,
+     executive role, or any disclosed equity stake triggers exclusion; the person does not need
+     operational/voting control (a 10% stake or a passive holding still counts).
+   - **Family-member extension** — the key-holding standard extends to a named individual's spouse,
+     children, and parents. Check immediate family members' corporate ties too, not just the named
+     individual's own positions (e.g. a Cabinet member's spouse being CEO of a company excludes that
+     company the same as if the Cabinet member held the role themselves).
+   - **Epstein-associated individuals:** broadened August 17, 2026 per explicit user instruction —
+     any current board member/C-suite exec named in the released Epstein documents (flight logs,
+     contact book, grand jury materials, DOJ/FBI/congressional releases) who is NOT identified as a
+     victim/survivor is a hard exclude, full stop — a bare appearance in the released files is now
+     sufficient on its own, no additional corroboration required. See `excluded-companies.md`'s
+     dedicated section for the current compiled list. Victims, survivors, witnesses, and investigators
+     are explicitly carved out — never exclude on that basis.
 4. If Phase 0 finds anything disqualifying (or the company can't be confirmed to exist) — **stop
    immediately.** Write a short exclusion note, not the full template, and skip straight to reporting
    back. Do not spend a single additional search on tech stack, culture, or WLB for a company already
