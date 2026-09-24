@@ -11,9 +11,13 @@
 
 ### Specialized Position Resumes (Principal/Director/Executive Focus - Established Companies)
 - **[Chief Solutions Architect Resume](./resumes/specialized/chief-solutions-architect.md)** - C-level technical architecture leadership
+  - **[Cover Letter](./resumes/specialized/chief-solutions-architect-cover-letter.md)**
 - **[VP Engineering Resume](./resumes/specialized/vp-engineering.md)** - Vice President Engineering leadership
+  - **[Cover Letter](./resumes/specialized/vp-engineering-cover-letter.md)**
 - **[Principal Solutions Architect Resume](./resumes/specialized/principal-solutions-architect.md)** - Senior solutions architecture (includes AI/ML specialization variant)
+  - **[Cover Letter](./resumes/specialized/principal-solutions-architect-cover-letter.md)**
 - **[Technical Consultant Resume](./resumes/specialized/technical-consultant.md)** - Independent consulting and executive advisory
+  - **[Cover Letter](./resumes/specialized/technical-consultant-cover-letter.md)**
 
 ## Development Tools & Configuration
 
@@ -52,7 +56,7 @@
 - **[LinkedIn](https://www.linkedin.com/in/mwwhited/)** - Professional networking profile
 
 ### Package Distribution
-- **[NuGet Profile](https://www.nuget.org/profiles/mwwhited/)** - 796K+ downloads across 42 packages
+- **[NuGet Profile](https://www.nuget.org/profiles/mwwhited/)** - 900K+ downloads (922,591 verified) across 42 packages
 - **[NPM Profile](https://www.npmjs.com/~mwwhited)** - JavaScript/Node.js packages
 
 ### Personal
@@ -66,13 +70,13 @@
 ---
 
 ## Document Ecosystem Status
-- **Total Files:** 16 professional documents (5 core resumes + 4 specialized + 7 profiles)
-- **Last Updated:** January 12, 2026
+- **Total Files:** 20 professional documents (5 core resumes + 4 specialized resumes + 4 specialized cover letters + 7 profiles)
+- **Last Updated:** September 24, 2026
 - **Repository Structure:** Modern git organization with logical directories
 - **Validation Status:** 100% verified technical accuracy
 - **Consistency Status:** All files aligned with gold standard
 - **Professional Identity:** Chief Solutions Architect (preferred), Principal Solutions Architect, VP Engineering
 - **Career Focus:** Principal, Director, and Executive level positions ONLY
-- **Community Impact:** 796K+ NuGet downloads, 22,510+ Stack Overflow reputation, GitHub Arctic Code Vault Contributor
+- **Community Impact:** 900K+ NuGet downloads, 22,510+ Stack Overflow reputation, GitHub Arctic Code Vault Contributor
 - **PDF Export System:** Professional styling and automated conversion configured
 - **Development Tools:** VSCode integration with professional resume formatting
