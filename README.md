@@ -4,6 +4,7 @@
 
 ### Primary Resume Formats
 - **[Gold Standard Resume](./resumes/master-resume.md)** - Authoritative source for all resume content (123KB comprehensive)
+- **[Long Form CV](./resumes/cv.md)** - Comprehensive curriculum vitae with full skills matrix, education, leadership, and project depth
 - **[Main Comprehensive Resume](./resumes/comprehensive.md)** - Complete professional resume with full experience
 - **[Extended Resume](./resumes/extended.md)** - Detailed version with comprehensive capabilities
 
@@ -68,7 +69,7 @@
 ---
 
 ## Document Ecosystem Status
-- **Total Files:** 18 professional documents (3 core resumes + 4 specialized resumes + 4 specialized cover letters + 7 profiles)
+- **Total Files:** 19 professional documents (4 core resumes + 4 specialized resumes + 4 specialized cover letters + 7 profiles)
 - **Last Updated:** September 24, 2026
 - **Repository Structure:** Modern git organization with logical directories
 - **Validation Status:** 100% verified technical accuracy
