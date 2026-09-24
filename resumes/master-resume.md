@@ -1,0 +1,1542 @@
+﻿# Matthew Whited - Gold Standard Resume
+## Source of Truth for All Resume Variations
+
+---
+
+## Contact Information
+- **Name:** Matthew Whited
+- **Email:** [matt@whited.us](mailto:matt@whited.us)
+- **Phone:** [+1 (614) 989-1748](tel:+16149891748)
+- **Address:** 1221 N Calvert St, Baltimore, MD 21202 (MASTER RESUME ONLY - DO NOT INCLUDE IN OTHER RESUMES)
+- **Location:** Baltimore, MD (Charles Village/Midtown)
+- **Work Preference:** Remote / Full-Time (up to 25% travel, hybrid negotiable within Baltimore metro, NOT open to relocation)
+- **Time Zone:** East Coast US preferred, other time zones available
+- **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
+- **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
+- **Stack Overflow:** [22,510+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
+- **Personal Website:** [matthewwhited.com](https://matthewwhited.com)
+- **NuGet Profile:** [900K+ downloads (922,591 verified)](https://www.nuget.org/profiles/mwwhited/)
+
+---
+
+## Table of Contents
+
+- [Matthew Whited - Gold Standard Resume](#matthew-whited---gold-standard-resume)
+  - [Source of Truth for All Resume Variations](#source-of-truth-for-all-resume-variations)
+  - [Contact Information](#contact-information)
+  - [Table of Contents](#table-of-contents)
+  - [Professional Status \& Availability](#professional-status--availability)
+    - [Employment \& Authorization](#employment--authorization)
+    - [Consulting \& Fractional Rates](#consulting--fractional-rates)
+    - [Availability \& Flexibility](#availability--flexibility)
+    - [References](#references)
+    - [Career Continuity](#career-continuity)
+  - [Professional Identity \& Core Value Proposition](#professional-identity--core-value-proposition)
+    - [Multi-Track Leadership Profile](#multi-track-leadership-profile)
+    - [Core Differentiators](#core-differentiators)
+  - [Quantifiable Achievements \& Community Recognition](#quantifiable-achievements--community-recognition)
+    - [Open Source \& Community Impact](#open-source--community-impact)
+    - [Executive Leadership \& Business Impact](#executive-leadership--business-impact)
+    - [Technical Innovation Portfolio](#technical-innovation-portfolio)
+      - [Enterprise Framework Development](#enterprise-framework-development)
+      - [Advanced AI/ML Implementation](#advanced-aiml-implementation)
+      - [Hardware-Software Integration](#hardware-software-integration)
+      - [Modern .NET Performance Engineering](#modern-net-performance-engineering)
+    - [Technical Validation](#technical-validation)
+  - [Work History \& Professional Experience](#work-history--professional-experience)
+    - [Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)](#principal-software-engineerarchitect---cadwell-industries-october-2025---present)
+      - [Legacy Clinical Data Platform Contributions](#legacy-clinical-data-platform-contributions)
+      - [Next-Generation Modular Clinical Platform](#next-generation-modular-clinical-platform)
+    - [Principal Solutions Architect - Green Onion (February 2025 - January 2026)](#principal-solutions-architect---green-onion-february-2025---january-2026)
+      - [Backend Architecture](#backend-architecture)
+      - [Frontend Architecture](#frontend-architecture)
+    - [Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)](#chief-solutions-architect---out-of-band-development-llc-march-2015---october-2025)
+    - [Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)](#principal-solutions-architect-aiml-specialist---erisk-services-eliassen-group-november-2024---august-2025)
+      - [ERiskFramework - Enterprise AI/ML Platform](#eriskframework---enterprise-aiml-platform)
+    - [Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)](#rose-and-gold-foundation---board-member--software-automation-engineer-2017---2020)
+    - [Principal Solutions Architect - Eliassen Group/Lightwell (September 2015 - October 2024)](#principal-solutions-architect---eliassen-grouplightwell-september-2015---october-2024)
+      - [Practice-Wide Technical Leadership \& Standards Development](#practice-wide-technical-leadership--standards-development)
+      - [Strategic Organizational Leadership - Centers of Excellence (July 2022 - October 2024)](#strategic-organizational-leadership---centers-of-excellence-july-2022---october-2024)
+      - [Framework Architecture \& Strategic Innovation](#framework-architecture--strategic-innovation)
+      - [Eliassen Shared Libraries (dotnet-libs) - Primary Author](#eliassen-shared-libraries-dotnet-libs---primary-author)
+      - [AI/ML Strategic Foresight \& Innovation](#aiml-strategic-foresight--innovation)
+      - [Pre-Sales Engineering \& Business Development Excellence](#pre-sales-engineering--business-development-excellence)
+      - ["Choose Your Own Adventure" R\&D \& Training Program](#choose-your-own-adventure-rd--training-program)
+      - [Business Impact \& Technical Excellence](#business-impact--technical-excellence)
+    - [Chief Solutions Architect / CTO - Itrica (November 2009 - July 2015)](#chief-solutions-architect--cto---itrica-november-2009---july-2015)
+      - [Revolutionary Clinical Trial Systems](#revolutionary-clinical-trial-systems)
+    - [Senior .Net Developer Contractor - TEKsystems (August 2007 - September 2010)](#senior-net-developer-contractor---teksystems-august-2007---september-2010)
+      - [United Healthcare/Harrington Health (December 2008 - April 2010)](#united-healthcareharrington-health-december-2008---april-2010)
+      - [JPMorgan Chase (June 2008 - December 2008)](#jpmorgan-chase-june-2008---december-2008)
+      - [Safe Auto Insurance (April 2010 - September 2010)](#safe-auto-insurance-april-2010---september-2010)
+    - [.Net Developer - The Dot Net Factory/EmpowerID, TEKsystems (August 2007 - April 2008)](#net-developer---the-dot-net-factoryempowerid-teksystems-august-2007---april-2008)
+    - [Software Engineer - 3SG Corporation (August 2006 - August 2007)](#software-engineer---3sg-corporation-august-2006---august-2007)
+    - [Systems Engineer/Department Head - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)](#systems-engineerdepartment-head---eastland-fairfield-career-and-technical-schools-july-2000---august-2006)
+  - [Skills Matrix](#skills-matrix)
+    - [Proficiency Scale](#proficiency-scale)
+    - [Core Programming Languages](#core-programming-languages)
+    - [Hardware \& Low-Level](#hardware--low-level)
+    - [Databases \& Data](#databases--data)
+    - [Cloud \& Infrastructure](#cloud--infrastructure)
+    - [AI/ML \& Data Science](#aiml--data-science)
+    - [Web \& Frontend](#web--frontend)
+    - [Architecture \& Patterns](#architecture--patterns)
+    - [Messaging \& Event Streaming](#messaging--event-streaming)
+    - [DevOps \& Tools](#devops--tools)
+    - [Testing \& Quality](#testing--quality)
+    - [Security \& Authentication](#security--authentication)
+    - [Compliance \& Regulated Industries](#compliance--regulated-industries)
+    - [Leadership \& Soft Skills](#leadership--soft-skills)
+  - [Technical Skills \& Core Competencies](#technical-skills--core-competencies)
+    - [Enterprise Architecture \& Core Technologies](#enterprise-architecture--core-technologies)
+    - [Enterprise Frameworks \& Governance](#enterprise-frameworks--governance)
+    - [Data Architecture \& Analytics](#data-architecture--analytics)
+    - [Cloud \& DevOps Technologies](#cloud--devops-technologies)
+    - [Web \& Frontend Technologies](#web--frontend-technologies)
+    - [AI/ML \& Advanced Technologies](#aiml--advanced-technologies)
+    - [Specialized Technologies \& Domains](#specialized-technologies--domains)
+    - [Leadership \& Business Development](#leadership--business-development)
+    - [Development Tools \& Methodologies](#development-tools--methodologies)
+  - [Education \& Professional Development](#education--professional-development)
+    - [DeVry University - Columbus Campus (2000 - 2002)](#devry-university---columbus-campus-2000---2002)
+    - [Eastland-Fairfield Career and Technical Schools - Electronics Technician Certification (1998 - 2000)](#eastland-fairfield-career-and-technical-schools---electronics-technician-certification-1998---2000)
+    - [Gahanna Lincoln High School (1996 - 2000)](#gahanna-lincoln-high-school-1996---2000)
+    - [Youth Leadership \& Development Programs (Standalone)](#youth-leadership--development-programs-standalone)
+    - [Professional Certifications \& Industry Recognition](#professional-certifications--industry-recognition)
+    - [Self-Teaching Excellence \& Pattern Recognition](#self-teaching-excellence--pattern-recognition)
+  - [Personal Projects \& Technical Innovations](#personal-projects--technical-innovations)
+    - [Distributed Event-Sourcing Platform (sync-mesh) (HIGH Innovation)](#distributed-event-sourcing-platform-sync-mesh-high-innovation)
+    - [Event-Sourcing \& CQRS Compliance Platform (EventSourcing) (HIGH Innovation)](#event-sourcing--cqrs-compliance-platform-eventsourcing-high-innovation)
+    - [Extensions for .Net Framework (42 NuGet packages, 922,591+ downloads)](#extensions-for-net-framework-42-nuget-packages-922591-downloads)
+      - [Vector Support for MS-SQL Server (EXCEPTIONAL Innovation)](#vector-support-for-ms-sql-server-exceptional-innovation)
+      - [Framework Architecture \& Test Infrastructure (123 Projects, 4-Layer Design)](#framework-architecture--test-infrastructure-123-projects-4-layer-design)
+      - [High-Performance Binary Data Processing](#high-performance-binary-data-processing)
+      - [Core Framework (438 commits, 32,363 LOC, 65+ modules)](#core-framework-438-commits-32363-loc-65-modules)
+      - [Cryptographic \& Code Analysis](#cryptographic--code-analysis)
+      - [Hardware Device Interfaces](#hardware-device-interfaces)
+      - [Developer Productivity Tools](#developer-productivity-tools)
+    - [Custom Microprocessor Design \& Embedded Systems (201 commits, 21,228+ LOC)](#custom-microprocessor-design--embedded-systems-201-commits-21228-loc)
+      - [Custom CPU Architecture](#custom-cpu-architecture)
+      - [Professional Hardware Projects (EXCEPTIONAL Innovation)](#professional-hardware-projects-exceptional-innovation)
+      - [Hardware Engineering Portfolio (25+ PCBs, 20+ FPGA Projects, 318 HDL Files)](#hardware-engineering-portfolio-25-pcbs-20-fpga-projects-318-hdl-files)
+    - [AI/ML Research \& Production Systems (HIGH Innovation)](#aiml-research--production-systems-high-innovation)
+      - [Advanced Algorithm Development](#advanced-algorithm-development)
+      - [Pure .NET ONNX Sentence Transformer Engine (EXCEPTIONAL Innovation)](#pure-net-onnx-sentence-transformer-engine-exceptional-innovation)
+      - [Enterprise AI Orchestration Platform](#enterprise-ai-orchestration-platform)
+      - [Image Processing \& Computer Vision](#image-processing--computer-vision)
+    - [Enterprise Framework Architecture (EXCEPTIONAL Innovation)](#enterprise-framework-architecture-exceptional-innovation)
+      - [OoBDev .NET Framework - 50+ Individual Libraries](#oobdev-net-framework---50-individual-libraries)
+      - [ERisk Framework - Enterprise Risk Management](#erisk-framework---enterprise-risk-management)
+      - [JHipster .NET Hybrid Platform](#jhipster-net-hybrid-platform)
+      - [Multi-Language Programming Platform (HIGH Innovation)](#multi-language-programming-platform-high-innovation)
+        - [Coding Challenges Collection (44 challenges, 39 C# projects)](#coding-challenges-collection-44-challenges-39-c-projects)
+        - [Game Development Evolution](#game-development-evolution)
+        - [Historical Cryptography Implementations](#historical-cryptography-implementations)
+        - [CQRS/Event-Sourcing Reference Application Modernization (Fork)](#cqrsevent-sourcing-reference-application-modernization-fork)
+    - [Specialized Domain Applications](#specialized-domain-applications)
+      - [Real-Time Sports Scoring Systems (EXCEPTIONAL Innovation)](#real-time-sports-scoring-systems-exceptional-innovation)
+      - [Enterprise Home Automation Platform](#enterprise-home-automation-platform)
+      - [Custom Domain-Specific Language Development](#custom-domain-specific-language-development)
+      - [Enterprise Message Processing Platforms](#enterprise-message-processing-platforms)
+      - [Hardware-Software Integration](#hardware-software-integration-1)
+      - [Professional Tools \& Utilities](#professional-tools--utilities)
+    - [Historical Portfolio Archive (15+ years, 7,266 C# files)](#historical-portfolio-archive-15-years-7266-c-files)
+      - [Enterprise Platforms (Itrica)](#enterprise-platforms-itrica)
+      - [Framework Innovation](#framework-innovation)
+      - [Game \& Mixed Reality Development](#game--mixed-reality-development)
+      - [Recognition \& Embedded Systems](#recognition--embedded-systems)
+  - [Technical Hobbies \& Maker Activities](#technical-hobbies--maker-activities)
+  - [Leadership \& Mentorship Experience](#leadership--mentorship-experience)
+    - [Centers of Excellence Leadership](#centers-of-excellence-leadership)
+    - [Team Leadership \& People Management](#team-leadership--people-management)
+    - [Stakeholder \& Vendor Management](#stakeholder--vendor-management)
+    - [Public Speaking \& Knowledge Sharing](#public-speaking--knowledge-sharing)
+    - [Professional Development Programs](#professional-development-programs)
+      - [Technical Training Programs](#technical-training-programs)
+      - [Mentorship \& Code Quality](#mentorship--code-quality)
+    - [Sales \& Business Development](#sales--business-development)
+  - [Community Contributions \& Industry Recognition](#community-contributions--industry-recognition)
+    - [Open Source Leadership](#open-source-leadership)
+    - [Knowledge Sharing \& Community Support](#knowledge-sharing--community-support)
+    - [Technical Innovation Sharing](#technical-innovation-sharing)
+  - [Business Impact \& Measurable Results](#business-impact--measurable-results)
+    - [Cost Optimization \& Performance Enhancement](#cost-optimization--performance-enhancement)
+    - [Community \& Business Value Creation](#community--business-value-creation)
+    - [Technical Authority \& Thought Leadership](#technical-authority--thought-leadership)
+  - [Professional Network \& Online Presence](#professional-network--online-presence)
+    - [Technical Profiles](#technical-profiles)
+    - [Professional Networks](#professional-networks)
+    - [Creative \& Personal](#creative--personal)
+  - [Technical Philosophy \& Approach](#technical-philosophy--approach)
+    - [Architecture Design Methodology](#architecture-design-methodology)
+    - [Hardware-Software Integration Mindset](#hardware-software-integration-mindset)
+    - [Innovation \& Research Methodology](#innovation--research-methodology)
+    - [Professional Development \& Team Building](#professional-development--team-building)
+  - [Additional Technical Details \& Specifications](#additional-technical-details--specifications)
+    - [Custom SQLCLR Vector Extensions (Technical Deep Dive)](#custom-sqlclr-vector-extensions-technical-deep-dive)
+    - [Custom Microprocessor Architecture (Technical Specifications)](#custom-microprocessor-architecture-technical-specifications)
+    - [Zero-Allocation .NET Framework (Performance Engineering)](#zero-allocation-net-framework-performance-engineering)
+    - [AI/ML Custom Algorithm Implementation](#aiml-custom-algorithm-implementation)
+  - [Future Directions \& Continuous Learning](#future-directions--continuous-learning)
+    - [Emerging Technologies](#emerging-technologies)
+    - [Professional Growth Areas](#professional-growth-areas)
+  - [Usage Instructions for This Document](#usage-instructions-for-this-document)
+    - [Purpose \& Scope](#purpose--scope)
+    - [Maintenance Protocol](#maintenance-protocol)
+    - [Content Guidelines](#content-guidelines)
+
+---
+
+## Professional Status & Availability
+
+### Employment & Authorization
+- **Work Authorization:** US Citizen
+- **Current Status:** Employed full-time at Cadwell Industries, passively open to full-time Principal/Director/Executive opportunities only (fractional/consulting work not currently offered — full-time search confirmed July 29, 2026)
+- **Notice Period:** 2 weeks for new full-time opportunities
+- **Contract Preferences:** W-2 or 1099 (flexible on arrangement type)
+- **Background Check:** Ready with no concerns
+- **Non-Compete Status:** No active restrictions (standard employer IP assignment only)
+- **Veteran Status:** Not a veteran
+
+### Consulting & Fractional Rates
+*(Not currently offered — full-time search confirmed July 29, 2026; rates retained below for reference if consulting becomes active again)*
+- **Fractional CTO / Executive Advisory:** $200-250/hr
+- **Principal Architecture / Crisis Resolution:** $200-250/hr
+
+### Availability & Flexibility
+- **Working Hours:** Flexible across all US timezones
+- **International Travel:** Valid passport, available for up to 25% travel
+- **Languages:** English
+
+### References
+- **Professional References:** 3-5 references available upon request
+- **LinkedIn Recommendations:** Available on profile
+
+### Career Continuity
+- **Employment History:** Continuous career with brief planned sabbaticals between long-term engagements
+- **Sabbatical Purpose:** Strategic breaks for personal performance review and skill development after intensive project delivery periods
+
+---
+
+## Professional Identity & Core Value Proposition
+
+**Principal Platform Architect, Chief Solutions Architect, Principal Solutions Architect & Crisis Resolution Specialist** with over 20 years bridging hardware and software domains through exceptional technical innovation, organizational influence, and measurable business value creation. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. Uniquely combines enterprise-scale platform architecture with cutting-edge AI/ML expertise, vendor-neutral advisory services, and proven crisis resolution capabilities. Delivered quantifiable results including 77% cloud cost reductions ($13,800+ annual savings), 1-week project delivery after 12 months of failed attempts, and FDA-compliant life sciences systems for Big Pharma clients.
+
+### Multi-Track Leadership Profile
+
+**Executive Technology Leadership:**
+- **Chief Solutions Architect:** Strategic technology vision, architecture governance, and vendor-neutral advisory services for growing companies *(fractional/consulting delivery model not currently offered — targeting full-time roles)*
+- **Crisis Resolution Specialist:** Called when projects fail, costs spiral, or "impossible" integrations are needed - delivered 77% cost reductions and 1-week solutions after others failed for months
+- **Enterprise Architect:** Cross-functional architecture strategy, technology risk management, and regulatory compliance (FDA, financial, healthcare)
+
+**Strategic Architecture Leadership:**
+- **Principal Platform Architect:** Advanced platform engineering, DevOps infrastructure, container orchestration, and enterprise platform strategy with CI/CD automation, infrastructure as code, microservices architecture
+- **Principal Solutions Architect:** Advanced AI/ML implementation (before mainstream adoption), protocol reverse engineering, and anti-hype technology guidance
+- **Technology Due Diligence Consultant:** M&A technical assessments, security audits, and vendor-neutral technology strategy
+- **Technical Leadership:** Centers of Excellence influence across 125+ developers, comprehensive training delivery, and enterprise-wide technology standards
+
+### Core Differentiators
+- **Platform Architecture Excellence:** Enterprise platform engineering with Docker, Kubernetes, CI/CD automation, and 77% cloud cost reduction ($13,800+ annual savings) through strategic platform optimization
+- **Crisis Resolution Specialist:** When others fail for months, delivers working solutions in weeks - 1-week AI/ML implementation after 12 months of failed attempts, rapid platform recovery and optimization
+- **Enterprise Architecture Leadership:** Complete SDLC methodology development, architecture review board leadership, enterprise solutions strategy across 125+ developers
+- **DevOps Infrastructure Mastery:** Advanced container orchestration, infrastructure as code, microservices architecture, and enterprise platform frameworks
+- **Vendor-Neutral Technology Advisor:** Independent consultant with no vendor partnerships - prevents expensive mistakes through unbiased technology guidance and anti-hype expertise
+- **Pre-Sales Engineering Excellence:** Proof-of-concepts, technical demonstrations, business requirements analysis, and solution development expertise
+- **Protocol Reverse Engineering Pioneer:** Created industry-first solutions that became vendor standards - Novell ClientTrust implementation became their official product basis
+- **FDA/Regulatory Compliance Expert:** Life-critical systems for Big Pharma (Sanofi, AstraZeneca, GSK) + Harvard Medical (TIMI Study Group), direct FDA auditor interface
+- **Enterprise Crisis Leadership:** Merit-based CTO promotion for being "most skilled senior architect," team leadership with complete FDA compliance responsibility
+- **Multi-Platform Universal Competency:** Linux/Unix (System V, Solaris), macOS/Apple Xserve, Windows - works with any client infrastructure without bias
+- **Self-Taught Excellence Foundation:** Started with Apple IIc game reverse engineering, taught vocational instructor networking, offered first job before graduation for ILOVEYOU virus cleanup
+- **Hardware-Software Complete Stack:** Electronics Technician certification through AI/ML custom algorithms, microprocessor design to cloud optimization, **professional Hardware Description Language expertise** (Verilog, VHDL, SystemVerilog)
+- **Anti-Hype Technology Wisdom:** Pattern recognition from decades of technology cycles - "AI/ML has tools but massively overhyped, chat everywhere is poor UX"
+- **Standards-First Engineering:** Adopts established RFCs, open web standards, FOSS libraries, and COTS before building custom — evaluates existing specifications first, reserving custom development for genuinely novel problems; the best custom code is the code you didn't have to write
+- **Quantifiable Business Impact:** 2.5M+ downloads across 45 packages (922,591 verified NuGet across 42 packages + 1.6M+ npm, led by `signalr-client`), 324+ GitHub stars, 22,510+ Stack Overflow reputation (128 badges including C# Gold), Arctic Code Vault Contributor, $500K+ financial risk prevention
+
+---
+
+## Quantifiable Achievements & Community Recognition
+
+### Open Source & Community Impact
+- **922,591 total NuGet package downloads** (900K+) across 42-package modular ecosystem with 6-year sustained maintenance (2020-2026), plus 3 npm packages (1.6M+ additional lifetime downloads led by `signalr-client`)
+- **324+ GitHub stars** across original repositories demonstrating community validation and code quality
+- **22,510+ Stack Overflow reputation** with 128 total badges (4 Gold, 55 Silver, 69 Bronze) including Gold Badge in C# programming (1,326 score), Populist Badge, and Great Answer Badge (x2) - 606+ solutions reaching 4.8 million users over 16+ years with comprehensive technical authority spanning cryptographically secure programming, advanced LINQ transformations, bit manipulation, and modern async patterns - demonstrating continuous technical evolution from basic reflection (2008) to sophisticated functional programming
+- **GitHub Arctic Code Vault Contributor** with 6 achievement badges: Pull Shark (x2), Quickdraw, YOLO, Starstruck, Pair Extraordinaire
+- **BinaryDataDecoders Package Suite:** 444 commits over 6 years (2020-2026), currently being migrated to dotex framework for continued evolution under unified architecture
+- **Top Package Downloads:**
+  - BinaryDataDecoders.ToolKit: 51,847 downloads
+  - XSLT CLI transformation tool: 49,110 downloads
+  - I/O Abstractions: 49,081 downloads
+  - Expression Calculator (DSL engine): 43,618 downloads
+  - Test Utilities: 43,522 downloads
+
+### Executive Leadership & Business Impact
+- **C-Level Technology Strategy:** Strategic organizational leadership influencing 125+ developers across 10-15 teams through Centers of Excellence, creating enterprise-wide technology standards with lasting organizational impact
+- **Technology Risk Management & Cost Avoidance:** Prevented costly technology adoption mistakes through comprehensive evaluation processes, steering organization away from expensive MongoDB/Kafka implementations toward proven alternatives, saving substantial implementation costs
+- **Crisis Resolution & Business Continuity:** Resolved critical enterprise challenges spanning client relationship management, deployment failures, data corruption, and integration challenges, maintaining client satisfaction, contract retention, and business continuity
+- **Strategic Process Innovation:** Created enterprise SDLC methodology with upstream feedback loops, improving delivery quality while maintaining similar timeframes and increasing developer satisfaction across organization
+- **Enterprise Architecture Legacy:** Shared Framework transformation remains foundational to organizational .NET development years after implementation, demonstrating exceptional strategic technology impact
+- **Measurable Financial Results:** Substantial reduction in cloud infrastructure costs through architecture optimization and strategic technology guidance, delivering quantifiable ROI
+- **Performance Engineering Excellence:** Dramatic query performance improvements via custom LSH-based indexing algorithms and hybrid search architecture, enabling business scalability
+- **Platform Development Leadership:** Enterprise framework development increasing team productivity and code quality across multiple client projects with measurable efficiency gains
+
+### Technical Innovation Portfolio
+
+#### Enterprise Framework Development
+- **LightWell Complex Event Processing Framework:** Enterprise-scale event-driven architecture with a pluggable complex-event-handler abstraction, **Kafka/Azure Event Hubs integration**, NCronTab scheduled events, message routing, and event sourcing capabilities
+- **Message Architecture Framework:** Custom generic message-sender abstraction layer with **Kafka, Azure Event Hubs, Service Bus integration**, generic queue providers, and dependency injection patterns
+- **API Gateway & Integration Framework:** **Custom API Gateway implementations** spanning multiple companies, **GraphQL and OData framework development**, **OAuth2/OIDC authentication integration**, microservices communication patterns
+- **Container & Infrastructure Framework:** **Docker deployment workflows**, **Kubernetes orchestration with Helm charts**, **infrastructure monitoring with Prometheus/Grafana**, cloud cost optimization (FinOps) methodologies
+- **Testing Automation Framework:** Multi-tier testing architecture with MSTest/Moq integration, API service simulation, data-driven unit tests, and automated test boilerplate generation
+- **Configuration Management Framework:** Enterprise configuration patterns with separation of concerns, dynamic rule evaluation, and testable configuration abstractions
+
+#### Advanced AI/ML Implementation
+- **Hybrid Semantic-Lexical Search Architecture:** Multi-modal search combining Qdrant vector database (semantic embeddings) with OpenSearch full-text indexing (lexical search) and Ollama LLM-powered summarization - demonstrating cutting-edge RAG (Retrieval-Augmented Generation) implementation with dual-mode query processing
+- **Custom LSH Algorithm Development:** Locality Sensitive Hashing implementation for approximate nearest neighbor search with significant Hamming vs Euclidean distance performance optimization
+- **Production Hybrid Search Engine:** Complete semantic search framework combining sentence transformers (AllMiniLM-L6-v2) with FAISS vector indexing, BM25 keyword matching, and product quantization for memory efficiency
+- **ML Infrastructure Deployment:** Containerized AI service stack with SBERT, Vision Transformers, Ollama LLM, and Qdrant vector database with health monitoring and OpenAPI compatibility
+- **Database Innovation Leadership:** SQL Server SQLCLR vector extensions with custom SqlVector/SqlVectorF types, mathematical operations, and distance calculations predating commercial vector database offerings  
+
+#### Hardware-Software Integration
+- **Custom Microprocessor Design:** Complete 16-bit microprocessor (MW16C) implementation in SystemVerilog with 5-stage pipeline (Fetch, Decode, Execute, Memory, Writeback), 30+ custom instructions, and Python assembler with instruction encoding
+- **PCB Design & Circuit Engineering:** Professional circuit board design using KiCad including analog computer circuits, development boards, and interface adapters (LANC camera control, RS-485, audio devices) with automated documentation via KiBot
+- **Binary Protocol Reverse Engineering:** Comprehensive protocol analysis and decoder implementation for sports hardware (Favero/Saint George fencing scoring machines - 38K+ downloads), vintage computing (Apple II binary formats - 36K+ downloads), and audio devices (Zoom H4n RS-232 communication)
+- **VHDL Component Library:** Comprehensive FPGA/CPLD library including ALU components, memory elements (flip-flops, registers), logic elements (decoders, multiplexers), and system components (clock dividers, bus controllers)
+- **Multi-Platform Hardware Expertise:** 12+ hardware platforms spanning Arduino, ESP8266, STM32, PIC microcontrollers, Xilinx (Arty A7, Arty Z7), Altera Cyclone II FPGAs, and CPLD (XC9500) with professional development workflows
+- **Legacy Hardware Modernization:** IEEE-1284 parallel port interface implementation with interrupt-driven data capture, multi-storage hierarchy (SD, EEPROM, SPI Flash), and NASA EEFS embedded file system integration
+- **Open Source Community Impact:** 438+ commits on high-performance parsing frameworks, 213+ commits across embedded systems projects (EmbeddedBakery)
+
+#### Modern .NET Performance Engineering
+- **XSLT Transformation & Code Generation:** Enterprise XSLT framework with CLI transformation tool (44K+ downloads) and code generation utilities (20K+ downloads) - demonstrating metaprogramming expertise and legacy technology mastery for business-critical data transformation pipelines
+- **Expression Evaluation & DSL Design:** Custom expression calculator engine (38K+ downloads) with domain-specific language parsing, abstract syntax tree manipulation, and runtime evaluation - enabling business rule engines and dynamic configuration systems
+- **Zero-Allocation Programming:** Advanced System.IO.Pipelines and Memory<T> implementation for high-performance binary data processing with minimal memory overhead
+- **Multi-Format Protocol Support:** ZIP, TAR, ISO9660 archive formats and Telnet, LDAP, SNTP network protocol implementations with async/await patterns and proper cancellation support
+- **SQL Server DacFx Integration:** Database deployment automation and schema versioning using DacFx (Data-Tier Application Framework) with 30K+ downloads, enabling CI/CD for SQL Server databases
+- **Cryptographic Algorithm Implementation:** Production cryptography utilities package (38K+ downloads) providing encryption, hashing, and secure data handling for enterprise applications
+- **Dynamic Proxy Framework:** Production mocking framework (oobtainium) with expression trees, dependency injection integration, and fluent API design for modern .NET testing
+- **Cross-Language Algorithm Portfolio:** Professional implementations across C#, F#, Java, Python, Go, Rust, JavaScript, TypeScript with consistent quality and language-specific idioms
+- **Advanced Computer Science Implementations:** CARDIAC computer emulator with complete instruction set, BK-tree spell checker with edit distance algorithms, cryptographically secure random generation, Binary Coded Decimal conversion with bit manipulation
+
+### Technical Validation
+- **100% verification** of all technical claims through comprehensive code review of 14+ major repositories
+- **EXCEPTIONAL Innovation:** Custom 16-bit microprocessor (MW16C) with SystemVerilog implementation, Complete SQLCLR Vector Extensions for SQL Server, Hybrid semantic-lexical search with RAG architecture
+- **HIGH Innovation:** Custom LSH algorithms for AI/ML, Zero-allocation .NET programming with System.IO.Pipelines, Binary protocol reverse engineering, XSLT transformation framework
+- **922,591 verified NuGet downloads** (900K+) across 42-package modular ecosystem with professional CI/CD and 6-year sustained maintenance
+- **324+ GitHub stars** demonstrating community validation across original repositories
+- **Arctic Code Vault Contributor** with 5 GitHub achievement badges (Pull Shark x2, Quickdraw, YOLO, Starstruck)
+- **Multi-domain mastery:** Database extensions, microprocessor design, AI/ML algorithms, modern .NET performance optimization
+
+---
+
+## Work History & Professional Experience
+
+### Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)
+**Medical Device Software & Healthcare Technology Innovation**
+
+- **Medical Device Software Development:** Backend communication and synchronization software development for the company's medical device systems using WPF, .NET 4.8, SQLite, WCF (named pipes and TCP for IPC/RPC), and WiX installer technologies
+- **Technical Leadership & Code Quality:** Conducting peer code reviews, leading grooming sessions, and providing architectural guidance for medical device software development
+- **Platform Architecture Review:** Providing code and architecture reviews for the company's next-generation modular clinical platform — evaluating module design, security patterns, and platform coding convention compliance as the platform team grows
+- **Full-Stack Development:** Backend development, application styling, and comprehensive unit testing across medical device communication systems
+- **Architecture Review:** Contributing to architectural decisions and technical design reviews for FDA-regulated medical device software
+
+#### Legacy Clinical Data Platform Contributions
+- Conducted a security hardening pass on a HIPAA-regulated medical data management platform, improving credential management practices and security-event-logging hygiene
+- Redesigned async/parallel service shutdown for the platform's clinical data pipeline, improving multi-service restart time and operational reliability in point-of-care deployments
+- Expanded a WPF-based administration tool across numerous contributions — improving client migration, status visibility, upload progress indicators, and icon interactability — materially improving clinical IT operator UX
+- Authored a multi-protocol Claude Code AI development framework (lifecycle, review, documentation, test plan, and failure analysis protocols), establishing AI-assisted development workflows for the engineering team
+- Improved the platform's query engine to support cross joins and resolved silent query failures, expanding data retrieval capability for a dual-database medical records system
+- Added sub-folder support and file-extension handling to the platform's file-attachment system, correcting data integrity issues for third-party file attachments in clinical records
+- Removed a large export size limit, unblocking large-scale patient data migration and export workflows
+- Implemented role-based permissions checks on user management operations, improving security posture in a HIPAA-regulated environment
+- Refactored the legacy platform's process-global identity model for concurrent multi-user hosting using ambient, scoped user-context management, enabling the next-gen platform's bridge module to serve multiple simultaneous authenticated users without per-user process isolation
+- Introduced an alternate service-hosting mode supporting non-interactive deployment scenarios, maintaining full backward compatibility with existing desktop and server modes
+- Built a bridge connecting the next-gen platform's issued tokens to the legacy platform's existing user model, supporting flexible identity resolution across the two systems
+- Conducted a systematic reliability audit of the platform's client/server communication architecture, translating findings into a phased remediation roadmap covering concurrency, resource-leak, and messaging-reliability risk in a multi-site medical data sync system
+- Designed and built a bridge connecting a legacy service host to a modern dependency-injection container, giving the service dispatch pipeline scoped, per-request dependency injection and eliminating shared static state across concurrent client requests
+- Extracted interfaces for the platform's core client/server synchronization components and remediated concurrency defects identified during the reliability audit, then modernized the platform's services onto a dependency-injection-driven hosted-service startup pattern
+
+#### Next-Generation Modular Clinical Platform
+- Designed and delivered the platform's cross-service trust model — an OAuth 2.0/OIDC token service, a deny-by-default permission system with build-time enforcement, and response-masking middleware protecting PHI across distributed clinical services
+- Refactored the platform's microkernel host to full IoC/DI compliance and implemented contract-based HTTP endpoint mapping, eliminating service-locator anti-patterns across a process-separated medical device runtime
+- Built out the platform's static-analysis tooling from initial bootstrap to a production-grade enforcement suite of custom diagnostic analyzers with paired automated code-fix providers, wired into commit/push/CI gating to automate coding-standard enforcement
+- Extended the hosting framework with .NET / .NET Framework multi-target support, enabling clinical module backward compatibility without separate build pipelines
+- Delivered foundational platform contributions spanning host infrastructure, module pattern migration, SDK alignment, and security architecture across a modular process-separated clinical runtime
+- Designed a generic outbox abstraction with pluggable delivery backends, enabling new messaging mechanisms without changing event-producer call sites
+- Built a code-generation pipeline producing legacy-framework bridge module stubs from API contracts, with compile-time contract parity enforcement between modern and legacy module hosts
+- Implemented a full platform module in Go with distributed tracing and metrics, demonstrating the platform's language-agnostic module pattern
+- Created a scaffolding template generating a complete contract/implementation/test project set, reducing new module bootstrap to a single CLI command
+- Extended the platform's code-generation pipeline to add another first-class typed SDK language target alongside its existing targets
+- Implemented DPoP proof-of-possession (RFC 9449) across the platform — server-side validation and SDK proof generation — binding tokens to the caller's key pair for stronger anti-replay protection on clinical data access tokens
+- Engineered a transparent SDK security pipeline (proactive token refresh, automatic claims upgrade, proof-of-possession generation, response signature verification, trace propagation) so SDK consumers inherit complete security guarantees with no auth boilerplate
+- Implemented refresh-token family rotation with reuse detection, alongside FIPS-mode enforcement via platform-abstracted OS providers
+- Implemented stream-ticket authentication enabling authenticated long-lived streaming connections from any platform SDK consumer without per-request bearer tokens
+- Root-caused a thread-pool starvation deadlock affecting platform health checks, then fixed the underlying defect it exposed; diagnosed and fixed a code-generation contract bug that caused generated SDK clients to mislabel certain request bodies, and verified the fix with a wire-format compliance test suite
+- Designed and implemented a cloud object-storage-backed segment store for the platform's hash-chained event ledger, verified through live integration testing against a cloud storage emulator and a production storage account
+- Benchmarked several data-access technologies and database engines to drive the platform's storage architecture decision, then migrated the storage engine to a unified multi-database implementation, validated with crash-recovery conformance testing
+- Implemented stream eviction and backfill for the platform's event-sourced ledger engine, re-verifying a restored stream's full integrity before resuming an in-progress clinical case
+- Designed field-level PHI encryption and schema-driven conflict-resolution logic for a federated patient-record reconciliation feature, backed by a comparative research spike on encrypted-query strategies, and proved correctness through live multi-node federation testing
+- Designed and implemented an event-sourced deployment mechanism — including a converging deployment agent and an operator-facing portal UI — enabling safe install/upgrade/downgrade of point-of-care participant software, and built the cloud infrastructure-as-code and fleet-automation tooling to provision and operate a multi-facility clinical device fleet
+
+### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
+**Application Rescue & Modernization - School Nutrition Management Platform**
+
+- **Application Rescue Project:** Stabilized and advanced a legacy application inherited from an offshore development transition, serving as the primary contributor to the combined codebase.
+- **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+- **Complete System Redesign:** Leading full application rewrite for K-12 school nutrition management system handling allergen tracking, nutritional compliance, and product procurement
+
+#### Backend Architecture
+- **Dynamic LINQ Expression Tree Query Engine:** Architected runtime query composition system with complex filtering, sorting, and search operations across 23 API endpoints serving multi-tenant school district data
+- **Reusable .NET Framework Library:** Designed a shared framework library providing JWT authentication, SwaggerGen extensions, expression tree builders, and middleware components
+- **OpenAPI Extension System:** Built 21 custom schema annotations from attribute metadata enabling automatic TypeScript client generation with full type safety and UI component scaffolding
+- **Handlebars Template Engine:** Created 35 custom helpers and 129 templates for code generation powering front-end component automation
+- **Multi-Tenant Security Architecture:** Implemented role-based data scoping (SuperAdmin → CooperativeAdmin → DistrictAdmin) with automatic query filtering based on user organizational access
+
+#### Frontend Architecture
+- **TypeScript Code Generation System:** Reduced frontend development time by 80% through automated React component generation from OpenAPI specifications for 18 entity types
+- **Enterprise Data Grid Component:** Engineered a large-scale data grid component supporting real-time filtering, sorting, pagination, bulk actions, and column customization used across all entity management screens
+- **Schema-Driven UI Architecture:** Achieved 67-84% code reduction by generating DataGrid columns dynamically from Zod schemas with custom cell renderers
+- **Dual API Client Migration:** Designed zero-downtime transition framework from monolithic to modular architecture with Azure B2C/MSAL authentication
+- **PrimeReact v10 Migration:** Led complete UI framework modernization with role-based access control supporting 6 user types across 50+ routes
+
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
+**Independent Technology Consulting - Technical Advisory & SOW Review Services**
+
+- **SOW & Technical Contract Review:** Expert evaluation of vendor proposals and technical contracts for small/mid-sized companies - preventing costly mistakes and vendor lock-in
+- **Technical Advisory Services:** "Handling the nerdy stuff" so business leaders can focus on core operations - translating complex technical proposals into clear business implications
+- **Vendor-Neutral Advisory:** No vendor partnerships or bias - unbiased technology guidance ensuring clients get best solutions at reasonable prices
+- **Standards-First Guidance:** Steers clients toward established RFCs, open standards, FOSS, and COTS before custom builds — reduces risk, maintenance burden, and vendor lock-in by leveraging community-proven solutions
+- **Technical Due Diligence:** Architecture assessment, vendor evaluation, and risk analysis for technology investments and M&A transactions
+- **Fractional CTO Services:** Strategic technology leadership for companies needing executive-level expertise without full-time CTO budget
+- **Crisis Project Recovery:** Takes over failed projects others can't deliver - rapid implementation when teams have struggled for months
+- **Database Innovation Pioneer:** Pioneered Vector Search for SQL Server using custom SQLCLR before commercial offerings - work at ERisk and Eliassen predated market trends
+- **Multi-Platform Competency:** Universal expertise across Linux/Unix (System V, Solaris), macOS/Apple Xserve, Windows - works with any client infrastructure
+- **Enterprise Security Reviews:** Third-party security assessments and breach investigations - cleared specialty retailer/grocery client after suspected security concerns
+- **Current Innovation Projects:** Swagger/Handlebars client generator with custom extensions for automated multi-platform API client generation supporting modern API-first development workflows
+
+### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
+**Crisis Project Recovery - 1-Week AI/ML Delivery After 12 Months of Failed Development**
+
+- **Project Crisis Recovery:** Called in after two previous "AI/ML" developers worked 6 months each with no results - delivered working prototype within one week
+- **Rapid Technical Innovation:** Built custom .NET service hosting sentence transformer embedding model to extend SQL Server with vector support using SQLCLR
+- **Custom Algorithm Development:** Implemented Locality-Sensitive Hashing with random hyperplanes over embedding space for dramatic query performance improvements
+- **Legacy Integration Excellence:** Made modern AI/ML work with SQL Server 2012/2019 on-premises - no cloud dependencies required
+- **Advanced Search Engine:** Complex pattern matching, form predicates, and semantic matching for insurance submission processing
+- **Pure .NET AI/ML Implementation:** Avoided typical Python dependencies through custom .NET integration - enterprise-friendly architecture
+- **Hybrid Search Innovation:** Combined traditional SQL with modern vector search capabilities in single system
+
+#### ERiskFramework - Enterprise AI/ML Platform
+- **Enterprise Framework Architecture:** Architected 17-project modular .NET 8.0/9.0 framework integrating Microsoft Semantic Kernel with Ollama LLM for AI-powered chat functionality with automatic function calling
+- **ONNX Runtime Integration:** Implemented sentence embedding generation using All-MiniLM-L6-v2 model with custom BERT tokenizer, supporting batch processing and multiple vector distance metrics (cosine, Euclidean, Manhattan, dot product)
+- **Enterprise Middleware Pipeline:** Built comprehensive ASP.NET Core middleware for audit logging with correlation ID propagation, request/response capture, and configurable endpoint filtering
+
+### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
+**Nonprofit Leadership and Technical Automation**
+- **Board Governance:** Served on board of directors providing strategic oversight and governance for nonprofit foundation operations
+- **Software Automation:** Developed custom automation solutions for foundation operational processes and workflow optimization
+- **Technical Leadership:** Contributed specialized technical expertise to support foundation mission and enhance operational efficiency
+- **Community Impact:** Applied technology solutions to amplify nonprofit mission and improve service delivery capabilities
+
+### Principal Solutions Architect - Eliassen Group/Lightwell (September 2015 - October 2024)
+**Lead Developer/Architect on Multiple Projects & Practice-Wide Technical Standards Leader**
+
+#### Practice-Wide Technical Leadership & Standards Development
+**Lead Developer/Architect driving organizational excellence across entire practice**
+
+- **Lead Developer/Architect Excellence:** Served as lead developer and architect on multiple concurrent client projects while maintaining technical leadership across practice
+- **Practice-Wide Guidance Development:** Created comprehensive guidance for entire practice around SDLC methodologies, design patterns (CQRS, Repository, Factory, Dependency Injection), and service deployment patterns (microservices, containerization, CI/CD)
+- **Technical Standards Authority:** Established and enforced architectural standards, code quality metrics, and best practices adopted across all development teams
+
+#### Strategic Organizational Leadership - Centers of Excellence (July 2022 - October 2024)
+**Led enterprise-wide development standards and strategic technology initiatives across 125+ developers**
+
+- **Organizational Impact:** Influenced 10-15 development teams through Centers of Excellence leadership, establishing standards across multiple technology disciplines
+- **Enterprise Training & Curriculum Development:** Delivered **25+ comprehensive training programs** for both internal teams and client organizations, ranging from intimate 1-5 person sessions to large-scale 20+ developer boot camps covering **Event-Driven Architecture**, **Enterprise Testing Automation** (unit testing, mocking frameworks, integration testing strategies), **Message Queue Architecture**, **DevOps/CI-CD Pipeline Development**, **Docker Platform Mastery** (hosting platform, tools platform, local development pipelines), **Scripting Automation** (Bash, Batch/CMD, PowerShell), **Master Data Management**, **Data Deployment & Schema Management** (DacFX, SQL Server projects, migration strategies), **AI/ML Engineering** (vector databases, text/image embeddings, document chunking, semantic search, BM25/fulltext search, vector distance calculations, neural networks), **Hardware & Electronics** (analog computing, digital logic, embedded microcontrollers, protocol reverse engineering for network/USB/serial, microelectronics, breadboarding, through-hole and surface mount soldering), **Network Programming** (socket programming, protocol implementation), software design, architecture, design patterns, and **custom SDLC methodology** creation - supporting both pre-sales technical enablement and post-sales client success
+- **Crisis Resolution Leadership:** Served as organizational "fire fighter" resolving critical client issues spanning upset clients, failed deployments, library upgrade complications, data corruption recovery, and cross-domain integration challenges
+- **Strategic Technology Risk Management:** Prevented costly technology adoption mistakes through comprehensive evaluation processes, notably steering organization away from conference-driven MongoDB/Kafka adoption toward proven alternatives like Entity Framework Code-First migrations
+- **Organizational Process Architecture:** Created comprehensive **enterprise SDLC methodology** with upstream feedback loops, role architecture (Product Manager/Owner separation, Technical Architect governance), **Agile/Kanban integration strategy**, and quality gate development - eliminating assumptions and improving delivery quality while maintaining similar timeframes
+
+#### Framework Architecture & Strategic Innovation
+**Shared Framework Transformation - Strategic Product Leadership**
+
+- **Vision Evolution:** Transformed leadership concept from simple starter template to comprehensive templated framework providing development patterns for faster, more reliable application delivery
+- **Enterprise Architecture Innovation:** Enhanced framework with dynamic expression engines (Java/.Net), **enterprise-scale Complex Event Processing framework** (a pluggable complex-event-handler abstraction with scheduled events, message routing, and event sourcing), EF Core extensions, **comprehensive testing automation framework** (multi-tier testing with MSTest/Moq integration), and DacFX integration
+- **Sedgwick Crisis Resolution:** Rescued Form Engine project lacking data extraction strategy - created custom JSON path-based ETL tool transforming complex form structures into downstream consumable format
+- **McClane DSL Compiler:** Built database-configurable expression calculator using ANTLR4 grammar with Java AST listener converting expressions into executable computation classes for retail logistics calculations
+- **AT&T/Alien Vault Security Platform:** Led comprehensive project estimation and proof-of-concept development in GoLang with Microsoft Project planning and stakeholder collaboration
+- **Open Source Leadership:** Led successful initiative to open-source framework, though organizational support for community maintenance was not provided
+- **Lasting Organizational Impact:** Framework architecture remains foundational to AppDev group's .NET product development years after implementation
+- **Strategic Technology Guidance:** Championed "technology pragmatism" philosophy focusing on proven workhorse solutions over trend-driven "hot zebra" technologies
+
+#### Eliassen Shared Libraries (dotnet-libs) - Primary Author
+- **Enterprise Framework Scale:** Architected comprehensive enterprise framework with NuGet-publishable projects covering message queueing, templating, document conversion, identity management, and AI/vector search
+- **Document Conversion Pipeline:** Built multi-format conversion system integrating Apache Tika, wkhtmltopdf, and HtmlToOpenXml for PDF, HTML, DOCX, and Markdown transformations with 19 external service integrations
+- **RAG Engine CLI:** Developed file-based Retrieval Augmented Generation tool with Qdrant/OpenSearch vector database integration, Ollama/GroqCloud LLM support, and Sentence-BERT embeddings
+- **Standards-Based Scheduler:** Implemented crontab-pattern scheduling engine (POSIX cron expression parsing) backed by an abstracted event bus, enabling pluggable scheduling backends without coupling business logic to a specific scheduler runtime
+- **iCalendar Calendaring System:** Built calendaring module implementing vCal/iCalendar (RFC 5545) standard for interoperable event and schedule data exchange — adopting the open standard rather than designing a proprietary calendar format
+- **vCard Contact System:** Built contact information module implementing vCard (RFC 6350) standard for structured contact data exchange — enabling interoperability with any RFC-compliant client without custom format negotiation
+
+#### AI/ML Strategic Foresight & Innovation
+**Comprehensive AI Strategy Development & Hybrid Search Architecture**
+
+- **Strategic AI Leadership:** When AI/ML gained popularity, ensured comprehensive strategy beyond just language models, preventing narrow LLM-focused approach
+- **Internal AI Product Replacement:** Internal team spent 6+ months building complex AI/LLM chat product with Azure AI Studio - created superior replacement with more functionality in just a few hours using hybrid search engine and OpenWebUI
+- **Architectural Superiority:** Delivered on-premises/cloud deployment flexibility vs. Azure-only original, maintainable architecture vs. complex brittle system, hybrid search vs. basic RAG
+- **Competitive Analysis & Innovation:** Evaluated an internal RAG chat product's limitations, created a superior hybrid search engine combining vector embeddings with BM25/full text search for faster, cheaper, more accurate data recovery
+- **Framework Integration:** Successfully integrated hybrid search capabilities and cross-API chat functionality into shared framework, enhancing organizational capabilities despite original product team not adopting approach
+- **Technology Cost Analysis:** Provided strategic guidance on LLM limitations including cost inefficiency, energy consumption, and poor power-user interfaces while acknowledging value for lowering barriers for less skilled workers
+
+#### Pre-Sales Engineering & Business Development Excellence
+- **Pre-Sales Technical Leadership:** Led technical pre-sales engineering efforts including client-facing proof of concepts, technical demonstrations, and solution architecture presentations to secure enterprise contracts
+- **Proof of Concept Development:** Rapid prototyping and POC delivery for strategic opportunities, demonstrating technical feasibility and ROI to executive stakeholders
+- **Internal R&D Leadership:** Directed internal research and development initiatives exploring emerging technologies, evaluating new frameworks, and creating innovation prototypes for competitive advantage
+- **Developer & Architect Training:** Delivered comprehensive training programs to both internal teams and client organizations, covering advanced architecture patterns, AI/ML implementation, and enterprise best practices
+- **Sales Enablement Engineering:** Technical sales support including RFP responses, technical proposal writing, and solution estimation for multi-million dollar enterprise opportunities
+
+#### "Choose Your Own Adventure" R&D & Training Program
+**Program Head - Internal R&D Initiative and Developer Training Platform**
+**Led enterprise-wide R&D and training program demonstrating architecture patterns**
+
+- **Enterprise Training-Reference Platform:** Architected 100+ specialized .NET 8 libraries with plugin-based architecture, dynamic assembly loading, and Azure AD B2C integration as training reference implementation
+- **ContainerStore AI Infrastructure:** Designed GPU-aware Docker Compose orchestration with 20+ pre-configured services (Ollama LLM, SBERT, Qdrant, Keycloak) with CUDA acceleration for hands-on AI/ML training
+- **RebuildIt Code Generator:** Built LLM-powered CLI using Ollama and Handlebars templating for automated test generation and cross-framework migrations as practical AI tooling example
+- **Training Impact:** Provided hands-on learning environment for developers to explore enterprise architecture patterns, AI/ML integration, and modern DevOps practices
+- **Lasting Community Legacy:** Program spawned an independent public mentorship community ([Discord](https://discord.gg/dyj84PZKvh)) that continues to operate beyond the original internal initiative, demonstrating durable impact on developer growth
+
+#### Business Impact & Technical Excellence
+- **Leadership Roles:** Centers of Excellence Lead for .Net, Sales Enablement Engineer, Pre-Sales Technical Lead, Full-time Solutions Architect
+- **Enterprise Architecture Specializations:** **Event-Driven Architecture & Complex Event Processing**, **Platform Engineering & DevOps Leadership**, **Enterprise Integration & Message Queue Architecture**, **Testing Architecture & Quality Engineering**, database and application performance, reusable middleware frameworks, **organizational process design & change management**
+- **Client Impact:** Contributed to significant improvement in project delivery success rates through framework standardization, crisis resolution, and successful pre-sales technical demonstrations
+- **Technologies:** .Net/C#, Javascript/Typescript, Java, Go, Python, multiple databases and cloud services, comprehensive AI/ML stack evaluation
+- **Platform Engineering & Container Orchestration:** **Docker development and deployment workflows**, **Kubernetes administration with Helm chart development**, comprehensive CI/CD pipeline development across Atlassian (JIRA, Confluence, Bitbucket), **Azure DevOps with private NPM repository management**, GitHub integration, **SQL Server project versioning with extended properties and deployment automation**, Microsoft Project for resource planning
+- **Development Productivity Tools:** **Visual Studio extensions for unit test boilerplate generation**, custom development tooling, automated refactoring frameworks, **SMTP emulation for email development**, exception handling pattern automation
+- **Enterprise Integration & API Architecture:** **Event streaming with Kafka and Azure Event Hubs**, **API Gateway development and reverse proxy architecture** (career-spanning from network admin to enterprise development), **custom API Gateway implementation** (Itrica, Dotnet Factory, BMW/Eliassen), **GraphQL, OData, and custom API framework design**, **OAuth2/OIDC/Azure AD integration**, **microservices patterns** including circuit breakers and bulkhead patterns
+- **Message Architecture & Event Streaming:** **Azure Service Bus vs Storage Queue comparative analysis**, **Kafka and Azure Event Hubs implementation**, custom **generic message-sender framework** with generic queue providers, **CQRS event-driven architecture** (Itrica patient-engagement messaging, additional internal enterprise implementations), **message routing architecture** with dependency injection integration
+- **Observability & Monitoring:** **Azure Application Insights production monitoring**, **Prometheus/Grafana infrastructure monitoring**, distributed tracing for enterprise applications, **FinOps and cloud cost optimization** (77% Azure cost reduction)
+
+### Chief Solutions Architect / CTO - Itrica (November 2009 - July 2015)
+**FDA-Compliant CTMS Leadership - Dual CTO/CSA Role with Hands-On Development Management**
+**Location:** Quincy, MA / Gahanna, OH (Hybrid)
+**Title Progression:** Private Consultant, Senior Developer (Nov 2009 - Sep 2010, part-time alongside concurrent full-time roles at United Healthcare and Safe Auto Insurance) → Senior Engineer / Senior Software Architect (Sep 2010 - Mar 2015) → Chief Technology Officer / Development Manager (Jun 2011 - Feb 2014) → Chief Solutions Architect (Feb 2014 - Jul 2015)
+
+- **Merit-Based CTO/CSA Promotion:** Promoted by CEO as "most skilled senior architect on team" - uniquely combined CTO strategic responsibilities with CSA technical leadership and hands-on development management
+- **CTMS Architecture & Development:** Personally architected, built, and maintained the Clinical Trial Management System (CTMS) while simultaneously managing the development team - true player-coach model
+- **Development Manager Excellence:** Direct management of 5 developers while actively coding alongside team - maintained technical authority through hands-on contribution rather than delegation
+- **Datacenter Infrastructure Leadership:** Planned and built complete server infrastructure and datacenter for clinical trial management system including hardware selection, virtualization platform (VMware/Hyper-V), network design, storage architecture, and disaster recovery planning
+- **FDA Regulatory Compliance:** Direct FDA auditor interaction for life-critical clinical trial software systems with complete signoff responsibility for both architecture and implementation
+- **Big Pharma Partnerships:** Major pharmaceutical clients including Sanofi, AstraZeneca, GSK for large-scale cardiovascular studies (TRA2P, SAVOR)
+- **Harvard Medical Collaboration:** TIMI Study Group partnership developing clinical trial management software for Brigham and Women's Hospital research
+- **Global Clinical Operations:** Multi-national pharmaceutical trial coordination and data management systems
+- **Digital Transformation Leadership:** Eliminated physical document shipping worldwide through Silverlight/DeepZoom document viewer for global CEC access
+
+#### Revolutionary Clinical Trial Systems
+- **CEC System Redesign:** Global Clinical Event Committee document access replacing paper binders with secure digital viewing
+- **Clinical Forms System:** Custom JavaScript client with WPF-style forms for doctor data entry featuring embedded form-data architecture
+- **SQLCLR JSON Innovation:** Custom SQL Server CLR plugin wrapping JSON.NET enabling database-native JSON processing for faster-than-ETL data extraction
+- **Data Structure Evolution Management:** Handled changing form structures over time while maintaining backward compatibility and data accessibility
+- **Patient Engagement Messaging Platform:** Patient engagement system with SMS/email appointment reminders, federated messaging gateway, and global doctor coordination
+- **Event Bus Architecture:** MS SQL Service Broker for reliable message processing with intelligent routing to correct trials and patients
+- **Patient Retention Technology:** Two-way communication for survey completion improving clinical trial retention rates
+
+### Senior .Net Developer Contractor - TEKsystems (August 2007 - September 2010)
+
+#### United Healthcare/Harrington Health (December 2008 - April 2010)
+**Location:** Columbus, OH (On-site)
+**EDI/X12 Healthcare Transaction Processing & Mainframe Integration**
+- **Production Deployment Risk Mitigation:** Prevented $500K+ documented overcharge by moving configuration from scripts to environment variables
+- **EDI/X12 Processing:** Healthcare transaction processing using industry-standard formats with banking transfer record automation
+- **Mainframe Integration Gateway:** WCF service architecture bridging MVS mainframe systems with modern .NET applications
+- **DevOps Process Innovation:** Eliminated manual configuration errors and accidental production execution through environment standardization
+- **WinBatch Automation:** Scripted EDI transformation and batch processing workflows for healthcare claims processing
+
+#### JPMorgan Chase (June 2008 - December 2008) 
+**Location:** Columbus, OH (On-site)
+**Financial Regulatory Compliance & Custom Framework Development**
+- **Broker/Dealer Compliance Tracking:** Designed and built application ensuring regulatory compliance including insider trading prevention
+- **Custom Query Framework:** Built custom data access framework due to Entity Framework limitations - early custom ORM development
+- **Financial Regulatory Systems:** Real-time compliance monitoring and alerting for SEC regulatory requirements
+- **ASP.NET Enterprise Development:** Large-scale web application architecture with SQL Server backend for financial compliance
+
+#### Safe Auto Insurance (April 2010 - September 2010)
+**Location:** Columbus, OH (On-site)
+- **Enterprise Services:** Designed and implemented enterprise message passing services and deployment tools
+- **Communication:** Custom XSLT transformation processes and WCF services (WS-*, Basic HTTP, MSMQ)
+- **Tools Development:** Service deployment tools and batch processing systems
+
+### .Net Developer - The Dot Net Factory/EmpowerID, TEKsystems (August 2007 - April 2008)
+**Location:** Dublin, OH (On-site)
+**Enterprise Identity Management & Protocol Engineering**
+- **Universal Authentication Connectors:** Created connectors for LDAP, eDirectory, Active Directory, Linux users/groups through API integration and protocol analysis
+- **Custom LDAP Server Implementation:** Built .NET service emulating complete LDAP authentication protocol through RFC analysis and Wireshark traffic reverse engineering
+- **Legacy Application Integration:** Enabled existing LDAP client applications to authenticate against modern IAM system without client changes
+- **Secure 2FA Enhancement:** GDI+-based graphics rendering hardening for multi-factor authentication card images
+- **Cross-Platform Authentication:** Universal identity management across heterogeneous enterprise environments
+
+### Software Engineer - 3SG Corporation (August 2006 - August 2007)
+**Career Transition & Crisis Project Recovery - Database Administrator to Primary Developer**
+- **Career Pivot Success:** First transition from networking (Eastland) to programming - hired as DBA, rapidly evolved to primary developer
+- **Project Crisis Recovery:** Inherited large-scale insurance document digitization project with <75% scanning confidence facing contract termination
+- **Process Innovation Success:** Designed unique barcode inventory system raising scanning accuracy from <75% to >95% - prevented contract loss
+- **Custom Algorithm Development:** Built page counting and file estimation algorithms for quality assurance targeting of millions of document pages
+- **COTS Software Extension:** Enhanced "TurboScan" commercial platform with custom Windows Workflow integration for automated QA processes
+
+### Systems Engineer/Department Head - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)
+**Enterprise IT Leadership - Complete Infrastructure Design, Build & Management**
+- **Career Origin Story:** Offered position before high school graduation after volunteering during "senior skip day" to clean ILOVEYOU virus from school network
+- **Complete Network Infrastructure:** Designed, built, and managed entire local and wide area network using Enterasys, 3Com, and Cisco equipment including VLANs, routing protocols, managed switches, spanning tree, QoS, and network segmentation across multiple campuses
+- **Server Infrastructure Architecture:** Built and managed complete Novell ecosystem including NetWare servers, ZENworks desktop management, BorderManager firewall/proxy, GroupWise email, and NDS/eDirectory identity management
+- **Telephony System Management:** Deployed and managed 3Com NBX VoIP telephony system serving entire educational institution
+- **Wireless Infrastructure:** Designed and deployed campus-wide wireless network infrastructure for student and staff connectivity
+- **Computer Lab Management:** Built and managed multiple computer labs with imaging, deployment, and remote management capabilities
+- **Enterprise-Scale Management:** Managed over 3,500 computers across 2 main campuses, admin building, and multiple offsite locations
+- **Strategic Planning & Budgeting:** Departmental budget management and strategic planning for network upgrades and computer deployments
+- **Multi-Site WAN Management:** Direct TCP/IP links and dedicated leased ATM lines with complex multi-partner network integration
+- **Custom Development Innovation:** Multiple support ticket tracking systems (PHP/RADIUS and ASP/VBScript/LDAP versions)
+- **Mainframe Programming:** System Builder programming with Unidata mainframe for student management system extensions
+- **Internal Promotion Track:** Hired as Computer Technician → Promoted to Network Technician → Promoted to Systems Engineer/Network Architect → Promoted to Department Head
+
+---
+
+## Skills Matrix
+
+### Proficiency Scale
+- **Expert (5):** Deep mastery, can architect solutions, mentor others, innovate in the space
+- **Advanced (4):** Production experience, can lead projects, solve complex problems independently
+- **Proficient (3):** Solid working knowledge, can deliver features, needs occasional guidance on edge cases
+- **Familiar (2):** Basic understanding, can contribute with support, actively developing skills
+- **Exposure (1):** Awareness level, have used in limited contexts
+
+### Core Programming Languages
+
+| Skill                      | Years |  Last Used  |     Level     | Evidence                                          |
+|:---------------------------|:-----:|:-----------:|:-------------:|:--------------------------------------------------|
+| C#                         |  20+  |   Current   |   Expert (5)  | 900K+ NuGet downloads, Gold SO badge, 42 packages |
+| .NET Framework/.NET Core   |  20+  |   Current   |   Expert (5)  | .NET 9.0 adoption, zero-allocation programming    |
+| SQL/T-SQL                  |  20+  |   Current   |   Expert (5)  | Custom SQLCLR extensions, vector types            |
+| JavaScript                 |  15+  |   Current   | Advanced (4)  | React frontends, Node.js tooling                  |
+| TypeScript                 |   5+  |   Current   | Advanced (4)  | Green Onion frontend, Zod schemas                 |
+| Python                     |   5+  |   Current   | Proficient (3)| AI/ML pipelines, Flask endpoints                  |
+| Java                       |  10+  |    2024     | Advanced (4)  | Eliassen DSL compiler, ANTLR4                     |
+| Go                         |   3+  |   Current   | Proficient (3)| AT&T/Alien Vault security platform, next-gen clinical platform POC |
+| F#                         |   5+  |   Current   | Proficient (3)| Functional programming, NuGet packages            |
+| Rust                       |   2+  |   Current   |  Familiar (2) | Cross-language algorithm portfolio                |
+| PowerShell                 |  15+  |   Current   | Advanced (4)  | DevOps automation, scripting                      |
+| Bash                       |  15+  |   Current   | Advanced (4)  | Linux administration, CI/CD scripts               |
+| PHP                        |  10+  |    2010     | Proficient (3)| Support ticket system (RADIUS auth integration)   |
+| VBScript / Classic ASP     |   8+  |    2008     | Proficient (3)| LDAP-backed ticket systems, legacy web dev        |
+
+### Hardware & Low-Level
+
+| Skill                       | Years |  Last Used  |     Level     | Evidence                          |
+|:----------------------------|:-----:|:-----------:|:-------------:|:----------------------------------|
+| SystemVerilog               |   5+  |   Current   | Advanced (4)  | MW16C 16-bit CPU design           |
+| VHDL                        |   5+  |   Current   | Advanced (4)  | FPGA component library            |
+| Verilog                     |   5+  |   Current   | Advanced (4)  | Digital logic design              |
+| C/C++ (Embedded)            |  10+  |   Current   | Proficient (3)| Arduino, AVR, ARM Cortex-M        |
+| Assembly (Various)          |  10+  |   Current   | Proficient (3)| 6800, AVR, custom CPU             |
+| PCB Design (KiCad/Eagle)    |  10+  |   Current   | Advanced (4)  | 25+ PCB designs                   |
+| Electronics/Circuit Design  |  25+  |   Current   |   Expert (5)  | Certified Electronics Technician  |
+| RF / SDR (Software-Defined Radio) | 1+ | Current | Familiar (2)  | RTL-SDR, GNU Radio, passive radar research |
+
+### Databases & Data
+
+| Skill                     | Years |  Last Used  |     Level     | Evidence                           |
+|:--------------------------|:-----:|:-----------:|:-------------:|:-----------------------------------|
+| Microsoft SQL Server      |  20+  |   Current   |   Expert (5)  | SQLCLR, vector extensions, DBA     |
+| DacFx (Data-Tier Framework)|  5+  |   Current   | Advanced (4)  | Schema deployment, CI/CD (30K+ downloads) |
+| PostgreSQL                |   5+  |   Current   | Advanced (4)  | pgvector, production deployments   |
+| SQLite                    |   3+  |   Current   | Proficient (3)| Cadwell medical device software    |
+| MongoDB                   |   3+  |    2023     | Proficient (3)| Evaluated, production use          |
+| Redis                     |   3+  |    2024     | Proficient (3)| Caching implementations            |
+| Qdrant                    |   2+  |   Current   | Advanced (4)  | Vector search, RAG systems         |
+| OpenSearch/Elasticsearch  |   3+  |   Current   | Proficient (3)| Hybrid search engines              |
+| Entity Framework/EF Core  |  15+  |   Current   |   Expert (5)  | Code-first, migrations, optimization|
+| XSLT Transformation       |  15+  |   Current   | Advanced (4)  | 64K+ downloads, code generation    |
+| Expression Evaluation/DSL |   8+  |   Current   | Advanced (4)  | 38K+ downloads, business rules     |
+| Binary Protocol Engineering|  10+ |   Current   | Advanced (4)  | 75K+ downloads, reverse engineering|
+
+### Cloud & Infrastructure
+
+| Skill                   | Years |  Last Used  |     Level     | Evidence                              |
+|:------------------------|:-----:|:-----------:|:-------------:|:--------------------------------------|
+| Microsoft Azure         |   8+  |   Current   | Advanced (4)  | 77% cost reduction, B2C, Service Bus  |
+| Azure DevOps            |   8+  |   Current   |   Expert (5)  | Pipelines, repos, artifacts           |
+| AWS                     |   5+  |    2024     | Proficient (3)| SQS, Lambda, S3                       |
+| Docker                  |   8+  |   Current   |   Expert (5)  | Multi-service orchestration, GPU      |
+| Kubernetes              |   5+  |   Current   | Advanced (4)  | Helm charts, production deployments   |
+| GitHub Actions          |   5+  |   Current   | Advanced (4)  | CI/CD for 42 NuGet packages           |
+| Linux Administration    |  20+  |   Current   |   Expert (5)  | System V, Solaris, Ubuntu             |
+| Windows Server          |  20+  |   Current   |   Expert (5)  | AD, IIS, enterprise infrastructure    |
+| Networking (Cisco/3Com) |  15+  |    2024     | Advanced (4)  | VLANs, routing, firewalls             |
+
+### AI/ML & Data Science
+
+| Skill                          | Years |  Last Used  |     Level     | Evidence                           |
+|:-------------------------------|:-----:|:-----------:|:-------------:|:-----------------------------------|
+| Sentence Transformers          |   3+  |   Current   | Advanced (4)  | AllMiniLM-L6-v2, SBERT production  |
+| Vector Search/Embeddings       |   3+  |   Current   |   Expert (5)  | Custom LSH, FAISS, Qdrant          |
+| ONNX Runtime                   |   2+  |   Current   | Advanced (4)  | Pure .NET inference engine         |
+| LLM Integration (Ollama/OpenAI)|   2+  |   Current   | Advanced (4)  | RAG systems, Semantic Kernel       |
+| Custom ML Algorithms           |   3+  |   Current   | Advanced (4)  | LSH, hybrid search, neural networks|
+| Microsoft Semantic Kernel      |   2+  |   Current   | Proficient (3)| Function-calling agents            |
+
+### Web & Frontend
+
+| Skill                  | Years |  Last Used  |     Level     | Evidence                           |
+|:-----------------------|:-----:|:-----------:|:-------------:|:-----------------------------------|
+| React                  |   4+  |   Current   | Advanced (4)  | Green Onion frontend               |
+| ASP.NET MVC/Core       |  15+  |   Current   |   Expert (5)  | Enterprise applications            |
+| REST API Design        |  15+  |   Current   |   Expert (5)  | OpenAPI, GraphQL, OData            |
+| WPF                    |  10+  |   Current   |   Expert (5)  | Cadwell medical device UI          |
+| WCF / SOAP             |  15+  |   Current   |   Expert (5)  | Legacy clinical platform IPC (named pipes, TCP); enterprise services, mainframe bridge, MSMQ bindings |
+| GraphQL                |   5+  |   Current   | Advanced (4)  | Eliassen framework, API design     |
+| OData                  |   8+  |   Current   | Advanced (4)  | Framework design, Green Onion API  |
+| HTML/CSS               |  20+  |   Current   | Advanced (4)  | Responsive, accessibility          |
+| Redux/State Management |   4+  |   Current   | Advanced (4)  | Redux Toolkit, React Context       |
+| SignalR/WebSockets/SSE |   8+  |   Current   | Advanced (4)  | Real-time scoring systems; next-gen clinical platform stream-ticket auth |
+| iCalendar / vCal (RFC 5545) |  3+  |   Current   | Proficient (3)| Eliassen SharedFramework calendaring|
+| vCard (RFC 6350)       |   3+  |   Current   | Proficient (3)| Eliassen SharedFramework contacts  |
+
+### Architecture & Patterns
+
+| Skill                           | Years |  Last Used  |     Level     | Evidence                                      |
+|:--------------------------------|:-----:|:-----------:|:-------------:|:----------------------------------------------|
+| Microservices Architecture      |  10+  |   Current   |   Expert (5)  | Enterprise frameworks                         |
+| Event-Driven Architecture       |  10+  |   Current   |   Expert (5)  | Kafka, Service Bus, CQRS                      |
+| Domain-Driven Design            |  10+  |   Current   | Advanced (4)  | Enterprise implementations                    |
+| CQRS/Event Sourcing             |   8+  |   Current   | Advanced (4)  | Itrica, additional internal implementations   |
+| API Gateway Design              |  10+  |   Current   |   Expert (5)  | Custom implementations (Itrica, BMW, Eliassen)|
+| SOA/Enterprise Integration      |  15+  |   Current   |   Expert (5)  | Multi-system integration                      |
+| Delegating Handler / Middleware Pipeline | 8+ | Current | Advanced (4) | Next-gen clinical platform SDK; ASP.NET Core pipelines  |
+| Circuit Breaker / Bulkhead      |   8+  |   Current   | Advanced (4)  | Polly, Eliassen resilience framework          |
+
+### Messaging & Event Streaming
+
+| Skill                      | Years |  Last Used  |     Level     | Evidence                                      |
+|:---------------------------|:-----:|:-----------:|:-------------:|:----------------------------------------------|
+| Kafka / Azure Event Hubs   |   8+  |   Current   | Advanced (4)  | Eliassen LightWell framework, multiple clients|
+| Azure Service Bus          |   8+  |   Current   | Advanced (4)  | Production integrations, generic message-sender framework |
+| RabbitMQ                   |   3+  |    2024     | Proficient (3)| Enterprise messaging evaluations              |
+| MSMQ                       |  10+  |    2022     | Proficient (3)| WCF MSMQ bindings, legacy integration         |
+| NATS (Core + JetStream)    |   1+  |   Current   | Proficient (3)| sync-mesh leaf-node/gateway event mesh        |
+| Custom Message Abstraction |   8+  |   Current   | Advanced (4)  | Generic message-sender framework with pluggable providers |
+
+### DevOps & Tools
+
+| Skill                        | Years |  Last Used  |     Level     | Evidence                        |
+|:-----------------------------|:-----:|:-----------:|:-------------:|:--------------------------------|
+| Git                          |  15+  |   Current   |   Expert (5)  | Complex branching, code review            |
+| CI/CD Pipeline Design        |  10+  |   Current   |   Expert (5)  | Azure, GitHub, Bitbucket                  |
+| JIRA/Confluence              |  10+  |   Current   | Advanced (4)  | Project management integration            |
+| Visual Studio                |  20+  |   Current   |   Expert (5)  | Extensions, advanced debugging            |
+| VS Code                      |   8+  |   Current   | Advanced (4)  | Extensions, remote development            |
+| WiX Installer (MSI/MSBuild)  |   2+  |   Current   | Proficient (3)| Cadwell medical device MSI packaging                    |
+| dotnet new Template Engine   |   5+  |   Current   | Advanced (4)  | Eliassen SharedFramework, next-gen clinical platform scaffolding  |
+| MSBuild / SDK Project System |  10+  |   Current   | Advanced (4)  | Multi-targeting, build-shim projects, WiX integration   |
+| OpenTelemetry                |   3+  |   Current   | Advanced (4)  | Next-gen clinical platform auth metrics, Go module (Prometheus)   |
+| .NET Aspire                  |   1+  |   Current   | Proficient (3)| sync-mesh multi-topology orchestration, fohjin-cqrs   |
+| Node.js                      |   5+  |   Current   | Proficient (3)| Platform diagnostic scripts, API tooling                |
+| ANTLR4                       |   5+  |    2025     | Advanced (4)  | Eliassen McClane DSL compiler (Java AST listener)       |
+| Liquid Templates             |   3+  |   Current   | Advanced (4)  | NSwag SDK generation (.NET, TypeScript, Python targets) |
+| Crontab / Scheduling Patterns|   5+  |   Current   | Advanced (4)  | Eliassen SharedFramework scheduler engine               |
+| Handlebars Templates         |   5+  |   Current   | Advanced (4)  | Green Onion (129 templates, 35 helpers), RebuildIt CLI  |
+| NSwag                        |   3+  |   Current   | Advanced (4)  | Next-gen clinical platform SDK gen; .NET/TS/Python targets        |
+| SendGrid / Email APIs        |   5+  |    2025     | Proficient (3)| Patient engagement messaging platform, Eliassen        |
+| Twilio / SMS APIs            |   5+  |    2025     | Proficient (3)| Patient engagement appointment reminders               |
+
+### Testing & Quality
+
+| Skill                              | Years |  Last Used  |     Level     | Evidence                        |
+|:-----------------------------------|:-----:|:-----------:|:-------------:|:--------------------------------|
+| Unit Testing (MSTest/xUnit/NUnit)  |  15+  |   Current   |   Expert (5)  | TDD, test automation frameworks        |
+| Mocking (Moq)                      |  10+  |   Current   |   Expert (5)  | Custom mocking framework author        |
+| Integration Testing                |  15+  |   Current   |   Expert (5)  | API testing, E2E                       |
+| E2E Testing (process-level)        |   3+  |   Current   | Advanced (4)  | Next-gen clinical platform real-process auth E2E |
+| Performance Testing                |  10+  |   Current   | Advanced (4)  | Benchmarking, optimization             |
+| Roslyn SDK / Static Analysis       |   2+  |   Current   | Advanced (4)  | Platform coding convention enforcement |
+| OpenAPI / Contract Validation      |   5+  |   Current   | Advanced (4)  | OpenApiValidator, NSwag, API drift gates|
+
+### Security & Authentication
+
+| Skill                             | Years |  Last Used  |     Level     | Evidence                                          |
+|:----------------------------------|:-----:|:-----------:|:-------------:|:--------------------------------------------------|
+| OAuth 2.0 / OIDC                  |   5+  |   Current   | Advanced (4)  | Next-gen clinical platform token service; RFC 6749/7523/8693          |
+| JWT / RS256 / JWKS                |   5+  |   Current   | Advanced (4)  | Cadwell, Eliassen, Green Onion (Azure B2C)    |
+| DPoP (RFC 9449)                   |   1+  |   Current   | Proficient (3)| Next-gen clinical platform cross-service trust model        |
+| ASP.NET Core Auth / Claims        |  10+  |   Current   |   Expert (5)  | Claims-based identity, policy providers           |
+| FIPS 140-2                        |   1+  |   Current   | Proficient (3)| Next-gen clinical platform auth infrastructure              |
+| AsyncLocal / Async Context Patterns|  2+  |   Current   | Advanced (4)  | Legacy clinical platform multi-user identity refactor              |
+| LDAP Protocol              |  10+  |   Current   | Advanced (4)  | Custom .NET LDAP server impl via RFC analysis; LifeTime connectors |
+| Active Directory / eDirectory |  15+ |  Current   | Advanced (4)  | Novell NetWare, enterprise auth, IAM connectors   |
+| SAML / WS-Federation       |   8+  |    2022     | Proficient (3)| Enterprise SSO integrations                       |
+
+### Compliance & Regulated Industries
+
+| Skill                | Years |  Last Used  |     Level     | Evidence                            |
+|:---------------------|:-----:|:-----------:|:-------------:|:------------------------------------|
+| FDA Compliance       |   6+  |   Current   |   Expert (5)  | Itrica CTMS, Cadwell medical devices|
+| HIPAA                |   6+  |   Current   | Advanced (4)  | Healthcare systems                  |
+| HL7 v2.3-2.5         |   2+  |   Current   | Proficient (3)| Cadwell patient data                |
+| Financial Compliance |   3+  |    2008     |  Familiar (2) | JPMorgan broker/dealer systems      |
+
+### Leadership & Soft Skills
+
+| Skill                      | Years |  Last Used  |     Level     | Evidence                                |
+|:---------------------------|:-----:|:-----------:|:-------------:|:----------------------------------------|
+| Technical Team Leadership  |  15+  |   Current   |   Expert (5)  | 5-10 direct reports, CoE lead           |
+| Architecture Review        |  10+  |   Current   |   Expert (5)  | Enterprise standards                    |
+| Technical Mentoring        |  15+  |   Current   |   Expert (5)  | Boot camps, training programs           |
+| Pre-Sales Engineering      |   8+  |   Current   | Advanced (4)  | POCs, RFP responses                     |
+| Crisis Resolution          |  10+  |   Current   |   Expert (5)  | 1-week delivery after 12-month failures |
+| Stakeholder Management     |  10+  |   Current   | Advanced (4)  | VP/Director presentations               |
+| Vendor Management          |  10+  |   Current   | Advanced (4)  | Selection, contract negotiation         |
+| Technical Writing          |  20+  |   Current   |   Expert (5)  | Novell publications, documentation      |
+
+---
+
+## Technical Skills & Core Competencies
+
+### Enterprise Architecture & Core Technologies
+**Multi-Platform Universal Competency:**
+- **Operating Systems:** Linux/Unix (System V, Solaris), macOS/Apple Xserve, Windows - professional administration throughout career
+- **.Net/C# Ecosystem:** .Net Standard, ASP.Net MVC, WPF, Windows Services, EF Core, .Net Core (20+ years) - self-taught excellence
+- **Database Innovation:** SQL Server SQLCLR vector extensions, custom SqlVector/SqlVectorF types, performance optimization, mainframe integration (20+ years)
+- **AI/ML Pioneer:** Production embedding systems predating mainstream adoption, custom LSH algorithms, hybrid search engines, pure .NET implementations
+- **Protocol Engineering:** LDAP server implementation, ClientTrust reverse engineering, TCP/IP analysis, proprietary protocol development
+- **Cloud & Infrastructure:** Azure cost optimization (77% reductions), AWS, multi-cloud vendor-neutral architecture
+
+### Enterprise Frameworks & Governance
+**Architecture & Standards:**
+- **Enterprise Architecture:** Cross-functional architecture strategy, enterprise solutions design, technology risk management, architecture governance frameworks
+- **Software Development Life Cycle (SDLC):** Complete SDLC implementation, methodology development, process optimization, upstream feedback loops
+- **Design Patterns:** SOLID principles, Clean Architecture, Domain-Driven Design (DDD)
+- **Enterprise Integration:** Service-oriented architecture (SOA), event-driven architecture, API design, enterprise solutions integration
+- **Architecture Documentation:** PlantUML diagram-as-code, Visio enterprise diagrams, Figma wireframes, pen/paper ideation
+- **Quality Assurance:** Test-driven development, continuous integration, automated testing frameworks, code review processes, architecture reviews
+- **Performance Engineering:** Zero-allocation programming, memory optimization, scalability design, application optimization, database optimization
+- **Security Architecture:** Authentication/authorization, OAuth2/OIDC implementation, audit logging, compliance frameworks, security reviews
+- **Identity Providers:** Azure AD B2C, Keycloak, JWT token management, claim-based authorization, token exchange patterns
+- **Business Requirements:** Requirements gathering and documentation, solution development, business analysis, stakeholder management
+
+### Data Architecture & Analytics
+**Enterprise Data Management:**
+- **Microsoft SQL Server:** Custom SQLCLR extensions, SqlVector/SqlVectorF types, performance tuning
+- **Vector & Search:** FAISS, Qdrant, custom LSH algorithms, hybrid search engines
+- **Big Data:** ETL pipelines, real-time processing, data warehousing, analytics platforms
+- **NoSQL:** MongoDB, PostgreSQL, OpenSearch, polyglot persistence strategies
+
+### Cloud & DevOps Technologies
+**Production Infrastructure:**
+- **Information Technology:** Enterprise IT strategy, infrastructure management, technology modernization, system integration
+- **Network Architecture:** Network design, network security, enterprise networking, infrastructure planning
+- **Containerization:** Docker, Kubernetes, Helm charts, multi-service orchestration
+- **Cloud Platforms:** Azure (Service Bus, Storage Queues, Container Apps), AWS (SQS, Lambda)
+- **Message Queues:** RabbitMQ, Kafka, Azure Service Bus, event streaming
+- **Continuous Integration/Continuous Delivery (CI/CD):** Azure Pipelines, GitHub Actions, Bitbucket Pipelines, automated deployment, infrastructure as code
+- **Project Management Integration:** JIRA for issue tracking, Confluence for documentation, Azure DevOps work items, Microsoft Project for resource planning
+
+### Web & Frontend Technologies
+**Modern Frontend Development:**
+- **React Ecosystem:** React 19, Redux Toolkit, PrimeReact v10, component-based architecture
+- **TypeScript:** Advanced generics, type inference, schema validation with Zod v4
+- **Build Tooling:** Vite, Vitest testing framework, NSwag code generation
+- **State Management:** Redux Toolkit, React Context, custom hooks
+- **UI/UX Development:** Responsive design, theme systems (light/dark), accessibility, drag-drop interactions
+- **Python Web:** Flask for AI/ML service endpoints
+
+### AI/ML & Advanced Technologies
+**Enterprise AI Integration:**
+- **Machine Learning:** Sentence Transformers (AllMiniLM-L6-v2, SBERT), production model deployment, custom ONNX inference engines
+- **Vector Search:** Custom LSH algorithms (16-bit hashes), approximate nearest neighbor search, hybrid search architectures
+- **LLM Integration:** OpenAI, Ollama/OllamaSharp, GroqCloud, RAG systems, business applications
+- **AI Orchestration:** Microsoft Semantic Kernel, function-calling agents, multi-model pipelines
+- **Performance Optimization:** Sub-linear similarity search, caching strategies, scalability engineering
+- **Custom AI Pipelines:** GPU/CUDA-accelerated processing, bilingual document processing, multi-modal AI orchestration
+- **Advanced Vector Operations:** Custom SQL CLR vector aggregates, centroid calculations, statistical operations
+- **AI Development Tools:** Handlebars template engines with LLM integration, automated code generation, NSwag API client generation
+
+### Specialized Technologies & Domains
+**Unique Expertise:**
+- **Zero-Allocation Programming:** System.IO.Pipelines, Memory<T>, Span<T>, high-performance .NET with **.NET 9.0 Adoption Leadership** (all 42 NuGet packages maintained at latest framework)
+- **Advanced .NET Patterns:** Dynamic assembly loading, plugin architecture, Named Pipes IPC, expression tree compilation
+- **Binary Data Processing:** Protocol parsing, file format implementations, network protocols
+- **Reverse Engineering:** Protocol analysis, legacy system integration, software archaeology
+- **Domain-Specific Languages:** ANTLR, custom compilers, AST manipulation, XSLT code generation
+- **Hardware Description Languages:** **Professional Verilog, VHDL, SystemVerilog expertise** for FPGA/CPLD development (Xilinx Vivado, Altera Quartus Prime, ISE) with advanced digital logic design, custom CPU architectures, and reusable IP cores
+- **Specialized Domain Applications:** **Fencing electronic scoring systems** (ScoreMachine production deployment), **radiation detection monitoring** (RadexOne), **test equipment automation** (LXI Serial Bridge), device communication protocols, Arduino integration
+- **PCB Design & Electronics:** KiCad for circuit board layout with custom symbol and footprint libraries, schematic capture, KiBot automation for professional documentation generation, analog computer designs, interface adapters
+- **Message Queuing Systems:** SQL Server Service Broker, Azure Service Bus, RabbitMQ, custom correlation tracking
+- **Document Processing:** Apache Tika integration, wkhtmltopdf, HtmlToOpenXml, multi-format conversion pipelines (PDF, HTML, DOCX, Markdown)
+- **Healthcare Technology:** HL7 v2.3-2.5 integration standards, HIPAA compliance, medical device software, FDA-regulated environments
+- **Communication Services:** SendGrid email, Twilio SMS, Google Maps API, Bing Maps API
+- **Home Automation:** Multi-scale image tiling, TOTP authentication, barcode generation, IoT device orchestration
+- **Sports Technology:** Real-time tournament scoring, proprietary hardware protocol decoding, HDMI switching, camera control
+
+### Leadership & Business Development
+**Technical Leadership & Strategy:**
+- **Team Leadership:** Technical team lead, Centers of Excellence leadership, developer mentorship, performance management
+- **Architecture Review Board:** Architecture governance, design review processes, technical standards establishment
+- **Product Development:** Product strategy, solution development, technical product management, innovation leadership
+- **Pre-Sales Engineering:** Proof-of-concepts (POCs), technical demonstrations, RFP responses, client workshops
+- **Project Management:** Project estimation and planning, software estimation, resource allocation, timeline management
+- **Problem Solving:** Crisis resolution, technical troubleshooting, integration challenges, performance optimization
+- **Application Engineering:** Application architecture, system design, technical specifications, implementation oversight
+
+### Development Tools & Methodologies
+**Professional Proficiency:**
+- **Version Control:** Git, TFS, SVN, Visual SourceSafe, branching strategies, code review processes, Bitbucket
+- **Build Systems:** MSBuild, advanced Directory.Build.props patterns, dependency management
+- **Testing:** MSTest, NUnit, xUnit, Vitest, Moq, integration testing, automated testing frameworks
+- **Project Management:** Agile (Scrum, Kanban, XP), Waterfall, Azure DevOps, JIRA, Confluence, Microsoft Project, estimation
+- **Design & Architecture Tools:** Pen/paper, PlantUML, Visio, Figma, Mermaid, whiteboards, diagram-as-code versioning
+- **Development Environments:** Visual Studio, Visual Studio Code, IntelliJ IDEA, Eclipse, Arduino IDE, Atmel Studio, Vivado
+- **Electronics Design:** KiCad, Eagle PCB design, circuit board layout and schematic capture
+- **Collaboration & Documentation:** Microsoft Teams, Slack, Discord, Confluence wikis, technical documentation
+- **Development Platforms:** Azure DevOps, GitHub, Bitbucket repositories with integrated CI/CD pipelines
+
+---
+
+## Education & Professional Development
+
+### DeVry University - Columbus Campus (2000 - 2002)
+**Electronic Engineering Technology Program - 33 Credit Hours Completed**
+- **Digital Systems Excellence:** Perfect 4.0 GPA in core Digital Circuits (EET 122) and Digital Systems (EET 202) coursework with laboratory components
+- **Circuit Analysis Foundation:** DC Circuit Analysis (EET 108) and laboratory work providing fundamental electrical engineering knowledge
+- **Academic Performance:** 3.12/4.0 cumulative GPA with strong technical performance trajectory and mathematics achievement (College Algebra: A grade)
+- **Professional Development:** Technical writing (ENGL 227) and communication skills supporting documentation excellence
+- **Engineering Methodology:** Comprehensive laboratory experience and hands-on technical problem-solving development
+- **Hardware-Software Bridge:** Digital systems and circuit knowledge providing foundation for later personal microprocessor design projects and system optimization expertise
+
+### Eastland-Fairfield Career and Technical Schools - Electronics Technician Certification (1998 - 2000)
+**Certified Electronics Technician - Advanced Student Teaching Role**
+- **Student-Teacher Knowledge Transfer:** Taught instructor about networking, Windows server management, and TCP/IP/IPX configuration
+- **Network Architecture Expertise:** Mixed Ethernet and Token Ring network configuration beyond instructor's knowledge
+- **Electronics Troubleshooting:** Circuit diagnosis, schematic analysis, and electronic repair certification
+- **Machine Code Programming:** Hero robot workflow programming and manual machine code compilation for 6800 series trainer
+- **Advanced Learning:** Lucent Technologies Venture Scouts program with professional engineer mentorship
+- **Professional Foundation:** BASIC Stamp programming, hardware reverse engineering ("dumpster diving"), Unix systems (System V, Solaris, Linux)
+- **Competition Excellence:** SkillsUSA-VICA first place regional electronics technician, National Vocational-Technical Honor Society
+
+### Gahanna Lincoln High School (1996 - 2000)
+**Self-Taught Programming Excellence - Foundation Years**
+- **Programming Origin Story:** Self-taught by reverse engineering BASIC games on Apple IIc with keyword-only documentation - no syntax manuals
+- **Pattern Recognition Learning:** Analyzed game code structure to deduce programming logic through pure experimentation
+- **Technology Progression:** Apple IIc BASIC → QBasic (grandfather's 486) → Visual Basic + C/C++ collaborative learning
+- **Game Development Foundation:** QuakeC extensions for video game modification - early experience with specialized C variants
+- **Technical Production:** Stage Crew technical production, Marching Band, Fencing Club
+
+### Youth Leadership & Development Programs (Standalone)
+**Boy Scouts of America & Professional Mentorship**
+- **Eagle Scout Achievement (2000)** - Demonstrated early leadership capability and commitment to service through Boy Scouts of America
+- **Venture Scouts - Lucent Technologies & Battelle Memorial Institute** - Professional engineering mentorship program
+  - **Industry Professional Mentorship:** Direct collaboration with professional engineers from major technology companies
+  - **BASIC Stamp Programming:** Microcontroller programming and embedded systems development
+  - **Electronics Engineering:** Hands-on experience with electronic circuits and hardware design
+  - **Unix Systems Administration:** System V Unix, Solaris, and Linux system management
+  - **Hardware Archaeology:** Hardware acquisition and reverse engineering experience
+  - **Professional Engineering Environment:** Early exposure to enterprise engineering practices
+
+### Professional Certifications & Industry Recognition
+- **Electronics Technician Certification** - Certified circuit troubleshooting and electronic repair
+- **CompTIA A+ Certification** - Computer hardware and software troubleshooting (LinkedIn validated)
+- **CompTIA Network+ Certification** - Network configuration and management (LinkedIn validated)
+- **National Vocational-Technical Honor Society** - Academic recognition for technical excellence
+- **Novell Publications** - Technical articles published on Novell client support portal (ZenWorks, Border Manager)
+- **Industry Impact** - Personal open source ClientTrust implementation became basis for official Novell product
+
+### Self-Teaching Excellence & Pattern Recognition
+**Autodidactic mastery spanning multiple technology generations**
+- **Foundation:** Apple IIc BASIC reverse engineering with keyword-only documentation - no formal programming education
+- **Pattern Recognition:** Decades of technology cycle observation leading to anti-hype expertise - "AI/ML has tools but massively overhyped"
+- **Documentation-Free Learning:** Master complex systems through experimentation and analysis - taught vocational instructor networking
+- **Analog Computing Research:** Current exploration of alternative computing paradigms and emerging architectures
+- **Multi-Domain Authority:** Electronics troubleshooting through enterprise architecture, hardware design through AI/ML algorithms
+
+---
+
+## Personal Projects & Technical Innovations
+
+**Personal GitHub Repositories (7 Public):**
+- **[PlaygroundGames](https://github.com/mwwhited/PlaygroundGames)** (C#) - Game development evolution from QBasic through XNA/MonoGame, demonstrating self-taught programming progression
+- **[proving-grounds](https://github.com/mwwhited/proving-grounds)** (C#) - Experimental projects and example implementations spanning embedded systems, distributed patterns, AI/ML, and architecture
+- **[CodingChallenges](https://github.com/mwwhited/CodingChallenges)** - Algorithm implementations across multiple languages (C#, F#, Rust, Java, Python)
+- **[EmbeddedBakery](https://github.com/mwwhited/EmbeddedBakery)** (Verilog) - Hardware engineering portfolio with Arduino, FPGA, microcontroller projects (201 commits, 21K+ LOC)
+- **[DeviceBridge](https://github.com/mwwhited/DeviceBridge)** (C++) - Oscilloscope-to-USB bridge for Tektronix TDS2024 vintage test equipment modernization
+- **[helm-charts](https://github.com/mwwhited/helm-charts)** (Mustache) - Kubernetes Helm chart collection for DevOps infrastructure
+- **[MyMashedDuet](https://github.com/mwwhited/MyMashedDuet)** (C#) - Duet 3D printer customizations with scripts and electronics
+
+**Professional Documentation Repositories:**
+- **[mwwhited-notes/shared](https://github.com/mwwhited-notes/shared)** - Personal technical notebook with hardware inventory, project documentation, and analog computing research (232+ PDFs, 660MB)
+- **[mwwhited-notes/Resume](https://github.com/mwwhited-notes/Resume)** - Comprehensive professional resume system with 16+ document formats and 410+ commits
+
+**Consulting & Framework Repositories:**
+- **[OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex)** - .NET Framework Extensions (active unified architecture for all 42 NuGet packages)
+
+### Distributed Event-Sourcing Platform (sync-mesh) (HIGH Innovation)
+**Four-tier distributed event mesh with NAT-traversing sync and remote monitoring**
+**Repository:** [Mwwhited-BookLearning/sync-mesh](https://github.com/Mwwhited-BookLearning/sync-mesh)
+
+- **Four-Tier Distributed Architecture:** Designed and implemented a local daemon → nearest server → server mesh event-sourcing architecture using NATS leaf nodes and Hybrid Logical Clocks for deterministic event ordering and idempotent replication without relying on transport-level delivery guarantees
+- **Security Engineering:** Replaced an insecure bearer-token-in-URL SignalR authentication scheme with a one-time ticket-exchange protocol (HMAC-SHA256 over a client-generated secret), verified end-to-end against live JWT issuance and single-use redemption
+- **NAT-Traversing Remote Monitoring:** Built a custom reverse-tunnel mechanism enabling remote monitoring of live recording instances through the nearest server when direct access is blocked by NAT/firewalls, architecturally isolated from the durability-critical event-sync path
+- **Documentation-First Engineering:** Authored a complete pre-implementation design package (system design doc, 9 architecture decision records, C4 diagrams, BDD/Gherkin feature specs), then executed it in ~2,300 net lines of C# across 6 days, keeping implementation traceable to documented decisions
+- **Multi-Provider Persistence & Demonstration Domain:** Established EF Core persistence across SQLite/PostgreSQL/SQL Server with portable schema migrations, plus a CQRS-based order-book example domain and live market-data generator, orchestrated via .NET Aspire with a Vue 3 real-time monitoring dashboard
+
+### Event-Sourcing & CQRS Compliance Platform (EventSourcing) (HIGH Innovation)
+**46-project, multi-database event-sourcing/CQRS platform with zero-trust security and regulatory-compliance features — taken from a 53-ADR design package to a fully tested implementation in a 5-week, 338-commit build**
+**Repository:** [Mwwhited-BookLearning/EventSourcing](https://github.com/Mwwhited-BookLearning/EventSourcing)
+
+- **Design-to-Implementation Discipline:** Authored a complete pre-implementation architecture package (53 ADRs, 15 technology comparisons, full API/data-model specs), then executed it end-to-end across 46 `src/` projects (~9,235 LOC) and 218 test files (~27,738 LOC across unit/integration/E2E tiers), growing the ADR set to 108 including a formal 5-phase design-compliance review program
+- **Zero-Trust Security & Compliance Surface:** Built DPoP-bound (RFC 9449) OAuth2/OIDC, UCAN delegated-grant revocation, RBAC with federated claims, and SPIFFE/SPIRE workload identity, alongside property-level masking and crypto-shredding-based GDPR/CCPA erasure meeting a PCI-DSS Sensitive Authentication Data boundary
+- **Applied Cryptography Engineering Judgment:** Implemented and benchmarked three searchable-encryption strategies over crypto-shredded fields (blind-index, bucketed-range, Order-Revealing Encryption), then deliberately demoted ORE to a spike after real in-database performance testing showed it wasn't worth the added complexity
+- **Multi-Database CQRS with Realistic Sample Domains:** EF Core across SQLite/PostgreSQL/SQL Server (build-time selectable), a GraphQL lineage/follow API that superseded an original OData/REST design mid-project, and two complete sample applications (a clinical-trials domain and an identity-verification/compliance domain, 7 workflows total) with MVVM desktop and Vue 3 SPA clients
+- **Verification Rigor Beyond Typical Personal-Project Practice:** Property-based testing (FsCheck), fault-injection testing (Polly+Simmy), Testcontainers-backed integration tests across all three database providers, Playwright E2E UI tests, and a genuine assistive-technology verification pass using a real NVDA screen reader
+
+### Extensions for .Net Framework (42 NuGet packages, 922,591+ downloads)
+**Comprehensive .NET ecosystem with professional CI/CD**
+**Primary Repository:** [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex)
+**Note:** BinaryDataDecoders framework (archived 1/11/2026) migrating to unified dotex architecture
+
+#### Vector Support for MS-SQL Server (EXCEPTIONAL Innovation)
+- **Custom SQLCLR Implementation:** SqlVector/SqlVectorF types with full mathematical operations
+- **Advanced Features:** Binary serialization, distance aggregation functions, statistical operations, centroid calculations
+- **Innovation Impact:** First-of-its-kind vector database capabilities directly in SQL Server, predating commercial offerings
+- **Technical Depth:** Deep CLR integration requiring expert-level SQL Server and .NET knowledge
+- **Production Integration:** Multiple distance metrics (cosine, euclidean, manhattan, dot product) with optimized binary serialization
+- **DacPac Builder/Validator via Reflection:** Built a `MetadataLoadContext`-based reflection tool that extracts SQL CLR metadata (UDTs, aggregates, functions) directly from compiled assemblies, generates the XML model, and assembles a valid DacPac package — validated against Microsoft's own DacFx — without depending on Visual Studio/SSDT tooling
+
+#### Framework Architecture & Test Infrastructure (123 Projects, 4-Layer Design)
+- **Layered Dependency Architecture:** Designed and build-enforced a 4-layer dependency structure (Common → Framework → Extensions → ExternalServices) across 123 projects, with build failures on missing READMEs or sub-80% coverage in the Framework layer
+- **Docker-Based Integration Test Environment:** Authored a 15-service Docker Compose test harness (SQL Server, MongoDB, RabbitMQ, Redis, Qdrant, OpenSearch, Azurite, LocalStack, Keycloak, Ollama, and more) wired into a 5-tier MSTest category system with CI-scheduled daily integration runs
+- **MSTest/IConfiguration Bridge:** Built a custom bridge integrating MSTest `.runsettings` test properties with .NET's `IConfiguration`/`IOptions<T>` binding, supporting hierarchical keys and prefix filtering
+
+#### High-Performance Binary Data Processing
+**Repository:** [github.com/mwwhited/BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders)
+
+#### Core Framework (438 commits, 32,363 LOC, 65+ modules)
+- **BinaryDataDecoders.ToolKit:** 51,847+ downloads, zero-allocation parsing framework
+- **Format Support:** PKZip, TAR, ISO9660, Telnet, LDAP, SNTP protocols
+- **Modern Architecture:** System.IO.Pipelines, Memory<T>, async/await patterns
+- **Enterprise Quality:** 25 test projects, comprehensive CI/CD with GitHub Actions
+
+#### Cryptographic & Code Analysis
+- **Historical Cipher Machines:** Enigma, Lorenz, Vigenere implementations with accurate rotor mechanics and bidirectional encryption
+- **Roslyn Code Navigation:** XPath-navigable C#/VB.NET syntax trees enabling XML-like queries on abstract syntax trees
+- **Expression Calculator:** ANTLR4-based mathematical parser supporting multiple numeric types (Int8-UInt64, Decimal)
+- **Compiler & Language Construction:** [build-your-own-.net-language-compiler](https://github.com/Mwwhited-BookLearning/build-your-own-.net-language-compiler) and [the-definitive-antlr4-reference-code](https://github.com/Mwwhited-BookLearning/the-definitive-antlr4-reference-code) — hands-on parser/compiler construction extending the ANTLR4 expertise demonstrated above
+
+#### Hardware Device Interfaces
+- **Scientific Instruments:** Rigol oscilloscopes, RadexOne radiation detector, Velleman K8055 USB experiment interface
+- **Media Devices:** Zoom H4n audio recorder, LanC camera protocol, Kuando Busylight status indicators
+- **Sports Equipment:** Favero and Saint George fencing scoring machine protocol decoders
+- **Legacy Systems:** Apple II DOS 3.3 disk image parser with Applesoft BASIC detokenizer
+
+#### Developer Productivity Tools
+- **XSLT CLI Processor:** 43,177+ downloads, global .NET tool
+- **I/O Abstractions:** 43,077+ downloads, cross-platform compatibility
+- **NMEA GPS Parser:** Complete NMEA 0183 protocol implementation for GPS/GIS applications
+- **Text Processors:** Navigable JSON, YAML, Markdown parsers with XPath querying
+
+### Custom Microprocessor Design & Embedded Systems (201 commits, 21,228+ LOC)
+**Complete hardware-to-software stack from discrete logic to FPGA SoCs**
+**Repository:** [github.com/mwwhited/EmbeddedBakery](https://github.com/mwwhited/EmbeddedBakery)
+
+#### Custom CPU Architecture
+- **MW16C Processor:** Complete 5-stage pipeline in SystemVerilog (Fetch, Decode, Execute, Memory, Writeback) with 30+ custom instructions
+- **MicroBlaze SoC Integration:** Xilinx soft-processor systems with AXI interconnect, UART, GPIO, and interrupt controllers
+- **BinaryBaker Toolchain:** .NET microcode compiler (3,369 LOC) with truth table expansion, logic minimization, and ROM font generation
+- **Component Library:** Comprehensive VHDL components (ALU, registers, decoders, multiplexers) portable across Xilinx and Altera
+
+#### Professional Hardware Projects (EXCEPTIONAL Innovation)
+- **LXI Serial Bridge (ESP8266):** SCPI Raw Socket server (TCP 5025) with mDNS service discovery and IEEE 488.2 command compliance for test equipment automation and remote instrument control
+- **Analog Calculator Suite (ComdynaGP6):** Complete analog computer platform with logarithmic amplifiers, op-amp multipliers, Systron Donner SD-80 clone, and custom PCB designs for analog computation research
+- **Anabrid THAT (The Analog Thing):** Active experimentation on a modern educational analog computer — implementing integrators, chaos systems (Lorenz attractor), predator-prey models, and hybrid analog-digital systems via STM32 ADC interface; extending analog computing knowledge from historical research (232+ PDF library) into hands-on real-time differential equation solving
+- **SAP-1 Breadboard Computer:** Building Ben Eater's 8-bit TTL computer from discrete 74-series logic, AT28C16 EEPROMs for microcode storage, and ATF16v8b GAL chips for memory control — demonstrating gate-level computer architecture from DRL/DTL logic fundamentals through full ALU and control unit implementation
+- **Historic Computer Recreations:** Altair 8800 clone PCB, diode logic computers with discrete 1-byte registers and 4-to-16 decoders, 8051 development boards
+- **LANC Camera Control:** RS-485 interface PCB (lanc2rs485) for Sony/Canon camera automation in fencing scoring system
+- **Audio Device Interfaces:** Zoom H4N audio recorder control PCB (h4n2rs485) with RS-232 to RS-485 conversion for automated recording
+- **Scoring System Hardware:** Saint George power supply and interface boards (SG_Power, Favero) for professional fencing equipment integration
+
+#### Hardware Engineering Portfolio (25+ PCBs, 20+ FPGA Projects, 318 HDL Files)
+- **FPGA Development:** Xilinx Vivado (Artix-7 Arty A7-100, Zynq-7020 Arty Z7-20), Altera Quartus Prime (Cyclone II), XC9500 CPLD, Verilog/VHDL/SystemVerilog synthesis
+- **FPGA IP Cores:** Generic reusable IP cores, Pmod interface modules (PmodLED8x8, Pmod16bitBanked), MicroBlaze SoC tutorials, Zynq HLS projects
+- **Microcontrollers:** AVR (ATmega328P, ATtiny2313, ATtiny85), ARM Cortex-M (STM32F103 Blue Pill), ESP8266 WiFi SoC, PIC16F627, Basic Stamp, Particle IoT
+- **Development Boards:** ATmega32 DevKit, custom I/O shields (MyIOShield), helper boards for prototyping
+- **Real-Time Systems:** FreeRTOS implementations with interrupt-driven queues, matrix keypad scanning, I2C LCD, HID keyboard output
+- **Custom Libraries:** 45+ Arduino libraries (including FreeRTOS, LANC control, relay controllers, sensor interfaces), 50+ KiCad symbols/footprints in custom libraries
+- **PCB Manufacturing:** KiBot automation for documentation generation (schematics, BOM, gerbers), professional fabrication-ready outputs
+- **Development Tools:** PlatformIO, WinAVR/avr-gcc toolchain, STM32duino, MPLAB X + XC8, arduino-cli, Make-based build systems
+
+### AI/ML Research & Production Systems (HIGH Innovation)
+
+#### Advanced Algorithm Development
+**Repository:** [github.com/mwwhited-notes/shared](https://github.com/mwwhited-notes/shared) | [proving-grounds/hybridsearch](https://github.com/mwwhited/proving-grounds/tree/main/examples/hybridsearch)
+- **Custom LSH Implementation:** Locality Sensitive Hashing for approximate nearest neighbor search
+- **Performance Research:** Hamming vs Euclidean distance optimization with significant speedup
+- **Hybrid Search Engine (hybridsearch):** Production document store combining semantic search (sentence transformers, Qdrant vector DB) with lexical search (OpenSearch inverted indexes), LLM-based summarization ("Muse" - Ollama + Mistral), and PlantUML rendering with caching
+- **Multi-Language Implementation:** Parallel C# and Go implementations demonstrating language-agnostic architecture patterns
+- **Enterprise Features:** Markdig Markdown-to-HTML conversion, Apache Tika document processing, Keycloak authorization support (planned)
+- **Production Quality:** Complete search engines with scalable architecture, health monitoring, and OpenAPI compatibility
+
+#### Pure .NET ONNX Sentence Transformer Engine (EXCEPTIONAL Innovation)
+- **Complete .NET Implementation:** AllMiniLM-L6-v2 transformer without Python dependencies
+- **Custom BERT Tokenization:** Vocabulary management with proper encoding/decoding
+- **Advanced Tensor Mathematics:** Mean pooling with attention masks, L2 normalization
+- **Memory Optimization:** Proper disposal patterns, streaming operations, batch processing
+- **Production Integration:** ONNX Runtime optimization for enterprise-scale text vectorization
+
+#### HuggingFace .NET Native Execution Research
+**Repository:** [shared/projects/huggingface-dotnet-native-execution](https://github.com/mwwhited-notes/shared/tree/main/projects/huggingface-dotnet-native-execution)
+- **Comparative Technology Survey:** Evaluated five approaches to running HuggingFace transformer models (BERT, GPT-2, T5) natively in .NET without out-of-process Python calls — ONNX Runtime + ML.NET (production-recommended), TorchSharp, the community Transformers.NET library, experimental compile-time code generation, and Semantic Kernel orchestration
+- **Deliverables:** Technology comparison matrix, ONNX conversion/export workflow guide, 6 practical implementation scenarios (sentiment analysis, question answering, NER, semantic search, text generation), and a 104+ resource research bibliography
+- **Application:** Direct research foundation for the Pure .NET ONNX Sentence Transformer Engine above — the production ONNX Runtime + ML.NET path was selected from this comparative analysis
+
+#### Enterprise AI Orchestration Platform
+- **Multi-AI Stack Orchestration:** Docker Compose with SBERT, Ollama, Qdrant, OpenSearch, Apache Tika
+- **GPU-Aware Processing:** CUDA support with CPU/GPU variant orchestration
+- **Bilingual Processing:** Polish language-aware sentence transformers
+- **Modular Architecture:** Clean separation with extends pattern for component isolation
+- **Production Deployment:** Health monitoring, OpenAPI compatibility, enterprise-grade logging
+
+#### Image Processing & Computer Vision
+- **AI/ML Infrastructure:** Docker orchestration (SBERT, ViT, Ollama, Qdrant)
+- **Professional Photography:** RAW format support (NEF, CR2, ARW, DNG)
+- **Custom Licensing:** MIT NON-AI license demonstrating legal/ethical AI awareness
+- **Microservices:** Health monitoring, OpenAPI compatibility, enterprise deployment
+
+#### Synchronized Telemetry Streaming Research (Protocol & Standards Architecture)
+**Repository:** [shared/projects/synchronized-telemetry-streaming-research](https://github.com/mwwhited-notes/shared/tree/main/projects/synchronized-telemetry-streaming-research)
+- **Standards Depth:** Comprehensive research catalog of 40+ RFCs, IEEE standards, and CNCF specifications covering real-time streaming protocols (RTSP 2.0, RTP/RTCP), multi-stream synchronization, and cloud-native event formats (CloudEvents)
+- **Distributed Architecture Patterns:** P2P design principles from BitTorrent v2, ALTO protocol for network telemetry, out-of-order blob transfer techniques (RaptorQ/RFC 6330, FECFRAME, QUIC, SCTP)
+- **Deliverables:** 100+ implementation resources indexed, quick-start guides for 4 common streaming scenarios, downloaded primary standards documents for reference
+- **Application:** Demonstrates protocol-first architecture methodology applicable to distributed telemetry, IoT data pipelines, and multi-source real-time systems
+
+#### Encrypted Search & Computation Research (Applied Cryptography Survey)
+**Repository:** [shared/projects/encrypted-search-and-computation](https://github.com/mwwhited-notes/shared/tree/main/projects/encrypted-search-and-computation)
+- **Comparative Cryptographic Analysis:** Research survey of four techniques for searching/computing over encrypted data without decryption — Order-Preserving Encryption (OPE), Order-Revealing Encryption (ORE), Partially Homomorphic Encryption (PHE), and Fully Homomorphic Encryption (FHE) — covering the 2015 inference attacks that ended OPE's run as a default recommendation, PHE's mature production use (e-voting, private set intersection), and FHE's 2026 production niche (narrow private lookups: Apple Live Caller ID, Microsoft Edge Password Monitor, Zama's encrypted Ethereum mainnet)
+- **Standardization Landscape:** ISO/IEC 18033-6 (PHE), the in-draft ISO/IEC 28033 FHE standard, and NIST's PEC program — noting OPE/ORE have no formal standard at all
+- **Deliverables:** Comparison matrix and decision guide, per-scheme technical write-ups with pseudocode and PlantUML protocol-flow diagrams, research bibliography
+- **Application:** Directly informs the searchable-encryption engineering judgment demonstrated in the EventSourcing platform above (blind-index/ORE benchmarking and the decision to demote ORE after real performance testing)
+
+### Enterprise Framework Architecture (EXCEPTIONAL Innovation)
+**Comprehensive .NET framework ecosystem with AI integration**
+
+#### OoBDev .NET Framework - 50+ Individual Libraries
+- **Modular Architecture:** Dynamic assembly loading with plugin-based design
+- **AI Integration Ecosystem:** Qdrant, PostgreSQL pgvector, Ollama, SBert, OpenAI compatibility
+- **Enterprise Message Queuing:** Azure Storage Queues, RabbitMQ, In-Process Concurrent Queues with correlation tracking
+- **Advanced Document Processing:** Apache Tika integration with format conversion chains
+- **Deployment Automation:** Programmatic DACPAC generation for SQL CLR deployment
+- **Vector Search Abstraction:** Unified interface across multiple vector stores
+
+#### ERisk Framework - Enterprise Risk Management
+- **Comprehensive AI Integration:** Sentence transformers with semantic kernel orchestration
+- **Production-Grade Architecture:** Multi-layered system with audit logging and security
+- **Custom Vector Operations:** SqlVector/SqlVectorF types with mathematical operations
+- **Business Process Integration:** Insurance industry duplicate detection with compliance frameworks
+- **Performance Engineering:** Sub-linear similarity search with LSH optimization
+
+#### JHipster .NET Hybrid Platform
+- **Full-Stack Integration:** JHipster 8.1.0 with .NET Core backend
+- **Modern Frontend Options:** React/Angular with comprehensive monitoring
+- **Enterprise Observability:** InfluxDB, Grafana, SonarQube integration
+- **Code Quality Pipeline:** Automated analysis and deployment workflows
+
+#### Multi-Language Programming Platform (HIGH Innovation)
+**Educational platform demonstrating exceptional breadth**
+**Repository:** [ChallengeAccepted](https://github.com/Mwwhited-BookLearning/ChallengeAccepted)
+
+##### Coding Challenges Collection (44 challenges, 39 C# projects)
+- **Language Diversity:** C# (71.3%), F# (7.4%), Rust (6.4%), Java (6.1%), Python (3.4%)
+- **Algorithm Implementations:** Dijkstra's Shortest Path, Hamming sequence generator, Markov text generator, DNA sequence matcher, Longest Common Substring, Graph Traversal
+- **Computer Science Fundamentals:** CARDIAC CPU emulator, compiler/interpreter projects, expression parser and plotter, event queue system, event dispatcher
+- **Cryptography & Security:** Caesar cipher, Enigma cipher, One-Time Pad generator, One-Time Password (OTP/TOTP), Morse code encoder/decoder
+- **Data Processing:** CSV parser, JSON transformer, log analyzer, data aggregator, grid layout algorithms
+- **Classic Problems:** Game of Life, maze generation, card shuffle algorithms, Magic 8 Ball, amortization calculator, accounting functions
+- **Cross-Platform:** Consistent algorithm implementations across multiple runtime environments
+- **Educational Impact:** Comprehensive programming reference demonstrating breadth across computer science domains
+
+##### Game Development Evolution
+**Repository:** [PlaygroundGames](https://github.com/mwwhited/PlaygroundGames)
+
+- **Historical Progression:** QBasic (APPLE.BAS, Star Trek, cal.bas, tty.bas) → Visual Basic 6 (PONG, High Low card game) → C# .NET → C++ → XNA/MonoGame (StrategoXna, HexTile2d, 3D rendering tests)
+- **Self-Taught Programming Foundation:** Collection of games demonstrating progressive skill development from keyword-only BASIC documentation to professional game frameworks
+- **Technical Breadth:** 2D/3D graphics, physics, audio, input handling, state management
+- **Framework Mastery:** XNA, MonoGame, DirectX integration, content pipelines
+- **Platform Diversity:** Windows, Xbox 360, Zune development experience
+- **Educational Archive:** Historical record of 15+ years of game development learning progression
+
+##### Historical Cryptography Implementations
+- **Complete Enigma Machine Simulation:** Accurate rotor mechanics with plugboard
+- **Classical Cipher Collection:** Caesar, Vigenère, PlayFair, Lorenz implementations
+- **Educational Cryptography:** Historical algorithm recreation with modern .NET
+- **Binary Processing Excellence:** Apple II DOS 3.3, AppleSoft BASIC tokenization
+
+##### CQRS/Event-Sourcing Reference Application Modernization (Fork)
+**Repository:** [Mwwhited-BookLearning/fohjin-cqrs](https://github.com/Mwwhited-BookLearning/fohjin-cqrs) — fork of Mark Nijhof's original CQRS/Event-Sourcing teaching example (2009-2013); original domain design and CQRS/Event-Sourcing pattern credited to Nijhof, all modernization work below is original
+
+- **API & Auth Modernization:** Rebuilt a single-client, network-free WinForms/SQLite reference app into an ASP.NET Core Web API (OData, Server-Sent Events, custom RFC HTTP `QUERY` implementation) secured by an OAuth2/OIDC identity provider (OpenIddict)
+- **Multi-Client Rebuild:** Shipped three feature-parity UI clients against the new API — a Vue 3 SPA, a WPF MVVM desktop app, and the original WinForms app retargeted to call the API over HTTP
+- **Observability & Automated Testing:** Instrumented the system with OpenTelemetry traces/metrics on a .NET Aspire dashboard, and built FlaUI/Vitest UI regression coverage that caught real bugs invisible to static type-checking alone
+
+### Specialized Domain Applications
+
+#### Real-Time Sports Scoring Systems (EXCEPTIONAL Innovation)
+**ScoreMachine - Production Deployment (2018-2020 Arnold Fencing Classic, 2020-Present Royal Arts)**
+**Repository:** [shared/projects/scoremachine](https://github.com/mwwhited-notes/shared/tree/main/projects/scoremachine) | [Production Code](https://github.com/mwwhited/FencingScoreBoard)
+
+- **Production Deployment:** Arnold Fencing Classic (major international tournament, 2018-2020), Royal Arts Fencing Academy (2020-present, still in production 2026)
+- **Multi-Target Overlay Architecture:** Single HTML/CSS/JS page serving both NeTV FPGA hardware overlay (Phase 1) and OBS Browser Source (Phase 2) without code duplication
+- **Phase 1 (2017-2019):** Raspberry Pi 2 + NeTV FPGA hardware overlay with 4× E810-DTU serial-to-TCP/IP converters, Arduino LANC camera control, HDMI switching, distributed A/V control
+- **Phase 2 (2019-Present):** Simplified Windows PC + OBS Studio architecture with direct RS-485-to-USB adapter, 77% complexity reduction
+- **Protocol Engineering:** Complete Favero and Saint George fencing scoring machine protocol decoders in [BinaryDataDecoders](https://github.com/mwwhited/BinaryDataDecoders) library (900K+ NuGet downloads - 922,591 verified, 6-year maintenance, **archived 1/11/2026**, migrating to [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex))
+- **Hardware Integration:** Raspberry Pi networking (dual-interface: eth0 external, usb0 internal), NeTV HTTP API integration, custom PCB designs (h4n2rs485, lanc2rs485, SG_Power in KiCad)
+- **Real-Time Communication:** ASP.NET Core + SignalR with transport fallback (WebSockets for OBS, LongPolling/SSE for NeTV browser limitations)
+- **Performance Metrics:** ~30-50ms latency (score update to display), 99%+ uptime during 3-day tournaments, 4-8 concurrent strips
+- **Zoom H4N Protocol:** Reverse-engineered RS-232 2400 baud protocol for automated audio recording control
+- **Community Impact:** Production system demonstrating hardware-to-software migration strategy as technology matured
+
+#### Enterprise Home Automation Platform
+**Repository:** [proving-grounds/OoBDev.HomeSeer](https://github.com/mwwhited/proving-grounds/tree/main/examples/OoBDev.HomeSeer)
+
+- **OoBDev.HomeSeer Framework:** Comprehensive home automation infrastructure with form generation engine (OobDev.FormEngine.Core), image processing tools (OobDev.ImageTools), and identity management (OobDev.AspNet.Identity)
+- **Multi-Scale Image Tiling:** Advanced zoom/pan functionality with performance optimization
+- **Authentication Systems:** Custom TOTP (Time-based One-Time Password) provider implementation
+- **Advanced Image Processing:** Barcode generation (Code39) with cross-platform GDI+ compatibility
+- **Extensible Architecture:** Holiday API adapter pattern (OobDev.Adapter.HolidayApi.Client) with XML schema validation
+- **Form Processing Engine:** Dynamic WPF-style form generation with XSLT transformations and comprehensive validation
+- **Credential Management:** Cross-platform settings and security management
+
+#### Custom Domain-Specific Language Development
+- **ContractParser:** Complete DSL with ANTLR4 grammar for service contract generation
+- **Custom Grammar:** @service and @dto annotations with visitor pattern traversal
+- **Assembly Scanning:** Automatic service contract extraction with reflection
+- **Multi-Format Output:** XML generation with XSLT transformations for code generation
+- **Meta-Programming:** Complete compiler toolchain demonstrating language design expertise
+
+#### Enterprise Message Processing Platforms
+**Repository:** [proving-grounds/OoBDev.MessageBroker](https://github.com/mwwhited/proving-grounds/tree/main/examples/OoBDev.MessageBroker) | [proving-grounds/Ssb.Modeling](https://github.com/mwwhited/proving-grounds/tree/main/examples/Ssb.Modeling)
+
+- **OoBDev.MessageBroker:** SQL Server Service Broker message broker implementation with Entity Framework 7 integration, custom message type definitions, queue activation, and dependency injection CLI tool (OoBDev.DependencyInjection.Cli)
+- **Ssb.Modeling (WPF Designer):** Visual designer for SQL Service Broker workflows using MVVM pattern, drag-drop interface for message flow design, automatic SQL script generation from visual models, live SQL Server schema import, and comprehensive sequence diagram support
+- **Message Queue Abstractions:** Multi-provider support with correlation tracking and stack frame inspection
+- **Documentation Excellence:** Includes detailed technical notes on EF7, SessionContext patterns, and Service Broker implementation
+
+#### Hardware-Software Integration
+**Repository:** [proving-grounds/UsbMonitor](https://github.com/mwwhited/proving-grounds/tree/main/examples/UsbMonitor) | [DeviceBridge](https://github.com/mwwhited/DeviceBridge)
+
+- **UsbMonitor:** USB device detection and enumeration using WMI and WinRT API integration, GPS device support (UsbGps), driver information extraction (InfFinder), and desktop-to-WinRT bridge (DesktopToWinRT) for cross-platform device management
+- **DeviceBridge:** Legacy hardware modernization with IEEE-1284 parallel port protocol implementation, TDS2024 oscilloscope data capture
+- **Real-Time Systems:** Interrupt-driven data capture with ring buffer implementation
+- **Multi-Storage Architecture:** SD card, EEPROM, SPI flash with NASA EEFS embedded file system integration
+- **Custom Shield Design:** Extensive hardware modifications with comprehensive documentation
+- **Unmanaged Exports:** .NET interop tool for creating unmanaged exports from managed assemblies
+- **IL Code Modification:** Runtime assembly manipulation with custom attribute processing
+
+#### Professional Tools & Utilities
+**Repository:** [proving-grounds](https://github.com/mwwhited/proving-grounds/tree/main/examples)
+
+- **OoBDev.Oobtainium:** Hand-rolled `DispatchProxy`-based dynamic interface proxy/mocking library supporting generic methods, async `Task`/`Task<T>` interception, call recording, and fluent method binding, integrated with Microsoft.Extensions.DependencyInjection
+- **BuildFirstOnce:** MSBuild orchestration pattern demonstrating Directory.Build.props for solution-wide tasks with one-time execution, detailed output examples in documentation
+- **HandyClasses (MIT License):** Comprehensive utility library collection including SmtpClientService (ASP.NET Identity integration), Code39 barcode generator (GDI+), ConsoleEx (interactive CLI prompts), XFragment (XML fragment handling), CsvWriter (RFC 4180 CSV serialization), IniFile (Win32 INI wrapper), and Base64/Base32/Base16/Base8 encoding utilities (VB.NET)
+- **markdownplantuml:** PlantUML extension for Markdig markdown processor enabling inline diagram rendering, custom block parser, and specialized renderers for documentation-as-code workflows
+- **TOTP Authentication Library (TotpExample):** Time-Based One-Time Password generation with QR code support for Windows, Windows Phone, and Web platforms, includes sample CLI and web integration
+- **MSBuild Automation:** Advanced build orchestration with cross-project dependencies
+- **Container Orchestration:** Universal development environment containerization (10+ languages)
+- **Kubernetes Charts:** Professional Helm chart development with production patterns
+- **Testing Frameworks (oobtainium):** Dynamic proxy-based mocking framework with modern .NET integration, expression trees, and dependency injection
+- **Document Conversion Pipelines:** Apache Tika integration with stream-based processing
+- **AI-Powered Code Generation:** Handlebars template engines with LLM integration for automated transformation
+
+### Historical Portfolio Archive (15+ years, 7,266 C# files)
+**Enterprise and experimental projects migrated from TFS/SVN demonstrating career-long innovation**
+
+#### Enterprise Platforms (Itrica)
+- **Cloud Orchestrator:** Distributed message bus with SQL Server Service Broker, workflow engine, and multi-tenant document processing for accounts receivable automation
+- **Gateway Enterprise Portal:** MEF plugin architecture with 10+ extensible modules (Admin, Reporting, Imaging, StateManagement, Dashboard, Messaging)
+- **Contract Parser/Service Builder:** Code generation toolkit using Roslyn and XSLT for automatic service scaffolding and standardized microservice patterns
+
+#### Framework Innovation
+- **Unmanaged Exports Framework:** .NET methods exposed as native DLL exports enabling managed code integration with legacy C/C++ applications (EXCEPTIONAL innovation)
+- **Code Contracts Implementation:** Precondition/postcondition validation framework predating mainstream adoption
+
+#### Game & Mixed Reality Development
+- **XNA Game Projects:** Stratego AI implementation, hex-tile mapping systems, 3D rendering pipeline with HLSL shaders
+- **HoloLens/Unity:** Mixed reality development experiments and spatial computing prototypes
+- **16-bit CPU Emulator:** Software-based processor simulation validating hardware design understanding
+
+#### Recognition & Embedded Systems
+**Repository:** [DotnetMicroFramework-DareToDream](https://github.com/mwwhited-archives/DotnetMicroFramework-DareToDream)
+
+- **Dare to Dream (Microsoft Contest):** .NET Micro Framework network alarm clock - selected for Microsoft's "Dare to Dream Different" innovation contest featuring embedded networking capabilities on resource-constrained hardware
+- **Roomba Control:** Robotics integration and autonomous navigation experiments
+
+---
+
+## Technical Hobbies & Maker Activities
+
+**Photography & Astrophotography:** Serious photography hobbyist with professional-grade equipment including Nikon D800 FX full-frame DSLR and Nikon F6 35mm film camera. Specialized in astrophotography using Sky-Watcher Star Adventurer 2i motorized star tracker for deep-sky imaging. Complete film workflow including darkroom processing (Paterson Universal developing tank) and high-resolution scanning (Epson Perfection V850 Pro 6400 dpi scanner). Color calibration using X-Rite i1 Display Pro and ColorChecker Passport for accurate digital reproduction.
+
+**Electronics & PCB Design:** Active electronics maker with professional-grade workshop including Tektronix TDS2024 200 MHz oscilloscope, HP 34401A 6½ digit DMM, DE-5000 LCR meter, FLIR TG130 thermal camera, and AmScope SM-3 stereo microscope for SMD work. Full surface-mount rework capabilities with KSGER T12 soldering station, YaeCCC 858D hot air, and Hakko FR-301 desoldering gun. Custom PCB design using KiCad with custom symbol and footprint libraries - designed and fabricated multiple production boards including RS-485 camera control interfaces (lanc2rs485), audio recorder control (h4n2rs485), and analog computer modules (ComdynaGP6 power supplies). Maintains extensive component stock ready for rapid prototyping.
+
+**RF & Software-Defined Radio:** Hands-on SDR experimentation using an RTL-SDR Blog V4 receiver (500 kHz - 1766 MHz) for spectrum analysis, ADS-B aircraft tracking, and weather satellite reception. Currently developing a passive radar system using GNU Radio and the KrakenSDR passive radar toolkit, applying bistatic radar principles to detect aircraft and vehicles using existing RF illuminators (FM radio, TV broadcast, cellular towers) without transmitting. Reference library includes vintage and modern radio engineering texts (The "Radio" Handbook, Practical Radio Communication).
+
+**Vintage Computing Preservation:** Collector and restorer of 1980s vintage computers including Apple IIc (1984, 65C02), Apple IIgs (1986, 65C816), and TI-99/4A (1981, TMS9900). Modern preservation equipment includes Floppy Emu SD card-based floppy emulator for Apple II systems and Greaseweazle V4.1 USB floppy controller for disk imaging and preservation, actively used in an ongoing flux-level archival project for a legally-owned 5.25"/3.5" Apple II software collection ([shared/projects/apple-ii-disk-archival](https://github.com/mwwhited-notes/shared/tree/main/projects/apple-ii-disk-archival)) — producing .SCP preservation masters, copy-protection-preserving .WOZ emulator images, and unprotected .DSK working backups, prioritizing Broderbund's The Print Shop and The Toy Shop. Maintains period-appropriate development tools including cc65 C compiler for 6502, Merlin32 assembler for 65816, and xdt99 TI-99/4A cross-development tools. Active in vintage computing community preserving software and documenting hardware. Extends into firmware-level reverse engineering: fully disassembled and functionally labeled the undocumented Intel 8085 firmware of a 1979 Navtec Loran-C navigation receiver from masked ROMs using a from-scratch flow-tracing disassembler, verified byte-exact on reassembly, with a companion 8085 emulator reconstructing the board's PAL address-decode logic in CUPL ([navtec-roms](https://github.com/Mwwhited-BookLearning/navtec-roms)); separately reverse-engineered and byte-exact-reconstructed the three-module Phoenix BIOS of a Compuadd 486 laptop and built a working XTIDE LBA/EBIOS disk-support patch, verified on the physical hardware ([compuadd-450-bios](https://github.com/Mwwhited-BookLearning/compuadd-450-bios)); and fully disassembled a Tektronix 2230 oscilloscope's firmware across three ROM images on two boards (main system ROM plus GPIB/RS-232 option ROM), tracking an explicit proven-vs-heuristic coverage metric, resolving live RS-232 protocol behavior and command dispatch on the physical instrument, and cross-validating the result at the bit level against the manufacturer's own service manual ([tektronix-2230](https://github.com/Mwwhited-BookLearning/tektronix-2230)).
+
+**Home Lab & DevOps Infrastructure:** Maintains multi-node home lab with DevOps Playground cluster (AMD FX-9590/FX-8350 systems, 64GB RAM total) for Docker/Kubernetes experimentation and CI/CD pipeline testing. Network infrastructure includes 9-node eero 6+ WiFi 6 mesh with Thread support, 2× MokerLink 2.5GbE managed switches with 10G SFP+ interconnect, and WD My Cloud PR4100 NAS for centralized storage. Infrastructure-as-code approach to home automation, media server, and development environment management.
+
+**3D Printing & Digital Fabrication:** Upgraded Velleman K8200 3D printer with Duet 3 multi-tool control system for custom enclosures, mechanical parts, and workshop organization solutions. Configuration and upgrades documented in [MyMashedDuet](https://github.com/mwwhited/MyMashedDuet) repository. Integration of 3D printing with electronics projects for complete product development (PCB + enclosure workflow).
+
+---
+
+## Leadership & Mentorship Experience
+
+### Centers of Excellence Leadership
+**Leading technical standards and best practices organization-wide**
+- **Technical Authority:** .NET Centers of Excellence Lead establishing development standards
+- **Knowledge Transfer:** Creating and executing professional development programs
+- **Team Enablement:** Mentorship programs for application development practice
+
+### Team Leadership & People Management
+**Full-spectrum leadership experience from hiring through performance management**
+- **Hiring Authority:** Conducted technical interviews, made hiring decisions, and built development teams
+- **Performance Management:** Conducted performance reviews and managed direct reports (5-10 developers)
+- **Remote Team Leadership:** Led fully remote teams, hybrid teams, and timezone-spanning distributed teams
+- **Technical Mentorship:** Structured mentoring programs for developer skill development and career growth
+
+### Stakeholder & Vendor Management
+**Cross-functional leadership and external relationship management**
+- **Stakeholder Conflict Resolution:** Mediated between business and technical stakeholders to resolve competing priorities
+- **Executive Communication:** Regular presentations to VP/Director level leadership on technical strategy and project status
+- **Vendor Selection & Management:** Led complete vendor evaluation processes, technical assessments, and contract negotiations
+- **SOW/Contract Review:** Expert evaluation of vendor proposals and technical contracts for accuracy and risk mitigation
+
+### Public Speaking & Knowledge Sharing
+**Technical presentations and community engagement**
+- **Meetup/User Group Presentations:** Technical talks at local developer meetups and user groups
+- **Internal Training Delivery:** Lunch-and-learns, boot camps, and technical workshops for internal teams
+- **Client Training Programs:** Delivered technical training to client organizations on architecture and best practices
+
+### Professional Development Programs
+**Comprehensive training initiatives improving team capabilities**
+
+#### Technical Training Programs
+- **.NET Boot Camp:** Application Design, Best Practices, Architecture Patterns
+- **AI/ML Technical Deep:** Prompt Engineering, Data Embedding, Vector Search, Neural Networks
+- **Choose Your Own Adventure:** Embedded development, Assembly programming, 3D Programming, Data Modeling
+- **Custom Training:** Domain-specific technical training tailored to client needs
+
+#### Mentorship & Code Quality
+- **Code Review Leadership:** Establishing development standards and review processes
+- **Junior Developer Mentorship:** Structured programs for skill development
+- **Architecture Guidance:** Leading architectural decisions and design reviews
+- **Best Practices:** Training teams on patterns, practices, and quality standards
+- **Community Mentorship (Discord):** Founded and run a public developer mentorship [Discord community](https://discord.gg/dyj84PZKvh), a spinoff of the Eliassen "Choose Your Own Adventure" training program extending mentorship beyond a single employer
+
+### Sales & Business Development
+**Technical expertise supporting business growth**
+- **Sales Enablement:** Subject Matter Expert (SME) supporting client interactions
+- **Proof of Concepts:** Technical demonstrations and feasibility assessments
+- **Requirements Analysis:** Technical requirement review and solution design
+- **Client Education:** Technical training and knowledge transfer to client teams
+
+---
+
+## Community Contributions & Industry Recognition
+
+### Open Source Leadership
+**Significant measurable impact across developer community**
+- **GitHub Arctic Code Vault Contributor:** Permanent preservation of critical open source code
+- **GitHub Achievements:** Pull Shark (x2), Quickdraw, YOLO, Starstruck
+- **Active Maintenance:** Consistent updates and community support across all projects
+
+### Knowledge Sharing & Community Support
+**16+ years of continuous community engagement**
+- **Stack Overflow:** 22,510+ reputation reaching 4.8 million users
+- **Top Expertise Areas:** C# (Gold badge), .NET (Silver badge), XML (Bronze badge)
+- **Community Impact:** 606 answers, 8 questions, helping thousands of developers
+- **Knowledge Transfer:** Public research notebooks and educational platforms
+
+### Technical Innovation Sharing
+**Making advanced techniques accessible to broader community**
+- **Algorithm Research:** Public notebooks with custom LSH implementations and benchmarking
+- **Educational Platforms:** Coding challenge repositories for multi-language learning
+- **Framework Development:** Open source tools solving common development problems
+- **Documentation:** Comprehensive technical documentation and usage examples
+
+---
+
+## Business Impact & Measurable Results
+
+### Cost Optimization & Performance Enhancement
+- **Substantial Cloud Cost Reduction:** Architecture optimization delivering significant financial impact
+- **Query Performance:** Dramatic improvements through custom LSH-based indexing
+- **Development Productivity:** Framework development increasing team efficiency
+- **Technical Debt Reduction:** Legacy system modernization and performance tuning
+
+### Community & Business Value Creation
+- **Download Metrics:** 922,591+ package downloads (900K+) indicating widespread adoption
+- **Community Reach:** 4.8 million Stack Overflow users reached with technical knowledge
+- **Educational Impact:** Learning platforms and knowledge transfer resources
+- **Innovation Leadership:** First-to-market solutions in vector databases and AI/ML integration
+
+### Technical Authority & Thought Leadership
+- **100% Technical Validation:** All claims verified through comprehensive code review
+- **Innovation Recognition:** EXCEPTIONAL to HIGH innovation levels across multiple domains
+- **Industry Impact:** Custom solutions adopted by enterprise organizations
+- **Knowledge Leadership:** Recognized expertise in multiple technical domains
+
+---
+
+## Professional Network & Online Presence
+
+### Technical Profiles
+- **GitHub:** [github.com/mwwhited](https://github.com/mwwhited) - 7 personal repositories, Arctic Code Vault Contributor, 6 achievement badges
+  - **GitHub Organizations:**
+    - [mwwhited-notes](https://github.com/mwwhited-notes) - Professional documentation (Resume system with 410+ commits, Virtual-Recruiter project, Shared technical notes)
+    - [OutOfBandDevelopment](https://github.com/OutOfBandDevelopment) - Consulting frameworks (dotex .NET Framework Extensions, React/PrimeReact templates, DevOps utilities)
+    - [mwwhited-forks](https://github.com/mwwhited-forks) - Reference collection (60 curated forks organized separately to keep profile clean)
+    - [mwwhited-archives](https://github.com/mwwhited-archives) - Historical projects (11 archived projects including signalr-client-nodejs with 37 stars, legacy frameworks, research projects)
+- **NuGet:** [900K+ downloads (922,591 verified)](https://www.nuget.org/profiles/mwwhited/) - 42-package modular ecosystem, 6-year sustained maintenance (2020-2026), professional CI/CD
+  - **BinaryDataDecoders Migration:** Flagship framework transitioning from github.com/mwwhited/BinaryDataDecoders (archived 1/11/2026) to [OutOfBandDevelopment/dotex](https://github.com/OutOfBandDevelopment/dotex) for unified architecture
+- **Stack Overflow:** [22,510+ reputation](http://stackoverflow.com/users/89586/matthew-whited) - 606+ solutions, 4.8M user reach, C# Gold Badge
+- **NPM:** [npmjs.com/~mwwhited](https://www.npmjs.com/~mwwhited) - 3 packages incl. `signalr-client` (1.6M+ lifetime downloads — larger than the entire NuGet ecosystem below), `automationhub-client`, `beaglebone-toolkit`
+- **Discord:** [Developer mentorship community](https://discord.gg/dyj84PZKvh) - Spinoff of the Eliassen "Choose Your Own Adventure" training program, providing ongoing public mentorship
+
+### Professional Networks
+- **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/) - Professional networking
+- **Stack Exchange:** Network-wide technical expertise and community engagement
+- **Personal Website:** [matthewwhited.com](https://matthewwhited.com) - Redirects to a public, actively-mirrored career-documentation system (github.com/mwwhited-notes) with 410+ commits across Resume, Shared, and Virtual-Recruiter projects
+
+### Creative & Personal
+- **Flickr:** [flickr.com/photos/mwwhited](http://www.flickr.com/photos/mwwhited/) - Photography portfolio
+- **Technical Blog:** Active sharing of technical insights and innovations
+
+---
+
+## Technical Philosophy & Approach
+
+### Architecture Design Methodology
+**Pragmatic approach to design documentation and project management**
+- **Design Tool Philosophy:** Preference for pen/paper ideation and PlantUML diagram-as-code for their simplicity, version control integration, and markdown compatibility
+- **Project Management Flexibility:** Experience across methodologies (Agile: Scrum, Kanban, XP; Waterfall) with selection based on project requirements and team dynamics
+- **Documentation-as-Code:** Strong advocate for PlantUML and Mermaid diagrams integrated with source control, enabling versioned, reviewable architecture documentation
+- **Rapid Prototyping:** Combination of whiteboard sessions and pen/paper sketching for initial design exploration before moving to formal documentation tools (Visio, Figma)
+
+### Hardware-Software Integration Mindset
+**Unique perspective from electronics engineering background**
+- **Performance Optimization:** Low-level understanding informing high-level architecture decisions
+- **System Design:** Complete stack understanding from hardware to application layers
+- **Efficiency Focus:** Zero-allocation programming and memory management expertise
+- **Real-World Constraints:** Practical engineering solutions balancing performance and maintainability
+
+### Innovation & Research Methodology
+**Systematic approach to technical innovation**
+- **Algorithm Development:** Custom implementations beyond framework usage
+- **Performance Engineering:** Benchmarking, optimization, and measurable improvements
+- **Open Source:** Sharing innovations for community benefit and validation
+- **Continuous Learning:** Adapting to new technologies while maintaining deep expertise
+
+### Professional Development & Team Building
+**Commitment to knowledge transfer and team enablement**
+- **Mentorship:** Structured programs for developer growth and skill development
+- **Documentation:** Comprehensive knowledge capture and sharing practices
+- **Standards:** Establishing and maintaining high-quality development practices
+- **Innovation Culture:** Encouraging experimentation and technical excellence
+
+---
+
+## Additional Technical Details & Specifications
+
+### Custom SQLCLR Vector Extensions (Technical Deep Dive)
+```csharp
+[SqlUserDefinedType(Format.UserDefined, MaxByteSize = 8000)]
+public struct SqlVector : INullable, IBinarySerialize
+```
+- **Mathematical Operations:** Full linear algebra support within SQL Server
+- **Aggregate Functions:** VectorDistanceCalculationAggregate for batch operations
+- **Distance Calculations:** Euclidean distance with statistical aggregation
+- **Binary Serialization:** Efficient storage and transmission within SQL Server
+- **Production Integration:** Professional CI/CD with automated testing
+
+### Custom Microprocessor Architecture (Technical Specifications)
+```systemverilog
+module mw16c_cpu (
+    input  logic        clk, rst,
+    input  logic [15:0] data_in,
+    output logic [15:0] data_out, addr_out,
+    output logic        mem_read, mem_write, halt
+);
+```
+- **Pipeline Stages:** 5-stage implementation (Fetch, Decode, Execute, Memory, Writeback)
+- **Instruction Set:** 30+ instructions including arithmetic, logical, memory, control flow
+- **Assembly Language:** Custom Python assembler with instruction encoding
+- **Testing:** Comprehensive SystemVerilog testbenches for all components
+
+### Zero-Allocation .NET Framework (Performance Engineering)
+```csharp
+public static async ValueTask<ReadOnlyMemory<byte>> ReadExactAsync(
+    this PipeReader reader, int byteCount, 
+    CancellationToken cancellationToken = default)
+```
+- **Modern .NET:** System.IO.Pipelines, Memory<T>, Span<T> expertise
+- **Format Support:** Multiple protocols and file formats
+- **Async Programming:** Non-blocking I/O with proper cancellation
+- **Enterprise Quality:** Comprehensive error handling and resource management
+
+### AI/ML Custom Algorithm Implementation
+```python
+class LSHHasher:
+    def __init__(self, input_dim, hash_size=32, num_tables=10):
+        self.projection_matrices = []
+        for _ in range(num_tables):
+            matrix = np.random.randn(input_dim, hash_size)
+            self.projection_matrices.append(matrix)
+```
+- **Performance Research:** Hamming vs Euclidean distance optimization
+- **Production Implementation:** Complete hybrid search engines
+- **FAISS Integration:** High-performance similarity search
+- **Scalable Architecture:** Support for large-scale document collections
+
+---
+
+## Future Directions & Continuous Learning
+
+### Emerging Technologies
+- **Advanced AI/ML:** Large Language Models, multimodal AI, edge computing
+- **Quantum Computing:** Algorithm development for quantum systems
+- **Advanced Hardware:** RISC-V, custom silicon, neuromorphic computing
+- **Cloud Native:** Advanced Kubernetes, service mesh, observability
+
+### Professional Growth Areas
+- **Technical Leadership:** Expanding team leadership and organizational impact
+- **Industry Speaking:** Conference presentations and technical thought leadership
+- **Research Collaboration:** Academic and industry research partnerships
+- **Open Source Leadership:** Leading major open source initiatives
+
+---
+
+## Usage Instructions for This Document
+
+### Purpose & Scope
+This document serves as the **definitive source of truth** for all information about Matthew Whited's professional background, technical capabilities, and achievements. It should be used as the foundation for creating:
+- Job-specific resumes tailored to particular roles
+- Technical capability assessments
+- Project proposals and consulting agreements
+- Professional introductions and networking materials
+
+### Maintenance Protocol
+- **Always update this document** when new information is discovered
+- **Preserve all technical details** regardless of apparent relevance
+- **Maintain quantifiable metrics** and update with new achievements
+- **Add technical validation** as new projects are completed
+- **Keep contact information current** and verify links regularly
+
+### Content Guidelines
+- **Comprehensive Detail:** Include all technical information needed to recreate specialized resumes
+- **Quantifiable Results:** Maintain specific metrics, download counts, and business impact data
+- **Technical Depth:** Preserve code examples and technical specifications for credibility
+- **Innovation Documentation:** Clearly identify and describe unique technical contributions
+- **Professional Validation:** Include community recognition and peer validation metrics
+
+---
+
+*This document contains comprehensive information validated through extensive code review and community verification. All technical claims have been verified through actual implementation analysis. Last updated: 2026-06-12 (Eastern)*

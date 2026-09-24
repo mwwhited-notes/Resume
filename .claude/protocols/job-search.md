@@ -1,0 +1,855 @@
+# Job Search Protocol - Comprehensive Market Analysis
+
+## Purpose
+This protocol provides a systematic approach to conducting comprehensive job searches across multiple platforms. The process creates detailed market analysis with rankings based on interest level and likelihood of success, automatically feeds high-quality opportunities into apply-next.md for tracking, and triggers targeted application creation for the best matches.
+
+**IMPORTANT:** This protocol is designed to be reusable. All job titles, compensation requirements, and search criteria should be derived from:
+- `resumes/master-resume.md` - Target job titles, skills, and experience
+- `CLAUDE.md` - User preferences (compensation, location, exclusions)
+- `./SearchResults/excluded-companies.md` - Company/industry exclusions
+
+**Target List Files (in `./SearchResults/Targets/`):**
+- `job-roles.md` - Target job titles derived from master resume
+- `target-companies.md` - Companies to target by category
+- `job-platforms.md` - Job search platforms to use
+
+## Protocol Chaining Overview — CRITICAL
+
+**This protocol does not run in isolation.** Ad hoc web-search scoring cannot reliably confirm exclusion status, company existence, Glassdoor/Blind culture signals, or whether a posting is actually still live — only `company-research.md` and `position-fit-analysis.md` do that. This protocol therefore **automatically chains** into those protocols as part of normal execution, not as a separate step the user must request:
+
+| After this protocol does... | It automatically triggers... | Why |
+|:-----------------------------|:------------------------------|:----|
+| Discovers a candidate opportunity that survives keyword/salary/location screening | `company-research.md` (if no fresh analysis exists for that company) | Only company-research.md verifies exclusion status, PE/VC ownership, and WLB/culture signals with real rigor |
+| Has a company-approved candidate opportunity with a URL | `position-fit-analysis.md` (single URL) or `batch-position-analysis.md` (multiple URLs from the same run) | Only these protocols verify the posting is live, confirm remote status, and produce an authoritative composite fit score |
+| Adds an opportunity to `apply-next.md` with High Priority/Top Target status | `targeted-application.md` — but resuming at **Phase 3 (Company Research Execution)**, not Phase 1 | Phase 1 of targeted-application.md re-runs this same job search — skip it to avoid redundant re-searching; company research and position analysis are already complete by this point |
+| Processes a rejection notification | `rejection-handling.md` | That protocol is the authoritative decision tree for duplicate/withdrawn/archive handling — do not reimplement its logic inline |
+
+See **Step 4.5** below for exactly how and when this chaining executes during a search.
+
+## Active Search Sources — Current Standing Policy (Added August 17, 2026)
+
+**LinkedIn job search is DISABLED for now.** Confirmed this session (independently, across three
+separate sub-agent runs) that `mcp__linkedin__search_jobs`'s `keywords` parameter does not filter by
+company name at all — combining a company name with a title term returns an identical generic
+"recommended for you" feed regardless of what's queried. This invalidated most of a prior session's
+per-company LinkedIn screening. Until the tool (or a replacement) is verified reliable again, **do not
+run LinkedIn searches** — skip the `#### LinkedIn Jobs` section below and the MCP health-check step
+entirely.
+
+**Only run the targeted search for now:** the `#### Direct Company Career-Page Search` section below
+(the Playwright scraper against `SearchResults/Targets/target-companies.md` / `companies.json`). This
+matches the user's own stated preference ("prefer to check the direct company pages over LinkedIn"),
+which this finding independently vindicates. Indeed/ZipRecruiter/Dice/Glassdoor/Monster and the other
+platform categories further below are retained for reference but are not part of the active rotation
+right now either — direct company career-page search is the only source in active use.
+
+This is a standing policy, not a one-time skip — don't silently re-enable LinkedIn search in a future
+run without either (a) confirming the keyword-filtering bug has actually been fixed upstream, or (b)
+an explicit user instruction to turn it back on.
+
+## When to Execute This Protocol
+- Quarterly job market assessment
+- When considering career transitions
+- For salary benchmarking and market positioning
+- Before major resume updates or career strategy planning
+- When exploring new technology sectors or geographic markets
+
+## Pre-Search Setup
+
+### 1. Create SearchResults Directory Structure
+```bash
+mkdir -p ./SearchResults/Jobs
+mkdir -p ./SearchResults/Targets
+```
+
+### 2. Verify Target List Files Exist
+**CRITICAL:** Before proceeding, verify target list files exist in `./SearchResults/Targets/`:
+- `job-roles.md` - Target job titles
+- `target-companies.md` - Companies to target
+- `job-platforms.md` - Job search platforms
+
+**If any files are missing, execute the target list generation protocol:**
+```
+read protocols/target-list-generation.md and follow the protocol
+```
+Then return to this protocol.
+
+**If files exist but are outdated (>90 days old), consider refreshing them.**
+
+### 3. Company Exclusion Verification
+**CRITICAL STEP:** Before executing any job search, review exclusion list to avoid excluded companies:
+
+- **Read Exclusion List:** Review `./SearchResults/excluded-companies.md` for complete list of companies and industries to exclude
+- **Industry Exclusions:** Apply all industry exclusions defined in the exclusion list
+- **Company Exclusions:** Apply all specific company exclusions defined in the exclusion list
+- **Investor Exclusions:** Apply investor/portfolio exclusions if defined in the exclusion list
+- **DOGE/Trump/MAGA Alignment Exclusions:** Apply explicit board/management alignment exclusions (see `./SearchResults/doge-trump-maga-alignment-exclusions.md`)
+- **Board Composition Verification:** Check board members against aligned individuals list before proceeding
+- **Industry Classification:** Always identify company's primary industry before proceeding with analysis
+
+**DOGE/Trump/MAGA Exclusion Criteria (UPDATED January 2026):**
+- ✗ Any executive or board member who is Elon Musk, Sam Altman, Alexander Karp, Brian Armstrong, Peter Thiel, Marc Andreessen, or Ben Horowitz
+- ✗ Any board member who publicly donated $100K+ to Trump, MAGA Inc., MAGA PACs, or Fairshake in 2024-2026
+- ✗ Company described as "DOGE-aligned" or received DOGE recruitment involvement
+- ✗ Founders Fund or a16z portfolio companies where aligned individuals hold voting board positions
+
+**Note:** If no exclusion file exists, create `./SearchResults/excluded-companies.md` with user's exclusion preferences before proceeding.
+
+### 4. Load Target Lists
+**Read the target list files generated in Step 2:**
+- **Job Roles:** `./SearchResults/Targets/job-roles.md` - Use these titles for search queries
+- **Target Companies:** `./SearchResults/Targets/target-companies.md` - Reference for company targeting
+- **Job Platforms:** `./SearchResults/Targets/job-platforms.md` - Platforms to search on
+
+### 5. Master Resume Analysis & Understanding
+**CRITICAL STEP:** After exclusion verification, thoroughly analyze the master resume to understand optimal job matching criteria:
+
+- **Read Master Resume:** Complete analysis of `resumes/master-resume.md` to understand:
+  - Target job titles and career tracks (extract from Professional Identity section)
+  - Core technical skills and competencies (extract from Skills Matrix or Technical Skills section)
+  - Key achievements and differentiators (extract from Achievements section)
+  - Community validation metrics (NuGet, Stack Overflow, GitHub, etc. if applicable)
+- **Read CLAUDE.md:** Extract user preferences including:
+  - Work location requirements (remote, hybrid, on-site preferences)
+  - Compensation requirements (salary minimums, hourly rates)
+  - Travel tolerance
+  - Other exclusions or preferences
+- **Define Search Criteria:** Based on master resume analysis, identify:
+  - Primary target job titles
+  - Secondary/alternative job titles
+  - Key technology focus areas
+  - Experience level positioning
+
+### 6. Define Search Criteria
+**IMPORTANT:** Use the job titles from `./SearchResults/Targets/job-roles.md` for actual searches. The examples below are for reference only.
+
+#### Example Executive Leadership Roles
+- **C-Level Positions:** CTO, Chief Technology Officer, Chief Solutions Architect, Chief Digital Officer, VP Engineering
+- **Fractional Executive:** Fractional CTO, Part-Time CTO, Technology Advisory, Strategic Technology Consultant
+- **Technology Leadership:** Director of Engineering, Head of Engineering, Technology Director
+
+#### Example Architecture Roles
+- **Principal Architect:** Principal Solutions Architect, Principal Software Architect, Principal Enterprise Architect, Principal Platform Architect
+- **Senior Architecture:** Senior Solutions Architect, Senior Software Architect, Senior Enterprise Architect
+- **Specialized Architecture:** AI/ML Architect, Cloud Architect, Platform Architect, Integration Architect, Data Architect
+
+#### Example Engineering Roles
+- **Staff/Principal Engineering:** Staff Software Engineer, Principal Software Engineer, Distinguished Engineer
+- **Technology Specialization:** Principal AI/ML Engineer, Senior Platform Engineer, Principal .NET Engineer
+- **Consulting/Advisory:** Solutions Engineer, Pre-Sales Engineer, Technical Consultant, Technology Advisor
+
+#### Technology Focus Areas (Derive from Master Resume Skills)
+- **Extract from Skills Matrix:** Primary programming languages, frameworks, and platforms
+- **Cloud & Infrastructure:** AWS, Azure, GCP, Kubernetes, Docker, etc.
+- **Specializations:** AI/ML, Data Engineering, DevOps, Security, etc.
+
+#### Work & Compensation Preferences (Extract from CLAUDE.md)
+- **Work Preference:** Remote/hybrid/on-site preference from CLAUDE.md
+- **Compensation Requirements:** Salary and hourly rate minimums from CLAUDE.md
+- **Travel Tolerance:** Acceptable travel percentage from CLAUDE.md
+- **Location:** Address for commute evaluation (if hybrid/on-site considered)
+- **Other Exclusions:** Security clearance, specific industries, etc. from CLAUDE.md
+
+## Job Search Platform Categories
+
+### Category 1: Major Job Boards
+Execute searches and create individual platform analysis files.
+
+**Search Term Construction:** Build search queries using:
+- Target job titles from master resume analysis (Step 3)
+- Key technical skills from Skills Matrix
+- Work preference terms (remote, hybrid, etc.)
+- Technology keywords from master resume
+
+#### LinkedIn Jobs — **DISABLED, see "Active Search Sources" note above**
+- **Search Terms:** [Primary job titles] + [key technologies] + [location preference] + [experience level]
+- **Advanced Filters:** Work type preference, experience level, technology industry
+- **Output File:** `SearchResults/Jobs/linkedin.md`
+- **Focus:** Enterprise-scale opportunities, established companies
+
+**Optional: LinkedIn MCP server** — if the `linkedin` MCP server (see below) is connected, prefer its job-search tools over manual browser search/scraping for this platform; fall back to manual search if it's not configured or fails.
+
+**Posting age — hard exclusion + incremental search:**
+- **Hard rule:** Any posting older than 30 days is automatically excluded, regardless of fit — use `date_posted: "past_month"` on `search_jobs` calls as the outer bound, and verify via `get_job_details` if a result's actual post date is ambiguous.
+- **Incremental runs:** Before searching, check `SearchResults/Jobs/linkedin.md` for a "Last MCP Search Run" date. If one exists and is less than 30 days old, tighten `date_posted` to cover just the gap instead of the full month (`past_24_hours` if run today, `past_week` if run 2-7 days ago, `past_month` if run 8-30 days ago) — this avoids re-surfacing postings already screened in the prior run. If no prior run date exists, or it's 30+ days old, do a full `past_month` sweep.
+- **After every run:** Update the "Last MCP Search Run" date in `SearchResults/Jobs/linkedin.md` to today's date so the next session can compute the gap.
+
+##### LinkedIn MCP Server Setup (Windows + Docker)
+Uses [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server) — logs into LinkedIn via your own browser session (no API key), so it's still subject to LinkedIn's ToS restrictions on automated access (account restriction risk with heavy use).
+
+**Two Windows-specific gotchas to know before setting this up again:**
+1. A Windows bind mount (`-v ~/.linkedin-mcp:...`) fails with `Operation not permitted` because the container chmods the profile dir and NTFS doesn't support that — **use a named Docker volume instead** (`docker volume create linkedin-mcp-data`).
+2. `docker run -i` (stdio transport) reliably drops the first JSON-RPC message on Windows (a docker-attach race), which Claude Code reports as `Connection closed` — **use `--transport streamable-http` instead of stdio**, bound to loopback only.
+3. Git Bash mangles `/`-leading args (e.g. `/mcp`, `/data`) into Windows paths — prefix affected commands with `MSYS_NO_PATHCONV=1`.
+
+#### Direct Company Career-Page Search (S&P 500 / NASDAQ target list)
+
+**Target list:** `SearchResults/Targets/target-companies.md` — reorganized August 17, 2026 from a
+"Category N, added on date X" structure into industry-sector headings (Enterprise Technology &
+Software, Healthcare & Life Sciences, Financial Services & Insurance, Industrials/Manufacturing/
+Logistics, Energy & Utilities, Real Estate, Consumer/Retail/Travel, plus a separately flagged Executive
+Search & Professional Services Firms section). There is no longer a single "Category 6" block — the
+publicly-traded S&P 500/NASDAQ companies with real in-house software engineering orgs are now spread
+across every industry section (most rows in the file are public companies; a handful of explicitly
+noted private/family-owned companies are mixed in per-section). All of them have already been run
+through the full exclusion pipeline (named individuals/investors, DOGE/Trump/MAGA board + corporate
+donations, VC/PE-backed, dual-class share structure, IT staff-augmentation business model, Larry
+Ellison family, recruiting/staffing firms) — being a major public-index constituent inherently clears
+the VC/PE exclusion for almost all of these, which is most of the value of maintaining this list.
+Re-run the exclusion checks on any *new* addition before trusting it — existing entries don't need
+re-checking unless a specific company's status changes (acquisition, go-private, etc.). When
+regenerating `companies.json` from this file for the scraper, pull from every industry section, not
+just one.
+
+**Do NOT use plain WebFetch to search these companies' career pages.** Discovered August 2026: most corporate ATS platforms (Workday, Greenhouse, Eightfold, Phenom People, Oracle Cloud Recruiting, custom React SPAs) render job listings via client-side JavaScript. WebFetch only retrieves the static HTML shell before that JS executes, so it returns empty results indistinguishable from a genuine zero — this produced dozens of false "portal not searchable" results in earlier attempts, wasting significant effort re-discovering the same limitation across parallel agents.
+
+**Use the Playwright scraper instead:** `SearchResults/Jobs/career-portal-scraper.js`
+
+**Location note:** this script and its data (companies list, scrape results) live inside `SearchResults/`, which is its own private git submodule (per the wrapper-level `CLAUDE.md`: everything in the Resume repo is public except `SearchResults/`) — not in the top-level `scripts/job-search/` directory (that one holds the older, public, Puppeteer-based platform-search automation and is unrelated). Keep it there; don't move it back to `scripts/`.
+
+- **Setup (one-time per machine):** `cd SearchResults/Jobs && npm install` — this also downloads the Chromium browser binary via the `postinstall` hook.
+- **Run:** `node career-portal-scraper.js --input companies.json --output scrape-results-{YYYYMMDD}.json` — reads a JSON array of `{company, ticker, url}` (defaults to `companies.json` in the same directory, which mirrors the target list's career URLs), launches a real headless browser per company (concurrency 4), waits for JS to render, tries an in-page search box or common `?q=`/`?search=`/`?keyword=` URL patterns if nothing matches on first load, and finds `<a>` elements whose text matches Principal/Staff/Chief/Distinguished/Enterprise Architect/Engineer titles.
+- **Compensation lookup is automatic, including following through to each posting's own page.** Extraction reads a small ancestor "card" element around each matched title (not the whole page's flattened text) so compensation gets attributed to the correct listing rather than bleeding in from an adjacent one — this fixed a real bug (Gen Digital's "$180K"/"$150K" pair, which belonged to two different postings sitting next to each other in flattened text, before this fix). If the listing card itself has no compensation, and a real detail-page link (`href`) is available, the script automatically visits that individual posting (capped at 8 per company) and looks there — many ATS platforms only show the salary band on the actual job page, not the search-results listing, so "no comp on the listing" must NOT be treated as "employer doesn't disclose comp" without checking the detail page first. This happens without any extra flag or step — it's the default behavior.
+- **Exclusion check is automatic:** before scraping, every entry is checked against `SearchResults/excluded-companies.md` (parsed live from the file itself, not a synced copy) — matches are marked `skipped-excluded` and never scraped. The check is deliberately scoped to the `### Individual Company Blacklist` and `## Recruiting / Staffing Firm Postings` bullet sections plus every `**Confirmed excluded under this rule:**`-style paragraph in the newer typed-rule sections (VC-backed, dual-class, IT staff-aug) — it does NOT blindly grep every bolded word in the whole document. That would catch historical/contextual mentions inside the big Thiel/Musk/Andreessen portfolio tables (e.g. "PayPal (historical)" under Founders Fund) and incorrectly skip companies that were actually cleared on individual review. If you add a new exclusion category to `excluded-companies.md` with its own confirmed-companies list, add its header/pattern to `BLACKLIST_SECTION_HEADERS` or extend the paragraph-matching regex in the script rather than switching back to a whole-document scan.
+- **Output statuses:** `matched` (found qualifying titles — inspect the `matches` array, each with `title_line`, `context`, `compensation`, `href`, `locationHint`, and `compensationSource` — `"detail-page"` means the listing itself had no comp but the individual posting did, `"not-found-on-detail-page"` means even the detail page had none), `no-match` (page rendered successfully but no matching titles found — a real negative, not a rendering failure), `unreachable` (navigation/timeout/bot-block error — genuinely unresolved, worth a manual check or URL fix), `skipped-excluded` (matched a name in `excluded-companies.md`, never scraped).
+- **Still apply all normal screening after scraping:** the script finds title matches, looks up compensation (including the detail-page follow-through above), and pre-filters known exclusions — it does NOT itself apply the $51K spread-ceiling rule, the $200K floor, or the hybrid/on-site comp-and-commute thresholds. Run every "matched" company's actual comp against those rules before treating anything as a real candidate.
+- **Update `companies.json`** as the target list changes (new companies added, career URLs change) rather than maintaining a second, drifting copy of the list. Newly-excluded companies don't need manual removal — the automatic exclusion check handles that on the next run.
+- **Never delete a newly-excluded company's entry from `companies.json` — flag it instead.** Add `"excluded": true` and `"excludedReason": "<short reason + date, see excluded-companies.md>"` to its object (the scraper checks this flag before the name-match check and skips immediately). Deleting the entry outright means a future S&P/NASDAQ rescan that regenerates or merges into `companies.json` has no record that the company was already reviewed and rejected — it could get silently re-added and re-scraped as if it were new. This mirrors the strikethrough + **REMOVED (date)** annotation convention already used in `SearchResults/Targets/target-companies.md` — keep both files in that same "flag, don't delete" style.
+- **Tool choice is not fixed to Playwright** — Puppeteer works identically for this use case (the top-level `scripts/job-search/job-search.js` already uses Puppeteer for platform search automation). Playwright was used here because it was already set up in-session; either is fine going forward, whichever is faster to reach for.
+- **Automatic redirect-to-a-different-company detection.** After navigation, the scraper compares the requested URL's registrable domain to the final page's registrable domain. A same-company subdomain hop (e.g. `nvidia.com` → `jobs.nvidia.com`) is ignored; a landing on a genuinely different company's domain (e.g. `hashicorp.com` → `ibm.com`, `cyberark.com` → `paloaltonetworks.com`) is flagged as `possibleAcquisitionRedirect: {from, to}` on that company's result and printed in the run summary. **When this fires: verify it's a real acquisition (a quick WebSearch confirming the deal/closing date is enough), and if the redirect target is already its own row in `target-companies.md`, remove the source company's row entirely rather than keeping both** — this is exactly the HashiCorp/IBM and CyberArk/Palo Alto Networks pattern found and fixed manually on August 17, 2026, now caught automatically going forward. Don't auto-delete without confirming the acquisition first — a redirect can also mean a rebrand, a temporary outage page, or an unrelated domain squat.
+
+**Troubleshooting an "unreachable" or "no-match" result before concluding a company has no openings** (added August 18, 2026, after a run produced 9 "unreachable" results out of 169):
+1. **Verify the URL in `target-companies.md`/`companies.json` is actually correct first.** Several "unreachable" results traced back to a stale or simply wrong Careers URL (e.g. `careers.jll.com` doesn't resolve at all — the real portal is `jll.wd1.myworkdayjobs.com/jllcareers`; `prudential.com/careers` refused the connection — the real portal is `jobs.prudential.com/us-en`). A WebSearch for "`{Company}` careers page official URL" resolves this in one call — do this before assuming the site itself is broken.
+2. **Confirm the Playwright scraper (not plain WebFetch) was actually used.** Plain WebFetch only sees the pre-JS static HTML shell on most modern ATS platforms (Workday, Greenhouse, Eightfold, Phenom People, Oracle Cloud Recruiting, custom SPAs) — an empty/no-listings result from WebFetch is indistinguishable from a genuine zero and must not be trusted. `career-portal-scraper.js` renders the page with a real (headless) browser first.
+3. **A same-URL retry with the scraper is now automatic** for a subset of transient errors (`ERR_HTTP2_PROTOCOL_ERROR`, `ERR_HTTP_RESPONSE_CODE_FAILURE`, navigation timeout) — the scraper retries once in a fresh browser context before giving up. If a company is still `unreachable` after that automatic retry, it's more likely a genuinely wrong/dead URL (fix per step 1) than a transient hiccup.
+
+**One-time login** (do this whenever the session expires or on first setup):
+```bash
+docker volume create linkedin-mcp-data
+MSYS_NO_PATHCONV=1 docker run --rm \
+  -v linkedin-mcp-data:/home/pwuser/.linkedin-mcp \
+  -p 127.0.0.1:6080:6080 \
+  stickerdaniel/linkedin-mcp-server:latest \
+  --login --login-viewer
+```
+This prints a one-time `http://127.0.0.1:6080/vnc_lite.html#?token=...` URL — open it and log into LinkedIn manually (handles 2FA/captcha). Session cookies persist in the `linkedin-mcp-data` volume; the container exits on its own once login succeeds.
+
+**Run the server** (detached, HTTP transport, loopback-only):
+```bash
+MSYS_NO_PATHCONV=1 docker run -d --name linkedin-mcp \
+  -v linkedin-mcp-data:/home/pwuser/.linkedin-mcp \
+  -p 127.0.0.1:8765:8080 \
+  --restart unless-stopped \
+  stickerdaniel/linkedin-mcp-server:latest \
+  --transport streamable-http --host 0.0.0.0 --port 8080 --path /mcp
+```
+`--restart unless-stopped` means it survives reboots — no need to re-run this once it's up, only re-run the login step if auth expires.
+
+**Register with Claude Code** (user scope, so it's available in every project):
+```bash
+claude mcp add --scope user --transport http linkedin http://127.0.0.1:8765/mcp
+claude mcp get linkedin   # should show "✔ Connected"
+```
+**Important:** tools from a newly-added MCP server only appear in *new* Claude Code sessions — restart the session after registering before expecting `mcp__linkedin__*` tools to show up in `ToolSearch`.
+
+#### Indeed.com
+- **Search Terms:** [Target job titles] + [technology keywords] + [location]
+- **Advanced Filters:** Remote/hybrid, salary ranges, company size
+- **Output File:** `SearchResults/Jobs/indeed.md`
+- **Focus:** Broad market coverage, diverse company sizes
+
+#### ZipRecruiter.com
+- **Search Terms:** [Target job titles] + [technology keywords] + [location]
+- **Advanced Filters:** Work type, salary ranges from CLAUDE.md, technology sector
+- **Platform Advantage:** AI-powered matching, salary insights, mobile-optimized
+- **Output File:** `SearchResults/Jobs/ziprecruiter.md`
+- **Focus:** Rapid application process, recruiter connections, salary transparency
+
+#### Dice.com
+- **Search Terms:** [Target job titles] + [technology keywords] + [location]
+- **Platform Advantage:** Tech-focused with 70,000+ job openings
+- **Output File:** `SearchResults/Jobs/dice.md`
+- **Focus:** Technical depth, established tech relationships
+
+#### Glassdoor.com
+- **Search Terms:** [Target job titles] + [technology keywords] + [location]
+- **Platform Advantage:** Company reviews, salary insights, interview experiences
+- **Output File:** `SearchResults/Jobs/glassdoor.md`
+- **Focus:** Company culture insights, compensation transparency, interview preparation
+
+#### Monster.com
+- **Search Terms:** [Target job titles] + [technology keywords] + [location]
+- **Platform Advantage:** Broad coverage, established relationships, diverse industries
+- **Output File:** `SearchResults/Jobs/monster.md`
+- **Focus:** Comprehensive market coverage, diverse company types and sizes
+
+### Category 2: Executive Recruiting Firms
+Research and document executive search opportunities.
+
+**Reference:** `./SearchResults/Targets/target-companies.md` - "Executive Search & Professional
+Services Firms" section (flagged/use-with-caution — a different relationship type than a direct
+employer; verify direct-hire terms before treating any sourced posting as a real lead).
+
+#### Search Process
+- Read target executive search firms from `./SearchResults/Targets/target-companies.md`
+- Research each firm's technology practice
+- Identify key recruiters and practice leaders
+- Document typical client profiles and role requirements
+- **Output File:** `SearchResults/Jobs/executive-recruiters.md`
+
+### Category 3: Specialized Job Boards
+Target specialized platforms based on candidate's field and skills.
+
+**Reference:** `./SearchResults/Targets/job-platforms.md` - Specialized Platforms section
+
+#### Platform Selection
+Read `./SearchResults/Targets/job-platforms.md` to identify specialized platforms matching:
+- Candidate's primary technical skills (e.g., AI/ML, .NET, DevOps)
+- Target industry (e.g., healthcare, fintech, enterprise)
+- Experience level (e.g., executive, startup, enterprise)
+
+#### Search Process
+- Read platforms from `./SearchResults/Targets/job-platforms.md`
+- **Search Terms:** [Target job titles from job-roles.md] + [keywords from master resume] + [location preference from CLAUDE.md]
+- **Focus:** Specialized opportunities matching candidate's expertise
+- **Output File:** `SearchResults/Jobs/specialized-job-boards.md`
+
+### Category 4: Major Consulting Firms & Fortune 500 Companies
+Research technology leadership opportunities in consulting and Fortune 500 companies.
+
+**Reference:** `./SearchResults/Targets/target-companies.md` - "Enterprise Technology & Software"
+section (Cloud/SaaS, Cybersecurity, Semiconductors sub-sections) and the "Executive Search &
+Professional Services Firms" section for consulting-adjacent firms.
+
+#### Research Process
+1. Read target companies from `./SearchResults/Targets/target-companies.md`
+2. Cross-reference all companies against `./SearchResults/excluded-companies.md`
+3. Research career opportunities at non-excluded companies
+4. Focus on positions matching job titles from `./SearchResults/Targets/job-roles.md`
+
+#### Research Focus
+- Technology leadership opportunities matching target job titles
+- Work arrangement alignment (remote/hybrid/on-site per CLAUDE.md preferences)
+- Compensation ranges for target positions
+- Technology leadership roles and requirements
+- Client engagement models and project types
+- **Output File:** `SearchResults/Jobs/consulting-firms.md`
+
+### Category 5: Remote-Specific Job Boards
+Target platforms specializing in remote work opportunities.
+
+**Reference:** `./SearchResults/Targets/job-platforms.md` - Remote-First Platforms section
+**Reference:** `./SearchResults/Targets/target-companies.md` - remote-first software companies now
+live at the bottom of the "Enterprise Technology & Software → Cloud, Enterprise SaaS & Data
+Infrastructure" sub-section (Zapier, Automattic, Buffer, Doist), not a standalone category.
+
+#### Search Process
+- Read platforms from `./SearchResults/Targets/job-platforms.md`
+- **Search Terms:** [Target job titles from job-roles.md] + [key technologies from master resume] + remote
+- **Focus:** 100% remote opportunities, distributed teams, flexible arrangements
+- **Output File:** `SearchResults/Jobs/remote-job-boards.md`
+
+### Category 6: Contractor & Freelance Platforms
+Research high-value contractor and consulting opportunities.
+
+**Reference:** `./SearchResults/Targets/job-platforms.md` - Contractor Platforms section
+
+#### Search Process
+- Read platforms from `./SearchResults/Targets/job-platforms.md`
+- **Search Terms:** [Target job titles from job-roles.md] + consultant + [key technologies from master resume]
+- **Focus:** High-value consulting engagements, fractional executive roles, specialized projects
+- **Output File:** `SearchResults/Jobs/contractor-platforms.md`
+
+#### Remote Job Market Focus
+**Note:** Prioritize searches based on location preferences from CLAUDE.md. For remote-preferred candidates, prioritize remote positions and flag on-site requirements. For location-specific candidates, include geographic filters in searches.
+
+## Search Execution Process
+
+### Pre-Execution: Check Application History
+**CRITICAL:** Before executing any job search, check existing applications to avoid duplicates:
+
+1. **Read Applied-To File:** Review `./SearchResults/applied-to.md` if it exists
+2. **Company Filter:** Identify companies already applied to within last 6 months
+3. **Search Modification:** Exclude recently applied companies or note for reference
+4. **Documentation:** Include application status context in research findings
+
+### Step 1: Platform Research (Parallel Execution)
+For each platform category, execute the following:
+
+1. **Web Search Query Construction**
+   - Combine platform name with target roles and technologies
+   - Include location preferences from CLAUDE.md
+   - Add current year for recent postings
+
+2. **Search Execution**
+   ```
+   WebSearch: "[platform] [target roles] [technologies] [location] [year]"
+   ```
+
+3. **Results Analysis & Documentation**
+   - Identify specific job opportunities with URLs
+   - **MANDATORY LINK COLLECTION:** Capture direct URLs for all job postings, company career pages, and application links
+   - **LINK VALIDATION REQUIRED:** Test all job posting URLs to verify they are still active and accessible
+   - **URL EXPIRATION TRACKING:** Note date of link verification and mark expired/invalid links
+   - Extract salary ranges and compensation details
+   - Note key requirements and qualifications
+   - Assess alignment with unique capabilities
+   - **Cross-Reference Applications:** Check each opportunity against applied-to.md
+   - **Mark Applied Status:** Note if previously applied to company/position
+   - **EXCLUSION LIST VERIFICATION:** Cross-reference each company against `./SearchResults/excluded-companies.md` and mark excluded companies
+   - **INVESTOR ASSOCIATION CHECK:** If investor exclusions are defined in exclusion list, verify company ownership/investment relationships
+   - **CRITICAL:** Document all search results in individual platform files for comprehensive summary building
+
+### Step 2: Competitive Advantage Analysis
+For each platform, document how the candidate's profile provides competitive advantages.
+
+#### Unique Differentiators (Extract from Master Resume)
+Reference `resumes/master-resume.md` for unique differentiators:
+- Key technical innovations and specializations
+- Framework/library development or open source contributions
+- Leadership experience and team influence
+- Crisis resolution or turnaround expertise (if applicable)
+- Technology risk management experience
+- Any other distinctive capabilities from master resume
+
+#### Community Validation (Extract from Master Resume)
+Reference `resumes/master-resume.md` for current metrics:
+- Package downloads (NuGet, npm, PyPI, etc.) if applicable
+- Community platform reputation (Stack Overflow, GitHub, etc.)
+- Open source achievements and contributions
+- Speaking engagements or publications
+
+### Step 3: Individual Search Results Documentation
+**CRITICAL REQUIREMENT:** For each search executed, create individual platform documentation files to support comprehensive summary building.
+
+#### Individual Platform Files Required
+Create detailed analysis files for each platform including:
+
+**File Naming Convention:** `SearchResults/Jobs/[platform-name].md`
+
+**Required Platform Files:**
+- `SearchResults/Jobs/linkedin.md` - LinkedIn Jobs platform analysis
+- `SearchResults/Jobs/indeed.md` - Indeed.com platform analysis  
+- `SearchResults/Jobs/ziprecruiter.md` - ZipRecruiter.com platform analysis
+- `SearchResults/Jobs/dice.md` - Dice.com platform analysis
+- `SearchResults/Jobs/glassdoor.md` - Glassdoor Jobs platform analysis (company insights + salaries)
+- `SearchResults/Jobs/monster.md` - Monster.com platform analysis (broad coverage)
+- `SearchResults/Jobs/executive-recruiters.md` - Executive recruiting firms analysis
+- `SearchResults/Jobs/consulting-firms.md` - Major consulting and Fortune 500 analysis
+- `SearchResults/Jobs/remote-job-boards.md` - Remote-specific job boards analysis
+- `SearchResults/Jobs/contractor-platforms.md` - Contractor and freelance platforms analysis
+
+**Required Sections per Platform:**
+1. **Search Query** - Exact search terms used
+2. **Search Execution Date** - Date the search was performed (YYYY-MM-DD)
+3. **Raw Search Results** - COMPLETE copy of all search results before any summarization
+4. **Platform Overview** - Key features and specializations  
+5. **Search Results Summary** - Number of positions found, key metrics
+6. **Direct Job Opportunities** - Specific positions with URLs and details
+   - **MANDATORY:** Include direct job posting URLs for each position
+   - **MANDATORY:** Include URL verification status (ACTIVE/EXPIRED/INVALID) with verification date
+   - **MANDATORY:** Include company career page URL as backup for each position
+   - **PRIORITY:** Focus detailed analysis on positions with ACTIVE verified links
+7. **Salary Analysis** - Compensation ranges discovered
+8. **Key Requirements** - Common qualifications and technologies
+9. **Market Analysis** - Trends, demand indicators, company types
+10. **Competitive Advantages** - How unique profile fits platform opportunities
+11. **Application Strategy** - Specific recommendations for platform
+12. **Assessment** - Overall match quality and prioritization recommendations
+13. **URL Verification Log** - Complete log of all URLs tested with verification dates and status
+
+#### Search Results Documentation Process
+For each WebSearch executed:
+1. **Copy Full Search Results:** Preserve exact search results including all URLs and descriptions
+2. **MANDATORY URL TESTING:** Use WebFetch tool to verify each job posting URL is active and accessible
+3. **Link Status Documentation:** Mark each URL as ACTIVE, EXPIRED, or INVALID with verification date
+4. **Active Job Validation:** For active links, confirm job posting contains relevant details (not generic company page)
+5. **Extract Key Data Points:** Salary ranges, job counts, specific company mentions
+6. **Identify Direct Opportunities:** Specific positions with verified active application links
+7. **Analyze Market Intelligence:** Company hiring patterns, compensation trends
+8. **Document Strategic Insights:** How results inform overall job search strategy
+
+#### URL Validation Requirements
+**CRITICAL LINK VERIFICATION PROTOCOL:**
+- **Test Every Job URL:** Use WebFetch to verify each job posting link before including in documentation
+- **Document Link Status:** Include verification status and date for all URLs
+- **Active Link Priority:** Focus analysis on positions with verified active application links
+- **Expired Link Handling:** Note expired positions but prioritize active opportunities
+- **Alternative Access:** If direct job link expires, include company career page URL as backup
+- **Verification Date:** All URLs must include date of last verification (YYYY-MM-DD format)
+
+#### Platform Documentation Examples
+
+**LinkedIn Search Results File:** `SearchResults/Jobs/linkedin.md`
+```markdown
+# LinkedIn Job Search Results
+
+## Search Query Executed
+"LinkedIn [target job title] [secondary title] [location preference] [year] [key technologies]"
+
+## Search Results Summary
+- **Total Results:** X+ [target job title] jobs
+- **Salary Range:** $XXX-$XXX+ (based on market data)
+- **Remote Options:** [availability assessment]
+- **Key Companies:** Major tech companies, consulting firms
+
+## Specific Opportunities Found
+### Position 1: Principal Solutions Architect - [Company Name]
+- **Job URL:** https://[direct-job-posting-url] 
+- **URL Status:** ACTIVE (Verified: 2025-08-22)
+- **Company Career Page:** https://[company-careers-url]
+- **Salary:** $[range]
+- **Location:** Remote
+- **Key Requirements:** [requirements]
+- **Application Deadline:** [date if available]
+
+### Position 2: [Additional positions with same format]
+
+## URL Verification Log
+- Job URL 1: ACTIVE (Verified: 2025-08-22)
+- Job URL 2: EXPIRED (Verified: 2025-08-22) - Position no longer available
+- Job URL 3: ACTIVE (Verified: 2025-08-22)
+
+## Market Intelligence
+[Salary trends, hiring patterns, key requirements]
+```
+
+#### Mandatory Platform Files Creation
+Execute searches and create individual files for:
+- `SearchResults/Jobs/linkedin.md`
+- `SearchResults/Jobs/indeed.md`
+- `SearchResults/Jobs/consulting-firms.md`
+- `SearchResults/Jobs/fortune-500-tech.md`
+
+### Step 4: Dynamic Platform Discovery
+During search execution, identify additional relevant platforms:
+
+#### 2025 Additional Platforms Discovered
+- **Teamblind Jobs:** https://www.teamblind.com/jobs/ - Job board from anonymous employee review platform; listings often include WLB context from verified employees
+- **Built In:** https://builtin.com/jobs/remote - Tech jobs with new positions daily from top companies & startups
+- **RemoteOK:** https://remoteok.com/ - 1M+ remote jobs, salary transparency (#OpenSalaries)
+- **FlexJobs:** https://www.flexjobs.com/ - 66K+ Solutions Architect jobs, 68K+ Data Architect jobs
+- **Wellfound (AngelList):** https://wellfound.com/ - 130K+ remote jobs, salary/equity upfront, direct hiring manager contact
+- **Arc:** https://arc.dev/ - $60-100+/hour Enterprise Architecture developers
+- **Toptal:** https://www.toptal.com/ - Top 3% freelance talent network
+- **We Work Remotely:** https://weworkremotely.com/ - Advanced remote job search
+- **Ladders:** Executive and senior-level positions including C-Suite roles (CFOs, CTOs), $100k+ jobs
+- **Y Combinator Job Board:** Startup positions from YC portfolio companies
+- **Upwork:** https://www.upwork.com/ - Solution architects $60-100+/hour, freelance opportunities
+- **Gigster:** Platform of 700+ vetted developers/designers/PMs with full team assembly
+- **CyberSeek:** Cybersecurity job search with government focus
+- **4DayWeek:** Remote 4-day work week positions
+- **NoDesk:** https://nodesk.co/remote-jobs/ - 10K+ remote jobs at 750+ companies
+
+#### Platform Categories to Watch For
+- **Specialized Technical:** AIJobs.fyi (10K+ AI/ML jobs), Scion Technical (award-winning IT staffing)
+- **Consulting/Contracting:** Motion Recruitment (Top 15 US tech), Robert Half (300+ locations)
+- **Executive Search Specialized:** Technology executive search firms, CTO placement specialists
+- **Geographic Regional:** Local metro area tech companies (if hybrid/on-site preferred per CLAUDE.md)
+- **Remote-First Platforms:** Contract/salary positions meeting compensation requirements from CLAUDE.md
+- **Company Career Pages:** Direct applications to researched target companies
+
+#### Protocol Update Process
+When new relevant platforms are discovered:
+1. Add platform to appropriate category in this protocol
+2. Include platform URL and specialization focus
+3. Define search terms specific to platform audience
+4. Create new SearchResults/Jobs file for platform analysis
+
+### Step 4.5: Automatic Deep-Dive Verification (Company Research + Position Fit Analysis)
+
+**MANDATORY — do not skip.** Before any opportunity is ranked (Step 5) or added to apply-next.md (Step 6), it must pass through the two verification protocols below. This replaces ad hoc scoring with authoritative, protocol-driven analysis.
+
+#### 4.5.1: Build the Candidate List
+From all platform files created in Steps 1-4, compile the list of opportunities that:
+- Pass keyword/title relevance to `job-roles.md`
+- Have a disclosed salary with a ceiling at or above the minimum in CLAUDE.md
+- Are not an exact duplicate of an entry already in `applied-to.md` or `closed-archive.md` within the reapplication window
+- Are not already excluded by company/industry name alone (obvious cases — Meta, Amazon, known crypto/fintech firms, etc.)
+
+Anything failing these cheap checks is rejected now, before spending protocol cycles on deep verification.
+
+#### 4.5.2: Chain to Company Research
+For each **distinct company** remaining on the candidate list:
+1. **Check for existing analysis first:** look for `./SearchResults/Companies/{CompanyName}_*.md` dated within the last 90 days. If found and still relevant, reuse it — do not re-run research on a company already vetted this quarter.
+2. **If no fresh analysis exists:** execute
+   ```
+   read protocols/company-research.md and follow the protocol step-by-step
+   ```
+   for that company. This is what actually confirms exclusion status (industry/investor/PE-VC/DOGE-alignment), company existence, and Glassdoor/Blind culture signals — none of which ad hoc WebSearch snippets can reliably establish.
+3. **If the company comes back EXCLUDED:** drop every opportunity at that company from the candidate list immediately — do not proceed to position analysis for it.
+
+#### 4.5.3: Chain to Position Fit Analysis
+For each surviving opportunity (company-approved):
+- **Single opportunity for a company:** execute
+  ```
+  read protocols/position-fit-analysis.md and execute all steps
+  ```
+  against that job URL.
+- **Multiple qualifying opportunities discovered in this same search run:** prefer
+  ```
+  read protocols/batch-position-analysis.md and execute all steps
+  ```
+  to process them together — it applies the same per-URL verification (live posting, remote confirmation, salary confirmation, composite scoring) but runs company research and position analysis for the whole batch efficiently instead of one at a time, and will call company research itself for any company not already covered in 4.5.2.
+
+Either path produces:
+- `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md` with the authoritative composite fit score
+- `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md` if not already produced in 4.5.2
+
+**Do not substitute an eyeballed/estimated fit score for the composite score these protocols produce.** Liveness verification is `position-fit-analysis.md`'s job, not this protocol's — but the outcome flows straight through: if that protocol's Link Liveness Verification (Phase 1) could not resolve a posting to confirmed-active (after retrying alternate URLs, date-mathing snippet dates, and cross-checking mirrors — see that protocol for the full sequence), do **not** add it to `apply-next.md`'s active pipeline regardless of composite score. Log it as **Monitor Only** instead. A single blocked WebFetch attempt, on its own, is never sufficient grounds to hand liveness verification off to the user.
+
+**Nor does a ≥7.0 composite score alone qualify an entry for `apply-next.md`.** `position-fit-analysis.md`'s Phase 3.5 (added August 18, 2026) requires an actual attempted tailored-resume draft against the specific named requirements in the posting for anything scoring ≥7.0 — if the master resume can't honestly support the posting's specific named tools/technologies without overstating, the position is rejected at this stage regardless of how strong the category-level score looks. Only a posting that survives that gate belongs in the Tier tables/apply-next.md below.
+
+#### 4.5.4: Carry Results Forward
+Use the verified composite scores and exclusion outcomes from 4.5.2/4.5.3 — not independent judgment — when building the Tier tables in Step 5 and the apply-next.md entries in Step 6.
+
+---
+
+## Application Status Integration
+
+### Application History Cross-Reference
+When building comprehensive summary, integrate application tracking:
+
+#### Application Status Indicators
+- **Never Applied:** ✅ Available for application
+- **Recently Applied:** ⏳ Applied within 6 months (note date)
+- **Previously Applied:** 📋 Applied >6 months ago (may reapply)
+- **Interview Process:** 🎯 Currently in interview pipeline
+- **Rejected/Closed:** ❌ Previous application unsuccessful
+
+#### Summary Integration Requirements
+1. **Filter Applied Companies:** Separate new opportunities from previously applied
+2. **Application Timeline:** Note timing of previous applications
+3. **Reapplication Strategy:** Identify companies worth re-approaching
+4. **Application Gap Analysis:** Highlight high-fit companies never applied to
+
+## Summary and Ranking Process
+
+### Step 5: Comprehensive Summary Creation - Built from Individual Platform Results
+**CRITICAL:** Build comprehensive summary by aggregating all individual platform search result files.
+
+#### Summary Building Process
+1. **Read All Individual Platform Files:** Review each platform-specific documentation file created during search execution
+2. **Aggregate Key Data Points:** Combine salary ranges, job counts, opportunities across all platforms  
+3. **Cross-Platform Analysis:** Identify patterns, trends, and optimal opportunities spanning all searches
+4. **Strategic Synthesis:** Develop unified strategy incorporating insights from all individual search results
+
+#### Required Source Files for Summary Building
+The comprehensive summary **MUST** be built from these individual platform files:
+- `SearchResults/Jobs/linkedin.md` - LinkedIn search results and analysis
+- `SearchResults/Jobs/indeed.md` - Indeed and major job boards analysis
+- `SearchResults/Jobs/consulting-firms.md` - Strategic consulting firms research  
+- `SearchResults/Jobs/fortune-500-tech.md` - Major tech company opportunities
+
+**Output File:** `SearchResults/Jobs/comprehensive-job-search-[YYYYMMDD].md`
+
+#### Ranking Methodology
+Rank all platforms using dual criteria:
+
+1. **Interest Level (1-10):** How appealing are the opportunities?
+   - Role level and strategic impact
+   - Technology innovation and cutting-edge focus
+   - Company culture and work environment
+   - Equity/compensation upside potential
+
+2. **Likelihood Score (1-10):** Probability of successful placement?
+   - Profile alignment with typical requirements
+   - Competitive advantage strength
+   - Market demand for unique capabilities
+   - Network and referral potential
+
+#### Tier Classification
+- **Tier 1:** EXCEPTIONAL MATCH (Interest 8+ AND Likelihood 8+)
+- **Tier 2:** STRONG MATCH (Interest 7+ AND Likelihood 7+)
+- **Tier 3:** GOOD MATCH (Interest 6+ AND Likelihood 6+)
+
+### Step 6: Strategic Recommendations
+Include in summary:
+
+#### Immediate Action Items (Next 30 Days)
+- Top 3-5 specific opportunities to target
+- Platform-specific application strategies
+- Network activation and referral approaches
+
+#### Medium-Term Strategy (30-90 Days)
+- Secondary targets and backup opportunities
+- Skill development or positioning adjustments
+- Market relationship building activities
+
+#### Positioning Strategy
+- Key messaging for different platform types
+- Salary negotiation ranges and expectations
+- Geographic and remote work positioning
+
+## Protocol Maintenance
+
+### Quarterly Updates
+- **New Platform Discovery:** Add newly found job sites to appropriate categories
+- **Search Term Refinement:** Update based on market evolution
+- **Competitive Analysis:** Refresh unique differentiators as technology evolves
+- **Salary Benchmarking:** Update compensation ranges from market data
+
+### Annual Review
+- **Complete Protocol Assessment:** Full methodology review and improvement
+- **Platform Effectiveness Analysis:** ROI analysis of different platforms
+- **Market Trend Integration:** Major technology and industry trend incorporation
+- **Career Strategy Alignment:** Ensure protocol supports long-term career goals
+
+## Post-Search Integration and Application Workflow
+
+### Step 6: Apply-Next.md Integration
+**MANDATORY:** All high-quality opportunities identified during job search must be added to apply-next.md for systematic tracking and decision-making.
+
+#### Add Jobs to Apply-Next.md Process
+For each opportunity that completed **Step 4.5** with a composite fit score ≥7.0/10 from `position-fit-analysis.md` or `batch-position-analysis.md`:
+
+1. **Update Apply-Next.md Entry:**
+   ```markdown
+   | # | URL | Company | Position | Match Score | Status | Application Materials | Notes |
+   |---|-----|---------|----------|-------------|--------|---------------------|-------|
+   | X | [job-url](verified-active-url) | Company Name | Position Title | X.X/10 | 🔍 Possible Match | - | Platform: [source], Salary: [range], Verified: [date], [Position Analysis](../Jobs/Position_Analysis_{Company}_{date}.md), [Company Research](../Companies/{Company}_{date}.md) |
+   ```
+   The Match Score is the composite score from the Position Analysis document — link both source documents so the score is traceable back to its authoritative source, not restated from memory.
+
+2. **Status Classification for Apply-Next.md:**
+   - **🔍 Possible Match:** Initial discovery, fit score 7.0-7.9/10
+   - **⭐ High Priority:** Strong match, fit score 8.0-8.9/10  
+   - **🎯 Top Target:** Exceptional match, fit score 9.0+/10
+   - **❌ No Match:** Below threshold or disqualifying factors
+
+3. **Required Information per Entry:**
+   - Verified active job URL (tested with WebFetch)
+   - Company name and position title
+   - Calculated fit score (1-10 scale)
+   - Source platform (LinkedIn, Indeed, Dice, etc.)
+   - Salary range if available
+   - URL verification date
+   - Key qualifying/disqualifying factors
+
+### Step 7: Automatic Targeted Application Trigger
+**CRITICAL WORKFLOW INTEGRATION:** For opportunities with fit score ≥8.5/10, automatically trigger targeted application protocol.
+
+#### Targeted Application Auto-Execution
+When jobs are added to apply-next.md with status "⭐ High Priority" or "🎯 Top Target":
+
+1. **Execute Targeted Application Protocol — starting at Phase 3, not Phase 1:**
+   ```
+   read protocols/targeted-application.md and execute Phase 3 (Company Research Execution) onward
+   ```
+   **Do not re-run Phase 1** (Job Search Execution) — this protocol's own Step 4.5 has already produced the job search, company research, and position-fit-analysis output that Phase 1 would otherwise redo from scratch. Company research from Step 4.5.2 already satisfies targeted-application.md's Phase 3 requirement — reuse the existing `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md` file rather than regenerating it.
+
+2. **Focus on Top Opportunities:**
+   - Prioritize fit scores 9.0+/10 for immediate execution
+   - Process fit scores 8.5-8.9/10 within 48 hours
+   - Consider fit scores 8.0-8.4/10 for weekly batch processing
+
+3. **Application Material Creation:**
+   - Generate targeted resume for each high-priority opportunity
+   - Create customized cover letter highlighting relevant experience
+   - Develop company-specific introduction/outreach message
+   - Store all materials in `./resumes/targeted/` directory
+
+4. **Update Apply-Next.md Status:**
+   ```markdown
+   | Status | Application Materials | Notes |
+   |--------|---------------------|-------|
+   | ✅ READY TO APPLY | [Resume](./resumes/targeted/...) \| [Cover Letter](./resumes/targeted/...) \| [Intro](./resumes/targeted/...) | Materials created [date] |
+   ```
+
+### Step 8: Application Tracking Integration
+**SEAMLESS WORKFLOW:** Connect job search → apply-next.md → targeted applications → applied-to.md
+
+#### Complete Application Workflow
+1. **Job Discovery:** Job search protocol identifies opportunities
+2. **Opportunity Evaluation:** Add to apply-next.md with fit scores
+3. **Material Creation:** Generate targeted applications for high-priority matches
+4. **Application Submission:** Submit applications using created materials
+5. **Application Tracking:** Move to applied-to.md with submission date and status
+
+#### Cross-Reference Requirements
+- **Avoid Duplicates:** Check applied-to.md before adding to apply-next.md
+- **Reapplication Logic:** Note companies applied to >6 months ago as potential reapplication candidates
+- **Status Synchronization:** Keep apply-next.md and applied-to.md synchronized
+
+### Step 9: Rejection Notification Handling
+**Delegate — do not reimplement:** execute
+```
+read protocols/rejection-handling.md and follow the protocol step-by-step
+```
+That protocol is the authoritative decision tree for duplicate/withdrawn/archive-move handling, including the duplicate-rejection patterns (ATS auto-rejection + recruiter courtesy email, quarterly cleanup batches, etc.). Keeping the logic in one place means updates to rejection handling don't have to be copied across protocols.
+
+## Success Metrics
+
+### Quantitative Measures
+- **Number of Quality Opportunities:** Target 20+ relevant positions per search
+- **Apply-Next.md Conversion:** 50%+ of discovered opportunities added to apply-next.md
+- **Targeted Application Generation:** 80%+ of high-priority opportunities receive custom materials
+- **Application Submission Rate:** 60%+ of created targeted applications submitted within 1 week
+- **URL Validation Success:** 95%+ of job URLs verified as active before inclusion
+- **Salary Range Accuracy:** Compensation expectations aligned with market reality
+- **Response Rate:** Track application-to-response ratios by platform
+- **Time to Offer:** Measure efficiency of different platform approaches
+
+### Qualitative Measures
+- **Role Quality:** Strategic impact and technical challenge level
+- **Cultural Fit:** Company culture and work environment alignment
+- **Growth Potential:** Career advancement and learning opportunities
+- **Work-Life Balance:** Remote work and travel requirement satisfaction
+- **Application Material Quality:** Customization level and relevance to specific opportunities
+- **Workflow Integration:** Seamless flow from discovery to application submission
+
+## Documentation Standards
+
+### File Naming Convention
+- **Platform Analysis:** `SearchResults/Jobs/[platform-name].md`
+- **Summary Report:** `SearchResults/Jobs/Summary.md`
+- **Protocol Updates:** Update this file with new platforms and learnings
+
+### Required Documentation Elements
+- **Web Search URLs:** Include all search query URLs and references - MANDATORY for all research
+- **Direct Job Links:** Specific position URLs when available - CRITICAL for application tracking
+- **URL Verification Status:** ACTIVE/EXPIRED/INVALID status with verification date for all job links
+- **Source Citations:** All data must include source URLs and links for verification
+- **Company URLs:** Direct links to company career pages and job postings
+- **Salary Data:** Compensation ranges and total package details with source attribution
+- **Contact Information:** Recruiter or hiring manager details when available
+- **Application Deadlines:** Time-sensitive opportunity tracking with source references
+- **Research Links:** All WebSearch results, platform URLs, and reference materials
+
+**CRITICAL REQUIREMENT:** Every piece of data, statistic, job posting, or market information MUST include proper source citation with URL links. This ensures data integrity and enables follow-up research and application tracking.
+
+**MANDATORY LINK VALIDATION:** All job posting URLs must be tested using WebFetch tool to verify accessibility and current availability. Include verification date and status (ACTIVE/EXPIRED/INVALID) for each URL.
+
+### Link Validation Tools and Methods
+
+#### Required Tools for URL Verification
+1. **WebFetch Tool:** Primary method for testing job posting URLs
+   ```
+   WebFetch: "[job-posting-url]" "Verify this job posting is still active and accessible"
+   ```
+
+2. **URL Testing Protocol:**
+   - Test each job posting URL individually using WebFetch
+   - Document response status (accessible, not found, redirected, etc.)
+   - Note if URL leads to active job posting vs. generic company page
+   - Record verification date in YYYY-MM-DD format
+
+3. **Status Classification:**
+   - **ACTIVE:** URL accessible, leads to specific job posting with application capability
+   - **EXPIRED:** URL accessible but job posting removed or marked as closed
+   - **INVALID:** URL not accessible, returns error, or leads to unrelated content
+   - **REDIRECTED:** URL redirects to different page (note destination)
+
+#### Link Validation Schedule
+- **Initial Verification:** All URLs tested during initial job search execution
+- **Pre-Application Verification:** Re-test URLs immediately before applying (within 24 hours)
+- **Weekly Monitoring:** Re-verify high-priority opportunity URLs weekly
+- **Monthly Archive Review:** Check status of all documented URLs monthly
+
+---
+
+**Last Updated:** 2026-08-17
+**Next Scheduled Review:** 2026-10-23
+**Protocol Version:** 2.3 - v2.1 added Step 4.5 (Automatic Deep-Dive Verification): job discovery now automatically chains into company-research.md and position-fit-analysis.md/batch-position-analysis.md before ranking or apply-next.md entry, instead of requiring the user to separately request company research or fit analysis. Step 7 now resumes targeted-application.md at Phase 3 to avoid redundantly re-running the job search. Step 9 now delegates to rejection-handling.md instead of duplicating its logic inline. v2.2 (same day): a real search batch showed 3/3 "unverified, manual check needed" postings were actually dead when the user checked by hand — closed that gap by requiring position-fit-analysis.md to exhaust its own Link Liveness Verification sequence before ever handing an unresolved posting to the user, and by keeping unresolved postings out of apply-next.md's active pipeline entirely (Monitor Only instead). v2.3 (2026-08-17): LinkedIn search disabled per the new "Active Search Sources" standing policy (its keyword search doesn't filter by company name — confirmed independently 3 times) — direct company career-page search via `target-companies.md` is the only active source for now. All `target-companies.md` "Category N" cross-references updated to match that file's industry-sector reorganization (it no longer uses category numbers).
+
+*This protocol is designed to be reusable for any job seeker. All job titles, compensation requirements, exclusions, and preferences should be derived from the user's master resume (resumes/master-resume.md), CLAUDE.md configuration, and exclusion list (SearchResults/excluded-companies.md). Execute systematically using TodoWrite to track progress through each category and platform. The goal is creating a comprehensive market analysis that enables strategic career decision-making based on data-driven insights and competitive positioning.*

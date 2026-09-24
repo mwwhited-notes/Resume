@@ -1,0 +1,3 @@
+[submodule "SearchResults"]
+	path = SearchResults
+	url = https://github.com/mwwhited-notes/JobSearchResults.git

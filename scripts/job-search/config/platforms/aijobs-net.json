@@ -1,0 +1,123 @@
+{
+  "platform_id": "aijobs_net",
+  "display_name": "AIJobs.net",
+  "category": "ai-ml",
+  "base_url": "https://aijobs.net",
+  "search_endpoint": "/jobs",
+  
+  "url_parameters": {
+    "q": "q",
+    "location": "location",
+    "remote": "remote",
+    "experience": "experience",
+    "job_type": "job_type",
+    "salary_min": "salary_min"
+  },
+
+  "default_values": {
+    "location": "remote",
+    "remote": "true",
+    "job_type": "permanent"
+  },
+
+  "advanced_filters": {
+    "ai_specializations": {
+      "machine_learning": "machine-learning",
+      "deep_learning": "deep-learning",
+      "natural_language_processing": "nlp",
+      "computer_vision": "computer-vision",
+      "robotics": "robotics",
+      "data_science": "data-science"
+    },
+    "experience_levels": {
+      "junior": "junior",
+      "mid": "mid-level",
+      "senior": "senior",
+      "lead": "lead",
+      "principal": "principal"
+    },
+    "job_types": {
+      "permanent": "permanent",
+      "contract": "contract",
+      "freelance": "freelance",
+      "part_time": "part-time"
+    }
+  },
+
+  "search_capabilities": {
+    "supports_remote_filter": true,
+    "supports_ai_specialization_filter": true,
+    "supports_experience_filter": true,
+    "supports_salary_filter": true,
+    "supports_boolean_operators": true,
+    "supports_quoted_phrases": true,
+    "max_results_per_page": 25,
+    "requires_authentication": false
+  },
+
+  "specialization": {
+    "category": "ai-ml",
+    "strengths": [
+      "AI and Machine Learning focus",
+      "Technical specialization depth",
+      "Research and industry positions",
+      "Cutting-edge technology roles",
+      "Academic and commercial opportunities"
+    ],
+    "ideal_for": [
+      "AI/ML specialized roles",
+      "Technical research positions",
+      "Innovation-focused opportunities",
+      "Advanced technical leadership",
+      "AI product development roles"
+    ],
+    "limitations": [
+      "Narrow technical focus",
+      "Smaller overall job volume",
+      "Limited non-AI opportunities",
+      "Fewer executive-level positions"
+    ]
+  },
+
+  "execution_instructions": {
+    "manual_steps": [
+      "Visit the generated search URL",
+      "Filter by AI/ML leadership roles",
+      "Set experience to senior/principal level",
+      "Review technical requirements",
+      "Assess AI/ML application domains",
+      "Apply directly or through company links"
+    ],
+    "optimization_tips": [
+      "Highlight AI/ML implementation experience",
+      "Emphasize .NET AI/ML framework creation",
+      "Showcase vector database and ML expertise",
+      "Connect with AI/ML community leaders"
+    ]
+  },
+
+  "competitive_advantages": {
+    "platform_specific": [
+      "Pure .NET AI/ML implementation differentiates from Python-focused market",
+      "Enterprise AI/ML framework creation shows scalability expertise",
+      "SQL Server Vector Extensions demonstrates cutting-edge technical skills",
+      "Community impact in traditional tech translates to AI/ML leadership"
+    ],
+    "search_strategies": [
+      "Target AI/ML architecture and leadership roles",
+      "Focus on enterprise AI/ML implementation positions",
+      "Emphasize unique .NET AI/ML expertise",
+      "Leverage community influence for AI/ML credibility"
+    ]
+  },
+
+  "result_structure": {
+    "includes_direct_apply": true,
+    "includes_salary_data": true,
+    "includes_company_info": true,
+    "includes_location_data": true,
+    "includes_tech_requirements": true,
+    "includes_ai_specialization": true,
+    "provides_research_opportunities": true
+  }
+}

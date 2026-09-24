@@ -1,0 +1,358 @@
+# Position Fit Analysis Protocol
+
+## Purpose
+Analyze individual job postings provided by URL to determine fit quality and automatically create targeted application materials for positions meeting threshold criteria.
+
+## Execution Steps
+
+### Phase 1: Position Data Extraction and Exclusion Verification
+1. **URL Fetch and Analysis**
+   - Use WebFetch to retrieve job posting content from provided URL
+   - **CRITICAL:** Verify position is still open/active - if closed or expired, immediately report status and stop analysis
+   - **LINK LIVENESS VERIFICATION — MANDATORY, DO IT YOURSELF, DO NOT DEFER TO THE USER:** A single blocked/JS-rendered WebFetch response is NOT sufficient grounds to label a posting "unverified, manual check needed." Before reaching that fallback, actually attempt to confirm liveness:
+     1. **Retry with an alternate URL:** if the original link is an aggregator mirror (Glassdoor, Ladders, Lensa, BeBee, RemoteRocketship, etc.), WebFetch the company's own direct careers-portal page for the same req ID/title instead — direct employer ATS pages (Workday, Greenhouse, etc.) are sometimes fetchable even when the aggregator wrapper isn't.
+     2. **Date-math the snippet itself before fetching anything:** WebSearch result snippets frequently include an explicit posted date ("posted March 2026"), an application deadline ("available until 6/7/2026"), or a relative age ("posted 5 months ago"). Compare that date against today's date arithmetically. If a stated deadline has already passed, or a posted date is >45 days old with no independent evidence of a repost, **treat the posting as EXPIRED now** — do not wait for a fetch attempt or a user click to confirm what the date already proves.
+     3. **Cross-check multiple independent sources:** if two or more aggregator listings (e.g., Glassdoor + Lensa + BeBee) all reference the identical req ID/title/salary with no fresher variant found, that repetition is itself a staleness signal (aggregators re-index the same cached listing for months) — do not treat "found on multiple sites" as corroboration of freshness.
+     4. **Only after 1-3 fail to resolve the question** may a posting be logged as "liveness unconfirmed" — and even then, it must NOT be added to `apply-next.md`'s active pipeline as a Possible Match/High Priority/Top Target. Log it as **Monitor Only** (outside the active pipeline) until a direct fetch or an explicit fresh date resolves it. A high composite fit score never overrides an unresolved liveness question.
+   - **COMPANY EXISTENCE CHECK:** Fetch the company's primary website. If the domain is parked, for sale, or returns no content — reject immediately. Cannot apply to a company whose existence cannot be confirmed.
+   - Extract key position details: company name, job title, location, compensation
+   - Identify technical requirements, experience levels, and key responsibilities
+   - Note application process details and timeline requirements
+   - **LOCATION AUTO-REJECT:** If the posting requires in-office attendance or hybrid schedule (any days on-site), reject immediately — 100% remote is required. "Hybrid" = reject regardless of frequency.
+   - **REMOTE VERIFICATION:** For any role claiming to be remote, verify via: (1) job posting explicit language ("work remotely from anywhere in the U.S." = confirmed), (2) company careers page / remote work policy, (3) Glassdoor or Blind — **note: both block WebFetch with 403 and require manual login**. **If remote status cannot be confirmed through accessible sources — assume in-office or hybrid and reject. Do not give benefit of the doubt. Do not ask the user to verify.**
+   - **NIGHT/WEEKEND AUTO-REJECT:** If the posting requires scheduled night shifts, recurring weekend on-call, or explicitly states after-hours work as a normal expectation, reject immediately.
+   - **UNLIMITED VACATION AUTO-REJECT:** If "unlimited vacation" or "unlimited PTO" is listed as a benefit, reject immediately. Industry data shows employees take less time off under unlimited PTO than defined accrual — it is a cost-cutting benefit disguised as flexibility.
+
+2. **MANDATORY EXCLUSION VERIFICATION** (UPDATED January 2026)
+   - **CRITICAL:** Check company against `./SearchResults/excluded-companies.md` BEFORE proceeding with analysis
+   - **DOGE/Trump/MAGA BOARD CHECK:** Check board members against aligned individuals list in `./SearchResults/doge-trump-maga-alignment-exclusions.md`
+   - **INDUSTRY CLASSIFICATION:** Identify primary industry (fintech, blockchain, cannabis, marketing/advertising, government contractor)
+   - **Board Alignment Check:** Verify no board members or executives are aligned with DOGE/Trump/MAGA PACs
+   - **If company is excluded:** Immediately stop analysis and report: "This company is on the exclusion list due to [specific reason: industry/investor association/company exclusion/DOGE/Trump board alignment]. Analysis cannot proceed."
+   - **Verify investor associations:** Check against investor exclusions in `./SearchResults/excluded-companies.md`
+   - **PRIVATE EQUITY / VC CHECK:** Verify company ownership structure. Use in order:
+     1. **Crunchbase** (`crunchbase.com/organization/[company]`) — free, WebFetch accessible, shows investors and funding rounds
+     2. **Company "About" / "Investors" page** — often discloses backers directly
+     3. **News search** — `"[Company]" funding OR "series A" OR "private equity" OR "acquired by"`
+     4. **PitchBook** — subscription-only, returns 403 on WebFetch; requires user to check manually at pitchbook.com
+     - PE majority ownership = reject immediately. VC-backed = reject (startup exclusion). Publicly traded = acceptable. Nonprofit / health-system / founder-owned = acceptable.
+   - **Verify company exclusions:** Check against specific company exclusions in `./SearchResults/excluded-companies.md`
+   - **Verify DOGE/Trump/MAGA alignment:** Check board composition against `./SearchResults/doge-trump-maga-alignment-exclusions.md`
+   - **Only proceed if company is approved:** Continue with company intelligence phase
+
+3. **OPS-HEAVY ROLE AUTO-REJECT** — Reject immediately if the PRIMARY function is:
+   - Incident management, problem management, or escalation management (ITSM/ITIL ops leadership)
+   - SRE/NOC leadership focused on on-call coverage and ticket resolution rather than system design
+   - Site reliability without substantial software engineering or architecture content
+   - Operations center management (24/7 on-call rotations as the core deliverable)
+   - Example: "Site/Service/Problem/Incident/Escalation Management" (SPIE) roles — these are ops, not engineering
+   - **Design, engineering, and architecture must be the PRIMARY function** of the role
+
+4. **PM/PERSONNEL MANAGEMENT AUTO-REJECT** — Reject immediately if the PRIMARY function is:
+   - Project management without technical authority (delivery manager, scrum master, program manager)
+   - Personnel management with HR responsibilities as the core job (performance reviews, hiring/firing authority, headcount budgeting)
+   - Time management / capacity planning / resource allocation as primary deliverable
+   - **Exception:** Technical leadership of a team with people responsibilities is acceptable — the role must have meaningful technical authority or architectural contribution as its core function
+   - **Signal phrases that trigger review:** "manage a team of X," "responsible for delivery," "own the roadmap" (as PM, not architect), "performance management," "headcount planning"
+
+**AUTOMATIC EXCLUSION - DOGE/Trump/MAGA Alignment (January 2026):**
+Exclude immediately if ANY of these apply:
+- ✗ Board member or executive: Elon Musk, Sam Altman, Alexander Karp, Brian Armstrong, Peter Thiel, Marc Andreessen, Ben Horowitz
+- ✗ Any board member donated $100K+ to Trump/MAGA/Fairshake in 2024-2026
+- ✗ Company is Founders Fund or a16z portfolio with aligned board members
+- ✗ Company described as DOGE-aligned or involved in DOGE recruitment
+
+2. **Company Intelligence**
+   - **EXECUTE COMPANY RESEARCH PROTOCOL:** Use `read protocols/company-research.md and follow the protocol step-by-step`
+   - Research company background, mission, technology stack, and culture
+   - Identify recent company news, growth trajectory, and strategic initiatives
+   - Determine company size, stage, and market positioning
+   - Note any existing connections or network overlap
+   - Store company research results in `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md`
+
+### Phase 2: Comprehensive Fit Assessment
+
+#### Technical Match Analysis (Weight: 35%)
+- **Core Technologies:** Direct alignment with required technical skills
+- **Platform Expertise:** Match with required platforms, frameworks, databases
+- **Architecture Experience:** Alignment with system design and architecture requirements
+- **Scale Requirements:** Experience with required volume, performance, complexity
+- **Innovation Level:** Match with cutting-edge vs proven technology preferences
+- **Programming Language Flexibility:** For architecture roles, evaluate conceptual and pattern alignment rather than specific language requirements - comfortable with Go, Java, Python, C#/.NET and other modern languages
+
+#### Experience Match Analysis (Weight: 30%)
+- **Role Level:** Alignment with seniority and responsibility level
+- **Domain Experience:** Relevant industry and business domain knowledge
+- **Team Leadership:** Management, mentoring, and influence requirements match
+- **Project Scope:** Experience with similar project complexity and impact
+- **Performance History:** Track record alignment with success metrics
+
+#### Culture & Approach Match (Weight: 20%)
+- **Work Style:** Remote/hybrid preferences alignment
+- **Company Values:** Mission and values compatibility assessment
+- **Growth Stage:** Startup vs enterprise culture preferences
+- **Innovation Culture:** Technology adoption and innovation approach alignment
+- **Collaboration Style:** Team structure and communication preferences
+
+#### Application Accessibility (Weight: 15%)
+- **Application Process:** Direct application vs referral requirements
+- **Response Likelihood:** Company reputation for candidate responsiveness
+- **Competition Level:** Estimated applicant volume and competition
+- **Network Connections:** Existing connections or warm introduction opportunities
+- **Hiring Timeline:** Urgency and timeline compatibility
+- **Liveness confirmed?** If Phase 1's Link Liveness Verification could not resolve to a confirmed-active status after all steps (retry alternate URL, date-math, cross-check), cap this sub-score at 2/10 regardless of how the other factors look — an unconfirmed posting is not "accessible," it may not exist to apply to at all.
+
+### Phase 3: Scoring and Decision Matrix
+
+#### Scoring Scale (1-10 for each category)
+- **9-10:** Exceptional fit, ideal opportunity
+- **7-8:** Strong fit, high success probability
+- **5-6:** Moderate fit, worth considering with positioning
+- **3-4:** Weak fit, significant gaps
+- **1-2:** Poor fit, not recommended
+
+#### Composite Score Calculation
+- Technical Match × 0.35
+- Experience Match × 0.30  
+- Culture Match × 0.20
+- Application Accessibility × 0.15
+- **Threshold for Auto-Application:** ≥7.5/10
+
+### Phase 3.5: Ground-Truth Resume Draft Gate (MANDATORY for any score ≥7.0) — Added August 18, 2026
+
+**A composite score is an estimate, not a verdict.** For any posting scoring ≥7.0 (the floor for even a
+"Possible Match" — this is not limited to `apply` mode or the ≥7.5 auto-application threshold),
+actually attempt to draft the position's tailored resume against the master resume before finalizing
+the recommendation:
+
+1. **Pull the position's actual stated requirements** — not a paraphrase, the specific named
+   technologies/tools/frameworks/certifications the posting lists (e.g. "Databricks, Apache Iceberg,
+   Apache Airflow, Terraform" is a materially different bar than "data platform architecture
+   experience").
+2. **Check each named requirement against `resumes/master-resume.md` directly** (grep for the specific
+   term, don't rely on category-level familiarity) — does the master resume show genuine hands-on
+   evidence, a clearly transferable adjacent skill, or nothing at all?
+3. **If the gaps are genuine and would require overstating scope/depth to paper over** (claiming deep
+   expertise in a named tool with zero resume evidence, not a reasonable adjacent-skill translation),
+   **do not draft the resume — reject the position instead, regardless of the composite score.** A high
+   score built on category-level averages (e.g. "Technical Match 8/10" from strong *adjacent* skills)
+   can still fail this gate if the posting's specific named stack has real, material gaps — the gate
+   exists precisely to catch that gap between "conceptually similar" and "can honestly claim."
+   Architecture-titled roles being stack-agnostic (per standing policy) means the *language/platform*
+   doesn't need to match — it does not mean every named *tool* in the posting is optional to have
+   genuine evidence for.
+4. **If the gaps are bridgeable with legitimate emphasis/reframing** (the master resume has real,
+   if differently-labeled, evidence), proceed to draft normally and continue to Phase 4.
+5. **Record the outcome either way** in the Position Analysis document (Phase 4's report) — a Reject
+   here needs the same "Potential Challenges or Gaps" honesty as a proceed, not a silent drop from the
+   report.
+6. This supersedes the older `targeted-application.md`/`job-search` skill Phase 5 language that framed
+   the equivalent check ("3a Ground-truth qualification check") as an `apply`-mode-only step gated at
+   ≥7.5/10 — that check still applies in full at that later stage, but this earlier gate means a
+   position with a genuine stack gap gets caught and rejected at Position Fit Analysis time, before it
+   ever reaches `apply-next.md` as an unqualified "Possible Match" or "High Priority" entry.
+
+### Phase 4: Detailed Analysis Report
+
+#### Create Position Analysis Document
+File: `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md`
+
+**Required Content:**
+```markdown
+# Position Fit Analysis - {Position Title}
+
+## Position Details
+- **Company:** {Company Name}
+- **Position:** {Job Title}
+- **Location:** {Work Arrangement}
+- **Compensation:** {If Available}
+- **URL:** {Original Job Posting URL}
+- **Analysis Date:** {YYYY-MM-DD}
+
+## Comprehensive Fit Assessment
+
+### Technical Match Analysis (Score: X.X/10)
+- Core technology alignment assessment
+- Platform and framework expertise match
+- Architecture and scale experience relevance
+- Innovation level compatibility
+
+### Experience Match Analysis (Score: X.X/10)
+- Role level and responsibility alignment
+- Domain and industry experience relevance
+- Leadership and team influence requirements match
+- Project complexity and impact alignment
+
+### Culture & Approach Match (Score: X.X/10)
+- Work arrangement and location preferences
+- Company mission and values alignment
+- Growth stage and culture compatibility
+- Innovation and technology adoption approach
+
+### Application Accessibility (Score: X.X/10)
+- Application process complexity and directness
+- Competition level and response likelihood
+- Network connections and referral opportunities
+- Hiring timeline and urgency compatibility
+
+## Composite Fit Score: X.X/10
+
+## Key Strengths for This Position
+- List specific advantages and strong matches
+- Highlight unique differentiators
+- Note exceptional alignment areas
+
+## Potential Challenges or Gaps
+- Identify any requirement mismatches
+- Note areas requiring strategic positioning
+- Suggest mitigation approaches
+
+## Strategic Application Approach
+- Recommended positioning and messaging
+- Key points to emphasize in application materials
+- Optimal timing and follow-up strategy
+
+## Recommendation: [APPLY/CONSIDER/SKIP]
+```
+
+### Phase 5: Strategic Analysis Report
+
+#### Company Research Analysis
+**Execute comprehensive company search and analysis:**
+
+1. **Company Intelligence Gathering**
+   - **EXECUTE COMPANY RESEARCH PROTOCOL:** Use `read protocols/company-research.md and follow the protocol step-by-step`
+   - Research company background, business model, technology stack, culture, and recent strategic moves
+   - Document market position, funding status, growth trajectory, and competitive landscape
+   - Store comprehensive company research in `./SearchResults/Companies/{CompanyName}_{YYYYMMDD}.md`
+
+2. **Technology Stack Intersection Analysis**
+   - **Master Resume Technology Mapping:** Compare position requirements against master resume technical expertise
+   - **Alignment Assessment:** Identify direct technology matches, adjacent skills, and learning opportunities
+   - **Gap Analysis:** Document any significant technology or experience gaps
+   - **Transferable Skills:** Highlight how existing expertise applies to position requirements
+
+#### Position-Company Fit Assessment Report
+**Create comprehensive analysis document:** `./SearchResults/Jobs/Position_Analysis_{CompanyName}_{YYYYMMDD}.md`
+
+**Required Analysis Sections:**
+
+**Technology Intersection:**
+- Direct technology matches between master resume and position requirements
+- Adjacent/transferable technology skills and how they apply
+- Architecture patterns and methodologies alignment
+- Scale and complexity experience relevance
+
+**Experience Alignment:**
+- Role level and responsibility match assessment
+- Domain experience relevance and transferability  
+- Leadership/technical track alignment with position requirements
+- Project complexity and impact alignment
+
+**Company Culture & Mission Fit:**
+- Company values alignment with professional approach and background
+- Work environment preferences match (remote, office, hybrid)
+- Company growth stage alignment with career preferences
+- Mission and product alignment with interests and expertise
+
+**Strategic Advantages:**
+- Unique differentiators that provide competitive advantage
+- Specific achievements from master resume that demonstrate value
+- Network connections or market knowledge that add strategic value
+- Innovation experience that matches company strategic direction
+
+**Potential Challenges & Mitigation:**
+- Technology gaps and learning curve requirements
+- Experience mismatches and how to address positioning
+- Company culture concerns and adaptation requirements
+- Market/industry unfamiliarity and knowledge gaps
+
+**Pros & Cons Assessment:**
+- **PROS:** Specific advantages and strong alignment areas
+- **CONS:** Challenges, gaps, or potential concerns
+- **OVERALL ASSESSMENT:** Recommendation with reasoning
+
+**Strategic Recommendation:**
+- **Interest Level:** HIGH/MODERATE-HIGH/MODERATE/MODERATE-LOW/LOW
+- **Application Timing:** Immediate, wait for learning, or skip with reasoning  
+- **Positioning Strategy:** How to present background for maximum advantage
+- **Learning Priorities:** Skills to develop for optimal positioning
+
+### Phase 6: Strategic Recommendations & Next Steps
+
+#### Application Strategy Guidance
+**Based on analysis results:**
+
+1. **High Interest (8.0+ fit):** 
+   - Immediate application recommended
+   - Priority networking and connection outreach
+   - Consider creating targeted application materials separately
+
+2. **Moderate Interest (6.0-7.9 fit):**
+   - Consider application after skill development
+   - Monitor company for better-fitting opportunities
+   - Network building and information gathering
+
+3. **Low Interest (<6.0 fit):**
+   - Skip application unless strategic learning opportunity
+   - Note company for future monitoring
+   - Document reasons for low fit
+
+#### Learning Opportunities Documentation
+**Update Skills Development Tracking:**
+- Add identified learning gaps to `./SearchResults/Lessons/suggested.md`
+- Prioritize learning based on market demand patterns
+- Cross-reference learning needs across multiple position analyses
+- Track technology trends for strategic skill development
+
+#### Learning Gap Analysis & Suggested Skills Update
+**Update Suggested Learning File:** `./SearchResults/Lessons/suggested.md`
+
+**Identify and Document Learning Opportunities:**
+1. **Gap Analysis:** Compare job requirements against candidate's current expertise (from master resume)
+2. **Technology Assessment:** Note specific technologies, frameworks, or certifications mentioned but not in candidate's background
+3. **Priority Classification:** Categorize gaps as High/Medium/Low priority based on:
+   - Frequency of appearance across positions
+   - Compensation impact potential
+   - Learning difficulty and time investment
+   - Market trend relevance
+
+**Suggested Learning Entry Format:**
+```markdown
+### [Priority Level] Priority
+- **[Technology/Skill Name]**
+  - **Source:** [Company] [Position] - [requirement type: required/preferred]
+  - **Gap:** [Specific gap description]
+  - **Learning Focus:** [What specifically to learn]
+  - **Business Value:** [Why this skill matters for career advancement]
+  - **Estimated Effort:** [Time investment estimate]
+```
+
+**Update Strategy:**
+- **Add New Gaps:** Technologies not currently tracked in suggested.md
+- **Update Existing:** Increase priority if technology appears in multiple high-value positions
+- **Cross-Reference:** Note which positions are driving specific learning needs
+- **Trend Analysis:** Track which technologies are becoming more common in target positions
+
+## User Experience Flow
+
+**Input:** "how well do I fit this position {URL}"
+
+**Expected Response:**
+1. "I'll analyze this position for strategic fit and create a comprehensive assessment."
+2. [Execute Company Research Protocol]
+3. [Execute Position Analysis]
+4. [Present Fit Score and Strategic Analysis Summary]
+5. [Present Technology Intersection, Experience Alignment, and Culture Fit]
+6. [Present Pros/Cons and Strategic Recommendations]
+7. "Analysis complete - strategic assessment and company research stored for reference."
+
+## Quality Standards
+- All analysis must reference specific job posting requirements
+- Scores must be supported by concrete evidence and examples
+- **Company research protocol must be executed for all analyses**
+- **Master resume must be used as authoritative source for all capability assessments**
+- Strategic analysis must include technology intersection, experience alignment, and culture fit
+- Pros/cons assessment must be objective and actionable
+- Learning opportunities must be documented for skills development tracking
+- All storage must follow established file naming conventions

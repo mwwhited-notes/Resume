@@ -1,0 +1,147 @@
+{
+  "platform_id": "linkedin_jobs",
+  "display_name": "LinkedIn Jobs",
+  "category": "professional-network",
+  "base_url": "https://www.linkedin.com",
+  "search_endpoint": "/jobs/search/",
+  
+  "url_parameters": {
+    "keywords": "keywords",
+    "location": "location",
+    "remote_filter": "f_WT",
+    "sort": "sortBy",
+    "experience_level": "f_E",
+    "salary_min": "f_SB2",
+    "company_size": "f_C",
+    "date_posted": "f_TPR",
+    "job_type": "f_JT"
+  },
+
+  "default_values": {
+    "location": "Remote",
+    "remote_filter": "2",
+    "sort": "DD",
+    "radius": "25"
+  },
+
+  "advanced_filters": {
+    "experience_levels": {
+      "associate": "2",
+      "mid_senior": "3", 
+      "director": "4",
+      "executive": "5",
+      "senior": "3,4",
+      "leadership": "4,5",
+      "principal": "3,4"
+    },
+    "company_sizes": {
+      "startup": "A,B,C",
+      "small": "A,B",
+      "medium": "C,D,E", 
+      "large": "F,G,H",
+      "enterprise": "G,H"
+    },
+    "date_posted": {
+      "past_24h": "r86400",
+      "past_week": "r604800", 
+      "past_month": "r2592000"
+    }
+  },
+
+  "search_capabilities": {
+    "supports_remote_filter": true,
+    "supports_salary_filter": true,
+    "supports_date_filter": true,
+    "supports_experience_level": true,
+    "supports_company_size": true,
+    "supports_boolean_operators": true,
+    "supports_quoted_phrases": true,
+    "max_results_per_page": 25,
+    "requires_authentication": true
+  },
+
+  "specialization": {
+    "category": "professional-network",
+    "strengths": [
+      "Professional networking integration",
+      "Company insights and employee connections", 
+      "Advanced filtering options",
+      "Salary transparency",
+      "Direct recruiter contact",
+      "Company culture information"
+    ],
+    "ideal_for": [
+      "Senior and executive positions",
+      "Professional services roles",
+      "Enterprise companies",
+      "Network-based referrals",
+      "Company research and due diligence"
+    ],
+    "limitations": [
+      "Requires LinkedIn profile optimization",
+      "Premium features may require subscription",
+      "High competition for visible positions"
+    ]
+  },
+
+  "search_term_optimizations": {
+    "job_title_patterns": {
+      "quote_exact_phrases": true,
+      "combine_related_terms": true,
+      "use_boolean_operators": true
+    },
+    "technology_terms": {
+      "expand_abbreviations": {
+        "AI": "\"Artificial Intelligence\" OR AI",
+        "ML": "\"Machine Learning\" OR ML", 
+        ".NET": ".NET OR \"dot NET\"",
+        "CTO": "\"Chief Technology Officer\" OR CTO"
+      }
+    }
+  },
+
+  "execution_instructions": {
+    "manual_steps": [
+      "Visit the generated search URL",
+      "Use advanced filters for experience level (Senior/Executive)",
+      "Filter by company size based on culture preferences", 
+      "Set salary range filter if available",
+      "Review company profiles for culture fit",
+      "Check employee networks for referral opportunities",
+      "Save promising positions with LinkedIn job IDs"
+    ],
+    "optimization_tips": [
+      "Complete LinkedIn profile for better matching",
+      "Use LinkedIn Premium for advanced search features",
+      "Connect with employees at target companies",
+      "Follow companies of interest for updates"
+    ]
+  },
+
+  "competitive_advantages": {
+    "platform_specific": [
+      "22K+ Stack Overflow reputation provides technical credibility",
+      "657K+ NuGet downloads demonstrate community impact", 
+      "Professional network can provide referrals and introductions",
+      "LinkedIn profile optimization showcases technical leadership"
+    ],
+    "search_strategies": [
+      "Use boolean search operators for precise targeting",
+      "Filter by company size and industry for culture fit",
+      "Leverage salary transparency for negotiation data", 
+      "Monitor company updates for timing opportunities"
+    ]
+  },
+
+  "result_structure": {
+    "includes_direct_apply": true,
+    "includes_salary_data": true,
+    "includes_company_info": true,
+    "includes_location_data": true,
+    "includes_employee_count": true,
+    "includes_company_insights": true,
+    "supports_easy_apply": true,
+    "provides_network_connections": true,
+    "shows_application_count": true
+  }
+}

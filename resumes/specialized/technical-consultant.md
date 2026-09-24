@@ -1,0 +1,253 @@
+﻿# Matthew Whited - Technology Consultant
+## Vendor-Neutral Advisory & Strategic Technical Guidance
+
+---
+
+## Contact Information
+- **Name:** Matthew Whited
+- **Email:** [matt@whited.us](mailto:matt@whited.us)
+- **Phone:** [+1 (614) 989-1748](tel:+16149891748)
+- **Location:** Baltimore, MD (Remote preferred, up to 25% travel)
+- **GitHub:** [github.com/mwwhited](https://github.com/mwwhited)
+- **LinkedIn:** [linkedin.com/in/mwwhited](https://www.linkedin.com/in/mwwhited/)
+- **Stack Overflow:** [22,510+ reputation](http://stackoverflow.com/users/89586/matthew-whited)
+- **NuGet Profile:** [900K+ downloads](https://www.nuget.org/profiles/mwwhited/)
+
+---
+
+## Executive Summary
+
+**Technology Consultant and Vendor-Neutral Advisory Specialist** with over 20 years providing strategic technical guidance, crisis resolution, and technology risk management. **The trusted technology advisor** companies call when projects fail, costs spiral, or complex integrations seem impossible. Independent consultant with no vendor partnerships ensuring unbiased recommendations optimized for client success rather than vendor profit. Proven track record preventing costly technology mistakes, delivering 77% cost reductions, and providing fractional CTO services for organizations needing executive-level expertise without full-time commitment.
+
+### Core Consulting Value Proposition
+- **Vendor-Neutral Advisory:** Independent consultant with zero vendor partnerships ensuring completely unbiased technology recommendations
+- **Crisis Resolution Specialist:** Called when projects fail, costs spiral, or "impossible" integrations are needed - delivers solutions when others fail for months
+- **Technology Risk Management:** Prevents expensive mistakes through comprehensive evaluation and anti-hype technology wisdom
+- **Cost Optimization Expert:** Documented 77% cloud cost reductions and strategic architecture optimization
+- **Fractional Executive Services:** Strategic technology leadership providing CTO-level expertise without full-time budget requirements
+
+---
+
+## Core Consulting Services
+
+### Strategic Technology Advisory
+- **Technology Due Diligence:** Comprehensive architecture assessment, vendor evaluation, and technical risk analysis for technology investments and M&A transactions
+- **SOW & Contract Review:** Expert evaluation of vendor proposals and technical contracts preventing costly mistakes and vendor lock-in situations
+- **Technology Strategy Development:** Strategic technology roadmaps, architecture governance, and enterprise-wide technology standards creation
+- **Vendor Selection Guidance:** Unbiased vendor evaluation and selection processes optimized for client requirements rather than vendor relationships
+- **Technology Risk Assessment:** Comprehensive evaluation preventing costly adoption mistakes while identifying proven alternative solutions
+
+### Crisis Resolution & Project Recovery
+- **Failed Project Recovery:** Takes over projects others can't deliver - rapid implementation when teams have struggled for months
+- **Performance Optimization:** Strategic architecture review and optimization achieving substantial cost reductions and performance improvements
+- **Integration Challenge Resolution:** Complex system integration and enterprise architecture challenges requiring advanced technical expertise
+- **Technical Debt Resolution:** Systematic approach to legacy system modernization and technical debt elimination
+- **Emergency Technical Response:** Rapid crisis resolution for critical system failures, deployment issues, and business continuity challenges
+
+### Fractional Executive Technology Services
+- **Fractional CTO Services:** Strategic technology leadership for companies needing executive-level expertise without full-time CTO investment
+- **Technology Leadership Consulting:** "Handling the nerdy stuff" so business leaders can focus on core operations
+- **Enterprise Architecture Consulting:** Large-scale system design, technology transformation, and strategic architecture guidance
+- **Technical Translation Services:** Converting complex technical proposals and architectures into clear business implications and recommendations
+- **Technology Investment Guidance:** Strategic technology spending optimization, ROI analysis, and investment prioritization
+
+---
+
+## Professional Consulting Experience
+
+### Principal Software Engineer/Architect - Cadwell Industries (October 2025 - Present)
+**Medical Device Software Development**
+- Backend communication and synchronization software development for the company's medical device systems using WPF, .NET 4.8, SQLite, and WiX installer technologies
+- Technical leadership through peer code reviews, grooming sessions, and architectural guidance for FDA-regulated medical device software
+- Full-stack development including backend systems, application styling, and comprehensive unit testing
+
+#### Legacy Clinical Data Platform Contributions
+- Conducted a security hardening pass on a HIPAA-regulated medical data management platform, improving credential management practices and security-event-logging hygiene
+- Redesigned async/parallel service shutdown for the platform's clinical data pipeline, improving operational reliability in point-of-care deployments
+- Enhanced a WPF-based administration tool across numerous contributions — improving client migration, status visibility, upload progress indicators, and icon interactability for clinical administrators
+- Authored a multi-protocol Claude Code AI development framework, establishing AI-assisted development workflows for the engineering team
+- Expanded the platform's query engine with cross join support and resolved silent query failures, improving data retrieval capability for a dual-database (SQLite + SQL Server) medical records system
+- Extended the platform's file-attachment system with sub-folder support and file extension handling, correcting data integrity issues for third-party file attachments
+- Removed ZIP export size limit, unblocking large-scale patient data migration and export workflows
+- Implemented role-based permissions on user management operations, improving security posture in a HIPAA-regulated environment
+- Refactored the legacy platform's process-global identity model for concurrent multi-user hosting using `AsyncLocal<T>`-backed ambient user scopes with scoped disposal, enabling the next-gen platform's bridge module to serve multiple simultaneous authenticated users without per-user process isolation
+- Introduced an alternate service-hosting mode supporting non-interactive deployment scenarios, maintaining full backward compatibility with existing desktop and server modes
+- Built a bridge connecting the next-gen platform's issued tokens to the legacy platform's existing user model, supporting flexible identity resolution across the two systems
+
+#### Next-Generation Modular Clinical Platform
+- Designed and delivered the platform's cross-service trust model — an OAuth 2.0/OIDC STS, deny-by-default permission attribute system with Roslyn build-time enforcement, and response-masking middleware for PHI-safe masked vs. unmasked API responses across distributed clinical services
+- Refactored platform microkernel host to full IoC/DI compliance and implemented contract-based HTTP endpoint mapping, eliminating service-locator anti-patterns across a process-separated medical device runtime
+- Expanded platform Roslyn static-analysis tooling from initial bootstrap to a production-grade enforcement suite — 12+ custom diagnostic analyzers with paired automated code-fix providers covering DI/IoC registration form, naming conventions, async-lock threading, member ordering, acronym casing, and module-layer reference boundaries — wired into a full git-hook gating pipeline (pre-commit, pre-push, post-merge) and Azure DevOps CI, automating platform coding-standard enforcement at commit, push, and build time
+- Extended hosting framework with .NET / .NET Framework multi-target support, enabling clinical module backward compatibility without separate build pipelines
+- Drove substantial platform repository contributions as a primary contributor, spanning host infrastructure, module pattern migration, TypeScript SDK alignment, and security architecture
+- Designed generic outbox abstraction with per-type DI-keyed routing, enabling pluggable event streaming backends without changing event-producer call sites
+- Built NSwag code-generation pipeline producing .NET Framework bridge module stubs from OpenAPI documents, with compile-time API contract parity enforcement between .NET and .NET Framework module hosts
+- Implemented a full platform module in Go with OpenTelemetry tracing and Prometheus metrics, demonstrating the platform's language-agnostic contract-based module pattern
+- Created dotnet new scaffolding template generating a complete contract/implementation/test project set for platform modules, reducing new module bootstrap to a single CLI command
+- Extended NSwag to generate Python SDK via custom Liquid template overrides, adding Python as a first-class typed SDK target alongside .NET and TypeScript
+- Implemented DPoP proof-of-possession (RFC 9449) across the platform — server-side validation middleware and SDK proof generation — binding tokens to the caller's key pair for stronger anti-replay protection on clinical data access tokens
+- Engineered a transparent five-handler SDK pipeline (proactive token refresh with concurrent-request coalescing, auto claims-upgrade on insufficient_scope, DPoP proof generation, response signature verification, trace propagation) so SDK consumers inherit complete security guarantees with no auth boilerplate
+- Implemented refresh-token family rotation with reuse detection — presenting an invalidated token invalidates the entire family and forces re-authentication — alongside FIPS-mode enforcement via platform-abstracted Windows/Linux OS providers
+- Implemented SSE and WebSocket stream-ticket authentication — server-side ticket issuance and SDK-side transport — enabling authenticated long-lived streaming connections from any platform SDK consumer without per-request bearer tokens
+- Root-caused a thread-pool starvation deadlock hanging platform health checks via controlled binary A/B testing, then fixed the HTTP request-reuse defect the mitigation exposed; diagnosed an OpenAPI/NSwag codegen bug where dual content-type advertising caused generated SDK clients to mislabel token-exchange request bodies, fixed it at the contract layer, and verified correct behavior with an RFC 6749 wire-format compliance test suite driving real OAuth grant flows through the actual generated SDK
+
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)
+**Independent Technology Consulting - Vendor-Neutral Advisory Services**
+
+- **SOW & Technical Contract Review:** Expert evaluation of vendor proposals preventing costly mistakes and vendor lock-in for 50+ client engagements
+- **Fractional CTO Services:** Strategic technology leadership for growing companies needing executive-level expertise without full-time budget commitment
+- **Technology Due Diligence:** Architecture assessment, vendor evaluation, and risk analysis for technology investments, M&A transactions, and strategic initiatives
+- **Crisis Project Recovery:** Takes over failed technical projects delivering rapid implementation when internal teams or external vendors struggle for months
+- **Vendor-Neutral Advisory:** Completely unbiased technology guidance with zero vendor partnerships ensuring recommendations optimized for client success
+- **Technical Translation Services:** "Handling the nerdy stuff" - converting complex technical challenges into clear business implications and actionable recommendations
+
+### Principal Solutions Architect - Green Onion (February 2025 - January 2026)
+**Application Rescue & Modernization - Crisis Recovery Leadership**
+
+- **Application Rescue Project:** Stabilized and advanced a legacy application inherited from an offshore development transition, serving as the primary contributor to the combined codebase.
+- **Dramatic Cost Optimization:** Reduced Azure monthly costs from $1,500+ to <$350 (77% reduction = $13,800+ annual savings)
+- **Complete System Redesign:** Leading full application rewrite and modernization within extremely limited budget constraints
+
+#### Backend Architecture
+- **Dynamic LINQ Expression Tree Query Engine:** Architected runtime query composition system with complex filtering, sorting, and search operations across 23 API endpoints serving multi-tenant school district data
+- **Reusable .NET Framework Library:** Designed a reusable .NET Framework library providing JWT authentication, SwaggerGen extensions, expression tree builders, and middleware components
+- **OpenAPI Extension System:** Built 21 custom schema annotations from attribute metadata enabling automatic TypeScript client generation with full type safety and UI component scaffolding
+- **Handlebars Template Engine:** Created 35 custom helpers and 129 templates for code generation powering front-end component automation
+- **Multi-Tenant Security Architecture:** Implemented role-based data scoping (SuperAdmin → CooperativeAdmin → DistrictAdmin) with automatic query filtering based on user organizational access
+
+#### Frontend Architecture
+- **TypeScript Code Generation System:** Reduced frontend development time by 80% through automated React component generation from OpenAPI specifications for 18 entity types
+- **Enterprise Data Grid Component:** Engineered a large-scale data grid component supporting real-time filtering, sorting, pagination, bulk actions, and column customization used across all entity management screens
+- **Schema-Driven UI Architecture:** Achieved 67-84% code reduction by generating DataGrid columns dynamically from Zod schemas with custom cell renderers
+- **Dual API Client Migration:** Designed zero-downtime transition framework from monolithic to modular architecture with Azure B2C/MSAL authentication
+- **PrimeReact v10 Migration:** Led complete UI framework modernization with role-based access control supporting 6 user types across 50+ routes
+
+### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
+**AI/ML Crisis Consulting - Rapid Innovation Delivery**
+
+- **Rapid Crisis Resolution:** Called in after two previous consultants worked 6 months each with no results - delivered working prototype within one week
+- **Advanced Technical Innovation:** Built custom .NET service extending SQL Server with vector support using cutting-edge SQLCLR development
+- **Custom Algorithm Consulting:** Implemented Locality-Sensitive Hashing achieving dramatic performance improvements through mathematical optimization
+- **Production Architecture Design:** Complete semantic search solution with hybrid search, enterprise logging, and compliance integration
+- **Client Relationship Rescue:** Transformed 12-month consulting failure into production success preventing contract cancellation and relationship loss
+
+### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
+**Enterprise Technology Consulting & Organizational Transformation**
+
+#### Strategic Consulting Leadership - Centers of Excellence (July 2022 - October 2024)
+**Organizational technology consulting across 125+ developers with enterprise-wide impact**
+
+- **Enterprise Consulting Impact:** Influenced numerous development teams establishing standards across multiple technology disciplines with lasting organizational transformation
+- **Strategic Training Consulting:** Delivered comprehensive technology education from intimate consulting sessions to large-scale organizational training programs
+- **Crisis Resolution Consulting:** Organizational consultant for critical issues spanning client relations, deployment failures, and integration challenges
+- **Technology Risk Management Consulting:** Prevented costly adoption mistakes through comprehensive evaluation steering toward proven solution alternatives
+- **Process Innovation Consulting:** Created enterprise SDLC methodology eliminating assumptions and improving delivery quality through strategic consulting approach
+
+#### Framework Consulting & Product Strategy
+**Enterprise Framework Transformation - Strategic Technology Product Consulting**
+
+- **Strategic Consulting Vision:** Transformed simple template concept into comprehensive framework through strategic technology consulting and architecture guidance
+- **Technical Architecture Consulting:** Enhanced framework with advanced capabilities through expert consulting in dynamic expressions, event processing, and testing
+- **Open Source Strategy Consulting:** Led strategic initiative demonstrating thought leadership and community engagement through consulting expertise
+- **Lasting Consulting Impact:** Framework architecture remains foundational years after consulting engagement demonstrating sustainable value creation
+
+---
+
+## Consulting Expertise & Specializations
+
+### Technology Stack Consulting
+- **Enterprise Architecture:** .NET ecosystem, microservices architecture, enterprise integration patterns, strategic system design
+- **Cloud Consulting:** Azure and AWS optimization, containerization strategy, infrastructure cost optimization, cloud transformation
+- **AI/ML Consulting:** Custom algorithm development, semantic search implementation, machine learning architecture, AI strategy development
+- **Database Consulting:** SQL Server optimization, performance engineering, custom extensions, database architecture strategy
+- **Modern Development:** DevOps transformation, CI/CD strategy, testing frameworks, quality assurance consulting
+
+### Industry Domain Consulting Experience
+- **Financial Services:** Insurance industry AI/ML implementation, compliance systems, regulatory requirements, risk management
+- **Healthcare/Life Sciences:** FDA-compliant systems development, regulatory compliance, life-critical systems architecture
+- **Enterprise Software:** Large-scale system transformation, legacy modernization, enterprise integration, performance optimization
+- **Nonprofit Technology:** Board-level technology strategy, operational automation, mission-focused technology implementation
+- **Automotive Industry:** Technology transformation consulting, enterprise system modernization, compliance requirements
+
+### Consulting Methodologies & Approaches
+- **Vendor-Neutral Evaluation:** Comprehensive technology assessment without vendor bias ensuring optimal client outcomes
+- **Crisis Resolution Framework:** Systematic approach to failed project recovery and technical crisis management
+- **Cost Optimization Strategy:** Proven methodology achieving substantial cost reductions through strategic architecture optimization
+- **Risk Management Process:** Comprehensive evaluation preventing costly technology mistakes while identifying superior alternatives
+- **Anti-Hype Technology Wisdom:** Decades of pattern recognition separating valuable innovations from expensive industry trends
+
+---
+
+## Quantifiable Consulting Results
+
+### Client Success Metrics
+- **77% cloud cost reduction** ($13,800+ annual savings) through strategic architecture consulting and optimization
+- **1-week rapid delivery** after 12 months of failed development demonstrating superior consulting methodology and technical expertise
+- **50+ successful SOW reviews** preventing costly vendor mistakes and contract issues through expert technical evaluation
+- **125+ developer organizational impact** through Centers of Excellence consulting establishing lasting enterprise-wide standards
+- **Zero vendor partnerships** ensuring completely unbiased recommendations optimized for client success rather than vendor profit margins
+
+### Technical Authority Validation
+- **900K+ NuGet package downloads** demonstrating practical expertise and community value creation
+- **22,510+ Stack Overflow reputation** with C# Gold Badge representing recognized technical authority and knowledge sharing
+- **GitHub Arctic Code Vault Contributor** with verified long-term technical contributions and innovation leadership
+- **Industry-first innovations** including SQLCLR vector extensions and protocol implementations becoming vendor standards
+
+### Business Impact Consulting Results
+- **Crisis resolution success** preventing client relationship loss, contract cancellations, and organizational reputation damage
+- **Technology investment protection** through comprehensive due diligence preventing costly adoption mistakes
+- **Organizational transformation** with lasting positive impact years after consulting engagement completion
+- **Strategic cost optimization** freeing budget for innovation and growth through technical excellence and architecture optimization
+
+---
+
+## Complete Career History
+
+### Principal Solutions Architect - Green Onion (Life Time Foundation), Eliassen Group (February 2025 - January 2026)
+### Chief Solutions Architect - Out-of-Band Development, LLC (March 2015 - October 2025)  
+### Principal Solutions Architect (AI/ML Specialist) - ERisk Services, Eliassen Group (November 2024 - August 2025)
+### Rose and Gold Foundation - Board Member + Software Automation Engineer (2017 - 2020)
+### Principal Solutions Architect - Eliassen Group (September 2015 - October 2024)
+### Chief Solutions Architect / CTO - Itrica (November 2009 - July 2015)
+### Senior .Net Developer - Safe Auto Insurance, TEKsystems (April 2010 - September 2010)
+### Senior .Net Developer - United Healthcare, TEKsystems (December 2008 - April 2010)
+### Senior .Net Developer - JPMorgan Chase, TEKsystems (June 2008 - December 2008)
+### .Net Developer - The Dot Net Factory, TEKsystems (August 2007 - April 2008)
+### Software Engineer - 3SG Corporation (August 2006 - August 2007)
+### Systems Engineer/Department Head - Eastland-Fairfield Career and Technical Schools (July 2000 - August 2006)
+
+---
+
+## Education & Professional Development
+
+### DeVry University | Electronics Engineering Technology
+**Fremont, CA | 33 Credit Hours Completed (3.12 GPA)**
+- **Technical Foundation:** Electronics engineering background providing deep system-level understanding valuable for comprehensive technology consulting
+- **Hardware-Software Integration:** Complete technology stack perspective enabling informed consulting across entire systems architecture
+
+### Continuous Professional Development
+- **Technology Innovation Leadership:** Consistent early adoption and evaluation of emerging technologies with proven ability to separate value from hype
+- **Community Leadership:** Active engagement through Stack Overflow, open source development, and technical knowledge sharing
+- **Consulting Methodology Evolution:** Continuous refinement of consulting approaches through real-world client success and failure analysis
+
+---
+
+## Why Choose Matthew Whited as Your Technology Consultant
+
+### Unique Consulting Value Proposition
+- **Completely Vendor-Neutral:** Zero vendor partnerships ensuring unbiased recommendations optimized exclusively for client success
+- **Crisis Resolution Specialist:** Proven track record rescuing failed projects and delivering solutions when other consultants and teams fail
+- **Cost Optimization Expert:** Documented ability to dramatically reduce technology costs while improving performance and capabilities
+- **Executive-Level Expertise:** Fractional CTO capabilities providing strategic technology leadership without full-time executive cost commitment
+- **Anti-Hype Technology Wisdom:** Decades of experience preventing costly trend-following while identifying genuinely valuable technology innovations
+
+### Consulting Philosophy & Approach
+- **Client Success Focus:** Every recommendation optimized for long-term client success rather than short-term consultant profit or vendor relationships
+- **Business Impact Priority:** Technology decisions evaluated for measurable business value, ROI, and organizational improvement rather than technical sophistication
+- **Risk Management Focus:** Comprehensive evaluation preventing expensive mistakes while identifying proven alternatives and optimization opportunities
+- **Knowledge Transfer:** Comprehensive documentation, training, and knowledge transfer ensuring client capability and independence post-engagement
+- **Sustainable Solutions:** Strategic approach ensuring lasting positive impact and continued value creation beyond individual consulting engagement completion
+
+**Available immediately for technology consulting engagements.** Ready to provide vendor-neutral strategic technology guidance, crisis resolution expertise, and fractional executive technology leadership driving business success through optimal technology decisions.
+
+*Vendor-Neutral Technology Advisory with Proven Crisis Resolution Excellence*

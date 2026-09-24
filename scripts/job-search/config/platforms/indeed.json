@@ -1,0 +1,146 @@
+{
+  "platform_id": "indeed",
+  "display_name": "Indeed",
+  "category": "job-aggregator",
+  "base_url": "https://www.indeed.com",
+  "search_endpoint": "/jobs",
+  
+  "url_parameters": {
+    "query": "q",
+    "location": "l", 
+    "radius": "radius",
+    "date_posted": "fromage",
+    "sort": "sort",
+    "job_type": "jt",
+    "salary_min": "fromage",
+    "direct_hire": "sr"
+  },
+
+  "default_values": {
+    "location": "Remote",
+    "radius": "0",
+    "date_posted": "7",
+    "sort": "date"
+  },
+
+  "advanced_filters": {
+    "date_posted_days": {
+      "last_24_hours": "1",
+      "last_3_days": "3", 
+      "last_7_days": "7",
+      "last_14_days": "14"
+    },
+    "job_types": {
+      "fulltime": "fulltime",
+      "parttime": "parttime", 
+      "contract": "contract",
+      "internship": "internship",
+      "temporary": "temporary"
+    },
+    "salary_ranges": {
+      "40k": "40000",
+      "60k": "60000",
+      "80k": "80000", 
+      "100k": "100000",
+      "120k": "120000",
+      "150k": "150000",
+      "180k": "180000"
+    },
+    "source_types": {
+      "direct_employer": "directhire",
+      "exclude_agencies": "-staffing -recruiting -\"recruitment agency\""
+    }
+  },
+
+  "search_capabilities": {
+    "supports_remote_filter": true,
+    "supports_salary_filter": true,
+    "supports_date_filter": true,
+    "supports_job_type": true,
+    "supports_company_reviews": true,
+    "supports_salary_insights": true,
+    "max_results_per_page": 15,
+    "requires_authentication": false
+  },
+
+  "specialization": {
+    "category": "job-aggregator",
+    "strengths": [
+      "Comprehensive job aggregation from multiple sources",
+      "Broad market coverage across all industries",
+      "Company reviews and salary insights", 
+      "Mobile-optimized application process",
+      "Direct employer postings and recruitment agencies",
+      "Geographic salary data and market analysis"
+    ],
+    "ideal_for": [
+      "Comprehensive market research",
+      "Salary benchmarking across regions",
+      "Finding opportunities from smaller companies",
+      "Quick application processes",
+      "Market trend analysis"
+    ],
+    "limitations": [
+      "High volume of lower-quality postings",
+      "Limited advanced filtering compared to specialized platforms",
+      "Recruitment agency spam can obscure direct opportunities"
+    ]
+  },
+
+  "search_term_optimizations": {
+    "natural_language": true,
+    "expand_abbreviations": {
+      "ML": "machine learning",
+      "AI": "artificial intelligence",
+      ".NET": ".NET",
+      "CTO": "\"Chief Technology Officer\" OR CTO"
+    },
+    "negative_keywords": {
+      "exclude_agencies": ["-staffing", "-recruiting", "-\"recruitment agency\"", "-\"talent acquisition\""]
+    }
+  },
+
+  "execution_instructions": {
+    "manual_steps": [
+      "Visit the generated search URL",
+      "Filter results by 'Direct Employer' to avoid recruitment agencies",
+      "Use salary filter ($180K+) for high-value opportunities", 
+      "Apply date filter (last 7 days) for fresh postings",
+      "Check company reviews for cultural fit assessment",
+      "Look for 'Easy Apply' options for quick submission",
+      "Save job URLs and Indeed job IDs"
+    ],
+    "optimization_tips": [
+      "Create Indeed profile for personalized recommendations",
+      "Set up job alerts for specific search criteria",
+      "Use company pages to research culture and benefits",
+      "Apply quickly to new postings for better visibility"
+    ]
+  },
+
+  "competitive_advantages": {
+    "platform_specific": [
+      "Crisis resolution expertise addresses common pain points",
+      "Quantifiable results (77% cost reduction) stand out in broad market", 
+      "Technical depth in .NET/AI differentiates from general architects"
+    ],
+    "search_strategies": [
+      "Use specific technology combinations to reduce competition",
+      "Target companies posting multiple senior positions",
+      "Focus on recent postings to avoid filled positions",
+      "Leverage Indeed Quick Apply for rapid submission"
+    ]
+  },
+
+  "result_structure": {
+    "includes_direct_apply": true,
+    "includes_salary_data": true,
+    "includes_company_info": true,
+    "includes_location_data": true,
+    "includes_company_reviews": true,
+    "includes_salary_insights": true,
+    "supports_quick_apply": true,
+    "shows_application_source": true,
+    "provides_market_data": true
+  }
+}

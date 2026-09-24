@@ -1,0 +1,203 @@
+{
+  "userProfile": {
+    "name": "Matthew Whited",
+    "location": {
+      "homeAddress": "1221 N Calvert St, Baltimore, MD 21202",
+      "preferredWork": "remote",
+      "acceptableCommute": 25
+    },
+    "preferences": {
+      "minSalary": 180000,
+      "minHourlyRate": 85,
+      "maxTravelPercent": 25,
+      "securityClearance": false
+    }
+  },
+
+  "searchCriteria": {
+    "targetRoles": [
+      {
+        "category": "executive",
+        "titles": [
+          "Chief Technology Officer",
+          "CTO", 
+          "Fractional CTO",
+          "Chief Solutions Architect",
+          "VP Engineering",
+          "VP Technology",
+          "Technology Director"
+        ]
+      },
+      {
+        "category": "principal",
+        "titles": [
+          "Principal Solutions Architect",
+          "Principal Software Architect", 
+          "Principal Enterprise Architect",
+          "Principal Platform Architect",
+          "Principal AI/ML Architect",
+          "Principal Engineer"
+        ]
+      },
+      {
+        "category": "senior",
+        "titles": [
+          "Senior Solutions Architect",
+          "Senior Software Architect",
+          "Senior Enterprise Architect", 
+          "Staff Software Engineer",
+          "Senior Staff Engineer",
+          "Distinguished Engineer"
+        ]
+      },
+      {
+        "category": "consulting", 
+        "titles": [
+          "Technology Consultant",
+          "Solutions Engineer",
+          "Technical Consultant",
+          "Crisis Resolution Specialist",
+          "Technology Advisor"
+        ]
+      }
+    ],
+    
+    "technologies": [
+      "AI/ML",
+      "Machine Learning",
+      ".NET",
+      "C#", 
+      "Azure",
+      "Enterprise Architecture",
+      "Microservices",
+      "Vector Databases",
+      "SQL Server",
+      "Platform Engineering",
+      "DevOps", 
+      "Performance Optimization"
+    ],
+    
+    "workTypes": [
+      "remote",
+      "consulting", 
+      "contracting"
+    ]
+  },
+
+  "platformPreferences": {
+    "priorityOrder": [
+      "linkedin_jobs",
+      "dice", 
+      "indeed",
+      "ziprecruiter"
+    ],
+    
+    "enabledPlatforms": {
+      "linkedin_jobs": true,
+      "indeed": true,
+      "ziprecruiter": false,
+      "dice": true,
+      "glassdoor": false,
+      "wellfound": false,
+      "remote_co": false,
+      "builtin": false,
+      "toptal": false,
+      "aijobs_net": false
+    },
+
+    "platformSpecificSettings": {
+      "linkedin_jobs": {
+        "preferredExperienceLevel": "senior",
+        "preferredCompanySize": "medium",
+        "usePremiumFeatures": false
+      },
+      "dice": {
+        "preferredEmploymentType": "fulltime",
+        "includeContracts": false,
+        "excludeAgencies": true
+      },
+      "indeed": {
+        "excludeAgencies": true,
+        "directEmployerOnly": true,
+        "enableQuickApply": true
+      }
+    }
+  },
+
+  "exclusions": {
+    "companies": [
+      "Microsoft Corporation",
+      "Salesforce", 
+      "Meta",
+      "Facebook",
+      "Alphabet",
+      "Google",
+      "Amazon",
+      "Netflix",
+      "Oracle",
+      "OpenAI",
+      "Tesla", 
+      "SpaceX",
+      "Neuralink",
+      "X",
+      "Twitter",
+      "Palantir"
+    ],
+    
+    "industries": [
+      "Fintech",
+      "Blockchain",
+      "Cryptocurrency",
+      "Cannabis", 
+      "Marketing Technology",
+      "Advertising Technology",
+      "Government Contracting"
+    ],
+    
+    "investors": [
+      "Peter Thiel",
+      "Elon Musk",
+      "Marc Andreessen",
+      "Sam Altman",
+      "Founders Fund", 
+      "Andreessen Horowitz",
+      "a16z"
+    ],
+    
+    "excludedCompaniesFile": "../../SearchResults/excluded-companies.md"
+  },
+
+  "output": {
+    "baseDirectory": "../../SearchResults/Jobs",
+    "format": "yaml",
+    "urlValidation": true,
+    "linkVerificationRetries": 3, 
+    "generateSummary": true,
+    "includeRawSearchResults": true
+  },
+
+  "competitiveProfile": {
+    "uniqueDifferentiators": [
+      "Pure .NET AI/ML Implementation",
+      "Enterprise Framework Creation",
+      "SQL Server Vector Extensions", 
+      "Centers of Excellence Leadership",
+      "Crisis Resolution Expertise"
+    ],
+    
+    "communityMetrics": {
+      "stackOverflowReputation": "22K+",
+      "nugetDownloads": "657K+",
+      "githubStatus": "Arctic Code Vault Contributor",
+      "developersInfluenced": "125+",
+      "communityReach": "4.7M"
+    },
+    
+    "quantifiableResults": {
+      "costReduction": "77%",
+      "deliveryImprovement": "1-week delivery after 12-month failures",
+      "packageCount": "20+ NuGet packages",
+      "solutionCount": "600+"
+    }
+  }
+}

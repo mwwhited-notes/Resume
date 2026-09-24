@@ -1,0 +1,125 @@
+{
+  "platform_id": "wellfound",
+  "display_name": "Wellfound (AngelList)",
+  "category": "startup",
+  "base_url": "https://wellfound.com",
+  "search_endpoint": "/jobs",
+  
+  "url_parameters": {
+    "q": "q",
+    "location": "location",
+    "remote": "remote",
+    "stage": "stage",
+    "role": "role",
+    "salary_min": "salary_min",
+    "equity_min": "equity_min"
+  },
+
+  "default_values": {
+    "location": "Remote",
+    "remote": "true",
+    "stage": "any"
+  },
+
+  "advanced_filters": {
+    "company_stages": {
+      "seed": "seed",
+      "series_a": "series-a",
+      "series_b": "series-b",
+      "series_c": "series-c",
+      "growth": "growth",
+      "public": "public"
+    },
+    "role_types": {
+      "engineering": "engineering",
+      "product": "product",
+      "design": "design",
+      "marketing": "marketing",
+      "sales": "sales",
+      "operations": "operations"
+    },
+    "company_sizes": {
+      "small": "1-10",
+      "medium": "11-50", 
+      "large": "51-200",
+      "enterprise": "200+"
+    }
+  },
+
+  "search_capabilities": {
+    "supports_remote_filter": true,
+    "supports_salary_filter": true,
+    "supports_equity_filter": true,
+    "supports_stage_filter": true,
+    "supports_boolean_operators": false,
+    "supports_quoted_phrases": true,
+    "max_results_per_page": 25,
+    "requires_authentication": true
+  },
+
+  "specialization": {
+    "category": "startup",
+    "strengths": [
+      "Startup and growth company focus",
+      "Equity compensation transparency",
+      "Direct founder and team access",
+      "Company culture and mission clarity",
+      "Innovation-focused opportunities"
+    ],
+    "ideal_for": [
+      "Startup and scale-up opportunities",
+      "Equity-based compensation",
+      "Direct leadership access",
+      "Innovation and growth roles",
+      "Technical leadership in emerging companies"
+    ],
+    "limitations": [
+      "Limited enterprise company coverage",
+      "Requires detailed profile setup",
+      "Higher risk/reward positions",
+      "Less established company benefits"
+    ]
+  },
+
+  "execution_instructions": {
+    "manual_steps": [
+      "Visit the generated search URL",
+      "Complete comprehensive profile setup",
+      "Filter by company stage preferences",
+      "Review equity compensation details",
+      "Connect directly with founders/leadership",
+      "Research company mission and culture"
+    ],
+    "optimization_tips": [
+      "Highlight startup and scale experience",
+      "Emphasize technical leadership and crisis resolution",
+      "Showcase community impact and influence",
+      "Connect with company founders directly"
+    ]
+  },
+
+  "competitive_advantages": {
+    "platform_specific": [
+      "Crisis resolution expertise valuable for growing startups",
+      "Technical leadership experience ideal for CTO/VP roles",
+      "Community impact demonstrates cultural contribution",
+      "Enterprise framework creation shows scalability mindset"
+    ],
+    "search_strategies": [
+      "Target Series A-C companies needing technical leadership",
+      "Focus on companies with technical scaling challenges",
+      "Leverage equity compensation for wealth building",
+      "Emphasize fractional/advisory role availability"
+    ]
+  },
+
+  "result_structure": {
+    "includes_direct_apply": true,
+    "includes_salary_data": true,
+    "includes_company_info": true,
+    "includes_location_data": true,
+    "includes_equity_data": true,
+    "includes_founder_access": true,
+    "provides_company_mission": true
+  }
+}

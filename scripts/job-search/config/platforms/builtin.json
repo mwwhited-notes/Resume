@@ -1,0 +1,122 @@
+{
+  "platform_id": "builtin",
+  "display_name": "Built In",
+  "category": "startup",
+  "base_url": "https://builtin.com",
+  "search_endpoint": "/jobs",
+  
+  "url_parameters": {
+    "q": "q",
+    "location": "location",
+    "remote": "remote",
+    "experience": "experience",
+    "job_type": "job_type",
+    "company_size": "company_size"
+  },
+
+  "default_values": {
+    "location": "remote",
+    "remote": "true",
+    "job_type": "full-time"
+  },
+
+  "advanced_filters": {
+    "experience_levels": {
+      "entry": "entry-level",
+      "mid": "mid-level",
+      "senior": "senior-level", 
+      "executive": "executive",
+      "director": "director"
+    },
+    "company_sizes": {
+      "startup": "startup",
+      "small": "small",
+      "medium": "medium",
+      "large": "large",
+      "enterprise": "enterprise"
+    },
+    "job_types": {
+      "full_time": "full-time",
+      "part_time": "part-time",
+      "contract": "contract",
+      "internship": "internship"
+    }
+  },
+
+  "search_capabilities": {
+    "supports_remote_filter": true,
+    "supports_experience_filter": true,
+    "supports_company_size_filter": true,
+    "supports_job_type_filter": true,
+    "supports_boolean_operators": false,
+    "supports_quoted_phrases": true,
+    "max_results_per_page": 25,
+    "requires_authentication": false
+  },
+
+  "specialization": {
+    "category": "startup",
+    "strengths": [
+      "Tech startup and scale-up focus",
+      "Innovation company database",
+      "Growth-stage opportunities",
+      "Tech ecosystem connectivity",
+      "Startup culture insights"
+    ],
+    "ideal_for": [
+      "Tech startup opportunities",
+      "Innovation-focused companies",
+      "Growth-stage leadership roles",
+      "Technical scaling challenges",
+      "Startup culture environments"
+    ],
+    "limitations": [
+      "Limited enterprise coverage",
+      "Smaller overall job volume",
+      "Geographic focus on tech hubs",
+      "Less established company benefits"
+    ]
+  },
+
+  "execution_instructions": {
+    "manual_steps": [
+      "Visit the generated search URL",
+      "Filter by remote opportunities",
+      "Set experience level to senior/executive",
+      "Review company growth stage",
+      "Assess technical scaling needs",
+      "Apply directly through platform"
+    ],
+    "optimization_tips": [
+      "Highlight startup and scaling experience",
+      "Emphasize technical leadership in growth environments",
+      "Showcase crisis resolution in scaling contexts",
+      "Connect with Built In's tech community"
+    ]
+  },
+
+  "competitive_advantages": {
+    "platform_specific": [
+      "Technical scaling expertise ideal for growing startups",
+      "Crisis resolution valuable for growth challenges",
+      "Enterprise framework creation shows scalability mindset",
+      "Community influence demonstrates tech ecosystem engagement"
+    ],
+    "search_strategies": [
+      "Target companies in rapid growth phases",
+      "Focus on technical leadership and architecture roles",
+      "Emphasize scalability and performance expertise",
+      "Leverage startup and scale-up experience"
+    ]
+  },
+
+  "result_structure": {
+    "includes_direct_apply": true,
+    "includes_salary_data": true,
+    "includes_company_info": true,
+    "includes_location_data": true,
+    "includes_company_stage": true,
+    "includes_tech_stack": true,
+    "provides_company_culture": true
+  }
+}
