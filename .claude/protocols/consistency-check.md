@@ -25,7 +25,6 @@ Review each file against master resume and career background. **IMPORTANT:** Che
 
 **Core Resume Variants:**
 - [ ] `resumes/comprehensive.md` - Full professional history with master resume accuracy
-- [ ] `resumes/abbreviated.md` - Condensed version maintaining key achievements from master
 - [ ] `resumes/extended.md` - Expanded format incorporating career background insights
 
 **ATS Resume Files:**

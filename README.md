@@ -6,8 +6,6 @@
 - **[Gold Standard Resume](./resumes/master-resume.md)** - Authoritative source for all resume content (123KB comprehensive)
 - **[Main Comprehensive Resume](./resumes/comprehensive.md)** - Complete professional resume with full experience
 - **[Extended Resume](./resumes/extended.md)** - Detailed version with comprehensive capabilities
-- **[Abbreviated Resume](./resumes/abbreviated.md)** - Shortened version for quick review
-- **[Simplified Resume](./resumes/simplified.md)** - Minimal format for straightforward applications
 
 ### Specialized Position Resumes (Principal/Director/Executive Focus - Established Companies)
 - **[Chief Solutions Architect Resume](./resumes/specialized/chief-solutions-architect.md)** - C-level technical architecture leadership
@@ -70,7 +68,7 @@
 ---
 
 ## Document Ecosystem Status
-- **Total Files:** 20 professional documents (5 core resumes + 4 specialized resumes + 4 specialized cover letters + 7 profiles)
+- **Total Files:** 18 professional documents (3 core resumes + 4 specialized resumes + 4 specialized cover letters + 7 profiles)
 - **Last Updated:** September 24, 2026
 - **Repository Structure:** Modern git organization with logical directories
 - **Validation Status:** 100% verified technical accuracy
