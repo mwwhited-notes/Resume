@@ -154,7 +154,27 @@ Reference `resumes/master-resume.md` for authoritative employment dates. Verify:
 - **Career Background Integration:** Position descriptions enhanced with career background context where appropriate
 - **Multi-Track Positioning:** Each document reflects appropriate positioning (executive vs. strategic) from career background
 
-### 6. Update Documentation
+### 6. Review README.md Table of Contents
+The README is the public-facing index of this document ecosystem and drifts out of sync with the
+same kind of changes that drift resumes/profiles — new specialized resumes, retired files, and
+updated community metrics. Check it against the actual file discovery results from Section 2 and 4:
+
+- [ ] Every file in `resumes/` (core + specialized) and `profiles/` has a README entry — including
+      each specialized resume's matching `-cover-letter.md` (easy to add the resume and forget the
+      letter)
+- [ ] No README entry points at a file that no longer exists
+- [ ] "Total Files" count in the Document Ecosystem Status section matches the actual count
+- [ ] Community-impact metrics (NuGet downloads, Stack Overflow reputation, GitHub achievements)
+      match the current numbers in `resumes/master-resume.md` — these are a common source of drift
+      since the README caches numbers that get updated in the master resume but not propagated
+- [ ] "Last Updated" date reflects today if anything in the README changed this pass
+- [ ] Professional Identity / Career Focus lines still match current positioning
+
+See `.claude/protocols/readme-maintenance.md` for the full README-specific update mechanics
+(file inclusion/exclusion rules, link formatting) — this step is the trigger to run that protocol
+as part of the broader consistency pass, not a replacement for it.
+
+### 7. Update Documentation
 - [ ] Update `../CLAUDE.md` with session summary and current status if needed
 - [ ] Note any new information learned for future master resume updates
 - [ ] Document any career background insights that should be reflected in future resume updates
@@ -203,6 +223,11 @@ done
 
 # List all targeted files specifically
 find resumes/targeted/ -name "*.md" | sort
+
+# Cross-check README.md against actual resume/profile files (find entries with no matching link)
+for f in $(find resumes/ profiles/ -name "*.md"); do
+  grep -qF "($f)" README.md || grep -qF "(./$f)" README.md || echo "Missing from README: $f"
+done
 ```
 
 ## Quick Verification Commands
@@ -246,6 +271,7 @@ find resumes/ profiles/ -name "*.md" -exec grep -l "Platform Architecture Excell
 ✅ **Style Guide Compliance**: General quantitative language in all presentation documents  
 ✅ **Master Resume Integrity**: Exact numbers preserved in master resume for validation  
 ✅ **Natural Communication**: Conversational, authentic tone throughout ecosystem
+✅ **README Currency**: Table of contents lists every current resume/profile/cover-letter file, no dead links, file count and community metrics match current state
 
 ## Post-Update Validation
 After completing updates, run comprehensive validation:

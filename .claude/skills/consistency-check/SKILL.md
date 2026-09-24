@@ -38,6 +38,14 @@ dates matching the master resume exactly, consistent job titles/company names, s
 language (general terms outside the master resume, not exact percentages), current contact info, and
 — for `resumes/specialized/*.md` — a matching `*-cover-letter.md` file for every specialized resume.
 
+Also read `README.md` (the top-level table of contents) and diff it against the file lists above:
+every resume, specialized resume + cover letter, and profile file should have an entry (per
+`.claude/protocols/readme-maintenance.md`'s inclusion/exclusion rules — resumes/ and profiles/ only,
+internal dirs like protocols/, analysis/, SearchResults/ stay out), the "Total Files" count should
+match the actual count, community-impact metrics (NuGet downloads, Stack Overflow reputation) should
+match the master resume's current numbers, and "Last Updated" should reflect today if anything in the
+README changed this pass.
+
 ### Phase 3 — Positioning Consistency
 
 Verify the master-resume-vs-everything-else split: the master resume alone shows the full multi-track
@@ -51,7 +59,7 @@ language doesn't linger in files that should have been updated.
 Update files directly rather than just reporting drift — this protocol's whole purpose is
 maintenance, not just diagnosis. Missing cover letters get created from the paired resume + career
 background; stale dates/titles get corrected against the master resume; style violations get rewritten
-to general language.
+to general language; a stale README gets its missing entries, counts, metrics, and date corrected too.
 
 ### Phase 5 — Post-Update Validation
 
